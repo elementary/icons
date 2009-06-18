@@ -6,7 +6,7 @@ Inherits=gnome,Gnome,GNOME,hicolor
 Example=directory-x-normal
 
 #Directory list
-Directories=actions/16,actions/22,actions/24,actions/32,actions/48,animations/16,animations/22,animations/24,animations/32,animations/48,apps/16,apps/22,apps/24,apps/32,apps/48,apps/64,apps/72,apps/128,categories/16,categories/24,categories/48,places/16,places/22,places/24,places/32,places/48,mimes/16,mimes/24,mimes/48,devices/24,devices/48,emblems/16,emblems/24,emblems/48,status/22,status/24,status/48,
+Directories=actions/16,actions/22,actions/24,actions/32,actions/48,animations/16,animations/22,animations/24,animations/32,animations/48,apps/16,apps/22,apps/24,apps/32,apps/48,apps/72,categories/16,categories/24,categories/48,places/16,places/22,places/24,places/32,places/48,mimes/16,mimes/24,mimes/48,devices/24,devices/48,emblems/16,emblems/24,emblems/48,status/22,status/24,status/48,
 
 [actions/16]
 Size=16
@@ -83,18 +83,8 @@ Size=48
 Context=Applications
 Type=Scalable
 
-[apps/64]
-Size=64
-Context=Applications
-Type=Scalable
-
 [apps/72]
 Size=72
-Context=Applications
-Type=Scalable
-
-[apps/128]
-Size=128
 Context=Applications
 Type=Scalable
 
