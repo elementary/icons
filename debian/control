@@ -1,0 +1,17 @@
+Source: elementary-icon-theme
+Section: gnome
+Priority: optional
+Maintainer: Daniel Fore <daniel.p.fore@gmail.com>
+Build-Depends: debhelper (>= 7),
+               icon-naming-utils
+Standards-Version: 3.8.3
+Vcs-Bzr: https://code.launchpad.net/~elementaryart/elementaryicons/trunk
+
+Package: elementary-icon-theme
+Architecture: all
+Depends: ${misc:Depends},
+         gnome-icon-theme,
+         hicolor-icon-theme
+Description: elementary Icon theme
+ The official suite of elementary icons designed to simple and appealing.
+
