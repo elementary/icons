@@ -1,16 +1,26 @@
-This package was debianized by Daniel Fore (DanRabbit) <Daniel.p.Fore@gmail.com> on
-Wed, 11 Nov 2009 22:52:28 -0800.
+Format-Specification: http://dep.debian.net/deps/dep5/
+Name: elementary Icon Theme
+Source: https://launchpad.net/elementaryicons
 
-This package was downloaded from https://launchpad.net/elementaryicons/+download
+Upstream Authors:
+		Daniel Fore <Daniel.P.Fore@gmail.com>
+		Jonian Guveli <jonian.guveli@gmail.com>
+		K.Vishnoo Charan Reddy <foo.mac.v@gmail.com>.
 
-Authors:
-        Daniel Fore <Daniel.P.Fore@gmail.com>
-        Jonian Guveli <jonian.guveli@gmail.com>
-        K.Vishnoo Charan Reddy.
+Files: *
+Copyright: © 2009, Daniel Fore <Daniel.P.Fore@gmail.com>
+           © 2009, Jonian Guveli <jonian.guveli@gmail.com>
+           © 2009, K.Vishnoo Charan Reddy <foo.mac.v@gmail.com>.
+License: GPL-2+
+    On Debian/Ubuntu systems, the complete text of the GNU General
+    Public License can be found in `/usr/share/common-licenses/GPL-2'.
 
-License:
 
-The elementary Icon Theme is licensed under the GPL v2.
+Files: debian/* 
+Copyright: © 2009, Daniel Fore <Daniel.P.Fore@gmail.com>
+License: GPL-2+
+    On Debian/Ubuntu systems, the complete text of the GNU General
+    Public License can be found in `/usr/share/common-licenses/GPL-2'.
 
 Parts of the work are based on the Tango icons, which are released under the
 public domain.
