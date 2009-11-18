@@ -1,10 +1,18 @@
-* Software center progress icons.
-* Redo calculator icon.
-* use new 24px clock in other icons.
-* Restyle monochrome icons to fit the new spec.
-* finish scaling new camera to replace old one.
-* move all mimes (other sizes) to new mime bases.
-* Alt-tab uses high res app icons. Start out with common icons like File Browser, Web Browser, etc.
-* Scale monitor icon. A lot of other action and app icons rely on this one hardware icon.
-	* scale new display prefs to replace old one.
+* Scale icons with inconsistent smaller sizes
+	* Dictionary
+	* Camera
+	* Calculator
+	* Clock
+	* Mime Bases
+	* Monitor
+		* Display Settings
+* Redo Monochromes to new spec.
+	* Volume
+	* Wireless and Wired Network
+	* IM Status
+* Work on New High Res Icons
+	* Used in Alt-tab, Gnome-Do, Docky, Gnome-Disk-Utility and More
+* Application Specific Icons
+	* Software Center Progress
+	* Gnome Disk Utility
 * Evaluate and resolve differences between elementary and Humanity
