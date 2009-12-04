@@ -189,7 +189,7 @@
        id="linearGradient3190"
        xlink:href="#linearGradient3180"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(11.999999,5.0000007)" />
+       gradientTransform="translate(11.999999,14.000001)" />
     <linearGradient
        id="linearGradient3180">
       <stop
@@ -209,16 +209,16 @@
        id="linearGradient2876"
        xlink:href="#linearGradient3941"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.709648,0,0,0.7053673,3.0549696,-12.236294)" />
+       gradientTransform="matrix(0.709648,0,0,0.7053673,3.0549696,-3.236294)" />
     <linearGradient
-       x1="8.4225349"
-       y1="0.42253521"
+       x1="8.000001"
+       y1="-2.0000005"
        x2="8"
        y2="16.004318"
        id="linearGradient2878"
        xlink:href="#linearGradient3180"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(11.999999,-3.9999995)" />
+       gradientTransform="translate(11.999999,5.0000005)" />
     <linearGradient
        x1="23.878077"
        y1="18.765108"
@@ -227,9 +227,10 @@
        id="linearGradient2939"
        xlink:href="#linearGradient3941"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.709648,0,0,0.7053673,3.0549696,-3.2362937)" />
+       gradientTransform="matrix(0.709648,0,0,0.7053673,3.0549696,5.7637063)" />
   </defs>
   <g
+     transform="translate(0,-2)"
      id="layer1">
     <g
        transform="matrix(0.5004043,0,0,0.5,34.769587,7.582143)"
@@ -278,19 +279,19 @@
        id="path3493"
        style="opacity:0.5;fill:none;stroke:url(#linearGradient2466);stroke-width:1.00000012;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
-       d="m 19.5,12.5 0,3 -3,0 0,-3 3,0 z"
+       d="m 19.5,21.5 0,3 -3,0 0,-3 3,0 z"
        id="path2262"
        style="fill:url(#linearGradient2939);fill-opacity:1;fill-rule:evenodd;stroke:#a53738;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
     <path
-       d="m 17.5,13.5 0,1 1,0 0,-1 -1,0 z"
+       d="m 17.5,22.5 0,1 1,0 0,-1 -1,0 z"
        id="path3188"
        style="opacity:0.4;fill:none;stroke:url(#linearGradient3190);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
     <path
-       d="m 19.5,1.5000005 0,8.9999995 -3,0 0,-8.9999995 3,0 z"
+       d="m 19.5,9.5 0,10 -3,0 0,-10 3,0 z"
        id="path2872"
        style="fill:url(#linearGradient2876);fill-opacity:1;fill-rule:evenodd;stroke:#a53738;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
     <path
-       d="M 17.5,2.5000007 17.5,9.5 l 1,0 0,-6.9999993 -1,0 z"
+       d="m 17.5,10.5 0,8 1,0 0,-8 -1,0 z"
        id="path2874"
        style="opacity:0.4;fill:none;stroke:url(#linearGradient2878);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
   </g>
