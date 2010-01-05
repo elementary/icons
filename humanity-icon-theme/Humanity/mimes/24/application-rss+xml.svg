@@ -75,49 +75,6 @@
        xlink:href="#linearGradient2490-113"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.3922135,0,0,0.4473607,29.199293,-1.2386997)" />
-    <radialGradient
-       cx="102"
-       cy="112.3047"
-       r="139.55859"
-       id="XMLID_8_"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         id="stop41"
-         style="stop-color:#000000;stop-opacity:1"
-         offset="0" />
-      <stop
-         id="stop47"
-         style="stop-color:#000000;stop-opacity:1"
-         offset="0.13088432" />
-      <stop
-         id="stop49"
-         style="stop-color:#fafafa;stop-opacity:0"
-         offset="0.25718147" />
-      <stop
-         id="stop51"
-         style="stop-color:#ffffff;stop-opacity:0"
-         offset="0.30111277" />
-      <stop
-         id="stop53"
-         style="stop-color:#fafafa;stop-opacity:0"
-         offset="0.53130001" />
-      <stop
-         id="stop55"
-         style="stop-color:#ebecec;stop-opacity:0"
-         offset="0.84490001" />
-      <stop
-         id="stop57"
-         style="stop-color:#e1e2e3;stop-opacity:0"
-         offset="1" />
-    </radialGradient>
-    <radialGradient
-       cx="102"
-       cy="112.3047"
-       r="139.55859"
-       id="radialGradient2659"
-       xlink:href="#XMLID_8_"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.1702128,0,0,-0.1907226,1.1063831,23.716504)" />
     <linearGradient
        id="linearGradient3211">
       <stop
@@ -168,17 +125,6 @@
        xlink:href="#linearGradient3174"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.01444031,2.0653773,-3.052092,0.02133905,28.231755,-11.638481)" />
-    <filter
-       x="-0.1808102"
-       y="-0.17919703"
-       width="1.3616204"
-       height="1.3583941"
-       color-interpolation-filters="sRGB"
-       id="filter3720">
-      <feGaussianBlur
-         id="feGaussianBlur3722"
-         stdDeviation="0.49631455" />
-    </filter>
     <linearGradient
        id="linearGradient3174">
       <stop
@@ -232,10 +178,6 @@
        id="path3349"
        style="font-size:13.58991337px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;opacity:0.4;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Serif" />
     <path
-       d="M 4.1702128,22 C 4.0764256,22 4,21.914366 4,21.809277 L 4,1.2112452 C 4,1.1059667 4.0764256,1.0205233 4.1702128,1.0205233 7.6916683,1.0732401 11.594065,0.94166522 15.11124,1.0336487 L 19.950127,5.3607855 20,21.809277 C 20,21.914366 19.923743,22 19.829786,22 L 4.1702128,22 z"
-       id="path4191"
-       style="opacity:0.15;fill:url(#radialGradient2659);fill-opacity:1" />
-    <path
        d="m 5.0696154,19.05045 c 0,-0.346563 0.1166201,-0.637512 0.3498365,-0.872849 0.2332313,-0.239595 0.5185176,-0.3594 0.8558589,-0.359408 0.329009,8e-6 0.6080487,0.119813 0.8371102,0.359408 0.2332232,0.235337 0.349835,0.526286 0.349835,0.872849 0,0.338025 -0.1166118,0.626835 -0.349835,0.866432 C 6.8833595,20.152217 6.6043198,20.26988 6.2753108,20.269874 5.9379695,20.26988 5.6526832,20.152217 5.4194519,19.916882 5.1862355,19.681564 5.0696154,19.392754 5.0696154,19.05045 M 5,13.485552 5,15.535503 c 2.5522032,0 4.6251419,2.130959 4.6251419,4.754597 l 2.0045731,0 C 11.629715,16.531914 8.6558571,13.485552 5,13.485552 z M 5.0034475,9 l 0,2.265983 c 4.8458029,0 8.7803575,4.042187 8.7803575,9.020563 l 2.216196,0 C 16.000019,14.054622 11.069439,9 5.0034628,9 z"
        id="path4311"
        style="font-size:13.58991337px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#8a3a12;fill-opacity:1;stroke:none;font-family:Bitstream Vera Serif" />
@@ -246,7 +188,7 @@
     <path
        d="m 14.075474,1 c 1.156303,0.3287671 0.339059,4.6143789 0.339059,4.6143789 0,0 4.515388,-0.4277362 5.60771,1.1949961 C 21.511396,9.0216317 19.954018,6.1742029 19.848796,5.9876778 19.092868,4.6476323 15.982456,1.4405918 14.803387,1.0464703 14.715155,1.0169778 14.519511,1 14.075474,1 z"
        id="path3370"
-       style="fill:#000000;fill-opacity:0.70588235;fill-rule:evenodd;stroke:none;display:inline;filter:url(#filter3720)" />
+       style="opacity:0.3;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
     <path
        d="m 14,0 c 1.526166,0 1,5 1,5 0,0 6.074781,-0.45326 6.074781,2 0,-0.5977419 0.04504,-1.8225012 -0.07478,-2 -0.839107,-1.2430058 -4.670755,-4.68212189 -6,-5 -0.09048,-0.02163788 -0.555963,0 -1,0 z"
        id="path4474"
