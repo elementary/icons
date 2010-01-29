@@ -16,7 +16,7 @@
        id="linearGradient3104">
       <stop
          id="stop3106"
-         style="stop-color:#aaa;stop-opacity:1"
+         style="stop-color:#aaaaaa;stop-opacity:1"
          offset="0" />
       <stop
          id="stop3108"
@@ -35,51 +35,31 @@
          offset="1" />
     </linearGradient>
     <linearGradient
-       id="linearGradient8589">
-      <stop
-         id="stop8591"
-         style="stop-color:#fefefe;stop-opacity:1"
-         offset="0" />
-      <stop
-         id="stop8593"
-         style="stop-color:#cbcbcb;stop-opacity:1"
-         offset="1" />
-    </linearGradient>
-    <linearGradient
        id="linearGradient5048">
       <stop
          id="stop5050"
-         style="stop-color:black;stop-opacity:0"
+         style="stop-color:#000000;stop-opacity:0"
          offset="0" />
       <stop
          id="stop5056"
-         style="stop-color:black;stop-opacity:1"
+         style="stop-color:#000000;stop-opacity:1"
          offset="0.5" />
       <stop
          id="stop5052"
-         style="stop-color:black;stop-opacity:0"
+         style="stop-color:#000000;stop-opacity:0"
          offset="1" />
     </linearGradient>
     <linearGradient
        id="linearGradient5060">
       <stop
          id="stop5062"
-         style="stop-color:black;stop-opacity:1"
+         style="stop-color:#000000;stop-opacity:1"
          offset="0" />
       <stop
          id="stop5064"
-         style="stop-color:black;stop-opacity:0"
+         style="stop-color:#000000;stop-opacity:0"
          offset="1" />
     </linearGradient>
-    <linearGradient
-       x1="32.892288"
-       y1="8.0590115"
-       x2="36.358372"
-       y2="5.4565363"
-       id="linearGradient3691"
-       xlink:href="#linearGradient8589"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.9976985,0,0,1.0642049,0.1558007,-0.1392559)" />
     <linearGradient
        x1="28.976408"
        y1="31.069963"
@@ -129,7 +109,7 @@
        id="linearGradient4457">
       <stop
          id="stop4459"
-         style="stop-color:#c00;stop-opacity:1"
+         style="stop-color:#cc0000;stop-opacity:1"
          offset="0" />
       <stop
          id="stop4461"
@@ -261,8 +241,103 @@
        xlink:href="#linearGradient3104"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.8074968,0,0,0.9358511,59.402234,-1.1144794)" />
+    <radialGradient
+       cx="102"
+       cy="112.3047"
+       r="139.55859"
+       id="XMLID_8_"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop41"
+         style="stop-color:#b7b8b9;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop47"
+         style="stop-color:#ececec;stop-opacity:1"
+         offset="0.18851049" />
+      <stop
+         id="stop49"
+         style="stop-color:#fafafa;stop-opacity:0"
+         offset="0.25718147" />
+      <stop
+         id="stop51"
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="0.30111277" />
+      <stop
+         id="stop53"
+         style="stop-color:#fafafa;stop-opacity:0"
+         offset="0.53130001" />
+      <stop
+         id="stop55"
+         style="stop-color:#ebecec;stop-opacity:0"
+         offset="0.84490001" />
+      <stop
+         id="stop57"
+         style="stop-color:#e1e2e3;stop-opacity:0"
+         offset="1" />
+    </radialGradient>
+    <filter
+       x="-0.14846256"
+       y="-0.16434373"
+       width="1.2969251"
+       height="1.3286875"
+       color-interpolation-filters="sRGB"
+       id="filter3248">
+      <feGaussianBlur
+         stdDeviation="0.77391625"
+         id="feGaussianBlur3250" />
+    </filter>
+    <linearGradient
+       x1="32.892288"
+       y1="8.0590115"
+       x2="36.358372"
+       y2="5.4565363"
+       id="linearGradient2633"
+       xlink:href="#linearGradient8589-8"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99771106,0,0,1.0406866,0.163717,0.8942047)" />
+    <linearGradient
+       id="linearGradient8589-8">
+      <stop
+         id="stop8591-1"
+         style="stop-color:#fefefe;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop8593-2"
+         style="stop-color:#cbcbcb;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <radialGradient
+       cx="102"
+       cy="112.3047"
+       r="139.55859"
+       id="radialGradient2965"
+       xlink:href="#XMLID_8_"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.36170675,0,0,-0.3907784,0.850987,49.517004)" />
+    <linearGradient
+       id="linearGradient3211">
+      <stop
+         id="stop3213"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3215"
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="24"
+       y1="1.9999999"
+       x2="24"
+       y2="46.01725"
+       id="linearGradient2890"
+       xlink:href="#linearGradient3211"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.9777778,-2.1934468e-8,-0.9888879)" />
   </defs>
   <g
+     transform="matrix(0.99999843,0,0,1,7.6393678e-6,-1.9999997)"
      id="layer1"
      style="display:inline">
     <g
@@ -487,18 +562,18 @@
          d="m 57,28.5 a 1.75,1 0 1 1 -3.5,0 1.75,1 0 1 1 3.5,0 z"
          transform="matrix(1.142857,0,0,1.5,-11.14285,-8.25)"
          id="path3382"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <rect
          width="1"
          height="8.5"
          x="53"
          y="26"
          id="rect3384"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <path
          d="m 54,26 c 2,0 1.5,3 2.5,2.999999 C 54.5,29 56,27.5 54,27.5 L 54,26 z"
          id="path3386"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
     </g>
     <g
        transform="translate(-619.68376,-199.75453)"
@@ -508,22 +583,22 @@
          d="m 57,28.5 a 1.75,1 0 1 1 -3.5,0 1.75,1 0 1 1 3.5,0 z"
          transform="matrix(1.142857,0,0,1.5,-2.642849,-8.25)"
          id="path3390"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <rect
          width="1"
          height="8.5"
          x="61.5"
          y="26"
          id="rect3392"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <path
          d="M 62.500001,26 C 64.5,26 64,28.500001 65,28.5 c -1.500001,1e-6 -0.499999,-1 -2.499999,-1 l 0,-1.5 z"
          id="path3394"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
       <path
          d="M 62.500001,28 C 64.5,28 64,30.500001 65,30.5 c -1.500001,1e-6 -0.499999,-1 -2.499999,-1 l 0,-1.5 z"
          id="path3396"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
     </g>
     <g
        transform="translate(-541.68371,-234.25453)"
@@ -533,7 +608,7 @@
          d="m 57,28.5 a 1.75,1 0 1 1 -3.5,0 1.75,1 0 1 1 3.5,0 z"
          transform="matrix(-1.142857,0,0,-1.5,56.14275,104.75)"
          id="path3401"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <rect
          width="1"
          height="8.5"
@@ -541,11 +616,11 @@
          y="-70.5"
          transform="scale(-1,-1)"
          id="rect3403"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <path
          d="m -8.00005,70.499999 c 2,0 1.5,-3 2.5,-2.999999 -2,-10e-7 -0.5,1.499999 -2.5,1.499999 l 0,1.5 z"
          id="path3405"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
     </g>
     <g
        transform="translate(-620.18371,-199.75453)"
@@ -555,7 +630,7 @@
          d="m 57,28.5 a 1.75,1 0 1 1 -3.5,0 1.75,1 0 1 1 3.5,0 z"
          transform="matrix(-1.142857,0,0,-1.5,142.6428,70.25)"
          id="path3409"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <rect
          width="1"
          height="8.5"
@@ -563,15 +638,15 @@
          y="-36"
          transform="scale(-1,-1)"
          id="rect3411"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <path
          d="M 78.500001,36 C 80.5,36 80,33.499999 81,33.5 c -1.500001,-10e-7 -0.499999,1 -2.499999,1 l 0,1.5 z"
          id="path3413"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
       <path
          d="M 78.500001,34 C 80.5,34 80,31.499999 81,31.5 c -1.500001,-1e-6 -0.499999,1 -2.499999,1 l 0,1.5 z"
          id="path3415"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
     </g>
     <g
        transform="translate(-540.68371,-235.25453)"
@@ -581,16 +656,16 @@
          d="m 57,28.5 a 1.75,1 0 1 1 -3.5,0 1.75,1 0 1 1 3.5,0 z"
          transform="matrix(1.142857,0,0,1.5,-89.14285,39.75)"
          id="path3419"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <path
          d="m -25,74 6,1.5 0,8.5 -1,0 0,-7 -4,-1 0,6.5 -1,0 0,-8.5 z"
          id="path3421"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <path
          d="m 57,28.5 a 1.75,1 0 1 1 -3.5,0 1.75,1 0 1 1 3.5,0 z"
          transform="matrix(1.142857,0,0,1.5,-84.14285,41.25)"
          id="path3423"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
     </g>
     <g
        transform="translate(-542.18371,-236.25453)"
@@ -600,16 +675,16 @@
          d="m 57,28.5 a 1.75,1 0 1 1 -3.5,0 1.75,1 0 1 1 3.5,0 z"
          transform="matrix(1.142857,0,0,-1.5,-74.64285,120.75)"
          id="path3427"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <path
          d="m -13.5,86.5 6,-1.5 0,-8.5 -1,0 0,7 -4,1 0,-6.5 -1,0 0,8.5 z"
          id="path3429"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <path
          d="m 57,28.5 a 1.75,1 0 1 1 -3.5,0 1.75,1 0 1 1 3.5,0 z"
          transform="matrix(1.142857,0,0,-1.5,-69.64285,119.25)"
          id="path3431"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
     </g>
     <path
        d="m 80,37 a 16,16 0 1 1 -32,0 16,16 0 1 1 32,0 z"
@@ -649,7 +724,7 @@
            y="-0.29288569"
            transform="matrix(0.707107,0.707107,-0.707107,0.707107,0,0)"
            id="rect3445"
-           style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
         <rect
            width="9.0000229"
            height="2.0000057"
@@ -658,7 +733,7 @@
            y="48.497509"
            transform="matrix(-0.707107,0.707107,0.707107,0.707107,0,0)"
            id="rect3447"
-           style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       </g>
       <rect
          width="10"
@@ -680,11 +755,11 @@
     <path
        d="m -474.18371,-227.75454 1,-1 4,4 -1,1 -4,-4 z"
        id="path3453"
-       style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;display:none" />
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;display:none" />
     <path
        d="m -473.18371,-223.75454 -1,-1 4,-4 1,1 -4,4 z"
        id="path3455"
-       style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;display:none" />
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;display:none" />
     <g
        transform="translate(-541.68371,-234.25453)"
        id="g3457"
@@ -710,11 +785,11 @@
         <path
            d="m 72.5,35.5 1,-1 4,4 -1,1 -4,-4 z"
            id="path3465"
-           style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
         <path
            d="m 73.5,39.5 -1,-1 4,-4 1,1 -4,4 z"
            id="path3467"
-           style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
       </g>
     </g>
     <g
@@ -1011,18 +1086,18 @@
          d="m 57,28.5 a 1.75,1 0 1 1 -3.5,0 1.75,1 0 1 1 3.5,0 z"
          transform="matrix(1.142857,0,0,1.5,-11.14285,-8.25)"
          id="path2990"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <rect
          width="1"
          height="8.5"
          x="53"
          y="26"
          id="rect2992"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <path
          d="m 54,26 c 2,0 1.5,3 2.5,2.999999 C 54.5,29 56,27.5 54,27.5 L 54,26 z"
          id="path2994"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
     </g>
     <g
        transform="translate(-488.68549,-222.07074)"
@@ -1032,22 +1107,22 @@
          d="m 57,28.5 a 1.75,1 0 1 1 -3.5,0 1.75,1 0 1 1 3.5,0 z"
          transform="matrix(1.142857,0,0,1.5,-2.642849,-8.25)"
          id="path2998"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <rect
          width="1"
          height="8.5"
          x="61.5"
          y="26"
          id="rect3000"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <path
          d="M 62.500001,26 C 64.5,26 64,28.500001 65,28.5 c -1.500001,1e-6 -0.499999,-1 -2.499999,-1 l 0,-1.5 z"
          id="path3002"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
       <path
          d="M 62.500001,28 C 64.5,28 64,30.500001 65,30.5 c -1.500001,1e-6 -0.499999,-1 -2.499999,-1 l 0,-1.5 z"
          id="path3004"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
     </g>
     <g
        transform="translate(-410.68544,-256.57074)"
@@ -1057,7 +1132,7 @@
          d="m 57,28.5 a 1.75,1 0 1 1 -3.5,0 1.75,1 0 1 1 3.5,0 z"
          transform="matrix(-1.142857,0,0,-1.5,56.14275,104.75)"
          id="path3009"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <rect
          width="1"
          height="8.5"
@@ -1065,11 +1140,11 @@
          y="-70.5"
          transform="scale(-1,-1)"
          id="rect3011"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <path
          d="m -8.00005,70.499999 c 2,0 1.5,-3 2.5,-2.999999 -2,-10e-7 -0.5,1.499999 -2.5,1.499999 l 0,1.5 z"
          id="path3013"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
     </g>
     <g
        transform="translate(-489.18544,-222.07074)"
@@ -1079,7 +1154,7 @@
          d="m 57,28.5 a 1.75,1 0 1 1 -3.5,0 1.75,1 0 1 1 3.5,0 z"
          transform="matrix(-1.142857,0,0,-1.5,142.6428,70.25)"
          id="path3017"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <rect
          width="1"
          height="8.5"
@@ -1087,15 +1162,15 @@
          y="-36"
          transform="scale(-1,-1)"
          id="rect3019"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <path
          d="M 78.500001,36 C 80.5,36 80,33.499999 81,33.5 c -1.500001,-10e-7 -0.499999,1 -2.499999,1 l 0,1.5 z"
          id="path3021"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
       <path
          d="M 78.500001,34 C 80.5,34 80,31.499999 81,31.5 c -1.500001,-1e-6 -0.499999,1 -2.499999,1 l 0,1.5 z"
          id="path3023"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
     </g>
     <g
        transform="translate(-409.68544,-257.57074)"
@@ -1105,16 +1180,16 @@
          d="m 57,28.5 a 1.75,1 0 1 1 -3.5,0 1.75,1 0 1 1 3.5,0 z"
          transform="matrix(1.142857,0,0,1.5,-89.14285,39.75)"
          id="path3027"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <path
          d="m -25,74 6,1.5 0,8.5 -1,0 0,-7 -4,-1 0,6.5 -1,0 0,-8.5 z"
          id="path3029"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <path
          d="m 57,28.5 a 1.75,1 0 1 1 -3.5,0 1.75,1 0 1 1 3.5,0 z"
          transform="matrix(1.142857,0,0,1.5,-84.14285,41.25)"
          id="path3031"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
     </g>
     <g
        transform="translate(-411.18544,-258.57074)"
@@ -1124,16 +1199,16 @@
          d="m 57,28.5 a 1.75,1 0 1 1 -3.5,0 1.75,1 0 1 1 3.5,0 z"
          transform="matrix(1.142857,0,0,-1.5,-74.64285,120.75)"
          id="path3035"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <path
          d="m -13.5,86.5 6,-1.5 0,-8.5 -1,0 0,7 -4,1 0,-6.5 -1,0 0,8.5 z"
          id="path3037"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       <path
          d="m 57,28.5 a 1.75,1 0 1 1 -3.5,0 1.75,1 0 1 1 3.5,0 z"
          transform="matrix(1.142857,0,0,-1.5,-69.64285,119.25)"
          id="path3039"
-         style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
     </g>
     <path
        d="m 80,37 a 16,16 0 1 1 -32,0 16,16 0 1 1 32,0 z"
@@ -1173,7 +1248,7 @@
            y="-0.29288569"
            transform="matrix(0.707107,0.707107,-0.707107,0.707107,0,0)"
            id="rect3053"
-           style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
         <rect
            width="9.0000229"
            height="2.0000057"
@@ -1182,7 +1257,7 @@
            y="48.497509"
            transform="matrix(-0.707107,0.707107,0.707107,0.707107,0,0)"
            id="rect3055"
-           style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
       </g>
       <rect
          width="10"
@@ -1204,11 +1279,11 @@
     <path
        d="m -343.18544,-250.07075 1,-1 4,4 -1,1 -4,-4 z"
        id="path3061"
-       style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;display:none" />
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;display:none" />
     <path
        d="m -342.18544,-246.07075 -1,-1 4,-4 1,1 -4,4 z"
        id="path3063"
-       style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;display:none" />
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;display:none" />
     <g
        transform="translate(-410.68544,-256.57074)"
        id="g3065"
@@ -1234,11 +1309,11 @@
         <path
            d="m 72.5,35.5 1,-1 4,4 -1,1 -4,-4 z"
            id="path3073"
-           style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
         <path
            d="m 73.5,39.5 -1,-1 4,-4 1,1 -4,4 z"
            id="path3075"
-           style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
       </g>
     </g>
     <g
@@ -1365,11 +1440,16 @@
          style="opacity:0.40206185;fill:url(#radialGradient3588);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
     </g>
     <path
-       d="m 6.491959,1.4999626 c 8.020295,0 16.04059,0 24.060886,0 1.406933,0.4853797 8.965454,6.0151355 10.939195,9.8439524 0,11.718709 0,23.437418 0,35.156127 -11.666694,0 -23.333387,0 -35.000081,0 0,-15.000027 0,-30.000053 0,-45.0000794 z"
+       d="m 6.491959,2.4999997 c 8.020295,0 16.04059,0 24.060886,0 1.406933,0.4853797 8.965454,6.0151831 10.939195,9.8440003 0,11.718709 0,22.437333 0,34.156042 -11.666694,0 -23.333387,0 -35.000081,0 0,-15.000027 0,-29.000016 0,-44.0000423 z"
        id="rect2594"
        style="fill:url(#linearGradient3601);fill-opacity:1;stroke:url(#linearGradient3603);stroke-width:0.9999218;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
   </g>
+  <path
+     d="m 40.500039,10.236592 c 0,10.949037 0,22.31441 0,33.263447 -11.000026,0 -22.000052,0 -33.0000781,0 0,-14.014841 0,-28.029681 0,-42.0445208 7.5619931,0 15.3043341,0 22.8663281,0"
+     id="path2435"
+     style="opacity:0.6;fill:none;stroke:url(#linearGradient2890);stroke-width:0.9999218;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" />
   <g
+     transform="matrix(0.99999843,0,0,1,7.6393678e-6,-1.9999997)"
      id="layer8">
     <g
        transform="matrix(0.5095419,0,0,0.5095419,-50.182921,-21.171479)"
@@ -1425,7 +1505,7 @@
        transform="translate(-55.269446,22.430383)"
        id="flowRoot2445"
        xml:space="preserve"
-       style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:black;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"><flowRegion
+       style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"><flowRegion
          id="flowRegion2447"><rect
            width="63.761707"
            height="77.498985"
@@ -1486,7 +1566,7 @@
        transform="translate(-70.939413,6.2493689)"
        id="flowRoot2945"
        xml:space="preserve"
-       style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:black;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"><flowRegion
+       style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"><flowRegion
          id="flowRegion2947"><rect
            width="63.761707"
            height="77.498985"
@@ -1532,17 +1612,18 @@
        d="m 13.685676,13.323445 c -0.364941,-0.08899 -1.16636,0.258497 -1.000881,-0.360914 0,-1.137029 0,-2.274058 0,-3.4110869 -0.540731,0.5380539 -1.592457,1.1463909 -1.292952,-0.035336 0.737646,-0.2079981 1.138508,-1.4354659 1.914827,-1.4357082 0.628449,-0.1893217 0.300088,0.5781669 0.379006,0.9383765 0,1.4348896 0,2.8697796 0,4.3046686 z m 0,9.118341 c -0.364941,-0.08899 -1.16636,0.258496 -1.000881,-0.360914 0,-1.137029 0,-2.274058 0,-3.411087 -0.540731,0.538054 -1.592457,1.14639 -1.292952,-0.03534 0.737646,-0.207998 1.138508,-1.435466 1.914827,-1.435708 0.628449,-0.189322 0.300088,0.578167 0.379006,0.938377 0,1.434889 0,2.869779 0,4.304669 z m 3.191418,-5.243046 c 1.383201,-0.04906 1.75634,1.565076 1.695442,2.667827 0.05944,1.101353 -0.312279,2.716765 -1.695442,2.664265 -1.392137,0.04021 -1.770882,-1.560822 -1.695441,-2.67495 -0.03152,-1.103413 0.281332,-2.71306 1.695441,-2.657142 z m 0,0.829912 c -1.048811,0.596201 -0.638731,2.35577 -0.451465,3.387321 1.265251,0.950002 1.157017,-1.560742 1.076569,-2.324106 -0.03562,-0.390727 -0.09653,-1.052611 -0.625104,-1.063215 z m -3.191418,13.531475 c -0.364941,-0.08899 -1.16636,0.258497 -1.000881,-0.360914 0,-1.137029 0,-2.274058 0,-3.411087 -0.540731,0.538054 -1.592457,1.146391 -1.292952,-0.03534 0.737646,-0.207998 1.138508,-1.435466 1.914827,-1.435708 0.628449,-0.189322 0.300088,0.578167 0.379006,0.938376 0,1.43489 0,2.86978 0,4.304669 z m 3.191418,-5.243046 c 1.383201,-0.04906 1.75634,1.565077 1.695442,2.667828 0.05944,1.101353 -0.312279,2.716765 -1.695442,2.664265 -1.392137,0.04021 -1.770882,-1.560822 -1.695441,-2.674951 -0.03152,-1.103412 0.281332,-2.71306 1.695441,-2.657141 l 0,-10e-7 z m 0,0.829913 c -1.048811,0.5962 -0.638731,2.355769 -0.451465,3.38732 1.265251,0.950003 1.157017,-1.560741 1.076569,-2.324106 -0.03562,-0.390727 -0.09653,-1.05261 -0.625104,-1.063215 l 0,1e-6 z m 4.929602,4.413133 c -0.36494,-0.08899 -1.166359,0.258497 -1.000879,-0.360914 0,-1.137029 0,-2.274058 0,-3.411087 -0.540732,0.538054 -1.592458,1.146391 -1.292952,-0.03534 0.737646,-0.207999 1.138507,-1.435466 1.914827,-1.435708 0.628448,-0.189322 0.300086,0.578167 0.379004,0.938376 0,1.43489 0,2.86978 0,4.304669 z m -8.12102,9.11834 c -0.364941,-0.08899 -1.16636,0.258496 -1.000881,-0.360914 0,-1.137029 0,-2.274057 0,-3.411086 -0.540733,0.538053 -1.592457,1.146389 -1.292952,-0.03534 0.737644,-0.207998 1.138509,-1.435465 1.914827,-1.435708 0.628449,-0.189322 0.300088,0.578167 0.379006,0.938377 0,1.434889 0,2.869779 0,4.304669 z m 3.191418,-5.243046 c 1.383201,-0.04906 1.75634,1.565076 1.695442,2.667827 0.05944,1.101353 -0.312279,2.716765 -1.695442,2.664265 -1.392137,0.04021 -1.770882,-1.560822 -1.695441,-2.67495 -0.03152,-1.103413 0.281332,-2.71306 1.695441,-2.657142 z m 0,0.82991 c -1.048811,0.596205 -0.638731,2.355771 -0.451465,3.387323 1.265251,0.950001 1.157017,-1.560742 1.076569,-2.324106 -0.03562,-0.390728 -0.09653,-1.052611 -0.625104,-1.063215 l 0,-2e-6 z m 4.929602,4.413136 c -0.36494,-0.08899 -1.166359,0.258496 -1.000879,-0.360914 0,-1.137029 0,-2.274057 0,-3.411086 -0.540733,0.538053 -1.592458,1.146389 -1.292952,-0.03534 0.737643,-0.207999 1.138508,-1.435465 1.914827,-1.435708 0.628448,-0.189321 0.300086,0.578168 0.379004,0.938377 0,1.434889 0,2.869779 0,4.304669 z m 3.19142,-5.243046 c 1.3832,-0.04906 1.756339,1.565076 1.695441,2.667827 0.05944,1.101353 -0.312279,2.716765 -1.695441,2.664265 -1.392138,0.04021 -1.770884,-1.560821 -1.695442,-2.67495 -0.03151,-1.103413 0.281332,-2.71306 1.695442,-2.657142 z m 0,0.82991 c -1.048811,0.596205 -0.638732,2.355771 -0.451466,3.387323 1.265252,0.950001 1.157017,-1.560742 1.076569,-2.324106 -0.03562,-0.390728 -0.09653,-1.052611 -0.625103,-1.063215 l 0,-2e-6 z"
        id="text2748"
        style="font-size:7.29467201px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#7a7a7a;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Sans Bold" />
-  </g>
-  <g
-     id="layer6"
-     style="display:inline">
     <path
-       d="m 29.75954,1.8146206 c 0.637502,4.12506 0.609458,9.0344684 0.609458,9.0344684 0,0 4.869733,-0.1115 10.885254,0.593929 C 36.357367,6.6552187 32.925796,4.6588372 29.75954,1.8146206 z"
-       id="path8596"
-       style="fill:black;fill-opacity:0.32663317;fill-rule:evenodd;stroke:black;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.16582917;stroke-dasharray:none;display:inline" />
+       d="M 7.361707,46 C 7.162407,46 7,45.824541 7,45.60922 L 7,3.4051687 c 0,-0.215708 0.162407,-0.390777 0.361707,-0.390777 7.483185,0.108015 15.775881,-0.161575 23.249974,0.02689 l 10.282767,8.8660253 0.10598,33.701908 c 0,0.215321 -0.162045,0.39078 -0.361708,0.39078 l -33.277013,0 z"
+       id="path4191"
+       style="fill:url(#radialGradient2965);fill-opacity:1" />
     <path
-       d="m 29.649924,1.5079301 c 1.412214,4.1224981 1.29509,8.2607035 1.29509,8.2607035 0,0 7.832998,0.5473074 10.175132,1.5939224 0,-1.7111397 -9.297498,-9.8254152 -11.470222,-9.8546259 z"
+       d="m 28.617256,0.9212581 c 4.282522,0 2.15325,8.4831709 2.15325,8.4831709 0,0 10.357642,-1.8023467 10.357642,2.818745 0,-2.609724 -11.302304,-10.7285959 -12.510892,-11.3019159 z"
+       transform="matrix(1.0000126,0,0,1,-8.8e-5,1.9999997)"
        id="path12038"
-       style="fill:url(#linearGradient3691);fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
+       style="opacity:0.4;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline;filter:url(#filter3248)" />
+    <path
+       d="m 28.617528,2.9212577 c 3.186533,0 2.33579,7.6618783 2.33579,7.6618783 0,0 10.17526,-0.9810541 10.17526,3.640038 0,-1.125939 0.08591,-1.932245 -0.133779,-2.283593 -1.578333,-2.5241795 -8.395622,-8.1884013 -10.857437,-8.9307893 -0.184224,-0.05555 -0.592711,-0.08753 -1.519834,-0.08753 z"
+       id="path4474"
+       style="fill:url(#linearGradient2633);fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline" />
   </g>
 </svg>
