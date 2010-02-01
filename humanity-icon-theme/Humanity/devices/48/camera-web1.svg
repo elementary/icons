@@ -209,8 +209,8 @@
        color-interpolation-filters="sRGB"
        id="filter3992">
       <feGaussianBlur
-         id="feGaussianBlur3994"
-         stdDeviation="0.56971704" />
+         stdDeviation="0.56971704"
+         id="feGaussianBlur3994" />
     </filter>
     <clipPath
        id="clipPath4000">
@@ -288,15 +288,19 @@
        color-interpolation-filters="sRGB"
        id="filter3911">
       <feGaussianBlur
-         id="feGaussianBlur3913"
-         stdDeviation="0.33" />
+         stdDeviation="0.33"
+         id="feGaussianBlur3913" />
     </filter>
     <linearGradient
        id="linearGradient3787">
       <stop
          id="stop3789"
-         style="stop-color:#757575;stop-opacity:1"
+         style="stop-color:#6c6c6c;stop-opacity:1"
          offset="0" />
+      <stop
+         id="stop3663"
+         style="stop-color:#494949;stop-opacity:1"
+         offset="0.63265574" />
       <stop
          id="stop3791"
          style="stop-color:#1e1e1e;stop-opacity:1"
