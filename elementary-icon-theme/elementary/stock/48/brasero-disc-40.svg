@@ -29,8 +29,8 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     inkscape:window-height="706"
-     inkscape:window-width="640"
+     inkscape:window-height="779"
+     inkscape:window-width="1440"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      guidetolerance="10.0"
@@ -41,12 +41,23 @@
      pagecolor="#ffffff"
      id="base"
      showgrid="false"
-     inkscape:zoom="5.1875"
-     inkscape:cx="28.112654"
+     inkscape:zoom="11.895833"
+     inkscape:cx="11.264448"
      inkscape:cy="24"
-     inkscape:window-x="399"
-     inkscape:window-y="49"
-     inkscape:current-layer="svg3367" />
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:current-layer="svg3367"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="0,1"
+       position="28.161121,33.036778"
+       id="guide2458" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="31.355517,14.963222"
+       id="guide2460" />
+  </sodipodi:namedview>
   <defs
      id="defs3369">
     <linearGradient
@@ -354,6 +365,16 @@
        x2="17.301205"
        y2="48.290028"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6036"
+       id="linearGradient2462"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.4293444,0,0,0.4293442,13.546752,13.266392)"
+       x1="30.538485"
+       y1="46.123856"
+       x2="30.538485"
+       y2="3.9521437" />
   </defs>
   <path
      d="M 46,39.499867 C 46.0011,43.08962 36.151066,45.999868 24,45.999868 C 11.848934,45.999868 1.998867,43.08962 2.0000001,39.499867 C 1.998867,35.910116 11.848934,32.999868 24,32.999868 C 36.151066,32.999868 46.001133,35.910116 46,39.499867 L 46,39.499867 z"
@@ -421,13 +442,17 @@
        style="opacity:0.8;fill:url(#linearGradient3319);fill-opacity:1;fill-rule:nonzero;stroke:none" />
   </g>
   <path
+     style="opacity:0.4;fill:none;stroke:url(#linearGradient2755);stroke-width:0.99999982;stroke-miterlimit:4;stroke-opacity:1"
+     d="M 23.36766,15.522911 C 18.954142,15.844035 15.5,19.50132 15.5,23.999999 C 15.5,28.711428 19.288571,32.5 24,32.5 C 26.051712,32.5 27.928414,31.78154 29.393446,30.581279"
+     id="path3281" />
+  <path
      d="M 37.15625,39.75 C 41.649456,35.996376 44.5,30.343842 44.5,24 C 44.500001,20.47408 43.615547,17.172035 42.0625,14.28125 C 42.051486,14.260749 42.042332,14.239209 42.03125,14.21875 C 41.785506,13.7923 41.524879,13.376295 41.25,12.96875 C 37.686705,7.685693 31.751694,4.022002 25.0625,3.53125 C 24.709216,3.505331 23.857177,3.508147 23.5,3.5 C 23.500109,7.766261 23.5,12.175186 23.5,16.5 C 27.79333,16.5 31.5,19.955313 31.5,24 C 31.5,26.37816 30.490082,28.498763 28.78125,29.875 L 37.15625,39.75 z"
      id="path2559"
      style="fill:url(#radialGradient2710);fill-opacity:1;fill-rule:nonzero;stroke:#ce5c00;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   <path
-     d="M 24,15.499999 C 19.288571,15.499999 15.5,19.28857 15.5,23.999999 C 15.5,28.711428 19.288571,32.5 24,32.5 C 28.711431,32.5 32.5,28.711428 32.5,23.999999 C 32.5,19.28857 28.711431,15.499999 24,15.499999 L 24,15.499999 L 24,15.499999 L 24,15.499999 z"
-     id="path3281"
-     style="opacity:0.4;fill:none;stroke:url(#linearGradient2755);stroke-width:0.99999982;stroke-miterlimit:4;stroke-opacity:1" />
+     style="opacity:0.40000000000000002;fill:none;stroke:url(#linearGradient2462);stroke-width:0.99999981999999998;stroke-miterlimit:4;stroke-opacity:1"
+     d="M 30.14265,29.888229 C 31.604431,28.36321 32.5,26.29068 32.5,23.999999 C 32.5,19.28857 28.711431,15.499999 24,15.499999 L 24,15.499999 L 24,15.499999 L 24,15.499999"
+     id="path2456" />
   <path
      d="M 37,38 L 30.447551,30.300701 M 24.5,5 L 24.5,15 M 24.000001,4.5000009 C 13.191429,4.5000009 4.4999995,13.191431 4.4999995,24.000001 C 4.4999995,34.808572 13.191429,43.499999 24.000001,43.499999 C 34.808573,43.499999 43.5,34.808572 43.5,24.000001 C 43.5,13.191431 34.808573,4.5000009 24.000001,4.5000009 L 24.000001,4.5000009 L 24.000001,4.5000009 z"
      id="path2561"

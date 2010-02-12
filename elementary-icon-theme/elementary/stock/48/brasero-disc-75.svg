@@ -41,8 +41,8 @@
      pagecolor="#ffffff"
      id="base"
      showgrid="false"
-     inkscape:zoom="5.1875"
-     inkscape:cx="24.373878"
+     inkscape:zoom="10.375"
+     inkscape:cx="24"
      inkscape:cy="24"
      inkscape:window-x="399"
      inkscape:window-y="49"
@@ -252,7 +252,7 @@
        id="linearGradient2443"
        xlink:href="#linearGradient6036"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.4293444,0,0,0.4293442,13.546752,13.266392)" />
+       gradientTransform="matrix(0.4293444,0,0,-0.4293442,13.546752,34.733607)" />
     <linearGradient
        x1="21.448364"
        y1="15.5"
@@ -309,6 +309,16 @@
        x2="17.301205"
        y2="48.156349"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6036"
+       id="linearGradient2445"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.4293444,0,0,0.4293442,13.546752,13.266392)"
+       x1="18.775953"
+       y1="4.0378027"
+       x2="18.203465"
+       y2="45.962208" />
   </defs>
   <path
      d="M 46,39.499867 C 46.0011,43.08962 36.151066,45.999868 24,45.999868 C 11.848934,45.999868 1.998867,43.08962 2.0000001,39.499867 C 1.998867,35.910116 11.848934,32.999868 24,32.999868 C 36.151066,32.999868 46.001133,35.910116 46,39.499867 L 46,39.499867 z"
@@ -351,11 +361,16 @@
        style="opacity:0.8;fill:url(#linearGradient3354);fill-opacity:1;fill-rule:nonzero;stroke:none" />
   </g>
   <path
-     d="M 23.5,3.5 C 23.500109,7.8333333 23.5,12.166667 23.5,16.5 C 28.037197,16.341864 32.591413,20.925682 31.251697,25.54364 C 30.274467,29.70561 25.274895,32.793656 21.226973,30.903688 C 18.394178,29.635255 16.471017,26.599037 16.5,23.5 C 12.166667,23.5 7.8333333,23.500109 3.5,23.5 C 3.5231384,32.081479 9.0073204,40.741983 17.352713,43.405013 C 24.890976,46.057246 33.843296,43.790629 39.163583,37.815949 C 45.241595,31.334954 46.257756,20.725927 41.454372,13.226309 C 38.488362,8.3378274 33.374116,4.7803364 27.686024,3.9618708 C 26.308879,3.6848172 24.909365,3.460395 23.5,3.5 z"
-     id="path2559"
-     style="fill:url(#radialGradient2477);fill-opacity:1;fill-rule:nonzero;stroke:#ce5c00;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-  <path
      d="M 24,15.499999 C 19.288571,15.499999 15.5,19.28857 15.5,23.999999 C 15.5,28.711428 19.288571,32.5 24,32.5 C 28.711431,32.5 32.5,28.711428 32.5,23.999999 C 32.5,19.28857 28.711431,15.499999 24,15.499999 L 24,15.499999 L 24,15.499999 L 24,15.499999 z"
+     id="path2443"
+     style="opacity:0.4;fill:none;stroke:url(#linearGradient2445);stroke-width:0.99999982;stroke-miterlimit:4;stroke-opacity:1" />
+  <path
+     d="M 23.5,3.5 C 23.500109,7.8333333 23.5,12.166667 23.5,16.5 C 28.037197,16.341864 32.591413,20.925682 31.251697,25.54364 C 30.274467,29.70561 25.274895,32.793656 21.226973,30.903688 C 18.394178,29.635255 16.471017,26.599037 16.5,23.5 C 12.166667,23.5 7.8333333,23.500109 3.5,23.5 C 3.5231384,32.081479 9.0073204,40.741983 17.352713,43.405013 C 24.890976,46.057246 33.843296,43.790629 39.163583,37.815949 C 45.241595,31.334954 46.257756,20.725927 41.454372,13.226309 C 37.499169,6.8481443 30.409949,3.2187718 23.5,3.5 z"
+     id="path2559"
+     style="fill:url(#radialGradient2477);fill-opacity:1;fill-rule:nonzero;stroke:#ce5c00;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     sodipodi:nodetypes="cccccccccc" />
+  <path
+     d="M 24,32.5 C 19.288571,32.5 15.5,28.711429 15.5,24 C 15.5,19.288571 19.288571,15.499999 24,15.499999 C 28.711431,15.499999 32.5,19.288571 32.5,24 C 32.5,28.711429 28.711431,32.5 24,32.5 L 24,32.5 L 24,32.5 L 24,32.5 z"
      id="path3281"
      style="opacity:0.4;fill:none;stroke:url(#linearGradient2443);stroke-width:0.99999982;stroke-miterlimit:4;stroke-opacity:1" />
   <path
