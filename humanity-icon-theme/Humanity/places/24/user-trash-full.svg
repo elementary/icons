@@ -12,6 +12,17 @@
   <defs
      id="defs3287">
     <linearGradient
+       id="linearGradient3827">
+      <stop
+         id="stop3829"
+         style="stop-color:#555753;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3831"
+         style="stop-color:#888a85;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
        x1="97.717728"
        y1="17.833755"
        x2="62.373119"
@@ -844,6 +855,44 @@
        xlink:href="#linearGradient5060"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.1897668,0,0,0.05591461,0.3339264,22.310434)" />
+    <radialGradient
+       cx="23.688078"
+       cy="14.210698"
+       r="22.597088"
+       fx="23.688078"
+       fy="14.210698"
+       id="radialGradient3045"
+       xlink:href="#linearGradient5188-570"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.4337136,0.3773185,0,12.520504,40.144247)" />
+    <linearGradient
+       x1="24.365993"
+       y1="20.246058"
+       x2="32.600704"
+       y2="28.554564"
+       id="linearGradient3049"
+       xlink:href="#linearGradient5162-161"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.2030811,0.20095862,0,14.90391,34.681008)" />
+    <linearGradient
+       x1="25.632622"
+       y1="10.611729"
+       x2="38.714096"
+       y2="18.389904"
+       id="linearGradient3051"
+       xlink:href="#linearGradient5176-464"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.2030811,0.1787725,0,16.197627,33.980278)" />
+    <radialGradient
+       cx="16.998659"
+       cy="29.456635"
+       r="3.6444795"
+       fx="16.998659"
+       fy="29.456635"
+       id="radialGradient3833"
+       xlink:href="#linearGradient3827"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0226772,-0.00400602,0.00723163,1.8461281,0.4028396,-28.312902)" />
   </defs>
   <g
      transform="translate(0,-6.9997211)"
@@ -1091,5 +1140,25 @@
          id="path2532"
          style="fill:url(#linearGradient3477);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
     </g>
+    <path
+       d="m 20.607077,29.011721 1.905191,0.464 0.410836,-2.261914 -0.126411,-1.148799 -0.537248,0.287199 -0.695262,-0.789801 -1.106098,1.112901 0.126411,-1.077 -0.234133,-0.510995 -0.05029,0.654596 -0.979687,0.6462 -0.189617,0.933399 -0.22122,-0.7539 -0.568851,-0.0359 -1.137701,1.471902 0.483065,1.496112 2.921015,-0.488 z"
+       id="path3035"
+       style="fill:url(#radialGradient3045);fill-opacity:1;fill-rule:evenodd;stroke:url(#radialGradient3833);stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible" />
+    <path
+       d="m 21.594041,29.005969 -1.520242,-0.858763 0.497347,-0.897498 -0.603921,-0.718002 0.568396,-0.6462 -0.994694,0.610302 -0.319723,1.4001 -0.532876,1.7232 0.390773,-0.8616 2.51494,0.248461 z"
+       id="path3037"
+       style="opacity:0.61797755;fill:url(#linearGradient3049);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5.2482543;marker:none;visibility:visible;display:inline;overflow:visible" />
+    <path
+       d="m 16.878004,27.949078 1.327318,-0.466701 0.66366,-0.8616 -0.347631,1.759101 c 0,0 0.505644,0.502599 0.505644,0.287199 0,-0.2154 0.252823,-2.548899 0.252823,-2.548899 l 0.410837,0.0359 -0.537248,3.302802 -1.169304,-1.436001 -1.106099,-0.0718 z"
+       id="path3039"
+       style="opacity:0.13483145;fill:url(#linearGradient3051);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5.2482543;marker:none;visibility:visible;display:inline;overflow:visible" />
+    <path
+       d="m 21.268118,28.224303 1.580141,0.179499 -1.074496,-0.394899 0.284426,-1.041102 -0.474043,-0.251298 0.158014,-1.256502 -0.221219,-0.287199 -0.06321,1.8309 0.442439,0.179499 -0.347631,0.789801 -0.284425,0.251301 z"
+       id="path3041"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5.2482543;marker:none;visibility:visible;display:inline;overflow:visible" />
+    <path
+       d="m 22.515312,29.400064 -0.301878,-0.825125 -1.612945,0.183945 -0.621259,-0.724692 -0.806278,-1.636297 0.988779,1.578906 0.612424,0.478808 1.704198,-0.212639 0.03696,1.157094 z"
+       id="path3043"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5.2482543;marker:none;visibility:visible;display:inline;overflow:visible" />
   </g>
 </svg>
