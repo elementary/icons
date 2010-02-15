@@ -4,15 +4,66 @@
 <svg
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.1"
    width="22"
    height="22"
    id="svg2816"
    style="display:inline">
   <defs
-     id="defs2818" />
+     id="defs2818">
+    <linearGradient
+       id="linearGradient3619">
+      <stop
+         id="stop3621"
+         style="stop-color:#ddeb7d;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3623"
+         style="stop-color:#b1c948;stop-opacity:1"
+         offset="0.50238681" />
+      <stop
+         id="stop3625"
+         style="stop-color:#769123;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3681">
+      <stop
+         id="stop3683"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3685"
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <radialGradient
+       cx="8"
+       cy="8"
+       r="9.5"
+       fx="8"
+       fy="8"
+       id="radialGradient3671"
+       xlink:href="#linearGradient3619"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4703948,0.00328948,-0.00223714,0.9999975,-5.7452613,-2.0262959)" />
+    <linearGradient
+       x1="9.051095"
+       y1="5.8686132"
+       x2="11.284672"
+       y2="22.992701"
+       id="linearGradient3687"
+       xlink:href="#linearGradient3681"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-1.03125,-0.96875)" />
+  </defs>
   <path
-     d="M 8,16 C 6.4722222,15.968749 4,15 4,12 L 4,9 C 4,6 6.5,5.0833333 8,5 l 7,0 c 1.5,0.1145829 4,1 4,4 l 0,3 c 0,3 -1.513889,4 -3,4 -2.396168,-0.01417 -0.516156,2.724315 0,4 L 15.333333,20 11,16 8,16 z"
+     d="M 6.3000001,15.5 C 4.4666666,15.4625 1.5,14.500001 1.5,10.900001 l 0,-3.6000009 c 0,-3.6 3.0000001,-4.7 4.8000001,-4.8000001 l 8.3999989,0 C 16.499999,2.6374996 19.5,3.7000001 19.5,7.3000001 l 0,3.6000009 c 0,3.6 -1.816667,4.599999 -3.6,4.599999 -2.875403,-0.01699 -0.619386,3.469177 0,5 l -0.799999,0 -5.2,-5 -3.6000009,0 z"
      id="path2819"
-     style="fill:#606060;fill-opacity:1;stroke:none" />
+     style="fill:url(#radialGradient3671);fill-opacity:1;stroke:#699536;stroke-opacity:1" />
+  <path
+     d="M 6.375,3.53125 C 5.6549837,3.5712509 4.6049894,3.8298483 3.84375,4.40625 3.0825106,4.9826517 2.53125,5.8006657 2.53125,7.3125 l 0,3.59375 c 0,1.515023 0.5398179,2.253128 1.28125,2.78125 0.7330747,0.522169 1.7537358,0.761401 2.5,0.78125 l 0.03125,0 3.5625,0 A 1.0331952,1.0331952 0 0 1 10.625,14.75 l 2.96875,2.84375 c -0.158501,-0.621487 -0.277761,-1.324714 0.09375,-2.03125 0.388787,-0.73939 1.291953,-1.099226 2.21875,-1.09375 0.699772,0 1.276351,-0.167593 1.71875,-0.625 0.442399,-0.457407 0.84375,-1.310678 0.84375,-2.9375 l 0,-3.59375 c 0,-1.5118343 -0.550694,-2.3018198 -1.3125,-2.875 -0.761806,-0.5731802 -1.822732,-0.8497401 -2.5625,-0.90625 l -8.21875,0 z"
+     id="path3669"
+     style="opacity:0.41999996;fill:none;stroke:url(#linearGradient3687);stroke-opacity:1" />
 </svg>
