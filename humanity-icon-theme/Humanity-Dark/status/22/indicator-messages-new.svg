@@ -4,21 +4,78 @@
 <svg
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.0"
    width="22"
    height="22"
    id="svg2">
   <defs
-     id="defs4" />
+     id="defs4">
+    <linearGradient
+       id="linearGradient3638">
+      <stop
+         id="stop3640"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3642"
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2264">
+      <stop
+         id="stop2266"
+         style="stop-color:#d7e866;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop2268"
+         style="stop-color:#8cab2a;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <radialGradient
+       cx="7.3846154"
+       cy="5.0003757"
+       r="9"
+       fx="7.3846154"
+       fy="5.0003757"
+       id="radialGradient3636"
+       xlink:href="#linearGradient2264"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2,2.5574449e-8,-1.8470435e-8,1.4444444,-6.7692309,-0.22276517)" />
+    <linearGradient
+       x1="6"
+       y1="5"
+       x2="8"
+       y2="21"
+       id="linearGradient3644"
+       xlink:href="#linearGradient3638"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
   <g
      id="g2829">
+    <rect
+       width="17"
+       height="11.000489"
+       x="2.5"
+       y="5.4994931"
+       id="rect3170"
+       style="fill:url(#radialGradient3636);fill-opacity:1;stroke:#699536;stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
-       d="m 18,15 0,-8 -13,0 6,6 6,-6 1,1 -4,4 0.492907,0.519596 1,-1 2.047228,1.959223 -1,1 L 14.000277,12 12,14 l -2,0 -2,-2 -2.5094768,2.478819 -1,-1 2.0165692,-1.985911 1,1 L 8,12 4,8 5,7 4,7 l 0,8 14,0"
-       id="path3607"
-       style="fill:#757575;fill-opacity:1;stroke:none" />
+       d="m 4.5,7.4999825 6,5.9999995 1,0 6,-5.9999995"
+       id="path3172"
+       style="fill:none;stroke:#699536;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
-       d="m 2.5,5.5 0,11 17,0 0,-11 -17,0 z"
-       id="path2822"
-       style="fill:none;stroke:#17f000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       d="m 4.5,14.499982 3.5,-3.5"
+       id="path3174"
+       style="fill:none;stroke:#699536;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 17.5,14.499982 -3.5,-3.5"
+       id="path3176"
+       style="fill:none;stroke:#699536;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 3.46875,6.46875 0,9.0625 15.0625,0 0,-9.0625 -15.0625,0 z"
+       id="path3634"
+       style="opacity:0.4;fill:none;stroke:url(#linearGradient3644);stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   </g>
 </svg>
