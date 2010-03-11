@@ -4,12 +4,55 @@
 <svg
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    version="1.0"
    width="22"
    height="22"
    id="svg3196">
   <defs
-     id="defs3198" />
+     id="defs3198">
+    <linearGradient
+       id="linearGradient2264">
+      <stop
+         id="stop2266"
+         style="stop-color:#d7e866;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop2268"
+         style="stop-color:#8cab2a;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3638">
+      <stop
+         id="stop3640"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3642"
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="6"
+       y1="5"
+       x2="8"
+       y2="21"
+       id="linearGradient2854"
+       xlink:href="#linearGradient3638"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(22,0)" />
+    <radialGradient
+       cx="-3"
+       cy="3.5"
+       r="7.5"
+       fx="-3"
+       fy="3.5"
+       id="radialGradient3634"
+       xlink:href="#linearGradient2264"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.7333333,4.4333334e-8,-2.7282053e-8,-1.0666667,-11.2,11.733334)" />
+  </defs>
   <rect
      width="14"
      height="9"
@@ -19,13 +62,21 @@
      y="6.5"
      transform="matrix(0,-1,1,0,0,0)"
      id="rect2388"
-     style="fill:none;stroke:#969696;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+     style="fill:url(#radialGradient3634);fill-opacity:1;stroke:#699536;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   <path
-     d="m 9.5,4.5 c 0,-0.6666667 0,-1.3333333 0,-2 1,0 2,0 3,0 0,0.6666667 0,1.3333333 0,2"
+     d="M 9.5,3.4999999 9.5,2.5 l 3,0 0,0.9999999"
      id="rect3160"
-     style="fill:none;stroke:#969696;stroke-width:1.00000024;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+     style="fill:none;stroke:#699536;stroke-width:1.00000024;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   <path
-     d="M 8,6 8,11 13,6 8,6 z M 13.59375,6 12,10 14,10 14,6 13.59375,6 z M 14,11.15625 8.875,17 14,17 14,11.15625 z M 8,12 8,17 8.5,17 11,12 8,12 z"
-     id="path3168"
-     style="fill:#17f000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+     d="m 14,5 -7,7 4,0 -3,6 7,-8 -3,0 2,-5 z"
+     id="path3172"
+     style="fill:#5d8430;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+  <g
+     transform="translate(-17.623616,-0.7377451)"
+     id="g2829">
+    <path
+       d="m 25.123616,6.2377451 0,11.9999999 7,0 0,-11.9999999 -7,0 z"
+       id="path3634"
+       style="opacity:0.4;fill:none;stroke:url(#linearGradient2854);stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  </g>
 </svg>
