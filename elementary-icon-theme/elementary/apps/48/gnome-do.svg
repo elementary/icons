@@ -30,7 +30,7 @@
   </metadata>
   <sodipodi:namedview
      inkscape:window-height="779"
-     inkscape:window-width="1440"
+     inkscape:window-width="1438"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      guidetolerance="10.0"
@@ -42,13 +42,20 @@
      id="base"
      showgrid="false"
      inkscape:zoom="10.375"
-     inkscape:cx="8.9638554"
+     inkscape:cx="17.060241"
      inkscape:cy="24"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:current-layer="svg5186" />
   <defs
      id="defs5188">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 24 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="48 : 24 : 1"
+       inkscape:persp3d-origin="24 : 16 : 1"
+       id="perspective77" />
     <linearGradient
        id="linearGradient3519">
       <stop
@@ -239,6 +246,15 @@
        y2="37.030224"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(0,1)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3332-412-419-652-471"
+       id="linearGradient3356"
+       x1="24.819277"
+       y1="44.56739"
+       x2="24.819277"
+       y2="7.3614459"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      id="g2546"
@@ -386,7 +402,7 @@
      id="path3333"
      d="M 4.095238,8.000002 C 2.9379224,8.000002 2,8.9971279 2,10.227495 L 2,26.520018 C 2.0026549,26.657082 2.0591913,26.786698 2.1558855,26.877402 C 2.2525796,26.968106 2.3805901,27.011605 2.5088435,26.997338 L 45.610883,19.742074 C 45.832599,19.7049 45.996899,19.503355 45.999999,19.264754 L 45.999999,10.227495 C 45.999999,8.9971279 45.062076,8.000002 43.904761,8.000002 L 4.095238,8.000002 z" />
   <path
-     style="opacity:0.40000000000000002;fill:#480842;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005000000010;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     style="opacity:1;fill:url(#linearGradient3356);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005000000010;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      id="path3576"
      d="M 23,13 C 22.446,13 22,13.446 22,14 L 22,16.25 C 20.994594,16.478939 20.065128,16.871619 19.21875,17.40625 L 17.625,15.8125 C 17.233263,15.420763 16.610488,15.420763 16.21875,15.8125 L 14.8125,17.21875 C 14.420763,17.610487 14.420763,18.233262 14.8125,18.625 L 16.40625,20.21875 C 15.871619,21.065128 15.478939,21.994594 15.25,23 L 13,23 C 12.446,23 12,23.446 12,24 L 12,26 C 12,26.554 12.446,27 13,27 L 15.25,27 C 15.478939,28.005406 15.871619,28.934872 16.40625,29.78125 L 14.8125,31.375 C 14.420763,31.766737 14.420763,32.389512 14.8125,32.78125 L 16.21875,34.1875 C 16.610487,34.579237 17.233262,34.579239 17.625,34.1875 L 19.21875,32.59375 C 20.065128,33.128381 20.994594,33.521061 22,33.75 L 22,36 C 22,36.554 22.446,37 23,37 L 25,37 C 25.554,37 26,36.554 26,36 L 26,33.75 C 27.005406,33.521061 27.934872,33.128381 28.78125,32.59375 L 30.375,34.1875 C 30.766737,34.579237 31.389512,34.579235 31.78125,34.1875 L 33.1875,32.78125 C 33.579237,32.389513 33.579239,31.766736 33.1875,31.375 L 31.59375,29.78125 C 32.128381,28.934872 32.521061,28.005406 32.75,27 L 35,27 C 35.554,27 36,26.554 36,26 L 36,24 C 36,23.446 35.554,23 35,23 L 32.75,23 C 32.521061,21.994594 32.128381,21.065128 31.59375,20.21875 L 33.1875,18.625 C 33.579237,18.233263 33.579235,17.610488 33.1875,17.21875 L 31.78125,15.8125 C 31.389513,15.420763 30.766736,15.420763 30.375,15.8125 L 28.78125,17.40625 C 27.934872,16.871619 27.005406,16.478939 26,16.25 L 26,14 C 26,13.446 25.554,13 25,13 L 23,13 z M 24,21 C 26.208,20.999999 28,22.792 28,25 C 28,27.208001 26.208,29 24,29 C 21.792001,29.000001 20,27.208 20,25 C 20.000001,22.792001 21.792,21 24,21 z" />
   <path
