@@ -12,17 +12,6 @@
   <defs
      id="defs4004">
     <linearGradient
-       id="linearGradient3242">
-      <stop
-         id="stop3244"
-         style="stop-color:#f8cd70;stop-opacity:1"
-         offset="0" />
-      <stop
-         id="stop3250"
-         style="stop-color:#cc9110;stop-opacity:1"
-         offset="1" />
-    </linearGradient>
-    <linearGradient
        id="linearGradient3195">
       <stop
          id="stop3197"
@@ -45,10 +34,10 @@
     <linearGradient
        x1="5.6815348"
        y1="1038.5883"
-       x2="5.6815348"
-       y2="1054.8181"
+       x2="5.6216097"
+       y2="1050.3237"
        id="linearGradient2428"
-       xlink:href="#linearGradient3242"
+       xlink:href="#linearGradient3639"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(0,-1036.3622)" />
     <linearGradient
@@ -60,6 +49,40 @@
        xlink:href="#linearGradient3195"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(0,-1036.3622)" />
+    <linearGradient
+       id="linearGradient3639">
+      <stop
+         id="stop3641"
+         style="stop-color:#f0c178;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3643"
+         style="stop-color:#e18941;stop-opacity:1"
+         offset="0.63243175" />
+      <stop
+         id="stop3645"
+         style="stop-color:#ec4f18;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3390-178-986-453">
+      <stop
+         id="stop3624"
+         style="stop-color:#bb2b12;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3626"
+         style="stop-color:#cd7233;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="9.5692883"
+       y1="15"
+       x2="9.6067419"
+       y2="0.9999826"
+       id="linearGradient3638"
+       xlink:href="#linearGradient3390-178-986-453"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <rect
      width="15.000001"
@@ -78,7 +101,7 @@
      x="1.5"
      y="1.4999826"
      id="rect7169"
-     style="fill:url(#linearGradient2428);fill-opacity:1;stroke:#bf8407;stroke-width:0.99999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+     style="fill:url(#linearGradient2428);fill-opacity:1;stroke:url(#linearGradient3638);stroke-width:0.99999994;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   <rect
      width="11.000001"
      height="11"
