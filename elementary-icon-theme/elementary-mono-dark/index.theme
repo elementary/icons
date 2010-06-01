@@ -6,7 +6,7 @@ Inherits=elementary
 Example=directory-x-normal
 
 #Directory list
-Directories=apps/22,apps/24,apps/48,status/16,status/22,status/24,status/48,
+Directories=apps/22,apps/24,apps/48,places/22,places/24,status/16,status/22,status/24,status/48,
 
 [apps/22]
 Size=22
@@ -22,6 +22,16 @@ Type=Fixed
 Size=48
 Context=Applications
 Type=Scalable
+
+[places/22]
+Size=22
+Context=Places
+Type=Fixed
+
+[places/24]
+Size=24
+Context=Places
+Type=Fixed
 
 [status/16]
 Size=16

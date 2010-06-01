@@ -19,6 +19,21 @@
   <defs
      id="defs3094">
     <linearGradient
+       id="linearGradient3674">
+      <stop
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1"
+         id="stop3676" />
+      <stop
+         id="stop3680"
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="0.36239624" />
+      <stop
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0"
+         id="stop3678" />
+    </linearGradient>
+    <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient8589"
        id="linearGradient3022"
@@ -103,11 +118,11 @@
        id="linearGradient6712">
       <stop
          id="stop6714"
-         style="stop-color:#3c3c3c;stop-opacity:1"
+         style="stop-color:#828282;stop-opacity:1;"
          offset="0" />
       <stop
          id="stop6716"
-         style="stop-color:#1e1e1e;stop-opacity:1"
+         style="stop-color:#646464;stop-opacity:1;"
          offset="1" />
     </linearGradient>
     <linearGradient
@@ -217,6 +232,17 @@
        id="radialGradient3090"
        xlink:href="#linearGradient10691-1"
        inkscape:collect="always" />
+    <radialGradient
+       r="20.999998"
+       fy="-0.16377473"
+       fx="27.918749"
+       cy="-0.16377473"
+       cx="27.918749"
+       gradientTransform="matrix(2.0001382,2.0106504,-0.56177189,0.56070777,-6.350663,-38.321197)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient3653"
+       xlink:href="#linearGradient3674"
+       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -225,18 +251,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.5"
-     inkscape:cx="32"
+     inkscape:zoom="1"
+     inkscape:cx="223.07664"
      inkscape:cy="32"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:document-units="px"
      inkscape:grid-bbox="true"
-     inkscape:window-width="603"
-     inkscape:window-height="484"
-     inkscape:window-x="417"
-     inkscape:window-y="162"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1280"
+     inkscape:window-height="691"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata3097">
     <rdf:RDF>
@@ -245,7 +271,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -281,6 +307,13 @@
        y="8"
        id="rect2716"
        style="fill:url(#radialGradient2444);fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline;enable-background:new" />
+    <rect
+       width="56"
+       height="37"
+       x="4"
+       y="8"
+       id="rect2716-1"
+       style="fill:url(#radialGradient3653);fill-opacity:1;fill-rule:evenodd;stroke:none;display:inline;enable-background:new;opacity:0.50000000000000000" />
     <path
        d="m 4,7.9999999 c 13.34943,0 35.90027,0 35.90027,0 C 43.90633,9.0385399 60,22.932624 60,25.42059 60,25.42059 60,45 60,45 60,45 22.66666,45 4,45 4,32.666665 4,20.333333 4,7.9999999 l 0,0 z"
        id="path2514"
