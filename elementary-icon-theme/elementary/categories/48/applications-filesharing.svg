@@ -12,6 +12,25 @@
   <defs
      id="defs3402">
     <linearGradient
+       id="linearGradient3692">
+      <stop
+         id="stop3694"
+         style="stop-color:#ecb56c;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3700"
+         style="stop-color:#ea8b48;stop-opacity:1"
+         offset="0.16386637" />
+      <stop
+         id="stop3696"
+         style="stop-color:#e86225;stop-opacity:1"
+         offset="0.65293956" />
+      <stop
+         id="stop3698"
+         style="stop-color:#b07c0b;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient5048">
       <stop
          id="stop5050"
@@ -113,8 +132,8 @@
        color-interpolation-filters="sRGB"
        id="filter3212">
       <feGaussianBlur
-         stdDeviation="0.77391625"
-         id="feGaussianBlur3214" />
+         id="feGaussianBlur3214"
+         stdDeviation="0.77391625" />
     </filter>
     <linearGradient
        id="linearGradient8589">
@@ -226,44 +245,18 @@
        x2="62.400131"
        y2="28.280676"
        id="linearGradient3834"
-       xlink:href="#linearGradient3840"
+       xlink:href="#linearGradient3692"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.4862123,0,0,1.4715013,-0.998984,54.21865)" />
     <linearGradient
-       id="linearGradient3840">
-      <stop
-         id="stop3842"
-         style="stop-color:#eda606;stop-opacity:1"
-         offset="0" />
-      <stop
-         id="stop3844"
-         style="stop-color:#efb220;stop-opacity:1"
-         offset="0.31757474" />
-      <stop
-         id="stop3846"
-         style="stop-color:#f1be3b;stop-opacity:0"
-         offset="1" />
-    </linearGradient>
-    <linearGradient
-       x1="41.81702"
-       y1="45.610001"
+       x1="41.264286"
+       y1="55.192986"
        x2="41.81702"
        y2="26.597807"
        id="linearGradient3836"
-       xlink:href="#linearGradient5432"
+       xlink:href="#linearGradient3655"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0,-2.9226076,-2.9518257,0,169.75111,208.64009)" />
-    <linearGradient
-       id="linearGradient5432">
-      <stop
-         id="stop5434"
-         style="stop-color:#a65612;stop-opacity:1"
-         offset="0" />
-      <stop
-         id="stop5436"
-         style="stop-color:#a65612;stop-opacity:0"
-         offset="1" />
-    </linearGradient>
     <linearGradient
        x1="3.8877637"
        y1="26.022909"
@@ -315,6 +308,21 @@
       <stop
          id="stop3484"
          style="stop-color:#548820;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3655">
+      <stop
+         id="stop3657"
+         style="stop-color:#cc7032;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3659"
+         style="stop-color:#bb2d13;stop-opacity:1"
+         offset="0.70167369" />
+      <stop
+         id="stop3661"
+         style="stop-color:#a87300;stop-opacity:0"
          offset="1" />
     </linearGradient>
   </defs>
@@ -375,6 +383,6 @@
        d="m 33.392084,63.684717 -27.565128,24.35606 27.565128,24.648643 0,-12.64752 55.576264,0 0.1614,-24.002248 -55.737664,0 0,-12.354935 z"
        transform="matrix(0.3749648,0,0,0.3749648,0,0.00224979)"
        id="path3803"
-       style="opacity:0.35400008;fill:none;stroke:url(#linearGradient3831);stroke-width:2.66691661;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible" />
+       style="opacity:0.23999999;fill:none;stroke:url(#linearGradient3831);stroke-width:2.66691661;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible" />
   </g>
 </svg>
