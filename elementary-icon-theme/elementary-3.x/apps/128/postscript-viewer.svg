@@ -175,6 +175,35 @@
          style="stop-color:#181818;stop-opacity:0"
          offset="1" />
     </linearGradient>
+    <linearGradient
+       id="linearGradient3924">
+      <stop
+         id="stop3926"
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0" />
+      <stop
+         offset="0.06316455"
+         style="stop-color:#ffffff;stop-opacity:0.23529412;"
+         id="stop3928" />
+      <stop
+         id="stop3930"
+         style="stop-color:#ffffff;stop-opacity:0.15686275;"
+         offset="0.95056331" />
+      <stop
+         id="stop3932"
+         style="stop-color:#ffffff;stop-opacity:0.39215687;"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       y2="43"
+       x2="23.99999"
+       y1="4.999989"
+       x1="23.99999"
+       gradientTransform="matrix(2.7297298,0,0,2.7297298,-1.513511,-62.513486)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3128"
+       xlink:href="#linearGradient3924"
+       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -185,16 +214,16 @@
      inkscape:pageshadow="2"
      inkscape:zoom="5.5"
      inkscape:cx="32"
-     inkscape:cy="32"
+     inkscape:cy="148.36364"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:document-units="px"
      inkscape:grid-bbox="true"
-     inkscape:window-width="603"
-     inkscape:window-height="479"
+     inkscape:window-width="1280"
+     inkscape:window-height="753"
      inkscape:window-x="0"
-     inkscape:window-y="46"
-     inkscape:window-maximized="0" />
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata3946">
     <rdf:RDF>
@@ -203,7 +232,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -286,13 +315,13 @@
        d="M 115,4.249976 C 101.48221,17.713505 87.589148,35.583269 78.34375,54 l 10.820723,0 C 96.648202,41.357413 106.40461,27.471336 115,18.906969 l 0,-14.656993 z"
        id="path6715" />
     <rect
-       width="101"
-       height="100.99999"
-       rx="5"
-       ry="5"
-       x="13.5"
+       style="opacity:0.5;fill:none;stroke:url(#linearGradient3128);stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6741-7"
        y="-47.5"
-       id="rect6741"
-       style="opacity:0.4;fill:none;stroke:url(#linearGradient2470);stroke-width:0.9999997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+       x="13.5"
+       ry="5"
+       rx="5"
+       height="101"
+       width="101" />
   </g>
 </svg>

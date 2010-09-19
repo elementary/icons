@@ -15,30 +15,9 @@
    id="svg3785"
    version="1.1"
    inkscape:version="0.47 r22583"
-   sodipodi:docname="postscript-viewer.svg">
+   sodipodi:docname="acroread.svg">
   <defs
      id="defs3787">
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3308-4-6-931-761"
-       id="linearGradient2965"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.2972974,0,0,0.2972974,0.8648642,0.8648633)"
-       x1="23.99999"
-       y1="4.999989"
-       x2="23.99999"
-       y2="43" />
-    <linearGradient
-       id="linearGradient3308-4-6-931-761">
-      <stop
-         id="stop2919"
-         style="stop-color:#ffffff;stop-opacity:1"
-         offset="0" />
-      <stop
-         id="stop2921"
-         style="stop-color:#ffffff;stop-opacity:0"
-         offset="1" />
-    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4246"
@@ -111,6 +90,35 @@
        id="linearGradient3783"
        xlink:href="#linearGradient2490"
        inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient3924-4">
+      <stop
+         id="stop3926-0"
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0" />
+      <stop
+         offset="0.06316455"
+         style="stop-color:#ffffff;stop-opacity:0.23529412;"
+         id="stop3928-6" />
+      <stop
+         id="stop3930-2"
+         style="stop-color:#ffffff;stop-opacity:0.15686275;"
+         offset="0.95056331" />
+      <stop
+         id="stop3932-9"
+         style="stop-color:#ffffff;stop-opacity:0.39215687;"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       y2="43"
+       x2="23.99999"
+       y1="4.999989"
+       x1="23.99999"
+       gradientTransform="matrix(0.2972973,0,0,0.2972973,0.8648665,0.8648673)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3079"
+       xlink:href="#linearGradient3924-4"
+       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -126,11 +134,11 @@
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="603"
-     inkscape:window-height="479"
+     inkscape:window-width="1280"
+     inkscape:window-height="753"
      inkscape:window-x="0"
-     inkscape:window-y="46"
-     inkscape:window-maximized="0" />
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata3790">
     <rdf:RDF>
@@ -139,7 +147,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -152,8 +160,8 @@
        id="rect5505"
        y="1.500001"
        x="1.5000006"
-       ry="0.74407178"
-       rx="0.74407178"
+       ry="1"
+       rx="1"
        height="12.999999"
        width="12.999999" />
     <path
@@ -181,13 +189,11 @@
        d="m 14,8.1470565 c -1.590329,1.583945 -3.224806,3.6862705 -4.3125,5.8529445 l 1.273026,0 C 11.840965,12.512638 12.988778,10.878982 14,9.8714085 l 0,-1.724352 z"
        id="path6715" />
     <rect
-       style="opacity:0.4;fill:none;stroke:url(#linearGradient2965);stroke-width:0.9999997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect6741"
-       y="2.4999957"
-       x="2.4999995"
-       ry="0.40586838"
-       rx="0.40586838"
-       height="11.000009"
-       width="11.000001" />
+       style="opacity:0.5;fill:none;stroke:url(#linearGradient3079);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6741-0-3"
+       y="2.5"
+       x="2.5"
+       height="11"
+       width="11" />
   </g>
 </svg>
