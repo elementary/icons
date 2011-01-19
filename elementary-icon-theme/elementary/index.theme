@@ -6,7 +6,7 @@ Inherits=gnome,ubuntu-mono-light,hicolor,gnome-colors-brave
 Example=directory-x-normal
 
 #Directory list
-Directories=actions/16,actions/22,actions/24,actions/32,actions/48,actions/64,actions/72,actions/128,animations/16,animations/22,animations/24,animations/32,animations/48,animations/64,animations/128,apps/16,apps/22,apps/24,apps/32,apps/48,apps/64,apps/112,apps/128,categories/16,categories/24,categories/32,categories/48,categories/64,categories/128,places/16,places/22,places/24,places/32,places/48,places/64,places/128,mimes/16,mimes/24,mimes/32,mimes/48,mimes/128,devices/16,devices/22,devices/24,devices/32,devices/48,devices/64,devices/128,emblems/16,emblems/22,emblems/24,emblems/32,emblems/48,emblems/64,emblems/128,status/16,status/22,status/24,status/32,status/48,status/64,status/128,stock/16,stock/22,stock/24,stock/32,stock/48,notifications/16,notifications/22,notifications/24,notifications/32,notifications/48,panel/16,panel/22,panel/24,panel/48,
+Directories=actions/16,actions/22,actions/24,actions/32,actions/48,actions/64,actions/72,actions/128,animations/16,animations/22,animations/24,animations/32,animations/48,animations/64,animations/128,apps/16,apps/22,apps/24,apps/32,apps/48,apps/64,apps/112,apps/128,categories/16,categories/24,categories/32,categories/48,categories/64,categories/128,places/16,places/22,places/24,places/32,places/48,places/64,places/128,mimes/16,mimes/24,mimes/32,mimes/48,mimes/128,devices/16,devices/22,devices/24,devices/32,devices/48,devices/64,devices/128,emblems/16,emblems/22,emblems/24,emblems/32,emblems/48,emblems/64,emblems/128,status/12,status/16,status/22,status/24,status/32,status/48,status/64,status/128,stock/16,stock/22,stock/24,stock/32,stock/48,notifications/16,notifications/22,notifications/24,notifications/32,notifications/48,panel/16,panel/22,panel/24,panel/48,
 
 [actions/16]
 Size=16
@@ -291,6 +291,11 @@ Type=Fixed
 [places/128]
 Size=128
 Context=Places
+Type=Fixed
+
+[status/12]
+Size=12
+Context=Status
 Type=Fixed
 
 [status/16]
