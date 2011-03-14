@@ -1,53 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   version="1.1"
-   width="22"
-   height="22"
-   id="svg2820">
-  <defs
-     id="defs2822">
-    <linearGradient
-       id="linearGradient3608">
-      <stop
-         id="stop3610"
-         style="stop-color:#878787;stop-opacity:1"
-         offset="0" />
-      <stop
-         id="stop3612"
-         style="stop-color:#878787;stop-opacity:0"
-         offset="1" />
-    </linearGradient>
-    <radialGradient
-       cx="0.97076654"
-       cy="8.3370295"
-       r="3.5304103"
-       fx="0.97076654"
-       fy="8.3370295"
-       id="radialGradient3609"
-       xlink:href="#linearGradient3608"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.7548875,-1.4390497,7.6203091,9.460403,-51.559241,-52.278007)" />
-  </defs>
-  <g
-     transform="translate(-1.0000001,-9.0000003)"
-     id="layer1">
-    <path
-       d="m 22,20.500975 a 9.5,9.5 0 0 1 -18.9999999,0 9.5,9.5 0 1 1 18.9999999,0 z"
-       id="path2832-2"
-       style="opacity:0.23999999;fill:#878787;fill-opacity:1;stroke:none" />
-    <path
-       d="m 18.985873,19.637919 a 8.9942503,8.9942503 0 0 1 -5.594433,4.53258 L 11,15.5 z"
-       transform="matrix(1.055646,0,0,1.0462524,0.88789387,4.2830877)"
-       id="path2821"
-       style="fill:url(#radialGradient3609);fill-opacity:1;stroke:none" />
-    <path
-       d="m 12.527976,20.519521 2.401611,8.741828"
-       id="path3605"
-       style="fill:none;stroke:#878787;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
-  </g>
+<svg id="svg2820" xmlns="http://www.w3.org/2000/svg" height="22" width="22" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="defs2822">
+  <radialGradient id="radialGradient3609" gradientUnits="userSpaceOnUse" cy="8.337" cx=".97077" gradientTransform="matrix(1.7549 -1.439 7.6203 9.4604 -51.559 -52.278)" r="3.5304">
+   <stop id="stop3610" style="stop-color:#878787" offset="0"/>
+   <stop id="stop3612" style="stop-color:#878787;stop-opacity:0" offset="1"/>
+  </radialGradient>
+ </defs>
+ <g id="layer1" transform="translate(-1 -9)">
+  <path id="path2832-2" style="opacity:0.24;fill:#878787" d="m22 20.501a9.5 9.5 0 0 1 -19 0 9.5 9.5 0 1 1 19 0z"/>
+  <path id="path2821" style="fill:url(#radialGradient3609)" d="m18.986 19.638a8.9943 8.9943 0 0 1 -5.5944 4.5326l-2.392-8.671z" transform="matrix(1.0556 0 0 1.0463 .88789 4.2831)"/>
+  <path id="path3605" style="stroke:#878787;stroke-linecap:round;stroke-width:1px;fill:none" d="m12.528 20.52 2.4016 8.7418"/>
+ </g>
 </svg>

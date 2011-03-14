@@ -1,81 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   version="1.0"
-   width="22"
-   height="22"
-   id="svg2">
-  <defs
-     id="defs4">
-    <linearGradient
-       id="linearGradient3638">
-      <stop
-         id="stop3640"
-         style="stop-color:#ffffff;stop-opacity:1"
-         offset="0" />
-      <stop
-         id="stop3642"
-         style="stop-color:#ffffff;stop-opacity:0"
-         offset="1" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient2264">
-      <stop
-         id="stop2266"
-         style="stop-color:#d7e866;stop-opacity:1"
-         offset="0" />
-      <stop
-         id="stop2268"
-         style="stop-color:#8cab2a;stop-opacity:1"
-         offset="1" />
-    </linearGradient>
-    <radialGradient
-       cx="7.3846154"
-       cy="5.0003757"
-       r="9"
-       fx="7.3846154"
-       fy="5.0003757"
-       id="radialGradient3636"
-       xlink:href="#linearGradient2264"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(2,2.5574449e-8,-1.8470435e-8,1.4444444,-6.7692309,-0.22276517)" />
-    <linearGradient
-       x1="6"
-       y1="5"
-       x2="8"
-       y2="21"
-       id="linearGradient3644"
-       xlink:href="#linearGradient3638"
-       gradientUnits="userSpaceOnUse" />
-  </defs>
-  <g
-     id="g2829">
-    <rect
-       width="17"
-       height="11.000489"
-       x="2.5"
-       y="5.4994931"
-       id="rect3170"
-       style="fill:url(#radialGradient3636);fill-opacity:1;stroke:#699536;stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-    <path
-       d="m 4.5,7.4999825 6,5.9999995 1,0 6,-5.9999995"
-       id="path3172"
-       style="fill:none;stroke:#699536;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       d="m 4.5,14.499982 3.5,-3.5"
-       id="path3174"
-       style="fill:none;stroke:#699536;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       d="m 17.5,14.499982 -3.5,-3.5"
-       id="path3176"
-       style="fill:none;stroke:#699536;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-    <path
-       d="m 3.46875,6.46875 0,9.0625 15.0625,0 0,-9.0625 -15.0625,0 z"
-       id="path3634"
-       style="opacity:0.4;fill:none;stroke:url(#linearGradient3644);stroke-width:0.99999988;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-  </g>
+<svg id="svg2" xmlns="http://www.w3.org/2000/svg" height="22" width="22" version="1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="defs4">
+  <radialGradient id="radialGradient3636" gradientUnits="userSpaceOnUse" cy="5.0004" cx="7.3846" gradientTransform="matrix(2 2.5574e-8 -1.847e-8 1.4444 -6.7692 -.22277)" r="9">
+   <stop id="stop2266" style="stop-color:#d7e866" offset="0"/>
+   <stop id="stop2268" style="stop-color:#8cab2a" offset="1"/>
+  </radialGradient>
+  <linearGradient id="linearGradient3644" y2="21" gradientUnits="userSpaceOnUse" x2="8" y1="5" x1="6">
+   <stop id="stop3640" style="stop-color:#fff" offset="0"/>
+   <stop id="stop3642" style="stop-color:#fff;stop-opacity:0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g id="g2829">
+  <rect id="rect3170" style="stroke:#699536;stroke-linecap:square;fill:url(#radialGradient3636)" height="11" width="17" y="5.4995" x="2.5"/>
+  <path id="path3172" style="stroke:#699536;stroke-width:1px;fill:none" d="m4.5 7.5 6 6h1l6-6"/>
+  <path id="path3174" style="stroke:#699536;stroke-width:1px;fill:none" d="m4.5 14.5 3.5-3.5"/>
+  <path id="path3176" style="stroke:#699536;stroke-width:1px;fill:none" d="m17.5 14.5-3.5-3.5"/>
+  <path id="path3634" style="opacity:.4;stroke:url(#linearGradient3644);stroke-linecap:square;fill:none" d="m3.4688 6.4688v9.0625h15.062v-9.0625h-15.062z"/>
+ </g>
 </svg>

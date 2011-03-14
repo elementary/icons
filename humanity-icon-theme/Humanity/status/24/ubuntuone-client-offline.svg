@@ -1,37 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   version="1.1"
-   width="24"
-   height="24"
-   id="svg2896">
-  <defs
-     id="defs2898" />
-  <g
-     transform="translate(0.99999989,8.0000077)"
-     id="layer1">
-    <g
-       transform="translate(-2,-5.0000002)"
-       id="layer1-3">
-      <path
-         d="m 16.499097,3.5100001 0,-1.01 -5.031345,0 -1.5264227,-1 -6.4418255,0 0,11.0108659 c -0.00224,0.886093 0.3663429,2.136574 2.3359367,1.989501"
-         id="rect2196"
-         style="fill:none;stroke:#606060;stroke-width:0.97898716;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
-      <path
-         d="m 10.012,14.500367 -4.7561108,0 -0.9564071,-0.3 C 6.1585867,14.40694 5.4994496,8.1666701 5.4994496,4.5000001 l 12.9995934,0 0,7.6499999"
-         id="rect3086"
-         style="fill:none;stroke:#606060;stroke-width:0.99982834;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
-      <path
-         d="m 10.312,13.499993 -4.8125504,3.73e-4 C 7.1261662,11.89469 6.4994225,8.5000439 6.4994225,5.5000001 l 10.9996475,0 0,6.0003659"
-         id="path3594"
-         style="opacity:0.4;fill:none;stroke:#606060;stroke-width:0.99982834;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
-    </g>
+<svg id="svg2896" xmlns="http://www.w3.org/2000/svg" height="24" width="24" version="1.1">
+ <g id="layer1" transform="translate(1 8)">
+  <g id="layer1-3" transform="translate(-2 -5)">
+   <path id="rect2196" style="stroke-linejoin:round;stroke:#606060;stroke-linecap:round;stroke-width:.97899;fill:none" d="m16.499 3.51v-1.01h-5.0313l-1.5264-1h-6.4418v11.011c-0.00224 0.88609 0.36634 2.1366 2.3359 1.9895"/>
+   <path id="rect3086" style="stroke-linejoin:round;stroke:#606060;stroke-linecap:round;stroke-width:.99983;fill:none" d="m10.012 14.5h-4.7561l-0.95641-0.3c1.8591 0.207 1.1999-6.0333 1.1999-9.7h13v7.65"/>
+   <path id="path3594" style="opacity:.4;stroke-linejoin:round;stroke:#606060;stroke-linecap:round;stroke-width:.99983;fill:none" d="m10.312 13.5-4.8126 0.000373c1.6268-1.605 1-5 1-8h11v6.0004"/>
   </g>
-  <path
-     d="m 12,18 2,0 0,2 -2,0 0,-2 z m 0,-8 0,5 0.5,2 1,0 0.5,-2 0,-5 -2,0 z"
-     id="path3659"
-     style="fill:#878787;fill-opacity:1;stroke:none" />
+ </g>
+ <path id="path3659" style="fill:#878787" d="m12 18h2v2h-2v-2zm0-8v5l0.5 2h1l0.5-2v-5h-2z"/>
 </svg>
