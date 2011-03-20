@@ -43,7 +43,6 @@ Size=128
 Context=Animations
 Type=Scalable
 
-
 [panel/16]
 Size=16
 Context=Status
@@ -52,7 +51,7 @@ Type=Fixed
 [panel/22]
 Size=22
 Context=Status
-Type=Fixed
+Type=Scalable
 
 [panel/24]
 Size=24
@@ -67,7 +66,7 @@ Type=Fixed
 [panel/48]
 Size=48
 Context=Status
-Type=Scalable
+Type=Fixed
 
 [panel/64]
 Size=64
