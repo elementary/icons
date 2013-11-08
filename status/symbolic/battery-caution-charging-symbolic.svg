@@ -7,10 +7,38 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="16"
    height="16"
-   id="svg3004">
+   id="svg3004"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="battery-caution-charging-symbolic.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview9"
+     showgrid="true"
+     inkscape:zoom="38.35"
+     inkscape:cx="4.1694915"
+     inkscape:cy="7.5932203"
+     inkscape:window-x="457"
+     inkscape:window-y="28"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3004">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3040" />
+  </sodipodi:namedview>
   <defs
      id="defs3006" />
   <metadata
@@ -21,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -35,11 +63,13 @@
        style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   </g>
   <path
-     d="M 2.25,5 C 2.1115,5 2,5.1115 2,5.25 L 2,6 5,8.5 5,5.25 C 5,5.1115 4.8885,5 4.75,5 z M 2,7 2,10.75 C 2,10.8885 2.1115,11 2.25,11 l 2.5,0 C 4.8885,11 5,10.8885 5,10.75 L 5,9.5 z"
-     id="rect3117"
-     style="opacity:0.3;color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-  <path
      d="M 12,10 6.0474994,5 6,8 2,6 8,11 8,8 z"
      id="path3172"
      style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path
+     style="opacity:0.3;color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     d="M 2.25,5 C 2.1115,5 2,5.1115 2,5.25 L 2,6 4,7.6088657 4,5.25 C 4,5.1115 3.8885,5 3.75,5 z M 2,7 2,10.75 C 2,10.8885 2.1115,11 2.25,11 l 1.5,0 C 3.8885,11 4,10.8885 4,10.75 L 4,8.65625 z"
+     id="rect3206-2"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ssccssscsssscc" />
 </svg>
