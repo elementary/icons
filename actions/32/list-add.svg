@@ -38,8 +38,8 @@
        color-interpolation-filters="sRGB"
        id="filter3919">
       <feGaussianBlur
-         id="feGaussianBlur3921"
-         stdDeviation="0.149375" />
+         stdDeviation="0.149375"
+         id="feGaussianBlur3921" />
     </filter>
     <linearGradient
        x1="71.204407"
@@ -181,6 +181,7 @@
        style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
        d="m 14.59375,8.53125 0,5.53125 a 0.53587299,0.53587299 0 0 1 -0.53125,0.53125 l -5.53125,0 0,2.8125 5.53125,0 a 0.53587299,0.53587299 0 0 1 0.53125,0.53125 l 0,5.53125 2.8125,0 0,-5.53125 a 0.53587299,0.53587299 0 0 1 0.53125,-0.53125 l 5.53125,0 0,-2.8125 -5.53125,0 A 0.53587299,0.53587299 0 0 1 17.40625,14.0625 l 0,-5.53125 -2.8125,0 z"
+       inkscape:connector-curvature="0"
        id="path3909"
        style="opacity:0.1;color:#000000;fill:none;stroke:url(#linearGradient3917);stroke-width:1;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter3919);enable-background:accumulate" />
   </g>
