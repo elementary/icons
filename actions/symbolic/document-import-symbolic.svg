@@ -7,7 +7,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
@@ -28,11 +27,11 @@
      inkscape:window-width="1440"
      inkscape:window-height="845"
      id="namedview13"
-     showgrid="false"
-     showborder="false"
-     inkscape:zoom="7.3837209"
-     inkscape:cx="20"
-     inkscape:cy="-13"
+     showgrid="true"
+     showborder="true"
+     inkscape:zoom="39.6875"
+     inkscape:cx="12.263449"
+     inkscape:cy="8"
      inkscape:window-x="0"
      inkscape:window-y="30"
      inkscape:window-maximized="1"
@@ -48,132 +47,7 @@
   <title
      id="title9167">Gnome Symbolic Icon Theme</title>
   <defs
-     id="defs11">
-    <linearGradient
-       id="linearGradient3671-580-6">
-      <stop
-         id="stop4088-6"
-         style="stop-color:#fc93dc;stop-opacity:1"
-         offset="0" />
-      <stop
-         id="stop4090-4"
-         style="stop-color:#da72d3;stop-opacity:1"
-         offset="0.26238" />
-      <stop
-         id="stop4092-6"
-         style="stop-color:#a33fab;stop-opacity:1"
-         offset="0.704952" />
-      <stop
-         id="stop4094-2"
-         style="stop-color:#502b58;stop-opacity:1"
-         offset="1" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient8662-8">
-      <stop
-         id="stop8664-1"
-         style="stop-color:#000000;stop-opacity:1"
-         offset="0" />
-      <stop
-         id="stop8666-5"
-         style="stop-color:#000000;stop-opacity:0"
-         offset="1" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3104">
-      <stop
-         offset="0"
-         style="stop-color:#a0a0a0;stop-opacity:1"
-         id="stop3106" />
-      <stop
-         offset="1"
-         style="stop-color:#bebebe;stop-opacity:1"
-         id="stop3108" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3600">
-      <stop
-         offset="0"
-         style="stop-color:#f4f4f4;stop-opacity:1"
-         id="stop3602" />
-      <stop
-         offset="1"
-         style="stop-color:#dbdbdb;stop-opacity:1"
-         id="stop3604" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3600"
-       id="linearGradient4098"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.29354765,0,0,0.28064606,22.395546,1.5758454)"
-       x1="25.132275"
-       y1="0.98520643"
-       x2="25.132275"
-       y2="47.013336" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3104"
-       id="linearGradient4100"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.23703879,0,0,0.26264291,39.83528,1.2630711)"
-       x1="-51.786404"
-       y1="50.786446"
-       x2="-51.786404"
-       y2="2.9062471" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient8662-8"
-       id="radialGradient4102"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-0.16598837,0,0,-0.17825174,36.255287,16.603251)"
-       cx="24.837126"
-       cy="36.421127"
-       fx="24.837126"
-       fy="36.421127"
-       r="15.644737" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3671-580-6"
-       id="linearGradient4104"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-0.24152907,0,0,0.22487738,38.837527,4.6499046)"
-       x1="23.731871"
-       y1="5.3943448"
-       x2="23.731871"
-       y2="40.783871" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient8662-8"
-       id="radialGradient4111"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(-0.16698983,0,0,-0.17932719,19.066135,22.623673)"
-       cx="24.837126"
-       cy="36.421127"
-       fx="24.837126"
-       fy="36.421127"
-       r="15.644737" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3600"
-       id="linearGradient4114"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.29531871,0,0,0.28233928,10.953282,13.403908)"
-       x1="25.132275"
-       y1="0.98520643"
-       x2="25.132275"
-       y2="47.013336" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3104"
-       id="linearGradient4116"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.23846892,0,0,0.26422751,28.498235,13.089246)"
-       x1="-51.786404"
-       y1="50.786446"
-       x2="-51.786404"
-       y2="2.9062471" />
-  </defs>
+     id="defs11" />
   <metadata
      id="metadata90">
     <rdf:RDF>
@@ -190,7 +64,7 @@
      transform="translate(-24.932404,-15.494844)"
      id="layer1-8" />
   <path
-     style="opacity:1;color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-     d="M 2 1 L 2 15 L 13 15 L 13 10 L 12 10 L 12 14 L 3 14 L 3 2 L 12 2 L 12 6 L 13 6 L 13 1 L 2 1 z M 10 4 L 5 8 L 10 12 L 10 9 L 14 9 L 14 7 L 10 7 L 10 4 z "
+     style="color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     d="M 2.5 1 C 1.669 1 1 1.6689999 1 2.5 L 1 13.5 C 1 14.331 1.669 15 2.5 15 L 13.5 15 C 14.331 15 15 14.331 15 13.5 L 15 10 L 14 10 L 14 13 C 14 13.554 13.554 14 13 14 L 3 14 C 2.446 14 2 13.554 2 13 L 2 3 C 2 2.446 2.446 2 3 2 L 13 2 C 13.554 2 14 2.446 14 3 L 14 6 L 15 6 L 15 2.5 C 15 1.6689999 14.331 1 13.5 1 L 2.5 1 z M 11 4 L 6 8 L 11 12 L 11 9 L 15 9 L 15 7 L 11 7 L 11 4 z "
      id="rect2990" />
 </svg>
