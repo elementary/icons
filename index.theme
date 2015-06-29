@@ -5,24 +5,28 @@ Comment=Smooth modern theme designed to be intuitive.
 Example=directory-x-normal
 
 #Directory list
-Directories=actions/16,actions/24,actions/32,actions/48,actions/64,actions/128,actions/symbolic,animations/24,apps/16,apps/24,apps/32,apps/48,apps/64,apps/128,apps/symbolic,categories/16,categories/24,categories/32,categories/32@2x,categories/48,categories/64,categories/128,categories/symbolic,devices/16,devices/24,devices/32,devices/48,devices/64,devices/128,devices/symbolic,emblems/16,emblems/24,emblems/32,emblems/48,emblems/64,emblems/128,emblems/symbolic,emotes/16,emotes/24,emotes/32,emotes/48,emotes/64,emotes/128,mimes/16,mimes/24,mimes/32,mimes/48,mimes/64,mimes/128,mimes/symbolic,panel/16,panel/24,panel/48,panel/128,places/16,places/24,places/32,places/48,places/64,places/128,places/symbolic,status/16,status/24,status/32,status/48,status/64,status/128,status/symbolic
+Directories=actions/16,actions/24,actions/32,actions/48,actions/64,actions/128,actions/symbolic,animations/24,apps/16,apps/24,apps/32,apps/48,apps/64,apps/128,apps/symbolic,categories/16,categories/24,categories/32,categories/32@2x,categories/48,categories/64,categories/128,categories/symbolic,devices/16,devices/24,devices/32,devices/48,devices/64,devices/128,devices/symbolic,emblems/16,emblems/24,emblems/32,emblems/48,emblems/64,emblems/128,emblems/symbolic,emotes/16,emotes/24,emotes/32,emotes/48,emotes/64,emotes/128,mimes/16,mimes/24,mimes/32,mimes/48,mimes/64,mimes/128,mimes/symbolic,panel/16,panel/24,places/16,places/24,places/32,places/48,places/64,places/128,places/symbolic,status/16,status/24,status/32,status/48,status/64,status/128,status/symbolic
 
 [actions/16]
 Size=16
+Scale=2
 Context=Actions
 MinSize=8
 MaxSize=21
 Type=Scalable
 
+
 [actions/24]
 Size=24
 Context=Actions
+Scale=2
 MinSize=8
 MaxSize=32
 Type=Scalable
 
 [actions/32]
 Size=32
+Scale=2
 Context=Actions
 MinSize=8
 MaxSize=47
@@ -30,6 +34,7 @@ Type=Scalable
 
 [actions/48]
 Size=48
+Scale=2
 Context=Actions
 MinSize=8
 MaxSize=63
@@ -37,6 +42,7 @@ Type=Scalable
 
 [actions/64]
 Size=64
+Scale=2
 Context=Actions
 MinSize=8
 MaxSize=127
@@ -44,6 +50,7 @@ Type=Scalable
 
 [actions/128]
 Size=128
+Scale=2
 Context=Actions
 MinSize=8
 MaxSize=512
@@ -51,6 +58,7 @@ Type=Scalable
 
 [actions/symbolic]
 Size=16
+Scale=2
 Context=Actions
 MinSize=8
 MaxSize=512
@@ -58,6 +66,7 @@ Type=Scalable
 
 [animations/24]
 Size=24
+Scale=2
 Context=Animations
 MinSize=8
 MaxSize=512
@@ -65,6 +74,7 @@ Type=Scalable
 
 [apps/16]
 Size=16
+Scale=2
 Context=Applications
 MinSize=8
 MaxSize=512
@@ -72,6 +82,7 @@ Type=Scalable
 
 [apps/24]
 Size=24
+Scale=2
 Context=Applications
 MinSize=8
 MaxSize=512
@@ -86,6 +97,7 @@ Type=Scalable
 
 [apps/48]
 Size=48
+Scale=2
 Context=Applications
 MinSize=8
 MaxSize=512
@@ -93,6 +105,7 @@ Type=Scalable
 
 [apps/64]
 Size=64
+Scale=2
 Context=Applications
 MinSize=8
 MaxSize=512
@@ -100,6 +113,7 @@ Type=Scalable
 
 [apps/128]
 Size=128
+Scale=2
 Context=Applications
 MinSize=8
 MaxSize=512
@@ -114,6 +128,7 @@ Type=Scalable
 
 [categories/16]
 Size=16
+Scale=2
 Context=Categories
 MinSize=8
 MaxSize=512
@@ -121,6 +136,7 @@ Type=Scalable
 
 [categories/24]
 Size=24
+Scale=2
 Context=Categories
 MinSize=8
 MaxSize=512
@@ -128,6 +144,7 @@ Type=Scalable
 
 [categories/32]
 Size=32
+Scale=2
 Context=Categories
 MinSize=8
 MaxSize=512
@@ -135,6 +152,7 @@ Type=Scalable
 
 [categories/48]
 Size=48
+Scale=2
 Context=Categories
 MinSize=8
 MaxSize=512
@@ -142,6 +160,7 @@ Type=Scalable
 
 [categories/64]
 Size=64
+Scale=2
 Context=Categories
 MinSize=8
 MaxSize=512
@@ -149,6 +168,7 @@ Type=Scalable
 
 [categories/128]
 Size=128
+Scale=2
 Context=Categories
 MinSize=8
 MaxSize=512
@@ -163,6 +183,7 @@ Type=Scalable
 
 [devices/16]
 Size=16
+Scale=2
 Context=Devices
 MinSize=8
 MaxSize=512
@@ -170,6 +191,7 @@ Type=Scalable
 
 [devices/24]
 Size=24
+Scale=2
 Context=Devices
 MinSize=8
 MaxSize=512
@@ -177,6 +199,7 @@ Type=Scalable
 
 [devices/32]
 Size=32
+Scale=2
 Context=Devices
 MinSize=8
 MaxSize=512
@@ -184,6 +207,7 @@ Type=Scalable
 
 [devices/48]
 Size=48
+Scale=2
 Context=Devices
 MinSize=8
 MaxSize=512
@@ -191,6 +215,7 @@ Type=Scalable
 
 [devices/64]
 Size=64
+Scale=2
 Context=Devices
 MinSize=8
 MaxSize=512
@@ -198,6 +223,7 @@ Type=Scalable
 
 [devices/128]
 Size=128
+Scale=2
 Context=Devices
 MinSize=8
 MaxSize=512
@@ -212,6 +238,7 @@ Type=Scalable
 
 [emblems/16]
 Size=16
+Scale=2
 Context=Emblems
 MinSize=8
 MaxSize=512
@@ -219,6 +246,7 @@ Type=Scalable
 
 [emblems/24]
 Size=24
+Scale=2
 Context=Emblems
 MinSize=8
 MaxSize=512
@@ -226,6 +254,7 @@ Type=Scalable
 
 [emblems/32]
 Size=32
+Scale=2
 Context=Emblems
 MinSize=8
 MaxSize=512
@@ -233,6 +262,7 @@ Type=Scalable
 
 [emblems/48]
 Size=48
+Scale=2
 Context=Emblems
 MinSize=8
 MaxSize=512
@@ -240,6 +270,7 @@ Type=Scalable
 
 [emblems/64]
 Size=64
+Scale=2
 Context=Emblems
 MinSize=8
 MaxSize=512
@@ -247,6 +278,7 @@ Type=Scalable
 
 [emblems/128]
 Size=128
+Scale=2
 Context=Emblems
 MinSize=8
 MaxSize=512
@@ -261,6 +293,7 @@ Type=Scalable
 
 [emotes/16]
 Size=16
+Scale=2
 Context=Emotes
 MinSize=8
 MaxSize=512
@@ -268,6 +301,7 @@ Type=Scalable
 
 [emotes/24]
 Size=24
+Scale=2
 Context=Emotes
 MinSize=8
 MaxSize=512
@@ -275,6 +309,7 @@ Type=Scalable
 
 [emotes/32]
 Size=32
+Scale=2
 Context=Emotes
 MinSize=8
 MaxSize=512
@@ -282,6 +317,7 @@ Type=Scalable
 
 [emotes/48]
 Size=48
+Scale=2
 Context=Emotes
 MinSize=8
 MaxSize=512
@@ -289,6 +325,7 @@ Type=Scalable
 
 [emotes/64]
 Size=64
+Scale=2
 Context=Emotes
 MinSize=8
 MaxSize=512
@@ -296,6 +333,7 @@ Type=Scalable
 
 [emotes/128]
 Size=128
+Scale=2
 Context=Emotes
 MinSize=8
 MaxSize=512
@@ -303,6 +341,7 @@ Type=Scalable
 
 [mimes/16]
 Size=16
+Scale=2
 Context=MimeTypes
 MinSize=8
 MaxSize=512
@@ -310,6 +349,7 @@ Type=Scalable
 
 [mimes/24]
 Size=24
+Scale=2
 Context=MimeTypes
 MinSize=8
 MaxSize=512
@@ -317,6 +357,7 @@ Type=Scalable
 
 [mimes/32]
 Size=32
+Scale=2
 Context=MimeTypes
 MinSize=8
 MaxSize=512
@@ -324,6 +365,7 @@ Type=Scalable
 
 [mimes/48]
 Size=48
+Scale=2
 Context=MimeTypes
 MinSize=8
 MaxSize=512
@@ -331,6 +373,7 @@ Type=Scalable
 
 [mimes/64]
 Size=64
+Scale=2
 Context=MimeTypes
 MinSize=8
 MaxSize=512
@@ -338,6 +381,7 @@ Type=Scalable
 
 [mimes/128]
 Size=128
+Scale=2
 Context=MimeTypes
 MinSize=8
 MaxSize=512
@@ -352,6 +396,7 @@ Type=Scalable
 
 [places/16]
 Size=16
+Scale=2
 Context=Places
 MinSize=8
 MaxSize=512
@@ -359,6 +404,7 @@ Type=Scalable
 
 [places/24]
 Size=24
+Scale=2
 Context=Places
 MinSize=8
 MaxSize=512
@@ -366,6 +412,7 @@ Type=Scalable
 
 [places/32]
 Size=32
+Scale=2
 Context=Places
 MinSize=8
 MaxSize=512
@@ -373,6 +420,7 @@ Type=Scalable
 
 [places/48]
 Size=48
+Scale=2
 Context=Places
 MinSize=8
 MaxSize=512
@@ -380,6 +428,7 @@ Type=Scalable
 
 [places/64]
 Size=64
+Scale=2
 Context=Places
 MinSize=8
 MaxSize=512
@@ -387,6 +436,7 @@ Type=Scalable
 
 [places/128]
 Size=128
+Scale=2
 Context=Places
 MinSize=8
 MaxSize=512
@@ -394,6 +444,7 @@ Type=Scalable
 
 [places/symbolic]
 Size=16
+Scale=2
 Context=Places
 MinSize=8
 MaxSize=512
@@ -401,6 +452,7 @@ Type=Scalable
 
 [status/16]
 Size=16
+Scale=2
 Context=Status
 MinSize=8
 MaxSize=512
@@ -408,6 +460,7 @@ Type=Scalable
 
 [status/24]
 Size=24
+Scale=2
 Context=Status
 MinSize=8
 MaxSize=512
@@ -415,6 +468,7 @@ Type=Scalable
 
 [status/32]
 Size=32
+Scale=2
 Context=Status
 MinSize=8
 MaxSize=512
@@ -422,6 +476,7 @@ Type=Scalable
 
 [status/48]
 Size=48
+Scale=2
 Context=Status
 MinSize=8
 MaxSize=512
@@ -429,6 +484,7 @@ Type=Scalable
 
 [status/64]
 Size=64
+Scale=2
 Context=Status
 MinSize=8
 MaxSize=512
@@ -436,6 +492,7 @@ Type=Scalable
 
 [status/128]
 Size=128
+Scale=2
 Context=Status
 MinSize=8
 MaxSize=512
@@ -450,6 +507,7 @@ Type=Scalable
 
 [panel/16]
 Size=16
+Scale=2
 Context=Status
 MinSize=8
 MaxSize=512
@@ -457,20 +515,7 @@ Type=Scalable
 
 [panel/24]
 Size=24
-Context=Status
-MinSize=8
-MaxSize=512
-Type=Scalable
-
-[panel/48]
-Size=48
-Context=Status
-MinSize=8
-MaxSize=512
-Type=Scalable
-
-[panel/128]
-Size=128
+Scale=2
 Context=Status
 MinSize=8
 MaxSize=512
