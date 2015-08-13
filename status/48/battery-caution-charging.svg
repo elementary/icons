@@ -8,10 +8,34 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
    width="48"
    height="48"
-   id="svg2485">
+   id="svg2485"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="battery-caution-charging.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="845"
+     id="namedview61"
+     showgrid="false"
+     inkscape:zoom="13.270833"
+     inkscape:cx="12.621664"
+     inkscape:cy="24"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2485" />
   <metadata
      id="metadata71">
     <rdf:RDF>
@@ -20,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -226,7 +250,49 @@
        xlink:href="#linearGradient4271"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1,0,0,0.83333334,0,7.2499998)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3821"
+       id="linearGradient3827"
+       x1="12.029413"
+       y1="25"
+       x2="36.608757"
+       y2="25"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-48,0)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3821">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3823" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3825" />
+    </linearGradient>
+    <linearGradient
+       y2="25"
+       x2="36.608757"
+       y1="25"
+       x1="12.029413"
+       gradientTransform="translate(-48,0)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3848"
+       xlink:href="#linearGradient3821"
+       inkscape:collect="always" />
   </defs>
+  <rect
+     width="25"
+     height="39"
+     rx="13.5"
+     ry="1.5"
+     x="-36.5"
+     y="5.5"
+     id="rect3268-4"
+     style="opacity:0.1;color:#000000;fill:url(#linearGradient3848);fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:block;overflow:visible;enable-background:accumulate"
+     transform="scale(-1,1)" />
   <path
      d="M 40,42.5 A 16,4.5 0 0 1 7.9999998,42.5 16,4.5 0 1 1 40,42.5 z"
      id="path3818-0-5"
@@ -277,16 +343,11 @@
   <path
      d="M 20,5.59375 C 16.787316,5.7149057 15.492733,5.9541603 14,6.3125 l 0,37.375 c 1.492733,0.35834 2.787316,0.597594 6,0.71875 z"
      id="path5194"
-     style="opacity:0.4;fill:url(#linearGradient5508);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+     style="opacity:0.3;fill:url(#linearGradient5508);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
   <path
      d="m 31,5.875 0,38.25 c 1.136673,-0.123654 2.304289,-0.27049 3,-0.4375 L 34,6.3125 C 33.304289,6.1454904 32.136673,5.9986542 31,5.875 z"
      id="rect3244"
      style="opacity:0.1;fill:url(#linearGradient5510);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
-  <path
-     d="m 20,7.5 a 3.5,1.5 0 1 1 -7,0 3.5,1.5 0 1 1 7,0 z"
-     transform="matrix(0.90865815,0,0,2.0656555,1.5071413,-8.7383745)"
-     id="path5124"
-     style="opacity:0.2;color:#000000;fill:url(#radialGradient5132);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   <path
      d="m 24,33.5 c -3.429911,0 -6.520095,0.144718 -8.71875,0.364583 -1.099328,0.109933 -1.994055,0.237154 -2.53125,0.364584 -0.142017,0.03369 -0.164439,0.04987 -0.25,0.07813 l 0,8.385416 c 0.08556,0.02826 0.107983,0.04443 0.25,0.07813 0.537195,0.12743 1.431922,0.254651 2.53125,0.364584 C 17.479905,43.355283 20.570089,43.5 24,43.5 c 3.429911,0 6.520095,-0.144717 8.71875,-0.364583 1.099328,-0.109933 1.994055,-0.237154 2.53125,-0.364584 0.142017,-0.03369 0.164439,-0.04987 0.25,-0.07813 l 0,-8.385416 c -0.08556,-0.02826 -0.107983,-0.04444 -0.25,-0.07813 -0.537195,-0.12743 -1.431922,-0.254651 -2.53125,-0.364584 C 30.520095,33.644718 27.429911,33.5 24,33.5 z"
      id="path4230"
@@ -303,4 +364,9 @@
        id="path2911"
        style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   </g>
+  <path
+     d="m 20,7.5 a 3.5,1.5 0 1 1 -7,0 3.5,1.5 0 1 1 7,0 z"
+     transform="matrix(0.90865815,0,0,2.0656555,1.5071413,-8.7383745)"
+     id="path5124"
+     style="opacity:0.2;color:#000000;fill:url(#radialGradient5132);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
 </svg>
