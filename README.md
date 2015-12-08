@@ -1,4 +1,9 @@
 # elementary Icons
+
+<div style="width:100%;display:inline-block;text-align:center;">
+    <img title="Warning icon" class="hig-icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/dialog-warning.svg"><img title="Chat icon" class="hig-icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/internet-chat.svg"><img title="Photos icon" class="hig-icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/multimedia-photo-manager.svg"><img title="Videos icon" class="hig-icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/multimedia-video-player.svg"><img title="Online Accounts icon" class="hig-icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/preferences-desktop-online-accounts.svg"><img title="Terminal icon" class="hig-icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/utilities-terminal.svg">
+ </div>
+
 An original set of vector icons designed specifically for [elementary OS](http://elementary.io) and its desktop environment, Pantheon.
 
 [Design Guidelines](http://elementary.io/docs/human-interface-guidelines#iconography)
