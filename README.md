@@ -16,7 +16,7 @@
 # elementary Icons
 An original set of vector icons designed specifically for [elementary OS](http://elementary.io) and its desktop environment, Pantheon.
 
-All icons abide by the elementary [Design Guidelines](https://elementary.io/docs/human-interface-guidelines#iconography).
+All icons abide by the elementary [Design Guidelines](http://elementary.io/docs/human-interface-guidelines#iconography).
 
 It is recommended to use the free and open source [Inkscape](http://inkscape.org) vector editor.
 
