@@ -16,15 +16,19 @@
 # elementary Icons
 An original set of vector icons designed specifically for [elementary OS](http://elementary.io) and its desktop environment: Pantheon.
 
-All icons abide by the elementary [Design Guidelines](http://elementary.io/docs/human-interface-guidelines#iconography).
+These icons are licensed openly under the terms of the [GNU General Public License](COPYING). Redistributing, forking, remixing, etc. are encouraged!
 
-It is recommended to use the free and open source [Inkscape](http://inkscape.org) vector editor.
+If you feel the desire to compensate the artists who maintain these icons for your usage, [please see this page](http://elementary.io/get-involved#funding) and thank you!
 
-## Not a General Purpose Icon Set
-Since this set is designed specifically for elementary OS, pull requests to add icons or symlinks that are specific to other desktop environments (such as `xfce-*` or `gnome-*` named icons) will be rejected. Use of icon names in line with the [FreeDesktop.Org Icon Naming Specification](http://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html) is encouraged.
+## Contributing Icons
+It is recommended to use the free and open source [Inkscape](http://inkscape.org) vector editor to create elementary icons. Any and all icons must follow the elementary [Icon Design Guidelines](http://elementary.io/docs/human-interface-guidelines#iconography).
 
-## Preserves 3rd-Party Branding
-elementary icons does not attempt to supply icons for 3rd party apps. Pull requests to add icons or symlinks that would overwrite the branding of 3rd party apps will be rejected.
+To contribute to the elementary icon set, open a pull request to this repository with your icon(s).
 
-## Openly Licensed
-Redistributing, forking, remixing, etc. are encouraged! These icons are licensed under the terms of the GNU General Public License as outlined in the included COPYING file. If you feel the desire to compensate the artists who maintain these icons for your usage, [please see this page](http://elementary.io/get-involved#funding) and thank you!
+## Not a Universal Icon Set
+Since this set is designed specifically for elementary OS, pull requests to add icons or symlinks that are specific to other desktop environments (such as `xfce-*` or `gnome-*` named icons) will be rejected. 
+
+Use of icon names in line with the [FreeDesktop.Org Icon Naming Specification](http://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html) is encouraged.
+
+## Third-Party Brand Preservation
+elementary icons do not attempt to supply icons for third-party apps. Pull requests to add icons or symbolic links that would overwrite the branding of third-party apps will be rejected.
