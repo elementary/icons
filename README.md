@@ -14,7 +14,7 @@
  </div>
 
 # elementary Icons
-An original set of vector icons designed specifically for [elementary OS](http://elementary.io) and its desktop environment, Pantheon.
+An original set of vector icons designed specifically for [elementary OS](http://elementary.io) and its desktop environment: Pantheon.
 
 All icons abide by the elementary [Design Guidelines](http://elementary.io/docs/human-interface-guidelines#iconography).
 
