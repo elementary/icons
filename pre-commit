@@ -8,7 +8,7 @@ echo "Running Inkscape vacuum. This may take some time..."
 
 git diff --cached --name-status --diff-filter=ACMR | while read STATUS FILE; do
   if [[ "$FILE" =~ ^.+(svg)$ ]]; then
-    inkscape --vacuum-defs -z $CDIR/$FILE
+    inkscape --vacuum-defs -z $CDIR/$FILE --export-plain-svg=$CDIR/$FILE
   fi
 done
 
