@@ -18,7 +18,24 @@
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:title>elementary Symbolic Icon Theme</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
       </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <title
@@ -26,35 +43,16 @@
   <defs
      id="defs7386" />
   <g
-     transform="matrix(1,0,0.17497732,1,-406.30394,-68)"
+     transform="translate(-317.00061,55)"
      style="display:inline"
-     label="status"
-     id="layer9" />
-  <g
-     transform="matrix(1,0,0.17497732,1,-406.30394,-68)"
-     style="display:inline"
-     id="layer10" />
-  <g
-     transform="matrix(1,0,0.17497732,1,-406.30394,-68)"
-     style="display:inline"
-     id="layer13" />
-  <g
-     transform="matrix(1,0,0.17497732,1,-406.30394,-68)"
-     id="layer14" />
-  <g
-     transform="matrix(1,0,0.17497732,1,-406.30394,-68)"
-     style="display:inline"
-     id="layer15" />
-  <g
-     transform="matrix(1,0,0.17497732,1,-406.30394,-68)"
-     style="display:inline"
-     id="g71291" />
-  <path
-     id="rect4505"
-     d="m 2,9 0,1 12,0 0,-1 z"
-     style="opacity:1;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     id="rect4554"
-     d="m 3,3 0,2 4,0 0,3 2,0 0,-3 4,0 0,-2 z m 4,8 0,3 2,0 0,-3 z"
-     style="opacity:1;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     id="layer12">
+    <path
+       style="opacity:1;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4505"
+       d="m 319.0002,-46 0,1 12,0 0,-1 z" />
+    <path
+       style="opacity:1;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4554-7"
+       d="m 320.0002,-52 0,2 4,0 0,3 2,0 0,-3 4,0 0,-2 z m 4,8 0,3 2,0 0,-3 z" />
+  </g>
 </svg>

@@ -18,7 +18,24 @@
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:title>elementary Symbolic Icon Theme</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
       </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <title
@@ -26,31 +43,12 @@
   <defs
      id="defs7386" />
   <g
-     transform="matrix(1,0,0.17497732,1,-406.30394,-68)"
+     transform="translate(-297.00061,55)"
      style="display:inline"
-     label="status"
-     id="layer9" />
-  <g
-     transform="matrix(1,0,0.17497732,1,-406.30394,-68)"
-     style="display:inline"
-     id="layer10" />
-  <g
-     transform="matrix(1,0,0.17497732,1,-406.30394,-68)"
-     style="display:inline"
-     id="layer13" />
-  <g
-     transform="matrix(1,0,0.17497732,1,-406.30394,-68)"
-     id="layer14" />
-  <g
-     transform="matrix(1,0,0.17497732,1,-406.30394,-68)"
-     style="display:inline"
-     id="layer15" />
-  <g
-     transform="matrix(1,0,0.17497732,1,-406.30394,-68)"
-     style="display:inline"
-     id="g71291" />
-  <path
-     id="rect4346"
-     d="M 7,3 7,4 7.9443836,3.995 6.1397783,13 5,13 5,14 9,14 9,13 8.1394676,13 9.9440716,3.995 11,4 11,3 Z"
-     style="opacity:1;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     id="layer12">
+    <path
+       style="opacity:1;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4346-5"
+       d="m 304.0002,-53 0,1 0.94438,-0.005 -1.8046,9.005 -1.13978,0 0,1 4,0 0,-1 -0.86053,0 1.8046,-9.005 1.05593,0.005 0,-1 z" />
+  </g>
 </svg>
