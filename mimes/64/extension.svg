@@ -25,57 +25,6 @@
   <defs
      id="defs3785">
     <linearGradient
-       id="linearGradient4281">
-      <stop
-         offset="0"
-         style="stop-color:#ffffff;stop-opacity:1"
-         id="stop4283" />
-      <stop
-         id="stop4291"
-         style="stop-color:#ffffff;stop-opacity:0"
-         offset="0.1750547" />
-      <stop
-         offset="0.24507658"
-         style="stop-color:#ffffff;stop-opacity:1"
-         id="stop4285" />
-      <stop
-         id="stop4293"
-         style="stop-color:#ffffff;stop-opacity:0"
-         offset="0.3501094" />
-      <stop
-         offset="0.4201313"
-         style="stop-color:#ffffff;stop-opacity:0.20261438"
-         id="stop4299" />
-      <stop
-         offset="0.45514223"
-         style="stop-color:#ffffff;stop-opacity:1"
-         id="stop4295" />
-      <stop
-         id="stop4297"
-         style="stop-color:#ffffff;stop-opacity:0"
-         offset="0.56912428" />
-      <stop
-         offset="0.70683217"
-         style="stop-color:#ffffff;stop-opacity:0.26143792"
-         id="stop4307" />
-      <stop
-         offset="0.75273526"
-         style="stop-color:#ffffff;stop-opacity:1"
-         id="stop4303" />
-      <stop
-         id="stop4305"
-         style="stop-color:#ffffff;stop-opacity:0.07058824;"
-         offset="0.84026259" />
-      <stop
-         offset="1"
-         style="stop-color:#ffffff;stop-opacity:0.15686275"
-         id="stop4287" />
-      <stop
-         offset="1"
-         style="stop-color:#ffffff;stop-opacity:0.39215687"
-         id="stop4289" />
-    </linearGradient>
-    <linearGradient
        id="linearGradient3702">
       <stop
          id="stop3704"
@@ -99,6 +48,17 @@
       <stop
          id="stop3692"
          style="stop-color:#000000;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4222">
+      <stop
+         id="stop4224"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop4226"
+         style="stop-color:#ffffff;stop-opacity:0"
          offset="1" />
     </linearGradient>
     <radialGradient
@@ -216,12 +176,12 @@
     </linearGradient>
     <linearGradient
        gradientUnits="userSpaceOnUse"
-       y2="61.125"
-       x2="25"
-       y1="4"
-       x1="25"
+       y2="61"
+       x2="26"
+       y1="3.773787"
+       x1="25.892582"
        id="linearGradient4269"
-       xlink:href="#linearGradient4281" />
+       xlink:href="#linearGradient4222" />
   </defs>
   <g
      style="opacity:0.3"
@@ -283,7 +243,7 @@
      style="opacity:1;fill:url(#radialGradient4210);fill-opacity:1;stroke:#0f5a00;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.49803922" />
   <path
      id="rect4214"
-     d="m 25,4.5 c -3.589851,0 -6.5,2.9101491 -6.5,6.5 0.0027,2.622397 1.580949,4.986316 4.001953,5.994141 -1.3e-5,0.0021 -0.002,0.0037 -0.002,0.0059 l 0,1.5 -18,0 c -0.554,0 -1,0.446 -1,1 l 0,12.03125 C 5.0344012,30.223289 6.9837812,29.503347 9,29.5 c 4.69442,0 8.5,3.80558 8.5,8.5 0,4.69442 -3.80558,8.5 -8.5,8.5 -2.0147381,-7.6e-5 -3.9639473,-0.715801 -5.5,-2.019531 L 3.5,59.5 c 0,0.554 0.446,1 1,1 l 14.03125,0 C 17.223289,58.965599 16.503347,57.016219 16.5,55 c 0,-4.69442 3.80558,-8.5 8.5,-8.5 4.69442,0 8.5,3.80558 8.5,8.5 -7.6e-5,2.014738 -0.715801,3.963947 -2.019531,5.5 L 44.5,60.5 c 0.554,0 1,-0.446 1,-1 l 0,-19 1.5,0 0.002,0 c 1.008979,2.421549 3.374702,3.999212 5.998047,4 3.589851,0 6.5,-2.910149 6.5,-6.5 0,-3.589851 -2.910149,-6.5 -6.5,-6.5 -2.622397,0.0027 -4.986316,1.580949 -5.994141,4.001953 C 47.003732,35.50194 47.002131,35.5 47,35.5 l -1.5,0 0,-16 c 0,-0.554 -0.446,-1 -1,-1 l -17,0 0,-1.5 0,-0.002 C 29.921549,15.989068 31.499212,13.623345 31.5,11 31.5,7.6823715 29.014476,4.9452681 25.803969,4.5492306 25.540536,4.5167344 25.272222,4.5 25,4.5 Z"
+     d="M 25 4.5 A 6.5 6.5 0 0 0 18.5 11 A 6.5 6.5 0 0 0 22.501953 16.994141 C 22.50194 16.996268 22.5 16.997869 22.5 17 L 22.5 18.5 L 4.5 18.5 C 3.946 18.5 3.5 18.946 3.5 19.5 L 3.5 31.53125 A 8.5 8.5 0 0 1 9 29.5 A 8.5 8.5 0 0 1 17.5 38 A 8.5 8.5 0 0 1 9 46.5 A 8.5 8.5 0 0 1 3.5 44.480469 L 3.5 59.5 C 3.5 60.054 3.946 60.5 4.5 60.5 L 18.53125 60.5 A 8.5 8.5 0 0 1 16.5 55 A 8.5 8.5 0 0 1 25 46.5 A 8.5 8.5 0 0 1 33.5 55 A 8.5 8.5 0 0 1 31.480469 60.5 L 44.5 60.5 C 45.054 60.5 45.5 60.054 45.5 59.5 L 45.5 40.5 L 47 40.5 L 47.001953 40.5 A 6.5 6.5 0 0 0 53 44.5 A 6.5 6.5 0 0 0 59.5 38 A 6.5 6.5 0 0 0 53 31.5 A 6.5 6.5 0 0 0 47.005859 35.501953 C 47.003732 35.50194 47.002131 35.5 47 35.5 L 45.5 35.5 L 45.5 19.5 C 45.5 18.946 45.054 18.5 44.5 18.5 L 27.5 18.5 L 27.5 17 L 27.5 16.998047 A 6.5 6.5 0 0 0 31.5 11 A 6.5 6.5 0 0 0 25 4.5 z "
      style="opacity:1;fill:none;fill-opacity:1;stroke:url(#linearGradient4269);stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.49803922" />
   <path
      d="m 115,-8.4999801 -44.999999,0 0,-57.0000399 44.999999,0 z"
