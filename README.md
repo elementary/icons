@@ -14,6 +14,9 @@
  </div>
 
 # elementary Icons
+
+[![Bountysource](https://www.bountysource.com/badge/tracker?tracker_id=27377189)](https://www.bountysource.com/trackers/27377189-elementary-icons)
+
 An original set of vector icons designed specifically for [elementary OS](http://elementary.io) and its desktop environment: Pantheon.
 
 These icons are licensed openly under the terms of the [GNU General Public License](COPYING). Redistributing, forking, remixing, etc. are encouraged!
