@@ -152,7 +152,7 @@ MinSize=8
 MaxSize=512
 Type=Scalable
 
-[actions@2x/symbolic,actions@3x/symbolic]
+[actions@2x/symbolic]
 Size=16
 Scale=2
 Context=Actions
@@ -313,7 +313,7 @@ MinSize=8
 MaxSize=512
 Type=Scalable
 
-[apps@2x/symbolic,apps@3x/symbolic]
+[apps@2x/symbolic]
 Size=16
 Scale=2
 Context=Applications
@@ -474,7 +474,7 @@ MinSize=8
 MaxSize=512
 Type=Scalable
 
-[categories@2x/symbolic,categories@3x/symbolic]
+[categories@2x/symbolic]
 Size=16
 Scale=2
 Context=Categories
@@ -635,7 +635,7 @@ MinSize=8
 MaxSize=512
 Type=Scalable
 
-[devices@2x/symbolic,devices@3x/symbolic]
+[devices@2x/symbolic]
 Size=16
 Scale=2
 Context=Devices
@@ -796,7 +796,7 @@ MinSize=8
 MaxSize=512
 Type=Scalable
 
-[emblems@2x/symbolic,emblems@3x/symbolic]
+[emblems@2x/symbolic]
 Size=16
 Scale=2
 Context=Emblems
@@ -980,7 +980,7 @@ MinSize=8
 MaxSize=512
 Type=Scalable
 
-[mimes@2x/symbolic,mimes@3x/symbolic]
+[mimes@2x/symbolic]
 Size=16
 Scale=2
 Context=MimeTypes
@@ -1141,7 +1141,7 @@ MinSize=8
 MaxSize=512
 Type=Scalable
 
-[places@2x/symbolic,places@3x/symbolic]
+[places@2x/symbolic]
 Size=16
 Scale=2
 Context=Places
@@ -1302,7 +1302,7 @@ MinSize=8
 MaxSize=512
 Type=Scalable
 
-[status@2x/symbolic,status@3x/symbolic]
+[status@2x/symbolic]
 Size=16
 Scale=2
 Context=Status
