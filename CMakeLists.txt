@@ -1,0 +1,22 @@
+cmake_minimum_required (VERSION 3.2)
+cmake_policy (VERSION 3.2)
+project (elementary NONE)
+
+include (GNUInstallDirs)
+set (DATADIR "${CMAKE_INSTALL_FULL_DATAROOTDIR}")
+set (ICONDIR "${DATADIR}/icons/${CMAKE_PROJECT_NAME}")
+set (VERSION "4.0.1")
+
+add_subdirectory (actions)
+add_subdirectory (apps)
+add_subdirectory (categories)
+add_subdirectory (cursors)
+add_subdirectory (devices)
+add_subdirectory (emblems)
+add_subdirectory (emotes)
+add_subdirectory (mimes)
+add_subdirectory (places)
+add_subdirectory (status)
+
+install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/index.theme DESTINATION ${ICONDIR})
+install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/cursor.theme DESTINATION ${ICONDIR})
