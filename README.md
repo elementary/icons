@@ -34,6 +34,15 @@ $ cp pre-commit .git/hooks/
 $ chmod +x .git/hooks/pre-commit
 ```
 
+## Installation
+You need the [CMake](https://cmake.org) build system to install it.
+Once you've installed it, run these commands in the root of the icon set.
+```bash
+$ mkdir build && cd build
+$ cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+$ sudo make install
+```
+
 ## Not a Universal Icon Set
 Since this set is designed specifically for elementary OS, pull requests to add icons or symlinks that are specific to other desktop environments (such as `xfce-*` or `gnome-*` named icons) will be rejected.
 
