@@ -4,7 +4,7 @@ It is recommended to use the free and open source [Inkscape](http://inkscape.org
 An elementary color palette is provided, it is recommended to copy it into your Inkscape settings before you get started.
 
 ```bash
-$ cp elementary.gpl $HOME/.config/inkscape/palettes/
+cp elementary.gpl ~/.config/inkscape/palettes/
 ```
 
 To contribute to the elementary icon set, open a pull request to this repository with your icon(s).
