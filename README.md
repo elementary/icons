@@ -50,3 +50,4 @@ Use of icon names in line with the [FreeDesktop.Org Icon Naming Specification](h
 
 ## Third-Party Brand Preservation
 elementary icons do not attempt to supply icons for third-party apps. Pull requests to add icons or symbolic links that would overwrite the branding of third-party apps will be rejected.
+
