@@ -1,53 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   id="svg12"
-   version="1.1"
-   width="16"
-   height="16">
-  <metadata
-     id="metadata18">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs16" />
-  <g
-     id="g10"
-     fill="#666">
-    <path
-       id="path2"
-       d="M13.213 1a.83.83 0 0 0-.59.247l-1.631 1.64-7 7v3.12h3.121l7-7 1.639-1.63a.826.826 0 0 0 0-1.179l-1.95-1.951a.83.83 0 0 0-.59-.246zm0 1.071l1.716 1.717-.728.713-1.707-1.707zm-1.424 1.432l1.705 1.705-.09.09L6.7 12.007H6v-1H5v-.703l6.698-6.711z" />
-    <path
-       id="path4"
-       opacity=".4"
-       d="M13.213 2.071l1.716 1.717-.728.713-1.707-1.707z" />
-    <path
-       id="path6"
-       fill-rule="evenodd"
-       opacity=".2"
-       overflow="visible"
-       white-space="normal"
-       font-family="sans-serif"
-       font-weight="400"
-       color="#000"
-       style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal"
-       d="M12.647 3.652l-8 8 .707.707 8-8z" />
-    <path
-       id="path8"
-       overflow="visible"
-       color="#bebebe"
-       style="marker:none"
-       d="M3.5 1C2.67 1 2 1.669 2 2.5v11c0 .831.67 1.5 1.5 1.5h9c.831 0 1.5-.669 1.5-1.5V7.533l-1 1V13.5c0 .302-.198.5-.5.5h-9c-.302 0-.5-.198-.5-.5v-11c0-.302.198-.5.5-.5h6.963l.994-1z" />
-  </g>
+<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+    <g fill="#666">
+        <path d="M13.213 1a.83.83 0 0 0-.59.247l-1.631 1.64-7 7v3.12h3.121l7-7 1.639-1.63a.826.826 0 0 0 0-1.179l-1.95-1.951a.83.83 0 0 0-.59-.246zm0 1.071l1.716 1.717-.728.713-1.707-1.707zm-1.424 1.432l1.705 1.705-.09.09L6.7 12.007H6v-1H5v-.703l6.698-6.711z"/>
+        <path d="M13.213 2.071l1.716 1.717-.728.713-1.707-1.707z" opacity=".4"/>
+        <path d="M12.647 3.652l-8 8 .707.707 8-8z" style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal" color="#000" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible" opacity=".2" fill-rule="evenodd"/>
+        <path d="M3.5 1C2.67 1 2 1.669 2 2.5v11c0 .831.67 1.5 1.5 1.5h9c.831 0 1.5-.669 1.5-1.5V7.533l-1 1V13.5c0 .302-.198.5-.5.5h-9c-.302 0-.5-.198-.5-.5v-11c0-.302.198-.5.5-.5h6.963l.994-1z" style="marker:none" color="#bebebe" overflow="visible"/>
+    </g>
 </svg>
