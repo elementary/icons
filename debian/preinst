@@ -1,0 +1,16 @@
+#!/bin/sh
+set -e
+
+if dpkg --compare-versions "$2" lt 4.3.0; then
+   # remove symlinks from the old package, before the CMake port
+   rm -f /usr/share/icons/elementary/actions@2x
+   rm -f /usr/share/icons/elementary/apps@2x
+   rm -f /usr/share/icons/elementary/categories@2x
+   rm -f /usr/share/icons/elementary/cursors@2x
+   rm -f /usr/share/icons/elementary/devices@2x
+   rm -f /usr/share/icons/elementary/emblems@2x
+   rm -f /usr/share/icons/elementary/emotes@2x
+   rm -f /usr/share/icons/elementary/mimes@2x
+   rm -f /usr/share/icons/elementary/places@2x
+   rm -f /usr/share/icons/elementary/status@2x
+fi

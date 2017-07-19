@@ -1,0 +1,32 @@
+Format: http://dep.debian.net/deps/dep5/
+Upstream-Name: elementary Icon Theme
+Source: https://github.com/elementary/icons
+Upstream-Contact: Daniel Fore <daniel@elementary.io>
+
+Files: *
+Copyright: 2009, Daniel Fore <daniel@elementary.io>
+           2009, Jonian Guveli <jonian.guveli@gmail.com>
+           2009, K.Vishnoo Charan Reddy <foo.mac.v@gmail.com>
+           2009, Sebastian Porta <sebastianporta@gmail.com>
+           2009, Oliver Scholtz <scholli_tz@yahoo.de>
+           2009, Dennis Fisher
+License: GPL-3.0+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    .
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    .
+    You should have received a copy of the GNU General Public License
+    along with this program. If not, see <http://www.gnu.org/licenses/>.
+    .
+    On Debian systems, the complete text of the GNU General
+    Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+Files: debian/*
+Copyright: 2017, Cody Garver <cody@elementary.io>
+License: GPL-3.0+
