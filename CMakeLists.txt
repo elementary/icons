@@ -87,7 +87,7 @@ foreach (DIRECTORY ${DIRECTORIES})
             endif ()
 
             # Generates the Directories= line
-            list(APPEND DIRECTORY_LIST ${DIRECTORY_NAME})
+            list (APPEND DIRECTORY_LIST ${DIRECTORY_NAME})
 
             # Get the corresponding element in DIRECTORIES_CONTEXTS
             list (FIND DIRECTORIES ${DIRECTORY} INDEX_NUMBER)
@@ -128,4 +128,3 @@ string (REPLACE ";" "," DIRECTORY_LIST "${DIRECTORY_LIST}")
 configure_file (${CMAKE_SOURCE_DIR}/index.theme.in ${CMAKE_BINARY_DIR}/index.theme)
 
 install (FILES ${CMAKE_BINARY_DIR}/index.theme DESTINATION ${ICONDIR})
-
