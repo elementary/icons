@@ -2,4 +2,6 @@
 
 update-alternatives --remove x-cursor-theme /usr/share/icons/elementary/cursor.theme
 
+rm -f /usr/share/icons/elementary/icon-theme.cache
+
 #DEBHELPER#
