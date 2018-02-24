@@ -3,8 +3,8 @@ set -e
 
 write_cache()
 {
-if [ -x /usr/bin/gtk-update-icon-cache-3.0 ]; then
-    if ! gtk-update-icon-cache-3.0 --force --quiet /usr/share/icons/elementary; then
+if [ -x /usr/bin/gtk-update-icon-cache ]; then
+    if ! gtk-update-icon-cache --force --quiet /usr/share/icons/elementary; then
         echo "WARNING: icon cache generation failed"
     fi
 fi
