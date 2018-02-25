@@ -1,0 +1,22 @@
+#!/bin/sh
+set -e
+
+write_cache()
+{
+if [ -x /usr/bin/gtk-update-icon-cache ]; then
+    if ! gtk-update-icon-cache --force --quiet /usr/share/icons/elementary; then
+        echo "WARNING: icon cache generation failed"
+    fi
+fi
+}
+
+if [ "$1" = "triggered" ]; then
+    write_cache
+    exit 0
+fi
+
+write_cache
+
+update-alternatives --install /usr/share/icons/default/index.theme x-cursor-theme /usr/share/icons/elementary/cursor.theme 12
+
+#DEBHELPER#

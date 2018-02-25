@@ -1,0 +1,18 @@
+Source: elementary-icon-theme
+Section: gnome
+Priority: optional
+Maintainer: Cody Garver <cody@elementary.io>
+Build-Depends: cmake (>= 3.3), debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://elementary.io/
+
+Package: elementary-icon-theme
+Architecture: all
+Depends: gnome-icon-theme-full | gnome-icon-theme (>= 3.12.0-2),
+         hicolor-icon-theme,
+         ${misc:Depends}
+Description: simple and appealing Tango-styled icon theme
+ The official elementary icons are designed to be simple and appealing.
+ .
+ These icons are the inspiration behind Ubuntu's default Humanity icon
+ theme.
