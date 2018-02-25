@@ -14,3 +14,5 @@ if dpkg --compare-versions "$2" lt 4.3.0; then
    rm -rf /usr/share/icons/elementary/places@2x
    rm -rf /usr/share/icons/elementary/status@2x
 fi
+
+#DEBHELPER#
