@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ "$1" = "remove" ] || [ "$1" = "deconfigure" ] ; then
+    update-alternatives --remove x-cursor-theme /usr/share/icons/elementary/cursor.theme
+fi
+
+#DEBHELPER#
