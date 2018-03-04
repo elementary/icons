@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="32" width="32">
+    <defs>
+        <linearGradient id="a">
+            <stop offset="0" stop-color="#90dbec"/>
+            <stop offset=".262" stop-color="#55c1ec"/>
+            <stop offset=".705" stop-color="#3689e6"/>
+            <stop offset="1" stop-color="#2b63a0"/>
+        </linearGradient>
+        <linearGradient id="b">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset=".512" stop-color="#fff" stop-opacity=".235"/>
+            <stop offset=".585" stop-color="#fff" stop-opacity=".157"/>
+            <stop offset="1" stop-color="#fff" stop-opacity=".392"/>
+        </linearGradient>
+        <linearGradient id="c">
+            <stop offset="0"/>
+            <stop offset="1" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="d">
+            <stop offset="0"/>
+            <stop offset="1" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="e">
+            <stop offset="0" stop-color="#f0c1ff"/>
+            <stop offset=".262" stop-color="#c5a3f2"/>
+            <stop offset=".705" stop-color="#7a36b1"/>
+            <stop offset="1" stop-color="#4c2d81"/>
+        </linearGradient>
+        <linearGradient gradientTransform="matrix(-.8179 0 0 .81725 35.387 -3.323)" gradientUnits="userSpaceOnUse" xlink:href="#a" id="h" y2="40.322" x2="25" y1="11.923" x1="25"/>
+        <linearGradient gradientTransform="matrix(-.89764 0 0 .89244 86.771 -8.33)" gradientUnits="userSpaceOnUse" xlink:href="#f" id="i" y2="58.048" x2="105.324" y1="2.048" x1="58.749"/>
+        <linearGradient id="f">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+        </linearGradient>
+        <radialGradient gradientTransform="matrix(-1.9845 0 0 .54877 38.326 17.445)" gradientUnits="userSpaceOnUse" xlink:href="#c" id="g" fy="19.031" fx="11.25" r="8.063" cy="19.031" cx="11.25"/>
+    </defs>
+    <path d="M0 27.889c-.001 5.9 31.999 5.9 32 0 .001-5.9-31.999-5.9-32 0z" style="marker:none" overflow="visible" opacity=".163" fill="url(#g)"/>
+    <path d="M.626 17.538l9.844 11.42 9.794-11.42h-4.982c-1.675-4.484 1.764-6.963 5.75-6.963 2.833 0 6.677 1.995 7.975 5.866.676 2.013 1.865 1.131 1.82-.619C30.647 9.07 25.637 3.67 18.158 3.67c-7.479 0-13.034 4.99-12.615 13.868z" style="marker:none" overflow="visible" fill="url(#h)" stroke="#00537d" stroke-linejoin="round" stroke-opacity=".498"/>
+    <path d="M2.868 18.62l7.521 8.678 7.475-8.677h-3.192c-2.8-6.228 1.308-9.072 6.855-9.186C24.444 9.375 28 12 30 15.812c-1-6-4.424-11.126-11.256-11.14-6.903-.012-13.176 3.9-12.156 13.949z" style="marker:none" overflow="visible" opacity=".354" fill="none" stroke="url(#i)"/>
+</svg>

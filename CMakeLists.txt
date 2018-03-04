@@ -13,7 +13,7 @@ set (DATADIR "${CMAKE_INSTALL_FULL_DATAROOTDIR}")
 ###
 
 set (ICONDIR "${DATADIR}/icons/${CMAKE_PROJECT_NAME}")
-set (VERSION "4.2.0")
+set (VERSION "4.3.1")
 
 # Just add a 3 or 4 to create new symlinks for very-hi-dpi.
 
