@@ -6,12 +6,74 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="16"
    height="16"
-   id="svg6955">
+   id="svg6955"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="internet-chat.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview88"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="-81.91795"
+     inkscape:cy="242.96274"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6955" />
   <defs
      id="defs6957">
+    <linearGradient
+       id="linearGradient4226">
+      <stop
+         id="stop4228"
+         style="stop-color:#8cd5ff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop4230"
+         style="stop-color:#64baff;stop-opacity:1"
+         offset="0.26238" />
+      <stop
+         id="stop4232"
+         style="stop-color:#3689e6;stop-opacity:1"
+         offset="0.704952" />
+      <stop
+         id="stop4234"
+         style="stop-color:#0d52bf;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4216">
+      <stop
+         id="stop4218"
+         style="stop-color:#d1ff82;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop4220"
+         style="stop-color:#9bdb4d;stop-opacity:1"
+         offset="0.26238" />
+      <stop
+         id="stop4222"
+         style="stop-color:#68b723;stop-opacity:1"
+         offset="0.66093999" />
+      <stop
+         id="stop4224"
+         style="stop-color:#3a9104;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
     <linearGradient
        x1="22.642942"
        y1="26.966721"
@@ -412,7 +474,7 @@
        x2="16"
        y2="28" />
     <radialGradient
-       xlink:href="#linearGradient4129"
+       xlink:href="#linearGradient4226"
        id="radialGradient3873"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(-2.8333331,2.6156123e-7,-2.4680868e-7,-2.6666669,34.499998,16.666663)"
@@ -422,7 +484,7 @@
        fy="4"
        r="6" />
     <radialGradient
-       xlink:href="#linearGradient4223"
+       xlink:href="#linearGradient4216"
        id="radialGradient3886"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(3.8333334,3.1370928e-7,3.1548001e-7,-3.8333335,-27.500001,16.333347)"
@@ -471,7 +533,7 @@
   <path
      id="path3884"
      d="m 9,0.50001743 c 2.484351,0 4.5,2.01564857 4.5,4.49999997 0,2.484351 -2.015649,4.5 -4.5,4.5 l -4,0 c -0.278759,0 -0.547729,-0.045181 -0.8125,-0.09375 C 3.31021,10.379664 1.868085,10.645951 0.65625,10.062517 1.294286,9.6885174 1.868605,9.2029714 2.34375,8.5937674 1.238589,7.7736384 0.5,6.4812274 0.5,5.0000174 0.5,2.515666 2.515649,0.50001743 5,0.50001743 l 4,0 z"
-     style="fill:url(#radialGradient3886);fill-opacity:1;stroke:#067d00;stroke-linejoin:round;stroke-opacity:0.49803922" />
+     style="fill:url(#radialGradient3886);fill-opacity:1;stroke:#206b00;stroke-linejoin:round;stroke-opacity:0.49803922" />
   <path
      clip-path="url(#clipPath3899)"
      style="fill:none;stroke:url(#linearGradient3913);stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.49803922;stroke-dasharray:none"
@@ -479,7 +541,7 @@
      id="path3911"
      transform="matrix(-1,0,0,1,16,-5)" />
   <path
-     style="fill:url(#radialGradient3873);fill-opacity:1;stroke:#00537d;stroke-opacity:0.49803922000000000;stroke-linejoin:round"
+     style="fill:url(#radialGradient3873);fill-opacity:1;stroke:#002e99;stroke-opacity:0.49803922;stroke-linejoin:round"
      d="M 7 5.5 C 4.5156486 5.5 2.5 7.5156486 2.5 10 C 2.5 12.484351 4.5156486 14.5 7 14.5 L 11 14.5 C 11.278759 14.5 11.547729 14.454819 11.8125 14.40625 C 12.68979 15.379647 14.131915 15.645934 15.34375 15.0625 C 14.705714 14.6885 14.131395 14.202954 13.65625 13.59375 C 14.761411 12.773621 15.5 11.48121 15.5 10 C 15.5 7.5156486 13.484351 5.5 11 5.5 L 7 5.5 z "
      id="rect3086" />
   <path
