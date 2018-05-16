@@ -41,12 +41,12 @@ $ chmod +x .git/hooks/pre-commit
 ```
 
 ## Installation
-You need the [CMake](https://cmake.org) build system to install it.
+You need the [Meson](http://mesonbuild.com) build system to install it.
 Once you've installed it, run these commands in the root of the icon set.
 ```bash
-$ mkdir build && cd build
-$ cmake .. -DCMAKE_INSTALL_PREFIX=/usr
-$ sudo make install
+$ meson build --prefix=/usr
+$ cd build
+$ sudo meson install
 ```
 
 ## Not a Universal Icon Set
