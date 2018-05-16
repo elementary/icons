@@ -8,9 +8,8 @@ parser.add_argument('--src', nargs=1)
 parser.add_argument('--dest', nargs=1)
 args = parser.parse_args()
 
-prefix = os.environ['MESON_INSTALL_DESTDIR_PREFIX']
-src = os.path.join(prefix, args.src[0])
-dest = os.path.join(prefix, args.dest[0])
+src = os.path.join(os.environ['MESON_INSTALL_PREFIX'], args.src[0])
+dest = os.path.join(os.environ['MESON_INSTALL_DESTDIR_PREFIX'], args.dest[0])
 
 if os.path.exists(dest):
     if os.path.isdir(dest):
