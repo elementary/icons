@@ -2,8 +2,8 @@ Source: elementary-icon-theme
 Section: gnome
 Priority: optional
 Maintainer: Cody Garver <cody@elementary.io>
-Build-Depends: cmake (>= 3.3), debhelper (>= 9)
-Standards-Version: 3.9.6
+Build-Depends: meson, debhelper (>= 10.5.1)
+Standards-Version: 4.1.1
 Homepage: https://elementary.io/
 
 Package: elementary-icon-theme

@@ -1,8 +1,8 @@
 #!/bin/sh
 set -e
 
-if dpkg --compare-versions "$2" lt 4.3.0; then
-   # remove symlinks from the old package, before the CMake port
+if dpkg --compare-versions "$2" lt 4.4.0; then
+   # remove symlinks from the old package, before the Meson port
    rm -rf /usr/share/icons/elementary/actions@2x
    rm -rf /usr/share/icons/elementary/apps@2x
    rm -rf /usr/share/icons/elementary/categories@2x
