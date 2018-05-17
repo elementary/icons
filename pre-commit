@@ -8,7 +8,9 @@ echo "Running Inkscape vacuum. This may take some time..."
 
 git diff --cached --name-status --diff-filter=ACMR | while read STATUS FILE; do
   if [[ "$FILE" =~ ^.+(svg)$ ]]; then
+    # --export-plain-svg is reordering elements, executing it twice restores the original order
     inkscape --vacuum-defs -z $CDIR/$FILE --export-plain-svg=$CDIR/$FILE
+    inkscape -z $CDIR/$FILE --export-plain-svg=$CDIR/$FILE
   fi
 done
 
