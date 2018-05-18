@@ -46,7 +46,7 @@ Once you've installed it, run these commands in the root of the icon set.
 ```bash
 $ meson build --prefix=/usr
 $ cd build
-$ sudo meson install
+$ sudo ninja install
 ```
 
 ## Not a Universal Icon Set
