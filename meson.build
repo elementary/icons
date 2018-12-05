@@ -195,3 +195,6 @@ subdir('cursors')
 if (get_option ('volume_icons'))
   subdir('volumeicon')
 endif
+if (get_option ('distributor_icons'))
+  subdir('distributor')
+endif
