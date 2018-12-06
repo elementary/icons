@@ -1,37 +1,23 @@
 hicolor_dir = join_paths(get_option('datadir'), 'icons', 'hicolor')
 
-install_subdir(
-    '16x16',
-    install_dir: hicolor_dir
-)
+icon_sizes = ['16', '24', '32', '48', '64', '128']
 
-install_subdir(
-    '24x24',
-    install_dir: hicolor_dir
-)
+foreach i : icon_sizes
+    install_data(
+        i + '.svg',
+        install_dir: join_paths(hicolor_dir, i + 'x' + i, 'places'),
+        rename: meson.project_name() + '.svg'
+    )
+    install_data(
+        i + '.svg',
+        install_dir: join_paths(hicolor_dir, i + 'x' + i + '@2', 'places'),
+        rename: 'distributor-logo.svg'
+    )
+endforeach
 
-install_subdir(
-    '32x32',
-    install_dir: hicolor_dir
-)
-
-install_subdir(
-    '48x48',
-    install_dir: hicolor_dir
-)
-
-install_subdir(
-    '64x64',
-    install_dir: hicolor_dir
-)
-
-install_subdir(
-    '128x128',
-    install_dir: hicolor_dir
-)
-
-install_subdir(
-    'symbolic',
-    install_dir: hicolor_dir
+install_data(
+    'symbolic.svg',
+    install_dir: join_paths(hicolor_dir, 'symbolic', 'places'),
+    rename: 'distributor-logo-symbolic.svg'
 )
 
