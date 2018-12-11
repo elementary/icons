@@ -16,3 +16,9 @@ Description: simple and appealing Tango-styled icon theme
  .
  These icons are the inspiration behind Ubuntu's default Humanity icon
  theme.
+
+Package: elementary-distributor-logo
+Architecture: all
+Depends: ${misc:Depends}
+Description: elementary OS styled distributor logo
+ elementary OS styled distributor logo, as seen in About plug.
