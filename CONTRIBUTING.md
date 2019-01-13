@@ -1,15 +1,17 @@
 ## Contributing Icons
-It is recommended to use the free and open source [Inkscape](http://inkscape.org) vector editor to create elementary icons. Any and all icons must follow the elementary [Icon Design Guidelines](http://elementary.io/docs/human-interface-guidelines#iconography).
+To contribute to the elementary icon set, open a pull request to this repository with your icon(s).
+All icons must follow the elementary [Icon Design Guidelines](http://elementary.io/docs/human-interface-guidelines#iconography).
 
-An elementary color palette is provided, it is recommended to copy it into your Inkscape settings before you get started.
+It is recommended to use the free and open source [Inkscape](http://inkscape.org) vector editor to create elementary icons.
 
+An [elementary color palette](elementary.gpl) ([rendered version](https://elementary.io/docs/human-interface-guidelines#color)) is provided.
+You can copy it into your Inkscape settings with the following command:
 ```bash
-cp elementary.gpl ~/.config/inkscape/palettes/
+$ cp elementary.gpl ~/.config/inkscape/palettes/
 ```
 
-To contribute to the elementary icon set, open a pull request to this repository with your icon(s).
-
-It is strongly encouraged to vacuum all vectors with [Inkscape](http://inkscape.org). This keeps the repository lean, clean, and fast for everyone. For convenience, a git pre-commit hook is included. To install, run these commands from your local repository folder:
+It is strongly encouraged to vacuum all vectors with Inkscape. This keeps the repository lean, clean, and fast for everyone.
+For convenience, a git pre-commit hook to do so is included in this repo. To install it, run these commands from your local repository folder:
 ```bash
 $ cp pre-commit .git/hooks/
 $ chmod +x .git/hooks/pre-commit
