@@ -40,7 +40,7 @@
          id="stop976"
          stop-opacity=".235294"
          stop-color="#fff"
-         offset="0" />
+         offset="0.00000012" />
       <stop
          id="stop978"
          stop-opacity=".156863"
@@ -68,7 +68,7 @@
          id="stop966"
          stop-opacity=".235294"
          stop-color="#fff"
-         offset="0" />
+         offset="0.00000042" />
       <stop
          id="stop968"
          stop-opacity=".156863"
@@ -138,7 +138,7 @@
        y2="1.9565217"
        gradientUnits="userSpaceOnUse"
        spreadMethod="reflect"
-       gradientTransform="matrix(0,1,-0.7965368,0,17.558504,-1.0000625)" />
+       gradientTransform="matrix(0,1,-0.7965368,0,17.558504,-1.0000615)" />
     <linearGradient
        xlink:href="#linearGradient987"
        id="linearGradient989"
@@ -148,25 +148,25 @@
        y2="1"
        gradientUnits="userSpaceOnUse"
        spreadMethod="reflect"
-       gradientTransform="matrix(0,1,-0.72727273,0,16.727335,-1.0000625)" />
+       gradientTransform="matrix(0,1,-0.72727273,0,16.727335,-1.0000615)" />
     <linearGradient
        id="e-3"
        gradientUnits="userSpaceOnUse"
-       x1="-79.999939"
-       x2="-69.999939"
+       x1="-69.999939"
+       x2="-78.999939"
        xlink:href="#linearGradient982"
-       y1="-203.34158"
-       y2="-203.34158"
-       gradientTransform="matrix(0,1,1,0,209.00006,82.99994)" />
+       y1="-203.33144"
+       y2="-203.33144"
+       gradientTransform="matrix(0,-1,0.5999964,0,126.39932,-65.999814)" />
     <linearGradient
        id="f-5"
        gradientUnits="userSpaceOnUse"
-       x1="-80.457016"
-       x2="-68.529137"
+       x1="-68.47847"
+       x2="-80.53672"
        xlink:href="#linearGradient874"
-       y1="-205.00006"
-       y2="-205.00006"
-       gradientTransform="matrix(0,1,1,0,209.00006,82.99994)" />
+       y1="-203.55769"
+       y2="-203.55769"
+       gradientTransform="matrix(0,-1,0.71428571,0,149.71434,-65.999817)" />
   </defs>
   <linearGradient
      id="a"
@@ -241,21 +241,21 @@
   <linearGradient
      id="e"
      gradientUnits="userSpaceOnUse"
-     x1="-80.214249"
-     x2="-70.214249"
+     x1="-70.214249"
+     x2="-78.785683"
      xlink:href="#linearGradient972"
-     y1="-203.26077"
-     y2="-203.26077"
-     gradientTransform="matrix(0,0.70000002,1,0,215.00006,59.149977)" />
+     y1="-203.27748"
+     y2="-203.27748"
+     gradientTransform="matrix(0,-0.70000002,0.5999964,0,133.39932,-45.149852)" />
   <linearGradient
      id="f"
      gradientUnits="userSpaceOnUse"
-     x1="-80.430077"
-     x2="-68.491425"
+     x1="-68.510841"
+     x2="-80.531319"
      xlink:href="#linearGradient874"
-     y1="-202.55377"
-     y2="-202.55377"
-     gradientTransform="matrix(0,0.75,1,0,215.00006,62.87497)" />
+     y1="-203.28578"
+     y2="-203.28578"
+     gradientTransform="matrix(0,-0.75,0.71428571,0,156.71434,-48.874845)" />
   <linearGradient
      id="g"
      gradientUnits="userSpaceOnUse"
@@ -341,41 +341,41 @@
      y1="489.54688"
      y2="489.54688" />
   <path
-     d="M 7.5000625,2.5000625 V 11.500063 H 14.500062 V 2.5000625 Z"
+     d="M 8.5000625,11.500063 V 2.5000625 h 4.9999995 v 9.0000005 z"
      stroke-miterlimit="3"
      id="path41"
      style="fill:url(#f);stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:3" />
   <path
      style="fill:none;stroke:url(#e);stroke-width:1;stroke-miterlimit:3"
-     d="M 8.5000625,3.5000626 V 10.500063 H 13.500092 V 3.5000626 Z"
+     d="M 9.5000624,10.500063 V 3.5000625 h 2.9999996 v 7.0000005 z"
      stroke-miterlimit="3"
      id="path43" />
   <path
-     d="M 7.5000625,2.5000625 V 11.500063 H 14.500062 V 2.5000625 Z"
+     d="M 8.5000625,11.500063 V 2.5000625 h 4.9999995 v 9.0000005 z"
      stroke-miterlimit="3"
      id="path41-2"
      style="opacity:0.5;fill:none;stroke:#555761;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:3" />
   <path
-     d="M 1.5000625,2.5000625 V 14.500063 h 7 V 2.5000625 Z"
+     d="M 1.5000625,14.500063 V 2.5000625 H 6.5000626 V 14.500063 Z"
      stroke-miterlimit="3"
      id="path41-9"
-     style="fill:url(#f-5);stroke:none;stroke-linejoin:round;stroke-miterlimit:3" />
+     style="fill:url(#f-5);stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:3" />
   <path
-     style="fill:none;stroke:url(#e-3);stroke-miterlimit:3"
-     d="M 2.5000625,3.5000625 V 13.500063 h 5.00003 V 3.5000625 Z"
+     style="fill:none;stroke:url(#e-3);stroke-width:1;stroke-miterlimit:3"
+     d="M 2.5000625,13.500063 V 3.5000625 h 3 V 13.500063 Z"
      stroke-miterlimit="3"
      id="path43-1" />
   <path
-     d="M 1.5000625,2.5000625 V 14.500063 h 7 V 2.5000625 Z"
+     d="M 1.5000625,14.500063 V 2.5000625 H 6.5000626 V 14.500063 Z"
      stroke-miterlimit="3"
      id="path41-2-2"
-     style="opacity:0.5;fill:none;stroke:#555761;stroke-linejoin:round;stroke-miterlimit:3" />
+     style="opacity:0.5;fill:none;stroke:#555761;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:3" />
   <path
      style="opacity:1;vector-effect:none;fill:url(#linearGradient953);fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:normal"
-     d="m 16.000062,1.4999375 0,2 -15.9999995,0 v -2 z"
+     d="m 16.000062,1.4999375 v 2 H 6.25e-5 v -2 z"
      id="rect935" />
   <path
      style="opacity:0.5;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient989);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;paint-order:normal"
-     d="m 16.000062,3.4999375 -15.9999995,0 m 0,-2 15.9999995,0"
+     d="M 16.000062,3.4999375 H 6.25e-5 m 0,-2 H 16.000062"
      id="rect935-0" />
 </svg>
