@@ -18,5 +18,5 @@ git diff --cached --name-status --diff-filter=ACMR | while read STATUS FILE; do
   fi
 done
 
-git add .
+git diff --cached --name-only | grep '.svg$' | xargs git add
 exit 0
