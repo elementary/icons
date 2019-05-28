@@ -2,21 +2,25 @@
 #
 # Runs Inkscape vacuum to clean up svgs
 
-CDIR=$(git rev-parse --show-toplevel)
-echo "Running Inkscape vacuum. This may take some time..."
-
-# Check if Inkscape is a flatpak or not
-if [ $(which inkscape &>/dev/null; echo $?) == 0 ]; then
-  INKSCAPE='inkscape'
-else
-  INKSCAPE='flatpak run org.inkscape.Inkscape'
-fi
-
-git diff --cached --name-status --diff-filter=ACMR | while read STATUS FILE; do
-  if [[ "$FILE" =~ ^.+(svg)$ ]]; then
-    $INKSCAPE --vacuum-defs -z $CDIR/$FILE --export-plain-svg=$CDIR/$FILE
+if [ "$(git diff --cached --name-only | grep '.svg$')" ]; then
+  
+  CDIR=$(git rev-parse --show-toplevel)
+  echo "Running Inkscape vacuum. This may take some time..."
+  
+  # Check if Inkscape is a flatpak or not
+  if [ $(which inkscape &>/dev/null; echo $?) == 0 ]; then
+    INKSCAPE='inkscape'
+  else
+    INKSCAPE='flatpak run org.inkscape.Inkscape'
   fi
-done
-
-git diff --cached --name-only | grep '.svg$' | xargs git add
+  
+  git diff --cached --name-status --diff-filter=ACMR | while read STATUS FILE; do
+    if [[ "$FILE" =~ ^.+(svg)$ ]]; then
+      $INKSCAPE --vacuum-defs -z $CDIR/$FILE --export-plain-svg=$CDIR/$FILE
+    fi
+  done
+  
+  git diff --cached --name-only | grep '.svg$' | xargs git add
+  
+fi
 exit 0
