@@ -1,6 +1,6 @@
 project (
     'elementary',
-    version: '5.0.3',
+    version: '5.0.4',
     license : 'GPL3+'
 )
 
