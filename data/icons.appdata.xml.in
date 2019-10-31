@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019 elementary, Inc. <contact@elementary.io> -->
+<component type="icon-theme">
+  <id>io.elementary.icons</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+​  <name>elementary Icons</name>
+​  <summary>Named, vector icons for elementary OS</summary>
+​  <description>
+​    <p>An original set of vector icons designed specifically for elementary OS and its desktop environment: Pantheon.</p>
+​  </description>  
+  <provides>
+    <binary>elementary-icons</binary>
+  </provides>
+  <releases>
+    <release version="5.1.0" date="2019-10-31" urgency="medium">
+      <description>
+        <ul>
+          <li>Add 64px prefs locale</li>
+          <li>Make symbol on 32px places home larger</li>
+          <li>New icons for Workspace preferences</li>
+          <li>Add symbolic variant for updates icon</li>
+          <li>Give browser-download its own unique icon</li>
+          <li>Use a more scalable metaphor for system updates</li>
+          <li>New view-reader icon</li>
+          <li>Add 32px wireless signal icons</li>
+          <li>Add 24px user status icons</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="violence-fantasy">none</content_attribute>
+    <content_attribute id="violence-realistic">none</content_attribute>
+    <content_attribute id="violence-bloodshed">none</content_attribute>
+    <content_attribute id="violence-sexual">none</content_attribute>
+    <content_attribute id="violence-desecration">none</content_attribute>
+    <content_attribute id="violence-slavery">none</content_attribute>
+    <content_attribute id="violence-worship">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="drugs-narcotics">none</content_attribute>
+    <content_attribute id="drugs-tobacco">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="sex-themes">none</content_attribute>
+    <content_attribute id="sex-homosexuality">none</content_attribute>
+    <content_attribute id="sex-prostitution">none</content_attribute>
+    <content_attribute id="sex-adultery">none</content_attribute>
+    <content_attribute id="sex-appearance">none</content_attribute>
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="language-humor">none</content_attribute>
+    <content_attribute id="language-discrimination">none</content_attribute>
+    <content_attribute id="social-chat">none</content_attribute>
+    <content_attribute id="social-info">none</content_attribute>
+    <content_attribute id="social-audio">none</content_attribute>
+    <content_attribute id="social-location">none</content_attribute>
+    <content_attribute id="social-contacts">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+  </content_rating>
+  <translation type="gettext">io.elementary.greeter</translation>
+  <compulsory_for_desktop>Pantheon</compulsory_for_desktop>
+  <developer_name>elementary, Inc.</developer_name>
+  <url type="homepage">https://elementary.io</url>
+  <url type="bugtracker">https://github.com/elementary/greeter/issues</url>
+​</component>

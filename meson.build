@@ -1,17 +1,16 @@
 project (
     'elementary',
-    version: '5.0.4',
+    version: '5.1.0',
     license : 'GPL3+'
 )
 
+i18n = import('i18n')
 
 icon_dir = join_paths(get_option('datadir'), 'icons', meson.project_name())
-
 
 scale_factors = get_option('scale_factors')
 
 # Add a directory here to the list if needed.
-
 directories = [
     # The first argument is the name of the folder,
     # the second is the associated Context
@@ -179,19 +178,10 @@ foreach directory_entry : directories
     endforeach
 endforeach
 
-if (get_option ('palettes'))
-    install_data(
-        'elementary.gpl',
-        install_dir: join_paths (get_option('datadir'), 'gimp', '2.0', 'palettes')
-    )
-
-    install_data(
-        'elementary.gpl',
-        install_dir: join_paths (get_option('datadir'), 'inkscape', 'palettes')
-    )
-endif
-
 subdir('cursors')
+
 if (get_option ('volume_icons'))
   subdir('volumeicon')
 endif
+
+subdir('data')
