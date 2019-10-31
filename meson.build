@@ -1,17 +1,16 @@
 project (
-    'elementary',
-    version: '5.0.4',
+    'io.elementary.icons',
+    version: '5.1.0',
     license : 'GPL3+'
 )
 
+i18n = import('i18n')
 
-icon_dir = join_paths(get_option('datadir'), 'icons', meson.project_name())
-
+icon_dir = join_paths(get_option('datadir'), 'icons', 'elementary')
 
 scale_factors = get_option('scale_factors')
 
 # Add a directory here to the list if needed.
-
 directories = [
     # The first argument is the name of the folder,
     # the second is the associated Context
@@ -26,23 +25,18 @@ directories = [
     ['status', 'Status']
 ]
 
-# Add a directory here to the list if needed.
-
+# Add a size here to the list if needed.
 sizes = ['16', '24', '32', '48', '64', '128', 'symbolic']
 
 # Symbolic icons are made to have a maximum size.
-
 max_size_symbolic = '512'
 
 # This is the minimal size all icons can theorically have.
-
 min_size_ever = '8'
 
 # Let's do fancy things
-
 msg_warning = false
-msg = 'This is the @0@ stylesheet version @1@ 🤩\n'.format (meson.project_name(), meson.project_version())
-msg += '\nPLEASE VERIFY THE CONFIGURATION:'
+msg = '\nPLEASE VERIFY THE CONFIGURATION:'
 
 if (sizes.length() >= 7)
     msg += '\nAvailable sizes:           @0@ ✔'.format (', '.join (sizes))
@@ -72,7 +66,6 @@ else
 endif
 
 # Here beggins the real work
-
 foreach directory : directories
     install_subdir(
         directory[0],
@@ -179,19 +172,10 @@ foreach directory_entry : directories
     endforeach
 endforeach
 
-if (get_option ('palettes'))
-    install_data(
-        'elementary.gpl',
-        install_dir: join_paths (get_option('datadir'), 'gimp', '2.0', 'palettes')
-    )
-
-    install_data(
-        'elementary.gpl',
-        install_dir: join_paths (get_option('datadir'), 'inkscape', 'palettes')
-    )
-endif
-
 subdir('cursors')
+
 if (get_option ('volume_icons'))
   subdir('volumeicon')
 endif
+
+subdir('data')
