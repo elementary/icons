@@ -90,6 +90,8 @@ foreach size: sizes
     run_command('mkdir', join_paths (meson.build_root(), 'cursors', size + 'x' + size))
 
     foreach cursor : cursors
+            message('rendering: ' + size + 'x' + size + '/' + cursor + '.png')
+
             run_command(
                 inkscape, '-z',
                 '-w', size, '-h', size,
@@ -99,6 +101,8 @@ foreach size: sizes
     endforeach
 
     foreach watch : watches
+            message('rendering: ' + size + 'x' + size + '/' + watch + '.png')
+
             run_command(
                 inkscape, '-z',
                 '-w', size, '-h', size,
@@ -114,6 +118,8 @@ cursors += [
 ]
 
 foreach cursor : cursors
+    message('generating: ' + cursor)
+
     run_command(
         xcursorgen,
         cursor + '.in',
