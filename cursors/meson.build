@@ -93,9 +93,9 @@ foreach size: sizes
             message('rendering: ' + size + 'x' + size + '/' + cursor + '.png')
 
             run_command(
-                inkscape, '-z',
-                '-w', size, '-h', size,
-                '-e', join_paths (meson.build_root(), 'cursors', size + 'x' + size, cursor + '.png'),
+                inkscape, '--without-gui',
+                '--export-width=@0@'.format(size), '--export-height=@0@'.format(size),
+                '--export-png=@0@.png'.format(join_paths (meson.build_root(), 'cursors', size + 'x' + size, cursor)),
                 join_paths ('24', cursor + '.svg')
             )
     endforeach
@@ -104,9 +104,9 @@ foreach size: sizes
             message('rendering: ' + size + 'x' + size + '/' + watch + '.png')
 
             run_command(
-                inkscape, '-z',
-                '-w', size, '-h', size,
-                '-e', join_paths (meson.build_root(), 'cursors', size + 'x' + size, watch + '.png'),
+                inkscape, '--without-gui',
+                '--export-width=@0@'.format(size), '--export-height=@0@'.format(size),
+                '--export-png=@0@.png'.format(join_paths (meson.build_root(), 'cursors', size + 'x' + size, watch)),
                 join_paths ('24', watch + '.svg')
             )
     endforeach
