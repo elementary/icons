@@ -49,6 +49,7 @@ cursors = [
     'top_tee',
     'ul_angle',
     'ur_angle',
+    'vertical-text',
     'X_cursor',
     'xterm'
 ]
