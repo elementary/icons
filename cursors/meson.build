@@ -83,7 +83,9 @@ watches = [
 sizes = [
     '24',
     '32',
-    '48'
+    '48',
+    '64',
+    '96'
 ]
 
 foreach size: sizes
