@@ -30,6 +30,7 @@ cursors = [
     'll_angle',
     'lr_angle',
     'move',
+    'no-drop',
     'pencil',
     'plus',
     'question_arrow',
