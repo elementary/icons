@@ -17,8 +17,6 @@ jobs:
         apt update
         apt install -y inkscape meson x11-apps
     - name: Build
-      env:
-        DESTDIR: out
       run: |
         meson build
         ninja -C build
