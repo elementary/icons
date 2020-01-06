@@ -3,6 +3,7 @@ inkscape = find_program('inkscape')
 xcursorgen = find_program('xcursorgen')
 
 cursors = [
+    'all-scroll',
     'bd_double_arrow',
     'bottom_left_corner',
     'bottom_right_corner',
