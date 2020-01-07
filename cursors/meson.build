@@ -12,7 +12,6 @@ cursors = [
     'circle',
     'copy',
     'cross',
-    'crossed_circle',
     'crosshair',
     'dnd-ask',
     'dnd-copy',
@@ -32,6 +31,7 @@ cursors = [
     'lr_angle',
     'move',
     'no-drop',
+    'not-allowed',
     'pencil',
     'plus',
     'pointer',
@@ -143,18 +143,25 @@ endforeach
 links = []
 
 links += [[
-  'left_ptr',
+  'bd_double_arrow',
   [
-      'top_left_arrow',
-      'arrow'
+      'c7088f0f3e6c8088236ef8e1e3e70000'
   ]
 ]]
 
 links += [[
-  'right_ptr',
+  'copy',
   [
-      'draft_small',
-      'draft_large'
+      '6407b0e94181790501fd1e167b474872',
+      '1081e37283d90000800003c07f3ef6bf'
+  ]
+]]
+
+links += [[
+  'cross',
+  [
+      'diamond_cross',
+      'cross_reverse'
   ]
 ]]
 
@@ -169,9 +176,16 @@ links += [[
 ]]
 
 links += [[
-  'X_cursor',
+  'fd_double_arrow',
   [
-      'pirate'
+      'fcf1c3c7cd4491d801f1e1c78f100000'
+  ]
+]]
+
+links += [[
+  'grabbing',
+  [
+      'fleur'
   ]
 ]]
 
@@ -186,12 +200,54 @@ links += [[
 ]]
 
 links += [[
-  'sb_v_double_arrow',
+  'left_ptr',
   [
-      'v_double_arrow',
-      'double_arrow',
-      '00008160000006810000408080010102',
-      '2870a09082c103050810ffdffffe0204'
+      'arrow'
+      'top_left_arrow',
+      '08e8e1c95fe2fc01f976f1e063a24ccd',
+      '3ecb610c1bf2410f44200f48c40d3599'
+  ]
+]]
+
+links += [[
+  'link',
+  [
+      '3085a0e285430894940527032f8b26df',
+      '640fb0e74195791501fd1ed57b41487f'
+  ]
+]]
+
+links += [[
+  'move',
+  [
+      '9081237383d90e509aa00f00170e968f',
+      '4498f0e0c1937ffe01fd06f973665830'
+  ]
+]]
+
+links += [[
+  'not-allowed',
+  [
+      'crossed_circle',
+      '03b6e0fcb3499374a867c041f52298f0'
+  ]
+]]
+
+links += [[
+  'pointer',
+  [
+      'hand',
+      'hand2',
+      '9d800788f1b08800ae810202380a0822'
+  ]
+]]
+
+
+links += [[
+  'right_ptr',
+  [
+      'draft_small',
+      'draft_large'
   ]
 ]]
 
@@ -205,79 +261,12 @@ links += [[
 ]]
 
 links += [[
-  'fd_double_arrow',
+  'sb_v_double_arrow',
   [
-      'fcf1c3c7cd4491d801f1e1c78f100000'
-  ]
-]]
-
-links += [[
-  'bd_double_arrow',
-  [
-      'c7088f0f3e6c8088236ef8e1e3e70000'
-  ]
-]]
-
-links += [[
-  'pointer',
-  [
-      'hand',
-      'hand2',
-      '9d800788f1b08800ae810202380a0822'
-  ]
-]]
-
-links += [[
-  'grabbing',
-  [
-      'fleur'
-  ]
-]]
-
-links += [[
-  'cross',
-  [
-      'diamond_cross',
-      'cross_reverse'
-  ]
-]]
-
-links += [[
-  'crossed_circle',
-  [
-      '03b6e0fcb3499374a867c041f52298f0'
-  ]
-]]
-
-links += [[
-  'move',
-  [
-      '9081237383d90e509aa00f00170e968f',
-      '4498f0e0c1937ffe01fd06f973665830'
-  ]
-]]
-
-links += [[
-  'copy',
-  [
-      '6407b0e94181790501fd1e167b474872',
-      '1081e37283d90000800003c07f3ef6bf'
-  ]
-]]
-
-links += [[
-  'link',
-  [
-      '3085a0e285430894940527032f8b26df',
-      '640fb0e74195791501fd1ed57b41487f'
-  ]
-]]
-
-links += [[
-  'left_ptr',
-  [
-      '08e8e1c95fe2fc01f976f1e063a24ccd',
-      '3ecb610c1bf2410f44200f48c40d3599'
+      'v_double_arrow',
+      'double_arrow',
+      '00008160000006810000408080010102',
+      '2870a09082c103050810ffdffffe0204'
   ]
 ]]
 
@@ -285,6 +274,13 @@ links += [[
   'text',
   [
       'xterm'
+  ]
+]]
+
+links += [[
+  'X_cursor',
+  [
+      'pirate'
   ]
 ]]
 
