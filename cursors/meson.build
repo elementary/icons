@@ -3,6 +3,7 @@ inkscape = find_program('inkscape')
 xcursorgen = find_program('xcursorgen')
 
 cursors = [
+    'all-scroll',
     'bd_double_arrow',
     'bottom_left_corner',
     'bottom_right_corner',
@@ -30,6 +31,7 @@ cursors = [
     'll_angle',
     'lr_angle',
     'move',
+    'no-drop',
     'pencil',
     'plus',
     'question_arrow',
@@ -49,8 +51,11 @@ cursors = [
     'top_tee',
     'ul_angle',
     'ur_angle',
+    'vertical-text',
     'X_cursor',
-    'xterm'
+    'xterm',
+    'zoom-in',
+    'zoom-out'
 ]
 
 watches = [
