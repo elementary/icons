@@ -280,6 +280,13 @@ links += [[
   ]
 ]]
 
+links += [[
+  'text',
+  [
+      'xterm'
+  ]
+]]
+
 foreach link_entry : links
     src = link_entry[0]
     foreach dest : link_entry[1]
