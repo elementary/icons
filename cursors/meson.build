@@ -50,7 +50,9 @@ cursors = [
     'ul_angle',
     'ur_angle',
     'X_cursor',
-    'xterm'
+    'xterm',
+    'zoom-in',
+    'zoom-out'
 ]
 
 watches = [
