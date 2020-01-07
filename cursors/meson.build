@@ -24,6 +24,7 @@ cursors = [
     'grabbing',
     'hand1',
     'hand2',
+    'help',
     'left_ptr',
     'left_side',
     'left_tee',
@@ -34,7 +35,6 @@ cursors = [
     'no-drop',
     'pencil',
     'plus',
-    'question_arrow',
     'right_ptr',
     'right_side',
     'right_tee',
@@ -45,6 +45,7 @@ cursors = [
     'sb_up_arrow',
     'sb_v_double_arrow',
     'tcross',
+    'text',
     'top_left_corner',
     'top_right_corner',
     'top_side',
@@ -53,7 +54,6 @@ cursors = [
     'ur_angle',
     'vertical-text',
     'X_cursor',
-    'xterm',
     'zoom-in',
     'zoom-out'
 ]
@@ -176,10 +176,10 @@ links += [[
 ]]
 
 links += [[
-  'question_arrow',
+  'help',
   [
       'left_ptr_help',
-      'help',
+      'question_arrow'
       'd9ce0ab605698f320427677b458ad60b',
       '5c6cd98b3f3ebcb1f9c7f1c204630408'
   ]
