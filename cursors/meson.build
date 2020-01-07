@@ -23,7 +23,6 @@ cursors = [
     'fd_double_arrow',
     'grabbing',
     'hand1',
-    'hand2',
     'help',
     'left_ptr',
     'left_side',
@@ -35,6 +34,7 @@ cursors = [
     'no-drop',
     'pencil',
     'plus',
+    'pointer',
     'right_ptr',
     'right_side',
     'right_tee',
@@ -219,9 +219,10 @@ links += [[
 ]]
 
 links += [[
-  'hand2',
+  'pointer',
   [
       'hand',
+      'hand2',
       '9d800788f1b08800ae810202380a0822'
   ]
 ]]
