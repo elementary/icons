@@ -30,6 +30,7 @@ cursors = [
     'll_angle',
     'lr_angle',
     'move',
+    'no-drop',
     'pencil',
     'plus',
     'question_arrow',
@@ -51,7 +52,9 @@ cursors = [
     'ur_angle',
     'vertical-text',
     'X_cursor',
-    'xterm'
+    'xterm',
+    'zoom-in',
+    'zoom-out'
 ]
 
 watches = [
