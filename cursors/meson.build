@@ -193,7 +193,7 @@ links += [[
   'help',
   [
       'left_ptr_help',
-      'question_arrow'
+      'question_arrow',
       'd9ce0ab605698f320427677b458ad60b',
       '5c6cd98b3f3ebcb1f9c7f1c204630408'
   ]
@@ -202,7 +202,7 @@ links += [[
 links += [[
   'left_ptr',
   [
-      'arrow'
+      'arrow',
       'top_left_arrow',
       '08e8e1c95fe2fc01f976f1e063a24ccd',
       '3ecb610c1bf2410f44200f48c40d3599'
