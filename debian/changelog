@@ -1,3 +1,25 @@
+elementary-icon-theme (5.2.0) bionic; urgency=medium
+
+  * Release 5.2.0 (#866)
+  * symlink application-x-cd-image to application-x-raw-disk-image
+    (#802)
+  * Add large cursor sizes (#860)
+  * Add all-scroll cursor (#863)
+  * Cursors/vertical text (#861)
+  * Add no drop cursor (#862)
+  * Add zoom cursors (#864)
+  * CI with GitHub (#859)
+  * Fix extra release tag
+  * Add cursor sources (#851)
+  * meson/symlink: create relative symlinks instead of absolute ones
+    (#833)
+  * Add 48px network wireless signal (#842)
+  * remove bottom stroke of top circles (#840)
+  * Remove zero-width spaces in AppData
+  * view-reader fix (#830)
+
+ -- Cody Garver <cody@elementary.io>  Wed, 08 Jan 2020 21:25:23 +0000
+
 elementary-icon-theme (5.1.0) bionic; urgency=medium
 
   * Release 5.1.0 (#828)
