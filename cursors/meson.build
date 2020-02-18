@@ -1,5 +1,6 @@
 cursor_dir = join_paths(icon_dir, 'cursors')
-inkscape = find_program('inkscape')
+flatpak = find_program('flatpak')
+inkscape = 'org.inkscape.Inkscape'
 xcursorgen = find_program('xcursorgen')
 
 cursors = [
@@ -100,7 +101,7 @@ foreach size: sizes
             message('rendering: ' + size + 'x' + size + '/' + cursor + '.png')
 
             run_command(
-                inkscape, '--without-gui',
+                flatpak, 'run', inkscape, '--without-gui',
                 '--export-width=@0@'.format(size), '--export-height=@0@'.format(size),
                 '--export-png=@0@.png'.format(join_paths (meson.build_root(), 'cursors', size + 'x' + size, cursor)),
                 join_paths ('24', cursor + '.svg')
@@ -111,7 +112,7 @@ foreach size: sizes
             message('rendering: ' + size + 'x' + size + '/' + watch + '.png')
 
             run_command(
-                inkscape, '--without-gui',
+                flatpak, 'run', inkscape, '--without-gui',
                 '--export-width=@0@'.format(size), '--export-height=@0@'.format(size),
                 '--export-png=@0@.png'.format(join_paths (meson.build_root(), 'cursors', size + 'x' + size, watch)),
                 join_paths ('24', watch + '.svg')
