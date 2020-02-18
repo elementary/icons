@@ -1,0 +1,19 @@
+name: Release
+
+on:
+  pull_request:
+    branches: master
+    types: closed
+jobs:
+  release:
+     runs-on: ubuntu-latest
+     if: github.event.pull_request.merged == true && true == contains(join(github.event.pull_request.labels.*.name), 'Release')
+     steps:
+     - uses: actions/checkout@v1
+     - uses: elementary/actions/release@master
+       env:
+         GIT_USER_TOKEN: "${{ secrets.GIT_USER_TOKEN }}"
+         GIT_USER_NAME: "elementaryBot"
+         GIT_USER_EMAIL: "builds@elementary.io"
+       with:
+         release_branch: 'juno'
