@@ -12,6 +12,21 @@
    version="1.1">
   <defs
      id="defs4717">
+    <linearGradient
+       id="linearGradient943">
+      <stop
+         style="stop-color:#452981;stop-opacity:1;"
+         offset="0"
+         id="stop937" />
+      <stop
+         id="stop939"
+         offset="0.57074559"
+         style="stop-color:#7239b3;stop-opacity:1" />
+      <stop
+         style="stop-color:#7239b3;stop-opacity:1"
+         offset="1"
+         id="stop941" />
+    </linearGradient>
     <radialGradient
        id="radialGradient3163"
        gradientUnits="userSpaceOnUse"
@@ -314,6 +329,14 @@
          stop-opacity="0"
          offset="1" />
     </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="4.5161309"
+       x2="14.348896"
+       y1="14.961845"
+       x1="14.348896"
+       id="linearGradient918"
+       xlink:href="#linearGradient943" />
   </defs>
   <metadata
      id="metadata4720">
@@ -323,7 +346,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -511,7 +534,7 @@
      stroke-width="1px"
      fill="#eaeaea" />
   <path
-     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#4c158a;fill-opacity:1;fill-rule:nonzero;stroke:#05020d;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:20;stroke-opacity:0.49803922;filter-blend-mode:normal;filter-gaussianBlur-deviation:0;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient918);fill-opacity:1;fill-rule:nonzero;stroke:#05020d;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:20;stroke-opacity:0.49803922;filter-blend-mode:normal;filter-gaussianBlur-deviation:0;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;font-variant-east_asian:normal;vector-effect:none"
      d="M 5.5 4.5 C 5.5 4.5 3.467696 4.3679 3.5 6.5 L 3.5 11.958984 C 3.5 11.958984 3.5109 14.5 6 14.5 C 8.51092 14.5 8.5 11.958984 8.5 11.958984 L 8.5 4.5 L 5.5 4.5 z M 13.5 4.5 L 13.5 11.958984 C 13.5 11.958984 13.511 14.5 16 14.5 C 18.51092 14.5 18.5 11.958984 18.5 11.958984 L 18.5 4.5 C 18.5 4.5 15.3052 4.516249 13.5 4.5 z M 23.5 4.5 L 23.5 11.958984 C 23.5 11.958984 23.48908 14.5 26 14.5 C 28.4891 14.5 28.5 11.958984 28.5 11.958984 L 28.5 6.5 C 28.5323 4.3679 26.5 4.5 26.5 4.5 L 23.5 4.5 z "
      id="path23720" />
   <ellipse
@@ -541,17 +564,17 @@
      fill="none" />
   <ellipse
      id="ellipse23708"
-     stroke-linejoin="round"
-     opacity=".4"
      style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto"
-     stroke-linecap="round"
-     stroke-opacity=".39216"
      rx="1.5"
      ry="1.499"
-     stroke="url(#linearGradient23710)"
      cy="12.001"
      cx="16"
-     fill="none" />
+     stroke-opacity=".39216"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke="url(#linearGradient23710)"
+     fill="none"
+     opacity=".4" />
   <ellipse
      id="ellipse23712"
      stroke-linejoin="round"
