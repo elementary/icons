@@ -100,7 +100,7 @@ foreach size: sizes
             message('rendering: ' + size + 'x' + size + '/' + cursor + '.png')
 
             run_command(
-                rsvg,
+                rsvg, '--format', 'png',
                 '--width=@0@'.format(size), '--height=@0@'.format(size),
                 '--output', '@0@.png'.format(join_paths (meson.build_root(), 'cursors', size + 'x' + size, cursor)),
                 join_paths ('24', cursor + '.svg')
@@ -111,7 +111,7 @@ foreach size: sizes
             message('rendering: ' + size + 'x' + size + '/' + watch + '.png')
 
             run_command(
-                rsvg,
+                rsvg, '--format', 'png',
                 '--width=@0@'.format(size), '--height=@0@'.format(size),
                 '--output', '@0@.png'.format(join_paths (meson.build_root(), 'cursors', size + 'x' + size, watch)),
                 join_paths ('24', watch + '.svg')
