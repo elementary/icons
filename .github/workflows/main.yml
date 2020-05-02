@@ -15,7 +15,7 @@ jobs:
     - name: Install Dependencies
       run: |
         apt update
-        apt install -y inkscape meson x11-apps
+        apt install -y librsvg2-bin meson x11-apps
     - name: Build
       run: |
         meson build
