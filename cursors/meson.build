@@ -1,5 +1,5 @@
 cursor_dir = join_paths(icon_dir, 'cursors')
-inkscape = find_program('inkscape')
+rsvg = find_program('rsvg-convert')
 xcursorgen = find_program('xcursorgen')
 
 cursors = [
@@ -100,9 +100,9 @@ foreach size: sizes
             message('rendering: ' + size + 'x' + size + '/' + cursor + '.png')
 
             run_command(
-                inkscape, '--without-gui',
-                '--export-width=@0@'.format(size), '--export-height=@0@'.format(size),
-                '--export-png=@0@.png'.format(join_paths (meson.build_root(), 'cursors', size + 'x' + size, cursor)),
+                rsvg,
+                '--width=@0@'.format(size), '--height=@0@'.format(size),
+                '--output', '@0@.png'.format(join_paths (meson.build_root(), 'cursors', size + 'x' + size, cursor)),
                 join_paths ('24', cursor + '.svg')
             )
     endforeach
@@ -111,9 +111,9 @@ foreach size: sizes
             message('rendering: ' + size + 'x' + size + '/' + watch + '.png')
 
             run_command(
-                inkscape, '--without-gui',
-                '--export-width=@0@'.format(size), '--export-height=@0@'.format(size),
-                '--export-png=@0@.png'.format(join_paths (meson.build_root(), 'cursors', size + 'x' + size, watch)),
+                rsvg,
+                '--width=@0@'.format(size), '--height=@0@'.format(size),
+                '--output', '@0@.png'.format(join_paths (meson.build_root(), 'cursors', size + 'x' + size, watch)),
                 join_paths ('24', watch + '.svg')
             )
     endforeach
