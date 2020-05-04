@@ -3,7 +3,7 @@ Section: gnome
 Priority: optional
 Maintainer: Cody Garver <cody@elementary.io>
 Build-Depends: debhelper (>= 10.5.1),
-               inkscape,
+               librsvg2-bin,
                meson,
                x11-apps
 Standards-Version: 4.1.1
