@@ -19,7 +19,7 @@ cursors = [
     'fd_double_arrow',
     'hand1',
     'help',
-    'left_ptr'
+    'left_ptr',
     'left_tee',
     'link',
     'll_angle',
