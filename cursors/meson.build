@@ -190,6 +190,13 @@ links += [[
 ]]
 
 links += [[
+  'hand1',
+  [
+      'grab'
+  ]
+]]
+
+links += [[
   'help',
   [
       'left_ptr_help',
@@ -239,6 +246,13 @@ links += [[
       'hand',
       'hand2',
       '9d800788f1b08800ae810202380a0822'
+  ]
+]]
+
+links += [[
+  'plus',
+  [
+      'cell'
   ]
 ]]
 
