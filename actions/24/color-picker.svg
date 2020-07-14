@@ -18,6 +18,40 @@
   <defs
      id="defs2">
     <inkscape:path-effect
+       hide_knots="false"
+       only_selected="true"
+       apply_with_radius="true"
+       apply_no_radius="true"
+       use_knot_distance="true"
+       flexible="false"
+       chamfer_steps="1"
+       radius="0"
+       mode="F"
+       method="auto"
+       unit="px"
+       satellites_param="F,0,0,1,0,0,0,1 @ F,0,1,1,0,0.43413803,0,1 @ F,0,0,1,0,0.33595491,0,1 @ F,0,0,1,0,0.26940273,0,1 @ F,0,0,1,0,0.26940273,0,1 @ F,0,0,1,0,0.33595491,0,1 @ F,0,1,1,0,0.43413803,0,1 @ F,0,0,1,0,0,0,1"
+       lpeversion="1"
+       is_visible="true"
+       id="path-effect1038"
+       effect="fillet_chamfer" />
+    <inkscape:path-effect
+       hide_knots="false"
+       only_selected="true"
+       apply_with_radius="true"
+       apply_no_radius="true"
+       use_knot_distance="true"
+       flexible="false"
+       chamfer_steps="1"
+       radius="0"
+       mode="F"
+       method="auto"
+       unit="px"
+       satellites_param="F,0,0,1,0,0,0,1 @ F,0,1,1,0,0.43413803,0,1 @ F,0,0,1,0,0.33595491,0,1 @ F,0,0,1,0,0.26940273,0,1 @ F,0,0,1,0,0.26940273,0,1 @ F,0,0,1,0,0.33595491,0,1 @ F,0,1,1,0,0.43413803,0,1 @ F,0,0,1,0,0,0,1"
+       lpeversion="1"
+       is_visible="true"
+       id="path-effect1032"
+       effect="fillet_chamfer" />
+    <inkscape:path-effect
        update_on_knot_move="true"
        attempt_force_join="true"
        miter_limit="4"
@@ -809,25 +843,6 @@
        xlink:href="#linearGradient1000"
        inkscape:collect="always" />
     <clipPath
-       id="clipPath1013"
-       clipPathUnits="userSpaceOnUse">
-      <path
-         id="path1015"
-         style="display:inline;fill:url(#linearGradient1017);fill-opacity:1;stroke:none;stroke-width:0.264582;stroke-linejoin:round;stop-color:#000000"
-         d="M 3.4705346,1.7153764 1.1659365,4.0199747 0.85110985,4.8920186 0.29382617,5.5862062 0.76379433,6.0561742 1.4579854,5.4988831 2.3303236,5.1843702 4.6349214,2.8797814 Z"
-         sodipodi:nodetypes="ccccccccc" />
-    </clipPath>
-    <linearGradient
-       y2="294.66989"
-       x2="0.51116002"
-       y1="294.66931"
-       x1="4.6882162"
-       gradientTransform="matrix(0.67749418,0.67749418,-0.67749418,0.67749418,200.0335,-197.94513)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient1017"
-       xlink:href="#linearGradient1000"
-       inkscape:collect="always" />
-    <clipPath
        id="clipPath1023"
        clipPathUnits="userSpaceOnUse">
       <path
@@ -846,6 +861,25 @@
        id="linearGradient1027"
        xlink:href="#linearGradient1000"
        inkscape:collect="always" />
+    <clipPath
+       id="clipPath1040"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         sodipodi:nodetypes="ccccccccc"
+         d="M 3.4705346,1.7153764 1.4729184,3.7129927 A 1.9462646,1.9462646 0 0 0 1.0185163,4.4283165 L 0.96519003,4.5760257 A 2.0177204,2.0177204 0 0 1 0.64079584,5.153999 L 0.46247728,5.3761238 a 0.30048108,0.30048108 0 0 0 0.0218453,0.4005789 l 0.0889751,0.088975 a 0.30047981,0.30047981 0 0 0 0.40057824,0.021844 L 1.1960058,5.709198 A 2.0150441,2.0150441 0 0 1 1.7740266,5.3849374 L 1.9219188,5.3316164 A 1.9443245,1.9443245 0 0 0 2.6373061,4.8773887 L 4.6349214,2.8797814 Z"
+         style="display:inline;fill:url(#linearGradient1044);fill-opacity:1;stroke:none;stroke-width:0.264582;stroke-linejoin:round;stop-color:#000000"
+         id="path1042" />
+    </clipPath>
+    <linearGradient
+       y2="294.66989"
+       x2="0.51116002"
+       y1="294.66931"
+       x1="4.6882162"
+       gradientTransform="matrix(0.67749418,0.67749418,-0.67749418,0.67749418,200.0335,-197.94513)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient1044"
+       xlink:href="#linearGradient1000"
+       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
      inkscape:snap-smooth-nodes="true"
@@ -856,8 +890,8 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer2"
      inkscape:document-units="px"
-     inkscape:cy="15.133645"
-     inkscape:cx="1.1727537"
+     inkscape:cy="17.742674"
+     inkscape:cx="9.7356662"
      inkscape:zoom="32"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -1146,10 +1180,10 @@
        d="M 3.7041668,4.1010417 H 0.52916668 L -0.52916668,6.3500002 2.1166667,6.6145835 3.4395834,5.2916668 Z"
        style="fill:url(#linearGradient1059);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
-       inkscape:original-d="M 3.7041668,4.1010417 H 0.52916668 L -0.52916668,6.3500002 2.1166667,6.6145835 3.4395834,5.2916668 Z"
        inkscape:path-effect="#path-effect1007"
+       inkscape:original-d="M 3.7041668,4.1010417 H 0.52916668 L -0.52916668,6.3500002 2.1166667,6.6145835 3.4395834,5.2916668 Z"
        sodipodi:nodetypes="cccccc"
-       clip-path="url(#clipPath1013)"
+       clip-path="url(#clipPath1040)"
        id="path992"
        d="M 0.69921875,4.3652344 -0.12890625,6.1230469 2.0175781,6.3398438 3.1992188,5.15625 3.375,4.3652344 Z"
        style="opacity:0.499;fill:none;fill-opacity:1;stroke:#fafafa;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
