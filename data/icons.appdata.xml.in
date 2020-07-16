@@ -10,7 +10,37 @@
     <p>An original set of vector icons designed specifically for elementary OS and its desktop environment: Pantheon.</p>
   </description>
   <releases>
-    <release version="5.2.0" date="2020-01-06" urgency="medium">
+    <release version="5.3.1" date="2020-05-06" urgency="medium">
+      <description>
+        <p>Minor updates</p>
+        <ul>
+          <li>Update emoji names for emoji picker in elementary OS 6 and latest GTK</li>
+          <li>Replace Inkscape with rsvg for building cursors</li>
+        </ul>
+      </description>
+    </release>
+    <release version="5.3.0" date="2020-04-30" urgency="medium">
+      <description>
+        <p>New Palette Colors:</p>
+        <ul>
+          <li>Add Bubblegum and Mint to official palette</li>
+          <li>Updated all eraser icons to use Bubblegum palette</li>
+          <li>Updated "path" icons to use Mint palette</li>
+          <li>Updated all pencil icons to use Banana palette</li>
+        </ul>
+        <p>New Icons:</p>
+        <ul>
+          <li>Add "software-update-urgent"</li>
+          <li>Add "sync-synchronizing"</li>
+        </ul>
+        <p>Scaled Icon Sizes:</p>
+        <ul>
+          <li>Add 24px "window-close-symbolic"</li>
+          <li>Add 48px preferences icons</li>
+        </ul>
+      </description>
+    </release>
+    <release version="5.2.0" date="2020-01-08" urgency="medium">
       <description>
         <ul>
           <li>Provide large cursors</li>
@@ -71,4 +101,4 @@
   <developer_name>elementary, Inc.</developer_name>
   <url type="homepage">https://elementary.io</url>
   <url type="bugtracker">https://github.com/elementary/icons/issues</url>
-​</component>
+</component>
