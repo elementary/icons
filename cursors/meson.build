@@ -1,13 +1,10 @@
 cursor_dir = join_paths(icon_dir, 'cursors')
-inkscape = find_program('inkscape')
+rsvg = find_program('rsvg-convert')
 xcursorgen = find_program('xcursorgen')
 
 cursors = [
     'all-scroll',
     'bd_double_arrow',
-    'bottom_left_corner',
-    'bottom_right_corner',
-    'bottom_side',
     'bottom_tee',
     'circle',
     'copy',
@@ -20,11 +17,9 @@ cursors = [
     'dnd-none',
     'dotbox',
     'fd_double_arrow',
-    'grabbing',
     'hand1',
     'help',
     'left_ptr',
-    'left_side',
     'left_tee',
     'link',
     'll_angle',
@@ -36,7 +31,6 @@ cursors = [
     'plus',
     'pointer',
     'right_ptr',
-    'right_side',
     'right_tee',
     'sb_down_arrow',
     'sb_h_double_arrow',
@@ -46,9 +40,6 @@ cursors = [
     'sb_v_double_arrow',
     'tcross',
     'text',
-    'top_left_corner',
-    'top_right_corner',
-    'top_side',
     'top_tee',
     'ul_angle',
     'ur_angle',
@@ -100,9 +91,9 @@ foreach size: sizes
             message('rendering: ' + size + 'x' + size + '/' + cursor + '.png')
 
             run_command(
-                inkscape, '--without-gui',
-                '--export-width=@0@'.format(size), '--export-height=@0@'.format(size),
-                '--export-png=@0@.png'.format(join_paths (meson.build_root(), 'cursors', size + 'x' + size, cursor)),
+                rsvg, '--format', 'png',
+                '--width=@0@'.format(size), '--height=@0@'.format(size),
+                '--output', '@0@.png'.format(join_paths (meson.build_root(), 'cursors', size + 'x' + size, cursor)),
                 join_paths ('24', cursor + '.svg')
             )
     endforeach
@@ -111,9 +102,9 @@ foreach size: sizes
             message('rendering: ' + size + 'x' + size + '/' + watch + '.png')
 
             run_command(
-                inkscape, '--without-gui',
-                '--export-width=@0@'.format(size), '--export-height=@0@'.format(size),
-                '--export-png=@0@.png'.format(join_paths (meson.build_root(), 'cursors', size + 'x' + size, watch)),
+                rsvg, '--format', 'png',
+                '--width=@0@'.format(size), '--height=@0@'.format(size),
+                '--output', '@0@.png'.format(join_paths (meson.build_root(), 'cursors', size + 'x' + size, watch)),
                 join_paths ('24', watch + '.svg')
             )
     endforeach
@@ -145,6 +136,8 @@ links = []
 links += [[
   'bd_double_arrow',
   [
+      'bottom_right_corner',
+      'top_left_corner',
       'c7088f0f3e6c8088236ef8e1e3e70000'
   ]
 ]]
@@ -166,6 +159,13 @@ links += [[
 ]]
 
 links += [[
+    'dnd-none',
+    [
+        'grabbing'
+    ]
+]]
+
+links += [[
   'dotbox',
   [
       'target',
@@ -178,6 +178,8 @@ links += [[
 links += [[
   'fd_double_arrow',
   [
+      'bottom_left_corner',
+      'top_right_corner',
       'fcf1c3c7cd4491d801f1e1c78f100000'
   ]
 ]]
@@ -186,6 +188,13 @@ links += [[
   'grabbing',
   [
       'fleur'
+  ]
+]]
+
+links += [[
+  'hand1',
+  [
+      'grab'
   ]
 ]]
 
@@ -242,6 +251,13 @@ links += [[
   ]
 ]]
 
+links += [[
+  'plus',
+  [
+      'cell'
+  ]
+]]
+
 
 links += [[
   'right_ptr',
@@ -255,6 +271,8 @@ links += [[
   'sb_h_double_arrow',
   [
       'h_double_arrow',
+      'left_side',
+      'right_side',
       '028006030e0e7ebffc7f7070c0600140',
       '14fef782d02440884392942c11205230'
   ]
@@ -263,8 +281,10 @@ links += [[
 links += [[
   'sb_v_double_arrow',
   [
-      'v_double_arrow',
+      'bottom_side',
       'double_arrow',
+      'top_side',
+      'v_double_arrow',
       '00008160000006810000408080010102',
       '2870a09082c103050810ffdffffe0204'
   ]
