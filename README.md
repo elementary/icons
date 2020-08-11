@@ -26,10 +26,10 @@ If you feel the desire to compensate the artists who maintain these icons for yo
 ## Contributing Icons
 It is recommended to use the free and open source [Inkscape](http://inkscape.org) vector editor to create elementary icons. Any and all icons must follow the elementary [Icon Design Guidelines](http://elementary.io/docs/human-interface-guidelines#iconography).
 
-An elementary color palette is provided, it is recommended to copy it into your Inkscape settings before you get started.
+An [elementary color palette](data/elementary.gpl) ([rendered version](https://elementary.io/docs/human-interface-guidelines#color)) is provided; it is recommended to copy it into your Inkscape settings before you get started.
 
 ```bash
-cp elementary.gpl ~/.config/inkscape/palettes/
+cp data/elementary.gpl ~/.config/inkscape/palettes/
 ```
 
 To contribute to the elementary icon set, open a pull request to this repository with your icon(s).
