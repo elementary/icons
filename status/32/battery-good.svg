@@ -20,9 +20,9 @@
      inkscape:window-maximized="1"
      inkscape:window-y="30"
      inkscape:window-x="0"
-     inkscape:cy="18.17806"
-     inkscape:cx="33.39323"
-     inkscape:zoom="22.273864"
+     inkscape:cy="19.404761"
+     inkscape:cx="27.881537"
+     inkscape:zoom="31.500001"
      showgrid="true"
      id="namedview57"
      inkscape:window-height="1373"
@@ -34,7 +34,8 @@
      objecttolerance="10"
      borderopacity="1"
      bordercolor="#666666"
-     pagecolor="#ffffff">
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0">
     <inkscape:grid
        empspacing="4"
        id="grid882"
@@ -48,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -76,18 +77,6 @@
          style="stop-color:#002e99;stop-opacity:0"
          offset="1"
          id="stop931" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient900"
-       inkscape:collect="always">
-      <stop
-         id="stop896"
-         offset="0"
-         style="stop-color:#000000;stop-opacity:1" />
-      <stop
-         id="stop898"
-         offset="1"
-         style="stop-color:#002e99;stop-opacity:1" />
     </linearGradient>
     <linearGradient
        id="linearGradient5126">
@@ -283,15 +272,6 @@
        x2="36.608757"
        y2="25" />
     <linearGradient
-       gradientUnits="userSpaceOnUse"
-       y2="8"
-       x2="16"
-       y1="1"
-       x1="16"
-       id="linearGradient902"
-       xlink:href="#linearGradient900"
-       inkscape:collect="always" />
-    <linearGradient
        xlink:href="#linearGradient3821-6"
        id="linearGradient3941-3"
        gradientUnits="userSpaceOnUse"
@@ -323,6 +303,26 @@
          offset="1"
          style="stop-color:#ad5f00;stop-opacity:0" />
     </linearGradient>
+    <linearGradient
+       gradientTransform="translate(-20,-12.5)"
+       xlink:href="#linearGradient899"
+       id="linearGradient901"
+       x1="28.515991"
+       y1="28.5"
+       x2="43.477116"
+       y2="28.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient899">
+      <stop
+         style="stop-color:#64baff;stop-opacity:1"
+         offset="0"
+         id="stop895" />
+      <stop
+         style="stop-color:#3689e6;stop-opacity:1"
+         offset="1"
+         id="stop897" />
+    </linearGradient>
   </defs>
   <rect
      transform="scale(-1,1)"
@@ -339,7 +339,7 @@
      id="path3818-0-5"
      d="m 26,28.50025 a 10,2.5 0 0 1 -19.9999999,0 10,2.5 0 1 1 19.9999999,0 z" />
   <rect
-     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient4393);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient901);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
      id="rect3268-0-1"
      y="12"
      x="8.5"
@@ -395,6 +395,6 @@
   <path
      sodipodi:nodetypes="csssc"
      d="m 8.5,6 v 22.5 c 0,0.554 3.345,1 7.5,1 4.155,0 7.5,-0.446 7.5,-1 V 6"
-     style="color:#000000;display:block;overflow:visible;visibility:visible;opacity:0.5;fill:none;stroke:url(#linearGradient902);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+     style="color:#000000;display:block;overflow:visible;visibility:visible;opacity:0.5;fill:none;stroke:#002e99;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
      id="rect884" />
 </svg>

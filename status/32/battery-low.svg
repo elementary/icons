@@ -20,9 +20,9 @@
      inkscape:window-maximized="1"
      inkscape:window-y="30"
      inkscape:window-x="0"
-     inkscape:cy="16.054674"
-     inkscape:cx="49.41684"
-     inkscape:zoom="11.136932"
+     inkscape:cy="19.838343"
+     inkscape:cx="29.082621"
+     inkscape:zoom="31.500001"
      showgrid="true"
      id="namedview57"
      inkscape:window-height="1373"
@@ -34,7 +34,8 @@
      objecttolerance="10"
      borderopacity="1"
      bordercolor="#666666"
-     pagecolor="#ffffff">
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0">
     <inkscape:grid
        empspacing="4"
        id="grid913"
@@ -48,24 +49,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs2487">
-    <linearGradient
-       id="linearGradient931"
-       inkscape:collect="always">
-      <stop
-         id="stop927"
-         offset="0"
-         style="stop-color:#000000;stop-opacity:1" />
-      <stop
-         id="stop929"
-         offset="1"
-         style="stop-color:#002e99;stop-opacity:1" />
-    </linearGradient>
     <linearGradient
        id="linearGradient911">
       <stop
@@ -315,14 +304,25 @@
          style="stop-color:#ad5f00;stop-opacity:0" />
     </linearGradient>
     <linearGradient
-       gradientUnits="userSpaceOnUse"
-       y2="8"
-       x2="16"
-       y1="1"
-       x1="16"
-       id="linearGradient933"
-       xlink:href="#linearGradient931"
-       inkscape:collect="always" />
+       gradientTransform="translate(-20,-12.5)"
+       xlink:href="#linearGradient899"
+       id="linearGradient901"
+       x1="28.412779"
+       y1="33.5"
+       x2="43.473194"
+       y2="33.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient899">
+      <stop
+         style="stop-color:#64baff;stop-opacity:1"
+         offset="0"
+         id="stop895" />
+      <stop
+         style="stop-color:#3689e6;stop-opacity:1"
+         offset="1"
+         id="stop897" />
+    </linearGradient>
   </defs>
   <rect
      transform="scale(-1,1)"
@@ -341,7 +341,7 @@
   <path
      d="m 8.5,16.5 v 12 c 0,0.554 3.345,1 7.5,1 4.155,0 7.5,-0.446 7.5,-1 v -12 z"
      id="rect3268-0-1-2"
-     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient4393-1);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient901);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1" />
   <path
      d="m 8.5,16.5 h 15"
      id="path3077"
@@ -390,6 +390,6 @@
   <path
      sodipodi:nodetypes="csssc"
      d="m 8.5,6 v 22.5 c 0,0.554 3.345,1 7.5,1 4.155,0 7.5,-0.446 7.5,-1 V 6"
-     style="color:#000000;display:block;overflow:visible;visibility:visible;opacity:0.5;fill:none;stroke:url(#linearGradient933);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+     style="color:#000000;display:block;overflow:visible;visibility:visible;opacity:0.5;fill:none;stroke:#002e99;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
      id="rect917" />
 </svg>
