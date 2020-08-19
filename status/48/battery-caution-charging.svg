@@ -169,25 +169,14 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.4666658,0,0,2.0811612,-6.0666553,-30.333874)" />
     <linearGradient
-       id="linearGradient3821">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop3823" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0;"
-         offset="1"
-         id="stop3825" />
-    </linearGradient>
-    <linearGradient
        y2="25"
        x2="36.608757"
        y1="25"
        x1="12.029413"
-       gradientTransform="translate(-48,0)"
+       gradientTransform="translate(-48)"
        gradientUnits="userSpaceOnUse"
        id="linearGradient3941"
-       xlink:href="#linearGradient3821" />
+       xlink:href="#linearGradient929" />
     <linearGradient
        gradientUnits="userSpaceOnUse"
        y2="26"
@@ -208,6 +197,29 @@
          offset="1"
          style="stop-color:#d48e15;stop-opacity:1" />
     </linearGradient>
+    <linearGradient
+       id="linearGradient929">
+      <stop
+         id="stop918"
+         offset="0"
+         style="stop-color:#ad5f00;stop-opacity:0" />
+      <stop
+         style="stop-color:#ad5f00;stop-opacity:1"
+         offset="0.08017239"
+         id="stop921" />
+      <stop
+         style="stop-color:#ad5f00;stop-opacity:0"
+         offset="0.48701805"
+         id="stop923" />
+      <stop
+         id="stop925"
+         offset="0.82605612"
+         style="stop-color:#ad5f00;stop-opacity:1" />
+      <stop
+         id="stop927"
+         offset="1"
+         style="stop-color:#ad5f00;stop-opacity:0" />
+    </linearGradient>
   </defs>
   <path
      d="M 40,42.5 A 16,4.5 0 0 1 7.9999998,42.5 16,4.5 0 1 1 40,42.5 z"
@@ -221,7 +233,7 @@
      x="-36.5"
      y="5.5"
      id="rect3268-4"
-     style="opacity:0.1;color:#000000;fill:url(#linearGradient3941);fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:block;overflow:visible;enable-background:accumulate"
+     style="opacity:0.1;color:#000000;fill:url(#linearGradient3941);fill-opacity:1.0;stroke:none;stroke-width:1;marker:none;visibility:visible;display:block;overflow:visible;enable-background:accumulate;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
      transform="scale(-1,1)" />
   <rect
      style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient901);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;enable-background:accumulate"
@@ -272,10 +284,6 @@
      id="rect3268-0-7"
      style="color:#000000;display:block;overflow:visible;visibility:visible;opacity:0.2;fill:none;stroke:#ffffff;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
   <path
-     id="rect3268-5"
-     d="M 36.5,34 V 7 C 36.5,6.169 30.925,5.5 24,5.5 17.075,5.5 11.5,6.169 11.5,7 v 27"
-     style="color:#000000;display:block;overflow:visible;visibility:visible;opacity:0.3;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
-  <path
      style="color:#000000;display:block;overflow:visible;visibility:visible;opacity:0.4;fill:none;stroke:#ffffff;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
      id="rect3268-0-7-5"
      d="M 35.959926,35.935557 C 34.41184,36.552832 29.65256,37 23.990923,37 18.348253,37 13.601903,36.555823 12.037586,35.941755" />
@@ -296,15 +304,25 @@
      id="rect3244"
      style="opacity:0.1;fill:url(#linearGradient5510);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
   <path
-     id="path2911-3"
-     d="M 24 32.5 C 23.423583 32.5 22.873633 32.512507 22.318359 32.521484 L 21.212891 37 L 24.355469 32.503906 C 24.234486 32.503495 24.121841 32.5 24 32.5 z "
-     style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.7;fill:#ad5f00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+     id="rect3268-5-7"
+     d="M 36.5,9 V 7 C 36.5,6.169 30.925,5.5 24,5.5 17.075,5.5 11.5,6.169 11.5,7 v 2"
+     style="color:#000000;display:block;overflow:visible;visibility:visible;opacity:0.3;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
   <path
-     style="display:inline;opacity:0.4;fill:#ffffff;fill-opacity:1;stroke:none;enable-background:new"
-     d="m 28.203125,16 -3.960937,7 h 0.566406 l 3.960937,-7 z m 2.097656,8 -8.70703,12.455078 L 21.212892,38 31,24 Z m -12.962889,2 -0.337891,1 h 6.679687 l 0.246093,-1 z"
-     id="path3419-5" />
+     id="path885"
+     style="color:#000000;display:block;overflow:visible;visibility:visible;opacity:0.3;fill:none;stroke:#ad5f00;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+     d="m 11.5,9 v 25 m 25,0 V 9" />
   <path
-     id="path2911-2"
-     d="M 20.707031 15 L 17 26 L 23.925781 26 L 22.318359 32.521484 C 22.873633 32.512507 23.423583 32.5 24 32.5 C 24.121841 32.5 24.234486 32.503495 24.355469 32.503906 L 31 23 L 24.242188 23 L 28.769531 15 L 20.707031 15 z "
-     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate;font-variant-east_asian:normal;opacity:0.4;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+     id="path2-6"
+     style="font-variation-settings:normal;opacity:0.4;isolation:auto;mix-blend-mode:normal;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;stop-color:#000000;stop-opacity:1"
+     overflow="visible"
+     fill="#666666"
+     d="M 22,38 33,23 h -9 l 2,-9 -11,15 h 9 z"
+     color="#bebebe" />
+  <path
+     color="#bebebe"
+     d="M 22,37 33,22 h -9 l 2,-9 -11,15 h 9 z"
+     fill="#666666"
+     overflow="visible"
+     style="font-variation-settings:normal;opacity:0.85;isolation:auto;mix-blend-mode:normal;vector-effect:none;fill:#d48e15;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;stop-color:#000000;stop-opacity:1"
+     id="path2" />
 </svg>
