@@ -24,31 +24,6 @@
   </metadata>
   <defs
      id="defs3788">
-    <linearGradient
-       id="linearGradient3861"
-       y2="12.883"
-       gradientUnits="userSpaceOnUse"
-       x2="11.218"
-       gradientTransform="matrix(0.99778,0,0,0.88551429,0.053179,4.2043715)"
-       y1="24.049999"
-       x1="17.740999">
-      <stop
-         id="stop3863"
-         style="stop-color:#0a0a0a;stop-opacity:1"
-         offset="0" />
-      <stop
-         offset="0.08347408"
-         style="stop-color:#1f1f1f;stop-opacity:1"
-         id="stop3865" />
-      <stop
-         offset="0.08347408"
-         style="stop-color:#434343;stop-opacity:1"
-         id="stop3867" />
-      <stop
-         id="stop3869"
-         style="stop-color:#393939;stop-opacity:1"
-         offset="1" />
-    </linearGradient>
     <radialGradient
        r="23"
        gradientTransform="matrix(1.1924,0.53139429,-0.49419,0.81474,3.4847,3.6991715)"
@@ -58,11 +33,11 @@
        id="radialGradient3841">
       <stop
          offset="0"
-         style="stop-color:#535353;stop-opacity:1"
+         style="stop-color:#d4d4d4;stop-opacity:1"
          id="stop3843" />
       <stop
          offset="1"
-         style="stop-color:#393939;stop-opacity:1"
+         style="stop-color:#abacae;stop-opacity:1"
          id="stop3845" />
     </radialGradient>
     <linearGradient
@@ -74,15 +49,6 @@
        y2="24"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(-5.765476,-19)" />
-    <linearGradient
-       xlink:href="#linearGradient3861"
-       id="linearGradient3859"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-7.015476,-16)"
-       x1="25.25"
-       y1="39"
-       x2="25.25"
-       y2="15" />
     <linearGradient
        id="linearGradient16397">
       <stop
@@ -138,7 +104,7 @@
        y2="9" />
   </defs>
   <path
-     style="fill:url(#linearGradient3859);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linejoin:round;stroke-opacity:0.49803922;enable-background:new"
+     style="fill:#abacae;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linejoin:round;stroke-opacity:0.49803922;enable-background:new"
      d="M 2.5,2.5 0.484524,21 1.5,22.5 l 21,0 0.984525,-1.53125 L 21.5,2.5 c -0.176777,-1.1048543 -1,-1 -1,-1 l -17,0 c 0,0 -0.9116117,-0.06066 -1,1 z"
      id="rect6431" />
   <path
