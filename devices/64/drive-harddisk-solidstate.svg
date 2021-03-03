@@ -23,14 +23,14 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1288"
+     inkscape:window-width="1317"
      inkscape:window-height="796"
      id="namedview82"
      showgrid="true"
      showguides="false"
-     inkscape:zoom="6.2303374"
-     inkscape:cx="12.61062"
-     inkscape:cy="34.740723"
+     inkscape:zoom="7.5560237"
+     inkscape:cx="18.972312"
+     inkscape:cy="34.342282"
      inkscape:window-x="16"
      inkscape:window-y="30"
      inkscape:window-maximized="0"
@@ -62,7 +62,7 @@
          offset="0" />
       <stop
          id="stop1238"
-         style="stop-color:#1a1a1a;stop-opacity:0.502"
+         style="stop-color:#555761;stop-opacity:0.50196081"
          offset="1" />
     </linearGradient>
     <linearGradient
@@ -685,9 +685,9 @@
        id="linearGradient1233"
        gradientUnits="userSpaceOnUse"
        x1="56"
-       y1="52"
+       y1="49"
        x2="56"
-       y2="55"
+       y2="53"
        gradientTransform="translate(1.0000005)" />
     <filter
        inkscape:collect="always"
@@ -705,19 +705,6 @@
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter1411"
-       x="-0.6075"
-       width="2.215"
-       y="-0.759375"
-       height="2.51875">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.6328125"
-         id="feGaussianBlur1413" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
        id="filter1539"
        x="-0.30000065"
        width="1.6000013"
@@ -727,6 +714,19 @@
          inkscape:collect="always"
          stdDeviation="0.12416061"
          id="feGaussianBlur1541" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1278"
+       x="-0.40114286"
+       width="1.8022857"
+       y="-0.468"
+       height="1.936">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.585"
+         id="feGaussianBlur1280" />
     </filter>
   </defs>
   <rect
@@ -851,15 +851,16 @@
     <g
        id="path915-6"
        transform="matrix(1.0028589,0,0,0.9815644,-1.1629934,0.97735801)"
-       style="opacity:1;filter:url(#filter1350)" />
+       style="opacity:1;filter:url(#filter1350)"
+       inkscape:groupmode="layer" />
     <path
-       style="display:inline;fill:#9bdb4d;fill-opacity:1;fill-rule:evenodd;stroke:#d1ff82;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1411)"
-       d="m 57,52 -0.5,2 h -2 L 55,52 Z"
+       style="display:inline;opacity:0.75;fill:#9bdb4d;fill-opacity:1;fill-rule:evenodd;stroke:#d1ff82;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1278)"
+       d="m 57.5,51.5 -0.5,3 h -3 l 0.5,-3 z"
        id="path915-1"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <ellipse
-       style="opacity:0.75;fill:#fafafa;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.00672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1539)"
+       style="display:none;opacity:0.75;fill:#fafafa;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.00672;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1539)"
        id="path1417"
        cx="55.850002"
        cy="53.000004"
@@ -887,7 +888,7 @@
      sodipodi:nodetypes="ccccscccc" />
   <path
      style="display:inline;opacity:0.5;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient1233);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 58.5,51.5 -0.75,2.75 h -2.5 l 0.5,-2.75 z"
+     d="m 58.5,51.5 -0.5,3 -3,0 0.5,-3 z"
      id="path915-2"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
