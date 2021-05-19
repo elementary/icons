@@ -1,59 +1,33 @@
-<div>
-    <img title="Mail icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/internet-mail.svg" />
-    <img title="RSS reader icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/internet-news-reader.svg" />
-    <img title="Web browser icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/internet-web-browser.svg" />
-    <img title="Photos icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/multimedia-photo-manager.svg" />
-    <img title="Network error icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/network-error.svg" />
-    <img title="Calendar icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/office-calendar.svg" />
-    <img title="Warning icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/dialog-warning.svg" />
-    <img title="Chat icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/internet-chat.svg" />
-    <img title="Photos icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/multimedia-photo-manager.svg" />
-    <img title="Videos icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/multimedia-video-player.svg" />
-    <img title="Online Accounts icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/preferences-desktop-online-accounts.svg" />
-    <img title="Terminal icon" src="http://elementary.io/images/docs/human-interface-guidelines/icons/64/utilities-terminal.svg" />
- </div>
-
 # elementary Icons
-
-[![Bountysource](https://www.bountysource.com/badge/tracker?tracker_id=27377189)](https://www.bountysource.com/trackers/27377189-elementary-icons)
+![Default App Icon](https://raw.githubusercontent.com/elementary/icons/master/apps/64/application-default-icon.svg)
+![Locale Preferences Icon](https://raw.githubusercontent.com/elementary/icons/master/categories/64/preferences-desktop-locale.svg)
+![Terminal App Icon](https://raw.githubusercontent.com/elementary/icons/master/apps/64/utilities-terminal.svg)
+![Dialog Password Icon](https://raw.githubusercontent.com/elementary/icons/master/status/48/dialog-password.svg)
+![Empty Battery Icon](https://raw.githubusercontent.com/elementary/icons/master/status/48/battery-empty.svg)
+![High Security Icon](https://raw.githubusercontent.com/elementary/icons/master/status/48/security-high.svg)
+![Revert Document Icon](https://raw.githubusercontent.com/elementary/icons/master/actions/24/document-revert.svg)
+![Flag Icon](https://raw.githubusercontent.com/elementary/icons/master/actions/24/edit-flag.svg)
+![Redo Icon](https://raw.githubusercontent.com/elementary/icons/master/actions/24/edit-redo.svg)
+![Down Arrow Icon](https://raw.githubusercontent.com/elementary/icons/master/actions/24/go-down.svg)
+![Reply All Icon](https://raw.githubusercontent.com/elementary/icons/master/actions/24/mail-reply-all.svg)
+![Stop Process Icon](https://raw.githubusercontent.com/elementary/icons/master/actions/24/process-stop.svg)
 
 An original set of vector icons designed specifically for [elementary OS](http://elementary.io) and its desktop environment: Pantheon.
 
-These icons are licensed openly under the terms of the [GNU General Public License](COPYING). Redistributing, forking, remixing, etc. are encouraged!
+## Building and Installation
 
-If you feel the desire to compensate the artists who maintain these icons for your usage, [please see this page](http://elementary.io/get-involved#funding) and thank you!
+You'll need the following dependencies:
 
-## Contributing Icons
-It is recommended to use the free and open source [Inkscape](http://inkscape.org) vector editor to create elementary icons. Any and all icons must follow the elementary [Icon Design Guidelines](http://elementary.io/docs/human-interface-guidelines#iconography).
+* meson
+* rsvg
+* xcursorgen
 
-An [elementary color palette](data/elementary.gpl) ([rendered version](https://elementary.io/docs/human-interface-guidelines#color)) is provided; it is recommended to copy it into your Inkscape settings before you get started.
+Run `meson` to configure the build environment and then `ninja` to build
 
-```bash
-cp data/elementary.gpl ~/.config/inkscape/palettes/
-```
+    meson build --prefix=/usr
+    cd build
+    ninja
 
-To contribute to the elementary icon set, open a pull request to this repository with your icon(s).
+To install, use `ninja install`
 
-It is strongly encouraged to vacuum all vectors with [Inkscape](http://inkscape.org). This keeps the repository lean, clean, and fast for everyone. For convenience, a git pre-commit hook is included. To install, run these commands from your local repository folder:
-```bash
-$ cp pre-commit .git/hooks/
-$ chmod +x .git/hooks/pre-commit
-```
-
-## Installation
-You need the [Meson](http://mesonbuild.com) build system to install it.
-Once you've installed it, run these commands in the root of the icon set.
-```bash
-$ meson build --prefix=/usr
-$ cd build
-$ sudo ninja install
-```
-
-## Not a Universal Icon Set
-Since this set is designed specifically for elementary OS, pull requests to add icons or symlinks that are specific to other desktop environments (such as `xfce-*` or `gnome-*` named icons) will be rejected.
-
-Use of icon names in line with the [FreeDesktop.Org Icon Naming Specification](http://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html) is encouraged.
-
-## Third-Party Brand Preservation
-elementary icons do not attempt to supply icons for third-party apps. Pull requests to add icons or symbolic links that would overwrite the branding of third-party apps will be rejected.
-
+    sudo ninja install
