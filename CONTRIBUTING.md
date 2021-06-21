@@ -1,5 +1,5 @@
 ## Contributing Icons
-It is recommended to use the free and open source [Inkscape](http://inkscape.org) vector editor to create elementary icons. Any and all icons must follow the elementary [Icon Design Guidelines](http://elementary.io/docs/human-interface-guidelines#iconography).
+It is recommended to use the free and open source [Inkscape](http://inkscape.org) vector editor to create elementary icons. Any and all icons must follow the elementary [Icon Design Guidelines](https://docs.elementary.io/hig/reference/iconography).
 
 An elementary color palette is provided, it is recommended to copy it into your Inkscape settings before you get started.
 
