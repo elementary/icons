@@ -1,3 +1,80 @@
+elementary-icon-theme (6.0.0) bionic; urgency=medium
+
+  * Release 6.0.0 (#1035)
+  * Remove notification bell animation (#1032)
+  * Remove multimedia-audio-player (#1033)
+  * Add 24px color emblem favorite (#994)
+  * Status: Add color process-error (#1034)
+  * Add git emblems (#1025)
+  * Remove nm-* icons (#1031)
+  * Update README and CONTRIBUTING (#1030)
+  * Status: Use color icons for notifications (#1029)
+  * Remove audio-speaker-testing (#1007)
+  * Fix missing audio-headphones and media-removable (#1000)
+  * Merge branch 'master' of github.com:elementary/icons
+  * fix missing class in emblem-unreadable-symbolic
+  * Add 32px devices/thunderbolt (#1024)
+  * Emblems: Add symbolic version of Files' emblems (#1022)
+  * battery-full-charged-symbolic: Add missing success class (#1020)
+  * Add 24 prefs-desktop-keyboard-symbolic and update input-keyboard-
+    symbolic (#1019)
+  * Update symbolic power prefs (#1014)
+  * Update symbolic software update (#1013)
+  * bigger 24px battery symbolic (#1004)
+  * Remove accessories-camera (#998)
+  * Apps: Remove internet-mail (#995)
+  * Remove internet-news-reader (#997)
+  * Make emblem-shared round (#993)
+  * Remove edit-undo-archive (#992)
+  * Use new arrow style for undo and redo (#991)
+  * Use new arrow style for mail-reply-* (#990)
+  * Round symbolic pan-* icons (#989)
+  * Add status emblems (#988)
+  * Remove accessories-screenshot (#966)
+  * Redesign find (#944)
+  * Refresh pane-show and pane-hide symbolics (#917)
+  * Battery-charging: only color filled part of bolt (#977)
+  * Update arrows in document-import/export (#970)
+  * Add align to baseline icons (#968)
+  * Use new arrow shape in system-log-out (#969)
+  * Redo list-add and list-remove (#967)
+  * Consistent go arrows (#962)
+  * Music icon update (#957)
+  * video-display-tv (#959)
+  * Drop 64px and 128px actions (#958)
+  * Battery lightning rounded (#950)
+  * application-certificate (#956)
+  * Generic mystery person (#955)
+  * Color 16px avatar default
+  * Visible Icons II - input-tablet (#939)
+  * Increase corner radius in media icons (#949)
+  * Improve empty space in wireless signal (#947)
+  * better contrast in dark mode (#946)
+  * update missed bolt (#945)
+  * Add Inkscape's Symbolic Distribution Icons (#912)
+  * media skip symbolics (#936)
+  * Make lightning shape consistent (#937)
+  * Color battery reflections (#933)
+  * office-task-symbolic (#935)
+  * Remove Ubiquity symlinks (#930)
+  * Update GNOME app symlinks (#931)
+  * application-content Symbolic Icons (#889)
+  * Calligraphy cleanup (#924)
+  * Add Inkscape's Color Picker (#914)
+  * Headphones symbolic (#750)
+  * Add Inkscape Spray Can Tool (#908)
+  * Add draw-calligraphic (#909)
+  * Merge branch 'NikoKrause-mimes-json'
+  * Cleanup application-json files
+  * Merge branch 'master' into mimes-json
+  * All cursor symlinks in meson (#903)
+  * Add office-database-new icons (#900)
+  * cursors: Add symlink for cell and grab pointers (#901)
+  * Use clean style for internet-mail in 16 and 32px (#896)
+  * mimes: add application-json mime
+
+ -- Cody Garver <cody@elementary.io>  Thu, 15 Jul 2021 22:13:02 +0000
+
 elementary-icon-theme (5.3.1) bionic; urgency=medium
 
   * Release 5.3.1 (#894)
