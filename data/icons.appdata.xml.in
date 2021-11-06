@@ -10,6 +10,59 @@
     <p>An original set of vector icons designed specifically for elementary OS and its desktop environment: Pantheon.</p>
   </description>
   <releases>
+    <release version="6.0.1" date="2021-08-15" urgency="medium">
+      <description>
+        <p>Updated families:</p>
+        <ul>
+          <li>Additional sizes for playlist-queue</li>
+          <li>Additional sizes for emblem-downloads</li>
+        </ul>
+      </description>
+    </release>
+    <release version="6.0.0" date="2021-07-15" urgency="medium">
+      <description>
+        <p>Updated families:</p>
+        <ul>
+          <li>Improved consistency between arrow shapes</li>
+          <li>Improved appearance of color icons against dark backgrounds</li>
+          <li>More gender-neutral people icons</li>
+          <li>Rounded media controls</li>
+          <li>Rounded lightning bolt shape</li>
+          <li>More colorful battery icons</li>
+        </ul>
+        <p>Additions:</p>
+        <ul>
+          <li>align-*</li>
+          <li>color-picker</li>
+          <li>distribute-*</li>
+          <li>draw-calligraphic</li>
+          <li>office-database-new</li>
+          <li>tools-spray</li>
+          <li>application-content-*</li>
+          <li>thunderbolt devices</li>
+          <li>video-display-tv</li>
+          <li>symbolic headphones</li>
+          <li>application-certificate</li>
+          <li>application-json</li>
+          <li>office-task-symbolic</li>
+          <li>status emblems</li>
+          <li>emblem-git-*</li>
+        </ul>
+        <p>Removals:</p>
+        <ul>
+          <li>accessories-camera</li>
+          <li>accessories-screenshot</li>
+          <li>audio-speaker-testing</li>
+          <li>edit-undo-archive</li>
+          <li>internet-mail</li>
+          <li>internet-news-reader</li>
+          <li>multimedia-audio-player</li>
+          <li>notification bell animations</li>
+          <li>nm-*</li>
+          <li>ubiquity</li>
+        </ul>
+      </description>
+    </release>
     <release version="5.3.1" date="2020-05-06" urgency="medium">
       <description>
         <p>Minor updates</p>
