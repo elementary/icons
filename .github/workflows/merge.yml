@@ -1,0 +1,23 @@
+---
+
+name: Merge
+
+on:
+  push:
+    branches:
+      - master
+
+  gettext:
+    name: Gettext
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1 # Avoid an error when pushing
+
+      - name: Gettext
+        uses: elementary/actions/gettext-template@master
+        env:
+          GIT_USER_TOKEN: "${{ secrets.GIT_USER_TOKEN }}"
+          GIT_USER_NAME: "elementaryBot"
+          GIT_USER_EMAIL: "builds@elementary.io"

@@ -1,4 +1,6 @@
 # elementary Icons
+[![Translation status](https://l10n.elementary.io/widgets/desktop/-/icons-extra/svg-badge.svg)](https://l10n.elementary.io/engage/desktop/)
+
 ![Default App Icon](https://raw.githubusercontent.com/elementary/icons/master/apps/64/application-default-icon.svg)
 ![Locale Preferences Icon](https://raw.githubusercontent.com/elementary/icons/master/categories/64/preferences-desktop-locale.svg)
 ![Terminal App Icon](https://raw.githubusercontent.com/elementary/icons/master/apps/64/utilities-terminal.svg)

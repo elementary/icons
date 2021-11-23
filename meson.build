@@ -179,3 +179,4 @@ if (get_option ('volume_icons'))
 endif
 
 subdir('data')
+subdir('po')
