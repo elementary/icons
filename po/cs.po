@@ -8,32 +8,36 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-22 14:23-0800\n"
-"PO-Revision-Date: 2021-11-22 14:23-0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-01-11 03:35+0000\n"
+"Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://l10n.elementary.io/projects/desktop/"
+"icons-extra/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/icons.appdata.xml.in:7
 msgid "elementary Icons"
-msgstr ""
+msgstr "Ikony elementary"
 
 #: data/icons.appdata.xml.in:8
 msgid "Named, vector icons for elementary OS"
-msgstr ""
+msgstr "Nazvané, vektorové ikony pro elementary OS"
 
 #: data/icons.appdata.xml.in:10
 msgid ""
 "An original set of vector icons designed specifically for elementary OS and "
 "its desktop environment: Pantheon."
 msgstr ""
+"Původní sada vektorových ikon navržených konkrétně pro elementary OS a jeho "
+"desktopové prostředí: Pantheon."
 
 #: data/icons.appdata.xml.in:15 data/icons.appdata.xml.in:43
 msgid "Additions:"
-msgstr ""
+msgstr "Přidáno:"
 
 #: data/icons.appdata.xml.in:17
 msgid "preferences-desktop-font*"
@@ -41,27 +45,27 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:19 data/icons.appdata.xml.in:34
 msgid "Updated families:"
-msgstr ""
+msgstr "Aktualizovány sady:"
 
 #: data/icons.appdata.xml.in:21
 msgid "Additional sizes for playlist-queue"
-msgstr ""
+msgstr "Další velikost pro frontu seznamu k přehrávání"
 
 #: data/icons.appdata.xml.in:22
 msgid "Redesign PDF file type"
-msgstr ""
+msgstr "Předělán typ PDF souboru"
 
 #: data/icons.appdata.xml.in:23
 msgid "Additional sizes for emblem-downloads"
-msgstr ""
+msgstr "Další velikosti pro emblémy stahování"
 
 #: data/icons.appdata.xml.in:24
 msgid "Remove arrows from Copy and Paste actions"
-msgstr ""
+msgstr "Odebrány šipky z akcí Zkopírovat a Vložit"
 
 #: data/icons.appdata.xml.in:26 data/icons.appdata.xml.in:61
 msgid "Removals:"
-msgstr ""
+msgstr "Odebrání:"
 
 #: data/icons.appdata.xml.in:28
 msgid "multimedia-video-player"
@@ -69,27 +73,27 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:36
 msgid "Improved consistency between arrow shapes"
-msgstr ""
+msgstr "Zlepšena jednotnost tvarů šipek"
 
 #: data/icons.appdata.xml.in:37
 msgid "Improved appearance of color icons against dark backgrounds"
-msgstr ""
+msgstr "Vylepšen vzhled barev barevných ikon vůči tmavým pozadím"
 
 #: data/icons.appdata.xml.in:38
 msgid "More gender-neutral people icons"
-msgstr ""
+msgstr "Více bezpohlavních ikon lidí"
 
 #: data/icons.appdata.xml.in:39
 msgid "Rounded media controls"
-msgstr ""
+msgstr "Zaoblené ovládací prvky médií"
 
 #: data/icons.appdata.xml.in:40
 msgid "Rounded lightning bolt shape"
-msgstr ""
+msgstr "Zaoblen tvar blesku"
 
 #: data/icons.appdata.xml.in:41
 msgid "More colorful battery icons"
-msgstr ""
+msgstr "Barevnější ikony akumulátoru"
 
 #: data/icons.appdata.xml.in:45
 msgid "align-*"
@@ -121,7 +125,7 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:52
 msgid "thunderbolt devices"
-msgstr ""
+msgstr "thunderbolt zařízení"
 
 #: data/icons.appdata.xml.in:53
 msgid "video-display-tv"
@@ -129,7 +133,7 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:54
 msgid "symbolic headphones"
-msgstr ""
+msgstr "symbolická sluchátka"
 
 #: data/icons.appdata.xml.in:55
 msgid "application-certificate"
@@ -145,7 +149,7 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:58
 msgid "status emblems"
-msgstr ""
+msgstr "emblémy stavu"
 
 #: data/icons.appdata.xml.in:59
 msgid "emblem-git-*"
@@ -181,7 +185,7 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:70
 msgid "notification bell animations"
-msgstr ""
+msgstr "animace zvonku upozornění"
 
 #: data/icons.appdata.xml.in:71
 msgid "nm-*"
@@ -193,117 +197,122 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:78
 msgid "Minor updates"
-msgstr ""
+msgstr "Drobné aktualizace"
 
 #: data/icons.appdata.xml.in:80
 msgid "Update emoji names for emoji picker in elementary OS 6 and latest GTK"
 msgstr ""
+"Aktualizovány názvy emotikon ve voliči emotikon pro GTK v elementary OS 6 a "
+"pozdějších"
 
 #: data/icons.appdata.xml.in:81
 msgid "Replace Inkscape with rsvg for building cursors"
-msgstr ""
+msgstr "Při sestavování ikon Inkscape nahrazeno za rsvg"
 
 #: data/icons.appdata.xml.in:87
 msgid "New Palette Colors:"
-msgstr ""
+msgstr "Barvy nové palety:"
 
 #: data/icons.appdata.xml.in:89
 msgid "Add Bubblegum and Mint to official palette"
-msgstr ""
+msgstr "Mezi oficiální palety přidána žvýkačka a máta"
 
 #: data/icons.appdata.xml.in:90
 msgid "Updated all eraser icons to use Bubblegum palette"
 msgstr ""
+"Veškeré ikony mazací pryže zaktualizovány tak, aby využívaly paletu žvýkačka"
 
 #: data/icons.appdata.xml.in:91
 msgid "Updated \"path\" icons to use Mint palette"
-msgstr ""
+msgstr "Aktualizovány ikony „cesta“ tak, aby používaly mátovou paletu"
 
 #: data/icons.appdata.xml.in:92
 msgid "Updated all pencil icons to use Banana palette"
-msgstr ""
+msgstr "Aktualizovány veškeré ikony tužek tak, aby využívali banánovou paletu"
 
 #: data/icons.appdata.xml.in:94
 msgid "New Icons:"
-msgstr ""
+msgstr "Nové ikony:"
 
 #: data/icons.appdata.xml.in:96
 msgid "Add \"software-update-urgent\""
-msgstr ""
+msgstr "Přidána urgentní aktualizace software"
 
 #: data/icons.appdata.xml.in:97
 msgid "Add \"sync-synchronizing\""
-msgstr ""
+msgstr "Přidána synchronní synchronizace"
 
 #: data/icons.appdata.xml.in:99
 msgid "Scaled Icon Sizes:"
-msgstr ""
+msgstr "Velikost ikon se změněným měřítkem:"
 
 #: data/icons.appdata.xml.in:101
 msgid "Add 24px \"window-close-symbolic\""
-msgstr ""
+msgstr "Přidány 24 px symboly pro zavření okna"
 
 #: data/icons.appdata.xml.in:102
 msgid "Add 48px preferences icons"
-msgstr ""
+msgstr "Přidány 48 px ikony pro předvolby"
 
 #: data/icons.appdata.xml.in:109
 msgid "Provide large cursors"
-msgstr ""
+msgstr "Poskytnuty větší kurzory"
 
 #: data/icons.appdata.xml.in:110
 msgid "Fix alignment of several cursors"
-msgstr ""
+msgstr "Opraveno zarovnání několika ukazatelů"
 
 #: data/icons.appdata.xml.in:111
 msgid "Use palette colors in copy cursors"
-msgstr ""
+msgstr "Ve zkopírovaných ukazatelích použity barvy palety"
 
 #: data/icons.appdata.xml.in:112
 msgid "Fix direction of the ban symbol cursor and use red"
-msgstr ""
+msgstr "Opraven směr symbolu ukazatele při odepření a použita červená barva"
 
 #: data/icons.appdata.xml.in:113
 msgid ""
 "Add \"All Scroll\", \"No Drop\", \"Vertical Text\", and \"Zoom\" cursors"
 msgstr ""
+"Přidány ukazatele „Vše posouvat“, „Není možné přetáhnout sem“, „Svislý text“ "
+"a „Přiblížení“"
 
 #: data/icons.appdata.xml.in:120
 msgid "Add 64px prefs locale"
-msgstr ""
+msgstr "Přidáno 64 px předvoleb místní a jazyková nastavení"
 
 #: data/icons.appdata.xml.in:121
 msgid "Make symbol on 32px places home larger"
-msgstr ""
+msgstr "Zvětšení symbolu na místech s 32 px"
 
 #: data/icons.appdata.xml.in:122
 msgid "New icons for Workspace preferences"
-msgstr ""
+msgstr "Nové ikony pro předvolby pracovní plochy"
 
 #: data/icons.appdata.xml.in:123
 msgid "Add symbolic variant for updates icon"
-msgstr ""
+msgstr "Přidána symbolická varianta pro ikonu aktualizací"
 
 #: data/icons.appdata.xml.in:124
 msgid "Give browser-download its own unique icon"
-msgstr ""
+msgstr "Stahování z prohlížeče dostaly svou vlastní ikonu"
 
 #: data/icons.appdata.xml.in:125
 msgid "Use a more scalable metaphor for system updates"
-msgstr ""
+msgstr "Použita škálovatelnější metafora pro aktualizace systému"
 
 #: data/icons.appdata.xml.in:126
 msgid "New view-reader icon"
-msgstr ""
+msgstr "Nová ikona zobrazení-čtečka"
 
 #: data/icons.appdata.xml.in:127
 msgid "Add 32px wireless signal icons"
-msgstr ""
+msgstr "Přidány ikony pro signál WiFi o velikost 32 px"
 
 #: data/icons.appdata.xml.in:128
 msgid "Add 24px user status icons"
-msgstr ""
+msgstr "Přidány ikony pro stav uživatele o velikost 24 px"
 
 #: data/icons.appdata.xml.in:164
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."

@@ -6,10 +6,35 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="32"
    height="32"
-   id="svg3182">
+   id="svg3182"
+   sodipodi:docname="x-office-document-template.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1030"
+     id="namedview59"
+     showgrid="false"
+     inkscape:zoom="17.52299"
+     inkscape:cx="20.270754"
+     inkscape:cy="13.688041"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3182"
+     inkscape:document-rotation="0" />
   <defs
      id="defs3184">
     <linearGradient
@@ -202,7 +227,7 @@
        id="linearGradient3270"
        xlink:href="#linearGradient3428"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.99749995,0,0,-0.99749995,-16.923748,48.896056)" />
+       gradientTransform="matrix(1.0073538,0,0,-1.0076224,-17.291345,49.188702)" />
     <linearGradient
        id="linearGradient3428">
       <stop
@@ -214,6 +239,24 @@
          style="stop-color:#ffffff;stop-opacity:0"
          offset="1" />
     </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0.99999342,0,0,-1.0469474,-16.999821,49.868294)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient3412"
+       id="linearGradient3273-3-3"
+       y2="18.12406"
+       x2="38.972309"
+       y1="37.04594"
+       x1="43.806984" />
+    <linearGradient
+       x1="41.34964"
+       y1="34.796535"
+       x2="33.811069"
+       y2="18.353575"
+       id="linearGradient3270-7-2"
+       xlink:href="#linearGradient3428"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0073359,0,0,-1.064242,-17.290822,50.287481)" />
   </defs>
   <metadata
      id="metadata3187">
@@ -223,7 +266,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -274,14 +317,18 @@
        d="m 8.4999998,28.5 h -3 V 1.4999997 h 3" />
   </g>
   <g
-     id="g3297">
+     id="g3297-1"
+     style="stroke-width:0.867405"
+     transform="matrix(1.1530242,0,0,1.1527031,-3.358753,-3.6595092)">
     <path
-       style="opacity:0.8;fill:url(#linearGradient3273);fill-opacity:1;fill-rule:evenodd;stroke:#83899a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:0.8;fill:url(#linearGradient3273-3-3);fill-opacity:1;fill-rule:evenodd;stroke:#83899a;stroke-width:0.867402;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path3410"
-       d="m 13.5,30.5 15,-15 v 15 z m 6.999999,-3.000001 h 5 V 22.5 Z" />
+       d="M 11.765388,30.502024 29.365091,12.897241 v 17.604783 z m 8.059674,-3.470167 h 6.070693 v -6.072696 z"
+       sodipodi:nodetypes="cccccccc" />
     <path
-       style="opacity:0.4;fill:none;stroke:url(#linearGradient3270);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path3424"
-       d="M 15.713203,29.538323 27.558515,17.693011 v 11.845312 z" />
+       style="opacity:0.4;fill:none;stroke:url(#linearGradient3270-7-2);stroke-width:0.867405;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path3424-2"
+       d="M 13.933599,29.634535 28.497644,15.066056 v 14.568479 z"
+       sodipodi:nodetypes="cccc" />
   </g>
 </svg>
