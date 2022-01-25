@@ -1,6 +1,6 @@
 project (
     'io.elementary.icons',
-    version: '6.0.0',
+    version: '6.1.0',
     license : 'GPL3+'
 )
 
@@ -179,3 +179,4 @@ if (get_option ('volume_icons'))
 endif
 
 subdir('data')
+subdir('po')
