@@ -117,7 +117,7 @@ mime_links = [
     ['x-office-document', 'application-vnd.wordperfect'],
     ['x-office-document', 'office-document'],
     ['x-office-document', 'text-enriched'],
-    ['x-office-document', 'text-richtext']
+    ['x-office-document', 'text-richtext'],
 
     ['x-office-document-rtl', 'application-rtf-rtl'],
     ['x-office-document-rtl', 'application-vnd.oasis.opendocument.text-rtl'],
