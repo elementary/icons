@@ -173,6 +173,7 @@ foreach directory_entry : directories
 endforeach
 
 subdir('cursors')
+subdir('mimes')
 
 if (get_option ('volume_icons'))
   subdir('volumeicon')
