@@ -10,10 +10,150 @@
     <p>An original set of vector icons designed specifically for elementary OS and its desktop environment: Pantheon.</p>
   </description>
   <releases>
-    <release version="5.2.0" date="2019-12-05" urgency="medium">
+    <release version="7.0.1" date="2022-05-12" urgency="medium">
+      <description>
+        <p>Additions:</p>
+        <ul>
+          <li>computer-fail</li>
+          <li>preferences-desktop-theme</li>
+        </ul>
+        <p>Updated families:</p>
+        <ul>
+          <li>Clean up preferences-desktop-workspaces</li>
+          <li>Update preferences-desktop to new tile shape</li>
+          <li>Update image-missing to new tile shape</li>
+          <li>Redesign Night Light</li>
+        </ul>
+      </description>
+    </release>
+    <release version="7.0.0" date="2022-04-25" urgency="medium">
+      <description>
+        <p>Additions:</p>
+        <ul>
+          <li>caps-lock-symbolic</li>
+          <li>eye-not-looking-symbolic</li>
+          <li>eye-open-negative-filled-symbolic</li>
+          <li>num-lock-symbolic</li>
+        </ul>
+        <p>Updated families:</p>
+        <ul>
+          <li>Redesign media-playlist-repeat</li>
+          <li>Update media-playlist-shuffle and media-playlist-consecutive</li>
+          <li>Rounder square icons</li>
+          <li>Rounded arrow corners on Downloads folder</li>
+          <li>Deb and Flatpak Bundle files use a package metaphor</li>
+          <li>Updates arrow points up</li>
+          <li>Redesigned package with new colors</li>
+        </ul>
+        <p>Removals:</p>
+        <ul>
+          <li>notification-*</li>
+          <li>Non-FDO network-*</li>
+          <li>Non-FDO app icons</li>
+        </ul>
+      </description>
+    </release>
+    <release version="6.1.0" date="2021-11-23" urgency="medium">
+      <description>
+        <p>Additions:</p>
+        <ul>
+          <li>preferences-desktop-font*</li>
+        </ul>
+        <p>Updated families:</p>
+        <ul>
+          <li>Additional sizes for playlist-queue</li>
+          <li>Redesign PDF file type</li>
+          <li>Additional sizes for emblem-downloads</li>
+          <li>Remove arrows from Copy and Paste actions</li>
+        </ul>
+        <p>Removals:</p>
+        <ul>
+          <li>multimedia-video-player</li>
+        </ul>
+      </description>
+    </release>
+    <release version="6.0.0" date="2021-07-15" urgency="medium">
+      <description>
+        <p>Updated families:</p>
+        <ul>
+          <li>Improved consistency between arrow shapes</li>
+          <li>Improved appearance of color icons against dark backgrounds</li>
+          <li>More gender-neutral people icons</li>
+          <li>Rounded media controls</li>
+          <li>Rounded lightning bolt shape</li>
+          <li>More colorful battery icons</li>
+        </ul>
+        <p>Additions:</p>
+        <ul>
+          <li>align-*</li>
+          <li>color-picker</li>
+          <li>distribute-*</li>
+          <li>draw-calligraphic</li>
+          <li>office-database-new</li>
+          <li>tools-spray</li>
+          <li>application-content-*</li>
+          <li>thunderbolt devices</li>
+          <li>video-display-tv</li>
+          <li>symbolic headphones</li>
+          <li>application-certificate</li>
+          <li>application-json</li>
+          <li>office-task-symbolic</li>
+          <li>status emblems</li>
+          <li>emblem-git-*</li>
+        </ul>
+        <p>Removals:</p>
+        <ul>
+          <li>accessories-camera</li>
+          <li>accessories-screenshot</li>
+          <li>audio-speaker-testing</li>
+          <li>edit-undo-archive</li>
+          <li>internet-mail</li>
+          <li>internet-news-reader</li>
+          <li>multimedia-audio-player</li>
+          <li>notification bell animations</li>
+          <li>nm-*</li>
+          <li>ubiquity</li>
+        </ul>
+      </description>
+    </release>
+    <release version="5.3.1" date="2020-05-06" urgency="medium">
+      <description>
+        <p>Minor updates</p>
+        <ul>
+          <li>Update emoji names for emoji picker in elementary OS 6 and latest GTK</li>
+          <li>Replace Inkscape with rsvg for building cursors</li>
+        </ul>
+      </description>
+    </release>
+    <release version="5.3.0" date="2020-04-30" urgency="medium">
+      <description>
+        <p>New Palette Colors:</p>
+        <ul>
+          <li>Add Bubblegum and Mint to official palette</li>
+          <li>Updated all eraser icons to use Bubblegum palette</li>
+          <li>Updated "path" icons to use Mint palette</li>
+          <li>Updated all pencil icons to use Banana palette</li>
+        </ul>
+        <p>New Icons:</p>
+        <ul>
+          <li>Add "software-update-urgent"</li>
+          <li>Add "sync-synchronizing"</li>
+        </ul>
+        <p>Scaled Icon Sizes:</p>
+        <ul>
+          <li>Add 24px "window-close-symbolic"</li>
+          <li>Add 48px preferences icons</li>
+        </ul>
+      </description>
+    </release>
+    <release version="5.2.0" date="2020-01-08" urgency="medium">
       <description>
         <ul>
-          <li>Add shared library icon</li>
+          <li>Provide large cursors</li>
+          <li>Fix alignment of several cursors</li>
+          <li>Use palette colors in copy cursors</li>
+          <li>Fix direction of the ban symbol cursor and use red</li>
+          <li>Add "All Scroll", "No Drop", "Vertical Text", and "Zoom" cursors</li>
         </ul>
       </description>
     </release>
@@ -67,4 +207,4 @@
   <developer_name>elementary, Inc.</developer_name>
   <url type="homepage">https://elementary.io</url>
   <url type="bugtracker">https://github.com/elementary/icons/issues</url>
-​</component>
+</component>

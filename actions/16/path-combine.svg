@@ -13,6 +13,17 @@
   <defs
      id="defs7437">
     <linearGradient
+       id="linearGradient837">
+      <stop
+         style="stop-color:#43d6b5;stop-opacity:1"
+         offset="0"
+         id="stop833" />
+      <stop
+         style="stop-color:#28bca3;stop-opacity:1"
+         offset="1"
+         id="stop835" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient1847">
       <stop
          id="stop1839"
@@ -51,17 +62,6 @@
          id="stop961" />
     </linearGradient>
     <linearGradient
-       id="linearGradient870">
-      <stop
-         id="stop866"
-         offset="0"
-         style="stop-color:#43d6b5;stop-opacity:1" />
-      <stop
-         id="stop868"
-         offset="1"
-         style="stop-color:#22cc93;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient
        xlink:href="#linearGradient1847"
        id="linearGradient1697-2"
        gradientUnits="userSpaceOnUse"
@@ -71,7 +71,7 @@
        x2="51.798126"
        y2="-61.562508" />
     <linearGradient
-       xlink:href="#linearGradient870"
+       xlink:href="#linearGradient837"
        id="linearGradient1695-1"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.52631574,0,0,0.52631574,-1.315788,22.684197)"
@@ -88,15 +88,6 @@
        y1="7.818294"
        x2="23.99999"
        y2="40.193295" />
-    <linearGradient
-       xlink:href="#linearGradient870"
-       id="linearGradient1691-7"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.52631574,0,0,0.52631574,-0.815788,4.184197)"
-       x1="14.600296"
-       y1="2.6556277"
-       x2="14.600296"
-       y2="21.282824" />
   </defs>
   <metadata
      id="metadata7440">
@@ -106,7 +97,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -127,6 +118,6 @@
      style="opacity:0.5;vector-effect:none;fill:none;fill-opacity:1;stroke:url(#linearGradient1697-2);stroke-width:0.99999988;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
   <path
      d="M 15.5,6 A 5.5000005,5.5000019 0 1 1 4.499999,6 5.5000005,5.5000019 0 1 1 15.5,6 Z M 1.5,5.5 h 8 c 0.554,0 1,0.446 1,1 v 8 c 0,0.554 -0.446,1 -1,1 h -8 c -0.554,0 -1,-0.446 -1,-1 v -8 c 0,-0.554 0.446,-1 1,-1 z"
-     style="opacity:0.5;vector-effect:none;fill:none;fill-opacity:1;stroke:#105845;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;font-variant-east_asian:normal"
+     style="opacity:0.5;vector-effect:none;fill:none;fill-opacity:1;stroke:#007367;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;font-variant-east_asian:normal"
      id="path8335-7" />
 </svg>
