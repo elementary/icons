@@ -134,7 +134,7 @@ mime_links = [
     ['x-office-drawing', 'application-vnd.oasis.opendocument.drawing'],
     ['x-office-drawing', 'application-vnd.oasis.opendocument.graphics'],
     ['x-office-drawing', 'application-vnd.sun.xml.draw'],
-    ['x-office-drawing', 'image-x-svg+xml'],
+    ['x-office-drawing', 'image-svg+xml'],
     ['x-office-drawing', 'office-illustration'],
 
     ['x-office-drawing-template', 'application-vnd.oasis.opendocument.graphics-template'],
