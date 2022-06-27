@@ -7,6 +7,10 @@ mime_links = [
 
     ['application-msword', 'application-vnd.openxmlformats-officedocument.wordprocessingml.document'],
 
+    # Fallback naming doesn't appear to work reliably
+    ['application-pgp', 'application-pgp-encrypted'],
+    ['application-pgp', 'application-pgp-keys'],
+
     ['application-vnd.ms-excel', 'application-vnd.openxmlformats-officedocument.spreadsheetml.sheet'],
 
     ['application-vnd.ms-powerpoint', 'application-vnd.ms-powerpoint.presentation.macroEnabled.12'],
