@@ -1,6 +1,6 @@
 project (
     'io.elementary.icons',
-    version: '6.1.0',
+    version: '7.0.0',
     license : 'GPL3+'
 )
 
@@ -173,6 +173,7 @@ foreach directory_entry : directories
 endforeach
 
 subdir('cursors')
+subdir('mimes')
 
 if (get_option ('volume_icons'))
   subdir('volumeicon')
