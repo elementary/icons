@@ -8,33 +8,37 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-22 14:23-0800\n"
-"PO-Revision-Date: 2021-11-22 14:23-0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-01-10 02:34+0000\n"
+"Last-Translator: DartDeaDia <dartdeadia@protonmail.com>\n"
+"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
+"icons-extra/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/icons.appdata.xml.in:7
 msgid "elementary Icons"
-msgstr ""
+msgstr "Пиктограммы elementary"
 
 #: data/icons.appdata.xml.in:8
 msgid "Named, vector icons for elementary OS"
-msgstr ""
+msgstr "Именованные, векторные пиктограммы для elementary OS"
 
 #: data/icons.appdata.xml.in:10
 msgid ""
 "An original set of vector icons designed specifically for elementary OS and "
 "its desktop environment: Pantheon."
 msgstr ""
+"Оригинальный набор векторных пиктограмм, разработанный специально для "
+"elementary OS и ее среды рабочего стола: Pantheon."
 
 #: data/icons.appdata.xml.in:15 data/icons.appdata.xml.in:43
 msgid "Additions:"
-msgstr ""
+msgstr "Дополнительно:"
 
 #: data/icons.appdata.xml.in:17
 msgid "preferences-desktop-font*"
@@ -42,27 +46,27 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:19 data/icons.appdata.xml.in:34
 msgid "Updated families:"
-msgstr ""
+msgstr "Обновленные семейства:"
 
 #: data/icons.appdata.xml.in:21
 msgid "Additional sizes for playlist-queue"
-msgstr ""
+msgstr "Дополнительные размеры для playlist-queue"
 
 #: data/icons.appdata.xml.in:22
 msgid "Redesign PDF file type"
-msgstr ""
+msgstr "Переработан вид типов файлов PDF"
 
 #: data/icons.appdata.xml.in:23
 msgid "Additional sizes for emblem-downloads"
-msgstr ""
+msgstr "Дополнительные размеры для emblem-downloads"
 
 #: data/icons.appdata.xml.in:24
 msgid "Remove arrows from Copy and Paste actions"
-msgstr ""
+msgstr "Удалены стрелки из действий Копировать и Вставить"
 
 #: data/icons.appdata.xml.in:26 data/icons.appdata.xml.in:61
 msgid "Removals:"
-msgstr ""
+msgstr "Удаление:"
 
 #: data/icons.appdata.xml.in:28
 msgid "multimedia-video-player"
@@ -70,27 +74,27 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:36
 msgid "Improved consistency between arrow shapes"
-msgstr ""
+msgstr "Улучшена консистентность между стрелками формы"
 
 #: data/icons.appdata.xml.in:37
 msgid "Improved appearance of color icons against dark backgrounds"
-msgstr ""
+msgstr "Улучшен внешний вид цветных пикограмм на темном фоне"
 
 #: data/icons.appdata.xml.in:38
 msgid "More gender-neutral people icons"
-msgstr ""
+msgstr "Больше гендерно-нейтральных пикограмм людей"
 
 #: data/icons.appdata.xml.in:39
 msgid "Rounded media controls"
-msgstr ""
+msgstr "Закругленны элементы управления медиа"
 
 #: data/icons.appdata.xml.in:40
 msgid "Rounded lightning bolt shape"
-msgstr ""
+msgstr "Закруглена форма молнии"
 
 #: data/icons.appdata.xml.in:41
 msgid "More colorful battery icons"
-msgstr ""
+msgstr "Более красочные иконки аккумулятора"
 
 #: data/icons.appdata.xml.in:45
 msgid "align-*"
@@ -122,7 +126,7 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:52
 msgid "thunderbolt devices"
-msgstr ""
+msgstr "устройства thunderbolt"
 
 #: data/icons.appdata.xml.in:53
 msgid "video-display-tv"
@@ -130,7 +134,7 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:54
 msgid "symbolic headphones"
-msgstr ""
+msgstr "символы наушников"
 
 #: data/icons.appdata.xml.in:55
 msgid "application-certificate"
@@ -146,7 +150,7 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:58
 msgid "status emblems"
-msgstr ""
+msgstr "эмблемы статуса"
 
 #: data/icons.appdata.xml.in:59
 msgid "emblem-git-*"
@@ -182,7 +186,7 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:70
 msgid "notification bell animations"
-msgstr ""
+msgstr "анимация звонков уведомлений"
 
 #: data/icons.appdata.xml.in:71
 msgid "nm-*"
@@ -194,117 +198,125 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:78
 msgid "Minor updates"
-msgstr ""
+msgstr "Незначительные обновления"
 
 #: data/icons.appdata.xml.in:80
 msgid "Update emoji names for emoji picker in elementary OS 6 and latest GTK"
 msgstr ""
+"Обновлены названия эмодзи для менеджера эмодзи в elementary OS 6 и последней "
+"версии GTK"
 
 #: data/icons.appdata.xml.in:81
 msgid "Replace Inkscape with rsvg for building cursors"
-msgstr ""
+msgstr "Замена Inkscape на rsvg для построения курсоров"
 
 #: data/icons.appdata.xml.in:87
 msgid "New Palette Colors:"
-msgstr ""
+msgstr "Новая палитра цветов:"
 
 #: data/icons.appdata.xml.in:89
 msgid "Add Bubblegum and Mint to official palette"
-msgstr ""
+msgstr "Добавлены Бубльгумовый и Мятный в официальную палитру"
 
 #: data/icons.appdata.xml.in:90
 msgid "Updated all eraser icons to use Bubblegum palette"
 msgstr ""
+"Обновлены все пиктограммы ластиков, что использовали Бубльгумовую палитру"
 
 #: data/icons.appdata.xml.in:91
 msgid "Updated \"path\" icons to use Mint palette"
-msgstr ""
+msgstr "Обновлен значок «пути», для использования Мятной палитры"
 
 #: data/icons.appdata.xml.in:92
 msgid "Updated all pencil icons to use Banana palette"
 msgstr ""
+"Обновлены все пиктограмми карандашей, для использования Банановой палитры"
 
 #: data/icons.appdata.xml.in:94
 msgid "New Icons:"
-msgstr ""
+msgstr "Новые пиктограммы:"
 
 #: data/icons.appdata.xml.in:96
 msgid "Add \"software-update-urgent\""
-msgstr ""
+msgstr "Добавлен «software-update-urgent»"
 
 #: data/icons.appdata.xml.in:97
 msgid "Add \"sync-synchronizing\""
-msgstr ""
+msgstr "Добавлен «sync-synchronizing»"
 
 #: data/icons.appdata.xml.in:99
 msgid "Scaled Icon Sizes:"
-msgstr ""
+msgstr "Масштабированы размеры значков:"
 
 #: data/icons.appdata.xml.in:101
 msgid "Add 24px \"window-close-symbolic\""
-msgstr ""
+msgstr "Добавлен «window-close-symbolic» 24 пикселей"
 
 #: data/icons.appdata.xml.in:102
 msgid "Add 48px preferences icons"
-msgstr ""
+msgstr "Добавлены пиктограммы параметров размером 48 пикселей"
 
 #: data/icons.appdata.xml.in:109
 msgid "Provide large cursors"
-msgstr ""
+msgstr "Предоставлены указатели мыши крупных размеров"
 
 #: data/icons.appdata.xml.in:110
 msgid "Fix alignment of several cursors"
-msgstr ""
+msgstr "Исправлено выравнивание нескольких указателей мыши"
 
 #: data/icons.appdata.xml.in:111
 msgid "Use palette colors in copy cursors"
-msgstr ""
+msgstr "Использование цвета палитры для указателей мыши"
 
 #: data/icons.appdata.xml.in:112
 msgid "Fix direction of the ban symbol cursor and use red"
 msgstr ""
+"Исправлено направление запрещающего указателя мыши, и используется красный "
+"цвет"
 
 #: data/icons.appdata.xml.in:113
 msgid ""
 "Add \"All Scroll\", \"No Drop\", \"Vertical Text\", and \"Zoom\" cursors"
 msgstr ""
+"Добавлены указатели мыши «Все пролистано», «Перетаскивание запрещено», «"
+"Вертикальный текст» и «Масштабирование»"
 
 #: data/icons.appdata.xml.in:120
 msgid "Add 64px prefs locale"
-msgstr ""
+msgstr "Добавлен значок региональных параметров размером 64 пикселей"
 
 #: data/icons.appdata.xml.in:121
 msgid "Make symbol on 32px places home larger"
-msgstr ""
+msgstr "Увеличен символ домашней папки на 32 пикселя"
 
 #: data/icons.appdata.xml.in:122
 msgid "New icons for Workspace preferences"
-msgstr ""
+msgstr "Новые значки для параметров рабочих пространств"
 
 #: data/icons.appdata.xml.in:123
 msgid "Add symbolic variant for updates icon"
-msgstr ""
+msgstr "Добавлен символьный вариант для значка обновлений"
 
 #: data/icons.appdata.xml.in:124
 msgid "Give browser-download its own unique icon"
-msgstr ""
+msgstr "Новая уникальная иконка для browser-download"
 
 #: data/icons.appdata.xml.in:125
 msgid "Use a more scalable metaphor for system updates"
-msgstr ""
+msgstr "Более масштабируемая форма значка системных обновлений"
 
 #: data/icons.appdata.xml.in:126
 msgid "New view-reader icon"
-msgstr ""
+msgstr "Новый значок view-reader"
 
 #: data/icons.appdata.xml.in:127
 msgid "Add 32px wireless signal icons"
-msgstr ""
+msgstr "Добавлен значок беспроводной связи размером 32 пикселей"
 
 #: data/icons.appdata.xml.in:128
 msgid "Add 24px user status icons"
-msgstr ""
+msgstr "Добавлен значок статуса пользователя размером 24 пикселей"
 
 #: data/icons.appdata.xml.in:164
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."

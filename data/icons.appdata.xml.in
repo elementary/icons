@@ -10,6 +10,49 @@
     <p>An original set of vector icons designed specifically for elementary OS and its desktop environment: Pantheon.</p>
   </description>
   <releases>
+    <release version="7.0.1" date="2022-05-12" urgency="medium">
+      <description>
+        <p>Additions:</p>
+        <ul>
+          <li>computer-fail</li>
+          <li>preferences-desktop-theme</li>
+        </ul>
+        <p>Updated families:</p>
+        <ul>
+          <li>Clean up preferences-desktop-workspaces</li>
+          <li>Update preferences-desktop to new tile shape</li>
+          <li>Update image-missing to new tile shape</li>
+          <li>Redesign Night Light</li>
+        </ul>
+      </description>
+    </release>
+    <release version="7.0.0" date="2022-04-25" urgency="medium">
+      <description>
+        <p>Additions:</p>
+        <ul>
+          <li>caps-lock-symbolic</li>
+          <li>eye-not-looking-symbolic</li>
+          <li>eye-open-negative-filled-symbolic</li>
+          <li>num-lock-symbolic</li>
+        </ul>
+        <p>Updated families:</p>
+        <ul>
+          <li>Redesign media-playlist-repeat</li>
+          <li>Update media-playlist-shuffle and media-playlist-consecutive</li>
+          <li>Rounder square icons</li>
+          <li>Rounded arrow corners on Downloads folder</li>
+          <li>Deb and Flatpak Bundle files use a package metaphor</li>
+          <li>Updates arrow points up</li>
+          <li>Redesigned package with new colors</li>
+        </ul>
+        <p>Removals:</p>
+        <ul>
+          <li>notification-*</li>
+          <li>Non-FDO network-*</li>
+          <li>Non-FDO app icons</li>
+        </ul>
+      </description>
+    </release>
     <release version="6.1.0" date="2021-11-23" urgency="medium">
       <description>
         <p>Additions:</p>
