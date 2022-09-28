@@ -10,11 +10,87 @@
     <p>An original set of vector icons designed specifically for elementary OS and its desktop environment: Pantheon.</p>
   </description>
   <releases>
-    <release version="6.0.1" date="2021-08-15" urgency="medium">
+    <release version="7.1.0" date="2022-09-27" urgency="medium">
       <description>
+        <p>Additions:</p>
+        <ul>
+          <li>"computer-fail"</li>
+          <li>"preferences-desktop-theme"</li>
+          <li>"application-x-sharedlib"</li>
+          <li>"process-paused"</li>
+        </ul>
+        <p>Removals:</p>
+        <ul>
+          <li>"office-address-book"</li>
+          <li>Flash file types</li>
+        </ul>
+        <p>Updated families:</p>
+        <ul>
+          <li>Clean up "preferences-desktop-workspaces"</li>
+          <li>Update "preferences-desktop" to new tile shape</li>
+          <li>Update "image-missing" to new tile shape</li>
+          <li>Update "preferences-desktop-keyboard" to new tile shape</li>
+          <li>Update "document-import" and "document-export" to new tile shape</li>
+          <li>Update many file types with new arrow shape</li>
+          <li>"application-default-icon" is now brightly colored</li>
+          <li>"media-stop" is now a square</li>
+          <li>Round symbolic location status icons</li>
+          <li>Use an outlined shape for symbolic tag icons</li>
+          <li>Use a rounded star for symbolic bookmark icons</li>
+          <li>Redesign Night Light</li>
+          <li>Use latest Flatpak branding</li>
+        </ul>
+        <p>Other Changes:</p>
+        <ul>
+          <li>Fix broken link for SVG file types</li>
+          <li>Fix missing links for PGP file types</li>
+          <li>Scale some icons to more sizes</li>
+        </ul>
+      </description>
+    </release>
+    <release version="7.0.0" date="2022-04-25" urgency="medium">
+      <description>
+        <p>Additions:</p>
+        <ul>
+          <li>caps-lock-symbolic</li>
+          <li>eye-not-looking-symbolic</li>
+          <li>eye-open-negative-filled-symbolic</li>
+          <li>num-lock-symbolic</li>
+        </ul>
+        <p>Updated families:</p>
+        <ul>
+          <li>Redesign media-playlist-repeat</li>
+          <li>Update media-playlist-shuffle and media-playlist-consecutive</li>
+          <li>Rounder square icons</li>
+          <li>Rounded arrow corners on Downloads folder</li>
+          <li>Deb and Flatpak Bundle files use a package metaphor</li>
+          <li>Updates arrow points up</li>
+          <li>Redesigned package with new colors</li>
+        </ul>
+        <p>Removals:</p>
+        <ul>
+          <li>notification-*</li>
+          <li>Non-FDO network-*</li>
+          <li>Non-FDO app icons</li>
+        </ul>
+      </description>
+    </release>
+    <release version="6.1.0" date="2021-11-23" urgency="medium">
+      <description>
+        <p>Additions:</p>
+        <ul>
+          <li>preferences-desktop-font*</li>
+        </ul>
         <p>Updated families:</p>
         <ul>
           <li>Additional sizes for playlist-queue</li>
+          <li>Redesign PDF file type</li>
+          <li>Additional sizes for emblem-downloads</li>
+          <li>Remove arrows from Copy and Paste actions</li>
+        </ul>
+        <p>Removals:</p>
+        <ul>
+          <li>multimedia-video-player</li>
         </ul>
       </description>
     </release>
