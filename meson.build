@@ -93,7 +93,7 @@ foreach directory_entry : directories
     directory_context = directory_entry[1]
     foreach size: sizes
         dir_exists = fs.is_dir(join_paths(meson.source_root (), directory, size))
-        if (dir_exists == true)
+        if dir_exists
             foreach scale_factor : scale_factors
                 # The Scale=1 attribute is useless, don't add it
                 if (scale_factor.to_int() > 1)
