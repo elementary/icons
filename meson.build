@@ -5,6 +5,7 @@ project (
 )
 
 i18n = import('i18n')
+fs = import('fs')
 
 icon_dir = join_paths(get_option('datadir'), 'icons', 'elementary')
 
@@ -91,8 +92,8 @@ foreach directory_entry : directories
     directory = directory_entry[0]
     directory_context = directory_entry[1]
     foreach size: sizes
-        result = run_command(ls, join_paths(meson.source_root (), directory, size), check: true)
-        if (result.returncode() == 0)
+        dir_exists = fs.is_dir(join_paths(meson.source_root (), directory, size))
+        if (dir_exists == true)
             foreach scale_factor : scale_factors
                 # The Scale=1 attribute is useless, don't add it
                 if (scale_factor.to_int() > 1)
