@@ -37,6 +37,7 @@ mime_links = [
     ['audio-x-playlist-rtl', 'audio-x-scpls-rtl'],
 
     ['extension', 'application-vnd.openofficeorg.extension'],
+    ['extension', 'application-x-xpinstall'],
     ['extension', 'libpeas-plugin'],
 
     ['image-x-generic', 'image'],
