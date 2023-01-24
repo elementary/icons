@@ -1,6 +1,6 @@
 project (
     'io.elementary.icons',
-    version: '7.1.0',
+    version: '7.2.0',
     license : 'GPL3+'
 )
 
