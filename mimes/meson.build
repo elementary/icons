@@ -37,6 +37,7 @@ mime_links = [
     ['audio-x-playlist-rtl', 'audio-x-scpls-rtl'],
 
     ['extension', 'application-vnd.openofficeorg.extension'],
+    ['extension', 'application-x-xpinstall'],
     ['extension', 'libpeas-plugin'],
 
     ['image-x-generic', 'image'],
@@ -60,19 +61,19 @@ mime_links = [
 
     ['package-x-generic', 'package'],
 
-    ['text', 'application-x-gnome-theme-package'],
-    ['text', 'application-x-theme'],
-    ['text', 'document'],
-    ['text', 'text-plain'],
-    ['text', 'text-x-generic'],
-    ['text', 'wordprocessing'],
+    ['text-x-generic', 'application-x-gnome-theme-package'],
+    ['text-x-generic', 'application-x-theme'],
+    ['text-x-generic', 'document'],
+    ['text-x-generic', 'text'],
+    ['text-x-generic', 'text-plain'],
+    ['text-x-generic', 'wordprocessing'],
 
-    ['text-rtl', 'application-x-gnome-theme-package-rtl'],
-    ['text-rtl', 'application-x-theme-rtl'],
-    ['text-rtl', 'document-rtl'],
-    ['text-rtl', 'text-plain-rtl'],
-    ['text-rtl', 'text-x-generic-rtl'],
-    ['text-rtl', 'wordprocessing-rtl'],
+    ['text-x-generic-rtl', 'application-x-gnome-theme-package-rtl'],
+    ['text-x-generic-rtl', 'application-x-theme-rtl'],
+    ['text-x-generic-rtl', 'document-rtl'],
+    ['text-x-generic-rtl', 'text-rtl'],
+    ['text-x-generic-rtl', 'text-plain-rtl'],
+    ['text-x-generic-rtl', 'wordprocessing-rtl'],
 
     ['text-html', 'application-vnd.oasis.opendocument.text-web'],
     ['text-html', 'application-x-class-file'],

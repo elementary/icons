@@ -6,10 +6,43 @@
   <project_license>GPL-3.0+</project_license>
   <name>elementary Icons</name>
   <summary>Named, vector icons for elementary OS</summary>
+  <icon type="stock">preferences-desktop-theme</icon>
   <description>
     <p>An original set of vector icons designed specifically for elementary OS and its desktop environment: Pantheon.</p>
   </description>
+
   <releases>
+    <release version="7.2.0" date="2023-01-03" urgency="medium">
+      <description>
+        <p>Additions:</p>
+        <ul>
+          <li>Symlink to "application-x-xpinstall" for web extension files</li>
+        </ul>
+        <p>Removals:</p>
+        <ul>
+          <li>"internet-web-browser"</li>
+          <li>"system-os-install"</li>
+          <li>"preferences-desktop-accessibility-pointing"</li>
+          <li>"preferences-desktop-accessibility-zoom"</li>
+          <li>"preferences-color"</li>
+          <li>"preferences-system-windows"</li>
+          <li>"applications-education"</li>
+          <li>"applications-interfacedesign"</li>
+          <li>"applications-photography"</li>
+        </ul>
+        <p>Updated families:</p>
+        <ul>
+          <li>"applications-development" uses a purple tile and the same hammer glyph as build system file types</li>
+          <li>"system-file-manager" is blue and tile shaped</li>
+          <li>"accessories-calculator" redesigned as a tile shape</li>
+          <li>Update the border radius of several tile-shaped icons</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/icons/issues/1136">Normalize width of key next to backspace in "input-keyboard"</issue>
+      </issues>
+    </release>
+
     <release version="7.1.0" date="2022-10-06" urgency="medium">
       <description>
         <p>Additions:</p>
@@ -49,6 +82,7 @@
         </ul>
       </description>
     </release>
+
     <release version="7.0.0" date="2022-04-25" urgency="medium">
       <description>
         <p>Additions:</p>
@@ -76,6 +110,7 @@
         </ul>
       </description>
     </release>
+
     <release version="6.1.0" date="2021-11-23" urgency="medium">
       <description>
         <p>Additions:</p>
@@ -95,6 +130,7 @@
         </ul>
       </description>
     </release>
+
     <release version="6.0.0" date="2021-07-15" urgency="medium">
       <description>
         <p>Updated families:</p>
@@ -139,63 +175,8 @@
         </ul>
       </description>
     </release>
-    <release version="5.3.1" date="2020-05-06" urgency="medium">
-      <description>
-        <p>Minor updates</p>
-        <ul>
-          <li>Update emoji names for emoji picker in elementary OS 6 and latest GTK</li>
-          <li>Replace Inkscape with rsvg for building cursors</li>
-        </ul>
-      </description>
-    </release>
-    <release version="5.3.0" date="2020-04-30" urgency="medium">
-      <description>
-        <p>New Palette Colors:</p>
-        <ul>
-          <li>Add Bubblegum and Mint to official palette</li>
-          <li>Updated all eraser icons to use Bubblegum palette</li>
-          <li>Updated "path" icons to use Mint palette</li>
-          <li>Updated all pencil icons to use Banana palette</li>
-        </ul>
-        <p>New Icons:</p>
-        <ul>
-          <li>Add "software-update-urgent"</li>
-          <li>Add "sync-synchronizing"</li>
-        </ul>
-        <p>Scaled Icon Sizes:</p>
-        <ul>
-          <li>Add 24px "window-close-symbolic"</li>
-          <li>Add 48px preferences icons</li>
-        </ul>
-      </description>
-    </release>
-    <release version="5.2.0" date="2020-01-08" urgency="medium">
-      <description>
-        <ul>
-          <li>Provide large cursors</li>
-          <li>Fix alignment of several cursors</li>
-          <li>Use palette colors in copy cursors</li>
-          <li>Fix direction of the ban symbol cursor and use red</li>
-          <li>Add "All Scroll", "No Drop", "Vertical Text", and "Zoom" cursors</li>
-        </ul>
-      </description>
-    </release>
-    <release version="5.1.0" date="2019-10-31" urgency="medium">
-      <description>
-        <ul>
-          <li>Add 64px prefs locale</li>
-          <li>Make symbol on 32px places home larger</li>
-          <li>New icons for Workspace preferences</li>
-          <li>Add symbolic variant for updates icon</li>
-          <li>Give browser-download its own unique icon</li>
-          <li>Use a more scalable metaphor for system updates</li>
-          <li>New view-reader icon</li>
-          <li>Add 32px wireless signal icons</li>
-          <li>Add 24px user status icons</li>
-        </ul>
-      </description>
-    </release>
   </releases>
+
   <content_rating type="oars-1.1">
     <content_attribute id="violence-cartoon">none</content_attribute>
     <content_attribute id="violence-fantasy">none</content_attribute>
