@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-22 14:23-0800\n"
+"POT-Creation-Date: 2023-02-23 11:29+0000\n"
 "PO-Revision-Date: 2021-12-03 11:11+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/"
-"icons-extra/he/>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/icons-"
+"extra/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +27,7 @@ msgstr "סמלי elementary"
 msgid "Named, vector icons for elementary OS"
 msgstr "סמלים וקטוריים עם שמות ל־elementary OS"
 
-#: data/icons.appdata.xml.in:10
+#: data/icons.appdata.xml.in:11
 msgid ""
 "An original set of vector icons designed specifically for elementary OS and "
 "its desktop environment: Pantheon."
@@ -35,279 +35,482 @@ msgstr ""
 "ערכה מקורית של סמלים וקטוריים שעוצבו במיוחד ל־elementary OS ולסביבת שולחן "
 "העבודה שלה: Pantheon."
 
-#: data/icons.appdata.xml.in:15 data/icons.appdata.xml.in:43
+#: data/icons.appdata.xml.in:17 data/icons.appdata.xml.in:51
+#: data/icons.appdata.xml.in:91 data/icons.appdata.xml.in:119
+#: data/icons.appdata.xml.in:148
 msgid "Additions:"
 msgstr "תוספות:"
 
-#: data/icons.appdata.xml.in:17
-msgid "preferences-desktop-font*"
+#: data/icons.appdata.xml.in:19
+msgid "\"panel-left/right\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:19 data/icons.appdata.xml.in:34
-msgid "Updated families:"
-msgstr "משפחות שעודכנו:"
+#: data/icons.appdata.xml.in:20
+msgid "Symlink to \"application-x-xpinstall\" for web extension files"
+msgstr ""
 
-#: data/icons.appdata.xml.in:21
-msgid "Additional sizes for playlist-queue"
-msgstr "גדלים נוספים לתור רשימת נגינה"
-
-#: data/icons.appdata.xml.in:22
-msgid "Redesign PDF file type"
-msgstr "עיצוב מחדש של סוג הקובץ PDF"
-
-#: data/icons.appdata.xml.in:23
-msgid "Additional sizes for emblem-downloads"
-msgstr "גדלים נוספים להורדות סמלים"
-
-#: data/icons.appdata.xml.in:24
-msgid "Remove arrows from Copy and Paste actions"
-msgstr "החצים מפעולות העתקה והדבקה הוסרו"
-
-#: data/icons.appdata.xml.in:26 data/icons.appdata.xml.in:61
+#: data/icons.appdata.xml.in:22 data/icons.appdata.xml.in:58
+#: data/icons.appdata.xml.in:108 data/icons.appdata.xml.in:130
+#: data/icons.appdata.xml.in:166
 msgid "Removals:"
 msgstr "הסרות:"
 
-#: data/icons.appdata.xml.in:28
-msgid "multimedia-video-player"
+#: data/icons.appdata.xml.in:24
+msgid "\"internet-web-browser\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:36
-msgid "Improved consistency between arrow shapes"
-msgstr "שופרה האחידות בין צורות החצים"
+#: data/icons.appdata.xml.in:25
+msgid "\"system-os-install\""
+msgstr ""
+
+#: data/icons.appdata.xml.in:26
+msgid "\"preferences-desktop-accessibility-pointing\""
+msgstr ""
+
+#: data/icons.appdata.xml.in:27
+msgid "\"preferences-desktop-accessibility-zoom\""
+msgstr ""
+
+#: data/icons.appdata.xml.in:28
+msgid "\"preferences-color\""
+msgstr ""
+
+#: data/icons.appdata.xml.in:29
+msgid "\"preferences-system-windows\""
+msgstr ""
+
+#: data/icons.appdata.xml.in:30
+msgid "\"applications-education\""
+msgstr ""
+
+#: data/icons.appdata.xml.in:31
+msgid "\"applications-interfacedesign\""
+msgstr ""
+
+#: data/icons.appdata.xml.in:32
+msgid "\"applications-photography\""
+msgstr ""
+
+#: data/icons.appdata.xml.in:33
+msgid "\"view-list-compact\""
+msgstr ""
+
+#: data/icons.appdata.xml.in:35 data/icons.appdata.xml.in:63
+#: data/icons.appdata.xml.in:98 data/icons.appdata.xml.in:123
+#: data/icons.appdata.xml.in:139
+msgid "Updated families:"
+msgstr "משפחות שעודכנו:"
 
 #: data/icons.appdata.xml.in:37
-msgid "Improved appearance of color icons against dark backgrounds"
-msgstr "שופרה החזות של צבעי הסמלים כנגד רקעים כהים"
+msgid ""
+"\"applications-development\" uses a purple tile and the same hammer glyph as "
+"build system file types"
+msgstr ""
 
 #: data/icons.appdata.xml.in:38
-msgid "More gender-neutral people icons"
-msgstr "יותר סמלים של אנשים ניטרליים מגדרית"
+msgid "\"system-file-manager\" is blue and tile shaped"
+msgstr ""
 
 #: data/icons.appdata.xml.in:39
-msgid "Rounded media controls"
-msgstr "פקדי מדיה מעוגלים"
+msgid "\"accessories-calculator\" redesigned as a tile shape"
+msgstr ""
 
 #: data/icons.appdata.xml.in:40
-msgid "Rounded lightning bolt shape"
-msgstr "צורת ברק מעוגלת"
+msgid "Update the border radius of several tile-shaped icons"
+msgstr ""
 
 #: data/icons.appdata.xml.in:41
-msgid "More colorful battery icons"
-msgstr "סמלי סוללה צבעוניים יותר"
-
-#: data/icons.appdata.xml.in:45
-msgid "align-*"
+msgid "\"view-*\" symbolic icons"
 msgstr ""
-
-#: data/icons.appdata.xml.in:46
-msgid "color-picker"
-msgstr ""
-
-#: data/icons.appdata.xml.in:47
-msgid "distribute-*"
-msgstr ""
-
-#: data/icons.appdata.xml.in:48
-msgid "draw-calligraphic"
-msgstr ""
-
-#: data/icons.appdata.xml.in:49
-msgid "office-database-new"
-msgstr ""
-
-#: data/icons.appdata.xml.in:50
-msgid "tools-spray"
-msgstr ""
-
-#: data/icons.appdata.xml.in:51
-msgid "application-content-*"
-msgstr ""
-
-#: data/icons.appdata.xml.in:52
-msgid "thunderbolt devices"
-msgstr "התקני Thunderbolt"
 
 #: data/icons.appdata.xml.in:53
-msgid "video-display-tv"
+msgid "\"computer-fail\""
 msgstr ""
 
 #: data/icons.appdata.xml.in:54
-msgid "symbolic headphones"
-msgstr "אוזניות סמליות"
+msgid "\"preferences-desktop-theme\""
+msgstr ""
 
 #: data/icons.appdata.xml.in:55
-msgid "application-certificate"
+msgid "\"application-x-sharedlib\""
 msgstr ""
 
 #: data/icons.appdata.xml.in:56
-msgid "application-json"
+msgid "\"process-paused\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:57
-msgid "office-task-symbolic"
+#: data/icons.appdata.xml.in:60
+msgid "\"office-address-book\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:58
-msgid "status emblems"
-msgstr "סמלי מצב"
-
-#: data/icons.appdata.xml.in:59
-msgid "emblem-git-*"
-msgstr ""
-
-#: data/icons.appdata.xml.in:63
-msgid "accessories-camera"
-msgstr ""
-
-#: data/icons.appdata.xml.in:64
-msgid "accessories-screenshot"
+#: data/icons.appdata.xml.in:61
+msgid "Flash file types"
 msgstr ""
 
 #: data/icons.appdata.xml.in:65
-msgid "audio-speaker-testing"
+msgid "Clean up \"preferences-desktop-workspaces\""
 msgstr ""
 
 #: data/icons.appdata.xml.in:66
-msgid "edit-undo-archive"
+msgid "Update \"preferences-desktop\" to new tile shape"
 msgstr ""
 
 #: data/icons.appdata.xml.in:67
-msgid "internet-mail"
+msgid "Update \"image-missing\" to new tile shape"
 msgstr ""
 
 #: data/icons.appdata.xml.in:68
-msgid "internet-news-reader"
+msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
 msgstr ""
 
 #: data/icons.appdata.xml.in:69
-msgid "multimedia-audio-player"
+msgid "Update \"document-import\" and \"document-export\" to new tile shape"
 msgstr ""
 
 #: data/icons.appdata.xml.in:70
-msgid "notification bell animations"
-msgstr "הנפשות פעמון התראה"
+msgid "Update many file types with new arrow shape"
+msgstr ""
 
 #: data/icons.appdata.xml.in:71
-msgid "nm-*"
+msgid "\"application-default-icon\" is now brightly colored"
 msgstr ""
 
 #: data/icons.appdata.xml.in:72
-msgid "ubiquity"
+msgid "\"media-stop\" is now a square"
+msgstr ""
+
+#: data/icons.appdata.xml.in:73
+#, fuzzy
+#| msgid "Add symbolic variant for updates icon"
+msgid "Round symbolic location status icons"
+msgstr "נוסף הגוון סמלי לסמל עדכון"
+
+#: data/icons.appdata.xml.in:74
+msgid "Use an outlined shape for symbolic tag icons"
+msgstr ""
+
+#: data/icons.appdata.xml.in:75
+msgid "Use a rounded star for symbolic bookmark icons"
+msgstr ""
+
+#: data/icons.appdata.xml.in:76
+msgid "Redesign Night Light"
+msgstr ""
+
+#: data/icons.appdata.xml.in:77
+msgid "Use latest Flatpak branding"
 msgstr ""
 
 #: data/icons.appdata.xml.in:78
-msgid "Minor updates"
-msgstr "עדכונים משניים"
+msgid "Symbolic volume icons use a rounded shape and a slash when muted"
+msgstr ""
 
 #: data/icons.appdata.xml.in:80
-msgid "Update emoji names for emoji picker in elementary OS 6 and latest GTK"
-msgstr "שמות האמוג׳י לבוחר האמוג׳י עודכנו ב־elementary OS 6 וה־GTK העדכני ביותר"
+msgid "Other Changes:"
+msgstr ""
 
-#: data/icons.appdata.xml.in:81
-msgid "Replace Inkscape with rsvg for building cursors"
-msgstr "החלפת Inkscape עם rsvg לבניית סמני עכבר"
+#: data/icons.appdata.xml.in:82
+msgid "Fix broken link for SVG file types"
+msgstr ""
 
-#: data/icons.appdata.xml.in:87
-msgid "New Palette Colors:"
-msgstr "צבעים חדשים בערכה:"
+#: data/icons.appdata.xml.in:83
+msgid "Fix missing links for PGP file types"
+msgstr ""
 
-#: data/icons.appdata.xml.in:89
-msgid "Add Bubblegum and Mint to official palette"
-msgstr "נוספו מסטיק ומנטה לערכה הרשמית"
+#: data/icons.appdata.xml.in:84
+msgid "Scale some icons to more sizes"
+msgstr ""
 
-#: data/icons.appdata.xml.in:90
-msgid "Updated all eraser icons to use Bubblegum palette"
-msgstr "כל סמלי המחק עודכנו להשתמש בערכת המסטיק"
-
-#: data/icons.appdata.xml.in:91
-msgid "Updated \"path\" icons to use Mint palette"
-msgstr "סמלי ה„נתיב” עודכנו להשתמש בערכת מנטה"
-
-#: data/icons.appdata.xml.in:92
-msgid "Updated all pencil icons to use Banana palette"
-msgstr "כל סמלי העיפרון עודכנו להשתמש בערכת הבננה"
+#: data/icons.appdata.xml.in:93
+msgid "caps-lock-symbolic"
+msgstr ""
 
 #: data/icons.appdata.xml.in:94
-msgid "New Icons:"
-msgstr "סמלים חדשים:"
+msgid "eye-not-looking-symbolic"
+msgstr ""
+
+#: data/icons.appdata.xml.in:95
+msgid "eye-open-negative-filled-symbolic"
+msgstr ""
 
 #: data/icons.appdata.xml.in:96
-msgid "Add \"software-update-urgent\""
-msgstr "נוסף „software-update-urgent”"
+msgid "num-lock-symbolic"
+msgstr ""
 
-#: data/icons.appdata.xml.in:97
-msgid "Add \"sync-synchronizing\""
-msgstr "נוסף „sync-synchronizing”"
-
-#: data/icons.appdata.xml.in:99
-msgid "Scaled Icon Sizes:"
-msgstr "גדלי סמלים מותאמים:"
+#: data/icons.appdata.xml.in:100
+msgid "Redesign media-playlist-repeat"
+msgstr ""
 
 #: data/icons.appdata.xml.in:101
-msgid "Add 24px \"window-close-symbolic\""
-msgstr "הוספת „window-close-symbolic” בגודל 24 פיקסלים"
+msgid "Update media-playlist-shuffle and media-playlist-consecutive"
+msgstr ""
 
 #: data/icons.appdata.xml.in:102
-msgid "Add 48px preferences icons"
-msgstr "נוספו סמלי העדפות בגודל 48 פיקסלים"
+#, fuzzy
+#| msgid "Rounded media controls"
+msgid "Rounder square icons"
+msgstr "פקדי מדיה מעוגלים"
 
-#: data/icons.appdata.xml.in:109
-msgid "Provide large cursors"
-msgstr "סופקו סמני עכבר גדולים"
+#: data/icons.appdata.xml.in:103
+msgid "Rounded arrow corners on Downloads folder"
+msgstr ""
+
+#: data/icons.appdata.xml.in:104
+msgid "Deb and Flatpak Bundle files use a package metaphor"
+msgstr ""
+
+#: data/icons.appdata.xml.in:105
+msgid "Updates arrow points up"
+msgstr ""
+
+#: data/icons.appdata.xml.in:106
+msgid "Redesigned package with new colors"
+msgstr ""
 
 #: data/icons.appdata.xml.in:110
-msgid "Fix alignment of several cursors"
-msgstr "תוקן היישור של כמה מסמני העכבר"
+msgid "notification-*"
+msgstr ""
 
 #: data/icons.appdata.xml.in:111
-msgid "Use palette colors in copy cursors"
-msgstr "להשתמש בצבעי הערכה בסמנים המועתקים"
+msgid "Non-FDO network-*"
+msgstr ""
 
 #: data/icons.appdata.xml.in:112
-msgid "Fix direction of the ban symbol cursor and use red"
-msgstr "תוקן כיוון סמן סמל החסימה להשתמש באדום"
-
-#: data/icons.appdata.xml.in:113
-msgid ""
-"Add \"All Scroll\", \"No Drop\", \"Vertical Text\", and \"Zoom\" cursors"
-msgstr "נוספו סמני העכבר „לגלול הכול”, „אין גרירה”, „כתב אנכי” ו־„תקריב”"
-
-#: data/icons.appdata.xml.in:120
-msgid "Add 64px prefs locale"
-msgstr "הוספת הגדרות מקומיות להעדפות 64 פיקסלים"
+msgid "Non-FDO app icons"
+msgstr ""
 
 #: data/icons.appdata.xml.in:121
-msgid "Make symbol on 32px places home larger"
-msgstr "הפיכת סמל תחת מיקומים בית ב־32 פיקסלים גדול יותר"
-
-#: data/icons.appdata.xml.in:122
-msgid "New icons for Workspace preferences"
-msgstr "סמלים חדשים להעדפות סביבת עבודה"
-
-#: data/icons.appdata.xml.in:123
-msgid "Add symbolic variant for updates icon"
-msgstr "נוסף הגוון סמלי לסמל עדכון"
-
-#: data/icons.appdata.xml.in:124
-msgid "Give browser-download its own unique icon"
-msgstr "הענקת סמל ייחודי לדפדפן-הורדות"
+msgid "preferences-desktop-font*"
+msgstr ""
 
 #: data/icons.appdata.xml.in:125
-msgid "Use a more scalable metaphor for system updates"
-msgstr "להשתמש במטאפורה יותר גמישה לעדכוני מערכת"
+msgid "Additional sizes for playlist-queue"
+msgstr "גדלים נוספים לתור רשימת נגינה"
 
 #: data/icons.appdata.xml.in:126
-msgid "New view-reader icon"
-msgstr "סמל חדש לתצוגה-קורה"
+msgid "Redesign PDF file type"
+msgstr "עיצוב מחדש של סוג הקובץ PDF"
 
 #: data/icons.appdata.xml.in:127
-msgid "Add 32px wireless signal icons"
-msgstr "נוספו סמלים בגודל 32 פיקסלים לעצמת האות האלחוטי"
+msgid "Additional sizes for emblem-downloads"
+msgstr "גדלים נוספים להורדות סמלים"
 
 #: data/icons.appdata.xml.in:128
-msgid "Add 24px user status icons"
-msgstr "נוספו סמלים בגדול 24 פיקסלים למצב המשתמש"
+msgid "Remove arrows from Copy and Paste actions"
+msgstr "החצים מפעולות העתקה והדבקה הוסרו"
+
+#: data/icons.appdata.xml.in:132
+msgid "multimedia-video-player"
+msgstr ""
+
+#: data/icons.appdata.xml.in:141
+msgid "Improved consistency between arrow shapes"
+msgstr "שופרה האחידות בין צורות החצים"
+
+#: data/icons.appdata.xml.in:142
+msgid "Improved appearance of color icons against dark backgrounds"
+msgstr "שופרה החזות של צבעי הסמלים כנגד רקעים כהים"
+
+#: data/icons.appdata.xml.in:143
+msgid "More gender-neutral people icons"
+msgstr "יותר סמלים של אנשים ניטרליים מגדרית"
+
+#: data/icons.appdata.xml.in:144
+msgid "Rounded media controls"
+msgstr "פקדי מדיה מעוגלים"
+
+#: data/icons.appdata.xml.in:145
+msgid "Rounded lightning bolt shape"
+msgstr "צורת ברק מעוגלת"
+
+#: data/icons.appdata.xml.in:146
+msgid "More colorful battery icons"
+msgstr "סמלי סוללה צבעוניים יותר"
+
+#: data/icons.appdata.xml.in:150
+msgid "align-*"
+msgstr ""
+
+#: data/icons.appdata.xml.in:151
+msgid "color-picker"
+msgstr ""
+
+#: data/icons.appdata.xml.in:152
+msgid "distribute-*"
+msgstr ""
+
+#: data/icons.appdata.xml.in:153
+msgid "draw-calligraphic"
+msgstr ""
+
+#: data/icons.appdata.xml.in:154
+msgid "office-database-new"
+msgstr ""
+
+#: data/icons.appdata.xml.in:155
+msgid "tools-spray"
+msgstr ""
+
+#: data/icons.appdata.xml.in:156
+msgid "application-content-*"
+msgstr ""
+
+#: data/icons.appdata.xml.in:157
+msgid "thunderbolt devices"
+msgstr "התקני Thunderbolt"
+
+#: data/icons.appdata.xml.in:158
+msgid "video-display-tv"
+msgstr ""
+
+#: data/icons.appdata.xml.in:159
+msgid "symbolic headphones"
+msgstr "אוזניות סמליות"
+
+#: data/icons.appdata.xml.in:160
+msgid "application-certificate"
+msgstr ""
+
+#: data/icons.appdata.xml.in:161
+msgid "application-json"
+msgstr ""
+
+#: data/icons.appdata.xml.in:162
+msgid "office-task-symbolic"
+msgstr ""
+
+#: data/icons.appdata.xml.in:163
+msgid "status emblems"
+msgstr "סמלי מצב"
 
 #: data/icons.appdata.xml.in:164
+msgid "emblem-git-*"
+msgstr ""
+
+#: data/icons.appdata.xml.in:168
+msgid "accessories-camera"
+msgstr ""
+
+#: data/icons.appdata.xml.in:169
+msgid "accessories-screenshot"
+msgstr ""
+
+#: data/icons.appdata.xml.in:170
+msgid "audio-speaker-testing"
+msgstr ""
+
+#: data/icons.appdata.xml.in:171
+msgid "edit-undo-archive"
+msgstr ""
+
+#: data/icons.appdata.xml.in:172
+msgid "internet-mail"
+msgstr ""
+
+#: data/icons.appdata.xml.in:173
+msgid "internet-news-reader"
+msgstr ""
+
+#: data/icons.appdata.xml.in:174
+msgid "multimedia-audio-player"
+msgstr ""
+
+#: data/icons.appdata.xml.in:175
+msgid "notification bell animations"
+msgstr "הנפשות פעמון התראה"
+
+#: data/icons.appdata.xml.in:176
+msgid "nm-*"
+msgstr ""
+
+#: data/icons.appdata.xml.in:177
+msgid "ubiquity"
+msgstr ""
+
+#: data/icons.appdata.xml.in:214
 msgid "elementary, Inc."
 msgstr "elementary בע״מ."
+
+#~ msgid "Minor updates"
+#~ msgstr "עדכונים משניים"
+
+#~ msgid ""
+#~ "Update emoji names for emoji picker in elementary OS 6 and latest GTK"
+#~ msgstr ""
+#~ "שמות האמוג׳י לבוחר האמוג׳י עודכנו ב־elementary OS 6 וה־GTK העדכני ביותר"
+
+#~ msgid "Replace Inkscape with rsvg for building cursors"
+#~ msgstr "החלפת Inkscape עם rsvg לבניית סמני עכבר"
+
+#~ msgid "New Palette Colors:"
+#~ msgstr "צבעים חדשים בערכה:"
+
+#~ msgid "Add Bubblegum and Mint to official palette"
+#~ msgstr "נוספו מסטיק ומנטה לערכה הרשמית"
+
+#~ msgid "Updated all eraser icons to use Bubblegum palette"
+#~ msgstr "כל סמלי המחק עודכנו להשתמש בערכת המסטיק"
+
+#~ msgid "Updated \"path\" icons to use Mint palette"
+#~ msgstr "סמלי ה„נתיב” עודכנו להשתמש בערכת מנטה"
+
+#~ msgid "Updated all pencil icons to use Banana palette"
+#~ msgstr "כל סמלי העיפרון עודכנו להשתמש בערכת הבננה"
+
+#~ msgid "New Icons:"
+#~ msgstr "סמלים חדשים:"
+
+#~ msgid "Add \"software-update-urgent\""
+#~ msgstr "נוסף „software-update-urgent”"
+
+#~ msgid "Add \"sync-synchronizing\""
+#~ msgstr "נוסף „sync-synchronizing”"
+
+#~ msgid "Scaled Icon Sizes:"
+#~ msgstr "גדלי סמלים מותאמים:"
+
+#~ msgid "Add 24px \"window-close-symbolic\""
+#~ msgstr "הוספת „window-close-symbolic” בגודל 24 פיקסלים"
+
+#~ msgid "Add 48px preferences icons"
+#~ msgstr "נוספו סמלי העדפות בגודל 48 פיקסלים"
+
+#~ msgid "Provide large cursors"
+#~ msgstr "סופקו סמני עכבר גדולים"
+
+#~ msgid "Fix alignment of several cursors"
+#~ msgstr "תוקן היישור של כמה מסמני העכבר"
+
+#~ msgid "Use palette colors in copy cursors"
+#~ msgstr "להשתמש בצבעי הערכה בסמנים המועתקים"
+
+#~ msgid "Fix direction of the ban symbol cursor and use red"
+#~ msgstr "תוקן כיוון סמן סמל החסימה להשתמש באדום"
+
+#~ msgid ""
+#~ "Add \"All Scroll\", \"No Drop\", \"Vertical Text\", and \"Zoom\" cursors"
+#~ msgstr "נוספו סמני העכבר „לגלול הכול”, „אין גרירה”, „כתב אנכי” ו־„תקריב”"
+
+#~ msgid "Add 64px prefs locale"
+#~ msgstr "הוספת הגדרות מקומיות להעדפות 64 פיקסלים"
+
+#~ msgid "Make symbol on 32px places home larger"
+#~ msgstr "הפיכת סמל תחת מיקומים בית ב־32 פיקסלים גדול יותר"
+
+#~ msgid "New icons for Workspace preferences"
+#~ msgstr "סמלים חדשים להעדפות סביבת עבודה"
+
+#~ msgid "Give browser-download its own unique icon"
+#~ msgstr "הענקת סמל ייחודי לדפדפן-הורדות"
+
+#~ msgid "Use a more scalable metaphor for system updates"
+#~ msgstr "להשתמש במטאפורה יותר גמישה לעדכוני מערכת"
+
+#~ msgid "New view-reader icon"
+#~ msgstr "סמל חדש לתצוגה-קורה"
+
+#~ msgid "Add 32px wireless signal icons"
+#~ msgstr "נוספו סמלים בגודל 32 פיקסלים לעצמת האות האלחוטי"
+
+#~ msgid "Add 24px user status icons"
+#~ msgstr "נוספו סמלים בגדול 24 פיקסלים למצב המשתמש"
