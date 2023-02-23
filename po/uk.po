@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-23 11:29+0000\n"
-"PO-Revision-Date: 2022-01-04 17:20+0000\n"
-"Last-Translator: DartDeaDia <dartdeadia@protonmail.com>\n"
-"Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/icons-"
-"extra/uk/>\n"
+"PO-Revision-Date: 2023-02-24 07:46+0000\n"
+"Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
+"Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/"
+"icons-extra/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/icons.appdata.xml.in:7
 msgid "elementary Icons"
@@ -44,11 +44,12 @@ msgstr "Додатково:"
 
 #: data/icons.appdata.xml.in:19
 msgid "\"panel-left/right\""
-msgstr ""
+msgstr "\"panel-left/right\""
 
 #: data/icons.appdata.xml.in:20
 msgid "Symlink to \"application-x-xpinstall\" for web extension files"
 msgstr ""
+"Символічне посилання на \"application-x-xpinstall\" для файлів веброзширень"
 
 #: data/icons.appdata.xml.in:22 data/icons.appdata.xml.in:58
 #: data/icons.appdata.xml.in:108 data/icons.appdata.xml.in:130
@@ -58,55 +59,43 @@ msgstr "Вилучення:"
 
 #: data/icons.appdata.xml.in:24
 msgid "\"internet-web-browser\""
-msgstr ""
+msgstr "\"internet-web-browser\""
 
 #: data/icons.appdata.xml.in:25
 msgid "\"system-os-install\""
-msgstr ""
+msgstr "\"system-os-install\""
 
 #: data/icons.appdata.xml.in:26
-#, fuzzy
-#| msgid "preferences-desktop-font*"
 msgid "\"preferences-desktop-accessibility-pointing\""
-msgstr "preferences-desktop-font*"
+msgstr "\"preferences-desktop-accessibility-pointing\""
 
 #: data/icons.appdata.xml.in:27
-#, fuzzy
-#| msgid "preferences-desktop-font*"
 msgid "\"preferences-desktop-accessibility-zoom\""
-msgstr "preferences-desktop-font*"
+msgstr "\"preferences-desktop-accessibility-zoom\""
 
 #: data/icons.appdata.xml.in:28
-#, fuzzy
-#| msgid "preferences-desktop-font*"
 msgid "\"preferences-color\""
-msgstr "preferences-desktop-font*"
+msgstr "\"preferences-color\""
 
 #: data/icons.appdata.xml.in:29
-#, fuzzy
-#| msgid "preferences-desktop-font*"
 msgid "\"preferences-system-windows\""
-msgstr "preferences-desktop-font*"
+msgstr "\"preferences-system-windows\""
 
 #: data/icons.appdata.xml.in:30
-#, fuzzy
-#| msgid "application-content-*"
 msgid "\"applications-education\""
-msgstr "application-content-*"
+msgstr "\"applications-education\""
 
 #: data/icons.appdata.xml.in:31
-#, fuzzy
-#| msgid "application-content-*"
 msgid "\"applications-interfacedesign\""
-msgstr "application-content-*"
+msgstr "\"applications-interfacedesign\""
 
 #: data/icons.appdata.xml.in:32
 msgid "\"applications-photography\""
-msgstr ""
+msgstr "\"applications-photography\""
 
 #: data/icons.appdata.xml.in:33
 msgid "\"view-list-compact\""
-msgstr ""
+msgstr "\"view-list-compact\""
 
 #: data/icons.appdata.xml.in:35 data/icons.appdata.xml.in:63
 #: data/icons.appdata.xml.in:98 data/icons.appdata.xml.in:123
@@ -119,184 +108,179 @@ msgid ""
 "\"applications-development\" uses a purple tile and the same hammer glyph as "
 "build system file types"
 msgstr ""
+"\"applications-development\" використовує фіолетову плитку і той самий гліф "
+"молотка як типи файлів збірки системи"
 
 #: data/icons.appdata.xml.in:38
 msgid "\"system-file-manager\" is blue and tile shaped"
-msgstr ""
+msgstr "\"system-file-manager\" синього кольору та у формі плитки"
 
 #: data/icons.appdata.xml.in:39
 msgid "\"accessories-calculator\" redesigned as a tile shape"
-msgstr ""
+msgstr "\"accessories-calculator\" перероблений у формі плитки"
 
 #: data/icons.appdata.xml.in:40
 msgid "Update the border radius of several tile-shaped icons"
-msgstr ""
+msgstr "Оновлення радіуса межі кількох плиткоподібних піктограм"
 
 #: data/icons.appdata.xml.in:41
 msgid "\"view-*\" symbolic icons"
-msgstr ""
+msgstr "\"view-*\" символічні піктограми"
 
 #: data/icons.appdata.xml.in:53
 msgid "\"computer-fail\""
-msgstr ""
+msgstr "\"computer-fail\""
 
 #: data/icons.appdata.xml.in:54
-#, fuzzy
-#| msgid "preferences-desktop-font*"
 msgid "\"preferences-desktop-theme\""
-msgstr "preferences-desktop-font*"
+msgstr "\"preferences-desktop-theme\""
 
 #: data/icons.appdata.xml.in:55
 msgid "\"application-x-sharedlib\""
-msgstr ""
+msgstr "\"application-x-sharedlib\""
 
 #: data/icons.appdata.xml.in:56
 msgid "\"process-paused\""
-msgstr ""
+msgstr "\"process-paused\""
 
 #: data/icons.appdata.xml.in:60
 msgid "\"office-address-book\""
-msgstr ""
+msgstr "\"office-address-book\""
 
 #: data/icons.appdata.xml.in:61
 msgid "Flash file types"
-msgstr ""
+msgstr "Типи флеш-файлів"
 
 #: data/icons.appdata.xml.in:65
-#, fuzzy
-#| msgid "preferences-desktop-font*"
 msgid "Clean up \"preferences-desktop-workspaces\""
-msgstr "preferences-desktop-font*"
+msgstr "Очищено \"preferences-desktop-workspaces\""
 
 #: data/icons.appdata.xml.in:66
-#, fuzzy
-#| msgid "preferences-desktop-font*"
 msgid "Update \"preferences-desktop\" to new tile shape"
-msgstr "preferences-desktop-font*"
+msgstr "Оновлено \"preferences-desktop\" до нової форми плитки"
 
 #: data/icons.appdata.xml.in:67
 msgid "Update \"image-missing\" to new tile shape"
-msgstr ""
+msgstr "Оновлено \"image-missing\" до нової форми плитки"
 
 #: data/icons.appdata.xml.in:68
 msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
-msgstr ""
+msgstr "Оновлено \"preferences-desktop-keyboard\" до нової форми плитки"
 
 #: data/icons.appdata.xml.in:69
 msgid "Update \"document-import\" and \"document-export\" to new tile shape"
 msgstr ""
+"Оновлено \"document-import\" і \"document-export\" до нової форми плитки"
 
 #: data/icons.appdata.xml.in:70
 msgid "Update many file types with new arrow shape"
-msgstr ""
+msgstr "Оновлення багатьох типів файлів з новою формою стрілок"
 
 #: data/icons.appdata.xml.in:71
 msgid "\"application-default-icon\" is now brightly colored"
-msgstr ""
+msgstr "\"application-default-icon\" відтепер яскраво забарвлено"
 
 #: data/icons.appdata.xml.in:72
 msgid "\"media-stop\" is now a square"
-msgstr ""
+msgstr "\"media-stop\" відтепер квадратна"
 
 #: data/icons.appdata.xml.in:73
-#, fuzzy
-#| msgid "Add symbolic variant for updates icon"
 msgid "Round symbolic location status icons"
-msgstr "Додано символьний варіант для піктограм оновлень"
+msgstr "Круглі символічні піктограми стану розташування"
 
 #: data/icons.appdata.xml.in:74
 msgid "Use an outlined shape for symbolic tag icons"
-msgstr ""
+msgstr "Використано контурні форми для символічних піктограм тегів"
 
 #: data/icons.appdata.xml.in:75
 msgid "Use a rounded star for symbolic bookmark icons"
-msgstr ""
+msgstr "Використано округлу зірку для символічних піктограм закладок"
 
 #: data/icons.appdata.xml.in:76
 msgid "Redesign Night Light"
-msgstr ""
+msgstr "Перероблене нічне світло"
 
 #: data/icons.appdata.xml.in:77
 msgid "Use latest Flatpak branding"
-msgstr ""
+msgstr "Використано найновіший брендинг Flatpak"
 
 #: data/icons.appdata.xml.in:78
 msgid "Symbolic volume icons use a rounded shape and a slash when muted"
 msgstr ""
+"Символічні піктограми гучності мають заокруглену форму та косу риску, коли "
+"їх вимкнено"
 
 #: data/icons.appdata.xml.in:80
 msgid "Other Changes:"
-msgstr ""
+msgstr "Інші зміни:"
 
 #: data/icons.appdata.xml.in:82
 msgid "Fix broken link for SVG file types"
-msgstr ""
+msgstr "Виправлено неробоче посилання для типів файлів SVG"
 
 #: data/icons.appdata.xml.in:83
 msgid "Fix missing links for PGP file types"
-msgstr ""
+msgstr "Виправлено відсутні посилання для типів файлів PGP"
 
 #: data/icons.appdata.xml.in:84
 msgid "Scale some icons to more sizes"
-msgstr ""
+msgstr "Масштабування деяких піктограм до більшого розміру"
 
 #: data/icons.appdata.xml.in:93
 msgid "caps-lock-symbolic"
-msgstr ""
+msgstr "caps-lock-symbolic"
 
 #: data/icons.appdata.xml.in:94
 msgid "eye-not-looking-symbolic"
-msgstr ""
+msgstr "eye-not-looking-symbolic"
 
 #: data/icons.appdata.xml.in:95
 msgid "eye-open-negative-filled-symbolic"
-msgstr ""
+msgstr "eye-open-negative-filled-symbolic"
 
 #: data/icons.appdata.xml.in:96
 msgid "num-lock-symbolic"
-msgstr ""
+msgstr "num-lock-symbolic"
 
 #: data/icons.appdata.xml.in:100
 msgid "Redesign media-playlist-repeat"
-msgstr ""
+msgstr "Перероблено media-playlist-repeat"
 
 #: data/icons.appdata.xml.in:101
 msgid "Update media-playlist-shuffle and media-playlist-consecutive"
-msgstr ""
+msgstr "Оновлено media-playlist-shuffle і media-playlist-consecutive"
 
 #: data/icons.appdata.xml.in:102
-#, fuzzy
-#| msgid "Rounded media controls"
 msgid "Rounder square icons"
-msgstr "Заокруглені елементи керування медіа"
+msgstr "Заокруглені квадратні піктограми"
 
 #: data/icons.appdata.xml.in:103
 msgid "Rounded arrow corners on Downloads folder"
-msgstr ""
+msgstr "Заокруглені кути стрілок у теці Завантажень"
 
 #: data/icons.appdata.xml.in:104
 msgid "Deb and Flatpak Bundle files use a package metaphor"
-msgstr ""
+msgstr "Файли пакунків Deb і Flatpak використовують метафору пакунків"
 
 #: data/icons.appdata.xml.in:105
 msgid "Updates arrow points up"
-msgstr ""
+msgstr "Оновлена стрілка вгору"
 
 #: data/icons.appdata.xml.in:106
 msgid "Redesigned package with new colors"
-msgstr ""
+msgstr "Нові кольори пакунків"
 
 #: data/icons.appdata.xml.in:110
 msgid "notification-*"
-msgstr ""
+msgstr "notification-*"
 
 #: data/icons.appdata.xml.in:111
 msgid "Non-FDO network-*"
-msgstr ""
+msgstr "Не FDO network-*"
 
 #: data/icons.appdata.xml.in:112
 msgid "Non-FDO app icons"
-msgstr ""
+msgstr "Не FDO піктограми застосунків"
 
 #: data/icons.appdata.xml.in:121
 msgid "preferences-desktop-font*"
