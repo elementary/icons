@@ -7,17 +7,25 @@ on:
     branches:
       - master
 
-  gettext:
-    name: Gettext
-    runs-on: ubuntu-latest
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    container:
+      image: elementary/docker:next-unstable
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v1 # Avoid an error when pushing
+    - name: Install git
+      run: |
+        apt-get update
+        apt-get install git -y
+    - name: Clone repository
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GIT_USER_TOKEN }}
 
-      - name: Gettext
-        uses: elementary/actions/gettext-template@master
-        env:
-          GIT_USER_TOKEN: "${{ secrets.GIT_USER_TOKEN }}"
-          GIT_USER_NAME: "elementaryBot"
-          GIT_USER_EMAIL: "builds@elementary.io"
+    - name: Update Translation Files
+      uses: elementary/actions/gettext-template@next
+      env:
+        GIT_USER_TOKEN: ${{ secrets.GIT_USER_TOKEN }}
+        GIT_USER_NAME: "elementaryBot"
+        GIT_USER_EMAIL: "builds@elementary.io"
