@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-22 14:23-0800\n"
-"PO-Revision-Date: 2021-11-23 10:43+0000\n"
+"POT-Creation-Date: 2023-02-23 11:29+0000\n"
+"PO-Revision-Date: 2023-02-25 11:25+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/desktop/"
 "icons-extra/ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/icons.appdata.xml.in:7
 msgid "elementary Icons"
@@ -27,7 +27,7 @@ msgstr "Icones de l'elementary"
 msgid "Named, vector icons for elementary OS"
 msgstr "Icones vectorials amb nom per l'elementary OS"
 
-#: data/icons.appdata.xml.in:10
+#: data/icons.appdata.xml.in:11
 msgid ""
 "An original set of vector icons designed specifically for elementary OS and "
 "its desktop environment: Pantheon."
@@ -35,285 +35,502 @@ msgstr ""
 "Un conjunt original d'icones vectorials dissenyades específicament per a "
 "l'elementary OS i el seu entorn d'escriptori: Pantheon."
 
-#: data/icons.appdata.xml.in:15 data/icons.appdata.xml.in:43
+#: data/icons.appdata.xml.in:17 data/icons.appdata.xml.in:51
+#: data/icons.appdata.xml.in:91 data/icons.appdata.xml.in:119
+#: data/icons.appdata.xml.in:148
 msgid "Additions:"
 msgstr "Addicions:"
 
-#: data/icons.appdata.xml.in:17
-msgid "preferences-desktop-font*"
+#: data/icons.appdata.xml.in:19
+msgid "\"panel-left/right\""
+msgstr "\"plafó-esquerra/dreta\""
+
+#: data/icons.appdata.xml.in:20
+msgid "Symlink to \"application-x-xpinstall\" for web extension files"
 msgstr ""
+"Enllaç simbòlic a \"application-x-xpinstall\" per als fitxers d'extensió web"
 
-#: data/icons.appdata.xml.in:19 data/icons.appdata.xml.in:34
-msgid "Updated families:"
-msgstr "Famílies actualitzades:"
-
-#: data/icons.appdata.xml.in:21
-msgid "Additional sizes for playlist-queue"
-msgstr "Mides addicionals per a la cua de llistes de reproducció"
-
-#: data/icons.appdata.xml.in:22
-msgid "Redesign PDF file type"
-msgstr "Redisseny del tipus de fitxer PDF"
-
-#: data/icons.appdata.xml.in:23
-msgid "Additional sizes for emblem-downloads"
-msgstr "Mides addicionals per a descàrregues d'emblemes"
-
-#: data/icons.appdata.xml.in:24
-msgid "Remove arrows from Copy and Paste actions"
-msgstr "Se suprimeixen les fletxes de les accions de copiar i enganxar."
-
-#: data/icons.appdata.xml.in:26 data/icons.appdata.xml.in:61
+#: data/icons.appdata.xml.in:22 data/icons.appdata.xml.in:58
+#: data/icons.appdata.xml.in:108 data/icons.appdata.xml.in:130
+#: data/icons.appdata.xml.in:166
 msgid "Removals:"
 msgstr "Supressions:"
 
+#: data/icons.appdata.xml.in:24
+msgid "\"internet-web-browser\""
+msgstr "\"Navegador-Internet-web\""
+
+#: data/icons.appdata.xml.in:25
+msgid "\"system-os-install\""
+msgstr "\"instal·lació-SO\""
+
+#: data/icons.appdata.xml.in:26
+msgid "\"preferences-desktop-accessibility-pointing\""
+msgstr "\"preferències-escriptori-accessibilitat-apuntar\""
+
+#: data/icons.appdata.xml.in:27
+msgid "\"preferences-desktop-accessibility-zoom\""
+msgstr "\"preferències-escriptori-accessibilitat-zoom\""
+
 #: data/icons.appdata.xml.in:28
+msgid "\"preferences-color\""
+msgstr "\"preferències-color\""
+
+#: data/icons.appdata.xml.in:29
+msgid "\"preferences-system-windows\""
+msgstr "\"preferències-sistema-finestres\""
+
+#: data/icons.appdata.xml.in:30
+msgid "\"applications-education\""
+msgstr "\"aplicacions-educació\""
+
+#: data/icons.appdata.xml.in:31
+msgid "\"applications-interfacedesign\""
+msgstr "\"disseny d'aplicacions-interfície\""
+
+#: data/icons.appdata.xml.in:32
+msgid "\"applications-photography\""
+msgstr "\"aplicacions-fotografia\""
+
+#: data/icons.appdata.xml.in:33
+msgid "\"view-list-compact\""
+msgstr "\"vista-lista-compacta\""
+
+#: data/icons.appdata.xml.in:35 data/icons.appdata.xml.in:63
+#: data/icons.appdata.xml.in:98 data/icons.appdata.xml.in:123
+#: data/icons.appdata.xml.in:139
+msgid "Updated families:"
+msgstr "Famílies actualitzades:"
+
+#: data/icons.appdata.xml.in:37
+msgid ""
+"\"applications-development\" uses a purple tile and the same hammer glyph as "
+"build system file types"
+msgstr ""
+"\"desenvolupament d'aplicacions\" usa una rajola porpra i el mateix glif de "
+"martell que els tipus de fitxers del sistema de compilació"
+
+#: data/icons.appdata.xml.in:38
+msgid "\"system-file-manager\" is blue and tile shaped"
+msgstr "\"gestor-fitxers-sistema\" és blau i té forma de rajoles"
+
+#: data/icons.appdata.xml.in:39
+msgid "\"accessories-calculator\" redesigned as a tile shape"
+msgstr "\"accessoris-calculadora\" redissenyada amb forma de rajola"
+
+#: data/icons.appdata.xml.in:40
+msgid "Update the border radius of several tile-shaped icons"
+msgstr ""
+"Actualització del radi de la vora de diverses icones amb forma de rajoles"
+
+#: data/icons.appdata.xml.in:41
+msgid "\"view-*\" symbolic icons"
+msgstr "\"visualitza-*\" icones simbòliques"
+
+#: data/icons.appdata.xml.in:53
+msgid "\"computer-fail\""
+msgstr "\"fallada de l'ordinador\""
+
+#: data/icons.appdata.xml.in:54
+msgid "\"preferences-desktop-theme\""
+msgstr "\"preferències-tema-escriptori\""
+
+#: data/icons.appdata.xml.in:55
+msgid "\"application-x-sharedlib\""
+msgstr "\"aplicació-bibliocompatida-x\""
+
+#: data/icons.appdata.xml.in:56
+msgid "\"process-paused\""
+msgstr "\"procés-interromput\""
+
+#: data/icons.appdata.xml.in:60
+msgid "\"office-address-book\""
+msgstr "\"Llibreta d'adreces d'oficina\""
+
+#: data/icons.appdata.xml.in:61
+msgid "Flash file types"
+msgstr "Tipus de fitxers Flash"
+
+#: data/icons.appdata.xml.in:65
+msgid "Clean up \"preferences-desktop-workspaces\""
+msgstr "Neteja de \"preferències-escriptori-espais de treball\""
+
+#: data/icons.appdata.xml.in:66
+msgid "Update \"preferences-desktop\" to new tile shape"
+msgstr ""
+"Actualització de \"preferències-escriptori\" a una nova forma de rajoles"
+
+#: data/icons.appdata.xml.in:67
+msgid "Update \"image-missing\" to new tile shape"
+msgstr "Actualització de \"falta imatge\" a una nova forma de rajola"
+
+#: data/icons.appdata.xml.in:68
+msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
+msgstr ""
+"Actualització de \"preferències-escriptori-teclat\" a una nova forma de "
+"rajoles"
+
+#: data/icons.appdata.xml.in:69
+msgid "Update \"document-import\" and \"document-export\" to new tile shape"
+msgstr ""
+"Actualització de \"document-importació\" i \"document-exportació\" a una "
+"nova forma de rajola"
+
+#: data/icons.appdata.xml.in:70
+msgid "Update many file types with new arrow shape"
+msgstr "Actualització de molts tipus de fitxers amb una forma de fletxa nova"
+
+#: data/icons.appdata.xml.in:71
+msgid "\"application-default-icon\" is now brightly colored"
+msgstr "\"application-default-icon\" ara té colors brillants"
+
+#: data/icons.appdata.xml.in:72
+msgid "\"media-stop\" is now a square"
+msgstr "\"media-stop\" és ara un quadrat"
+
+#: data/icons.appdata.xml.in:73
+msgid "Round symbolic location status icons"
+msgstr "Icones d'estat d'ubicació simbòlica rodones"
+
+#: data/icons.appdata.xml.in:74
+msgid "Use an outlined shape for symbolic tag icons"
+msgstr "Usa una forma de contorn per a les icones d'etiquetes simbòliques"
+
+#: data/icons.appdata.xml.in:75
+msgid "Use a rounded star for symbolic bookmark icons"
+msgstr ""
+"Usa una estrella arrodonida per a les icones simbòliques d'adreces d'interès"
+
+#: data/icons.appdata.xml.in:76
+msgid "Redesign Night Light"
+msgstr "Redisseny de la llum nocturna"
+
+#: data/icons.appdata.xml.in:77
+msgid "Use latest Flatpak branding"
+msgstr "Usa la marca de Flatpak més recent"
+
+#: data/icons.appdata.xml.in:78
+msgid "Symbolic volume icons use a rounded shape and a slash when muted"
+msgstr ""
+"Les icones de volum simbòlic usen una forma arrodonida i una barra inclinada "
+"quan estan silenciades"
+
+#: data/icons.appdata.xml.in:80
+msgid "Other Changes:"
+msgstr "Altres canvis:"
+
+#: data/icons.appdata.xml.in:82
+msgid "Fix broken link for SVG file types"
+msgstr "Correcció de l'enllaç trencat per als tipus de fitxers SVG"
+
+#: data/icons.appdata.xml.in:83
+msgid "Fix missing links for PGP file types"
+msgstr "Correcció dels enllaços que falten per als tipus de fitxers PGP"
+
+#: data/icons.appdata.xml.in:84
+msgid "Scale some icons to more sizes"
+msgstr "Escala algunes icones a més mides"
+
+#: data/icons.appdata.xml.in:93
+msgid "caps-lock-symbolic"
+msgstr "majúscules- blocatge simbòlic"
+
+#: data/icons.appdata.xml.in:94
+msgid "eye-not-looking-symbolic"
+msgstr "ull-no-mira-simbòlic"
+
+#: data/icons.appdata.xml.in:95
+msgid "eye-open-negative-filled-symbolic"
+msgstr "ull-obert-omple-negatiu-simbòlic"
+
+#: data/icons.appdata.xml.in:96
+msgid "num-lock-symbolic"
+msgstr "blocatge-numèric-simbòlic"
+
+#: data/icons.appdata.xml.in:100
+msgid "Redesign media-playlist-repeat"
+msgstr "Redisseny de la llista de reproducció multimèdia-repetició"
+
+#: data/icons.appdata.xml.in:101
+msgid "Update media-playlist-shuffle and media-playlist-consecutive"
+msgstr ""
+"Actualitza la llista de reproducció multimèdia-aleatòria i la llista de "
+"reproducció multimèdia-consecutiva"
+
+#: data/icons.appdata.xml.in:102
+msgid "Rounder square icons"
+msgstr "Icones quadrades més arrodonides"
+
+#: data/icons.appdata.xml.in:103
+msgid "Rounded arrow corners on Downloads folder"
+msgstr "Cantons de fletxa arrodonides a la carpeta Baixades"
+
+#: data/icons.appdata.xml.in:104
+msgid "Deb and Flatpak Bundle files use a package metaphor"
+msgstr "Els fitxers Deb i Flatpak Bundle usen una metàfora de paquet"
+
+#: data/icons.appdata.xml.in:105
+msgid "Updates arrow points up"
+msgstr "La fletxa d'actualització mira amunt"
+
+#: data/icons.appdata.xml.in:106
+msgid "Redesigned package with new colors"
+msgstr "Paquet redissenyat amb colors nous"
+
+#: data/icons.appdata.xml.in:110
+msgid "notification-*"
+msgstr "notificació-*"
+
+#: data/icons.appdata.xml.in:111
+msgid "Non-FDO network-*"
+msgstr "Xarxa no FDO-*"
+
+#: data/icons.appdata.xml.in:112
+msgid "Non-FDO app icons"
+msgstr "Icones d'aplicacions que no són FDO"
+
+#: data/icons.appdata.xml.in:121
+msgid "preferences-desktop-font*"
+msgstr ""
+
+#: data/icons.appdata.xml.in:125
+msgid "Additional sizes for playlist-queue"
+msgstr "Mides addicionals per a la cua de llistes de reproducció"
+
+#: data/icons.appdata.xml.in:126
+msgid "Redesign PDF file type"
+msgstr "Redisseny del tipus de fitxer PDF"
+
+#: data/icons.appdata.xml.in:127
+msgid "Additional sizes for emblem-downloads"
+msgstr "Mides addicionals per a descàrregues d'emblemes"
+
+#: data/icons.appdata.xml.in:128
+msgid "Remove arrows from Copy and Paste actions"
+msgstr "Se suprimeixen les fletxes de les accions de copiar i enganxar."
+
+#: data/icons.appdata.xml.in:132
 msgid "multimedia-video-player"
 msgstr ""
 
-#: data/icons.appdata.xml.in:36
+#: data/icons.appdata.xml.in:141
 msgid "Improved consistency between arrow shapes"
 msgstr "Millora de la coherència entre les formes de les fletxes"
 
-#: data/icons.appdata.xml.in:37
+#: data/icons.appdata.xml.in:142
 msgid "Improved appearance of color icons against dark backgrounds"
 msgstr "Aspecte millorat de les icones de color sobre fons fosc"
 
-#: data/icons.appdata.xml.in:38
+#: data/icons.appdata.xml.in:143
 msgid "More gender-neutral people icons"
 msgstr "Més icones de persones neutres de gènere"
 
-#: data/icons.appdata.xml.in:39
+#: data/icons.appdata.xml.in:144
 msgid "Rounded media controls"
 msgstr "Controls de mitjans arrodonits"
 
-#: data/icons.appdata.xml.in:40
+#: data/icons.appdata.xml.in:145
 msgid "Rounded lightning bolt shape"
 msgstr "Forma de llamp arrodonida"
 
-#: data/icons.appdata.xml.in:41
+#: data/icons.appdata.xml.in:146
 msgid "More colorful battery icons"
 msgstr "Icones de bateria més acolorides"
 
-#: data/icons.appdata.xml.in:45
+#: data/icons.appdata.xml.in:150
 msgid "align-*"
 msgstr ""
 
-#: data/icons.appdata.xml.in:46
+#: data/icons.appdata.xml.in:151
 msgid "color-picker"
 msgstr ""
 
-#: data/icons.appdata.xml.in:47
+#: data/icons.appdata.xml.in:152
 msgid "distribute-*"
 msgstr ""
 
-#: data/icons.appdata.xml.in:48
+#: data/icons.appdata.xml.in:153
 msgid "draw-calligraphic"
 msgstr ""
 
-#: data/icons.appdata.xml.in:49
+#: data/icons.appdata.xml.in:154
 msgid "office-database-new"
 msgstr ""
 
-#: data/icons.appdata.xml.in:50
+#: data/icons.appdata.xml.in:155
 msgid "tools-spray"
 msgstr ""
 
-#: data/icons.appdata.xml.in:51
+#: data/icons.appdata.xml.in:156
 msgid "application-content-*"
 msgstr ""
 
-#: data/icons.appdata.xml.in:52
+#: data/icons.appdata.xml.in:157
 msgid "thunderbolt devices"
 msgstr "dispositius thunderbolt"
 
-#: data/icons.appdata.xml.in:53
+#: data/icons.appdata.xml.in:158
 msgid "video-display-tv"
 msgstr ""
 
-#: data/icons.appdata.xml.in:54
+#: data/icons.appdata.xml.in:159
 msgid "symbolic headphones"
 msgstr "auriculars simbòlics"
 
-#: data/icons.appdata.xml.in:55
+#: data/icons.appdata.xml.in:160
 msgid "application-certificate"
 msgstr ""
 
-#: data/icons.appdata.xml.in:56
+#: data/icons.appdata.xml.in:161
 msgid "application-json"
 msgstr ""
 
-#: data/icons.appdata.xml.in:57
+#: data/icons.appdata.xml.in:162
 msgid "office-task-symbolic"
 msgstr ""
 
-#: data/icons.appdata.xml.in:58
+#: data/icons.appdata.xml.in:163
 msgid "status emblems"
 msgstr "emblemes d'estat"
 
-#: data/icons.appdata.xml.in:59
+#: data/icons.appdata.xml.in:164
 msgid "emblem-git-*"
 msgstr ""
 
-#: data/icons.appdata.xml.in:63
+#: data/icons.appdata.xml.in:168
 msgid "accessories-camera"
 msgstr ""
 
-#: data/icons.appdata.xml.in:64
+#: data/icons.appdata.xml.in:169
 msgid "accessories-screenshot"
 msgstr ""
 
-#: data/icons.appdata.xml.in:65
+#: data/icons.appdata.xml.in:170
 msgid "audio-speaker-testing"
 msgstr ""
 
-#: data/icons.appdata.xml.in:66
+#: data/icons.appdata.xml.in:171
 msgid "edit-undo-archive"
 msgstr ""
 
-#: data/icons.appdata.xml.in:67
+#: data/icons.appdata.xml.in:172
 msgid "internet-mail"
 msgstr ""
 
-#: data/icons.appdata.xml.in:68
+#: data/icons.appdata.xml.in:173
 msgid "internet-news-reader"
 msgstr ""
 
-#: data/icons.appdata.xml.in:69
+#: data/icons.appdata.xml.in:174
 msgid "multimedia-audio-player"
 msgstr ""
 
-#: data/icons.appdata.xml.in:70
+#: data/icons.appdata.xml.in:175
 msgid "notification bell animations"
 msgstr "animacions de campana de notificació"
 
-#: data/icons.appdata.xml.in:71
+#: data/icons.appdata.xml.in:176
 msgid "nm-*"
 msgstr ""
 
-#: data/icons.appdata.xml.in:72
+#: data/icons.appdata.xml.in:177
 msgid "ubiquity"
 msgstr ""
 
-#: data/icons.appdata.xml.in:78
-msgid "Minor updates"
-msgstr "Actualitzacions menors"
-
-#: data/icons.appdata.xml.in:80
-msgid "Update emoji names for emoji picker in elementary OS 6 and latest GTK"
-msgstr ""
-"Actualització dels noms de les emoticones per al selector a l'elementary 6 i "
-"al darrer GTK"
-
-#: data/icons.appdata.xml.in:81
-msgid "Replace Inkscape with rsvg for building cursors"
-msgstr "Substitució d'Inkscape per rsvg per crear cursors"
-
-#: data/icons.appdata.xml.in:87
-msgid "New Palette Colors:"
-msgstr "Noves paletes de colors:"
-
-#: data/icons.appdata.xml.in:89
-msgid "Add Bubblegum and Mint to official palette"
-msgstr "Addició de Bubblegum i Mint a la paleta oficial"
-
-#: data/icons.appdata.xml.in:90
-msgid "Updated all eraser icons to use Bubblegum palette"
-msgstr ""
-"Actualització de totes les icones de goma d'esborrar per usar la paleta "
-"Bubblegum"
-
-#: data/icons.appdata.xml.in:91
-msgid "Updated \"path\" icons to use Mint palette"
-msgstr "Actualització de les icones de camí per usar la paleta Mint"
-
-#: data/icons.appdata.xml.in:92
-msgid "Updated all pencil icons to use Banana palette"
-msgstr "Actualització de totes les icones de llapis per usar la paleta Banana"
-
-#: data/icons.appdata.xml.in:94
-msgid "New Icons:"
-msgstr "Icones noves:"
-
-#: data/icons.appdata.xml.in:96
-msgid "Add \"software-update-urgent\""
-msgstr "Addició de \"programari-actualització-urgent\""
-
-#: data/icons.appdata.xml.in:97
-msgid "Add \"sync-synchronizing\""
-msgstr "Addició de \"sync-synchronizing\""
-
-#: data/icons.appdata.xml.in:99
-msgid "Scaled Icon Sizes:"
-msgstr "Mides de les icones a escala:"
-
-#: data/icons.appdata.xml.in:101
-msgid "Add 24px \"window-close-symbolic\""
-msgstr "Addició de \"window-close-symbolic\""
-
-#: data/icons.appdata.xml.in:102
-msgid "Add 48px preferences icons"
-msgstr "Addició d'icones de preferències de 48 píxels"
-
-#: data/icons.appdata.xml.in:109
-msgid "Provide large cursors"
-msgstr "Proporció de cursors grans"
-
-#: data/icons.appdata.xml.in:110
-msgid "Fix alignment of several cursors"
-msgstr "Correcció de l'alineació de diversos cursors"
-
-#: data/icons.appdata.xml.in:111
-msgid "Use palette colors in copy cursors"
-msgstr "Ús dels colors de la paleta als cursors de còpia"
-
-#: data/icons.appdata.xml.in:112
-msgid "Fix direction of the ban symbol cursor and use red"
-msgstr ""
-"Correcció de la direcció del cursor del símbol de prohibició i ús del vermell"
-
-#: data/icons.appdata.xml.in:113
-msgid ""
-"Add \"All Scroll\", \"No Drop\", \"Vertical Text\", and \"Zoom\" cursors"
-msgstr ""
-"Addició dels cursors Tot el desplaçament, Sense caiguda, Text vertical i Zoom"
-
-#: data/icons.appdata.xml.in:120
-msgid "Add 64px prefs locale"
-msgstr "Addició de preferències regionals de 64 píxels"
-
-#: data/icons.appdata.xml.in:121
-msgid "Make symbol on 32px places home larger"
-msgstr "Augment del símbol dels llocs de la carpeta de l'usuari de 32 píxels"
-
-#: data/icons.appdata.xml.in:122
-msgid "New icons for Workspace preferences"
-msgstr "Icones noves per a les preferències de l'espai de treball"
-
-#: data/icons.appdata.xml.in:123
-msgid "Add symbolic variant for updates icon"
-msgstr "Addició d'una variant simbòlica per a la icona d'actualitzacions"
-
-#: data/icons.appdata.xml.in:124
-msgid "Give browser-download its own unique icon"
-msgstr "La baixada del navegador té la seva icona única."
-
-#: data/icons.appdata.xml.in:125
-msgid "Use a more scalable metaphor for system updates"
-msgstr "Ús d'una metàfora més escalable per a les actualitzacions del sistema"
-
-#: data/icons.appdata.xml.in:126
-msgid "New view-reader icon"
-msgstr "Icona nova del lector de visualització"
-
-#: data/icons.appdata.xml.in:127
-msgid "Add 32px wireless signal icons"
-msgstr "Addició d'icones de senyal sense fil de 32 píxels"
-
-#: data/icons.appdata.xml.in:128
-msgid "Add 24px user status icons"
-msgstr "Addició d'icones d'estat d'usuari de 24 píxels"
-
-#: data/icons.appdata.xml.in:164
+#: data/icons.appdata.xml.in:214
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
+
+#~ msgid "Minor updates"
+#~ msgstr "Actualitzacions menors"
+
+#~ msgid ""
+#~ "Update emoji names for emoji picker in elementary OS 6 and latest GTK"
+#~ msgstr ""
+#~ "Actualització dels noms de les emoticones per al selector a l'elementary "
+#~ "6 i al darrer GTK"
+
+#~ msgid "Replace Inkscape with rsvg for building cursors"
+#~ msgstr "Substitució d'Inkscape per rsvg per crear cursors"
+
+#~ msgid "New Palette Colors:"
+#~ msgstr "Noves paletes de colors:"
+
+#~ msgid "Add Bubblegum and Mint to official palette"
+#~ msgstr "Addició de Bubblegum i Mint a la paleta oficial"
+
+#~ msgid "Updated all eraser icons to use Bubblegum palette"
+#~ msgstr ""
+#~ "Actualització de totes les icones de goma d'esborrar per usar la paleta "
+#~ "Bubblegum"
+
+#~ msgid "Updated \"path\" icons to use Mint palette"
+#~ msgstr "Actualització de les icones de camí per usar la paleta Mint"
+
+#~ msgid "Updated all pencil icons to use Banana palette"
+#~ msgstr ""
+#~ "Actualització de totes les icones de llapis per usar la paleta Banana"
+
+#~ msgid "New Icons:"
+#~ msgstr "Icones noves:"
+
+#~ msgid "Add \"software-update-urgent\""
+#~ msgstr "Addició de \"programari-actualització-urgent\""
+
+#~ msgid "Add \"sync-synchronizing\""
+#~ msgstr "Addició de \"sync-synchronizing\""
+
+#~ msgid "Scaled Icon Sizes:"
+#~ msgstr "Mides de les icones a escala:"
+
+#~ msgid "Add 24px \"window-close-symbolic\""
+#~ msgstr "Addició de \"window-close-symbolic\""
+
+#~ msgid "Add 48px preferences icons"
+#~ msgstr "Addició d'icones de preferències de 48 píxels"
+
+#~ msgid "Provide large cursors"
+#~ msgstr "Proporció de cursors grans"
+
+#~ msgid "Fix alignment of several cursors"
+#~ msgstr "Correcció de l'alineació de diversos cursors"
+
+#~ msgid "Use palette colors in copy cursors"
+#~ msgstr "Ús dels colors de la paleta als cursors de còpia"
+
+#~ msgid "Fix direction of the ban symbol cursor and use red"
+#~ msgstr ""
+#~ "Correcció de la direcció del cursor del símbol de prohibició i ús del "
+#~ "vermell"
+
+#~ msgid ""
+#~ "Add \"All Scroll\", \"No Drop\", \"Vertical Text\", and \"Zoom\" cursors"
+#~ msgstr ""
+#~ "Addició dels cursors Tot el desplaçament, Sense caiguda, Text vertical i "
+#~ "Zoom"
+
+#~ msgid "Add 64px prefs locale"
+#~ msgstr "Addició de preferències regionals de 64 píxels"
+
+#~ msgid "Make symbol on 32px places home larger"
+#~ msgstr ""
+#~ "Augment del símbol dels llocs de la carpeta de l'usuari de 32 píxels"
+
+#~ msgid "New icons for Workspace preferences"
+#~ msgstr "Icones noves per a les preferències de l'espai de treball"
+
+#~ msgid "Give browser-download its own unique icon"
+#~ msgstr "La baixada del navegador té la seva icona única."
+
+#~ msgid "Use a more scalable metaphor for system updates"
+#~ msgstr ""
+#~ "Ús d'una metàfora més escalable per a les actualitzacions del sistema"
+
+#~ msgid "New view-reader icon"
+#~ msgstr "Icona nova del lector de visualització"
+
+#~ msgid "Add 32px wireless signal icons"
+#~ msgstr "Addició d'icones de senyal sense fil de 32 píxels"
+
+#~ msgid "Add 24px user status icons"
+#~ msgstr "Addició d'icones d'estat d'usuari de 24 píxels"
