@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2019 elementary, Inc. <contact@elementary.io> -->
+<!-- Copyright 2019-2023 elementary, Inc. <contact@elementary.io> -->
 <component type="icon-theme">
   <id>io.elementary.icons</id>
   <metadata_license>CC0-1.0</metadata_license>
@@ -12,6 +12,16 @@
   </description>
 
   <releases>
+    <release version="7.3.0" date="2023-03-22" urgency="medium">
+      <description>
+        <p>Additions:</p>
+        <ul>
+          <li>"adw-expander-arrow-symbolic" as used in Adw.PreferencesWindow</li>
+          <li>"adw-tab-*" icons as used with Adw.Tabbar</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="7.2.0" date="2023-01-24" urgency="medium">
       <description>
         <p>Additions:</p>
