@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-25 03:08+0000\n"
-"PO-Revision-Date: 2023-03-25 03:04+0000\n"
+"PO-Revision-Date: 2023-03-26 19:59+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
-"Language-Team: Polish <https://l10n.elementary.io/projects/desktop/icons-"
-"extra/pl/>\n"
+"Language-Team: Polish <https://l10n.elementary.io/projects/desktop/"
+"icons-extra/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,13 +44,15 @@ msgstr "Dodatki:"
 
 #: data/icons.appdata.xml.in:19
 msgid "\"list-drag-handle-symbolic\" as used in draggable list box rows"
-msgstr ""
+msgstr "„list-drag-handle-symbolic” dla przeciąganych wierszy listy"
 
 #: data/icons.appdata.xml.in:20
 msgid ""
 "\"selection-mode-symbolic\" as used in apps which have a button to switch a "
 "list into a selection mode"
 msgstr ""
+"„selection-mode-symbolic” dla aplikacji posiadających przycisk do zmiany "
+"listy w tryb wybierania"
 
 #: data/icons.appdata.xml.in:21
 msgid "\"adw-expander-arrow-symbolic\" as used in Adw.PreferencesWindow"
@@ -71,6 +73,8 @@ msgid ""
 "\"network-*\" status icons which are not in the FreeDesktop icon name "
 "specification"
 msgstr ""
+"Ikony statusu \"network-*\", które nie są w specyfikacji nazw ikon "
+"FreeDesktop"
 
 #: data/icons.appdata.xml.in:27
 msgid ""
@@ -78,6 +82,8 @@ msgid ""
 "\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", \"printer-"
 "remote\", and \"system\""
 msgstr ""
+"Ikony urządzeń, których nie ma w specyfikacji nazw ikon FreeDesktop: „camera”"
+", „drive-cdrom”, „media-cdrom”, „music-player”, „printer-remote” i „system”"
 
 #: data/icons.appdata.xml.in:36
 msgid "\"panel-left/right\""
