@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2019 elementary, Inc. <contact@elementary.io> -->
+<!-- Copyright 2019-2023 elementary, Inc. <contact@elementary.io> -->
 <component type="icon-theme">
   <id>io.elementary.icons</id>
   <metadata_license>CC0-1.0</metadata_license>
@@ -12,6 +12,23 @@
   </description>
 
   <releases>
+    <release version="7.3.0" date="2023-03-22" urgency="medium">
+      <description>
+        <p>Additions:</p>
+        <ul>
+          <li>"list-drag-handle-symbolic" as used in draggable list box rows</li>
+          <li>"selection-mode-symbolic" as used in apps which have a button to switch a list into a selection mode</li>
+          <li>"adw-expander-arrow-symbolic" as used in Adw.PreferencesWindow</li>
+          <li>"adw-tab-*" icons as used with Adw.Tabbar</li>
+        </ul>
+        <p>Removals:</p>
+        <ul>
+          <li>"network-*" status icons which are not in the FreeDesktop icon name specification</li>
+          <li>Device icons which are not in the FreeDesktop icon name specification: "camera", "drive-cdrom", "media-cdrom", "music-player", "printer-remote", and "system"</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="7.2.0" date="2023-01-24" urgency="medium">
       <description>
         <p>Additions:</p>
