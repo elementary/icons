@@ -28,6 +28,9 @@
           <li>Device icons which are not in the FreeDesktop icon name specification: "camera", "drive-cdrom", "media-cdrom", "music-player", "printer-remote", and "system"</li>
         </ul>
       </description>
+      <issues>
+        <issue url="https://github.com/elementary/icons/issues/1196">"Manage Web Apps" page with no web apps shows broken icon</issue>
+      </issues>
     </release>
 
     <release version="7.2.0" date="2023-01-24" urgency="medium">
