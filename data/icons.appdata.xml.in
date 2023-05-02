@@ -27,8 +27,15 @@
           <li>"network-*" status icons which are not in the FreeDesktop icon name specification</li>
           <li>Device icons which are not in the FreeDesktop icon name specification: "camera", "drive-cdrom", "media-cdrom", "music-player", "printer-remote", and "system"</li>
         </ul>
+        <p>Updated families:</p>
+        <ul>
+          <li>"process-completed" uses a new checkmark shape, has a 32px version, and symlinks were added for "emblem-default"</li>
+          <li>Updated corner radius of "edit-clear" and "document-*-symbolic"</li>
+          <li>Updated "preferences-desktop-display" and added a 64px version</li>
+        </ul>
       </description>
       <issues>
+        <issue url="https://github.com/elementary/icons/issues/1103">preferences-system-privacy-location</issue>
         <issue url="https://github.com/elementary/icons/issues/1196">"Manage Web Apps" page with no web apps shows broken icon</issue>
       </issues>
     </release>
