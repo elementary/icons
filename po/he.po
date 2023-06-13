@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-02 17:46+0000\n"
-"PO-Revision-Date: 2023-03-25 03:04+0000\n"
+"PO-Revision-Date: 2023-06-14 08:07+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/icons-"
-"extra/he/>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/"
+"icons-extra/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/icons.appdata.xml.in:7
 msgid "elementary Icons"
@@ -75,7 +75,7 @@ msgstr "הסרות:"
 msgid ""
 "\"network-*\" status icons which are not in the FreeDesktop icon name "
 "specification"
-msgstr ""
+msgstr "סמלי המצב „network-*‎” שאינם במפרט שמות הסמלים של FreeDesktop"
 
 #: data/icons.appdata.xml.in:28
 msgid ""
@@ -83,6 +83,8 @@ msgid ""
 "\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", \"printer-"
 "remote\", and \"system\""
 msgstr ""
+"סמלי התקנים שאינם במפרט שמות הסמלים של FreeDesktop:‏ „camera”,‏ „drive-"
+"cdrom”,‏ „media-cdrom”,‏ „music-player”,‏ „printer-remote” ו־„system”"
 
 #: data/icons.appdata.xml.in:30 data/icons.appdata.xml.in:63
 #: data/icons.appdata.xml.in:91 data/icons.appdata.xml.in:126
@@ -98,11 +100,11 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:33
 msgid "Updated corner radius of \"edit-clear\" and \"document-*-symbolic\""
-msgstr ""
+msgstr "רדיוס הפינות של „edit-clear” ושל „document-*-symbolic” עודכן"
 
 #: data/icons.appdata.xml.in:34
 msgid "Updated \"preferences-desktop-display\" and added a 64px version"
-msgstr ""
+msgstr "„preferences-desktop-display” עודכן ונוספה לו גרסת 64 פיקסלים"
 
 #: data/icons.appdata.xml.in:47
 msgid "\"panel-left/right\""
@@ -178,23 +180,23 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:81
 msgid "\"computer-fail\""
-msgstr ""
+msgstr "„”"
 
 #: data/icons.appdata.xml.in:82
 msgid "\"preferences-desktop-theme\""
-msgstr ""
+msgstr "„preferences-desktop-theme”"
 
 #: data/icons.appdata.xml.in:83
 msgid "\"application-x-sharedlib\""
-msgstr ""
+msgstr "„application-x-sharedlib”"
 
 #: data/icons.appdata.xml.in:84
 msgid "\"process-paused\""
-msgstr ""
+msgstr "„process-paused”"
 
 #: data/icons.appdata.xml.in:88
 msgid "\"office-address-book\""
-msgstr ""
+msgstr "„office-address-book”"
 
 #: data/icons.appdata.xml.in:89
 msgid "Flash file types"
@@ -206,23 +208,23 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:94
 msgid "Update \"preferences-desktop\" to new tile shape"
-msgstr ""
+msgstr "„preferences-desktop” עודכן לצורת אריח חדשה"
 
 #: data/icons.appdata.xml.in:95
 msgid "Update \"image-missing\" to new tile shape"
-msgstr ""
+msgstr "„image-missing” עודכן לצורת אריח חדשה"
 
 #: data/icons.appdata.xml.in:96
 msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
-msgstr ""
+msgstr "„” עודכן לצורת אריח חדשה"
 
 #: data/icons.appdata.xml.in:97
 msgid "Update \"document-import\" and \"document-export\" to new tile shape"
-msgstr ""
+msgstr "„document-import” ו־„document-export” עודכנו לצורת אריח חדשה"
 
 #: data/icons.appdata.xml.in:98
 msgid "Update many file types with new arrow shape"
-msgstr ""
+msgstr "מגוון סוגי קבצים עודכנו לצורת חץ חדשה"
 
 #: data/icons.appdata.xml.in:99
 msgid "\"application-default-icon\" is now brightly colored"
@@ -248,11 +250,11 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:104
 msgid "Redesign Night Light"
-msgstr ""
+msgstr "תאורת לילה עוצבה מחדש"
 
 #: data/icons.appdata.xml.in:105
 msgid "Use latest Flatpak branding"
-msgstr ""
+msgstr "נעשה שימוש במיתוג העדכני ביותר של Flatpak"
 
 #: data/icons.appdata.xml.in:106
 msgid "Symbolic volume icons use a rounded shape and a slash when muted"
@@ -260,19 +262,19 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:108
 msgid "Other Changes:"
-msgstr ""
+msgstr "שינויים אחרים:"
 
 #: data/icons.appdata.xml.in:110
 msgid "Fix broken link for SVG file types"
-msgstr ""
+msgstr "תוקן קישור פגום לסוגי קובצי SVG"
 
 #: data/icons.appdata.xml.in:111
 msgid "Fix missing links for PGP file types"
-msgstr ""
+msgstr "תוקן קישור פגום לסוגי קובצי PGP"
 
 #: data/icons.appdata.xml.in:112
 msgid "Scale some icons to more sizes"
-msgstr ""
+msgstr "התאמת גודל של חלק מהסמלים לגדלים נוספים"
 
 #: data/icons.appdata.xml.in:121
 msgid "caps-lock-symbolic"
@@ -284,19 +286,19 @@ msgstr "eye-not-looking-symbolic"
 
 #: data/icons.appdata.xml.in:123
 msgid "eye-open-negative-filled-symbolic"
-msgstr ""
+msgstr "eye-open-negative-filled-symbolic"
 
 #: data/icons.appdata.xml.in:124
 msgid "num-lock-symbolic"
-msgstr ""
+msgstr "num-lock-symbolic"
 
 #: data/icons.appdata.xml.in:128
 msgid "Redesign media-playlist-repeat"
-msgstr ""
+msgstr "media-playlist-repeat עוצב מחדש"
 
 #: data/icons.appdata.xml.in:129
 msgid "Update media-playlist-shuffle and media-playlist-consecutive"
-msgstr ""
+msgstr "media-playlist-shuffle ו־media-playlist-consecutive עודכנו"
 
 #: data/icons.appdata.xml.in:130
 #, fuzzy
@@ -310,7 +312,7 @@ msgstr ""
 
 #: data/icons.appdata.xml.in:132
 msgid "Deb and Flatpak Bundle files use a package metaphor"
-msgstr ""
+msgstr "קובצי Deb ומאגדי Flatpak משתמשים במטפורה של חבילות"
 
 #: data/icons.appdata.xml.in:133
 msgid "Updates arrow points up"
