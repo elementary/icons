@@ -12,6 +12,25 @@
   </description>
 
   <releases>
+    <release version="7.3.1" date="2023-07-02" urgency="medium">
+      <description>
+        <p>Removals:</p>
+        <ul>
+          <li>non-fd.o "bluetooth-*", "microphone-sensitivity-*", and "night-light" symbolic panel icons</li>
+        </ul>
+        <p>Updated families:</p>
+        <ul>
+          <li>"insert-image-symbolic" is now more detailed</li>
+          <li>"media-record" has an updated palette</li>
+          <li>"document-page-setup", "edit-copy", "edit-cut", "media-optical", "open-menu", "system-run" look better on dark backgrounds</li>
+          <li>Improved arrow shape for "browser-download", "document-send", "document-import/export", "object-merge", "object-rotate", "pane-hide/show", and "view-refresh"</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/icons/pull/1200">Rename media-memory-sembolic.svg to media-memory-symbolic.svg</issue>
+      </issues>
+    </release>
+
     <release version="7.3.0" date="2023-05-02" urgency="medium">
       <description>
         <p>Additions:</p>
