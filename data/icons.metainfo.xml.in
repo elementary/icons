@@ -4,12 +4,27 @@
   <id>io.elementary.icons</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
+  <compulsory_for_desktop>Pantheon</compulsory_for_desktop>
+  <translation type="gettext">io.elementary.icons</translation>
+
   <name>elementary Icons</name>
   <summary>Named, vector icons for elementary OS</summary>
   <icon type="stock">preferences-desktop-theme</icon>
   <description>
     <p>An original set of vector icons designed specifically for elementary OS and its desktop environment: Pantheon.</p>
   </description>
+
+  <content_rating type="oars-1.1" />
+
+  <url type="homepage">https://elementary.io/</url>
+  <url type="bugtracker">https://github.com/elementary/icons/issues</url>
+  <url type="donation">https://elementary.io/get-involved#funding</url>
+  <url type="help">https://github.com/elementary/icons/discussions/categories/q-a</url>
+  <url type="translate">https://l10n.elementary.io/engage/desktop/</url>
+
+  <developer_name>elementary, Inc.</developer_name>
+  <project_group>elementary</project_group>
+  <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
     <release version="7.3.1" date="2023-07-02" urgency="medium">
@@ -161,104 +176,7 @@
       </description>
     </release>
 
-    <release version="6.1.0" date="2021-11-23" urgency="medium">
-      <description>
-        <p>Additions:</p>
-        <ul>
-          <li>preferences-desktop-font*</li>
-        </ul>
-        <p>Updated families:</p>
-        <ul>
-          <li>Additional sizes for playlist-queue</li>
-          <li>Redesign PDF file type</li>
-          <li>Additional sizes for emblem-downloads</li>
-          <li>Remove arrows from Copy and Paste actions</li>
-        </ul>
-        <p>Removals:</p>
-        <ul>
-          <li>multimedia-video-player</li>
-        </ul>
-      </description>
-    </release>
-
-    <release version="6.0.0" date="2021-07-15" urgency="medium">
-      <description>
-        <p>Updated families:</p>
-        <ul>
-          <li>Improved consistency between arrow shapes</li>
-          <li>Improved appearance of color icons against dark backgrounds</li>
-          <li>More gender-neutral people icons</li>
-          <li>Rounded media controls</li>
-          <li>Rounded lightning bolt shape</li>
-          <li>More colorful battery icons</li>
-        </ul>
-        <p>Additions:</p>
-        <ul>
-          <li>align-*</li>
-          <li>color-picker</li>
-          <li>distribute-*</li>
-          <li>draw-calligraphic</li>
-          <li>office-database-new</li>
-          <li>tools-spray</li>
-          <li>application-content-*</li>
-          <li>thunderbolt devices</li>
-          <li>video-display-tv</li>
-          <li>symbolic headphones</li>
-          <li>application-certificate</li>
-          <li>application-json</li>
-          <li>office-task-symbolic</li>
-          <li>status emblems</li>
-          <li>emblem-git-*</li>
-        </ul>
-        <p>Removals:</p>
-        <ul>
-          <li>accessories-camera</li>
-          <li>accessories-screenshot</li>
-          <li>audio-speaker-testing</li>
-          <li>edit-undo-archive</li>
-          <li>internet-mail</li>
-          <li>internet-news-reader</li>
-          <li>multimedia-audio-player</li>
-          <li>notification bell animations</li>
-          <li>nm-*</li>
-          <li>ubiquity</li>
-        </ul>
-      </description>
-    </release>
+    <release version="6.1.0" date="2021-11-23" />
+    <release version="6.0.0" date="2021-07-15" />
   </releases>
-
-  <content_rating type="oars-1.1">
-    <content_attribute id="violence-cartoon">none</content_attribute>
-    <content_attribute id="violence-fantasy">none</content_attribute>
-    <content_attribute id="violence-realistic">none</content_attribute>
-    <content_attribute id="violence-bloodshed">none</content_attribute>
-    <content_attribute id="violence-sexual">none</content_attribute>
-    <content_attribute id="violence-desecration">none</content_attribute>
-    <content_attribute id="violence-slavery">none</content_attribute>
-    <content_attribute id="violence-worship">none</content_attribute>
-    <content_attribute id="drugs-alcohol">none</content_attribute>
-    <content_attribute id="drugs-narcotics">none</content_attribute>
-    <content_attribute id="drugs-tobacco">none</content_attribute>
-    <content_attribute id="sex-nudity">none</content_attribute>
-    <content_attribute id="sex-themes">none</content_attribute>
-    <content_attribute id="sex-homosexuality">none</content_attribute>
-    <content_attribute id="sex-prostitution">none</content_attribute>
-    <content_attribute id="sex-adultery">none</content_attribute>
-    <content_attribute id="sex-appearance">none</content_attribute>
-    <content_attribute id="language-profanity">none</content_attribute>
-    <content_attribute id="language-humor">none</content_attribute>
-    <content_attribute id="language-discrimination">none</content_attribute>
-    <content_attribute id="social-chat">none</content_attribute>
-    <content_attribute id="social-info">none</content_attribute>
-    <content_attribute id="social-audio">none</content_attribute>
-    <content_attribute id="social-location">none</content_attribute>
-    <content_attribute id="social-contacts">none</content_attribute>
-    <content_attribute id="money-purchasing">none</content_attribute>
-    <content_attribute id="money-gambling">none</content_attribute>
-  </content_rating>
-  <translation type="gettext">io.elementary.icons</translation>
-  <compulsory_for_desktop>Pantheon</compulsory_for_desktop>
-  <developer_name>elementary, Inc.</developer_name>
-  <url type="homepage">https://elementary.io</url>
-  <url type="bugtracker">https://github.com/elementary/icons/issues</url>
 </component>
