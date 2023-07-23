@@ -1,7 +1,8 @@
 i18n.merge_file(
-    input: 'icons.appdata.xml.in',
-    output: meson.project_name() + '.appdata.xml',
+    input: 'icons.metainfo.xml.in',
+    output: meson.project_name() + '.metainfo.xml',
     po_dir: meson.source_root() / 'po',
+    type: 'xml',
     install_dir: get_option('datadir') / 'metainfo',
     install: true
 )
