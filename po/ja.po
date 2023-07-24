@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-21 18:40+0000\n"
-"PO-Revision-Date: 2023-05-05 12:06+0000\n"
+"PO-Revision-Date: 2023-07-24 19:02+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
-"Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/icons-"
-"extra/ja/>\n"
+"Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
+"icons-extra/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,6 +50,8 @@ msgid ""
 "non-fd.o \"bluetooth-*\", \"microphone-sensitivity-*\", and \"night-light\" "
 "symbolic panel icons"
 msgstr ""
+"Freedesktop の仕様に定義されていない \"bluetooth-*\"、\"microphone-"
+"sensitivity-*\"、\"night-light\" シンボリックパネルアイコン"
 
 #: data/icons.metainfo.xml.in:36 data/icons.metainfo.xml.in:64
 #: data/icons.metainfo.xml.in:97 data/icons.metainfo.xml.in:125
@@ -59,17 +61,19 @@ msgstr "アップデートされたアイコン:"
 
 #: data/icons.metainfo.xml.in:38
 msgid "\"insert-image-symbolic\" is now more detailed"
-msgstr ""
+msgstr "\"insert-image-symbolic\" のディテールを改善"
 
 #: data/icons.metainfo.xml.in:39
 msgid "\"media-record\" has an updated palette"
-msgstr ""
+msgstr "\"media-record\" に新しいパレットカラーを使用するように修正"
 
 #: data/icons.metainfo.xml.in:40
 msgid ""
 "\"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-optical\", "
 "\"open-menu\", \"system-run\" look better on dark backgrounds"
 msgstr ""
+"\"document-page-setup\"、\"edit-copy\"、\"edit-cut\"、\"media-optical\""
+"、\"open-menu\"、\"system-run\" の黒背景色上での視認性を改善"
 
 #: data/icons.metainfo.xml.in:41
 msgid ""
@@ -77,6 +81,9 @@ msgid ""
 "import/export\", \"object-merge\", \"object-rotate\", \"pane-hide/show\", "
 "and \"view-refresh\""
 msgstr ""
+"\"browser-download\"、\"document-send\"、\"document-import/export\""
+"、\"object-merge\"、\"object-rotate\"、\"pane-hide/show\"、\"view-refresh\" "
+"で使われている矢印の形状を改善"
 
 #: data/icons.metainfo.xml.in:51 data/icons.metainfo.xml.in:79
 #: data/icons.metainfo.xml.in:113 data/icons.metainfo.xml.in:153
