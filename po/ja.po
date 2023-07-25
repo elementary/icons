@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-21 18:40+0000\n"
+"POT-Creation-Date: 2023-07-25 16:23+0000\n"
 "PO-Revision-Date: 2023-07-24 19:02+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
-"Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/"
-"icons-extra/ja/>\n"
+"Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/icons-"
+"extra/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,9 +39,9 @@ msgstr ""
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/icons.metainfo.xml.in:32 data/icons.metainfo.xml.in:59
-#: data/icons.metainfo.xml.in:84 data/icons.metainfo.xml.in:120
-#: data/icons.metainfo.xml.in:170
+#: data/icons.metainfo.xml.in:32 data/icons.metainfo.xml.in:60
+#: data/icons.metainfo.xml.in:85 data/icons.metainfo.xml.in:121
+#: data/icons.metainfo.xml.in:171
 msgid "Removals:"
 msgstr "削除された項目:"
 
@@ -53,50 +53,54 @@ msgstr ""
 "Freedesktop の仕様に定義されていない \"bluetooth-*\"、\"microphone-"
 "sensitivity-*\"、\"night-light\" シンボリックパネルアイコン"
 
-#: data/icons.metainfo.xml.in:36 data/icons.metainfo.xml.in:64
-#: data/icons.metainfo.xml.in:97 data/icons.metainfo.xml.in:125
-#: data/icons.metainfo.xml.in:160
+#: data/icons.metainfo.xml.in:35
+msgid "\"mail-archive\" and \"mail-move\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:37 data/icons.metainfo.xml.in:65
+#: data/icons.metainfo.xml.in:98 data/icons.metainfo.xml.in:126
+#: data/icons.metainfo.xml.in:161
 msgid "Updated families:"
 msgstr "アップデートされたアイコン:"
 
-#: data/icons.metainfo.xml.in:38
+#: data/icons.metainfo.xml.in:39
 msgid "\"insert-image-symbolic\" is now more detailed"
 msgstr "\"insert-image-symbolic\" のディテールを改善"
 
-#: data/icons.metainfo.xml.in:39
+#: data/icons.metainfo.xml.in:40
 msgid "\"media-record\" has an updated palette"
 msgstr "\"media-record\" に新しいパレットカラーを使用するように修正"
 
-#: data/icons.metainfo.xml.in:40
+#: data/icons.metainfo.xml.in:41
 msgid ""
 "\"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-optical\", "
 "\"open-menu\", \"system-run\" look better on dark backgrounds"
 msgstr ""
-"\"document-page-setup\"、\"edit-copy\"、\"edit-cut\"、\"media-optical\""
-"、\"open-menu\"、\"system-run\" の黒背景色上での視認性を改善"
+"\"document-page-setup\"、\"edit-copy\"、\"edit-cut\"、\"media-optical"
+"\"、\"open-menu\"、\"system-run\" の黒背景色上での視認性を改善"
 
-#: data/icons.metainfo.xml.in:41
+#: data/icons.metainfo.xml.in:42
 msgid ""
 "Improved arrow shape for \"browser-download\", \"document-send\", \"document-"
 "import/export\", \"object-merge\", \"object-rotate\", \"pane-hide/show\", "
 "and \"view-refresh\""
 msgstr ""
-"\"browser-download\"、\"document-send\"、\"document-import/export\""
-"、\"object-merge\"、\"object-rotate\"、\"pane-hide/show\"、\"view-refresh\" "
-"で使われている矢印の形状を改善"
+"\"browser-download\"、\"document-send\"、\"document-import/export"
+"\"、\"object-merge\"、\"object-rotate\"、\"pane-hide/show\"、\"view-refresh"
+"\" で使われている矢印の形状を改善"
 
-#: data/icons.metainfo.xml.in:51 data/icons.metainfo.xml.in:79
-#: data/icons.metainfo.xml.in:113 data/icons.metainfo.xml.in:153
+#: data/icons.metainfo.xml.in:52 data/icons.metainfo.xml.in:80
+#: data/icons.metainfo.xml.in:114 data/icons.metainfo.xml.in:154
 msgid "Additions:"
 msgstr "追加項目:"
 
-#: data/icons.metainfo.xml.in:53
+#: data/icons.metainfo.xml.in:54
 msgid "\"list-drag-handle-symbolic\" as used in draggable list box rows"
 msgstr ""
 "ドラッグ可能なリストボックスの行に対して使用される \"list-drag-handle-"
 "symbolic\""
 
-#: data/icons.metainfo.xml.in:54
+#: data/icons.metainfo.xml.in:55
 msgid ""
 "\"selection-mode-symbolic\" as used in apps which have a button to switch a "
 "list into a selection mode"
@@ -104,19 +108,19 @@ msgstr ""
 "リストモードから選択モードへの切り替えボタンが存在するアプリで使用される "
 "\"selection-mode-symbolic\""
 
-#: data/icons.metainfo.xml.in:55
+#: data/icons.metainfo.xml.in:56
 msgid "\"adw-expander-arrow-symbolic\" as used in Adw.PreferencesWindow"
 msgstr "Adw.PreferencesWindow で使用される \"adw-expander-arrow-symbolic\""
 
-#: data/icons.metainfo.xml.in:56
+#: data/icons.metainfo.xml.in:57
 msgid "\"adw-external-link-symbolic\" as used in Adw.AboutWindow"
 msgstr "Adw.AboutWindow で使用される \"adw-external-link-symbolic\""
 
-#: data/icons.metainfo.xml.in:57
+#: data/icons.metainfo.xml.in:58
 msgid "\"adw-tab-*\" icons as used with Adw.Tabbar"
 msgstr "Adw.Tabbar と一緒に使用される \"adw-tab-*\" アイコン"
 
-#: data/icons.metainfo.xml.in:61
+#: data/icons.metainfo.xml.in:62
 msgid ""
 "\"network-*\" status icons which are not in the FreeDesktop icon name "
 "specification"
@@ -124,7 +128,7 @@ msgstr ""
 "Freedesktop のアイコン名の仕様に定義されていない \"network-*\" ステータスアイ"
 "コン"
 
-#: data/icons.metainfo.xml.in:62
+#: data/icons.metainfo.xml.in:63
 msgid ""
 "Device icons which are not in the FreeDesktop icon name specification: "
 "\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", \"printer-"
@@ -134,7 +138,7 @@ msgstr ""
 "\"、\"drive-cdrom\"、\"media-cdrom\"、\"music-player\"、\"printer-remote"
 "\"、\"system\""
 
-#: data/icons.metainfo.xml.in:66
+#: data/icons.metainfo.xml.in:67
 msgid ""
 "\"process-completed\" uses a new checkmark shape, has a 32px version, and "
 "symlinks were added for \"emblem-default\""
@@ -142,64 +146,64 @@ msgstr ""
 "\"process-completed\" に新しいチェックマーク状を使用し、32px 版を追加、およ"
 "び \"emblem-default\" へのシンボリックリンクを追加"
 
-#: data/icons.metainfo.xml.in:67
+#: data/icons.metainfo.xml.in:68
 msgid "Updated corner radius of \"edit-clear\" and \"document-*-symbolic\""
 msgstr "\"edit-clear\" と \"document-*-symbolic\" の角丸の比率を更新"
 
-#: data/icons.metainfo.xml.in:68
+#: data/icons.metainfo.xml.in:69
 msgid "Updated \"preferences-desktop-display\" and added a 64px version"
 msgstr "\"preferences-desktop-display\" を更新し、64px 版を追加"
 
-#: data/icons.metainfo.xml.in:81
+#: data/icons.metainfo.xml.in:82
 msgid "\"panel-left/right\""
 msgstr "\"panel-left/right\""
 
-#: data/icons.metainfo.xml.in:82
+#: data/icons.metainfo.xml.in:83
 msgid "Symlink to \"application-x-xpinstall\" for web extension files"
 msgstr ""
 "\"application-x-xpinstall\" へのシンボリックリンク (Web 拡張機能ファイル用)"
 
-#: data/icons.metainfo.xml.in:86
+#: data/icons.metainfo.xml.in:87
 msgid "\"internet-web-browser\""
 msgstr "\"internet-web-browser\""
 
-#: data/icons.metainfo.xml.in:87
+#: data/icons.metainfo.xml.in:88
 msgid "\"system-os-install\""
 msgstr "\"system-os-install\""
 
-#: data/icons.metainfo.xml.in:88
+#: data/icons.metainfo.xml.in:89
 msgid "\"preferences-desktop-accessibility-pointing\""
 msgstr "\"preferences-desktop-accessibility-pointing\""
 
-#: data/icons.metainfo.xml.in:89
+#: data/icons.metainfo.xml.in:90
 msgid "\"preferences-desktop-accessibility-zoom\""
 msgstr "\"preferences-desktop-accessibility-zoom\""
 
-#: data/icons.metainfo.xml.in:90
+#: data/icons.metainfo.xml.in:91
 msgid "\"preferences-color\""
 msgstr "\"preferences-color\""
 
-#: data/icons.metainfo.xml.in:91
+#: data/icons.metainfo.xml.in:92
 msgid "\"preferences-system-windows\""
 msgstr "\"preferences-system-windows\""
 
-#: data/icons.metainfo.xml.in:92
+#: data/icons.metainfo.xml.in:93
 msgid "\"applications-education\""
 msgstr "\"applications-education\""
 
-#: data/icons.metainfo.xml.in:93
+#: data/icons.metainfo.xml.in:94
 msgid "\"applications-interfacedesign\""
 msgstr "\"applications-interfacedesign\""
 
-#: data/icons.metainfo.xml.in:94
+#: data/icons.metainfo.xml.in:95
 msgid "\"applications-photography\""
 msgstr "\"applications-photography\""
 
-#: data/icons.metainfo.xml.in:95
+#: data/icons.metainfo.xml.in:96
 msgid "\"view-list-compact\""
 msgstr "\"view-list-compact\""
 
-#: data/icons.metainfo.xml.in:99
+#: data/icons.metainfo.xml.in:100
 msgid ""
 "\"applications-development\" uses a purple tile and the same hammer glyph as "
 "build system file types"
@@ -207,175 +211,175 @@ msgstr ""
 "\"applications-development\" を紫色のタイル状に変更し、ビルドシステムのファイ"
 "ルタイプアイコン同様の金槌の絵に変更"
 
-#: data/icons.metainfo.xml.in:100
+#: data/icons.metainfo.xml.in:101
 msgid "\"system-file-manager\" is blue and tile shaped"
 msgstr "\"system-file-manager\" を青色のタイル状に変更"
 
-#: data/icons.metainfo.xml.in:101
+#: data/icons.metainfo.xml.in:102
 msgid "\"accessories-calculator\" redesigned as a tile shape"
 msgstr "\"accessories-calculator\" をタイル状にデザイン変更"
 
-#: data/icons.metainfo.xml.in:102
+#: data/icons.metainfo.xml.in:103
 msgid "Update the border radius of several tile-shaped icons"
 msgstr "複数のタイル状アイコンにおける四隅の丸みを変更"
 
-#: data/icons.metainfo.xml.in:103
+#: data/icons.metainfo.xml.in:104
 msgid "\"view-*\" symbolic icons"
 msgstr "\"view-*\" シンボリックアイコン"
 
-#: data/icons.metainfo.xml.in:115
+#: data/icons.metainfo.xml.in:116
 msgid "\"computer-fail\""
 msgstr "\"computer-fail\""
 
-#: data/icons.metainfo.xml.in:116
+#: data/icons.metainfo.xml.in:117
 msgid "\"preferences-desktop-theme\""
 msgstr "\"preferences-desktop-theme\""
 
-#: data/icons.metainfo.xml.in:117
+#: data/icons.metainfo.xml.in:118
 msgid "\"application-x-sharedlib\""
 msgstr "\"application-x-sharedlib\""
 
-#: data/icons.metainfo.xml.in:118
+#: data/icons.metainfo.xml.in:119
 msgid "\"process-paused\""
 msgstr "\"process-paused\""
 
-#: data/icons.metainfo.xml.in:122
+#: data/icons.metainfo.xml.in:123
 msgid "\"office-address-book\""
 msgstr "\"office-address-book\""
 
-#: data/icons.metainfo.xml.in:123
+#: data/icons.metainfo.xml.in:124
 msgid "Flash file types"
 msgstr "Adobe Flash のファイルタイプ"
 
-#: data/icons.metainfo.xml.in:127
+#: data/icons.metainfo.xml.in:128
 msgid "Clean up \"preferences-desktop-workspaces\""
 msgstr "\"preferences-desktop-workspaces\" をクリーンアップ"
 
-#: data/icons.metainfo.xml.in:128
+#: data/icons.metainfo.xml.in:129
 msgid "Update \"preferences-desktop\" to new tile shape"
 msgstr "\"preferences-desktop\" を新しいタイル状に更新"
 
-#: data/icons.metainfo.xml.in:129
+#: data/icons.metainfo.xml.in:130
 msgid "Update \"image-missing\" to new tile shape"
 msgstr "\"image-missing\" を新しいタイル状に更新"
 
-#: data/icons.metainfo.xml.in:130
+#: data/icons.metainfo.xml.in:131
 msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
 msgstr "\"preferences-desktop-keyboard\" を新しいタイル状に更新"
 
-#: data/icons.metainfo.xml.in:131
+#: data/icons.metainfo.xml.in:132
 msgid "Update \"document-import\" and \"document-export\" to new tile shape"
 msgstr "\"document-import\" と \"document-export\" を新しいタイル状に更新"
 
-#: data/icons.metainfo.xml.in:132
+#: data/icons.metainfo.xml.in:133
 msgid "Update many file types with new arrow shape"
 msgstr "複数のファイルタイプアイコンを新しい矢印状に更新"
 
-#: data/icons.metainfo.xml.in:133
+#: data/icons.metainfo.xml.in:134
 msgid "\"application-default-icon\" is now brightly colored"
 msgstr "\"application-default-icon\" を明るい色調に変更"
 
-#: data/icons.metainfo.xml.in:134
+#: data/icons.metainfo.xml.in:135
 msgid "\"media-stop\" is now a square"
 msgstr "\"media-stop\" を正方形に変更"
 
-#: data/icons.metainfo.xml.in:135
+#: data/icons.metainfo.xml.in:136
 msgid "Round symbolic location status icons"
 msgstr "シンボリック版の位置情報使用状況アイコンを角丸に修正"
 
-#: data/icons.metainfo.xml.in:136
+#: data/icons.metainfo.xml.in:137
 msgid "Use an outlined shape for symbolic tag icons"
 msgstr "シンボリック版のタグアイコンを枠線のみの形状に変更"
 
-#: data/icons.metainfo.xml.in:137
+#: data/icons.metainfo.xml.in:138
 msgid "Use a rounded star for symbolic bookmark icons"
 msgstr "シンボリック版のブックマークアイコンを角丸の星に変更"
 
-#: data/icons.metainfo.xml.in:138
+#: data/icons.metainfo.xml.in:139
 msgid "Redesign Night Light"
 msgstr "夜間モードアイコンをデザイン変更"
 
-#: data/icons.metainfo.xml.in:139
+#: data/icons.metainfo.xml.in:140
 msgid "Use latest Flatpak branding"
 msgstr "Flatpak の最新のブランドマークを使用するように修正"
 
-#: data/icons.metainfo.xml.in:140
+#: data/icons.metainfo.xml.in:141
 msgid "Symbolic volume icons use a rounded shape and a slash when muted"
 msgstr ""
 "シンボリック版音量アイコンを角丸に変更し、ミュート時にスラッシュを表示するよ"
 "うに変更"
 
-#: data/icons.metainfo.xml.in:142
+#: data/icons.metainfo.xml.in:143
 msgid "Other Changes:"
 msgstr "そのほかの変更点:"
 
-#: data/icons.metainfo.xml.in:144
+#: data/icons.metainfo.xml.in:145
 msgid "Fix broken link for SVG file types"
 msgstr "SVG ファイルタイプに対するリンクが切れていた問題を修正"
 
-#: data/icons.metainfo.xml.in:145
+#: data/icons.metainfo.xml.in:146
 msgid "Fix missing links for PGP file types"
 msgstr "PGP ファイルタイプに対するリンクが切れていた問題を修正"
 
-#: data/icons.metainfo.xml.in:146
+#: data/icons.metainfo.xml.in:147
 msgid "Scale some icons to more sizes"
 msgstr "一部アイコンにより大きいサイズを追加"
 
-#: data/icons.metainfo.xml.in:155
+#: data/icons.metainfo.xml.in:156
 msgid "caps-lock-symbolic"
 msgstr "caps-lock-symbolic"
 
-#: data/icons.metainfo.xml.in:156
+#: data/icons.metainfo.xml.in:157
 msgid "eye-not-looking-symbolic"
 msgstr "eye-not-looking-symbolic"
 
-#: data/icons.metainfo.xml.in:157
+#: data/icons.metainfo.xml.in:158
 msgid "eye-open-negative-filled-symbolic"
 msgstr "eye-open-negative-filled-symbolic"
 
-#: data/icons.metainfo.xml.in:158
+#: data/icons.metainfo.xml.in:159
 msgid "num-lock-symbolic"
 msgstr "num-lock-symbolic"
 
-#: data/icons.metainfo.xml.in:162
+#: data/icons.metainfo.xml.in:163
 msgid "Redesign media-playlist-repeat"
 msgstr "media-playlist-repeat のデザインを変更"
 
-#: data/icons.metainfo.xml.in:163
+#: data/icons.metainfo.xml.in:164
 msgid "Update media-playlist-shuffle and media-playlist-consecutive"
 msgstr "media-playlist-shuffle と media-playlist-consecutive を更新"
 
-#: data/icons.metainfo.xml.in:164
+#: data/icons.metainfo.xml.in:165
 msgid "Rounder square icons"
 msgstr "正方形のアイコンの角丸が大きくなるように修正"
 
-#: data/icons.metainfo.xml.in:165
+#: data/icons.metainfo.xml.in:166
 msgid "Rounded arrow corners on Downloads folder"
 msgstr "“ダウンロード”フォルダーアイコンの矢印を角丸に変更"
 
-#: data/icons.metainfo.xml.in:166
+#: data/icons.metainfo.xml.in:167
 msgid "Deb and Flatpak Bundle files use a package metaphor"
 msgstr ""
 "deb ファイルと Flatpak バンドルファイルのアイコンに、パッケージ (箱) のデザイ"
 "ンを採用"
 
-#: data/icons.metainfo.xml.in:167
+#: data/icons.metainfo.xml.in:168
 msgid "Updates arrow points up"
 msgstr "上向き矢印を更新"
 
-#: data/icons.metainfo.xml.in:168
+#: data/icons.metainfo.xml.in:169
 msgid "Redesigned package with new colors"
 msgstr "パッケージアイコンが新しい色を使ったデザインに変更"
 
-#: data/icons.metainfo.xml.in:172
+#: data/icons.metainfo.xml.in:173
 msgid "notification-*"
 msgstr "notification-*"
 
-#: data/icons.metainfo.xml.in:173
+#: data/icons.metainfo.xml.in:174
 msgid "Non-FDO network-*"
 msgstr "Freedesktop.org 準拠ではない network-*"
 
-#: data/icons.metainfo.xml.in:174
+#: data/icons.metainfo.xml.in:175
 msgid "Non-FDO app icons"
 msgstr "Freedesktop.org 準拠ではないアプリアイコン"
 
