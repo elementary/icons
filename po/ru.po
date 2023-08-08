@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-21 18:40+0000\n"
-"PO-Revision-Date: 2023-07-24 19:02+0000\n"
-"Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
+"POT-Creation-Date: 2023-07-25 16:23+0000\n"
+"PO-Revision-Date: 2023-07-28 12:08+0000\n"
+"Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/desktop/"
 "icons-extra/ru/>\n"
 "Language: ru\n"
@@ -40,9 +40,9 @@ msgstr ""
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/icons.metainfo.xml.in:32 data/icons.metainfo.xml.in:59
-#: data/icons.metainfo.xml.in:84 data/icons.metainfo.xml.in:120
-#: data/icons.metainfo.xml.in:170
+#: data/icons.metainfo.xml.in:32 data/icons.metainfo.xml.in:60
+#: data/icons.metainfo.xml.in:85 data/icons.metainfo.xml.in:121
+#: data/icons.metainfo.xml.in:171
 msgid "Removals:"
 msgstr "Удаления:"
 
@@ -51,53 +51,57 @@ msgid ""
 "non-fd.o \"bluetooth-*\", \"microphone-sensitivity-*\", and \"night-light\" "
 "symbolic panel icons"
 msgstr ""
-"Не соответствующие fd.o символьные значки панели \"Bluetooth-*\", "
-"\"microphone-sensitivity-*\" и \"night-light\""
+"Не соответствующие fd.o символьные значки панели «Bluetooth-*», «microphone-"
+"sensitivity-*» и «night-light»"
 
-#: data/icons.metainfo.xml.in:36 data/icons.metainfo.xml.in:64
-#: data/icons.metainfo.xml.in:97 data/icons.metainfo.xml.in:125
-#: data/icons.metainfo.xml.in:160
+#: data/icons.metainfo.xml.in:35
+msgid "\"mail-archive\" and \"mail-move\""
+msgstr "«mail-archive» и «mail-move»"
+
+#: data/icons.metainfo.xml.in:37 data/icons.metainfo.xml.in:65
+#: data/icons.metainfo.xml.in:98 data/icons.metainfo.xml.in:126
+#: data/icons.metainfo.xml.in:161
 msgid "Updated families:"
 msgstr "Обновлённые семейства:"
 
-#: data/icons.metainfo.xml.in:38
-msgid "\"insert-image-symbolic\" is now more detailed"
-msgstr "Значок \"insert-image-symbolic\" теперь более детализированный"
-
 #: data/icons.metainfo.xml.in:39
-msgid "\"media-record\" has an updated palette"
-msgstr "Значок \"media-record\" использует обновлённую палитру"
+msgid "\"insert-image-symbolic\" is now more detailed"
+msgstr "Значок «insert-image-symbolic» теперь более детализированный"
 
 #: data/icons.metainfo.xml.in:40
+msgid "\"media-record\" has an updated palette"
+msgstr "Значок «media-record» получил обновлённую палитру"
+
+#: data/icons.metainfo.xml.in:41
 msgid ""
 "\"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-optical\", "
 "\"open-menu\", \"system-run\" look better on dark backgrounds"
 msgstr ""
-"\"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-optical\", "
-"\"open-menu\", \"system-run\" теперь выглядят лучше на тёмном фоне"
+"«document-page-setup», «edit-copy», «edit-cut», «media-optical», «open-menu»"
+", «system-run» теперь выглядят лучше на тёмном фоне"
 
-#: data/icons.metainfo.xml.in:41
+#: data/icons.metainfo.xml.in:42
 msgid ""
 "Improved arrow shape for \"browser-download\", \"document-send\", \"document-"
 "import/export\", \"object-merge\", \"object-rotate\", \"pane-hide/show\", "
 "and \"view-refresh\""
 msgstr ""
-"Обновлена форма стрелки у \"browser-download\", \"document-send\", \"document"
-"-import/export\", \"object-merge\", \"object-rotate\", \"pane-hide/show\", и "
-"\"view-refresh\""
+"Обновлена форма стрелки у «browser-download», «document-send», «document-"
+"import/export», «object-merge», «object-rotate», «pane-hide/show», и «view-"
+"refresh»"
 
-#: data/icons.metainfo.xml.in:51 data/icons.metainfo.xml.in:79
-#: data/icons.metainfo.xml.in:113 data/icons.metainfo.xml.in:153
+#: data/icons.metainfo.xml.in:52 data/icons.metainfo.xml.in:80
+#: data/icons.metainfo.xml.in:114 data/icons.metainfo.xml.in:154
 msgid "Additions:"
 msgstr "Дополнения:"
 
-#: data/icons.metainfo.xml.in:53
+#: data/icons.metainfo.xml.in:54
 msgid "\"list-drag-handle-symbolic\" as used in draggable list box rows"
 msgstr ""
 "«list-drag-handle-symbolic» для использования в перетаскиваемых строках "
 "списка"
 
-#: data/icons.metainfo.xml.in:54
+#: data/icons.metainfo.xml.in:55
 msgid ""
 "\"selection-mode-symbolic\" as used in apps which have a button to switch a "
 "list into a selection mode"
@@ -105,19 +109,19 @@ msgstr ""
 "«selection-mode-symbolic» для использования в приложениях, которые имеют "
 "кнопку для переключения в режим выбора"
 
-#: data/icons.metainfo.xml.in:55
+#: data/icons.metainfo.xml.in:56
 msgid "\"adw-expander-arrow-symbolic\" as used in Adw.PreferencesWindow"
 msgstr "«adw-expander-arrow-symbolic» для Adw.PreferencesWindow"
 
-#: data/icons.metainfo.xml.in:56
+#: data/icons.metainfo.xml.in:57
 msgid "\"adw-external-link-symbolic\" as used in Adw.AboutWindow"
 msgstr "«adw-external-link-symbolic» для Adw.AboutWindow"
 
-#: data/icons.metainfo.xml.in:57
+#: data/icons.metainfo.xml.in:58
 msgid "\"adw-tab-*\" icons as used with Adw.Tabbar"
 msgstr "«adw-tab-*» для Adw.Tabbar"
 
-#: data/icons.metainfo.xml.in:61
+#: data/icons.metainfo.xml.in:62
 msgid ""
 "\"network-*\" status icons which are not in the FreeDesktop icon name "
 "specification"
@@ -125,7 +129,7 @@ msgstr ""
 "Значки состояния «network-*», отсутствующие в спецификации имён значков "
 "FreeDesktop"
 
-#: data/icons.metainfo.xml.in:62
+#: data/icons.metainfo.xml.in:63
 msgid ""
 "Device icons which are not in the FreeDesktop icon name specification: "
 "\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", \"printer-"
@@ -135,7 +139,7 @@ msgstr ""
 "«camera», «drive-cdrom», «media-cdrom», «music-player», «printer-remote» и "
 "«system»"
 
-#: data/icons.metainfo.xml.in:66
+#: data/icons.metainfo.xml.in:67
 msgid ""
 "\"process-completed\" uses a new checkmark shape, has a 32px version, and "
 "symlinks were added for \"emblem-default\""
@@ -143,65 +147,65 @@ msgstr ""
 "Обновлена форма галочки у «process-completed», добавлена версия иконки в "
 "размере 32px и ссылки для «emblem-default»"
 
-#: data/icons.metainfo.xml.in:67
+#: data/icons.metainfo.xml.in:68
 msgid "Updated corner radius of \"edit-clear\" and \"document-*-symbolic\""
 msgstr "Обновлены скругления углов у «edit-clear» и «document-*-symbolic»"
 
-#: data/icons.metainfo.xml.in:68
+#: data/icons.metainfo.xml.in:69
 msgid "Updated \"preferences-desktop-display\" and added a 64px version"
 msgstr ""
 "Обновлён значок «preferences-desktop-display», добавлена его версия в "
 "размере 64px"
 
-#: data/icons.metainfo.xml.in:81
+#: data/icons.metainfo.xml.in:82
 msgid "\"panel-left/right\""
 msgstr "«panel-left/right»"
 
-#: data/icons.metainfo.xml.in:82
+#: data/icons.metainfo.xml.in:83
 msgid "Symlink to \"application-x-xpinstall\" for web extension files"
 msgstr "Ссылка на «application-x-xpinstall» для файлов расширений браузера"
 
-#: data/icons.metainfo.xml.in:86
+#: data/icons.metainfo.xml.in:87
 msgid "\"internet-web-browser\""
 msgstr "«internet-web-browser»"
 
-#: data/icons.metainfo.xml.in:87
+#: data/icons.metainfo.xml.in:88
 msgid "\"system-os-install\""
 msgstr "«system-os-install»"
 
-#: data/icons.metainfo.xml.in:88
+#: data/icons.metainfo.xml.in:89
 msgid "\"preferences-desktop-accessibility-pointing\""
 msgstr "«preferences-desktop-accessibility-pointing»"
 
-#: data/icons.metainfo.xml.in:89
+#: data/icons.metainfo.xml.in:90
 msgid "\"preferences-desktop-accessibility-zoom\""
 msgstr "«preferences-desktop-accessibility-zoom»"
 
-#: data/icons.metainfo.xml.in:90
+#: data/icons.metainfo.xml.in:91
 msgid "\"preferences-color\""
 msgstr "«preferences-color»"
 
-#: data/icons.metainfo.xml.in:91
+#: data/icons.metainfo.xml.in:92
 msgid "\"preferences-system-windows\""
 msgstr "«preferences-system-windows»"
 
-#: data/icons.metainfo.xml.in:92
+#: data/icons.metainfo.xml.in:93
 msgid "\"applications-education\""
 msgstr "«applications-education»"
 
-#: data/icons.metainfo.xml.in:93
+#: data/icons.metainfo.xml.in:94
 msgid "\"applications-interfacedesign\""
 msgstr "«applications-interfacedesign»"
 
-#: data/icons.metainfo.xml.in:94
+#: data/icons.metainfo.xml.in:95
 msgid "\"applications-photography\""
 msgstr "«applications-photography»"
 
-#: data/icons.metainfo.xml.in:95
+#: data/icons.metainfo.xml.in:96
 msgid "\"view-list-compact\""
 msgstr "«view-list-compact»"
 
-#: data/icons.metainfo.xml.in:99
+#: data/icons.metainfo.xml.in:100
 msgid ""
 "\"applications-development\" uses a purple tile and the same hammer glyph as "
 "build system file types"
@@ -209,175 +213,175 @@ msgstr ""
 "«applications-development» теперь использует фиолетовый цвет и такой же "
 "символ молотка, как у системных файлов сборки"
 
-#: data/icons.metainfo.xml.in:100
+#: data/icons.metainfo.xml.in:101
 msgid "\"system-file-manager\" is blue and tile shaped"
 msgstr "«system-file-manager» теперь имеет синий цвет и форму плитки"
 
-#: data/icons.metainfo.xml.in:101
+#: data/icons.metainfo.xml.in:102
 msgid "\"accessories-calculator\" redesigned as a tile shape"
 msgstr "«accessories-calculator» переработан в форме плитки"
 
-#: data/icons.metainfo.xml.in:102
+#: data/icons.metainfo.xml.in:103
 msgid "Update the border radius of several tile-shaped icons"
 msgstr "Обновлены скругления углов нескольких значков в форме плитки"
 
-#: data/icons.metainfo.xml.in:103
+#: data/icons.metainfo.xml.in:104
 msgid "\"view-*\" symbolic icons"
 msgstr "Символьные значки «view-*»"
 
-#: data/icons.metainfo.xml.in:115
+#: data/icons.metainfo.xml.in:116
 msgid "\"computer-fail\""
 msgstr "«computer-fail»"
 
-#: data/icons.metainfo.xml.in:116
+#: data/icons.metainfo.xml.in:117
 msgid "\"preferences-desktop-theme\""
 msgstr "«preferences-desktop-theme»"
 
-#: data/icons.metainfo.xml.in:117
+#: data/icons.metainfo.xml.in:118
 msgid "\"application-x-sharedlib\""
 msgstr "«application-x-sharedlib»"
 
-#: data/icons.metainfo.xml.in:118
+#: data/icons.metainfo.xml.in:119
 msgid "\"process-paused\""
 msgstr "«process-paused»"
 
-#: data/icons.metainfo.xml.in:122
+#: data/icons.metainfo.xml.in:123
 msgid "\"office-address-book\""
 msgstr "«office-address-book»"
 
-#: data/icons.metainfo.xml.in:123
+#: data/icons.metainfo.xml.in:124
 msgid "Flash file types"
 msgstr "Типы файлов Flash"
 
-#: data/icons.metainfo.xml.in:127
+#: data/icons.metainfo.xml.in:128
 msgid "Clean up \"preferences-desktop-workspaces\""
 msgstr "Визуальная разгрузка значка «preferences-desktop-workspaces»"
 
-#: data/icons.metainfo.xml.in:128
+#: data/icons.metainfo.xml.in:129
 msgid "Update \"preferences-desktop\" to new tile shape"
 msgstr "«preferences-desktop» переработан в форме плитки"
 
-#: data/icons.metainfo.xml.in:129
+#: data/icons.metainfo.xml.in:130
 msgid "Update \"image-missing\" to new tile shape"
 msgstr "«image-missing» переработан в форме плитки"
 
-#: data/icons.metainfo.xml.in:130
+#: data/icons.metainfo.xml.in:131
 msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
 msgstr "«preferences-desktop-keyboard» переработан в форме плитки"
 
-#: data/icons.metainfo.xml.in:131
+#: data/icons.metainfo.xml.in:132
 msgid "Update \"document-import\" and \"document-export\" to new tile shape"
 msgstr "«document-import» и «document-export» переработаны в форме плитки"
 
-#: data/icons.metainfo.xml.in:132
+#: data/icons.metainfo.xml.in:133
 msgid "Update many file types with new arrow shape"
 msgstr "Обновлён внешний вид стрелок у многих значков файлов"
 
-#: data/icons.metainfo.xml.in:133
+#: data/icons.metainfo.xml.in:134
 msgid "\"application-default-icon\" is now brightly colored"
 msgstr "«application-default-icon» теперь выглядит более ярко"
 
-#: data/icons.metainfo.xml.in:134
+#: data/icons.metainfo.xml.in:135
 msgid "\"media-stop\" is now a square"
 msgstr "«media-stop» теперь имеет квадратную форму"
 
-#: data/icons.metainfo.xml.in:135
+#: data/icons.metainfo.xml.in:136
 msgid "Round symbolic location status icons"
 msgstr "Добавлены скругления у значка местоположения"
 
-#: data/icons.metainfo.xml.in:136
+#: data/icons.metainfo.xml.in:137
 msgid "Use an outlined shape for symbolic tag icons"
 msgstr "Символьные значки тегов теперь имеют контурный вид"
 
-#: data/icons.metainfo.xml.in:137
+#: data/icons.metainfo.xml.in:138
 msgid "Use a rounded star for symbolic bookmark icons"
 msgstr "Скруглённая звезда у символьных значков закладки"
 
-#: data/icons.metainfo.xml.in:138
+#: data/icons.metainfo.xml.in:139
 msgid "Redesign Night Light"
 msgstr "Переработан значок ночного режима"
 
-#: data/icons.metainfo.xml.in:139
+#: data/icons.metainfo.xml.in:140
 msgid "Use latest Flatpak branding"
 msgstr "Обновлёная версия брендинга Flatpak"
 
-#: data/icons.metainfo.xml.in:140
+#: data/icons.metainfo.xml.in:141
 msgid "Symbolic volume icons use a rounded shape and a slash when muted"
 msgstr ""
 "Символьные значки громкости теперь имеют скруглённую форму и косую черту при "
 "отключении звука"
 
-#: data/icons.metainfo.xml.in:142
+#: data/icons.metainfo.xml.in:143
 msgid "Other Changes:"
 msgstr "Прочие изменения:"
 
-#: data/icons.metainfo.xml.in:144
+#: data/icons.metainfo.xml.in:145
 msgid "Fix broken link for SVG file types"
 msgstr "Исправлена нерабочая ссылка для типов файла SVG"
 
-#: data/icons.metainfo.xml.in:145
+#: data/icons.metainfo.xml.in:146
 msgid "Fix missing links for PGP file types"
 msgstr "Исправлены отсутствовавшие ссылки для типов файла PGP"
 
-#: data/icons.metainfo.xml.in:146
+#: data/icons.metainfo.xml.in:147
 msgid "Scale some icons to more sizes"
 msgstr "Больше различных масштабов у некоторых значков"
 
-#: data/icons.metainfo.xml.in:155
+#: data/icons.metainfo.xml.in:156
 msgid "caps-lock-symbolic"
 msgstr "caps-lock-symbolic"
 
-#: data/icons.metainfo.xml.in:156
+#: data/icons.metainfo.xml.in:157
 msgid "eye-not-looking-symbolic"
 msgstr "eye-not-looking-symbolic"
 
-#: data/icons.metainfo.xml.in:157
+#: data/icons.metainfo.xml.in:158
 msgid "eye-open-negative-filled-symbolic"
 msgstr "eye-open-negative-filled-symbolic"
 
-#: data/icons.metainfo.xml.in:158
+#: data/icons.metainfo.xml.in:159
 msgid "num-lock-symbolic"
 msgstr "num-lock-symbolic"
 
-#: data/icons.metainfo.xml.in:162
+#: data/icons.metainfo.xml.in:163
 msgid "Redesign media-playlist-repeat"
 msgstr "Обновлён значок «media-playlist-repeat»"
 
-#: data/icons.metainfo.xml.in:163
+#: data/icons.metainfo.xml.in:164
 msgid "Update media-playlist-shuffle and media-playlist-consecutive"
 msgstr ""
 "Обновлены значки «media-playlist-shuffle» и «media-playlist-consecutive»"
 
-#: data/icons.metainfo.xml.in:164
+#: data/icons.metainfo.xml.in:165
 msgid "Rounder square icons"
 msgstr "Скруглены квадратные значки"
 
-#: data/icons.metainfo.xml.in:165
+#: data/icons.metainfo.xml.in:166
 msgid "Rounded arrow corners on Downloads folder"
 msgstr "Скруглены углы стрелок у папки загрузок"
 
-#: data/icons.metainfo.xml.in:166
+#: data/icons.metainfo.xml.in:167
 msgid "Deb and Flatpak Bundle files use a package metaphor"
 msgstr ""
 "Обновлены файлы наборов Deb и Flatpak (метафора на файлы-пакеты/архивы)"
 
-#: data/icons.metainfo.xml.in:167
+#: data/icons.metainfo.xml.in:168
 msgid "Updates arrow points up"
 msgstr "Стрелка на значке обновлений теперь указывает вверх"
 
-#: data/icons.metainfo.xml.in:168
+#: data/icons.metainfo.xml.in:169
 msgid "Redesigned package with new colors"
 msgstr "Обновлены цвета значка пакетов/архивов"
 
-#: data/icons.metainfo.xml.in:172
+#: data/icons.metainfo.xml.in:173
 msgid "notification-*"
 msgstr "notification-*"
 
-#: data/icons.metainfo.xml.in:173
+#: data/icons.metainfo.xml.in:174
 msgid "Non-FDO network-*"
 msgstr "network-*, не входящие в стандарт FDO"
 
-#: data/icons.metainfo.xml.in:174
+#: data/icons.metainfo.xml.in:175
 msgid "Non-FDO app icons"
 msgstr "Иконки приложений, не входящие в стандарт FDO"
 
