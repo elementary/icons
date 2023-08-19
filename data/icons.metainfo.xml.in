@@ -27,6 +27,12 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
+    <release version="7.3.2" date="2023-08-19" urgency="medium">
+      <issues>
+        <issue url="https://github.com/elementary/icons/issues/1227">Document import and export missing at 32px</issue>
+      </issues>
+    </release>
+
     <release version="7.3.1" date="2023-08-08" urgency="medium">
       <description>
         <p>Removals:</p>
