@@ -60,6 +60,7 @@ mime_links = [
     ['office-database', 'application-x-sqlite3'],
     ['office-database', 'text-x-sql'],
 
+    ['package-x-generic', 'application-x-java-archive'],
     ['package-x-generic', 'package'],
 
     ['text-x-generic', 'application-x-gnome-theme-package'],
