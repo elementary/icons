@@ -17,6 +17,11 @@ mime_links = [
     ['application-vnd.ms-powerpoint', 'application-vnd.openxmlformats-officedocument.presentationml.presentation'],
     ['application-vnd.ms-powerpoint', 'application-vnd.openxmlformats-officedocument.presentationml.slideshow'],
 
+    ['application-x-addon', 'application-vnd.openofficeorg.extension'],
+    ['application-x-addon', 'application-x-xpinstall'],
+    ['application-x-addon', 'extension'],
+    ['application-x-addon', 'libpeas-plugin'],
+
     ['application-x-cd-image', 'application-x-raw-disk-image'],
 
     ['application-x-executable', 'application-x-object'],
@@ -35,10 +40,6 @@ mime_links = [
     ['audio-x-playlist-rtl', 'audio-x-mp3-playlist-rtl'],
     ['audio-x-playlist-rtl', 'audio-x-mpegurl-rtl'],
     ['audio-x-playlist-rtl', 'audio-x-scpls-rtl'],
-
-    ['extension', 'application-vnd.openofficeorg.extension'],
-    ['extension', 'application-x-xpinstall'],
-    ['extension', 'libpeas-plugin'],
 
     ['image-x-generic', 'image'],
 
@@ -59,6 +60,7 @@ mime_links = [
     ['office-database', 'application-x-sqlite3'],
     ['office-database', 'text-x-sql'],
 
+    ['package-x-generic', 'application-x-java-archive'],
     ['package-x-generic', 'package'],
 
     ['text-x-generic', 'application-x-gnome-theme-package'],

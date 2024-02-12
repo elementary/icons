@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-25 03:08+0000\n"
+"POT-Creation-Date: 2023-07-25 16:23+0000\n"
 "PO-Revision-Date: 2022-10-09 20:32+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/desktop/icons-"
@@ -19,15 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: data/icons.appdata.xml.in:7
+#: data/icons.metainfo.xml.in:10
 msgid "elementary Icons"
 msgstr "elementary ikonok"
 
-#: data/icons.appdata.xml.in:8
+#: data/icons.metainfo.xml.in:11
 msgid "Named, vector icons for elementary OS"
 msgstr "Nevesített vektorikonok elementary OS-hez"
 
-#: data/icons.appdata.xml.in:11
+#: data/icons.metainfo.xml.in:14
 msgid ""
 "An original set of vector icons designed specifically for elementary OS and "
 "its desktop environment: Pantheon."
@@ -35,425 +35,325 @@ msgstr ""
 "Egy eredeti vektorikon-gyűjtemény kifejezetten az elementary OS és annak "
 "asztali környezete, a Pantheon számára tervezve."
 
-#: data/icons.appdata.xml.in:17 data/icons.appdata.xml.in:34
-#: data/icons.appdata.xml.in:68 data/icons.appdata.xml.in:108
-#: data/icons.appdata.xml.in:136 data/icons.appdata.xml.in:165
+#: data/icons.metainfo.xml.in:25
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/icons.metainfo.xml.in:32 data/icons.metainfo.xml.in:60
+#: data/icons.metainfo.xml.in:85 data/icons.metainfo.xml.in:121
+#: data/icons.metainfo.xml.in:171
+msgid "Removals:"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:34
+msgid ""
+"non-fd.o \"bluetooth-*\", \"microphone-sensitivity-*\", and \"night-light\" "
+"symbolic panel icons"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:35
+msgid "\"mail-archive\" and \"mail-move\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:37 data/icons.metainfo.xml.in:65
+#: data/icons.metainfo.xml.in:98 data/icons.metainfo.xml.in:126
+#: data/icons.metainfo.xml.in:161
+msgid "Updated families:"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:39
+msgid "\"insert-image-symbolic\" is now more detailed"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:40
+msgid "\"media-record\" has an updated palette"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:41
+msgid ""
+"\"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-optical\", "
+"\"open-menu\", \"system-run\" look better on dark backgrounds"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:42
+msgid ""
+"Improved arrow shape for \"browser-download\", \"document-send\", \"document-"
+"import/export\", \"object-merge\", \"object-rotate\", \"pane-hide/show\", "
+"and \"view-refresh\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:52 data/icons.metainfo.xml.in:80
+#: data/icons.metainfo.xml.in:114 data/icons.metainfo.xml.in:154
 msgid "Additions:"
 msgstr ""
 
-#: data/icons.appdata.xml.in:19
+#: data/icons.metainfo.xml.in:54
 msgid "\"list-drag-handle-symbolic\" as used in draggable list box rows"
 msgstr ""
 
-#: data/icons.appdata.xml.in:20
+#: data/icons.metainfo.xml.in:55
 msgid ""
 "\"selection-mode-symbolic\" as used in apps which have a button to switch a "
 "list into a selection mode"
 msgstr ""
 
-#: data/icons.appdata.xml.in:21
+#: data/icons.metainfo.xml.in:56
 msgid "\"adw-expander-arrow-symbolic\" as used in Adw.PreferencesWindow"
 msgstr ""
 
-#: data/icons.appdata.xml.in:22
+#: data/icons.metainfo.xml.in:57
+msgid "\"adw-external-link-symbolic\" as used in Adw.AboutWindow"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:58
 msgid "\"adw-tab-*\" icons as used with Adw.Tabbar"
 msgstr ""
 
-#: data/icons.appdata.xml.in:24 data/icons.appdata.xml.in:39
-#: data/icons.appdata.xml.in:75 data/icons.appdata.xml.in:125
-#: data/icons.appdata.xml.in:147 data/icons.appdata.xml.in:183
-msgid "Removals:"
-msgstr ""
-
-#: data/icons.appdata.xml.in:26
+#: data/icons.metainfo.xml.in:62
 msgid ""
 "\"network-*\" status icons which are not in the FreeDesktop icon name "
 "specification"
 msgstr ""
 
-#: data/icons.appdata.xml.in:27
+#: data/icons.metainfo.xml.in:63
 msgid ""
 "Device icons which are not in the FreeDesktop icon name specification: "
 "\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", \"printer-"
 "remote\", and \"system\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:36
+#: data/icons.metainfo.xml.in:67
+msgid ""
+"\"process-completed\" uses a new checkmark shape, has a 32px version, and "
+"symlinks were added for \"emblem-default\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:68
+msgid "Updated corner radius of \"edit-clear\" and \"document-*-symbolic\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:69
+msgid "Updated \"preferences-desktop-display\" and added a 64px version"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:82
 msgid "\"panel-left/right\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:37
+#: data/icons.metainfo.xml.in:83
 msgid "Symlink to \"application-x-xpinstall\" for web extension files"
 msgstr ""
 
-#: data/icons.appdata.xml.in:41
+#: data/icons.metainfo.xml.in:87
 msgid "\"internet-web-browser\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:42
+#: data/icons.metainfo.xml.in:88
 msgid "\"system-os-install\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:43
+#: data/icons.metainfo.xml.in:89
 msgid "\"preferences-desktop-accessibility-pointing\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:44
+#: data/icons.metainfo.xml.in:90
 msgid "\"preferences-desktop-accessibility-zoom\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:45
+#: data/icons.metainfo.xml.in:91
 msgid "\"preferences-color\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:46
+#: data/icons.metainfo.xml.in:92
 msgid "\"preferences-system-windows\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:47
+#: data/icons.metainfo.xml.in:93
 msgid "\"applications-education\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:48
+#: data/icons.metainfo.xml.in:94
 msgid "\"applications-interfacedesign\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:49
+#: data/icons.metainfo.xml.in:95
 msgid "\"applications-photography\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:50
+#: data/icons.metainfo.xml.in:96
 msgid "\"view-list-compact\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:52 data/icons.appdata.xml.in:80
-#: data/icons.appdata.xml.in:115 data/icons.appdata.xml.in:140
-#: data/icons.appdata.xml.in:156
-msgid "Updated families:"
-msgstr ""
-
-#: data/icons.appdata.xml.in:54
+#: data/icons.metainfo.xml.in:100
 msgid ""
 "\"applications-development\" uses a purple tile and the same hammer glyph as "
 "build system file types"
 msgstr ""
 
-#: data/icons.appdata.xml.in:55
+#: data/icons.metainfo.xml.in:101
 msgid "\"system-file-manager\" is blue and tile shaped"
 msgstr ""
 
-#: data/icons.appdata.xml.in:56
+#: data/icons.metainfo.xml.in:102
 msgid "\"accessories-calculator\" redesigned as a tile shape"
 msgstr ""
 
-#: data/icons.appdata.xml.in:57
+#: data/icons.metainfo.xml.in:103
 msgid "Update the border radius of several tile-shaped icons"
 msgstr ""
 
-#: data/icons.appdata.xml.in:58
+#: data/icons.metainfo.xml.in:104
 msgid "\"view-*\" symbolic icons"
 msgstr ""
 
-#: data/icons.appdata.xml.in:70
+#: data/icons.metainfo.xml.in:116
 msgid "\"computer-fail\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:71
+#: data/icons.metainfo.xml.in:117
 msgid "\"preferences-desktop-theme\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:72
+#: data/icons.metainfo.xml.in:118
 msgid "\"application-x-sharedlib\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:73
+#: data/icons.metainfo.xml.in:119
 msgid "\"process-paused\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:77
+#: data/icons.metainfo.xml.in:123
 msgid "\"office-address-book\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:78
+#: data/icons.metainfo.xml.in:124
 msgid "Flash file types"
 msgstr ""
 
-#: data/icons.appdata.xml.in:82
+#: data/icons.metainfo.xml.in:128
 msgid "Clean up \"preferences-desktop-workspaces\""
 msgstr ""
 
-#: data/icons.appdata.xml.in:83
+#: data/icons.metainfo.xml.in:129
 msgid "Update \"preferences-desktop\" to new tile shape"
 msgstr ""
 
-#: data/icons.appdata.xml.in:84
+#: data/icons.metainfo.xml.in:130
 msgid "Update \"image-missing\" to new tile shape"
 msgstr ""
 
-#: data/icons.appdata.xml.in:85
+#: data/icons.metainfo.xml.in:131
 msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
 msgstr ""
 
-#: data/icons.appdata.xml.in:86
+#: data/icons.metainfo.xml.in:132
 msgid "Update \"document-import\" and \"document-export\" to new tile shape"
 msgstr ""
 
-#: data/icons.appdata.xml.in:87
+#: data/icons.metainfo.xml.in:133
 msgid "Update many file types with new arrow shape"
 msgstr ""
 
-#: data/icons.appdata.xml.in:88
+#: data/icons.metainfo.xml.in:134
 msgid "\"application-default-icon\" is now brightly colored"
 msgstr ""
 
-#: data/icons.appdata.xml.in:89
+#: data/icons.metainfo.xml.in:135
 msgid "\"media-stop\" is now a square"
 msgstr ""
 
-#: data/icons.appdata.xml.in:90
+#: data/icons.metainfo.xml.in:136
 msgid "Round symbolic location status icons"
 msgstr ""
 
-#: data/icons.appdata.xml.in:91
+#: data/icons.metainfo.xml.in:137
 msgid "Use an outlined shape for symbolic tag icons"
 msgstr ""
 
-#: data/icons.appdata.xml.in:92
+#: data/icons.metainfo.xml.in:138
 msgid "Use a rounded star for symbolic bookmark icons"
 msgstr ""
 
-#: data/icons.appdata.xml.in:93
+#: data/icons.metainfo.xml.in:139
 msgid "Redesign Night Light"
 msgstr ""
 
-#: data/icons.appdata.xml.in:94
+#: data/icons.metainfo.xml.in:140
 msgid "Use latest Flatpak branding"
 msgstr ""
 
-#: data/icons.appdata.xml.in:95
+#: data/icons.metainfo.xml.in:141
 msgid "Symbolic volume icons use a rounded shape and a slash when muted"
 msgstr ""
 
-#: data/icons.appdata.xml.in:97
+#: data/icons.metainfo.xml.in:143
 msgid "Other Changes:"
 msgstr ""
 
-#: data/icons.appdata.xml.in:99
+#: data/icons.metainfo.xml.in:145
 msgid "Fix broken link for SVG file types"
 msgstr ""
 
-#: data/icons.appdata.xml.in:100
+#: data/icons.metainfo.xml.in:146
 msgid "Fix missing links for PGP file types"
 msgstr ""
 
-#: data/icons.appdata.xml.in:101
+#: data/icons.metainfo.xml.in:147
 msgid "Scale some icons to more sizes"
 msgstr ""
 
-#: data/icons.appdata.xml.in:110
+#: data/icons.metainfo.xml.in:156
 msgid "caps-lock-symbolic"
 msgstr ""
 
-#: data/icons.appdata.xml.in:111
+#: data/icons.metainfo.xml.in:157
 msgid "eye-not-looking-symbolic"
 msgstr ""
 
-#: data/icons.appdata.xml.in:112
+#: data/icons.metainfo.xml.in:158
 msgid "eye-open-negative-filled-symbolic"
 msgstr ""
 
-#: data/icons.appdata.xml.in:113
+#: data/icons.metainfo.xml.in:159
 msgid "num-lock-symbolic"
 msgstr ""
 
-#: data/icons.appdata.xml.in:117
+#: data/icons.metainfo.xml.in:163
 msgid "Redesign media-playlist-repeat"
 msgstr ""
 
-#: data/icons.appdata.xml.in:118
+#: data/icons.metainfo.xml.in:164
 msgid "Update media-playlist-shuffle and media-playlist-consecutive"
 msgstr ""
 
-#: data/icons.appdata.xml.in:119
+#: data/icons.metainfo.xml.in:165
 msgid "Rounder square icons"
 msgstr ""
 
-#: data/icons.appdata.xml.in:120
+#: data/icons.metainfo.xml.in:166
 msgid "Rounded arrow corners on Downloads folder"
 msgstr ""
 
-#: data/icons.appdata.xml.in:121
+#: data/icons.metainfo.xml.in:167
 msgid "Deb and Flatpak Bundle files use a package metaphor"
 msgstr ""
 
-#: data/icons.appdata.xml.in:122
+#: data/icons.metainfo.xml.in:168
 msgid "Updates arrow points up"
 msgstr ""
 
-#: data/icons.appdata.xml.in:123
+#: data/icons.metainfo.xml.in:169
 msgid "Redesigned package with new colors"
 msgstr ""
 
-#: data/icons.appdata.xml.in:127
+#: data/icons.metainfo.xml.in:173
 msgid "notification-*"
 msgstr ""
 
-#: data/icons.appdata.xml.in:128
+#: data/icons.metainfo.xml.in:174
 msgid "Non-FDO network-*"
 msgstr ""
 
-#: data/icons.appdata.xml.in:129
+#: data/icons.metainfo.xml.in:175
 msgid "Non-FDO app icons"
 msgstr ""
-
-#: data/icons.appdata.xml.in:138
-msgid "preferences-desktop-font*"
-msgstr ""
-
-#: data/icons.appdata.xml.in:142
-msgid "Additional sizes for playlist-queue"
-msgstr ""
-
-#: data/icons.appdata.xml.in:143
-msgid "Redesign PDF file type"
-msgstr ""
-
-#: data/icons.appdata.xml.in:144
-msgid "Additional sizes for emblem-downloads"
-msgstr ""
-
-#: data/icons.appdata.xml.in:145
-msgid "Remove arrows from Copy and Paste actions"
-msgstr ""
-
-#: data/icons.appdata.xml.in:149
-msgid "multimedia-video-player"
-msgstr ""
-
-#: data/icons.appdata.xml.in:158
-msgid "Improved consistency between arrow shapes"
-msgstr ""
-
-#: data/icons.appdata.xml.in:159
-msgid "Improved appearance of color icons against dark backgrounds"
-msgstr ""
-
-#: data/icons.appdata.xml.in:160
-msgid "More gender-neutral people icons"
-msgstr ""
-
-#: data/icons.appdata.xml.in:161
-msgid "Rounded media controls"
-msgstr ""
-
-#: data/icons.appdata.xml.in:162
-msgid "Rounded lightning bolt shape"
-msgstr ""
-
-#: data/icons.appdata.xml.in:163
-msgid "More colorful battery icons"
-msgstr ""
-
-#: data/icons.appdata.xml.in:167
-msgid "align-*"
-msgstr ""
-
-#: data/icons.appdata.xml.in:168
-msgid "color-picker"
-msgstr ""
-
-#: data/icons.appdata.xml.in:169
-msgid "distribute-*"
-msgstr ""
-
-#: data/icons.appdata.xml.in:170
-msgid "draw-calligraphic"
-msgstr ""
-
-#: data/icons.appdata.xml.in:171
-msgid "office-database-new"
-msgstr ""
-
-#: data/icons.appdata.xml.in:172
-msgid "tools-spray"
-msgstr ""
-
-#: data/icons.appdata.xml.in:173
-msgid "application-content-*"
-msgstr ""
-
-#: data/icons.appdata.xml.in:174
-msgid "thunderbolt devices"
-msgstr ""
-
-#: data/icons.appdata.xml.in:175
-msgid "video-display-tv"
-msgstr ""
-
-#: data/icons.appdata.xml.in:176
-msgid "symbolic headphones"
-msgstr ""
-
-#: data/icons.appdata.xml.in:177
-msgid "application-certificate"
-msgstr ""
-
-#: data/icons.appdata.xml.in:178
-msgid "application-json"
-msgstr ""
-
-#: data/icons.appdata.xml.in:179
-msgid "office-task-symbolic"
-msgstr ""
-
-#: data/icons.appdata.xml.in:180
-msgid "status emblems"
-msgstr ""
-
-#: data/icons.appdata.xml.in:181
-msgid "emblem-git-*"
-msgstr ""
-
-#: data/icons.appdata.xml.in:185
-msgid "accessories-camera"
-msgstr ""
-
-#: data/icons.appdata.xml.in:186
-msgid "accessories-screenshot"
-msgstr ""
-
-#: data/icons.appdata.xml.in:187
-msgid "audio-speaker-testing"
-msgstr ""
-
-#: data/icons.appdata.xml.in:188
-msgid "edit-undo-archive"
-msgstr ""
-
-#: data/icons.appdata.xml.in:189
-msgid "internet-mail"
-msgstr ""
-
-#: data/icons.appdata.xml.in:190
-msgid "internet-news-reader"
-msgstr ""
-
-#: data/icons.appdata.xml.in:191
-msgid "multimedia-audio-player"
-msgstr ""
-
-#: data/icons.appdata.xml.in:192
-msgid "notification bell animations"
-msgstr ""
-
-#: data/icons.appdata.xml.in:193
-msgid "nm-*"
-msgstr ""
-
-#: data/icons.appdata.xml.in:194
-msgid "ubiquity"
-msgstr ""
-
-#: data/icons.appdata.xml.in:231
-msgid "elementary, Inc."
-msgstr "elementary, Inc."
