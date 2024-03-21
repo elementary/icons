@@ -14,6 +14,29 @@
   <defs
      id="defs916">
     <linearGradient
+       id="linearGradient1">
+      <stop
+         style="stop-color:#715344;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#8a715e;stop-opacity:1;"
+         offset="0.34593415"
+         id="stop3" />
+      <stop
+         style="stop-color:#8a715e;stop-opacity:1;"
+         offset="0.50201595"
+         id="stop5" />
+      <stop
+         style="stop-color:#8a715e;stop-opacity:1;"
+         offset="0.64999998"
+         id="stop4" />
+      <stop
+         style="stop-color:#715344;stop-opacity:1;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
        xlink:href="#linearGradient13193"
        id="linearGradient1125"
        gradientUnits="userSpaceOnUse"
@@ -44,17 +67,14 @@
          id="feGaussianBlur13191"
          stdDeviation="1.6" />
     </filter>
-    <filter
-       style="color-interpolation-filters:sRGB"
-       id="filter2"
-       x="-0.17679201"
-       y="-0.176713"
-       width="1.353584"
-       height="1.353426">
-      <feGaussianBlur
-         stdDeviation="0.046402241"
-         id="feGaussianBlur2" />
-    </filter>
+    <linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="4.2418599"
+       y1="4.352725"
+       x2="4.6159973"
+       y2="3.97859"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <metadata
      id="metadata919">
@@ -100,11 +120,7 @@
        id="path3" />
   </g>
   <path
-     style="fill:#715344;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.147975"
+     style="fill:url(#linearGradient2);fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.147975"
      d="M 5.2927002,4.6555499 4.9185629,5.02969 3.565157,3.6757599 3.9393262,3.30186 Z"
      id="path1" />
-  <path
-     style="opacity:0.500057;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.211667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter2)"
-     d="m 3.8770754,3.6135146 1.228556,1.2291053"
-     id="path2-3" />
 </svg>
