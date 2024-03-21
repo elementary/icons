@@ -1,44 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
    width="24"
    height="24"
    viewBox="0 0 6.3499999 6.35"
    version="1.1"
-   id="svg1112">
+   id="svg1112"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs1106">
-    <filter
-       style="color-interpolation-filters:sRGB"
-       id="filter76292"
-       x="-0.091131233"
-       width="1.1822625"
-       y="-0.059507549"
-       height="1.1190151">
-      <feGaussianBlur
-         stdDeviation="0.42020179"
-         id="feGaussianBlur76294" />
-    </filter>
-    <filter
-       style="color-interpolation-filters:sRGB"
-       id="filter25412"
-       x="-0.30371872"
-       width="1.6074374"
-       y="-0.19838069"
-       height="1.3967614">
-      <feGaussianBlur
-         stdDeviation="1.4008297"
-         id="feGaussianBlur25414" />
-    </filter>
+    <linearGradient
+       id="linearGradient1">
+      <stop
+         style="stop-color:#ffe16b;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#f9c440;stop-opacity:1;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
     <filter
        height="1.1190151"
-       y="-0.059507549"
+       y="-0.059507546"
        width="1.1822625"
-       x="-0.091131233"
+       x="-0.091131227"
        id="filter76292-3"
        style="color-interpolation-filters:sRGB">
       <feGaussianBlur
@@ -46,16 +36,24 @@
          stdDeviation="0.42020179" />
     </filter>
     <filter
-       height="1.3967614"
-       y="-0.19838069"
-       width="1.6074374"
-       x="-0.30371872"
+       height="1.5148204"
+       y="-0.25743278"
+       width="1.7884615"
+       x="-0.39405704"
        id="filter25412-7"
        style="color-interpolation-filters:sRGB">
       <feGaussianBlur
          id="feGaussianBlur25414-5"
          stdDeviation="1.4008297" />
     </filter>
+    <linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="3.1737752"
+       y1="0.8068248"
+       x2="3.1737752"
+       y2="5.289422"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <metadata
      id="metadata1109">
@@ -65,7 +63,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -81,7 +78,7 @@
   <path
      id="path5743"
      d="M 3.05201,0.80752624 C 2.0869696,0.86778624 1.6553992,1.3450192 1.5875,2.3790052 h 0.6945312 c 0.030832,-0.404159 0.3863536,-0.7976 0.8113199,-0.787548 0.3251576,-0.01437 0.6382732,0.250121 0.642855,0.582909 0.019907,0.310827 -0.2577708,0.514895 -0.4568198,0.709001 -0.3190004,0.288793 -0.6245254,0.654108 -0.6351032,1.106392 0.00159,-0.02339 0.00155,0.241329 0.00155,0.241329 h 0.7906496 c -0.022214,-0.283607 0.086229,-0.560419 0.2651,-0.778248 0.2537299,-0.322974 0.6724894,-0.536376 0.7741132,-0.962731 0.1297154,-0.506749 -0.05599,-1.08844 -0.4924764,-1.390095 C 3.7154773,0.90486024 3.3580885,0.78841224 3.05201,0.80752624 Z M 2.6458333,4.4956722 v 0.79375 h 0.79375 v -0.79375 z"
-     style="color:#000000;display:block;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+     style="color:#000000;display:block;overflow:visible;visibility:visible;fill:url(#linearGradient2);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
   <path
      transform="matrix(0.26458333,0,0,0.26458333,0,-0.00224478)"
      id="rect25432"
