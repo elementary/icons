@@ -172,6 +172,7 @@ foreach directory_entry : directories
     endforeach
 endforeach
 
+subdir('apps')
 subdir('cursors')
 subdir('mimes')
 
