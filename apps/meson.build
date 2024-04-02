@@ -10,8 +10,8 @@ foreach link : links
     foreach size: sizes
         meson.add_install_script(
             symlink,
-            '--src', icon_dir / 'mimes' / size / link[0] + '.svg',
-            '--dest', icon_dir / 'mimes' / size / link[1] + '.svg'
+            '--src', icon_dir / 'apps' / size / link[0] + '.svg',
+            '--dest', icon_dir / 'apps' / size / link[1] + '.svg'
         )
     endforeach
 endforeach
