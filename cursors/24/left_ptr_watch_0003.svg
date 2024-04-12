@@ -44,25 +44,35 @@
          style="stop-color:#333333;stop-opacity:1" />
     </linearGradient>
     <filter
-       height="1.7022222"
-       y="-0.35111112"
-       width="1.7022222"
-       x="-0.35111112"
-       id="filter66512-2"
+       height="1.7022218"
+       y="-0.35111091"
+       width="1.7022218"
+       x="-0.35111091"
+       id="filter66512-2-3"
        style="color-interpolation-filters:sRGB">
       <feGaussianBlur
-         id="feGaussianBlur66514-9"
+         id="feGaussianBlur66514-9-6"
          stdDeviation="1.1" />
     </filter>
     <linearGradient
-       y2="247.5"
-       x2="314"
-       y1="247.5"
-       x1="305"
-       gradientTransform="rotate(-90,46.5,280.5)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient66923"
-       xlink:href="#linearGradient13193" />
+       xlink:href="#linearGradient5"
+       id="linearGradient6"
+       x1="13.5"
+       y1="13"
+       x2="13.5"
+       y2="22"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient5">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop6" />
+    </linearGradient>
   </defs>
   <metadata
      id="metadata7">
@@ -72,7 +82,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
         <dc:creator>
           <cc:Agent>
             <dc:title>Jakub Steiner</dc:title>
@@ -96,6 +105,11 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <path
+     d="m 16.111111,13.611111 c -3.03471,0 -5.5,2.46529 -5.5,5.5 0,3.03471 2.46529,5.5 5.5,5.5 3.03471,0 5.500002,-2.46529 5.5,-5.5 0,-3.03471 -2.46529,-5.5 -5.5,-5.5 z"
+     id="path66612"
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.44444;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;filter:url(#filter66512-2-3);enable-background:accumulate"
+     transform="matrix(0.81818181,0,0,0.81818181,0.81818204,2.4664806)" />
   <g
      style="display:none"
      id="layer2"
@@ -618,77 +632,27 @@
      d="M 6,2.68555 V 14 L 9.03418,10.42773 13.31445,10 Z"
      id="path66610" />
   <path
-     d="m 16.111111,13.611111 c -3.03471,0 -5.5,2.46529 -5.5,5.5 0,3.03471 2.46529,5.5 5.5,5.5 3.03471,0 5.500002,-2.46529 5.5,-5.5 0,-3.03471 -2.46529,-5.5 -5.5,-5.5 z"
-     id="path66612"
-     style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.44444442;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;filter:url(#filter66512-2);enable-background:accumulate"
-     transform="matrix(0.81818181,0,0,0.81818181,0.818182,2.36364)" />
-  <path
      style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999982;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
      id="path66628"
      d="m 13.500002,12 c -3.03471,0 -5.5,2.4653 -5.5,5.5 0,3.03472 2.46529,5.5 5.5,5.5 3.03471,0 5.5,-2.46528 5.5,-5.5 0,-3.0347 -2.46529,-5.5 -5.5,-5.5 z" />
   <path
-     d="m 9.000002,17.5 c 0,2.48294 2.01706,4.5 4.5,4.5 2.48295,0 4.5,-2.01706 4.5,-4.5 0,-2.48295 -2.01705,-4.5 -4.5,-4.5 -2.48294,0 -4.5,2.01705 -4.5,4.5 z"
-     id="path66638"
-     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient66923);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999988;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
-  <circle
-     transform="rotate(90)"
-     style="opacity:0.2;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     id="circle25514"
-     cx="17.499994"
-     cy="-13.500005"
-     r="4.5" />
-  <circle
-     r="4.5"
-     cy="-21.920321"
-     cx="2.8284271"
-     id="circle67208"
-     style="opacity:0.2;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     transform="rotate(135)" />
-  <circle
-     transform="scale(-1)"
-     style="opacity:0.2;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     id="circle67254"
-     cx="-13.5"
-     cy="-17.5"
-     r="4.5" />
+     id="path1"
+     style="opacity:1;fill:#c6262e;fill-opacity:1;paint-order:stroke markers fill"
+     d="M 12,17.5 A 1.5,1.5 0 0 1 13.5,16 V 12.999999 A 4.5,4.5 0 0 0 8.9999993,17.5 Z" />
   <path
-     d="m 14.831175,17.499998 h 1.66171"
-     id="path67258"
-     style="opacity:0.2;fill:none;stroke:#ffffff;stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+     id="path8"
+     style="opacity:1;fill:#a56de2;fill-opacity:1;paint-order:stroke markers fill"
+     d="M 12,17.5 H 8.9999993 A 4.5,4.5 0 0 0 13.5,22.000001 V 19 A 1.5,1.5 0 0 1 12,17.5 Z" />
   <path
-     d="m 10.507127,17.499998 h 1.662462"
-     id="path67260"
-     style="fill:none;stroke:#ffffff;stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+     id="path6"
+     style="opacity:1;fill:#f9c440;fill-opacity:1;paint-order:stroke markers fill"
+     d="M 18.000001,17.5 A 4.5,4.5 0 0 0 13.5,12.999999 L 13.5,16 a 1.5,1.5 0 0 1 1.5,1.5 z" />
   <path
-     d="m 14.652833,16.834413 1.439082,-0.830854"
-     id="path67266"
-     style="opacity:0.15;fill:none;stroke:#ffffff;stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+     id="path7"
+     style="opacity:1;fill:#28bca3;fill-opacity:1;paint-order:stroke markers fill"
+     d="M 18.000001,17.5 H 15 A 1.5,1.5 0 0 1 13.5,19 l 0,3.000001 A 4.5,4.5 0 0 0 18.000001,17.5 Z" />
   <path
-     d="m 10.908097,18.996437 1.439734,-0.83123"
-     id="path67268"
-     style="opacity:0.75;fill:none;stroke:#ffffff;stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
-  <path
-     d="m 14.165591,16.347171 0.830854,-1.439082"
-     id="path67274"
-     style="opacity:0.1;fill:none;stroke:#ffffff;stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
-  <path
-     d="m 12.003566,20.091907 0.831231,-1.439734"
-     id="path67276"
-     style="opacity:0.6;fill:none;stroke:#ffffff;stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
-  <path
-     d="m 13.500006,16.168829 v -1.66171"
-     id="path67282"
-     style="opacity:0.05;fill:none;stroke:#ffffff;stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
-  <path
-     d="M 13.500006,20.492877 V 18.830415"
-     id="path67284"
-     style="opacity:0.5;fill:none;stroke:#ffffff;stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
-  <path
-     d="M 14.996445,20.091907 14.165214,18.652173"
-     id="path67290"
-     style="opacity:0.4;fill:none;stroke:#ffffff;stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
-  <path
-     d="m 16.091915,18.996437 -1.439734,-0.83123"
-     id="path67294"
-     style="opacity:0.3;fill:none;stroke:#ffffff;stroke-width:0.99999994px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1" />
+     id="path2"
+     style="opacity:0.228171;fill:url(#linearGradient6);fill-opacity:1;paint-order:stroke markers fill"
+     d="M 13.5,13 A 4.5,4.5 0 0 0 9,17.5 4.5,4.5 0 0 0 13.5,22 4.5,4.5 0 0 0 18,17.5 4.5,4.5 0 0 0 13.5,13 Z m 0,3 A 1.5,1.5 0 0 1 15,17.5 1.5,1.5 0 0 1 13.5,19 1.5,1.5 0 0 1 12,17.5 1.5,1.5 0 0 1 13.5,16 Z" />
 </svg>
