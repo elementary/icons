@@ -14,29 +14,6 @@
   <defs
      id="defs916">
     <linearGradient
-       id="linearGradient1">
-      <stop
-         style="stop-color:#715344;stop-opacity:1;"
-         offset="0"
-         id="stop1" />
-      <stop
-         style="stop-color:#8a715e;stop-opacity:1;"
-         offset="0.35456336"
-         id="stop3" />
-      <stop
-         style="stop-color:#8a715e;stop-opacity:1;"
-         offset="0.49723205"
-         id="stop4" />
-      <stop
-         style="stop-color:#8a715e;stop-opacity:1;"
-         offset="0.65455687"
-         id="stop5" />
-      <stop
-         style="stop-color:#715344;stop-opacity:1;"
-         offset="1"
-         id="stop2" />
-    </linearGradient>
-    <linearGradient
        xlink:href="#linearGradient13193"
        id="linearGradient1125"
        gradientUnits="userSpaceOnUse"
@@ -68,13 +45,37 @@
          stdDeviation="1.6" />
     </filter>
     <linearGradient
-       xlink:href="#linearGradient1"
-       id="linearGradient2"
+       xlink:href="#linearGradient1-3"
+       id="linearGradient4"
+       gradientUnits="userSpaceOnUse"
        x1="4.2418599"
        y1="4.352725"
        x2="4.6159973"
        y2="3.97859"
-       gradientUnits="userSpaceOnUse" />
+       gradientTransform="translate(-1.576e-5,-1.1495e-4)" />
+    <linearGradient
+       id="linearGradient1-3">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.2977086;"
+         offset="0"
+         id="stop1-6" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="0.34593415"
+         id="stop3-7" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="0.50201595"
+         id="stop5-5" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="0.64999998"
+         id="stop4-3" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.30338612;"
+         offset="1"
+         id="stop2-5" />
+    </linearGradient>
   </defs>
   <metadata
      id="metadata919">
@@ -112,7 +113,19 @@
        id="path114" />
   </g>
   <path
-     style="fill:url(#linearGradient2);stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.147975;fill-opacity:1"
-     d="M 5.2927003,4.65555 4.918563,5.0296901 3.5651571,3.67576 3.9393263,3.3018601 Z"
+     style="fill:#8a715e;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.147975"
+     d="M 5.2926842,4.6554349 4.918547,5.029575 3.5651411,3.675645 3.9393103,3.3017451 Z"
      id="path1" />
+  <path
+     style="fill:url(#linearGradient4);fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.147975"
+     d="M 5.2926842,4.6554349 4.918547,5.029575 3.5651411,3.675645 3.9393104,3.3017451 Z"
+     id="path4" />
+  <rect
+     style="fill:#95a3ab;fill-opacity:1;stroke-width:0.217991;stroke-opacity:0.148482"
+     id="rect4"
+     width="0.52937043"
+     height="0.29418677"
+     x="-0.07834097"
+     y="5.1201043"
+     transform="rotate(-45)" />
 </svg>

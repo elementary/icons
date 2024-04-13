@@ -16,23 +16,23 @@
     <linearGradient
        id="linearGradient1">
       <stop
-         style="stop-color:#715344;stop-opacity:1;"
+         style="stop-color:#000000;stop-opacity:0.2977086;"
          offset="0"
          id="stop1" />
       <stop
-         style="stop-color:#8a715e;stop-opacity:1;"
+         style="stop-color:#000000;stop-opacity:0;"
          offset="0.34593415"
          id="stop3" />
       <stop
-         style="stop-color:#8a715e;stop-opacity:1;"
+         style="stop-color:#000000;stop-opacity:0;"
          offset="0.50201595"
          id="stop5" />
       <stop
-         style="stop-color:#8a715e;stop-opacity:1;"
+         style="stop-color:#000000;stop-opacity:0;"
          offset="0.64999998"
          id="stop4" />
       <stop
-         style="stop-color:#715344;stop-opacity:1;"
+         style="stop-color:#000000;stop-opacity:0.30338612;"
          offset="1"
          id="stop2" />
     </linearGradient>
@@ -69,12 +69,12 @@
     </filter>
     <linearGradient
        xlink:href="#linearGradient1"
-       id="linearGradient2"
+       id="linearGradient4"
+       gradientUnits="userSpaceOnUse"
        x1="4.2418599"
        y1="4.352725"
        x2="4.6159973"
-       y2="3.97859"
-       gradientUnits="userSpaceOnUse" />
+       y2="3.97859" />
   </defs>
   <metadata
      id="metadata919">
@@ -120,7 +120,19 @@
        id="path3" />
   </g>
   <path
-     style="fill:url(#linearGradient2);fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.147975"
+     style="fill:#8a715e;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.147975"
      d="M 5.2927002,4.6555499 4.9185629,5.02969 3.565157,3.6757599 3.9393262,3.30186 Z"
      id="path1" />
+  <path
+     style="opacity:1;fill:url(#linearGradient4);fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.147975"
+     d="M 5.2927002,4.6555499 4.9185629,5.02969 3.565157,3.6757599 3.9393262,3.30186 Z"
+     id="path4" />
+  <rect
+     style="opacity:1;fill:#95a3ab;fill-opacity:1;stroke-width:0.217991;stroke-opacity:0.148482"
+     id="rect4"
+     width="0.52937043"
+     height="0.29418677"
+     x="-0.078410976"
+     y="5.1201968"
+     transform="rotate(-45)" />
 </svg>
