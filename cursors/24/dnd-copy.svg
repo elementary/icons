@@ -77,14 +77,14 @@
     </filter>
     <filter
        style="color-interpolation-filters:sRGB"
-       id="filter5"
-       x="-0.22115341"
-       y="-0.2215606"
-       width="1.4423068"
-       height="1.4431212">
+       id="filter7"
+       x="-0.24261462"
+       y="-0.24261462"
+       width="1.4852292"
+       height="1.4852292">
       <feGaussianBlur
-         stdDeviation="0.83085349"
-         id="feGaussianBlur5" />
+         stdDeviation="0.90980481"
+         id="feGaussianBlur7" />
     </filter>
   </defs>
   <metadata
@@ -653,11 +653,11 @@
      id="path2555-7-8-5-0-9"
      style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.99;fill:url(#linearGradient11527-6-5);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.8201;marker:none;enable-background:accumulate" />
   <path
-     id="path5"
-     style="opacity:0.50037;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-opacity:0.154672;paint-order:stroke markers fill;filter:url(#filter5)"
-     d="M 13.486061,12.500013 13.53225,16.00285 10,15.995641 v 2.003824 l 3.529901,5.49e-4 -0.0241,3.499999 1.994199,-0.0098 -7.82e-4,-3.490175 h 3.517366 L 19,15.99931 l -3.5,0.004 -10e-7,-3.50331 z" />
+     style="opacity:0.50000736;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:0.148482;paint-order:normal;filter:url(#filter7)"
+     d="m 14,12.5 v 4 h -4 v 1 h 4 v 4 h 1 v -4 h 4 v -1 h -4 v -4 z"
+     id="path7" />
   <path
-     id="rect3"
-     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-opacity:0.154672;paint-order:stroke markers fill"
-     d="M 13.486061,12 13.53225,15.502837 10,15.495628 v 2.003824 l 3.529901,5.49e-4 L 13.505801,21 15.5,20.990176 15.499218,17.500001 h 3.517366 L 19,15.499297 l -3.5,0.004 -10e-7,-3.50331 z" />
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:0.148482;paint-order:normal"
+     d="m 14,12 v 4 h -4 v 1 h 4 v 4 h 1 v -4 h 4 v -1 h -4 v -4 z"
+     id="path6" />
 </svg>
