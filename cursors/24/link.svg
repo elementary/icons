@@ -85,6 +85,25 @@
          stdDeviation="0.7005179"
          id="feGaussianBlur5-2" />
     </filter>
+    <linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="14.5"
+       y1="10.5"
+       x2="14.499998"
+       y2="23"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient1">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
   </defs>
   <metadata
      id="metadata7">
@@ -655,4 +674,12 @@
      id="rect4"
      style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:0.152225;paint-order:stroke markers fill"
      d="m 10.314462,14 c -1.384997,0 -2.5,1.115003 -2.5,2.5 0,1.384997 1.115003,2.5 2.5,2.5 h 2 c 1.384997,0 2.5,-1.115003 2.5,-2.5 V 16 l -1,0.5 c 0,0.830997 -0.669003,1.5 -1.5,1.5 h -2 c -0.830997,0 -1.5,-0.669003 -1.5,-1.5 0,-0.830997 0.669003,-1.5 1.5,-1.5 h 1 l 0.785156,-1 z m 4,0 c -1.384997,0 -2.5,1.115003 -2.5,2.5 V 17 l 1,-0.5 c 0,-0.830997 0.669003,-1.5 1.5,-1.5 h 2 c 0.830997,0 1.5,0.669003 1.5,1.5 0,0.830997 -0.669003,1.5 -1.5,1.5 h -1 l -0.857422,1 h 1.857422 c 1.384997,0 2.5,-1.115003 2.5,-2.5 0,-1.384997 -1.115003,-2.5 -2.5,-2.5 z" />
+  <g
+     id="g2"
+     transform="translate(-1.185539)">
+    <path
+       d="m 14.5,10.5 c 3.307217,0 6,2.692784 6,6 6e-6,3.307215 -2.692783,6 -6,6 -3.307215,0 -6,-2.692784 -6,-6 0,-3.307215 2.692785,-6 6,-6 z"
+       id="path1-6"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.150146;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient2);stroke-width:1;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate" />
+  </g>
 </svg>
