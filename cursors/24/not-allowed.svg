@@ -43,6 +43,25 @@
        y1="12"
        x2="20"
        y2="12" />
+    <linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="14.5"
+       y1="10.5"
+       x2="14.499998"
+       y2="23"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient1">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
   </defs>
   <metadata
      id="metadata7">
@@ -596,4 +615,13 @@
      id="circle25076-5"
      d="m 12,20 a 8,8 0 0 1 -8,-8 8,8 0 0 1 8,-8 8,8 0 0 1 8,8 8,8 0 0 1 -8,8 z m 0,-3 a 5,5 0 0 0 2.308594,-0.57031 L 7.568359,9.68945 A 5,5 0 0 0 7,12 a 5,5 0 0 0 5,5 z m 4.43164,-2.68945 A 5,5 0 0 0 17,12 5,5 0 0 0 12,7 5,5 0 0 0 9.691406,7.57031 Z"
      style="opacity:1;fill:url(#linearGradient25126-7);fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <g
+     id="g2"
+     transform="matrix(1.2547723,0,0,1.2547723,-6.1941992,-8.703744)"
+     style="stroke-width:0.75;stroke-dasharray:none">
+    <path
+       d="m 14.5,10.5 c 3.307217,0 6,2.692784 6,6 6e-6,3.307215 -2.692783,6 -6,6 -3.307215,0 -6,-2.692784 -6,-6 0,-3.307215 2.692785,-6 6,-6 z"
+       id="path1-6"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.150146;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient2);stroke-width:0.75;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate" />
+  </g>
 </svg>

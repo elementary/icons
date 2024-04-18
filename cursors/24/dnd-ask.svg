@@ -86,6 +86,25 @@
          stdDeviation="0.67509476"
          id="feGaussianBlur1" />
     </filter>
+    <linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="14.5"
+       y1="10.5"
+       x2="14.499998"
+       y2="23"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient1">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
   </defs>
   <metadata
      id="metadata7">
@@ -666,4 +685,11 @@
      id="text1"
      style="font-size:14px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-feature-settings:ss06;letter-spacing:0px;fill:#ffffff;stroke-width:1.9;paint-order:stroke markers fill"
      aria-label="?" />
+  <g
+     id="g1">
+    <path
+       d="m 14.5,10.5 c 3.307217,0 6,2.692784 6,6 6e-6,3.307215 -2.692783,6 -6,6 -3.307215,0 -6,-2.692784 -6,-6 0,-3.307215 2.692785,-6 6,-6 z"
+       id="path1-6"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.150146;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient2);stroke-width:1;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate" />
+  </g>
 </svg>

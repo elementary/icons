@@ -14,6 +14,17 @@
   <defs
      id="defs916">
     <linearGradient
+       id="linearGradient2">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.30056101;"
+         offset="0"
+         id="stop2" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
        xlink:href="#linearGradient13193"
        id="linearGradient1125"
        gradientUnits="userSpaceOnUse"
@@ -76,6 +87,15 @@
          offset="1"
          id="stop2-5" />
     </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient2"
+       id="linearGradient3"
+       x1="2.6358111"
+       y1="1.0158877"
+       x2="2.6358111"
+       y2="3.7466125"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98103878,0,0,0.96567559,0.05016806,0.08571324)" />
   </defs>
   <metadata
      id="metadata919">
@@ -128,4 +148,11 @@
      x="-0.07834097"
      y="5.1201043"
      transform="rotate(-45)" />
+  <ellipse
+     style="opacity:1;fill:none;stroke:url(#linearGradient3);stroke-width:0.26458334;stroke-dasharray:none;paint-order:stroke markers fill"
+     id="path2"
+     ry="1.1868645"
+     rx="1.1874524"
+     cy="2.3852284"
+     cx="2.6458333" />
 </svg>

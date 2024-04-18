@@ -13,6 +13,17 @@
   <defs
      id="defs4">
     <linearGradient
+       id="linearGradient1">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient4">
       <stop
          style="stop-color:#68b723;stop-opacity:1;"
@@ -86,6 +97,14 @@
          stdDeviation="0.90980481"
          id="feGaussianBlur7" />
     </filter>
+    <linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="14.5"
+       y1="10.5"
+       x2="14.499998"
+       y2="23"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <metadata
      id="metadata7">
@@ -660,4 +679,8 @@
      style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:0.148482;paint-order:normal"
      d="m 14,12 v 4 h -4 v 1 h 4 v 4 h 1 v -4 h 4 v -1 h -4 v -4 z"
      id="path6" />
+  <path
+     d="m 14.5,10.5 c 3.307217,0 6,2.692784 6,6 6e-6,3.307215 -2.692783,6 -6,6 -3.307215,0 -6,-2.692784 -6,-6 0,-3.307215 2.692785,-6 6,-6 z"
+     id="path1"
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.15014559;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient2);stroke-width:1;marker:none;enable-background:accumulate;stroke-opacity:1;stroke-dasharray:none" />
 </svg>

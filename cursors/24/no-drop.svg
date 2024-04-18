@@ -75,6 +75,25 @@
          stdDeviation="1.3871807"
          id="feGaussianBlur4" />
     </filter>
+    <linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="14.5"
+       y1="10.5"
+       x2="14.499998"
+       y2="23"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient1">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
   </defs>
   <metadata
      id="metadata7">
@@ -641,8 +660,19 @@
      d="m 14.499998,10 c -3.586476,0 -6.5,2.913524 -6.5,6.5 0,3.586477 2.913524,6.5 6.5,6.5 C 18.086476,23 21.000006,20.086477 21,16.5 21,12.913524 18.086476,10 14.499998,10 Z"
      id="path2555-7-8-5-0-9"
      style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.99;fill:url(#linearGradient11527-6-5);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.8201;marker:none;enable-background:accumulate" />
-  <path
-     id="path1"
-     style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.99;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.8201;marker:none;enable-background:accumulate"
-     d="M 14.5 11.5 C 13.394336 11.5 12.369605 11.864135 11.539062 12.478516 L 18.521484 19.460938 C 19.135865 18.630395 19.500002 17.605663 19.5 16.5 C 19.5 13.751285 17.248714 11.5 14.5 11.5 z M 10.478516 13.539062 C 9.864135 14.369605 9.5 15.394336 9.5 16.5 C 9.5 19.248713 11.751288 21.5 14.5 21.5 C 15.605665 21.5 16.630394 21.135865 17.460938 20.521484 L 10.478516 13.539062 z " />
+  <g
+     id="g2">
+    <path
+       d="m 14.5,10.5 c 3.307217,0 6,2.692784 6,6 6e-6,3.307215 -2.692783,6 -6,6 -3.307215,0 -6,-2.692784 -6,-6 0,-3.307215 2.692785,-6 6,-6 z"
+       id="path1-6"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.150146;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient2);stroke-width:1;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate" />
+  </g>
+  <g
+     id="g1"
+     transform="translate(1.1855459)">
+    <path
+       id="path1"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.99;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.8201;marker:none;enable-background:accumulate"
+       d="m 13.314453,12 c -0.875814,0 -1.696231,0.255504 -2.390625,0.695312 l 6.195313,6.195313 c 0.439808,-0.694394 0.695314,-1.514812 0.695312,-2.390625 0,-2.469467 -2.030535,-4.5 -4.5,-4.5 z M 9.5097656,14.109375 C 9.0699568,14.803769 8.8144531,15.624186 8.8144531,16.5 c 0,2.469464 2.0305379,4.5 4.4999999,4.5 0.875815,0 1.69623,-0.255503 2.390625,-0.695312 z" />
+  </g>
 </svg>
