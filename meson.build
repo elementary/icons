@@ -1,10 +1,12 @@
 project (
     'io.elementary.icons',
     version: '7.3.1',
-    license : 'GPL3+'
+    license : 'GPL3+',
+    meson_version: '>=0.61',
 )
 
 i18n = import('i18n')
+fs = import('fs')
 
 icon_dir = join_paths(get_option('datadir'), 'icons', 'elementary')
 
@@ -73,9 +75,6 @@ foreach directory : directories
     )
 endforeach
 
-ls = find_program('ls')
-symlink = join_paths(meson.source_root (), 'meson', 'symlink.py')
-
 template = '''
 [@0@]
 Size=@1@@2@
@@ -91,8 +90,7 @@ foreach directory_entry : directories
     directory = directory_entry[0]
     directory_context = directory_entry[1]
     foreach size: sizes
-        result = run_command(ls, join_paths(meson.source_root (), directory, size))
-        if (result.returncode() == 0)
+        if (fs.exists(meson.project_source_root () / directory / size))
             foreach scale_factor : scale_factors
                 # The Scale=1 attribute is useless, don't add it
                 if (scale_factor.to_int() > 1)
@@ -163,10 +161,10 @@ foreach directory_entry : directories
         # We only create a symlink to the @1 directory, it's all the point of using SVG assets…
         if (scale_factor.to_int() > 1)
             directory = directory_entry[0]
-            meson.add_install_script(
-                symlink,
-                '--src', join_paths (icon_dir, directory),
-                '--dest', join_paths (icon_dir, '@0@@@1@x'.format(directory, scale_factor))
+            install_symlink(
+                '@0@@@1@x'.format(directory, scale_factor),
+                install_dir: icon_dir,
+                pointing_to: directory,
             )
         endif
     endforeach
