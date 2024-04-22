@@ -166,10 +166,10 @@ mime_links = [
 
 foreach link : mime_links
     foreach size: mime_sizes
-        meson.add_install_script(
-            symlink,
-            '--src', icon_dir / 'mimes' / size / link[0] + '.svg',
-            '--dest', icon_dir / 'mimes' / size / link[1] + '.svg'
+        install_symlink(
+            link[1] + '.svg',
+            install_dir: icon_dir / 'mimes' / size,
+            pointing_to: link[0] + '.svg',
         )
     endforeach
 endforeach

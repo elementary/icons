@@ -1,4 +1,4 @@
-sizes = ['16', '24', '32', '48', '64', '128', 'symbolic']
+sizes = ['16', '24', '32', '48', '64', '128']
 
 links = [
     # The first argument is the original icon name,
@@ -8,10 +8,10 @@ links = [
 
 foreach link : links
     foreach size: sizes
-        meson.add_install_script(
-            symlink,
-            '--src', icon_dir / 'apps' / size / link[0] + '.svg',
-            '--dest', icon_dir / 'apps' / size / link[1] + '.svg'
+        install_symlink(
+            link[1] + '.svg',
+            install_dir: icon_dir / 'apps' / size,
+            pointing_to: link[0] + '.svg',
         )
     endforeach
 endforeach
