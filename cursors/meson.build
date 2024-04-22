@@ -111,6 +111,8 @@ foreach cursor : cursors
     )
 endforeach
 
+links = []
+
 links += [[
     'ew-resize',
     [
