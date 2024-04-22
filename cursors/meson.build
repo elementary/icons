@@ -85,7 +85,7 @@ sizes = [
 ]
 
 foreach size: sizes
-    run_command('mkdir', join_paths (meson.build_root(), 'cursors', size + 'x' + size))
+    run_command('mkdir', join_paths (meson.project_build_root(), 'cursors', size + 'x' + size), check: false)
 
     foreach cursor : cursors
             message('rendering: ' + size + 'x' + size + '/' + cursor + '.png')
@@ -93,8 +93,9 @@ foreach size: sizes
             run_command(
                 rsvg, '--format', 'png',
                 '--width=@0@'.format(size), '--height=@0@'.format(size),
-                '--output', '@0@.png'.format(join_paths (meson.build_root(), 'cursors', size + 'x' + size, cursor)),
-                join_paths ('24', cursor + '.svg')
+                '--output', '@0@.png'.format(join_paths (meson.project_build_root(), 'cursors', size + 'x' + size, cursor)),
+                join_paths ('24', cursor + '.svg'),
+                check: true,
             )
     endforeach
 
@@ -104,8 +105,9 @@ foreach size: sizes
             run_command(
                 rsvg, '--format', 'png',
                 '--width=@0@'.format(size), '--height=@0@'.format(size),
-                '--output', '@0@.png'.format(join_paths (meson.build_root(), 'cursors', size + 'x' + size, watch)),
-                join_paths ('24', watch + '.svg')
+                '--output', '@0@.png'.format(join_paths (meson.project_build_root(), 'cursors', size + 'x' + size, watch)),
+                join_paths ('24', watch + '.svg'),
+                check: true,
             )
     endforeach
 endforeach
@@ -121,12 +123,12 @@ foreach cursor : cursors
     run_command(
         xcursorgen,
         cursor + '.in',
-        '-p', join_paths (meson.build_root(), 'cursors'),
-        join_paths (meson.build_root(), 'cursors', cursor)
+        '-p', join_paths (meson.project_build_root(), 'cursors'),
+        join_paths (meson.project_build_root(), 'cursors', cursor)
     )
 
     install_data(
-        join_paths (meson.build_root(), 'cursors', cursor),
+        join_paths (meson.project_build_root(), 'cursors', cursor),
         install_dir: cursor_dir
     )
 endforeach
