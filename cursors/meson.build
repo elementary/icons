@@ -6,7 +6,7 @@ cursors = [
     'alias',
     'all-scroll',
     'cell',
-    # 'context-menu',
+    'context-menu',
     'copy',
     'crosshair',
     'default',
