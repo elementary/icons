@@ -1,7 +1,8 @@
 project (
     'io.elementary.icons',
     version: '7.3.1',
-    license : 'GPL3+'
+    license : 'GPL3+',
+    meson_version: '>=0.61',
 )
 
 i18n = import('i18n')
@@ -163,10 +164,10 @@ foreach directory_entry : directories
         # We only create a symlink to the @1 directory, it's all the point of using SVG assets…
         if (scale_factor.to_int() > 1)
             directory = directory_entry[0]
-            meson.add_install_script(
-                symlink,
-                '--src', join_paths (icon_dir, directory),
-                '--dest', join_paths (icon_dir, '@0@@@1@x'.format(directory, scale_factor))
+            install_symlink(
+                '@0@@@1@x'.format(directory, scale_factor),
+                install_dir: icon_dir,
+                pointing_to: directory,
             )
         endif
     endforeach

@@ -307,10 +307,10 @@ links += [[
 foreach link_entry : links
     src = link_entry[0]
     foreach dest : link_entry[1]
-        meson.add_install_script(
-            symlink,
-            '--src', join_paths (cursor_dir, src),
-            '--dest', join_paths (cursor_dir, dest)
+        install_symlink(
+            dest,
+            install_dir: cursor_dir,
+            pointing_to: src,
         )
     endforeach
 endforeach
