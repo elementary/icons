@@ -11,7 +11,7 @@
    id="svg2"
    height="24"
    width="24"
-   sodipodi:docname="crosshair.svg"
+   sodipodi:docname="cross.svg"
    inkscape:version="0.92.4 5da689c313, 2019-01-14">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -42,7 +42,7 @@
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter75257"
+       id="filter75276"
        x="-0.23999999"
        width="1.48"
        y="-0.23999999"
@@ -50,7 +50,7 @@
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="1.8"
-         id="feGaussianBlur75259" />
+         id="feGaussianBlur75278" />
     </filter>
   </defs>
   <metadata
@@ -595,21 +595,18 @@
        y="337" />
   </g>
   <path
-     sodipodi:nodetypes="cccccccccccccccccccccccc"
-     inkscape:connector-curvature="0"
-     style="display:inline;opacity:0.5;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter75257)"
-     d="m 11,2.9999999 v 5.5 L 12,9.5 13,8.4999999 v -5.5 z M 3,11 v 2 h 5.5 l 1,-1 -1,-1 z m 12.5,0 -1,1 1,1 H 21 v -2 z m -3.5,3.5 -1,1 V 21 h 2 v -5.5 z"
-     id="path75255" />
+     style="display:inline;opacity:0.5;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter75276)"
+     d="M 11,2.9999997 V 11 H 2.9999999 v 2 H 11 v 8 h 2 v -8 h 8 V 11 H 13 V 2.9999997 Z"
+     id="path75270"
+     inkscape:connector-curvature="0" />
   <path
-     id="path75253"
-     d="m 10,1.9999999 v 5.5 l 1,1 1,-1 v -5.5 z M 2,10 v 2 h 5.5 l 1,-1 -1,-1 z m 12.5,0 -1,1 1,1 H 20 v -2 z m -3.5,3.5 -1,1 V 20 h 2 v -5.5 z"
-     style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cccccccccccccccccccccccc" />
+     id="path75268"
+     d="m 9.9999999,1.9999997 v 7.9999999 h -8 V 12 h 8 v 8 H 12 v -8 h 8 V 9.9999996 H 12 V 1.9999997 Z"
+     style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     inkscape:connector-curvature="0" />
   <path
-     style="display:inline;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m 10,1.9999999 v 5.5 l 1,1 1,-1 v -5.5 z M 2,10 v 2 h 5.5 l 1,-1 -1,-1 z m 12.5,0 -1,1 1,1 H 20 v -2 z m -3.5,3.5 -1,1 V 20 h 2 v -5.5 z"
-     id="path75245"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cccccccccccccccccccccccc" />
+     style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 9.9999999,1.9999997 v 7.9999999 h -8 V 12 h 8 v 8 H 12 v -8 h 8 V 9.9999996 H 12 V 1.9999997 Z"
+     id="rect75263"
+     inkscape:connector-curvature="0" />
 </svg>
