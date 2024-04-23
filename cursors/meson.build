@@ -19,6 +19,7 @@ cursors = [
     'no-drop',
     'not-allowed',
     'ns-resize',
+    'nw-resize',
     'nwse-resize',
     'pointer',
     'text',
@@ -150,7 +151,6 @@ links += [[
 links += [[
     'nwse-resize',
     [
-        'nw-resize',
         'se-resize',
     ]
 ]]
