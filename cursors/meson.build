@@ -198,9 +198,9 @@ links += [[
 ]]
 
 links += [[
-    'grab'
+    'grab',
     [
-        'hand1',
+        'hand1'
     ]
 ]]
 
