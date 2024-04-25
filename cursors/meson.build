@@ -179,6 +179,7 @@ links += [[
         'left_ptr',
         'arrow',
         'top_left_arrow',
+        'X_cursor',
         '08e8e1c95fe2fc01f976f1e063a24ccd',
         '3ecb610c1bf2410f44200f48c40d3599'
     ]
