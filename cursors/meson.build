@@ -155,6 +155,137 @@ links += [[
     ]
 ]]
 
+# Legacy cursor names
+
+links += [[
+    'copy',
+    [
+        '6407b0e94181790501fd1e167b474872',
+        '1081e37283d90000800003c07f3ef6bf'
+    ]
+]]
+
+links += [[
+    'crosshair',
+    [
+        'diamond_cross',
+        'cross_reverse'
+    ]
+]]
+
+links += [[
+    'default',
+    [
+        'left_ptr',
+        'arrow',
+        'top_left_arrow',
+        '08e8e1c95fe2fc01f976f1e063a24ccd',
+        '3ecb610c1bf2410f44200f48c40d3599'
+    ]
+]]
+
+links += [[
+    'ew-resize',
+    [
+        'h_double_arrow',
+        'left_side',
+        'right_side',
+        'sb_h_double_arrow',
+        '028006030e0e7ebffc7f7070c0600140',
+        '14fef782d02440884392942c11205230'
+    ]
+]]
+
+links += [[
+    'grab'
+    [
+        'hand1',
+    ]
+]]
+
+links += [[
+    'grabbing',
+    [
+        'dnd-none',
+        'fleur'
+    ]
+]]
+
+links += [[
+    'help',
+    [
+        'left_ptr_help',
+        'question_arrow',
+        'd9ce0ab605698f320427677b458ad60b',
+        '5c6cd98b3f3ebcb1f9c7f1c204630408'
+    ]
+]]
+
+links += [[
+    'move',
+    [
+        '9081237383d90e509aa00f00170e968f',
+        '4498f0e0c1937ffe01fd06f973665830'
+    ]
+]]
+
+links += [[
+    'nesw-resize',
+    [
+        'bottom_left_corner',
+        'fd_double_arrow',
+        'top_right_corner',
+        'fcf1c3c7cd4491d801f1e1c78f100000'
+    ]
+]]
+
+links += [[
+    'not-allowed',
+    [
+        'crossed_circle',
+        '03b6e0fcb3499374a867c041f52298f0'
+    ]
+]]
+
+links += [[
+    'ns-resize',
+    [
+        'bottom_side',
+        'double_arrow',
+        'sb_v_double_arrow',
+        'top_side',
+        'v_double_arrow',
+        '00008160000006810000408080010102',
+        '2870a09082c103050810ffdffffe0204'
+    ]
+]]
+
+links += [[
+    'nwse-resize',
+    [
+        'bd_double_arrow',
+        'bottom_right_corner',
+        'top_left_corner',
+        'c7088f0f3e6c8088236ef8e1e3e70000'
+    ]
+]]
+
+links += [[
+    'pointer',
+    [
+        'hand',
+        'hand2',
+        '9d800788f1b08800ae810202380a0822'
+    ]
+]]
+
+links += [[
+    'text',
+    [
+        'xterm'
+    ]
+]]
+
 foreach link_entry : links
     src = link_entry[0]
     foreach dest : link_entry[1]
