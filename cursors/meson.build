@@ -281,9 +281,23 @@ links += [[
 ]]
 
 links += [[
+    'progress',
+    [
+        'left_ptr_watch'
+    ]
+]]
+
+links += [[
     'text',
     [
         'xterm'
+    ]
+]]
+
+links += [[
+    'wait',
+    [
+        'watch'
     ]
 ]]
 
