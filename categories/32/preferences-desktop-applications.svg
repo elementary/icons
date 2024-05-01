@@ -4,34 +4,22 @@
    width="32"
    height="32"
    id="svg4769"
-   sodipodi:docname="preferences-desktop-applications.svg"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview38"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="25.53125"
-     inkscape:cx="16"
-     inkscape:cy="16"
-     inkscape:window-width="1920"
-     inkscape:window-height="1019"
-     inkscape:window-x="0"
-     inkscape:window-y="30"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg4769" />
   <defs
      id="defs4771">
+    <linearGradient
+       id="linearGradient2">
+      <stop
+         offset="0"
+         style="stop-color:#667885;stop-opacity:1;"
+         id="stop1" />
+      <stop
+         offset="1"
+         style="stop-color:#485a6c;stop-opacity:1"
+         id="stop2" />
+    </linearGradient>
     <linearGradient
        id="linearGradient3702-501-757-3">
       <stop
@@ -66,52 +54,6 @@
          style="stop-color:#181818;stop-opacity:0"
          id="stop2891-66" />
     </linearGradient>
-    <radialGradient
-       gradientTransform="matrix(2.003784,0,0,1.4,-20.01187,-104.4)"
-       gradientUnits="userSpaceOnUse"
-       id="radialGradient3495"
-       r="2.5"
-       cy="43.5"
-       cx="4.9929786"
-       xlink:href="#linearGradient3688-464-309-7" />
-    <linearGradient
-       id="linearGradient3688-166-749-6">
-      <stop
-         offset="0"
-         style="stop-color:#181818;stop-opacity:1"
-         id="stop2883-8" />
-      <stop
-         offset="1"
-         style="stop-color:#181818;stop-opacity:0"
-         id="stop2885-3" />
-    </linearGradient>
-    <radialGradient
-       gradientTransform="matrix(2.003784,0,0,1.4,27.98813,-17.4)"
-       gradientUnits="userSpaceOnUse"
-       id="radialGradient3493"
-       r="2.5"
-       cy="43.5"
-       cx="4.9929786"
-       xlink:href="#linearGradient3688-166-749-6" />
-    <linearGradient
-       id="linearGradient2867-449-88-871-390-598-476-591-434-148-57-177-8-3-3-6-4-8-8-8-5">
-      <stop
-         offset="0"
-         style="stop-color:#919caf;stop-opacity:1"
-         id="stop3750-1-0-7-6-6-1-3-9-3" />
-      <stop
-         offset="0.2624"
-         style="stop-color:#68758e;stop-opacity:1"
-         id="stop3752-3-7-4-0-32-8-923-0-7" />
-      <stop
-         offset="0.705"
-         style="stop-color:#485a6c;stop-opacity:1"
-         id="stop3754-1-8-5-2-7-6-7-1-9" />
-      <stop
-         offset="1"
-         style="stop-color:#444c5c;stop-opacity:1"
-         id="stop3756-1-6-2-6-6-1-96-6-0" />
-    </linearGradient>
     <linearGradient
        id="linearGradient3924-0">
       <stop
@@ -141,14 +83,6 @@
        y2="41.679485"
        xlink:href="#linearGradient3924-0" />
     <radialGradient
-       id="radialGradient4102"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,6.5752286,-8.07228,0,96.951918,-56.111442)"
-       cx="6.7304144"
-       cy="9.9571075"
-       r="12.671875"
-       xlink:href="#linearGradient2867-449-88-871-390-598-476-591-434-148-57-177-8-3-3-6-4-8-8-8-5" />
-    <radialGradient
        gradientTransform="matrix(2.003784,0,0,1.4,27.98813,-17.4)"
        gradientUnits="userSpaceOnUse"
        xlink:href="#linearGradient3688-464-309-7"
@@ -168,6 +102,14 @@
        r="2.5"
        cy="43.5"
        cx="4.9929786" />
+    <linearGradient
+       xlink:href="#linearGradient2"
+       id="linearGradient1"
+       x1="16"
+       y1="2.5"
+       x2="16"
+       y2="29.5"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      style="opacity:0.4"
@@ -198,7 +140,7 @@
   </g>
   <rect
      id="rect5505-0"
-     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient4102);fill-opacity:1;fill-rule:nonzero;stroke:#1c2c38;stroke-width:0.99999994;marker:none;enable-background:accumulate;stroke-opacity:0.5"
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient1);fill-opacity:1;fill-rule:nonzero;stroke:#1c2c38;stroke-width:0.99999994;marker:none;enable-background:accumulate;stroke-opacity:0.5"
      x="2.5"
      y="2.5"
      width="27"
