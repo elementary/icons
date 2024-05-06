@@ -30,8 +30,41 @@
 
   <releases>
     <release version="8.0.0" date="2023-05-05" urgency="medium">
+        <p>Additions:</p>
+        <ul>
+          <li>`preferences-desktop-wallpaper` is now a unique icon from `preferences-desktop` and features a colorful paint roller design</li>
+          <li>`accessories-screenshot-tool` and the symlink `applets-screenshooter` are added to cover icons expected by the Portals backend</li>
+          <li>`usb-receiver` to cover peripheral receivers in FWUPD</li>
+          <li>`system-log-out-symbolic`</li>
+        </ul>
+        <p>Removals:</p>
+        <ul>
+          <li>`bug`</li>
+          <li>`preferences-system-parental-controls`</li>
+        </ul>
+        <p>Updated families:</p>
+        <ul>
+          <li>Cursors have been completely redrawn with a new base pointer shape, colorful badges, and a new color wheel design for waiting states</li>
+          <li>Use brighter colors for `edit-find` icons and add missing 16px `edit-find-replace`</li>
+          <li>Update the border radius of `preferences-desktop-locale`</li>
+          <li>`window-*` icons use more rounded arrow shapes</li>
+          <li>`system-*-symbolic` icons are a more uniform size</li>
+          <li>halign checkmark on 32px `process-completed`</li>
+          <li>redesign `preferences-system` with higher contrast and more detail</li>
+          <li>clean up 128 drive-harddisk</li>
+          <li>Fix grid alignment of several `document-*` icons</li>
+          <li>Use a bell for `preferences-system-notification`</li>
+        </ul>
       <issues>
+        <issue url="https://github.com/elementary/icons/issues/591">mime: jar file (java archive)</issue>
+        <issue url="https://github.com/elementary/icons/issues/702">view-fullscreen icon issues</issue>
+        <issue url="https://github.com/elementary/icons/issues/1006">media-eject-symbolic looks blurry on 24px</issue>
+        <issue url="https://github.com/elementary/icons/issues/1073">Xcursor library is unable to find cursors that are unique to theme Adwaita, which have no equivalent in the default theme</issue>
+        <issue url="https://github.com/elementary/icons/issues/1167">preferences-desktop-applications 32px and 48px use different colors</issue>
+        <issue url="https://github.com/elementary/icons/issues/1168">document-save should look less like a mimetype</issue>
         <issue url="https://github.com/elementary/icons/issues/1227">Document import and export missing at 32px</issue>
+        <issue url="https://github.com/elementary/icons/issues/1240">usb-receiver</issue>
+        <issue url="https://github.com/elementary/icons/issues/1255">Only support the GTK/CSS cursor names</issue>
       </issues>
     </release>
 
