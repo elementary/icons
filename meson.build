@@ -1,6 +1,6 @@
 project (
     'io.elementary.icons',
-    version: '7.3.1',
+    version: '8.0.0',
     license : 'GPL3+',
     meson_version: '>=0.61',
 )
