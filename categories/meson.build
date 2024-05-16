@@ -11,10 +11,12 @@ links = [
 
 foreach link : links
     foreach size: sizes
-        install_symlink(
-            link[1] + '.svg',
-            install_dir: icon_dir / 'apps' / size,
-            pointing_to: link[0] + '.svg',
-        )
+        if (fs.exists(link[1] + '.svg'))
+            install_symlink(
+                link[1] + '.svg',
+                install_dir: icon_dir / 'apps' / size,
+                pointing_to: link[0] + '.svg',
+            )
+        endif
     endforeach
 endforeach
