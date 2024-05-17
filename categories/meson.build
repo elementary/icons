@@ -11,15 +11,22 @@ links = [
 
 foreach link : links
     foreach size: sizes
-        if (fs.is_file(size / link[0] + '.svg'))
+        origin = link[0]
+        destination = link[1]
+
+        if (size == 'symbolic')
+            origin += '-symbolic'
+            destination += '-symbolic'
+        endif
+
+        if (fs.exists(size / origin + '.svg'))
             install_symlink(
-                link[1] + '.svg',
+                destination  + '.svg',
                 install_dir: icon_dir / 'categories' / size,
-                pointing_to: link[0] + '.svg',
+                pointing_to: origin + '.svg',
             )
         else
-            msg += '\n⚠️ @0@ does not exist'.format (size / link[1] + '.svg')
-            msg_warning = true
+            warning('@0@ does not exist'.format (size / origin))
         endif
     endforeach
 endforeach
