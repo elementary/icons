@@ -6,6 +6,7 @@ links = [
     ['applications-internet', 'preferences-desktop-online-accounts'],
     ['multimedia-volume-control', 'preferences-desktop-sound'],
     ['preferences-desktop-locale', 'config-language'], # gnome language selector
+    ['preferences-system', 'applications-system'],
     ['preferences-system-power', 'gnome-power-manager']
 ]
 
