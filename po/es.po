@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-06 19:03+0000\n"
-"PO-Revision-Date: 2024-06-17 19:16+0000\n"
+"PO-Revision-Date: 2024-06-24 16:16+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/"
 "icons-extra/es/>\n"
@@ -83,6 +83,11 @@ msgid ""
 "import/export\", \"object-merge\", \"object-rotate\", \"pane-hide/show\", "
 "and \"view-refresh\""
 msgstr ""
+"Forma de flecha mejorada para «browser-download» (descargar navegador), "
+"«document-send» (enviar documento), «document-import/export» (importar/"
+"exportar documento), «object-merge» (fusionar objetos), «object-rotate» ("
+"rotar objeto), «pane-hide/show» (ocultar/mostrar panel) y «view-refresh» ("
+"refrescar vista)"
 
 #: data/icons.metainfo.xml.in:93 data/icons.metainfo.xml.in:121
 #: data/icons.metainfo.xml.in:155
@@ -92,30 +97,42 @@ msgstr "Iconos agregados:"
 #: data/icons.metainfo.xml.in:95
 msgid "\"list-drag-handle-symbolic\" as used in draggable list box rows"
 msgstr ""
+"«list-drag-handle-symbolic» (arrastrar lista simbólica) usado en filas de "
+"listas en forma de caja"
 
 #: data/icons.metainfo.xml.in:96
 msgid ""
 "\"selection-mode-symbolic\" as used in apps which have a button to switch a "
 "list into a selection mode"
 msgstr ""
+"«selection-mode-symbolic» (modo de selección simbólico) usado en "
+"aplicaciones que tengan un botón para cambiar entre una vista de lista y "
+"otro modo de selección"
 
 #: data/icons.metainfo.xml.in:97
 msgid "\"adw-expander-arrow-symbolic\" as used in Adw.PreferencesWindow"
 msgstr ""
+"«adw-expander-arrow-symbolic» (flecha expansora simbólica de Adwaita) usado "
+"en Adw.PreferencesWindow (Ventana de preferencias)"
 
 #: data/icons.metainfo.xml.in:98
 msgid "\"adw-external-link-symbolic\" as used in Adw.AboutWindow"
 msgstr ""
+"«adw-external-link-symbolic» (enlace externo simbólico de Adwaita) usada en "
+"Adw.AboutWindow (ventana acerca de)"
 
 #: data/icons.metainfo.xml.in:99
 msgid "\"adw-tab-*\" icons as used with Adw.Tabbar"
 msgstr ""
+"«adw-tab-*» (pestañas de Adwaita) usados con Adw.Tabbar (barra de pestañas)"
 
 #: data/icons.metainfo.xml.in:103
 msgid ""
 "\"network-*\" status icons which are not in the FreeDesktop icon name "
 "specification"
 msgstr ""
+"«network-*» (red), iconos de estatus que no se encuentran en la "
+"especificación de nombres de FreeDesktop"
 
 #: data/icons.metainfo.xml.in:104
 msgid ""
@@ -123,183 +140,223 @@ msgid ""
 "\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", \"printer-"
 "remote\", and \"system\""
 msgstr ""
+"Iconos de dispositivos que no se encuentran en la especificación de nombre "
+"de FreeDesktop: «camera» (cámara), «drive-cdrom» (unidad de CD), «media-"
+"cdrom» (medio de CD), «music-player» (reproductor de música), «printer-"
+"remote» (impresora remota), y «system» (sistema)"
 
 #: data/icons.metainfo.xml.in:108
 msgid ""
 "\"process-completed\" uses a new checkmark shape, has a 32px version, and "
 "symlinks were added for \"emblem-default\""
 msgstr ""
+"«process-completed» (proceso finalizado) utiliza una nueva forma de marca de "
+"verificación, tiene una versión de 32px y se agregaron enlaces simbólicos "
+"para «emblem-default» (emblema predeterminado)"
 
 #: data/icons.metainfo.xml.in:109
 msgid "Updated corner radius of \"edit-clear\" and \"document-*-symbolic\""
 msgstr ""
+"Se actualizaron los radios de las esquinas para «edit-clear» (editar, "
+"limpiar) y «document-*-symbolic» (documentos simbólicos)"
 
 #: data/icons.metainfo.xml.in:110
 msgid "Updated \"preferences-desktop-display\" and added a 64px version"
 msgstr ""
+"Se actualizó «preferences-desktop-display» (preferencias del escritorio o "
+"pantalla) y se agregó una versión de 64px"
 
 #: data/icons.metainfo.xml.in:123
 msgid "\"panel-left/right\""
-msgstr ""
+msgstr "«panel-left/right» (panel izquierdo/derecho)"
 
 #: data/icons.metainfo.xml.in:124
 msgid "Symlink to \"application-x-xpinstall\" for web extension files"
 msgstr ""
+"Enlace simbólico a «application-x-xpinstall» (instalación de aplicación en "
+"forma de x) para archivos de extensiones web"
 
 #: data/icons.metainfo.xml.in:128
 msgid "\"internet-web-browser\""
-msgstr ""
+msgstr "«internet-web-browser» (navegador de web, internet)"
 
 #: data/icons.metainfo.xml.in:129
 msgid "\"system-os-install\""
-msgstr ""
+msgstr "«system-os-install» (instalación de sistema operativo)"
 
 #: data/icons.metainfo.xml.in:130
 msgid "\"preferences-desktop-accessibility-pointing\""
 msgstr ""
+"«preferences-desktop-accessibility-pointing» (preferencias de escritorio, "
+"accesibilidad: punteros)"
 
 #: data/icons.metainfo.xml.in:131
 msgid "\"preferences-desktop-accessibility-zoom\""
 msgstr ""
+"«preferences-desktop-accessibility-zoom» (preferencias de escritorio, "
+"accesibilidad: escalado)"
 
 #: data/icons.metainfo.xml.in:132
 msgid "\"preferences-color\""
-msgstr ""
+msgstr "«preferences-color» (preferencias de color)"
 
 #: data/icons.metainfo.xml.in:133
 msgid "\"preferences-system-windows\""
-msgstr ""
+msgstr "«preferences-system-windows» (preferencias de ventanas del sistema)"
 
 #: data/icons.metainfo.xml.in:134
 msgid "\"applications-education\""
-msgstr ""
+msgstr "«applications-education» (aplicaciones educativas)"
 
 #: data/icons.metainfo.xml.in:135
 msgid "\"applications-interfacedesign\""
-msgstr ""
+msgstr "«applications-interfacedesign» (aplicaciones de diseño e interfaz)"
 
 #: data/icons.metainfo.xml.in:136
 msgid "\"applications-photography\""
-msgstr ""
+msgstr "«applications-photography» (aplicaciones de fotografía)"
 
 #: data/icons.metainfo.xml.in:137
 msgid "\"view-list-compact\""
-msgstr ""
+msgstr "«view-list-compact» (vista de lista compacta)"
 
 #: data/icons.metainfo.xml.in:141
 msgid ""
 "\"applications-development\" uses a purple tile and the same hammer glyph as "
 "build system file types"
 msgstr ""
+"«applications-development» (aplicaciones de desarrollo) utiliza un mosaico "
+"púrpura y el mismo glifo de martillo que los archivos de tipo compilación de "
+"sistema"
 
 #: data/icons.metainfo.xml.in:142
 msgid "\"system-file-manager\" is blue and tile shaped"
 msgstr ""
+"«system-file-manager» (gestor de archivos del sistema) es azul y en forma de "
+"mosaico"
 
 #: data/icons.metainfo.xml.in:143
 msgid "\"accessories-calculator\" redesigned as a tile shape"
 msgstr ""
+"«accessories-calculator» (accesorios, calculadora) se ha rediseñado en forma "
+"de mosaico"
 
 #: data/icons.metainfo.xml.in:144
 msgid "Update the border radius of several tile-shaped icons"
 msgstr ""
+"Se actualizó el radio de las esquinas de varios iconos en forma de mosaico"
 
 #: data/icons.metainfo.xml.in:145
 msgid "\"view-*\" symbolic icons"
-msgstr ""
+msgstr "Iconos simbólicos de «view-*» (vistas)"
 
 #: data/icons.metainfo.xml.in:157
 msgid "\"computer-fail\""
-msgstr ""
+msgstr "«computer-fail» (falla del computador)"
 
 #: data/icons.metainfo.xml.in:158
 msgid "\"preferences-desktop-theme\""
-msgstr ""
+msgstr "«preferences-desktop-theme» (preferencias del tema del escritorio)"
 
 #: data/icons.metainfo.xml.in:159
 msgid "\"application-x-sharedlib\""
-msgstr ""
+msgstr "«application-x-sharedlib» (biblioteca compartida de aplicación x)"
 
 #: data/icons.metainfo.xml.in:160
 msgid "\"process-paused\""
-msgstr ""
+msgstr "«process-paused» (proceso pausado)"
 
 #: data/icons.metainfo.xml.in:164
 msgid "\"office-address-book\""
-msgstr ""
+msgstr "«office-address-book» (libreta de direcciones de oficina)"
 
 #: data/icons.metainfo.xml.in:165
 msgid "Flash file types"
-msgstr ""
+msgstr "Tipos de archivo de Flash"
 
 #: data/icons.metainfo.xml.in:169
 msgid "Clean up \"preferences-desktop-workspaces\""
 msgstr ""
+"Se limpió el icono «preferences-desktop-workspaces» (preferencias de áreas "
+"de trabajo del escritorio)"
 
 #: data/icons.metainfo.xml.in:170
 msgid "Update \"preferences-desktop\" to new tile shape"
 msgstr ""
+"Se actualizó «preferences-desktop» (preferencias de escritorio) a una nueva "
+"forma de mosaico"
 
 #: data/icons.metainfo.xml.in:171
 msgid "Update \"image-missing\" to new tile shape"
 msgstr ""
+"Se actualizó «image-missing» (imagen faltante) a una nueva forma de mosaico"
 
 #: data/icons.metainfo.xml.in:172
 msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
 msgstr ""
+"Se actualizó «preferences-desktop-keyboard» (preferencias del escritorio del "
+"teclado) a una nueva forma de mosaico"
 
 #: data/icons.metainfo.xml.in:173
 msgid "Update \"document-import\" and \"document-export\" to new tile shape"
 msgstr ""
+"Se actualizó «document-import» (importar documento) y «document-export» ("
+"exportar documento) a nuevas formas de mosaico"
 
 #: data/icons.metainfo.xml.in:174
 msgid "Update many file types with new arrow shape"
-msgstr ""
+msgstr "Se actualizaron muchos tipos de archivo con un nuevo glifo de flecha"
 
 #: data/icons.metainfo.xml.in:175
 msgid "\"application-default-icon\" is now brightly colored"
 msgstr ""
+"«application-default-icon» (icono de aplicación predeterminado) es ahora más "
+"colorido y brillante"
 
 #: data/icons.metainfo.xml.in:176
 msgid "\"media-stop\" is now a square"
-msgstr ""
+msgstr "«media-stop» (medios, detener) es ahora un cuadrado"
 
 #: data/icons.metainfo.xml.in:177
 msgid "Round symbolic location status icons"
-msgstr ""
+msgstr "Iconos redondos de estatus de ubicación simbólicos"
 
 #: data/icons.metainfo.xml.in:178
 msgid "Use an outlined shape for symbolic tag icons"
 msgstr ""
+"Ahora se utiliza una forma con borde pata, iconos simbólicos de etiquetas"
 
 #: data/icons.metainfo.xml.in:179
 msgid "Use a rounded star for symbolic bookmark icons"
 msgstr ""
+"Ahora se utiliza una estrella redondeada para iconos simbólicos de marcadores"
 
 #: data/icons.metainfo.xml.in:180
 msgid "Redesign Night Light"
-msgstr ""
+msgstr "Se rediseñó el icono de Luz nocturna"
 
 #: data/icons.metainfo.xml.in:181
 msgid "Use latest Flatpak branding"
-msgstr ""
+msgstr "Se utiliza las últimas marcas de Flatkpak"
 
 #: data/icons.metainfo.xml.in:182
 msgid "Symbolic volume icons use a rounded shape and a slash when muted"
 msgstr ""
+"Los iconos simbólicos de volumen utilizan una forma redondeada y una línea "
+"cruzada cuando se está silenciado"
 
 #: data/icons.metainfo.xml.in:184
 msgid "Other Changes:"
-msgstr ""
+msgstr "Otros cambios:"
 
 #: data/icons.metainfo.xml.in:186
 msgid "Fix broken link for SVG file types"
-msgstr ""
+msgstr "Se corrigieron enlaces rotos para archivos de tipo SVG"
 
 #: data/icons.metainfo.xml.in:187
 msgid "Fix missing links for PGP file types"
-msgstr ""
+msgstr "Se corrigieron enlaces rotor para archivos de tipo PGP"
 
 #: data/icons.metainfo.xml.in:188
 msgid "Scale some icons to more sizes"
-msgstr ""
+msgstr "Se agregaron más tamaños a algunos iconos"
