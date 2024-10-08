@@ -134,6 +134,11 @@ foreach cursor : cursors
     )
 endforeach
 
+install_subdir(
+    'cursors_scalable',
+    install_dir: icon_dir
+)
+
 links = []
 
 links += [[
@@ -324,15 +329,16 @@ foreach link_entry : links
             install_dir: cursor_dir,
             pointing_to: src,
         )
+
+        install_symlink(
+            dest,
+            install_dir: icon_dir / 'cursors_scalable',
+            pointing_to: src,
+        )
     endforeach
 endforeach
 
 install_data(
     'cursor.theme',
-    install_dir: icon_dir
-)
-
-install_subdir(
-    'cursors_scalable',
     install_dir: icon_dir
 )
