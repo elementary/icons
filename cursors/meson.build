@@ -316,3 +316,8 @@ install_data(
     'cursor.theme',
     install_dir: icon_dir
 )
+
+install_subdir(
+    'cursors_scalable',
+    install_dir: icon_dir
+)
