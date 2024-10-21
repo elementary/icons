@@ -47,7 +47,11 @@
         <li>`mail-message-new` has been made more uniform across it's variations</li>
         <li>`save-as-symbolic` has a new design to differentiate from `save`</li>
         <li>session icons (`system-*`) have had minor updates to shape language and color added</li>
-        </ul>
+      </ul>
+      <issues>
+        <issue url="https://github.com/elementary/icons/issues/1307">Status: user-* icon styles differ between fullcolor and symbolic</issue>
+        <issue url="https://github.com/elementary/icons/issues/1151">system-software-install</issue>
+      </issues>
     </release>
     <release version="8.0.0" date="2023-05-06" urgency="medium">
         <p>Additions:</p>
