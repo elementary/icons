@@ -1,0 +1,525 @@
+# Ukrainian translations for extra package.
+# Copyright (C) 2021 THE extra'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-06 19:03+0000\n"
+"PO-Revision-Date: 2023-07-26 13:57+0000\n"
+"Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
+"Language-Team: Ukrainian <https://l10n.elementary.io/projects/desktop/icons-"
+"extra/uk/>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.17\n"
+
+#: data/icons.metainfo.xml.in:10
+msgid "elementary Icons"
+msgstr "Піктограми elementary"
+
+#: data/icons.metainfo.xml.in:11
+msgid "Named, vector icons for elementary OS"
+msgstr "Названі, векторні піктограми для elementary OS"
+
+#: data/icons.metainfo.xml.in:14
+msgid ""
+"An original set of vector icons designed specifically for elementary OS and "
+"its desktop environment: Pantheon."
+msgstr ""
+"Оригінальний набір векторних піктограм, розроблених спеціально для "
+"elementary OS та її стільничного середовища: Pantheon."
+
+#: data/icons.metainfo.xml.in:73 data/icons.metainfo.xml.in:101
+#: data/icons.metainfo.xml.in:126 data/icons.metainfo.xml.in:162
+msgid "Removals:"
+msgstr "Вилучення:"
+
+#: data/icons.metainfo.xml.in:75
+msgid ""
+"non-fd.o \"bluetooth-*\", \"microphone-sensitivity-*\", and \"night-light\" "
+"symbolic panel icons"
+msgstr ""
+"символічні піктограми панелей не-fd.o \"bluetooth-*\", \"microphone-"
+"sensitivity-*\" і \"night-light\""
+
+#: data/icons.metainfo.xml.in:76
+msgid "\"mail-archive\" and \"mail-move\""
+msgstr "\"mail-archive\" і \"mail-move\""
+
+#: data/icons.metainfo.xml.in:78 data/icons.metainfo.xml.in:106
+#: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
+msgid "Updated families:"
+msgstr "Оновлені сімейства:"
+
+#: data/icons.metainfo.xml.in:80
+msgid "\"insert-image-symbolic\" is now more detailed"
+msgstr "Деталізованіші \"insert-image-symbolic\""
+
+#: data/icons.metainfo.xml.in:81
+msgid "\"media-record\" has an updated palette"
+msgstr "Оновлена палітра \"media-record\""
+
+#: data/icons.metainfo.xml.in:82
+msgid ""
+"\"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-optical\", "
+"\"open-menu\", \"system-run\" look better on dark backgrounds"
+msgstr ""
+"Кращий вигляд \"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-"
+"optical\", \"open-menu\", \"system-run\" на темному тлі"
+
+#: data/icons.metainfo.xml.in:83
+msgid ""
+"Improved arrow shape for \"browser-download\", \"document-send\", \"document-"
+"import/export\", \"object-merge\", \"object-rotate\", \"pane-hide/show\", "
+"and \"view-refresh\""
+msgstr ""
+"Покращено форму стрілки для \"browser-download\", \"document-send\", "
+"\"document-import/export\", \"object-merge\", \"object-rotate\", \"pane-hide/"
+"show\" і \"view-refresh\""
+
+#: data/icons.metainfo.xml.in:93 data/icons.metainfo.xml.in:121
+#: data/icons.metainfo.xml.in:155
+msgid "Additions:"
+msgstr "Додатково:"
+
+#: data/icons.metainfo.xml.in:95
+msgid "\"list-drag-handle-symbolic\" as used in draggable list box rows"
+msgstr ""
+"\"list-drag-handle-symbolic\" як використовується в рядках полів з "
+"перетягуваними списками"
+
+#: data/icons.metainfo.xml.in:96
+msgid ""
+"\"selection-mode-symbolic\" as used in apps which have a button to switch a "
+"list into a selection mode"
+msgstr ""
+"\"selection-mode-symbolic\" як у застосунках, де є кнопка для перемикання "
+"списку в режим виділення"
+
+#: data/icons.metainfo.xml.in:97
+msgid "\"adw-expander-arrow-symbolic\" as used in Adw.PreferencesWindow"
+msgstr ""
+"\"adw-expander-arrow-symbolic\" використовується як в Adw.PreferencesWindow"
+
+#: data/icons.metainfo.xml.in:98
+msgid "\"adw-external-link-symbolic\" as used in Adw.AboutWindow"
+msgstr "\"adw-external-link-symbolic\" як використовується в Adw.AboutWindow"
+
+#: data/icons.metainfo.xml.in:99
+msgid "\"adw-tab-*\" icons as used with Adw.Tabbar"
+msgstr "Піктограми \"adw-tab-*\" використовуються як з Adw.Tabbar"
+
+#: data/icons.metainfo.xml.in:103
+msgid ""
+"\"network-*\" status icons which are not in the FreeDesktop icon name "
+"specification"
+msgstr ""
+"\"network-*\" піктограми стану, яких немає у специфікації назв піктограм "
+"FreeDesktop"
+
+#: data/icons.metainfo.xml.in:104
+msgid ""
+"Device icons which are not in the FreeDesktop icon name specification: "
+"\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", \"printer-"
+"remote\", and \"system\""
+msgstr ""
+"Піктограми пристроїв, яких немає у специфікації назв піктограм FreeDesktop: "
+"\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", \"printer-"
+"remote\", і \"system\""
+
+#: data/icons.metainfo.xml.in:108
+msgid ""
+"\"process-completed\" uses a new checkmark shape, has a 32px version, and "
+"symlinks were added for \"emblem-default\""
+msgstr ""
+"\"process-completed\" використовує нову форму прапорця, має 32-піксельну "
+"версію, а для \"emblem-default\" було додано символічні посилання"
+
+#: data/icons.metainfo.xml.in:109
+msgid "Updated corner radius of \"edit-clear\" and \"document-*-symbolic\""
+msgstr "Оновлений радіус кута \"edit-clear\" і \"document-*-symbolic\""
+
+#: data/icons.metainfo.xml.in:110
+msgid "Updated \"preferences-desktop-display\" and added a 64px version"
+msgstr "Оновлено \"preferences-desktop-display\" і додано 64-піксельну версію"
+
+#: data/icons.metainfo.xml.in:123
+msgid "\"panel-left/right\""
+msgstr "\"panel-left/right\""
+
+#: data/icons.metainfo.xml.in:124
+msgid "Symlink to \"application-x-xpinstall\" for web extension files"
+msgstr ""
+"Символічне посилання на \"application-x-xpinstall\" для файлів веброзширень"
+
+#: data/icons.metainfo.xml.in:128
+msgid "\"internet-web-browser\""
+msgstr "\"internet-web-browser\""
+
+#: data/icons.metainfo.xml.in:129
+msgid "\"system-os-install\""
+msgstr "\"system-os-install\""
+
+#: data/icons.metainfo.xml.in:130
+msgid "\"preferences-desktop-accessibility-pointing\""
+msgstr "\"preferences-desktop-accessibility-pointing\""
+
+#: data/icons.metainfo.xml.in:131
+msgid "\"preferences-desktop-accessibility-zoom\""
+msgstr "\"preferences-desktop-accessibility-zoom\""
+
+#: data/icons.metainfo.xml.in:132
+msgid "\"preferences-color\""
+msgstr "\"preferences-color\""
+
+#: data/icons.metainfo.xml.in:133
+msgid "\"preferences-system-windows\""
+msgstr "\"preferences-system-windows\""
+
+#: data/icons.metainfo.xml.in:134
+msgid "\"applications-education\""
+msgstr "\"applications-education\""
+
+#: data/icons.metainfo.xml.in:135
+msgid "\"applications-interfacedesign\""
+msgstr "\"applications-interfacedesign\""
+
+#: data/icons.metainfo.xml.in:136
+msgid "\"applications-photography\""
+msgstr "\"applications-photography\""
+
+#: data/icons.metainfo.xml.in:137
+msgid "\"view-list-compact\""
+msgstr "\"view-list-compact\""
+
+#: data/icons.metainfo.xml.in:141
+msgid ""
+"\"applications-development\" uses a purple tile and the same hammer glyph as "
+"build system file types"
+msgstr ""
+"\"applications-development\" використовує фіолетову плитку і той самий гліф "
+"молотка як типи файлів збірки системи"
+
+#: data/icons.metainfo.xml.in:142
+msgid "\"system-file-manager\" is blue and tile shaped"
+msgstr "\"system-file-manager\" синього кольору та у формі плитки"
+
+#: data/icons.metainfo.xml.in:143
+msgid "\"accessories-calculator\" redesigned as a tile shape"
+msgstr "\"accessories-calculator\" перероблений у формі плитки"
+
+#: data/icons.metainfo.xml.in:144
+msgid "Update the border radius of several tile-shaped icons"
+msgstr "Оновлення радіуса межі кількох плиткоподібних піктограм"
+
+#: data/icons.metainfo.xml.in:145
+msgid "\"view-*\" symbolic icons"
+msgstr "\"view-*\" символічні піктограми"
+
+#: data/icons.metainfo.xml.in:157
+msgid "\"computer-fail\""
+msgstr "\"computer-fail\""
+
+#: data/icons.metainfo.xml.in:158
+msgid "\"preferences-desktop-theme\""
+msgstr "\"preferences-desktop-theme\""
+
+#: data/icons.metainfo.xml.in:159
+msgid "\"application-x-sharedlib\""
+msgstr "\"application-x-sharedlib\""
+
+#: data/icons.metainfo.xml.in:160
+msgid "\"process-paused\""
+msgstr "\"process-paused\""
+
+#: data/icons.metainfo.xml.in:164
+msgid "\"office-address-book\""
+msgstr "\"office-address-book\""
+
+#: data/icons.metainfo.xml.in:165
+msgid "Flash file types"
+msgstr "Типи флеш-файлів"
+
+#: data/icons.metainfo.xml.in:169
+msgid "Clean up \"preferences-desktop-workspaces\""
+msgstr "Очищено \"preferences-desktop-workspaces\""
+
+#: data/icons.metainfo.xml.in:170
+msgid "Update \"preferences-desktop\" to new tile shape"
+msgstr "Оновлено \"preferences-desktop\" до нової форми плитки"
+
+#: data/icons.metainfo.xml.in:171
+msgid "Update \"image-missing\" to new tile shape"
+msgstr "Оновлено \"image-missing\" до нової форми плитки"
+
+#: data/icons.metainfo.xml.in:172
+msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
+msgstr "Оновлено \"preferences-desktop-keyboard\" до нової форми плитки"
+
+#: data/icons.metainfo.xml.in:173
+msgid "Update \"document-import\" and \"document-export\" to new tile shape"
+msgstr ""
+"Оновлено \"document-import\" і \"document-export\" до нової форми плитки"
+
+#: data/icons.metainfo.xml.in:174
+msgid "Update many file types with new arrow shape"
+msgstr "Оновлення багатьох типів файлів з новою формою стрілок"
+
+#: data/icons.metainfo.xml.in:175
+msgid "\"application-default-icon\" is now brightly colored"
+msgstr "\"application-default-icon\" відтепер яскраво забарвлено"
+
+#: data/icons.metainfo.xml.in:176
+msgid "\"media-stop\" is now a square"
+msgstr "\"media-stop\" відтепер квадратна"
+
+#: data/icons.metainfo.xml.in:177
+msgid "Round symbolic location status icons"
+msgstr "Круглі символічні піктограми стану розташування"
+
+#: data/icons.metainfo.xml.in:178
+msgid "Use an outlined shape for symbolic tag icons"
+msgstr "Використано контурні форми для символічних піктограм тегів"
+
+#: data/icons.metainfo.xml.in:179
+msgid "Use a rounded star for symbolic bookmark icons"
+msgstr "Використано округлу зірку для символічних піктограм закладок"
+
+#: data/icons.metainfo.xml.in:180
+msgid "Redesign Night Light"
+msgstr "Перероблене нічне світло"
+
+#: data/icons.metainfo.xml.in:181
+msgid "Use latest Flatpak branding"
+msgstr "Використано найновіший брендинг Flatpak"
+
+#: data/icons.metainfo.xml.in:182
+msgid "Symbolic volume icons use a rounded shape and a slash when muted"
+msgstr ""
+"Символічні піктограми гучності мають заокруглену форму та косу риску, коли "
+"їх вимкнено"
+
+#: data/icons.metainfo.xml.in:184
+msgid "Other Changes:"
+msgstr "Інші зміни:"
+
+#: data/icons.metainfo.xml.in:186
+msgid "Fix broken link for SVG file types"
+msgstr "Виправлено неробоче посилання для типів файлів SVG"
+
+#: data/icons.metainfo.xml.in:187
+msgid "Fix missing links for PGP file types"
+msgstr "Виправлено відсутні посилання для типів файлів PGP"
+
+#: data/icons.metainfo.xml.in:188
+msgid "Scale some icons to more sizes"
+msgstr "Масштабування деяких піктограм до більшого розміру"
+
+#~ msgid "caps-lock-symbolic"
+#~ msgstr "caps-lock-symbolic"
+
+#~ msgid "eye-not-looking-symbolic"
+#~ msgstr "eye-not-looking-symbolic"
+
+#~ msgid "eye-open-negative-filled-symbolic"
+#~ msgstr "eye-open-negative-filled-symbolic"
+
+#~ msgid "num-lock-symbolic"
+#~ msgstr "num-lock-symbolic"
+
+#~ msgid "Redesign media-playlist-repeat"
+#~ msgstr "Перероблено media-playlist-repeat"
+
+#~ msgid "Update media-playlist-shuffle and media-playlist-consecutive"
+#~ msgstr "Оновлено media-playlist-shuffle і media-playlist-consecutive"
+
+#~ msgid "Rounder square icons"
+#~ msgstr "Заокруглені квадратні піктограми"
+
+#~ msgid "Rounded arrow corners on Downloads folder"
+#~ msgstr "Заокруглені кути стрілок у теці Завантажень"
+
+#~ msgid "Deb and Flatpak Bundle files use a package metaphor"
+#~ msgstr "Файли пакунків Deb і Flatpak використовують метафору пакунків"
+
+#~ msgid "Updates arrow points up"
+#~ msgstr "Оновлена стрілка вгору"
+
+#~ msgid "Redesigned package with new colors"
+#~ msgstr "Нові кольори пакунків"
+
+#~ msgid "notification-*"
+#~ msgstr "notification-*"
+
+#~ msgid "Non-FDO network-*"
+#~ msgstr "Не FDO network-*"
+
+#~ msgid "Non-FDO app icons"
+#~ msgstr "Не FDO піктограми застосунків"
+
+#~ msgid "elementary, Inc."
+#~ msgstr "elementary, Inc."
+
+#~ msgid "preferences-desktop-font*"
+#~ msgstr "preferences-desktop-font*"
+
+#~ msgid "Additional sizes for playlist-queue"
+#~ msgstr "Додаткові розміри для playlist-queue"
+
+#~ msgid "Redesign PDF file type"
+#~ msgstr "Перероблено вигляд файлів типу PDF"
+
+#~ msgid "Additional sizes for emblem-downloads"
+#~ msgstr "Додаткові розміри для emblem-downloads"
+
+#~ msgid "Remove arrows from Copy and Paste actions"
+#~ msgstr "Прибрано стрілки з дій Копіювати та Вставити"
+
+#~ msgid "multimedia-video-player"
+#~ msgstr "multimedia-video-player"
+
+#~ msgid "Improved consistency between arrow shapes"
+#~ msgstr "Покращено консистентність між стрілками форми"
+
+#~ msgid "Improved appearance of color icons against dark backgrounds"
+#~ msgstr "Покращено вигляд кольорових піктограм на темному тлі"
+
+#~ msgid "More gender-neutral people icons"
+#~ msgstr "Більше гендерно-нейтральних піктограм людей"
+
+#~ msgid "Rounded media controls"
+#~ msgstr "Заокруглені елементи керування медіа"
+
+#~ msgid "Rounded lightning bolt shape"
+#~ msgstr "Закруглено форму блискавки"
+
+#~ msgid "More colorful battery icons"
+#~ msgstr "Барвистіші піктограми акумулятора"
+
+#~ msgid "align-*"
+#~ msgstr "align-*"
+
+#~ msgid "color-picker"
+#~ msgstr "color-picker"
+
+#~ msgid "distribute-*"
+#~ msgstr "distribute-*"
+
+#~ msgid "draw-calligraphic"
+#~ msgstr "draw-calligraphic"
+
+#~ msgid "office-database-new"
+#~ msgstr "office-database-new"
+
+#~ msgid "tools-spray"
+#~ msgstr "tools-spray"
+
+#~ msgid "application-content-*"
+#~ msgstr "application-content-*"
+
+#~ msgid "thunderbolt devices"
+#~ msgstr "пристрої thunderbolt"
+
+#~ msgid "symbolic headphones"
+#~ msgstr "символи навушників"
+
+#~ msgid "status emblems"
+#~ msgstr "емблеми стану"
+
+#~ msgid "notification bell animations"
+#~ msgstr "анімації дзвінка сповіщень"
+
+#~ msgid "Minor updates"
+#~ msgstr "Незначні оновлення"
+
+#~ msgid ""
+#~ "Update emoji names for emoji picker in elementary OS 6 and latest GTK"
+#~ msgstr ""
+#~ "Оновлення назв емоджі для менеджера емоджі в elementary OS 6 та "
+#~ "найновішій GTK"
+
+#~ msgid "Replace Inkscape with rsvg for building cursors"
+#~ msgstr "Замінено Inkscape на rsvg для створення курсорів"
+
+#~ msgid "New Palette Colors:"
+#~ msgstr "Нова палітра кольорів:"
+
+#~ msgid "Add Bubblegum and Mint to official palette"
+#~ msgstr "Додано Жуйковий і М'ятний до офіційної палітри"
+
+#~ msgid "Updated all eraser icons to use Bubblegum palette"
+#~ msgstr "Оновлено всі піктограми гумки, щоб використовувати Жуйкову палітру"
+
+#~ msgid "Updated \"path\" icons to use Mint palette"
+#~ msgstr "Оновлено піктограму «шляху», щоб використовувати М'ятну палітру"
+
+#~ msgid "Updated all pencil icons to use Banana palette"
+#~ msgstr ""
+#~ "Оновлено всі піктограми олівців, щоб використовувати Бананову палітру"
+
+#~ msgid "New Icons:"
+#~ msgstr "Нові піктограми:"
+
+#~ msgid "Add \"software-update-urgent\""
+#~ msgstr "Додано «software-update-urgent»"
+
+#~ msgid "Add \"sync-synchronizing\""
+#~ msgstr "Додано «sync-synchronizing»"
+
+#~ msgid "Scaled Icon Sizes:"
+#~ msgstr "Розміри масштабу значків:"
+
+#~ msgid "Add 24px \"window-close-symbolic\""
+#~ msgstr "Додано \"window-close-symbolic\" 24 пікселі"
+
+#~ msgid "Add 48px preferences icons"
+#~ msgstr "Додано піктограми налаштувань 48 пікселів"
+
+#~ msgid "Provide large cursors"
+#~ msgstr "Додано більші курсори"
+
+#~ msgid "Fix alignment of several cursors"
+#~ msgstr "Виправлено вирівнювання кількох курсорів"
+
+#~ msgid "Use palette colors in copy cursors"
+#~ msgstr "Використання кольорів палітри в курсорах копіювання"
+
+#~ msgid "Fix direction of the ban symbol cursor and use red"
+#~ msgstr "Виправлено напрямок курсора заборони та використання червоного"
+
+#~ msgid ""
+#~ "Add \"All Scroll\", \"No Drop\", \"Vertical Text\", and \"Zoom\" cursors"
+#~ msgstr ""
+#~ "Додано курсори «Усе прогортано», «Не перетягується», «Вертикальний текст» "
+#~ "і «Лупа»"
+
+#~ msgid "Add 64px prefs locale"
+#~ msgstr "Додано 64-піклельну піктограму налаштування локалей"
+
+#~ msgid "Make symbol on 32px places home larger"
+#~ msgstr "Символ Домівки у Місцях збільшено"
+
+#~ msgid "New icons for Workspace preferences"
+#~ msgstr "Нові піктограми налаштувань Робочих просторів"
+
+#~ msgid "Give browser-download its own unique icon"
+#~ msgstr "browser-download отримує власну унікальну піктограму"
+
+#~ msgid "Use a more scalable metaphor for system updates"
+#~ msgstr "Використано масштабованішу метафору для оновлень системи"
+
+#~ msgid "New view-reader icon"
+#~ msgstr "Нова піктограма view-reader"
+
+#~ msgid "Add 32px wireless signal icons"
+#~ msgstr "Додано піктограму безпровідного сигналу 32 пікселі"
+
+#~ msgid "Add 24px user status icons"
+#~ msgstr "Додано піктограму стану користувача 24 пікселі"

@@ -1,0 +1,439 @@
+# Czech translations for extra package.
+# Copyright (C) 2021 THE extra'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-06 19:03+0000\n"
+"PO-Revision-Date: 2022-01-11 03:35+0000\n"
+"Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://l10n.elementary.io/projects/desktop/icons-"
+"extra/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
+
+#: data/icons.metainfo.xml.in:10
+msgid "elementary Icons"
+msgstr "Ikony elementary"
+
+#: data/icons.metainfo.xml.in:11
+msgid "Named, vector icons for elementary OS"
+msgstr "Nazvané, vektorové ikony pro elementary OS"
+
+#: data/icons.metainfo.xml.in:14
+msgid ""
+"An original set of vector icons designed specifically for elementary OS and "
+"its desktop environment: Pantheon."
+msgstr ""
+"Původní sada vektorových ikon navržených konkrétně pro elementary OS a jeho "
+"desktopové prostředí: Pantheon."
+
+#: data/icons.metainfo.xml.in:73 data/icons.metainfo.xml.in:101
+#: data/icons.metainfo.xml.in:126 data/icons.metainfo.xml.in:162
+msgid "Removals:"
+msgstr "Odebrání:"
+
+#: data/icons.metainfo.xml.in:75
+msgid ""
+"non-fd.o \"bluetooth-*\", \"microphone-sensitivity-*\", and \"night-light\" "
+"symbolic panel icons"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:76
+msgid "\"mail-archive\" and \"mail-move\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:78 data/icons.metainfo.xml.in:106
+#: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
+msgid "Updated families:"
+msgstr "Aktualizovány sady:"
+
+#: data/icons.metainfo.xml.in:80
+msgid "\"insert-image-symbolic\" is now more detailed"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:81
+msgid "\"media-record\" has an updated palette"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:82
+msgid ""
+"\"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-optical\", "
+"\"open-menu\", \"system-run\" look better on dark backgrounds"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:83
+msgid ""
+"Improved arrow shape for \"browser-download\", \"document-send\", \"document-"
+"import/export\", \"object-merge\", \"object-rotate\", \"pane-hide/show\", "
+"and \"view-refresh\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:93 data/icons.metainfo.xml.in:121
+#: data/icons.metainfo.xml.in:155
+msgid "Additions:"
+msgstr "Přidáno:"
+
+#: data/icons.metainfo.xml.in:95
+msgid "\"list-drag-handle-symbolic\" as used in draggable list box rows"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:96
+msgid ""
+"\"selection-mode-symbolic\" as used in apps which have a button to switch a "
+"list into a selection mode"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:97
+msgid "\"adw-expander-arrow-symbolic\" as used in Adw.PreferencesWindow"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:98
+msgid "\"adw-external-link-symbolic\" as used in Adw.AboutWindow"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:99
+msgid "\"adw-tab-*\" icons as used with Adw.Tabbar"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:103
+msgid ""
+"\"network-*\" status icons which are not in the FreeDesktop icon name "
+"specification"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:104
+msgid ""
+"Device icons which are not in the FreeDesktop icon name specification: "
+"\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", \"printer-"
+"remote\", and \"system\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:108
+msgid ""
+"\"process-completed\" uses a new checkmark shape, has a 32px version, and "
+"symlinks were added for \"emblem-default\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:109
+msgid "Updated corner radius of \"edit-clear\" and \"document-*-symbolic\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:110
+msgid "Updated \"preferences-desktop-display\" and added a 64px version"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:123
+msgid "\"panel-left/right\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:124
+msgid "Symlink to \"application-x-xpinstall\" for web extension files"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:128
+msgid "\"internet-web-browser\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:129
+msgid "\"system-os-install\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:130
+msgid "\"preferences-desktop-accessibility-pointing\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:131
+msgid "\"preferences-desktop-accessibility-zoom\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:132
+msgid "\"preferences-color\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:133
+msgid "\"preferences-system-windows\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:134
+msgid "\"applications-education\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:135
+msgid "\"applications-interfacedesign\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:136
+msgid "\"applications-photography\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:137
+msgid "\"view-list-compact\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:141
+msgid ""
+"\"applications-development\" uses a purple tile and the same hammer glyph as "
+"build system file types"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:142
+msgid "\"system-file-manager\" is blue and tile shaped"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:143
+msgid "\"accessories-calculator\" redesigned as a tile shape"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:144
+msgid "Update the border radius of several tile-shaped icons"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:145
+msgid "\"view-*\" symbolic icons"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:157
+msgid "\"computer-fail\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:158
+msgid "\"preferences-desktop-theme\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:159
+msgid "\"application-x-sharedlib\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:160
+msgid "\"process-paused\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:164
+msgid "\"office-address-book\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:165
+msgid "Flash file types"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:169
+msgid "Clean up \"preferences-desktop-workspaces\""
+msgstr ""
+
+#: data/icons.metainfo.xml.in:170
+msgid "Update \"preferences-desktop\" to new tile shape"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:171
+msgid "Update \"image-missing\" to new tile shape"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:172
+msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:173
+msgid "Update \"document-import\" and \"document-export\" to new tile shape"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:174
+msgid "Update many file types with new arrow shape"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:175
+msgid "\"application-default-icon\" is now brightly colored"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:176
+msgid "\"media-stop\" is now a square"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:177
+#, fuzzy
+#| msgid "Add symbolic variant for updates icon"
+msgid "Round symbolic location status icons"
+msgstr "Přidána symbolická varianta pro ikonu aktualizací"
+
+#: data/icons.metainfo.xml.in:178
+msgid "Use an outlined shape for symbolic tag icons"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:179
+msgid "Use a rounded star for symbolic bookmark icons"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:180
+msgid "Redesign Night Light"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:181
+msgid "Use latest Flatpak branding"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:182
+msgid "Symbolic volume icons use a rounded shape and a slash when muted"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:184
+msgid "Other Changes:"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:186
+msgid "Fix broken link for SVG file types"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:187
+msgid "Fix missing links for PGP file types"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:188
+msgid "Scale some icons to more sizes"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Rounded media controls"
+#~ msgid "Rounder square icons"
+#~ msgstr "Zaoblené ovládací prvky médií"
+
+#~ msgid "elementary, Inc."
+#~ msgstr "elementary, Inc."
+
+#~ msgid "Additional sizes for playlist-queue"
+#~ msgstr "Další velikost pro frontu seznamu k přehrávání"
+
+#~ msgid "Redesign PDF file type"
+#~ msgstr "Předělán typ PDF souboru"
+
+#~ msgid "Additional sizes for emblem-downloads"
+#~ msgstr "Další velikosti pro emblémy stahování"
+
+#~ msgid "Remove arrows from Copy and Paste actions"
+#~ msgstr "Odebrány šipky z akcí Zkopírovat a Vložit"
+
+#~ msgid "Improved consistency between arrow shapes"
+#~ msgstr "Zlepšena jednotnost tvarů šipek"
+
+#~ msgid "Improved appearance of color icons against dark backgrounds"
+#~ msgstr "Vylepšen vzhled barev barevných ikon vůči tmavým pozadím"
+
+#~ msgid "More gender-neutral people icons"
+#~ msgstr "Více bezpohlavních ikon lidí"
+
+#~ msgid "Rounded media controls"
+#~ msgstr "Zaoblené ovládací prvky médií"
+
+#~ msgid "Rounded lightning bolt shape"
+#~ msgstr "Zaoblen tvar blesku"
+
+#~ msgid "More colorful battery icons"
+#~ msgstr "Barevnější ikony akumulátoru"
+
+#~ msgid "thunderbolt devices"
+#~ msgstr "thunderbolt zařízení"
+
+#~ msgid "symbolic headphones"
+#~ msgstr "symbolická sluchátka"
+
+#~ msgid "status emblems"
+#~ msgstr "emblémy stavu"
+
+#~ msgid "notification bell animations"
+#~ msgstr "animace zvonku upozornění"
+
+#~ msgid "Minor updates"
+#~ msgstr "Drobné aktualizace"
+
+#~ msgid ""
+#~ "Update emoji names for emoji picker in elementary OS 6 and latest GTK"
+#~ msgstr ""
+#~ "Aktualizovány názvy emotikon ve voliči emotikon pro GTK v elementary OS 6 "
+#~ "a pozdějších"
+
+#~ msgid "Replace Inkscape with rsvg for building cursors"
+#~ msgstr "Při sestavování ikon Inkscape nahrazeno za rsvg"
+
+#~ msgid "New Palette Colors:"
+#~ msgstr "Barvy nové palety:"
+
+#~ msgid "Add Bubblegum and Mint to official palette"
+#~ msgstr "Mezi oficiální palety přidána žvýkačka a máta"
+
+#~ msgid "Updated all eraser icons to use Bubblegum palette"
+#~ msgstr ""
+#~ "Veškeré ikony mazací pryže zaktualizovány tak, aby využívaly paletu "
+#~ "žvýkačka"
+
+#~ msgid "Updated \"path\" icons to use Mint palette"
+#~ msgstr "Aktualizovány ikony „cesta“ tak, aby používaly mátovou paletu"
+
+#~ msgid "Updated all pencil icons to use Banana palette"
+#~ msgstr ""
+#~ "Aktualizovány veškeré ikony tužek tak, aby využívali banánovou paletu"
+
+#~ msgid "New Icons:"
+#~ msgstr "Nové ikony:"
+
+#~ msgid "Add \"software-update-urgent\""
+#~ msgstr "Přidána urgentní aktualizace software"
+
+#~ msgid "Add \"sync-synchronizing\""
+#~ msgstr "Přidána synchronní synchronizace"
+
+#~ msgid "Scaled Icon Sizes:"
+#~ msgstr "Velikost ikon se změněným měřítkem:"
+
+#~ msgid "Add 24px \"window-close-symbolic\""
+#~ msgstr "Přidány 24 px symboly pro zavření okna"
+
+#~ msgid "Add 48px preferences icons"
+#~ msgstr "Přidány 48 px ikony pro předvolby"
+
+#~ msgid "Provide large cursors"
+#~ msgstr "Poskytnuty větší kurzory"
+
+#~ msgid "Fix alignment of several cursors"
+#~ msgstr "Opraveno zarovnání několika ukazatelů"
+
+#~ msgid "Use palette colors in copy cursors"
+#~ msgstr "Ve zkopírovaných ukazatelích použity barvy palety"
+
+#~ msgid "Fix direction of the ban symbol cursor and use red"
+#~ msgstr "Opraven směr symbolu ukazatele při odepření a použita červená barva"
+
+#~ msgid ""
+#~ "Add \"All Scroll\", \"No Drop\", \"Vertical Text\", and \"Zoom\" cursors"
+#~ msgstr ""
+#~ "Přidány ukazatele „Vše posouvat“, „Není možné přetáhnout sem“, „Svislý "
+#~ "text“ a „Přiblížení“"
+
+#~ msgid "Add 64px prefs locale"
+#~ msgstr "Přidáno 64 px předvoleb místní a jazyková nastavení"
+
+#~ msgid "Make symbol on 32px places home larger"
+#~ msgstr "Zvětšení symbolu na místech s 32 px"
+
+#~ msgid "New icons for Workspace preferences"
+#~ msgstr "Nové ikony pro předvolby pracovní plochy"
+
+#~ msgid "Give browser-download its own unique icon"
+#~ msgstr "Stahování z prohlížeče dostaly svou vlastní ikonu"
+
+#~ msgid "Use a more scalable metaphor for system updates"
+#~ msgstr "Použita škálovatelnější metafora pro aktualizace systému"
+
+#~ msgid "New view-reader icon"
+#~ msgstr "Nová ikona zobrazení-čtečka"
+
+#~ msgid "Add 32px wireless signal icons"
+#~ msgstr "Přidány ikony pro signál WiFi o velikost 32 px"
+
+#~ msgid "Add 24px user status icons"
+#~ msgstr "Přidány ikony pro stav uživatele o velikost 24 px"

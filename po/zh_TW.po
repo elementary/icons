@@ -1,0 +1,309 @@
+# Chinese translations for extra package.
+# Copyright (C) 2021 THE extra'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-06 19:03+0000\n"
+"PO-Revision-Date: 2024-09-05 21:13+0000\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
+"desktop/icons-extra/zh_Hant/>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
+
+#: data/icons.metainfo.xml.in:10
+msgid "elementary Icons"
+msgstr "elementary 圖示"
+
+#: data/icons.metainfo.xml.in:11
+msgid "Named, vector icons for elementary OS"
+msgstr "elementary OS 用的定名向量圖示"
+
+#: data/icons.metainfo.xml.in:14
+msgid ""
+"An original set of vector icons designed specifically for elementary OS and "
+"its desktop environment: Pantheon."
+msgstr "專門設計給 elementary OS 與其桌面環境 Pantheon 使用的原創向量圖示集。"
+
+#: data/icons.metainfo.xml.in:73 data/icons.metainfo.xml.in:101
+#: data/icons.metainfo.xml.in:126 data/icons.metainfo.xml.in:162
+msgid "Removals:"
+msgstr "移除項目："
+
+#: data/icons.metainfo.xml.in:75
+msgid ""
+"non-fd.o \"bluetooth-*\", \"microphone-sensitivity-*\", and \"night-light\" "
+"symbolic panel icons"
+msgstr ""
+"非由 Freedesktop.org 所定義的 \"bluetooth-*\"、\"microphone-sensitivity-*\" "
+"及 \"night-light\" 符號面板圖示"
+
+#: data/icons.metainfo.xml.in:76
+msgid "\"mail-archive\" and \"mail-move\""
+msgstr "\"mail-archive\" 和 \"mail-move\""
+
+#: data/icons.metainfo.xml.in:78 data/icons.metainfo.xml.in:106
+#: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
+msgid "Updated families:"
+msgstr "更新圖示家族："
+
+#: data/icons.metainfo.xml.in:80
+msgid "\"insert-image-symbolic\" is now more detailed"
+msgstr "\"insert-image-symbolic\" 現在有更多細節"
+
+#: data/icons.metainfo.xml.in:81
+msgid "\"media-record\" has an updated palette"
+msgstr "更新 \"media-record\" 的配色"
+
+#: data/icons.metainfo.xml.in:82
+msgid ""
+"\"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-optical\", "
+"\"open-menu\", \"system-run\" look better on dark backgrounds"
+msgstr ""
+"改善 \"document-page-setup\"、\"edit-copy\"、\"edit-cut\"、\"media-optical\""
+"、\"open-menu\" 和 \"system-run\" 在深色背景上的效果"
+
+#: data/icons.metainfo.xml.in:83
+msgid ""
+"Improved arrow shape for \"browser-download\", \"document-send\", \"document-"
+"import/export\", \"object-merge\", \"object-rotate\", \"pane-hide/show\", "
+"and \"view-refresh\""
+msgstr ""
+"改善 \"browser-download\"、\"document-send\"、\"document-import/export\""
+"、\"object-merge\"、\"object-rotate\"、\"pane-hide/show\" 和 \"view-refresh\""
+" 的箭頭形狀"
+
+#: data/icons.metainfo.xml.in:93 data/icons.metainfo.xml.in:121
+#: data/icons.metainfo.xml.in:155
+msgid "Additions:"
+msgstr "新增項目："
+
+#: data/icons.metainfo.xml.in:95
+msgid "\"list-drag-handle-symbolic\" as used in draggable list box rows"
+msgstr "\"list-drag-handle-symbolic\"，用於可拖曳列表方塊的列"
+
+#: data/icons.metainfo.xml.in:96
+msgid ""
+"\"selection-mode-symbolic\" as used in apps which have a button to switch a "
+"list into a selection mode"
+msgstr "\"selection-mode-symbolic\"，用於需要有按鈕來將列表切換為選取模式的應用程式"
+
+#: data/icons.metainfo.xml.in:97
+msgid "\"adw-expander-arrow-symbolic\" as used in Adw.PreferencesWindow"
+msgstr ""
+"\"adw-expander-arrow-symbolic\"，用於 Adw.PreferencesWindow（libadwaita "
+"偏好設定視窗）"
+
+#: data/icons.metainfo.xml.in:98
+msgid "\"adw-external-link-symbolic\" as used in Adw.AboutWindow"
+msgstr "\"adw-external-link-symbolic\"，用於 Adw.AboutWindow（libadwaita 關於視窗）"
+
+#: data/icons.metainfo.xml.in:99
+msgid "\"adw-tab-*\" icons as used with Adw.Tabbar"
+msgstr "\"adw-tab-*\" 各圖示，用於 Adw.Tabbar（libadwaita 分頁列）"
+
+#: data/icons.metainfo.xml.in:103
+msgid ""
+"\"network-*\" status icons which are not in the FreeDesktop icon name "
+"specification"
+msgstr "沒有定義在 FreeDesktop 圖示名稱標準中的 \"network-*\" 網路狀態圖示"
+
+#: data/icons.metainfo.xml.in:104
+msgid ""
+"Device icons which are not in the FreeDesktop icon name specification: "
+"\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", \"printer-"
+"remote\", and \"system\""
+msgstr ""
+"沒有定義在 FreeDesktop 圖示名稱標準中的裝置圖示：\"camera\"、\"drive-cdrom\""
+"、\"media-cdrom\"、\"music-player\"、\"printer-remote\" 和 \"system\""
+
+#: data/icons.metainfo.xml.in:108
+msgid ""
+"\"process-completed\" uses a new checkmark shape, has a 32px version, and "
+"symlinks were added for \"emblem-default\""
+msgstr ""
+"\"process-completed\" 現在使用新的勾選圖示形狀，有了 32px 版本，並為 \"emblem"
+"-default\" 新增符號連結"
+
+#: data/icons.metainfo.xml.in:109
+msgid "Updated corner radius of \"edit-clear\" and \"document-*-symbolic\""
+msgstr "更新 \"edit-clear\" 和 \"document-*-symbolic\" 的角落半徑"
+
+#: data/icons.metainfo.xml.in:110
+msgid "Updated \"preferences-desktop-display\" and added a 64px version"
+msgstr "更新 \"preferences-desktop-display\" 並添加 64px 版本"
+
+#: data/icons.metainfo.xml.in:123
+msgid "\"panel-left/right\""
+msgstr "\"panel-left/right\""
+
+#: data/icons.metainfo.xml.in:124
+msgid "Symlink to \"application-x-xpinstall\" for web extension files"
+msgstr "為 WebExtension 檔案提供 \"application-x-xpinstall\" 的符號連結"
+
+#: data/icons.metainfo.xml.in:128
+msgid "\"internet-web-browser\""
+msgstr "\"internet-web-browser\""
+
+#: data/icons.metainfo.xml.in:129
+msgid "\"system-os-install\""
+msgstr "\"system-os-install\""
+
+#: data/icons.metainfo.xml.in:130
+msgid "\"preferences-desktop-accessibility-pointing\""
+msgstr "\"preferences-desktop-accessibility-pointing\""
+
+#: data/icons.metainfo.xml.in:131
+msgid "\"preferences-desktop-accessibility-zoom\""
+msgstr "\"preferences-desktop-accessibility-zoom\""
+
+#: data/icons.metainfo.xml.in:132
+msgid "\"preferences-color\""
+msgstr "\"preferences-color\""
+
+#: data/icons.metainfo.xml.in:133
+msgid "\"preferences-system-windows\""
+msgstr "\"preferences-system-windows\""
+
+#: data/icons.metainfo.xml.in:134
+msgid "\"applications-education\""
+msgstr "\"applications-education\""
+
+#: data/icons.metainfo.xml.in:135
+msgid "\"applications-interfacedesign\""
+msgstr "\"applications-interfacedesign\""
+
+#: data/icons.metainfo.xml.in:136
+msgid "\"applications-photography\""
+msgstr "\"applications-photography\""
+
+#: data/icons.metainfo.xml.in:137
+msgid "\"view-list-compact\""
+msgstr "\"view-list-compact\""
+
+#: data/icons.metainfo.xml.in:141
+msgid ""
+"\"applications-development\" uses a purple tile and the same hammer glyph as "
+"build system file types"
+msgstr "\"applications-development\" "
+"使用紫色方塊，並與編譯系統檔案類型使用相同的鐵鎚形狀"
+
+#: data/icons.metainfo.xml.in:142
+msgid "\"system-file-manager\" is blue and tile shaped"
+msgstr "\"system-file-manager\" 改為藍色方塊狀"
+
+#: data/icons.metainfo.xml.in:143
+msgid "\"accessories-calculator\" redesigned as a tile shape"
+msgstr "\"accessories-calculator\" 重新設計為方塊狀"
+
+#: data/icons.metainfo.xml.in:144
+msgid "Update the border radius of several tile-shaped icons"
+msgstr "更新一些方塊狀圖示的角落半徑"
+
+#: data/icons.metainfo.xml.in:145
+msgid "\"view-*\" symbolic icons"
+msgstr "\"view-*\" 符號圖示"
+
+#: data/icons.metainfo.xml.in:157
+msgid "\"computer-fail\""
+msgstr "\"computer-fail\""
+
+#: data/icons.metainfo.xml.in:158
+msgid "\"preferences-desktop-theme\""
+msgstr "\"preferences-desktop-theme\""
+
+#: data/icons.metainfo.xml.in:159
+msgid "\"application-x-sharedlib\""
+msgstr "\"application-x-sharedlib\""
+
+#: data/icons.metainfo.xml.in:160
+msgid "\"process-paused\""
+msgstr "\"process-paused\""
+
+#: data/icons.metainfo.xml.in:164
+msgid "\"office-address-book\""
+msgstr "\"office-address-book\""
+
+#: data/icons.metainfo.xml.in:165
+msgid "Flash file types"
+msgstr "Adobe Flash 的檔案類型"
+
+#: data/icons.metainfo.xml.in:169
+msgid "Clean up \"preferences-desktop-workspaces\""
+msgstr "清理 \"preferences-desktop-workspaces\""
+
+#: data/icons.metainfo.xml.in:170
+msgid "Update \"preferences-desktop\" to new tile shape"
+msgstr "將 \"preferences-desktop\" 更新為新的方塊狀"
+
+#: data/icons.metainfo.xml.in:171
+msgid "Update \"image-missing\" to new tile shape"
+msgstr "將 \"image-missing\" 更新為新的方塊狀"
+
+#: data/icons.metainfo.xml.in:172
+msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
+msgstr "將 \"preferences-desktop-keyboard\" 更新為新的方塊狀"
+
+#: data/icons.metainfo.xml.in:173
+msgid "Update \"document-import\" and \"document-export\" to new tile shape"
+msgstr "將 \"document-import\" 和 \"document-export\" 更新為新的方塊狀"
+
+#: data/icons.metainfo.xml.in:174
+msgid "Update many file types with new arrow shape"
+msgstr "讓許多檔案類型使用新的箭頭形狀"
+
+#: data/icons.metainfo.xml.in:175
+msgid "\"application-default-icon\" is now brightly colored"
+msgstr "將 \"application-default-icon\" 改為明亮色彩"
+
+#: data/icons.metainfo.xml.in:176
+msgid "\"media-stop\" is now a square"
+msgstr "將 \"media-stop\" 改為正方形"
+
+#: data/icons.metainfo.xml.in:177
+msgid "Round symbolic location status icons"
+msgstr "圓形的位置資訊狀態圖示"
+
+#: data/icons.metainfo.xml.in:178
+msgid "Use an outlined shape for symbolic tag icons"
+msgstr "為符號標籤圖示使用有外框的形狀"
+
+#: data/icons.metainfo.xml.in:179
+msgid "Use a rounded star for symbolic bookmark icons"
+msgstr "為符號書籤圖示使用圓形和星星"
+
+#: data/icons.metainfo.xml.in:180
+msgid "Redesign Night Light"
+msgstr "重新設計夜光"
+
+#: data/icons.metainfo.xml.in:181
+msgid "Use latest Flatpak branding"
+msgstr "使用最新的 Flatpak 宣傳圖風格"
+
+#: data/icons.metainfo.xml.in:182
+msgid "Symbolic volume icons use a rounded shape and a slash when muted"
+msgstr "符號音量圖示現在使用圓滑形狀，並在靜音時使用斜線"
+
+#: data/icons.metainfo.xml.in:184
+msgid "Other Changes:"
+msgstr "其他變更："
+
+#: data/icons.metainfo.xml.in:186
+msgid "Fix broken link for SVG file types"
+msgstr "修正 SVG 檔案類型的連結失效的問題"
+
+#: data/icons.metainfo.xml.in:187
+msgid "Fix missing links for PGP file types"
+msgstr "修正 PGP 檔案類型缺乏連結的問題"
+
+#: data/icons.metainfo.xml.in:188
+msgid "Scale some icons to more sizes"
+msgstr "將某些圖示縮放到更多尺寸"

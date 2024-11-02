@@ -1,17 +1,26 @@
 name: CI
 
-on: [push, pull_request]
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
-    
+
+    strategy:
+      fail-fast: false
+      matrix:
+        version: [stable, unstable, development-target]
     container:
-      image: elementary/docker:unstable
-    
+      image: ghcr.io/elementary/docker:${{ matrix.version }}
+
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
     - name: Install Dependencies
       run: |
         apt update
@@ -19,5 +28,4 @@ jobs:
     - name: Build
       run: |
         meson build
-        ninja -C build
         ninja -C build install

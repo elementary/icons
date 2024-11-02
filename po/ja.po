@@ -1,0 +1,496 @@
+# Japanese translations for extra package.
+# Copyright (C) 2021 THE extra'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# Automatically generated, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-06 19:03+0000\n"
+"PO-Revision-Date: 2023-07-30 13:08+0000\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"Language-Team: Japanese <https://l10n.elementary.io/projects/desktop/icons-"
+"extra/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.17\n"
+
+#: data/icons.metainfo.xml.in:10
+msgid "elementary Icons"
+msgstr "elementary アイコン"
+
+#: data/icons.metainfo.xml.in:11
+msgid "Named, vector icons for elementary OS"
+msgstr "elementary OS 用の名前付きベクターアイコン"
+
+#: data/icons.metainfo.xml.in:14
+msgid ""
+"An original set of vector icons designed specifically for elementary OS and "
+"its desktop environment: Pantheon."
+msgstr ""
+"elementary OS とそのデスクトップ環境 (Pantheon) 用にデザインされた、オリジナ"
+"ルのベクターアイコンのセットです。"
+
+#: data/icons.metainfo.xml.in:73 data/icons.metainfo.xml.in:101
+#: data/icons.metainfo.xml.in:126 data/icons.metainfo.xml.in:162
+msgid "Removals:"
+msgstr "削除された項目:"
+
+#: data/icons.metainfo.xml.in:75
+msgid ""
+"non-fd.o \"bluetooth-*\", \"microphone-sensitivity-*\", and \"night-light\" "
+"symbolic panel icons"
+msgstr ""
+"Freedesktop の仕様に定義されていない \"bluetooth-*\"、\"microphone-"
+"sensitivity-*\"、\"night-light\" シンボリックパネルアイコン"
+
+#: data/icons.metainfo.xml.in:76
+msgid "\"mail-archive\" and \"mail-move\""
+msgstr "\"mail-archive\" と \"mail-move\""
+
+#: data/icons.metainfo.xml.in:78 data/icons.metainfo.xml.in:106
+#: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
+msgid "Updated families:"
+msgstr "アップデートされたアイコン:"
+
+#: data/icons.metainfo.xml.in:80
+msgid "\"insert-image-symbolic\" is now more detailed"
+msgstr "\"insert-image-symbolic\" のディテールを改善"
+
+#: data/icons.metainfo.xml.in:81
+msgid "\"media-record\" has an updated palette"
+msgstr "\"media-record\" に新しいパレットカラーを使用するように修正"
+
+#: data/icons.metainfo.xml.in:82
+msgid ""
+"\"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-optical\", "
+"\"open-menu\", \"system-run\" look better on dark backgrounds"
+msgstr ""
+"\"document-page-setup\"、\"edit-copy\"、\"edit-cut\"、\"media-"
+"optical\"、\"open-menu\"、\"system-run\" の黒背景色上での視認性を改善"
+
+#: data/icons.metainfo.xml.in:83
+msgid ""
+"Improved arrow shape for \"browser-download\", \"document-send\", \"document-"
+"import/export\", \"object-merge\", \"object-rotate\", \"pane-hide/show\", "
+"and \"view-refresh\""
+msgstr ""
+"\"browser-download\"、\"document-send\"、\"document-import/"
+"export\"、\"object-merge\"、\"object-rotate\"、\"pane-hide/show\"、\"view-"
+"refresh\" で使われている矢印の形状を改善"
+
+#: data/icons.metainfo.xml.in:93 data/icons.metainfo.xml.in:121
+#: data/icons.metainfo.xml.in:155
+msgid "Additions:"
+msgstr "追加項目:"
+
+#: data/icons.metainfo.xml.in:95
+msgid "\"list-drag-handle-symbolic\" as used in draggable list box rows"
+msgstr ""
+"ドラッグ可能なリストボックスの行に対して使用される \"list-drag-handle-"
+"symbolic\""
+
+#: data/icons.metainfo.xml.in:96
+msgid ""
+"\"selection-mode-symbolic\" as used in apps which have a button to switch a "
+"list into a selection mode"
+msgstr ""
+"リストモードから選択モードへの切り替えボタンが存在するアプリで使用される "
+"\"selection-mode-symbolic\""
+
+#: data/icons.metainfo.xml.in:97
+msgid "\"adw-expander-arrow-symbolic\" as used in Adw.PreferencesWindow"
+msgstr "Adw.PreferencesWindow で使用される \"adw-expander-arrow-symbolic\""
+
+#: data/icons.metainfo.xml.in:98
+msgid "\"adw-external-link-symbolic\" as used in Adw.AboutWindow"
+msgstr "Adw.AboutWindow で使用される \"adw-external-link-symbolic\""
+
+#: data/icons.metainfo.xml.in:99
+msgid "\"adw-tab-*\" icons as used with Adw.Tabbar"
+msgstr "Adw.Tabbar と一緒に使用される \"adw-tab-*\" アイコン"
+
+#: data/icons.metainfo.xml.in:103
+msgid ""
+"\"network-*\" status icons which are not in the FreeDesktop icon name "
+"specification"
+msgstr ""
+"Freedesktop のアイコン名の仕様に定義されていない \"network-*\" ステータスアイ"
+"コン"
+
+#: data/icons.metainfo.xml.in:104
+msgid ""
+"Device icons which are not in the FreeDesktop icon name specification: "
+"\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", \"printer-"
+"remote\", and \"system\""
+msgstr ""
+"Freedesktop のアイコン名の仕様に定義されていないデバイスアイコン: "
+"\"camera\"、\"drive-cdrom\"、\"media-cdrom\"、\"music-player\"、\"printer-"
+"remote\"、\"system\""
+
+#: data/icons.metainfo.xml.in:108
+msgid ""
+"\"process-completed\" uses a new checkmark shape, has a 32px version, and "
+"symlinks were added for \"emblem-default\""
+msgstr ""
+"\"process-completed\" に新しいチェックマーク状を使用し、32px 版を追加、およ"
+"び \"emblem-default\" へのシンボリックリンクを追加"
+
+#: data/icons.metainfo.xml.in:109
+msgid "Updated corner radius of \"edit-clear\" and \"document-*-symbolic\""
+msgstr "\"edit-clear\" と \"document-*-symbolic\" の角丸の比率を更新"
+
+#: data/icons.metainfo.xml.in:110
+msgid "Updated \"preferences-desktop-display\" and added a 64px version"
+msgstr "\"preferences-desktop-display\" を更新し、64px 版を追加"
+
+#: data/icons.metainfo.xml.in:123
+msgid "\"panel-left/right\""
+msgstr "\"panel-left/right\""
+
+#: data/icons.metainfo.xml.in:124
+msgid "Symlink to \"application-x-xpinstall\" for web extension files"
+msgstr ""
+"\"application-x-xpinstall\" へのシンボリックリンク (Web 拡張機能ファイル用)"
+
+#: data/icons.metainfo.xml.in:128
+msgid "\"internet-web-browser\""
+msgstr "\"internet-web-browser\""
+
+#: data/icons.metainfo.xml.in:129
+msgid "\"system-os-install\""
+msgstr "\"system-os-install\""
+
+#: data/icons.metainfo.xml.in:130
+msgid "\"preferences-desktop-accessibility-pointing\""
+msgstr "\"preferences-desktop-accessibility-pointing\""
+
+#: data/icons.metainfo.xml.in:131
+msgid "\"preferences-desktop-accessibility-zoom\""
+msgstr "\"preferences-desktop-accessibility-zoom\""
+
+#: data/icons.metainfo.xml.in:132
+msgid "\"preferences-color\""
+msgstr "\"preferences-color\""
+
+#: data/icons.metainfo.xml.in:133
+msgid "\"preferences-system-windows\""
+msgstr "\"preferences-system-windows\""
+
+#: data/icons.metainfo.xml.in:134
+msgid "\"applications-education\""
+msgstr "\"applications-education\""
+
+#: data/icons.metainfo.xml.in:135
+msgid "\"applications-interfacedesign\""
+msgstr "\"applications-interfacedesign\""
+
+#: data/icons.metainfo.xml.in:136
+msgid "\"applications-photography\""
+msgstr "\"applications-photography\""
+
+#: data/icons.metainfo.xml.in:137
+msgid "\"view-list-compact\""
+msgstr "\"view-list-compact\""
+
+#: data/icons.metainfo.xml.in:141
+msgid ""
+"\"applications-development\" uses a purple tile and the same hammer glyph as "
+"build system file types"
+msgstr ""
+"\"applications-development\" を紫色のタイル状に変更し、ビルドシステムのファイ"
+"ルタイプアイコン同様の金槌の絵に変更"
+
+#: data/icons.metainfo.xml.in:142
+msgid "\"system-file-manager\" is blue and tile shaped"
+msgstr "\"system-file-manager\" を青色のタイル状に変更"
+
+#: data/icons.metainfo.xml.in:143
+msgid "\"accessories-calculator\" redesigned as a tile shape"
+msgstr "\"accessories-calculator\" をタイル状にデザイン変更"
+
+#: data/icons.metainfo.xml.in:144
+msgid "Update the border radius of several tile-shaped icons"
+msgstr "複数のタイル状アイコンにおける四隅の丸みを変更"
+
+#: data/icons.metainfo.xml.in:145
+msgid "\"view-*\" symbolic icons"
+msgstr "\"view-*\" シンボリックアイコン"
+
+#: data/icons.metainfo.xml.in:157
+msgid "\"computer-fail\""
+msgstr "\"computer-fail\""
+
+#: data/icons.metainfo.xml.in:158
+msgid "\"preferences-desktop-theme\""
+msgstr "\"preferences-desktop-theme\""
+
+#: data/icons.metainfo.xml.in:159
+msgid "\"application-x-sharedlib\""
+msgstr "\"application-x-sharedlib\""
+
+#: data/icons.metainfo.xml.in:160
+msgid "\"process-paused\""
+msgstr "\"process-paused\""
+
+#: data/icons.metainfo.xml.in:164
+msgid "\"office-address-book\""
+msgstr "\"office-address-book\""
+
+#: data/icons.metainfo.xml.in:165
+msgid "Flash file types"
+msgstr "Adobe Flash のファイルタイプ"
+
+#: data/icons.metainfo.xml.in:169
+msgid "Clean up \"preferences-desktop-workspaces\""
+msgstr "\"preferences-desktop-workspaces\" をクリーンアップ"
+
+#: data/icons.metainfo.xml.in:170
+msgid "Update \"preferences-desktop\" to new tile shape"
+msgstr "\"preferences-desktop\" を新しいタイル状に更新"
+
+#: data/icons.metainfo.xml.in:171
+msgid "Update \"image-missing\" to new tile shape"
+msgstr "\"image-missing\" を新しいタイル状に更新"
+
+#: data/icons.metainfo.xml.in:172
+msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
+msgstr "\"preferences-desktop-keyboard\" を新しいタイル状に更新"
+
+#: data/icons.metainfo.xml.in:173
+msgid "Update \"document-import\" and \"document-export\" to new tile shape"
+msgstr "\"document-import\" と \"document-export\" を新しいタイル状に更新"
+
+#: data/icons.metainfo.xml.in:174
+msgid "Update many file types with new arrow shape"
+msgstr "複数のファイルタイプアイコンを新しい矢印状に更新"
+
+#: data/icons.metainfo.xml.in:175
+msgid "\"application-default-icon\" is now brightly colored"
+msgstr "\"application-default-icon\" を明るい色調に変更"
+
+#: data/icons.metainfo.xml.in:176
+msgid "\"media-stop\" is now a square"
+msgstr "\"media-stop\" を正方形に変更"
+
+#: data/icons.metainfo.xml.in:177
+msgid "Round symbolic location status icons"
+msgstr "シンボリック版の位置情報使用状況アイコンを角丸に修正"
+
+#: data/icons.metainfo.xml.in:178
+msgid "Use an outlined shape for symbolic tag icons"
+msgstr "シンボリック版のタグアイコンを枠線のみの形状に変更"
+
+#: data/icons.metainfo.xml.in:179
+msgid "Use a rounded star for symbolic bookmark icons"
+msgstr "シンボリック版のブックマークアイコンを角丸の星に変更"
+
+#: data/icons.metainfo.xml.in:180
+msgid "Redesign Night Light"
+msgstr "夜間モードアイコンをデザイン変更"
+
+#: data/icons.metainfo.xml.in:181
+msgid "Use latest Flatpak branding"
+msgstr "Flatpak の最新のブランドマークを使用するように修正"
+
+#: data/icons.metainfo.xml.in:182
+msgid "Symbolic volume icons use a rounded shape and a slash when muted"
+msgstr ""
+"シンボリック版音量アイコンを角丸に変更し、ミュート時にスラッシュを表示するよ"
+"うに変更"
+
+#: data/icons.metainfo.xml.in:184
+msgid "Other Changes:"
+msgstr "そのほかの変更点:"
+
+#: data/icons.metainfo.xml.in:186
+msgid "Fix broken link for SVG file types"
+msgstr "SVG ファイルタイプに対するリンクが切れていた問題を修正"
+
+#: data/icons.metainfo.xml.in:187
+msgid "Fix missing links for PGP file types"
+msgstr "PGP ファイルタイプに対するリンクが切れていた問題を修正"
+
+#: data/icons.metainfo.xml.in:188
+msgid "Scale some icons to more sizes"
+msgstr "一部アイコンにより大きいサイズを追加"
+
+#~ msgid "caps-lock-symbolic"
+#~ msgstr "caps-lock-symbolic"
+
+#~ msgid "eye-not-looking-symbolic"
+#~ msgstr "eye-not-looking-symbolic"
+
+#~ msgid "eye-open-negative-filled-symbolic"
+#~ msgstr "eye-open-negative-filled-symbolic"
+
+#~ msgid "num-lock-symbolic"
+#~ msgstr "num-lock-symbolic"
+
+#~ msgid "Redesign media-playlist-repeat"
+#~ msgstr "media-playlist-repeat のデザインを変更"
+
+#~ msgid "Update media-playlist-shuffle and media-playlist-consecutive"
+#~ msgstr "media-playlist-shuffle と media-playlist-consecutive を更新"
+
+#~ msgid "Rounder square icons"
+#~ msgstr "正方形のアイコンの角丸が大きくなるように修正"
+
+#~ msgid "Rounded arrow corners on Downloads folder"
+#~ msgstr "“ダウンロード”フォルダーアイコンの矢印を角丸に変更"
+
+#~ msgid "Deb and Flatpak Bundle files use a package metaphor"
+#~ msgstr ""
+#~ "deb ファイルと Flatpak バンドルファイルのアイコンに、パッケージ (箱) のデ"
+#~ "ザインを採用"
+
+#~ msgid "Updates arrow points up"
+#~ msgstr "上向き矢印を更新"
+
+#~ msgid "Redesigned package with new colors"
+#~ msgstr "パッケージアイコンが新しい色を使ったデザインに変更"
+
+#~ msgid "notification-*"
+#~ msgstr "notification-*"
+
+#~ msgid "Non-FDO network-*"
+#~ msgstr "Freedesktop.org 準拠ではない network-*"
+
+#~ msgid "Non-FDO app icons"
+#~ msgstr "Freedesktop.org 準拠ではないアプリアイコン"
+
+#~ msgid "elementary, Inc."
+#~ msgstr "elementary, Inc."
+
+#~ msgid "Additional sizes for playlist-queue"
+#~ msgstr "playlist-queue の追加サイズ"
+
+#~ msgid "Redesign PDF file type"
+#~ msgstr "PDF ファイルアイコンのデザインを変更"
+
+#~ msgid "Additional sizes for emblem-downloads"
+#~ msgstr "emblem-downloads の追加サイズ"
+
+#~ msgid "Remove arrows from Copy and Paste actions"
+#~ msgstr "コピー／貼り付けのアクションアイコンから矢印を削除"
+
+#~ msgid "Improved consistency between arrow shapes"
+#~ msgstr "矢印の形状に一貫性を持たせるように変更"
+
+#~ msgid "Improved appearance of color icons against dark backgrounds"
+#~ msgstr "ダークスタイルにおける色付きアイコンの見た目を改善"
+
+#~ msgid "More gender-neutral people icons"
+#~ msgstr "ジェンダーフリーな人物のアイコンに変更"
+
+#~ msgid "Rounded media controls"
+#~ msgstr "メディアコントロールを角丸に変更"
+
+#~ msgid "Rounded lightning bolt shape"
+#~ msgstr "充電アイコンを角丸に変更"
+
+#~ msgid "More colorful battery icons"
+#~ msgstr "バッテリーアイコンをさらにカラフルに変更"
+
+#~ msgid "thunderbolt devices"
+#~ msgstr "Thunderbolt デバイスアイコン"
+
+#~ msgid "symbolic headphones"
+#~ msgstr "シンボリック版のヘッドホンアイコン"
+
+#~ msgid "status emblems"
+#~ msgstr "ステータスエンブレム"
+
+#~ msgid "notification bell animations"
+#~ msgstr "通知ベルのアニメーションアイコン"
+
+#~ msgid "Minor updates"
+#~ msgstr "そのほかのアップデート"
+
+#~ msgid ""
+#~ "Update emoji names for emoji picker in elementary OS 6 and latest GTK"
+#~ msgstr ""
+#~ "絵文字の名前を elementary OS 6 と最新版の GTK の絵文字ピッカーで使用されて"
+#~ "いるものに変更"
+
+#~ msgid "Replace Inkscape with rsvg for building cursors"
+#~ msgstr "カーソルのビルドに Inkscape ではなく rsvg を使用するように変更"
+
+#~ msgid "New Palette Colors:"
+#~ msgstr "新しいパレットの色:"
+
+#~ msgid "Add Bubblegum and Mint to official palette"
+#~ msgstr "ピンクとミントを公式パレットに追加"
+
+#~ msgid "Updated all eraser icons to use Bubblegum palette"
+#~ msgstr "消しゴムアイコンでパレットの“ピンク”を使うように変更"
+
+#~ msgid "Updated \"path\" icons to use Mint palette"
+#~ msgstr "\"path\" アイコンでパレットの“ミント”を使うように変更"
+
+#~ msgid "Updated all pencil icons to use Banana palette"
+#~ msgstr "鉛筆アイコンでパレットの“バナナ”を使うように変更"
+
+#~ msgid "New Icons:"
+#~ msgstr "新しいアイコン:"
+
+#~ msgid "Add \"software-update-urgent\""
+#~ msgstr "\"software-update-urgent\" を追加"
+
+#~ msgid "Add \"sync-synchronizing\""
+#~ msgstr "\"sync-synchronizing\" を追加"
+
+#~ msgid "Scaled Icon Sizes:"
+#~ msgstr "スケールアイコンの変更:"
+
+#~ msgid "Add 24px \"window-close-symbolic\""
+#~ msgstr "\"window-close-symbolic\" に 24px 版を追加"
+
+#~ msgid "Add 48px preferences icons"
+#~ msgstr "設定アイコンに 48px 版を追加"
+
+#~ msgid "Provide large cursors"
+#~ msgstr "大きなカーソルアイコンを追加"
+
+#~ msgid "Fix alignment of several cursors"
+#~ msgstr "カーソルの配置を修正"
+
+#~ msgid "Use palette colors in copy cursors"
+#~ msgstr "“コピー”カーソルでパレットにある色を使うように変更"
+
+#~ msgid "Fix direction of the ban symbol cursor and use red"
+#~ msgstr "禁止マークのカーソルの向きを変更し、赤色を使うように修正"
+
+#~ msgid ""
+#~ "Add \"All Scroll\", \"No Drop\", \"Vertical Text\", and \"Zoom\" cursors"
+#~ msgstr "“all-scroll”、“no-drop”、“vertical-text”、“zoom” カーソルを追加"
+
+#~ msgid "Add 64px prefs locale"
+#~ msgstr "\"preferences-desktop-locale\" に 64px 版を追加"
+
+#~ msgid "Make symbol on 32px places home larger"
+#~ msgstr ""
+#~ "32px 版のホームフォルダーアイコンにある家のマークを大きくなるように修正"
+
+#~ msgid "New icons for Workspace preferences"
+#~ msgstr "ワークスペース設定の新しいアイコン"
+
+#~ msgid "Give browser-download its own unique icon"
+#~ msgstr "“browser-download”を専用のアイコンに変更"
+
+#~ msgid "Use a more scalable metaphor for system updates"
+#~ msgstr ""
+#~ "システムアップデートのアイコンを、拡大・縮小しても見やすいシンボルに変更"
+
+#~ msgid "New view-reader icon"
+#~ msgstr "新しい “view-reader” アイコン"
+
+#~ msgid "Add 32px wireless signal icons"
+#~ msgstr "無線状況を示すアイコンに 32px 版を追加"
+
+#~ msgid "Add 24px user status icons"
+#~ msgstr "ユーザーの状態を示すアイコンに 24px 版を追加"
