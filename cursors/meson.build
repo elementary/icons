@@ -227,6 +227,10 @@ links += [[
 links += [[
     'grabbing',
     [
+        'dnd-ask',
+        'dnd-copy',
+        'dnd-link',
+        'dnd-move',
         'dnd-none',
         'fleur'
     ]
