@@ -180,6 +180,7 @@ links += [[
 links += [[
     'copy',
     [
+        'dnd-copy',
         '6407b0e94181790501fd1e167b474872',
         '1081e37283d90000800003c07f3ef6bf'
     ]
@@ -227,6 +228,9 @@ links += [[
 links += [[
     'grabbing',
     [
+        'dnd-ask',
+        'dnd-link',
+        'dnd-move',
         'dnd-none',
         'fleur'
     ]
