@@ -29,7 +29,31 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
-    <release version="8.0.0" date="2023-05-06" urgency="medium">
+    <release version="8.1.0" date="2024-10-23" urgency="medium">
+      <p>Additions:</p>
+      <ul>
+        <li>import and export actions at 16x</li>
+        <li>`mail-send-receive` now has a color version</li>
+        <li>`system-software-install` has a new icon, separate from the AppCenter branding</li>
+        <li>symlinks are now handled in the build system</li>
+      </ul>
+      <p>Updated families:</p>
+      <ul>
+        <li>Fixed color, pagesizes, and grid alignment for all symbolic icons</li>
+        <li>`text` and `text-vertical` cursors have new designs, matching the new cursor style from 8.0.0</li>
+        <li>Chat bubbles are now used for `user-*` status icons</li>
+        <li>`preferences-desktop-locacle-symbolic` has been updated to be closer to the color version</li>
+        <li>The colors of the magnifying glass in print preview actions has been unified with that of the find action</li>
+        <li>`mail-message-new` has been made more uniform across its variations</li>
+        <li>`save-as-symbolic` has a new design to differentiate from `save`</li>
+        <li>session icons (`system-*`) have had minor updates to shape language and color added</li>
+      </ul>
+      <issues>
+        <issue url="https://github.com/elementary/icons/issues/1307">Status: user-* icon styles differ between fullcolor and symbolic</issue>
+        <issue url="https://github.com/elementary/icons/issues/1151">system-software-install</issue>
+      </issues>
+    </release>
+    <release version="8.0.0" date="2024-05-06" urgency="medium">
         <p>Additions:</p>
         <ul>
           <li>`preferences-desktop-wallpaper` is now a unique icon from `preferences-desktop` and features a colorful paint roller design</li>
