@@ -27,7 +27,7 @@ cursors = [
     'zoom-out'
 ]
 
-watches = [
+progress_cursors = [
     'progress_01',
     'progress_02',
     'progress_03',
@@ -43,7 +43,10 @@ watches = [
     'progress_13',
     'progress_14',
     'progress_15',
-    'progress_16',
+    'progress_16'
+]
+
+wait_cursors = [
     'wait_01',
     'wait_02',
     'wait_03',
@@ -80,19 +83,31 @@ foreach size: sizes
                 rsvg, '--format', 'png',
                 '--width=@0@'.format(size), '--height=@0@'.format(size),
                 '--output', '@0@.png'.format(join_paths (meson.project_build_root(), 'cursors', size + 'x' + size, cursor)),
-                join_paths ('24', cursor + '.svg'),
+                'cursors_scalable' / cursor / cursor + '.svg',
                 check: true,
             )
     endforeach
 
-    foreach watch : watches
-            message('rendering: ' + size + 'x' + size + '/' + watch + '.png')
+    foreach progress_cursor : progress_cursors
+            message('rendering: ' + size + 'x' + size + '/' + progress_cursor + '.png')
 
             run_command(
                 rsvg, '--format', 'png',
                 '--width=@0@'.format(size), '--height=@0@'.format(size),
-                '--output', '@0@.png'.format(join_paths (meson.project_build_root(), 'cursors', size + 'x' + size, watch)),
-                join_paths ('24', watch + '.svg'),
+                '--output', '@0@.png'.format(join_paths (meson.project_build_root(), 'cursors', size + 'x' + size, progress_cursor)),
+                'cursors_scalable' / 'progress' / progress_cursor + '.svg',
+                check: true,
+            )
+    endforeach
+
+    foreach wait_cursor : wait_cursors
+            message('rendering: ' + size + 'x' + size + '/' + wait_cursor + '.png')
+
+            run_command(
+                rsvg, '--format', 'png',
+                '--width=@0@'.format(size), '--height=@0@'.format(size),
+                '--output', '@0@.png'.format(join_paths (meson.project_build_root(), 'cursors', size + 'x' + size, wait_cursor)),
+                'cursors_scalable' / 'wait' / wait_cursor + '.svg',
                 check: true,
             )
     endforeach
@@ -118,6 +133,11 @@ foreach cursor : cursors
         install_dir: cursor_dir
     )
 endforeach
+
+install_subdir(
+    'cursors_scalable',
+    install_dir: icon_dir
+)
 
 links = []
 
@@ -160,6 +180,7 @@ links += [[
 links += [[
     'copy',
     [
+        'dnd-copy',
         '6407b0e94181790501fd1e167b474872',
         '1081e37283d90000800003c07f3ef6bf'
     ]
@@ -207,6 +228,9 @@ links += [[
 links += [[
     'grabbing',
     [
+        'dnd-ask',
+        'dnd-link',
+        'dnd-move',
         'dnd-none',
         'fleur'
     ]
@@ -307,6 +331,12 @@ foreach link_entry : links
         install_symlink(
             dest,
             install_dir: cursor_dir,
+            pointing_to: src,
+        )
+
+        install_symlink(
+            dest,
+            install_dir: icon_dir / 'cursors_scalable',
             pointing_to: src,
         )
     endforeach
