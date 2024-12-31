@@ -3,8 +3,16 @@ It is recommended to use the free and open source [Inkscape](http://inkscape.org
 
 An elementary color palette is provided, it is recommended to copy it into your Inkscape settings before you get started.
 
+_(Run these from the root of the icons repo)_
 ```bash
-cp elementary.gpl ~/.config/inkscape/palettes/
+cp data/elementary.gpl ~/.config/inkscape/palettes/
+```
+
+For flatpak installations, use one of the following.
+
+```bash
+# Local
+cp data/elementary.gpl ~/.local/share/flatpak/app/org.inkscape.Inkscape/current/active/files/share/inkscape/palettes/
 ```
 
 To contribute to the elementary icon set, open a pull request to this repository with your icon(s).
