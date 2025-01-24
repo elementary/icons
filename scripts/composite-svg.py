@@ -33,4 +33,5 @@ for element in defs.iter():
 bRoot.extend(shapes)
 
 # Write out the tree to the target filename
-bTree.write(fTarget)
+with open(fTarget, 'w') as file:
+    bTree.write(file)

@@ -1,5 +1,8 @@
 mime_sizes = ['16', '24', '32', '48', '64', '128']
 
+python3 = find_program('python3')
+composite-svg = join_paths(meson.project_source_root(), 'scripts', 'composite-svg.py')
+
 mime_types = [
     # The first argument is the icon name,
     # the second is the base that should be used
@@ -84,13 +87,18 @@ mime_types = [
 
 foreach type : mime_types
     foreach size: mime_sizes
+        message('compositing: ' + type[0] + '.svg and' + type[1] + '.svg @ ' + size )
+
+        output_file = '@0@'.format(join_paths(meson.project_build_root(), 'mimes', size, type[0]))
+        run_command('touch', output_file)
+
         run_command(
-            'python3',
-            '..' / 'scripts' / 'composite-svg.py',
-            '..' / 'mimes' / size / type[0] + '.svg',
-            '..' / 'mimes' / size / type[1] + '.svg',
-            icon_dir / 'mimes' / size / type[0] + '.svg',
-            check: false 
+            python3,
+            composite-svg, 
+            '@0@'.format(join_path(meson.current_source_dir(), size, type[0])),
+            '@0@'.format(join_path(meson.current_source_dir(), size, type[1])),
+            output_file,
+            check: true 
         )       
     endforeach
 endforeach
