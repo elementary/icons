@@ -84,7 +84,13 @@ mime_types = [
 
 foreach type : mime_types
     foreach size: mime_sizes
-        run_command('python3', ../ 'scripts' / 'composite-svg.py', type[0] + '.svg', type[1] + '.svg', check: true)       
+        run_command(
+            'python3',
+            '..' / 'scripts' / 'composite-svg.py',
+            '..' / 'mimes' / size / type[0] + '.svg',
+            '..' / 'mimes' / size / type[1] + '.svg',
+            check: true
+        )       
     endforeach
 endforeach
 
