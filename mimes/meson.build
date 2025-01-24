@@ -84,11 +84,15 @@ mime_types = [
     ['x-office-spreadsheet-template', 'base-generic']
 ]
 
+foreach size: mime_sizes
+    run_command('mkdir', join_paths(meson.project_build_root(), 'mimes', size), check: false)
+endforeach
+
 foreach type : mime_types
     foreach size: mime_sizes
         message('compositing: ' + type[0] + '.svg and ' + type[1] + '.svg @ ' + size )
 
-        output_file = '@0@'.format(join_paths(meson.project_build_root(), 'mimes', size, type[0]))
+        output_file = '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, type[0]))
         run_command('touch', output_file)
 
         run_command(
