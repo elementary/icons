@@ -75,11 +75,6 @@ mime_types = [
 
     ['unknown', 'base-generic'],
 
-    ['x-office-document', 'base-generic'],
-    ['x-office-document-rtl', 'base-generic'],
-    ['x-office-document-template', 'base-generic'],
-    ['x-office-document-template-rtl', 'base-generic'],
-
     ['x-office-drawing', 'base-generic'],
     ['x-office-drawing-template', 'base-generic'],
 
