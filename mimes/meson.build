@@ -1,5 +1,98 @@
 mime_sizes = ['16', '24', '32', '48', '64', '128']
 
+mime_types = [
+    # The first argument is the icon name,
+    # the second is the base that should be used
+    ['application-illustrator', 'base-generic'],
+    ['application-javascript', 'base-generic'],
+    ['application-json', 'base-generic'],
+    ['application-msword', 'base-generic'],
+    ['application-octet-stream', 'base-generic'],
+    ['application-pdf', 'base-generic'],
+    ['application-pgp', 'base-generic'],
+    ['application-typescript', 'base-generic'],
+
+    ['application-vnd.debian.binary-package', 'base-package'],
+    ['application-vnd.flatpak.ref', 'base-generic'],
+    ['application-vnd.flatpak', 'base-package'],
+    ['application-vnd.ms-access', 'base-generic'],
+    ['application-vnd.ms-excel', 'base-generic'],
+    ['application-vnd.ms-powerpoint', 'base-generic'],
+    ['application-vnd.oasis.opendocument.chart', 'base-generic'],
+    ['application-vnd.openxmlformats-officedocument.presentationml.template', 'base-generic'],
+    ['application-vnd.openxmlformats-officedocument.spreadsheetml.template', 'base-generic'],
+    ['application-vnd.openxmlformats-officedocument.wordprocessingml.template', 'base-generic'],
+
+    ['application-x-bittorrent', 'base-generic'],
+    ['application-x-cd-image', 'base-generic'],
+    ['application-x-desktop', 'base-generic'],
+    ['application-x-executable', 'base-executable'],
+    ['application-x-ms-dos-executable', 'base-executable'],
+    ['application-x-partial-download', 'base-generic'],
+    ['application-x-php', 'base-generic'],
+    ['application-x-ruby', 'base-generic'],
+    ['application-x-sharedlib', 'base-generic'],
+
+    ['audio-x-generic', 'base-generic'],
+    ['audio-x-playlist', 'base-generic'],
+    ['audio-x-playlist-rtl', 'base-generic'],
+
+    ['font-x-generic', 'base-generic'],
+
+    ['image-vnd.adobe.photoshop', 'base-generic'],
+    ['image-x-xcf', 'base-generic'],
+
+    ['internet-feed', 'base-generic'],
+    ['model', 'base-generic'],
+    ['office-contact', 'base-generic'],
+
+    ['text-css', 'base-generic'],
+    ['text-html', 'base-generic'],
+    ['text-markdown', 'base-generic'],
+    ['text-x-bibtex', 'base-generic'],
+    ['text-x-changelog', 'base-generic'],
+    ['text-x-chdr', 'base-generic'],
+    ['text-x-copying', 'base-generic'],
+    ['text-x-csrc', 'base-generic'],
+    ['text-x-generic', 'base-generic'],
+    ['text-x-generic-rtl', 'base-generic'],
+    ['text-x-generic-template', 'base-generic'],
+    ['text-x-generic-template-rtl', 'base-generic'],
+    ['text-x-gettext-translation', 'base-generic'],
+    ['text-x-gettext-translation-template', 'base-generic'],
+    ['text-x-go', 'base-generic'],
+    ['text-x-install', 'base-generic'],
+    ['text-x-makefile', 'base-generic'],
+    ['text-x-preview', 'base-generic'],
+    ['text-x-python', 'base-generic'],
+    ['text-x-readme', 'base-generic'],
+    ['text-x-readme', 'base-generic'],
+    ['text-x-sass', 'base-generic'],
+    ['text-x-script', 'base-generic'],
+    ['text-x-ssa', 'base-generic'],
+    ['text-x-tex', 'base-generic'],
+    ['text-x-vala', 'base-generic'],
+
+    ['unknown', 'base-generic'],
+
+    ['x-office-document', 'base-generic'],
+    ['x-office-document-rtl', 'base-generic'],
+    ['x-office-document-template', 'base-generic'],
+    ['x-office-document-template-rtl', 'base-generic'],
+
+    ['x-office-drawing', 'base-generic'],
+    ['x-office-drawing-template', 'base-generic'],
+
+    ['x-office-spreadsheet', 'base-generic'],
+    ['x-office-spreadsheet-template', 'base-generic']
+]
+
+foreach type : mime_types
+    foreach size: mime_sizes
+        run_command('python3', ../ 'scripts' / 'composite-svg.py', type[0] + '.svg', type[1] + '.svg', check: true)       
+    endforeach
+endforeach
+
 mime_links = [
     # The first argument is the original icon name,
     # the second is the link
