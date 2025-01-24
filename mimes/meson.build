@@ -94,8 +94,8 @@ foreach type : mime_types
         run_command(
             python3,
             '@0@.py'.format(join_paths(meson.project_source_root(), 'scripts', 'composite-svg')), 
-            '@0@.svg'.format(join_path(meson.current_source_dir(), size, type[0])),
-            '@0@.svg'.format(join_path(meson.current_source_dir(), size, type[1])),
+            '@0@.svg'.format(join_paths(meson.current_source_dir(), size, type[0])),
+            '@0@.svg'.format(join_paths(meson.current_source_dir(), size, type[1])),
             output_file,
             check: true 
         )       
