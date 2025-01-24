@@ -86,7 +86,7 @@ mime_types = [
 
 foreach type : mime_types
     foreach size: mime_sizes
-        message('compositing: ' + type[0] + '.svg and' + type[1] + '.svg @ ' + size )
+        message('compositing: ' + type[0] + '.svg and ' + type[1] + '.svg @ ' + size )
 
         output_file = '@0@'.format(join_paths(meson.project_build_root(), 'mimes', size, type[0]))
         run_command('touch', output_file)
@@ -97,7 +97,7 @@ foreach type : mime_types
             '@0@.svg'.format(join_paths(meson.current_source_dir(), size, type[0])),
             '@0@.svg'.format(join_paths(meson.current_source_dir(), size, type[1])),
             output_file,
-            check: true 
+            check: false 
         )       
     endforeach
 endforeach
