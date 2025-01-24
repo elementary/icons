@@ -89,7 +89,8 @@ foreach type : mime_types
             '..' / 'scripts' / 'composite-svg.py',
             '..' / 'mimes' / size / type[0] + '.svg',
             '..' / 'mimes' / size / type[1] + '.svg',
-            check: true
+            icon_dir / 'mimes' / size / type[0] + '.svg',
+            check: false 
         )       
     endforeach
 endforeach

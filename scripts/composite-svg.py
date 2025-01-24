@@ -2,14 +2,15 @@ import sys
 import xml.etree.ElementTree as ET
 
 svg = "{http://www.w3.org/2000/svg}"
-fTarget = sys.argv[1]   # Target file
+fType = sys.argv[1]     # Type file
 fBase = sys.argv[2]     # Base file
+fTarget = sys.argv[3]   # Target file
 
 # All svg elements and definitions are copied from file 1 to file 2
 # File 1's contents will appear on top of File 2's contents, so File 2 should only be the base shape
 # It is assumed that both files have the same dimensions, and that elements are aligned properly
 
-tTree = ET.parse(fTarget)
+tTree = ET.parse(fType)
 tRoot = tTree.getroot()
 defs = tRoot.find(f"{svg}defs")
 
@@ -31,5 +32,5 @@ for element in defs.iter():
 
 bRoot.extend(shapes)
 
-# Write out the tree to the first filename
+# Write out the tree to the target filename
 bTree.write(fTarget)
