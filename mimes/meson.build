@@ -1,7 +1,6 @@
 mime_sizes = ['16', '24', '32', '48', '64', '128']
 
 python3 = find_program('python3')
-composite-svg = '@0@.py'.format(join_paths(meson.project_source_root(), 'scripts', 'composite-svg'))
 
 mime_types = [
     # The first argument is the icon name,
@@ -98,7 +97,7 @@ foreach type : mime_types
 
         run_command(
             python3,
-            composite-svg, 
+            '@0@.py'.format(join_paths(meson.project_source_root(), 'scripts', 'composite-svg')), 
             '@0@.svg'.format(join_paths(meson.current_source_dir(), size, type[0])),
             '@0@.svg'.format(join_paths(meson.current_source_dir(), size, type[1])),
             output_file,
@@ -126,14 +125,13 @@ templates = [
 foreach template : templates
     foreach size: mime_sizes
         message('adding template decoration: ' + template + '.svg @ ' + size)
-        base-file = '@0@.svg'.format(join_paths(meson.current_source_dir(), size, template))
 
         run_command(
             python3, 
-            composite-svg, 
-            '@0@.svg'.format(join_paths(meson.current_source_dir(), size, 'decoration-template.svg')), 
-            base-file,
-            base-file,
+            '@0@.py'.format(join_paths(meson.project_source_root(), 'scripts', 'composite-svg')), 
+            '@0@.svg'.format(join_paths(meson.current_source_dir(), size, 'decoration-template')), 
+            '@0@.svg'.format(join_paths(meson.current_source_dir(), size, template)),
+            '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, template)),
             check: false
         )
     endforeach
