@@ -2,6 +2,8 @@ mime_sizes = ['16', '24', '32', '48', '64', '128']
 
 python3 = find_program('python3')
 
+# Copy src dir to build dir, to give a base to work on
+
 mime_types = [
     # The first argument is the icon name,
     # the second is the base that should be used
@@ -138,6 +140,12 @@ foreach template : templates
         )
     endforeach
 endforeach
+
+install_subdir(
+    meson.project_build_root() / 'mimes',
+    install_dir: icon_dir,
+    strip_directory: false
+)
 
 mime_links = [
     # The first argument is the original icon name,
