@@ -130,7 +130,9 @@ foreach template : templates
             python3, 
             '@0@.py'.format(join_paths(meson.project_source_root(), 'scripts', 'composite-svg')), 
             '@0@.svg'.format(join_paths(meson.current_source_dir(), size, 'decoration-template')), 
-            '@0@.svg'.format(join_paths(meson.current_source_dir(), size, template)),
+            # We operate entirely in the build directory here, because we are
+            # cascading off of a previously composited file
+            '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, template)),
             '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, template)),
             check: false
         )
