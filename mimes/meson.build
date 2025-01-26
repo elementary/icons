@@ -1,6 +1,6 @@
 mime_sizes = ['16', '24', '32', '48', '64', '128']
 
-python3 = find_program('python3')
+python3 = find_program('python3', required: true)
 
 # Copy src dir to build dir, to give a base to work on
 
@@ -92,19 +92,21 @@ endforeach
 
 foreach type : mime_types
     foreach size: mime_sizes
-        message('compositing: ' + type[0] + '.svg and ' + type[1] + '.svg @ ' + size )
+        if fs.is_file(size / type[0] + '.svg')
+            message('compositing: ' + type[0] + '.svg and ' + type[1] + '.svg @ ' + size )
 
-        output_file = '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, type[0]))
-        run_command('touch', output_file)
+            output_file = '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, type[0]))
+            run_command('touch', output_file)
 
-        run_command(
-            python3,
-            '@0@.py'.format(join_paths(meson.project_source_root(), 'scripts', 'composite-svg')), 
-            '@0@.svg'.format(join_paths(meson.current_source_dir(), size, type[0])),
-            '@0@.svg'.format(join_paths(meson.current_source_dir(), size, type[1])),
-            output_file,
-            check: false 
-        )       
+            run_command(
+                python3,
+                '@0@.py'.format(join_paths(meson.project_source_root(), 'scripts', 'composite-svg')), 
+                '@0@.svg'.format(join_paths(meson.current_source_dir(), size, type[0])),
+                '@0@.svg'.format(join_paths(meson.current_source_dir(), size, type[1])),
+                output_file,
+                check: true 
+            )       
+        endif
     endforeach
 endforeach
 
@@ -126,18 +128,20 @@ templates = [
 
 foreach template : templates
     foreach size: mime_sizes
-        message('adding template decoration: ' + template + '.svg @ ' + size)
+        if fs.is_file(meson.project_build_root() / 'mimes' / size / template + '.svg')
+            message('adding template decoration: ' + template + '.svg @ ' + size)
 
-        run_command(
-            python3, 
-            '@0@.py'.format(join_paths(meson.project_source_root(), 'scripts', 'composite-svg')), 
-            '@0@.svg'.format(join_paths(meson.current_source_dir(), size, 'decoration-template')), 
-            # We operate entirely in the build directory here, because we are
-            # cascading off of a previously composited file
-            '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, template)),
-            '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, template)),
-            check: false
-        )
+            run_command(
+                python3, 
+                '@0@.py'.format(join_paths(meson.project_source_root(), 'scripts', 'composite-svg')), 
+                '@0@.svg'.format(join_paths(meson.current_source_dir(), size, 'decoration-template')), 
+                # We operate entirely in the build directory here, because we are
+                # cascading off of a previously composited file
+                '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, template)),
+                '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, template)),
+                check: true 
+            )
+        endif
     endforeach
 endforeach
 

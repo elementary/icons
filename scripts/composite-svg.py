@@ -1,6 +1,8 @@
 import sys
 import xml.etree.ElementTree as ET
 
+ET.register_namespace("","http://www.w3.org/2000/svg")
+
 svg = "{http://www.w3.org/2000/svg}"
 fTop = sys.argv[1]     # Type file
 fBottom = sys.argv[2]     # Base file
@@ -27,10 +29,11 @@ bTree = ET.parse(fBottom)
 bRoot = bTree.getroot()
 bDefs = bRoot.find(f"{svg}defs")
 
-for element in defs.iter():
-    bDefs.append(element)
-
+#for element in defs.iter():
+#    bDefs.append(element)
+tmp = defs.iter()
+bDefs.extend(tmp)
 bRoot.extend(shapes)
 
 # Write out the tree to the target filename
-bTree.write(fTarget)
+bTree.write(fTarget, encoding="utf-8", xml_declaration=True, method="xml")
