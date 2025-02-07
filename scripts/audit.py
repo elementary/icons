@@ -3,6 +3,10 @@ from sys import argv
 
 ignoreList = []
 
+if argv[1] == "-h":
+    print("USAGE: python (-O) audit.py <path-to-icon-spec-file> <path-to-root-dir-of-theme> (<report-file-name>)")
+    exit()
+
 try:
     viewWidth = os.get_terminal_size().columns
 except:
