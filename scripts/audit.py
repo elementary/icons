@@ -1,4 +1,4 @@
-import os
+import os, csv
 from sys import argv
 
 ignoreList = []
@@ -8,6 +8,19 @@ try:
 except:
     viewWidth = 80
 
+try:
+    outputFName = argv[4]
+except:
+    outputFName = "report.csv"
+
+def padList(iterable: list, length: int) -> list:
+    extensionLength = max(length - len(iterable), 0)
+    if __debug__: print(f"Extending list by {extensionLength} elements")
+    for _ in range(extensionLength):
+        iterable.append(None)
+
+    return iterable
+
 def populateFromDir(dir: os.DirEntry) -> set:
     # This function is called recursively to populate a list
     tree = []
@@ -15,17 +28,14 @@ def populateFromDir(dir: os.DirEntry) -> set:
     for entry in os.scandir(dir.path):
         if entry.name not in ignoreList:
             if entry.is_dir():
-                if __debug__:
-                    print(f"Found dir at {entry.path}, going deeper")
+                if __debug__: print(f"Found dir at {entry.path}, going deeper")
                 # A spoonful of recursion to help the medicine go down
                 tree.extend(populateFromDir(entry))
             else:
-                if __debug__:
-                    print(f"Adding file {entry.path}, named {entry.name} to SubTree")
+                if __debug__: print(f"Adding file {entry.path}, named {entry.name} to SubTree")
                 tree.append(entry.name.removesuffix(".svg"))
 
-    if __debug__:
-        print(f"The SubTree for Dir {dir.name} is {tree}")
+    if __debug__: print(f"The SubTree for Dir {dir.name} is {tree}")
     return list(set(tree))
 
 
@@ -55,6 +65,8 @@ except:
     print("Please specify a directory")
     exit()
 else:
+    # Save the cwd so we can switch back later
+    scriptDir = os.getcwd()
     dir = os.fspath(targetDir)
     os.chdir(dir)
 
@@ -67,8 +79,7 @@ except:
     print("No .auditignore file found in root")
 else:
     print("Loaded .auditignore file!")
-    if __debug__:
-        print(f"Values contained: {ignoreList}")
+    if __debug__: print(f"Values contained: {ignoreList}")
 
 print('-' * viewWidth)
 
@@ -79,14 +90,13 @@ contents = []
 for entry in os.scandir():
     if entry.name not in ignoreList:
         if entry.is_dir():
-            if __debug__:
-                print(f"Found dir at {entry.path}")
+            if __debug__: print(f"Found dir at {entry.path}")
             subDirTree = populateFromDir(entry)
             contents.extend(subDirTree)
         else:
-            if __debug__:
-                print(f"Adding file {entry.path} to tree")
-            contents.append(entry.name.removesuffix(".svg"))
+            if __debug__: print(f"Adding file {entry.path} to tree")
+            if entry.name.endswith(".svg"):
+                contents.append(entry.name.removesuffix(".svg"))
 
 # remove duplicate names from the list
 contents = list(set(contents))
@@ -109,17 +119,11 @@ for entry in specification.keys():
 
 # Calculate percent spec coverage
 totalEntries = len(specification.keys())
-existantColorEntries = 0
-
-for value in specification.values():
-    # Increase the number of existant entries if value=True
-    existantColorEntries += 1 if value else 0
+existantColorEntries = list(specification.values()).count(True)
 
 print(f"{existantColorEntries / totalEntries * 100:.2f}% coverage of FD.o specification, color entries")
 
 print('-' * viewWidth)
-
-existantSymbolicEntries = 0
 
 # Check whether things are included in symbolic entries
 for entry in symbolicSpecification.keys():
@@ -130,10 +134,7 @@ for entry in symbolicSpecification.keys():
     else:
         print(f"[!!] {extendedEntry} is missing!")
 
-
-for value in symbolicSpecification.values():
-    # Increase the number of existant entries if value=True
-    existantSymbolicEntries += 1 if value else 0
+existantSymbolicEntries = list(symbolicSpecification.values()).count(True)
 
 print(f"{existantSymbolicEntries / totalEntries * 100:.2f}% coverage of FD.o specification, symbolic entries")
 
@@ -146,11 +147,50 @@ results = []
 for i, value in enumerate(colorResults):
     results.append(symbolicResults[i] | value)
 
-existantEntries = 0
-
-for value in results:
-    # Increase the number of existant entries if value=True
-    existantEntries += 1 if value else 0
+existantEntries = results.count(True)
 
 print(f"{existantEntries / totalEntries * 100:.2f}% coverage of FD.o specification, all entries")
 
+
+print('-' * viewWidth)
+os.chdir(scriptDir)
+
+# Write report file with Found, Missing, and Out-of-Spec information
+specList = list(specification.keys())
+foundEntries = []
+missingEntries = []
+outOfSpecEntries = []
+
+for i, result in enumerate(results):
+    # If the result is true, then it was found
+    # If the result is false, then it is missing
+    name = specList[i]
+    if result:
+        if __debug__: print(f"Adding {name} to Found...")
+        foundEntries.append(name)
+    else:
+        if __debug__: print(f"Adding {name} to Missing...")
+        missingEntries.append(name)
+
+# Now we want to go through all of the entries we found in the initial contents and
+# point out those that aren't in the spec
+for entry in contents:
+    if entry not in specList:
+        if __debug__: print(f"Adding {entry} to Out of Spec")
+        outOfSpecEntries.append(entry)
+
+# Pad all lists to be the same length, then zip all three lists together
+length = max(len(foundEntries), len(missingEntries), len(outOfSpecEntries))
+
+foundEntries = padList(foundEntries, length)
+missingEntries = padList(missingEntries, length)
+outOfSpecEntries = padList(outOfSpecEntries, length)
+
+zippedLists = [(a, b, c) for a, b, c in zip(foundEntries, missingEntries,
+                                            outOfSpecEntries)]
+
+with open(outputFName, 'w', newline='') as file:
+    fWriter = csv.writer(file)
+    fWriter.writerow(["Found", "Missing", "Out of Spec"])
+    fWriter.writerows(zippedLists)
+    print(f"Report written to {os.getcwd()}/{outputFName}")
