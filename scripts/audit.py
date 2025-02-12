@@ -178,7 +178,7 @@ for i, result in enumerate(colorResults):
 # Now we want to go through all of the entries we found in the initial contents and
 # point out those that aren't in the spec
 for entry in contents:
-    if entry not in specList:
+    if entry not in specList and not entry.endswith("-symbolic"):
         if __debug__: print(f"Adding {entry} to Out of Spec")
         outOfSpecEntries.append(entry)
 
