@@ -1,6 +1,7 @@
 // Freedesktop.org Icon Naming Specification
 // Version 0.8.90
 // Date: 2025-02-05
+// https://specifications.freedesktop.org/icon-naming-spec/latest/
 
 address-book-new
 application-exit
@@ -83,6 +84,8 @@ media-skip-backward
 media-skip-forward
 object-flip-horizontal
 object-flip-vertical
+object-rotate-left
+object-rotate-right
 process-stop
 system-lock-screen
 system-log-out
@@ -141,7 +144,7 @@ preferences-desktop-personal
 preferences-other
 preferences-system
 preferences-system-network
-preferences-help
+system-help
 audio-card
 audio-input-microphone
 battery
@@ -179,7 +182,7 @@ emblem-photos
 emblem-readonly
 emblem-shared
 emblem-symbolic-link
-emblem-sychronized
+emblem-synchronized
 emblem-system
 emblem-unreadable
 face-angel
