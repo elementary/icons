@@ -42,7 +42,6 @@ def populateFromDir(dir: os.DirEntry) -> set:
     if __debug__: print(f"The SubTree for Dir {dir.name} is {tree}")
     return list(set(tree))
 
-
 # Load a text stream of the spec into a dictionary, where KEY=icon_name &
 # VALUE=a bool denoting whether the file was found in the file tree
 # Iterate over the list, checking to see if the specified file can be found.
@@ -89,7 +88,6 @@ print('-' * viewWidth)
 
 # Generate the contents of the relevant directory tree
 contents = []
-
 
 for entry in os.scandir():
     if entry.name not in ignoreList:
@@ -165,7 +163,8 @@ foundEntries = []
 missingEntries = []
 outOfSpecEntries = []
 
-for i, result in enumerate(results):
+# We only look at the color entry results, as symbolic is not officially in the spec
+for i, result in enumerate(colorResults):
     # If the result is true, then it was found
     # If the result is false, then it is missing
     name = specList[i]
@@ -198,3 +197,4 @@ with open(outputFName, 'w', newline='') as file:
     fWriter.writerow(["Found", "Missing", "Out of Spec"])
     fWriter.writerows(zippedLists)
     print(f"Report written to {os.getcwd()}/{outputFName}")
+
