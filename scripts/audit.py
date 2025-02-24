@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os, csv
 from sys import argv
 
@@ -7,6 +9,7 @@ if argv[1] == "-h":
     print("USAGE: python (-O) audit.py <path-to-icon-spec-file> <path-to-root-dir-of-theme> (<report-file-name>)")
     exit()
 
+# make hrules pretty
 try:
     viewWidth = os.get_terminal_size().columns
 except:
@@ -16,6 +19,41 @@ try:
     outputFName = argv[4]
 except:
     outputFName = "report.csv"
+
+# Check for optional dependencies to enable drawing the spec from the web.
+# Otherwise fall back to included file
+try:
+    import requests
+    from bs4 import BeautifulSoup
+except:
+    print("Couldn't find bs4 and requests dependencies, falling back to using spec file...")
+    foundDeps = False
+else:
+    print("Found bs4 and requests dependencies, pulling spec from the web")
+    foundDeps = True
+
+def get_soup(url: string) -> BeautifulSoup:
+    page = requests.get(url)
+    soup = BeautifulSoup(page.text, "html.parser")
+    return soup
+
+# This is kinda not great but it works
+def parse_soup(soup: BeautifulSoup) -> list:
+    result = []
+
+    tables = soup.find_all("table")
+    #remove the context description table, we don't care about it here
+    tables.pop(0)
+    for table in tables:
+        rows = table.find_all("tr")
+        for row in rows:
+            text = row.contents
+            name = text[0].text.strip().replace("\n", "")
+            # skip the header row
+            if name == "Name": continue
+            result.append(item)
+
+    return result
 
 def padList(iterable: list, length: int) -> list:
     extensionLength = max(length - len(iterable), 0)
@@ -48,15 +86,21 @@ def populateFromDir(dir: os.DirEntry) -> set:
 fName = argv[1]
 specification = {}
 
-with open(fName, "r") as file:
-    print(f"Loading specification in file: {fName}...")
-    for line in file:
-        if line.startswith(("//", " ", "\n")):
-            continue
-        specification.setdefault(line.removesuffix("\n"), False)
+if foundDeps:
+    url = ""
+    soup = get_soup(url)
+    specList = parse_soup(soup)
+    specification.fromkeys(specList, False)
+else:
+    with open(fName, "r") as file:
+        print(f"Loading specification in file: {fName}...")
+        for line in file:
+            if line.startswith(("//", " ", "\n")):
+                continue
+            specification.setdefault(line.removesuffix("\n"), False)
 
+print("Successfully loaded specfication!")
 symbolicSpecification = specification.copy()
-print("Successfully loaded specfication file!")
 
 # Change the working dir to our target dir, to make it easier to traverse the
 # tree. Try to find the file `.auditignore` in the dir root and load it into
