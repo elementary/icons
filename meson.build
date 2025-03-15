@@ -174,6 +174,7 @@ subdir('apps')
 subdir('categories')
 subdir('cursors')
 subdir('mimes')
+subdir('places')
 
 if (get_option ('volume_icons'))
   subdir('volumeicon')
