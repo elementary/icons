@@ -149,6 +149,25 @@ foreach template : templates
                 '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, template[1])),
                 check: true 
             )
+        elif fs.is_file(meson.project_source_root() / 'mimes' / size / template[0] + '.svg')
+            message ('copying base file ' + template[0] + ' to template file ' + template[1])
+            run_command(
+                'cp',
+                meson.project_source_root() / 'mimes' / size / template[0] + '.svg',
+                meson.project_build_root() / 'mimes' / size / template[1] + '.svg'
+            )
+
+            message('adding template decoration: ' + template[1] + '.svg @ ' + size)
+            run_command(
+                python3, 
+                '@0@.py'.format(join_paths(meson.project_source_root(), 'scripts', 'composite-svg')), 
+                '@0@.svg'.format(join_paths(meson.current_source_dir(), size, 'decoration-template')), 
+                # We operate entirely in the build directory here, because we are
+                # cascading off of a previously composited file
+                '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, template[1])),
+                '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, template[1])),
+                check: true 
+            )
         endif
     endforeach
 endforeach
