@@ -2,7 +2,7 @@ project (
     'io.elementary.icons',
     version: '8.1.0',
     license : 'GPL3+',
-    meson_version: '>=0.61',
+    meson_version: '>=1.0.0',
 )
 
 i18n = import('i18n')
