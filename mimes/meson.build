@@ -1,5 +1,183 @@
 mime_sizes = ['16', '24', '32', '48', '64', '128']
 
+python3 = find_program('python3', required: true)
+
+# Copy src dir to build dir, to give a base to work on
+
+mime_types = [
+    # The first argument is the icon name,
+    # the second is the base that should be used
+    ['application-illustrator', 'base-generic'],
+    ['application-javascript', 'base-generic'],
+    ['application-json', 'base-generic'],
+    ['application-msword', 'base-generic'],
+    ['application-octet-stream', 'base-generic'],
+    ['application-pdf', 'base-generic'],
+    ['application-pgp', 'base-generic'],
+    ['application-typescript', 'base-generic'],
+
+    ['application-vnd.debian.binary-package', 'base-package'],
+    ['application-vnd.flatpak.ref', 'base-generic'],
+    ['application-vnd.flatpak', 'base-package'],
+    ['application-vnd.ms-access', 'base-generic'],
+    ['application-vnd.ms-excel', 'base-generic'],
+    ['application-vnd.ms-powerpoint', 'base-generic'],
+    ['application-vnd.oasis.opendocument.chart', 'base-generic'],
+    ['application-vnd.openxmlformats-officedocument.presentationml.template', 'base-generic'],
+    ['application-vnd.openxmlformats-officedocument.spreadsheetml.template', 'base-generic'],
+    ['application-vnd.openxmlformats-officedocument.wordprocessingml.template', 'base-generic'],
+
+    ['application-x-bittorrent', 'base-generic'],
+    ['application-x-cd-image', 'base-generic'],
+    ['application-x-desktop', 'base-generic'],
+    ['application-x-executable', 'base-executable'],
+    ['application-x-ms-dos-executable', 'base-executable'],
+    ['application-x-partial-download', 'base-generic'],
+    ['application-x-php', 'base-generic'],
+    ['application-x-ruby', 'base-generic'],
+    ['application-x-sharedlib', 'base-generic'],
+
+    ['audio-x-generic', 'base-generic'],
+    ['audio-x-playlist', 'base-generic'],
+    ['audio-x-playlist-rtl', 'base-generic'],
+
+    ['font-x-generic', 'base-generic'],
+
+    ['image-vnd.adobe.photoshop', 'base-generic'],
+    ['image-x-xcf', 'base-generic'],
+
+    ['internet-feed', 'base-generic'],
+    ['model', 'base-generic'],
+    ['office-contact', 'base-generic'],
+
+    ['text-css', 'base-generic'],
+    ['text-html', 'base-generic'],
+    ['text-markdown', 'base-generic'],
+    ['text-x-bibtex', 'base-generic'],
+    ['text-x-changelog', 'base-generic'],
+    ['text-x-chdr', 'base-generic'],
+    ['text-x-copying', 'base-generic'],
+    ['text-x-csrc', 'base-generic'],
+    ['text-x-generic', 'base-generic'],
+    ['text-x-generic-rtl', 'base-generic'],
+    ['text-x-generic-template', 'base-generic'],
+    ['text-x-generic-template-rtl', 'base-generic'],
+    ['text-x-gettext-translation', 'base-generic'],
+    ['text-x-gettext-translation-template', 'base-generic'],
+    ['text-x-go', 'base-generic'],
+    ['text-x-install', 'base-generic'],
+    ['text-x-makefile', 'base-generic'],
+    ['text-x-preview', 'base-generic'],
+    ['text-x-python', 'base-generic'],
+    ['text-x-readme', 'base-generic'],
+    ['text-x-readme', 'base-generic'],
+    ['text-x-sass', 'base-generic'],
+    ['text-x-script', 'base-generic'],
+    ['text-x-ssa', 'base-generic'],
+    ['text-x-tex', 'base-generic'],
+    ['text-x-vala', 'base-generic'],
+
+    ['unknown', 'base-generic'],
+
+    ['x-office-drawing', 'base-generic'],
+    ['x-office-drawing-template', 'base-generic'],
+
+    ['x-office-spreadsheet', 'base-generic'],
+    ['x-office-spreadsheet-template', 'base-generic']
+]
+
+foreach size: mime_sizes
+    run_command('mkdir', join_paths(meson.project_build_root(), 'mimes', size), check: false)
+endforeach
+
+foreach type : mime_types
+    foreach size: mime_sizes
+        if fs.is_file(size / type[0] + '.svg')
+            message('compositing: ' + type[0] + '.svg and ' + type[1] + '.svg @ ' + size )
+
+            output_file = '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, type[0]))
+            run_command('touch', output_file)
+
+            run_command(
+                python3,
+                '@0@.py'.format(join_paths(meson.project_source_root(), 'scripts', 'composite-svg')), 
+                '@0@.svg'.format(join_paths(meson.current_source_dir(), size, type[0])),
+                '@0@.svg'.format(join_paths(meson.current_source_dir(), size, type[1])),
+                output_file,
+                check: true 
+            )       
+        endif
+    endforeach
+endforeach
+
+# Copy out tempalate mimes so we maintain the base image
+
+templates = [
+    ['application-vnd.openxmlformats-officedocument.presentationml', 'application-vnd.openxmlformats-officedocument.presentationml.template'],
+    ['application-vnd.openxmlformats-officedocument.spreadsheetml', 'application-vnd.openxmlformats-officedocument.spreadsheetml.template'],
+    ['application-vnd.openxmlformats-officedocument.wordprocessingml', 'application-vnd.openxmlformats-officedocument.wordprocessingml.template'],
+    ['text-x-generic', 'text-x-generic-template'],
+    ['text-x-generic-rtl', 'text-x-generic-template-rtl'],
+    ['text-x-gettext-translation', 'text-x-gettext-translation-template'],
+    ['x-office-document', 'x-office-document-template'],
+    ['x-office-document-rtl', 'x-office-document-template-rtl'],
+    ['x-office-drawing', 'x-office-drawing-template'],
+    ['x-office-presentation', 'x-office-presentation-template'],
+    ['x-office-presentation-rtl', 'x-office-presentation-template-rtl'],
+    ['x-office-spreadsheet', 'x-office-spreadsheet-template']
+]
+
+# Adding the template decoration to template mimes
+foreach template : templates
+    foreach size: mime_sizes
+        if fs.is_file(meson.project_build_root() / 'mimes' / size / template[0] + '.svg')
+            message ('copying base file ' + template[0] + ' to template file ' + template[1])
+            run_command(
+                'cp',
+                meson.project_build_root() / 'mimes' / size / template[0] + '.svg',
+                meson.project_build_root() / 'mimes' / size / template[1] + '.svg'
+            )
+
+            message('adding template decoration: ' + template[1] + '.svg @ ' + size)
+            run_command(
+                python3, 
+                '@0@.py'.format(join_paths(meson.project_source_root(), 'scripts', 'composite-svg')), 
+                '@0@.svg'.format(join_paths(meson.current_source_dir(), size, 'decoration-template')), 
+                # We operate entirely in the build directory here, because we are
+                # cascading off of a previously composited file
+                '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, template[1])),
+                '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, template[1])),
+                check: true 
+            )
+        elif fs.is_file(meson.project_source_root() / 'mimes' / size / template[0] + '.svg')
+            message ('copying base file ' + template[0] + ' to template file ' + template[1])
+            run_command(
+                'cp',
+                meson.project_source_root() / 'mimes' / size / template[0] + '.svg',
+                meson.project_build_root() / 'mimes' / size / template[1] + '.svg'
+            )
+
+            message('adding template decoration: ' + template[1] + '.svg @ ' + size)
+            run_command(
+                python3, 
+                '@0@.py'.format(join_paths(meson.project_source_root(), 'scripts', 'composite-svg')), 
+                '@0@.svg'.format(join_paths(meson.current_source_dir(), size, 'decoration-template')), 
+                # We operate entirely in the build directory here, because we are
+                # cascading off of a previously composited file
+                '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, template[1])),
+                '@0@.svg'.format(join_paths(meson.project_build_root(), 'mimes', size, template[1])),
+                check: true 
+            )
+        endif
+    endforeach
+endforeach
+
+install_subdir(
+    meson.project_build_root() / 'mimes',
+    install_dir: icon_dir,
+    strip_directory: false
+)
+
 mime_links = [
     # The first argument is the original icon name,
     # the second is the link
