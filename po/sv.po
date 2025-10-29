@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-06 19:03+0000\n"
-"PO-Revision-Date: 2025-10-23 13:55+0000\n"
+"PO-Revision-Date: 2025-10-30 14:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/desktop/"
 "icons-extra/sv/>\n"
@@ -90,7 +90,7 @@ msgstr "Tillägg:"
 
 #: data/icons.metainfo.xml.in:95
 msgid "\"list-drag-handle-symbolic\" as used in draggable list box rows"
-msgstr "\"list-drag-handle-symbolic\" som används i draggbara listboxrader"
+msgstr "\"list-drag-handle-symbolic\" som används i dragbara listboxrader"
 
 #: data/icons.metainfo.xml.in:96
 msgid ""
@@ -102,7 +102,7 @@ msgstr ""
 
 #: data/icons.metainfo.xml.in:97
 msgid "\"adw-expander-arrow-symbolic\" as used in Adw.PreferencesWindow"
-msgstr "\"adw-expander-pil-symbolisk\" som används i Adw.PreferencesWindow"
+msgstr "\"adw-expander-arrow-symbolic\" som används i Adw.PreferencesWindow"
 
 #: data/icons.metainfo.xml.in:98
 msgid "\"adw-external-link-symbolic\" as used in Adw.AboutWindow"
@@ -117,7 +117,7 @@ msgid ""
 "\"network-*\" status icons which are not in the FreeDesktop icon name "
 "specification"
 msgstr ""
-"\"network-*\" statusikoner som inte finns med i FreeDesktop-ikonens "
+"\"network-*\"-statusikoner som inte finns med i FreeDesktop-ikonens "
 "namnspecifikation"
 
 #: data/icons.metainfo.xml.in:104
@@ -127,8 +127,8 @@ msgid ""
 "remote\", and \"system\""
 msgstr ""
 "Enhetsikoner som inte finns med i FreeDesktop-ikonens namnspecifikation: "
-"\"kamera\", \"drive-cdrom\", \"media-cdrom\", \"musikspelare\", "
-"\"skrivare-fjärrkontroll\" och \"system\""
+"\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", "
+"\"printer-remote\" och \"system\""
 
 #: data/icons.metainfo.xml.in:108
 msgid ""
@@ -149,7 +149,7 @@ msgstr ""
 
 #: data/icons.metainfo.xml.in:123
 msgid "\"panel-left/right\""
-msgstr "\"panel-vänster/höger\""
+msgstr "\"panel-left/right\""
 
 #: data/icons.metainfo.xml.in:124
 msgid "Symlink to \"application-x-xpinstall\" for web extension files"
@@ -157,7 +157,7 @@ msgstr "Symlink till \"application-x-xpinstall\" för webbtilläggsfiler"
 
 #: data/icons.metainfo.xml.in:128
 msgid "\"internet-web-browser\""
-msgstr "\"internet-webbläsare\""
+msgstr "\"internet-web-browser\""
 
 #: data/icons.metainfo.xml.in:129
 msgid "\"system-os-install\""
@@ -165,23 +165,23 @@ msgstr "\"system-os-install\""
 
 #: data/icons.metainfo.xml.in:130
 msgid "\"preferences-desktop-accessibility-pointing\""
-msgstr "\"preferenser-skrivbord-tillgänglighet-pekning\""
+msgstr "\"preferences-desktop-accessibility-pointing\""
 
 #: data/icons.metainfo.xml.in:131
 msgid "\"preferences-desktop-accessibility-zoom\""
-msgstr "\"inställningar-skrivbord-åtkomlighet-zoom\""
+msgstr "\"preferences-desktop-accessibility-zoom\""
 
 #: data/icons.metainfo.xml.in:132
 msgid "\"preferences-color\""
-msgstr "\"preferenser-färg\""
+msgstr "\"preferences-color\""
 
 #: data/icons.metainfo.xml.in:133
 msgid "\"preferences-system-windows\""
-msgstr "\"preferenser-system-fönster\""
+msgstr "\"preferences-system-windows\""
 
 #: data/icons.metainfo.xml.in:134
 msgid "\"applications-education\""
-msgstr "\"tillämpningar-utbildning\""
+msgstr "\"applications-education\""
 
 #: data/icons.metainfo.xml.in:135
 msgid "\"applications-interfacedesign\""
@@ -193,27 +193,27 @@ msgstr "\"applications-photography\""
 
 #: data/icons.metainfo.xml.in:137
 msgid "\"view-list-compact\""
-msgstr "\"visa-lista-kompakt\""
+msgstr "\"view-list-compact\""
 
 #: data/icons.metainfo.xml.in:141
 msgid ""
 "\"applications-development\" uses a purple tile and the same hammer glyph as "
 "build system file types"
 msgstr ""
-"\"applications-development\" använder en lila kakel och samma hammarsymbol "
+"\"applications-development\" använder en lila ruta och samma hammarsymbol "
 "som filtyper för byggsystem"
 
 #: data/icons.metainfo.xml.in:142
 msgid "\"system-file-manager\" is blue and tile shaped"
-msgstr "\"system-file-manager\" är blå och kakelformad"
+msgstr "\"system-file-manager\" är blå och rutformad"
 
 #: data/icons.metainfo.xml.in:143
 msgid "\"accessories-calculator\" redesigned as a tile shape"
-msgstr "\"accessories-calculator\" omdesignad som en kakelform"
+msgstr "\"accessories-calculator\" omdesignad som en rutform"
 
 #: data/icons.metainfo.xml.in:144
 msgid "Update the border radius of several tile-shaped icons"
-msgstr "Uppdatera kantradien för flera kakelformade ikoner"
+msgstr "Uppdatera kantradien för flera rutformade ikoner"
 
 #: data/icons.metainfo.xml.in:145
 msgid "\"view-*\" symbolic icons"
@@ -225,7 +225,7 @@ msgstr "\"computer-fail\""
 
 #: data/icons.metainfo.xml.in:158
 msgid "\"preferences-desktop-theme\""
-msgstr "\"inställningar-desktop-tema\""
+msgstr "\"preferences-desktop-theme\""
 
 #: data/icons.metainfo.xml.in:159
 msgid "\"application-x-sharedlib\""
@@ -233,15 +233,15 @@ msgstr "\"application-x-sharedlib\""
 
 #: data/icons.metainfo.xml.in:160
 msgid "\"process-paused\""
-msgstr "\"process-pausad\""
+msgstr "\"process-paused\""
 
 #: data/icons.metainfo.xml.in:164
 msgid "\"office-address-book\""
-msgstr "\"kontors-adressbok\""
+msgstr "\"office-address-book\""
 
 #: data/icons.metainfo.xml.in:165
 msgid "Flash file types"
-msgstr "Flash filtyper"
+msgstr "Flash-filtyper"
 
 #: data/icons.metainfo.xml.in:169
 msgid "Clean up \"preferences-desktop-workspaces\""
@@ -253,15 +253,15 @@ msgstr "Uppdatera \"preferences-desktop\" till ny form på plattorna"
 
 #: data/icons.metainfo.xml.in:171
 msgid "Update \"image-missing\" to new tile shape"
-msgstr "Uppdatera \"image-missing\" till ny kakelform"
+msgstr "Uppdatera \"image-missing\" till ny rutform"
 
 #: data/icons.metainfo.xml.in:172
 msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
-msgstr "Uppdatera \"preferences-desktop-keyboard\" till ny form på plattan"
+msgstr "Uppdatera \"preferences-desktop-keyboard\" till ny rutform"
 
 #: data/icons.metainfo.xml.in:173
 msgid "Update \"document-import\" and \"document-export\" to new tile shape"
-msgstr "Uppdatera \"document-import\" och \"document-export\" till ny kakelform"
+msgstr "Uppdatera \"document-import\" och \"document-export\" till ny rutform"
 
 #: data/icons.metainfo.xml.in:174
 msgid "Update many file types with new arrow shape"
@@ -289,7 +289,7 @@ msgstr "Använd en rundad stjärna för symboliska bokmärkesikoner"
 
 #: data/icons.metainfo.xml.in:180
 msgid "Redesign Night Light"
-msgstr "Redesign nattlampa"
+msgstr "Omdesignat nattljus"
 
 #: data/icons.metainfo.xml.in:181
 msgid "Use latest Flatpak branding"
@@ -311,7 +311,7 @@ msgstr "Fixa trasig länk för SVG-filtyper"
 
 #: data/icons.metainfo.xml.in:187
 msgid "Fix missing links for PGP file types"
-msgstr "Åtgärda saknade länkar för PGP filtyper"
+msgstr "Åtgärda saknade länkar för PGP-filtyper"
 
 #: data/icons.metainfo.xml.in:188
 msgid "Scale some icons to more sizes"
