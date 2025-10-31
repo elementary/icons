@@ -8,62 +8,70 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-06 19:03+0000\n"
-"PO-Revision-Date: 2021-11-22 14:23-0800\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-10-30 14:55+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/desktop/"
+"icons-extra/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/icons.metainfo.xml.in:10
 msgid "elementary Icons"
-msgstr ""
+msgstr "elementary-ikoner"
 
 #: data/icons.metainfo.xml.in:11
 msgid "Named, vector icons for elementary OS"
-msgstr ""
+msgstr "Namngivna, vektorikoner för elementary OS"
 
 #: data/icons.metainfo.xml.in:14
 msgid ""
 "An original set of vector icons designed specifically for elementary OS and "
 "its desktop environment: Pantheon."
 msgstr ""
+"En originaluppsättning av vektorikoner som utformats speciellt för "
+"elementary OS och dess skrivbordsmiljö: Pantheon."
 
 #: data/icons.metainfo.xml.in:73 data/icons.metainfo.xml.in:101
 #: data/icons.metainfo.xml.in:126 data/icons.metainfo.xml.in:162
 msgid "Removals:"
-msgstr ""
+msgstr "Borttagningar:"
 
 #: data/icons.metainfo.xml.in:75
 msgid ""
 "non-fd.o \"bluetooth-*\", \"microphone-sensitivity-*\", and \"night-light\" "
 "symbolic panel icons"
 msgstr ""
+"non-fd.o Symboliska panelikoner för \"bluetooth-*\", \"mikrofonkänslighet-*\""
+" och \"nattljus\""
 
 #: data/icons.metainfo.xml.in:76
 msgid "\"mail-archive\" and \"mail-move\""
-msgstr ""
+msgstr "\"mail-archive\" och \"mail-move\""
 
 #: data/icons.metainfo.xml.in:78 data/icons.metainfo.xml.in:106
 #: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
 msgid "Updated families:"
-msgstr ""
+msgstr "Uppdaterade familjer:"
 
 #: data/icons.metainfo.xml.in:80
 msgid "\"insert-image-symbolic\" is now more detailed"
-msgstr ""
+msgstr "\"insert-image-symbolic\" är nu mer detaljerad"
 
 #: data/icons.metainfo.xml.in:81
 msgid "\"media-record\" has an updated palette"
-msgstr ""
+msgstr "\"media-record\" har en uppdaterad palett"
 
 #: data/icons.metainfo.xml.in:82
 msgid ""
 "\"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-optical\", "
 "\"open-menu\", \"system-run\" look better on dark backgrounds"
 msgstr ""
+"\"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-optical\", "
+"\"open-menu\", \"system-run\" ser bättre ut på mörka bakgrunder"
 
 #: data/icons.metainfo.xml.in:83
 msgid ""
@@ -71,39 +79,46 @@ msgid ""
 "import/export\", \"object-merge\", \"object-rotate\", \"pane-hide/show\", "
 "and \"view-refresh\""
 msgstr ""
+"Förbättrad pilform för \"browser-download\", \"document-send\", "
+"\"document-import/export\", \"object-merge\", \"object-rotate\", "
+"\"pane-hide/show\" och \"view-refresh\""
 
 #: data/icons.metainfo.xml.in:93 data/icons.metainfo.xml.in:121
 #: data/icons.metainfo.xml.in:155
 msgid "Additions:"
-msgstr ""
+msgstr "Tillägg:"
 
 #: data/icons.metainfo.xml.in:95
 msgid "\"list-drag-handle-symbolic\" as used in draggable list box rows"
-msgstr ""
+msgstr "\"list-drag-handle-symbolic\" som används i dragbara listboxrader"
 
 #: data/icons.metainfo.xml.in:96
 msgid ""
 "\"selection-mode-symbolic\" as used in apps which have a button to switch a "
 "list into a selection mode"
 msgstr ""
+"\"selection-mode-symbolic\" som används i appar som har en knapp för att "
+"växla en lista till ett urvalsläge"
 
 #: data/icons.metainfo.xml.in:97
 msgid "\"adw-expander-arrow-symbolic\" as used in Adw.PreferencesWindow"
-msgstr ""
+msgstr "\"adw-expander-arrow-symbolic\" som används i Adw.PreferencesWindow"
 
 #: data/icons.metainfo.xml.in:98
 msgid "\"adw-external-link-symbolic\" as used in Adw.AboutWindow"
-msgstr ""
+msgstr "\"adw-external-link-symbolic\" som används i Adw.AboutWindow"
 
 #: data/icons.metainfo.xml.in:99
 msgid "\"adw-tab-*\" icons as used with Adw.Tabbar"
-msgstr ""
+msgstr "\"adw-tab-*\" ikoner som används med Adw.Tabbar"
 
 #: data/icons.metainfo.xml.in:103
 msgid ""
 "\"network-*\" status icons which are not in the FreeDesktop icon name "
 "specification"
 msgstr ""
+"\"network-*\"-statusikoner som inte finns med i FreeDesktop-ikonens "
+"namnspecifikation"
 
 #: data/icons.metainfo.xml.in:104
 msgid ""
@@ -111,183 +126,193 @@ msgid ""
 "\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", \"printer-"
 "remote\", and \"system\""
 msgstr ""
+"Enhetsikoner som inte finns med i FreeDesktop-ikonens namnspecifikation: "
+"\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", "
+"\"printer-remote\" och \"system\""
 
 #: data/icons.metainfo.xml.in:108
 msgid ""
 "\"process-completed\" uses a new checkmark shape, has a 32px version, and "
 "symlinks were added for \"emblem-default\""
 msgstr ""
+"\"process-completed\" använder en ny checkmark-form, har en 32px-version, "
+"och symlinks lades till för \"emblem-default\""
 
 #: data/icons.metainfo.xml.in:109
 msgid "Updated corner radius of \"edit-clear\" and \"document-*-symbolic\""
-msgstr ""
+msgstr "Uppdaterad hörnradie för \"edit-clear\" och \"document-*-symbolic\""
 
 #: data/icons.metainfo.xml.in:110
 msgid "Updated \"preferences-desktop-display\" and added a 64px version"
 msgstr ""
+"Uppdaterade \"preferences-desktop-display\" och lade till en 64px-version"
 
 #: data/icons.metainfo.xml.in:123
 msgid "\"panel-left/right\""
-msgstr ""
+msgstr "\"panel-left/right\""
 
 #: data/icons.metainfo.xml.in:124
 msgid "Symlink to \"application-x-xpinstall\" for web extension files"
-msgstr ""
+msgstr "Symlink till \"application-x-xpinstall\" för webbtilläggsfiler"
 
 #: data/icons.metainfo.xml.in:128
 msgid "\"internet-web-browser\""
-msgstr ""
+msgstr "\"internet-web-browser\""
 
 #: data/icons.metainfo.xml.in:129
 msgid "\"system-os-install\""
-msgstr ""
+msgstr "\"system-os-install\""
 
 #: data/icons.metainfo.xml.in:130
 msgid "\"preferences-desktop-accessibility-pointing\""
-msgstr ""
+msgstr "\"preferences-desktop-accessibility-pointing\""
 
 #: data/icons.metainfo.xml.in:131
 msgid "\"preferences-desktop-accessibility-zoom\""
-msgstr ""
+msgstr "\"preferences-desktop-accessibility-zoom\""
 
 #: data/icons.metainfo.xml.in:132
 msgid "\"preferences-color\""
-msgstr ""
+msgstr "\"preferences-color\""
 
 #: data/icons.metainfo.xml.in:133
 msgid "\"preferences-system-windows\""
-msgstr ""
+msgstr "\"preferences-system-windows\""
 
 #: data/icons.metainfo.xml.in:134
 msgid "\"applications-education\""
-msgstr ""
+msgstr "\"applications-education\""
 
 #: data/icons.metainfo.xml.in:135
 msgid "\"applications-interfacedesign\""
-msgstr ""
+msgstr "\"applications-interfacedesign\""
 
 #: data/icons.metainfo.xml.in:136
 msgid "\"applications-photography\""
-msgstr ""
+msgstr "\"applications-photography\""
 
 #: data/icons.metainfo.xml.in:137
 msgid "\"view-list-compact\""
-msgstr ""
+msgstr "\"view-list-compact\""
 
 #: data/icons.metainfo.xml.in:141
 msgid ""
 "\"applications-development\" uses a purple tile and the same hammer glyph as "
 "build system file types"
 msgstr ""
+"\"applications-development\" använder en lila ruta och samma hammarsymbol "
+"som filtyper för byggsystem"
 
 #: data/icons.metainfo.xml.in:142
 msgid "\"system-file-manager\" is blue and tile shaped"
-msgstr ""
+msgstr "\"system-file-manager\" är blå och rutformad"
 
 #: data/icons.metainfo.xml.in:143
 msgid "\"accessories-calculator\" redesigned as a tile shape"
-msgstr ""
+msgstr "\"accessories-calculator\" omdesignad som en rutform"
 
 #: data/icons.metainfo.xml.in:144
 msgid "Update the border radius of several tile-shaped icons"
-msgstr ""
+msgstr "Uppdatera kantradien för flera rutformade ikoner"
 
 #: data/icons.metainfo.xml.in:145
 msgid "\"view-*\" symbolic icons"
-msgstr ""
+msgstr "\"view-*\" symboliska ikoner"
 
 #: data/icons.metainfo.xml.in:157
 msgid "\"computer-fail\""
-msgstr ""
+msgstr "\"computer-fail\""
 
 #: data/icons.metainfo.xml.in:158
 msgid "\"preferences-desktop-theme\""
-msgstr ""
+msgstr "\"preferences-desktop-theme\""
 
 #: data/icons.metainfo.xml.in:159
 msgid "\"application-x-sharedlib\""
-msgstr ""
+msgstr "\"application-x-sharedlib\""
 
 #: data/icons.metainfo.xml.in:160
 msgid "\"process-paused\""
-msgstr ""
+msgstr "\"process-paused\""
 
 #: data/icons.metainfo.xml.in:164
 msgid "\"office-address-book\""
-msgstr ""
+msgstr "\"office-address-book\""
 
 #: data/icons.metainfo.xml.in:165
 msgid "Flash file types"
-msgstr ""
+msgstr "Flash-filtyper"
 
 #: data/icons.metainfo.xml.in:169
 msgid "Clean up \"preferences-desktop-workspaces\""
-msgstr ""
+msgstr "Städa upp \"preferences-desktop-workspaces\""
 
 #: data/icons.metainfo.xml.in:170
 msgid "Update \"preferences-desktop\" to new tile shape"
-msgstr ""
+msgstr "Uppdatera \"preferences-desktop\" till ny form på plattorna"
 
 #: data/icons.metainfo.xml.in:171
 msgid "Update \"image-missing\" to new tile shape"
-msgstr ""
+msgstr "Uppdatera \"image-missing\" till ny rutform"
 
 #: data/icons.metainfo.xml.in:172
 msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
-msgstr ""
+msgstr "Uppdatera \"preferences-desktop-keyboard\" till ny rutform"
 
 #: data/icons.metainfo.xml.in:173
 msgid "Update \"document-import\" and \"document-export\" to new tile shape"
-msgstr ""
+msgstr "Uppdatera \"document-import\" och \"document-export\" till ny rutform"
 
 #: data/icons.metainfo.xml.in:174
 msgid "Update many file types with new arrow shape"
-msgstr ""
+msgstr "Uppdatera många filtyper med ny pilform"
 
 #: data/icons.metainfo.xml.in:175
 msgid "\"application-default-icon\" is now brightly colored"
-msgstr ""
+msgstr "\"application-default-icon\" är nu färgglad"
 
 #: data/icons.metainfo.xml.in:176
 msgid "\"media-stop\" is now a square"
-msgstr ""
+msgstr "\"media-stop\" är nu en fyrkant"
 
 #: data/icons.metainfo.xml.in:177
 msgid "Round symbolic location status icons"
-msgstr ""
+msgstr "Runda symboliska statusikoner för plats"
 
 #: data/icons.metainfo.xml.in:178
 msgid "Use an outlined shape for symbolic tag icons"
-msgstr ""
+msgstr "Använd en konturerad form för symboliska taggikoner"
 
 #: data/icons.metainfo.xml.in:179
 msgid "Use a rounded star for symbolic bookmark icons"
-msgstr ""
+msgstr "Använd en rundad stjärna för symboliska bokmärkesikoner"
 
 #: data/icons.metainfo.xml.in:180
 msgid "Redesign Night Light"
-msgstr ""
+msgstr "Omdesignat nattljus"
 
 #: data/icons.metainfo.xml.in:181
 msgid "Use latest Flatpak branding"
-msgstr ""
+msgstr "Använd senaste Flatpak-varumärket"
 
 #: data/icons.metainfo.xml.in:182
 msgid "Symbolic volume icons use a rounded shape and a slash when muted"
 msgstr ""
+"Symboliska volymikoner har en rundad form och ett snedstreck när de är "
+"avstängda"
 
 #: data/icons.metainfo.xml.in:184
 msgid "Other Changes:"
-msgstr ""
+msgstr "Övriga förändringar:"
 
 #: data/icons.metainfo.xml.in:186
 msgid "Fix broken link for SVG file types"
-msgstr ""
+msgstr "Fixa trasig länk för SVG-filtyper"
 
 #: data/icons.metainfo.xml.in:187
 msgid "Fix missing links for PGP file types"
-msgstr ""
+msgstr "Åtgärda saknade länkar för PGP-filtyper"
 
 #: data/icons.metainfo.xml.in:188
 msgid "Scale some icons to more sizes"
-msgstr ""
+msgstr "Skala vissa ikoner till fler storlekar"
