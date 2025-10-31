@@ -29,7 +29,7 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
-    <release version="8.2.0" date="2025-10-31" urgency="medium">
+    <release version="8.2.0" date="2025-10-31" urgency="medium" translate="no">
       <description>
         <p>Additions:</p>
         <ul>
@@ -64,7 +64,7 @@
       </issues>
     </release>
 
-    <release version="8.1.0" date="2024-10-23" urgency="medium">
+    <release version="8.1.0" date="2024-10-23" urgency="medium" translate="no">
       <description>
         <p>Additions:</p>
         <ul>
@@ -91,7 +91,7 @@
       </issues>
     </release>
 
-    <release version="8.0.0" date="2024-05-06" urgency="medium">
+    <release version="8.0.0" date="2024-05-06" urgency="medium" translate="no">
       <description>
         <p>Additions:</p>
         <ul>
@@ -134,7 +134,7 @@
       </issues>
     </release>
 
-    <release version="7.3.1" date="2023-08-08" urgency="medium">
+    <release version="7.3.1" date="2023-08-08" urgency="medium" translate="no">
       <description>
         <p>Removals:</p>
         <ul>
@@ -154,7 +154,7 @@
       </issues>
     </release>
 
-    <release version="7.3.0" date="2023-05-02" urgency="medium">
+    <release version="7.3.0" date="2023-05-02" urgency="medium" translate="no">
       <description>
         <p>Additions:</p>
         <ul>
@@ -183,79 +183,12 @@
     </release>
 
     <release version="7.2.0" date="2023-01-24" urgency="medium">
-      <description>
-        <p>Additions:</p>
-        <ul>
-          <li>"panel-left/right"</li>
-          <li>Symlink to "application-x-xpinstall" for web extension files</li>
-        </ul>
-        <p>Removals:</p>
-        <ul>
-          <li>"internet-web-browser"</li>
-          <li>"system-os-install"</li>
-          <li>"preferences-desktop-accessibility-pointing"</li>
-          <li>"preferences-desktop-accessibility-zoom"</li>
-          <li>"preferences-color"</li>
-          <li>"preferences-system-windows"</li>
-          <li>"applications-education"</li>
-          <li>"applications-interfacedesign"</li>
-          <li>"applications-photography"</li>
-          <li>"view-list-compact"</li>
-        </ul>
-        <p>Updated families:</p>
-        <ul>
-          <li>"applications-development" uses a purple tile and the same hammer glyph as build system file types</li>
-          <li>"system-file-manager" is blue and tile shaped</li>
-          <li>"accessories-calculator" redesigned as a tile shape</li>
-          <li>Update the border radius of several tile-shaped icons</li>
-          <li>"view-*" symbolic icons</li>
-        </ul>
-      </description>
       <issues>
         <issue url="https://github.com/elementary/icons/issues/1136">Normalize width of key next to backspace in "input-keyboard"</issue>
       </issues>
     </release>
 
-    <release version="7.1.0" date="2022-10-06" urgency="medium">
-      <description>
-        <p>Additions:</p>
-        <ul>
-          <li>"computer-fail"</li>
-          <li>"preferences-desktop-theme"</li>
-          <li>"application-x-sharedlib"</li>
-          <li>"process-paused"</li>
-        </ul>
-        <p>Removals:</p>
-        <ul>
-          <li>"office-address-book"</li>
-          <li>Flash file types</li>
-        </ul>
-        <p>Updated families:</p>
-        <ul>
-          <li>Clean up "preferences-desktop-workspaces"</li>
-          <li>Update "preferences-desktop" to new tile shape</li>
-          <li>Update "image-missing" to new tile shape</li>
-          <li>Update "preferences-desktop-keyboard" to new tile shape</li>
-          <li>Update "document-import" and "document-export" to new tile shape</li>
-          <li>Update many file types with new arrow shape</li>
-          <li>"application-default-icon" is now brightly colored</li>
-          <li>"media-stop" is now a square</li>
-          <li>Round symbolic location status icons</li>
-          <li>Use an outlined shape for symbolic tag icons</li>
-          <li>Use a rounded star for symbolic bookmark icons</li>
-          <li>Redesign Night Light</li>
-          <li>Use latest Flatpak branding</li>
-          <li>Symbolic volume icons use a rounded shape and a slash when muted</li>
-        </ul>
-        <p>Other Changes:</p>
-        <ul>
-          <li>Fix broken link for SVG file types</li>
-          <li>Fix missing links for PGP file types</li>
-          <li>Scale some icons to more sizes</li>
-        </ul>
-      </description>
-    </release>
-
+    <release version="7.1.0" date="2022-10-06" />
     <release version="7.0.0" date="2022-04-25" />
     <release version="6.1.0" date="2021-11-23" />
     <release version="6.0.0" date="2021-07-15" />
