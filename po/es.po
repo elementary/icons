@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-31 16:45+0000\n"
+"POT-Creation-Date: 2025-10-31 17:06+0000\n"
 "PO-Revision-Date: 2024-12-12 05:36+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/icons-"
@@ -37,7 +37,6 @@ msgstr ""
 
 #: data/icons.metainfo.xml.in:34 data/icons.metainfo.xml.in:69
 #: data/icons.metainfo.xml.in:96 data/icons.metainfo.xml.in:159
-#: data/icons.metainfo.xml.in:187 data/icons.metainfo.xml.in:221
 msgid "Additions:"
 msgstr "Iconos agregados:"
 
@@ -64,8 +63,7 @@ msgstr ""
 
 #: data/icons.metainfo.xml.in:42 data/icons.metainfo.xml.in:76
 #: data/icons.metainfo.xml.in:108 data/icons.metainfo.xml.in:144
-#: data/icons.metainfo.xml.in:172 data/icons.metainfo.xml.in:205
-#: data/icons.metainfo.xml.in:233
+#: data/icons.metainfo.xml.in:172
 msgid "Updated families:"
 msgstr "Familias actualizadas:"
 
@@ -91,7 +89,6 @@ msgstr ""
 
 #: data/icons.metainfo.xml.in:50 data/icons.metainfo.xml.in:103
 #: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
-#: data/icons.metainfo.xml.in:192 data/icons.metainfo.xml.in:228
 msgid "Removals:"
 msgstr "Iconos retirados:"
 
@@ -354,197 +351,159 @@ msgstr ""
 "Se actualizó «preferences-desktop-display» (preferencias del escritorio o "
 "pantalla) y se agregó una versión de 64px"
 
-#: data/icons.metainfo.xml.in:189
-msgid "\"panel-left/right\""
-msgstr "«panel-left/right» (panel izquierdo/derecho)"
+#~ msgid "\"panel-left/right\""
+#~ msgstr "«panel-left/right» (panel izquierdo/derecho)"
 
-#: data/icons.metainfo.xml.in:190
-msgid "Symlink to \"application-x-xpinstall\" for web extension files"
-msgstr ""
-"Enlace simbólico a «application-x-xpinstall» (instalación de aplicación en "
-"forma de x) para archivos de extensiones web"
+#~ msgid "Symlink to \"application-x-xpinstall\" for web extension files"
+#~ msgstr ""
+#~ "Enlace simbólico a «application-x-xpinstall» (instalación de aplicación "
+#~ "en forma de x) para archivos de extensiones web"
 
-#: data/icons.metainfo.xml.in:194
-msgid "\"internet-web-browser\""
-msgstr "«internet-web-browser» (navegador de web, internet)"
+#~ msgid "\"internet-web-browser\""
+#~ msgstr "«internet-web-browser» (navegador de web, internet)"
 
-#: data/icons.metainfo.xml.in:195
-msgid "\"system-os-install\""
-msgstr "«system-os-install» (instalación de sistema operativo)"
+#~ msgid "\"system-os-install\""
+#~ msgstr "«system-os-install» (instalación de sistema operativo)"
 
-#: data/icons.metainfo.xml.in:196
-msgid "\"preferences-desktop-accessibility-pointing\""
-msgstr ""
-"«preferences-desktop-accessibility-pointing» (preferencias de escritorio, "
-"accesibilidad: punteros)"
+#~ msgid "\"preferences-desktop-accessibility-pointing\""
+#~ msgstr ""
+#~ "«preferences-desktop-accessibility-pointing» (preferencias de escritorio, "
+#~ "accesibilidad: punteros)"
 
-#: data/icons.metainfo.xml.in:197
-msgid "\"preferences-desktop-accessibility-zoom\""
-msgstr ""
-"«preferences-desktop-accessibility-zoom» (preferencias de escritorio, "
-"accesibilidad: escalado)"
+#~ msgid "\"preferences-desktop-accessibility-zoom\""
+#~ msgstr ""
+#~ "«preferences-desktop-accessibility-zoom» (preferencias de escritorio, "
+#~ "accesibilidad: escalado)"
 
-#: data/icons.metainfo.xml.in:198
-msgid "\"preferences-color\""
-msgstr "«preferences-color» (preferencias de color)"
+#~ msgid "\"preferences-color\""
+#~ msgstr "«preferences-color» (preferencias de color)"
 
-#: data/icons.metainfo.xml.in:199
-msgid "\"preferences-system-windows\""
-msgstr "«preferences-system-windows» (preferencias de ventanas del sistema)"
+#~ msgid "\"preferences-system-windows\""
+#~ msgstr "«preferences-system-windows» (preferencias de ventanas del sistema)"
 
-#: data/icons.metainfo.xml.in:200
-msgid "\"applications-education\""
-msgstr "«applications-education» (aplicaciones educativas)"
+#~ msgid "\"applications-education\""
+#~ msgstr "«applications-education» (aplicaciones educativas)"
 
-#: data/icons.metainfo.xml.in:201
-msgid "\"applications-interfacedesign\""
-msgstr "«applications-interfacedesign» (aplicaciones de diseño e interfaz)"
+#~ msgid "\"applications-interfacedesign\""
+#~ msgstr "«applications-interfacedesign» (aplicaciones de diseño e interfaz)"
 
-#: data/icons.metainfo.xml.in:202
-msgid "\"applications-photography\""
-msgstr "«applications-photography» (aplicaciones de fotografía)"
+#~ msgid "\"applications-photography\""
+#~ msgstr "«applications-photography» (aplicaciones de fotografía)"
 
-#: data/icons.metainfo.xml.in:203
-msgid "\"view-list-compact\""
-msgstr "«view-list-compact» (vista de lista compacta)"
+#~ msgid "\"view-list-compact\""
+#~ msgstr "«view-list-compact» (vista de lista compacta)"
 
-#: data/icons.metainfo.xml.in:207
-msgid ""
-"\"applications-development\" uses a purple tile and the same hammer glyph as "
-"build system file types"
-msgstr ""
-"«applications-development» (aplicaciones de desarrollo) utiliza un mosaico "
-"púrpura y el mismo glifo de martillo que los archivos de tipo compilación de "
-"sistema"
+#~ msgid ""
+#~ "\"applications-development\" uses a purple tile and the same hammer glyph "
+#~ "as build system file types"
+#~ msgstr ""
+#~ "«applications-development» (aplicaciones de desarrollo) utiliza un "
+#~ "mosaico púrpura y el mismo glifo de martillo que los archivos de tipo "
+#~ "compilación de sistema"
 
-#: data/icons.metainfo.xml.in:208
-msgid "\"system-file-manager\" is blue and tile shaped"
-msgstr ""
-"«system-file-manager» (gestor de archivos del sistema) es azul y en forma de "
-"mosaico"
+#~ msgid "\"system-file-manager\" is blue and tile shaped"
+#~ msgstr ""
+#~ "«system-file-manager» (gestor de archivos del sistema) es azul y en forma "
+#~ "de mosaico"
 
-#: data/icons.metainfo.xml.in:209
-msgid "\"accessories-calculator\" redesigned as a tile shape"
-msgstr ""
-"«accessories-calculator» (accesorios, calculadora) se ha rediseñado en forma "
-"de mosaico"
+#~ msgid "\"accessories-calculator\" redesigned as a tile shape"
+#~ msgstr ""
+#~ "«accessories-calculator» (accesorios, calculadora) se ha rediseñado en "
+#~ "forma de mosaico"
 
-#: data/icons.metainfo.xml.in:210
-msgid "Update the border radius of several tile-shaped icons"
-msgstr ""
-"Se actualizó el radio de las esquinas de varios iconos en forma de mosaico"
+#~ msgid "Update the border radius of several tile-shaped icons"
+#~ msgstr ""
+#~ "Se actualizó el radio de las esquinas de varios iconos en forma de mosaico"
 
-#: data/icons.metainfo.xml.in:211
-msgid "\"view-*\" symbolic icons"
-msgstr "Iconos simbólicos de «view-*» (vistas)"
+#~ msgid "\"view-*\" symbolic icons"
+#~ msgstr "Iconos simbólicos de «view-*» (vistas)"
 
-#: data/icons.metainfo.xml.in:223
-msgid "\"computer-fail\""
-msgstr "«computer-fail» (falla del computador)"
+#~ msgid "\"computer-fail\""
+#~ msgstr "«computer-fail» (falla del computador)"
 
-#: data/icons.metainfo.xml.in:224
-msgid "\"preferences-desktop-theme\""
-msgstr "«preferences-desktop-theme» (preferencias del tema del escritorio)"
+#~ msgid "\"preferences-desktop-theme\""
+#~ msgstr "«preferences-desktop-theme» (preferencias del tema del escritorio)"
 
-#: data/icons.metainfo.xml.in:225
-msgid "\"application-x-sharedlib\""
-msgstr "«application-x-sharedlib» (biblioteca compartida de aplicación x)"
+#~ msgid "\"application-x-sharedlib\""
+#~ msgstr "«application-x-sharedlib» (biblioteca compartida de aplicación x)"
 
-#: data/icons.metainfo.xml.in:226
-msgid "\"process-paused\""
-msgstr "«process-paused» (proceso pausado)"
+#~ msgid "\"process-paused\""
+#~ msgstr "«process-paused» (proceso pausado)"
 
-#: data/icons.metainfo.xml.in:230
-msgid "\"office-address-book\""
-msgstr "«office-address-book» (libreta de direcciones de oficina)"
+#~ msgid "\"office-address-book\""
+#~ msgstr "«office-address-book» (libreta de direcciones de oficina)"
 
-#: data/icons.metainfo.xml.in:231
-msgid "Flash file types"
-msgstr "Tipos de archivo de Flash"
+#~ msgid "Flash file types"
+#~ msgstr "Tipos de archivo de Flash"
 
-#: data/icons.metainfo.xml.in:235
-msgid "Clean up \"preferences-desktop-workspaces\""
-msgstr ""
-"Se limpió el icono «preferences-desktop-workspaces» (preferencias de áreas "
-"de trabajo del escritorio)"
+#~ msgid "Clean up \"preferences-desktop-workspaces\""
+#~ msgstr ""
+#~ "Se limpió el icono «preferences-desktop-workspaces» (preferencias de "
+#~ "áreas de trabajo del escritorio)"
 
-#: data/icons.metainfo.xml.in:236
-msgid "Update \"preferences-desktop\" to new tile shape"
-msgstr ""
-"Se actualizó «preferences-desktop» (preferencias de escritorio) a una nueva "
-"forma de mosaico"
+#~ msgid "Update \"preferences-desktop\" to new tile shape"
+#~ msgstr ""
+#~ "Se actualizó «preferences-desktop» (preferencias de escritorio) a una "
+#~ "nueva forma de mosaico"
 
-#: data/icons.metainfo.xml.in:237
-msgid "Update \"image-missing\" to new tile shape"
-msgstr ""
-"Se actualizó «image-missing» (imagen faltante) a una nueva forma de mosaico"
+#~ msgid "Update \"image-missing\" to new tile shape"
+#~ msgstr ""
+#~ "Se actualizó «image-missing» (imagen faltante) a una nueva forma de "
+#~ "mosaico"
 
-#: data/icons.metainfo.xml.in:238
-msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
-msgstr ""
-"Se actualizó «preferences-desktop-keyboard» (preferencias del escritorio del "
-"teclado) a una nueva forma de mosaico"
+#~ msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
+#~ msgstr ""
+#~ "Se actualizó «preferences-desktop-keyboard» (preferencias del escritorio "
+#~ "del teclado) a una nueva forma de mosaico"
 
-#: data/icons.metainfo.xml.in:239
-msgid "Update \"document-import\" and \"document-export\" to new tile shape"
-msgstr ""
-"Se actualizó «document-import» (importar documento) y «document-export» "
-"(exportar documento) a nuevas formas de mosaico"
+#~ msgid "Update \"document-import\" and \"document-export\" to new tile shape"
+#~ msgstr ""
+#~ "Se actualizó «document-import» (importar documento) y «document-export» "
+#~ "(exportar documento) a nuevas formas de mosaico"
 
-#: data/icons.metainfo.xml.in:240
-msgid "Update many file types with new arrow shape"
-msgstr "Se actualizaron muchos tipos de archivo con un nuevo glifo de flecha"
+#~ msgid "Update many file types with new arrow shape"
+#~ msgstr ""
+#~ "Se actualizaron muchos tipos de archivo con un nuevo glifo de flecha"
 
-#: data/icons.metainfo.xml.in:241
-msgid "\"application-default-icon\" is now brightly colored"
-msgstr ""
-"«application-default-icon» (icono de aplicación predeterminado) es ahora más "
-"colorido y brillante"
+#~ msgid "\"application-default-icon\" is now brightly colored"
+#~ msgstr ""
+#~ "«application-default-icon» (icono de aplicación predeterminado) es ahora "
+#~ "más colorido y brillante"
 
-#: data/icons.metainfo.xml.in:242
-msgid "\"media-stop\" is now a square"
-msgstr "«media-stop» (medios, detener) es ahora un cuadrado"
+#~ msgid "\"media-stop\" is now a square"
+#~ msgstr "«media-stop» (medios, detener) es ahora un cuadrado"
 
-#: data/icons.metainfo.xml.in:243
-msgid "Round symbolic location status icons"
-msgstr "Iconos redondos de estatus de ubicación simbólicos"
+#~ msgid "Round symbolic location status icons"
+#~ msgstr "Iconos redondos de estatus de ubicación simbólicos"
 
-#: data/icons.metainfo.xml.in:244
-msgid "Use an outlined shape for symbolic tag icons"
-msgstr ""
-"Ahora se utiliza una forma con borde pata, iconos simbólicos de etiquetas"
+#~ msgid "Use an outlined shape for symbolic tag icons"
+#~ msgstr ""
+#~ "Ahora se utiliza una forma con borde pata, iconos simbólicos de etiquetas"
 
-#: data/icons.metainfo.xml.in:245
-msgid "Use a rounded star for symbolic bookmark icons"
-msgstr ""
-"Ahora se utiliza una estrella redondeada para iconos simbólicos de marcadores"
+#~ msgid "Use a rounded star for symbolic bookmark icons"
+#~ msgstr ""
+#~ "Ahora se utiliza una estrella redondeada para iconos simbólicos de "
+#~ "marcadores"
 
-#: data/icons.metainfo.xml.in:246
-msgid "Redesign Night Light"
-msgstr "Se rediseñó el icono de Luz nocturna"
+#~ msgid "Redesign Night Light"
+#~ msgstr "Se rediseñó el icono de Luz nocturna"
 
-#: data/icons.metainfo.xml.in:247
-msgid "Use latest Flatpak branding"
-msgstr "Se utiliza las últimas marcas de Flatkpak"
+#~ msgid "Use latest Flatpak branding"
+#~ msgstr "Se utiliza las últimas marcas de Flatkpak"
 
-#: data/icons.metainfo.xml.in:248
-msgid "Symbolic volume icons use a rounded shape and a slash when muted"
-msgstr ""
-"Los iconos simbólicos de volumen utilizan una forma redondeada y una línea "
-"cruzada cuando se está silenciado"
+#~ msgid "Symbolic volume icons use a rounded shape and a slash when muted"
+#~ msgstr ""
+#~ "Los iconos simbólicos de volumen utilizan una forma redondeada y una "
+#~ "línea cruzada cuando se está silenciado"
 
-#: data/icons.metainfo.xml.in:250
-msgid "Other Changes:"
-msgstr "Otros cambios:"
+#~ msgid "Other Changes:"
+#~ msgstr "Otros cambios:"
 
-#: data/icons.metainfo.xml.in:252
-msgid "Fix broken link for SVG file types"
-msgstr "Se corrigieron enlaces rotos para archivos de tipo SVG"
+#~ msgid "Fix broken link for SVG file types"
+#~ msgstr "Se corrigieron enlaces rotos para archivos de tipo SVG"
 
-#: data/icons.metainfo.xml.in:253
-msgid "Fix missing links for PGP file types"
-msgstr "Se corrigieron enlaces rotor para archivos de tipo PGP"
+#~ msgid "Fix missing links for PGP file types"
+#~ msgstr "Se corrigieron enlaces rotor para archivos de tipo PGP"
 
-#: data/icons.metainfo.xml.in:254
-msgid "Scale some icons to more sizes"
-msgstr "Se agregaron más tamaños a algunos iconos"
+#~ msgid "Scale some icons to more sizes"
+#~ msgstr "Se agregaron más tamaños a algunos iconos"

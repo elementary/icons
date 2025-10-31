@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-31 16:45+0000\n"
+"POT-Creation-Date: 2025-10-31 17:06+0000\n"
 "PO-Revision-Date: 2025-10-30 14:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/desktop/icons-"
@@ -37,7 +37,6 @@ msgstr ""
 
 #: data/icons.metainfo.xml.in:34 data/icons.metainfo.xml.in:69
 #: data/icons.metainfo.xml.in:96 data/icons.metainfo.xml.in:159
-#: data/icons.metainfo.xml.in:187 data/icons.metainfo.xml.in:221
 msgid "Additions:"
 msgstr "Tillägg:"
 
@@ -64,8 +63,7 @@ msgstr ""
 
 #: data/icons.metainfo.xml.in:42 data/icons.metainfo.xml.in:76
 #: data/icons.metainfo.xml.in:108 data/icons.metainfo.xml.in:144
-#: data/icons.metainfo.xml.in:172 data/icons.metainfo.xml.in:205
-#: data/icons.metainfo.xml.in:233
+#: data/icons.metainfo.xml.in:172
 msgid "Updated families:"
 msgstr "Uppdaterade familjer:"
 
@@ -91,7 +89,6 @@ msgstr ""
 
 #: data/icons.metainfo.xml.in:50 data/icons.metainfo.xml.in:103
 #: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
-#: data/icons.metainfo.xml.in:192 data/icons.metainfo.xml.in:228
 msgid "Removals:"
 msgstr "Borttagningar:"
 
@@ -334,172 +331,132 @@ msgid "Updated \"preferences-desktop-display\" and added a 64px version"
 msgstr ""
 "Uppdaterade \"preferences-desktop-display\" och lade till en 64px-version"
 
-#: data/icons.metainfo.xml.in:189
-msgid "\"panel-left/right\""
-msgstr "\"panel-left/right\""
+#~ msgid "\"panel-left/right\""
+#~ msgstr "\"panel-left/right\""
 
-#: data/icons.metainfo.xml.in:190
-msgid "Symlink to \"application-x-xpinstall\" for web extension files"
-msgstr "Symlink till \"application-x-xpinstall\" för webbtilläggsfiler"
+#~ msgid "Symlink to \"application-x-xpinstall\" for web extension files"
+#~ msgstr "Symlink till \"application-x-xpinstall\" för webbtilläggsfiler"
 
-#: data/icons.metainfo.xml.in:194
-msgid "\"internet-web-browser\""
-msgstr "\"internet-web-browser\""
+#~ msgid "\"internet-web-browser\""
+#~ msgstr "\"internet-web-browser\""
 
-#: data/icons.metainfo.xml.in:195
-msgid "\"system-os-install\""
-msgstr "\"system-os-install\""
+#~ msgid "\"system-os-install\""
+#~ msgstr "\"system-os-install\""
 
-#: data/icons.metainfo.xml.in:196
-msgid "\"preferences-desktop-accessibility-pointing\""
-msgstr "\"preferences-desktop-accessibility-pointing\""
+#~ msgid "\"preferences-desktop-accessibility-pointing\""
+#~ msgstr "\"preferences-desktop-accessibility-pointing\""
 
-#: data/icons.metainfo.xml.in:197
-msgid "\"preferences-desktop-accessibility-zoom\""
-msgstr "\"preferences-desktop-accessibility-zoom\""
+#~ msgid "\"preferences-desktop-accessibility-zoom\""
+#~ msgstr "\"preferences-desktop-accessibility-zoom\""
 
-#: data/icons.metainfo.xml.in:198
-msgid "\"preferences-color\""
-msgstr "\"preferences-color\""
+#~ msgid "\"preferences-color\""
+#~ msgstr "\"preferences-color\""
 
-#: data/icons.metainfo.xml.in:199
-msgid "\"preferences-system-windows\""
-msgstr "\"preferences-system-windows\""
+#~ msgid "\"preferences-system-windows\""
+#~ msgstr "\"preferences-system-windows\""
 
-#: data/icons.metainfo.xml.in:200
-msgid "\"applications-education\""
-msgstr "\"applications-education\""
+#~ msgid "\"applications-education\""
+#~ msgstr "\"applications-education\""
 
-#: data/icons.metainfo.xml.in:201
-msgid "\"applications-interfacedesign\""
-msgstr "\"applications-interfacedesign\""
+#~ msgid "\"applications-interfacedesign\""
+#~ msgstr "\"applications-interfacedesign\""
 
-#: data/icons.metainfo.xml.in:202
-msgid "\"applications-photography\""
-msgstr "\"applications-photography\""
+#~ msgid "\"applications-photography\""
+#~ msgstr "\"applications-photography\""
 
-#: data/icons.metainfo.xml.in:203
-msgid "\"view-list-compact\""
-msgstr "\"view-list-compact\""
+#~ msgid "\"view-list-compact\""
+#~ msgstr "\"view-list-compact\""
 
-#: data/icons.metainfo.xml.in:207
-msgid ""
-"\"applications-development\" uses a purple tile and the same hammer glyph as "
-"build system file types"
-msgstr ""
-"\"applications-development\" använder en lila ruta och samma hammarsymbol "
-"som filtyper för byggsystem"
+#~ msgid ""
+#~ "\"applications-development\" uses a purple tile and the same hammer glyph "
+#~ "as build system file types"
+#~ msgstr ""
+#~ "\"applications-development\" använder en lila ruta och samma hammarsymbol "
+#~ "som filtyper för byggsystem"
 
-#: data/icons.metainfo.xml.in:208
-msgid "\"system-file-manager\" is blue and tile shaped"
-msgstr "\"system-file-manager\" är blå och rutformad"
+#~ msgid "\"system-file-manager\" is blue and tile shaped"
+#~ msgstr "\"system-file-manager\" är blå och rutformad"
 
-#: data/icons.metainfo.xml.in:209
-msgid "\"accessories-calculator\" redesigned as a tile shape"
-msgstr "\"accessories-calculator\" omdesignad som en rutform"
+#~ msgid "\"accessories-calculator\" redesigned as a tile shape"
+#~ msgstr "\"accessories-calculator\" omdesignad som en rutform"
 
-#: data/icons.metainfo.xml.in:210
-msgid "Update the border radius of several tile-shaped icons"
-msgstr "Uppdatera kantradien för flera rutformade ikoner"
+#~ msgid "Update the border radius of several tile-shaped icons"
+#~ msgstr "Uppdatera kantradien för flera rutformade ikoner"
 
-#: data/icons.metainfo.xml.in:211
-msgid "\"view-*\" symbolic icons"
-msgstr "\"view-*\" symboliska ikoner"
+#~ msgid "\"view-*\" symbolic icons"
+#~ msgstr "\"view-*\" symboliska ikoner"
 
-#: data/icons.metainfo.xml.in:223
-msgid "\"computer-fail\""
-msgstr "\"computer-fail\""
+#~ msgid "\"computer-fail\""
+#~ msgstr "\"computer-fail\""
 
-#: data/icons.metainfo.xml.in:224
-msgid "\"preferences-desktop-theme\""
-msgstr "\"preferences-desktop-theme\""
+#~ msgid "\"preferences-desktop-theme\""
+#~ msgstr "\"preferences-desktop-theme\""
 
-#: data/icons.metainfo.xml.in:225
-msgid "\"application-x-sharedlib\""
-msgstr "\"application-x-sharedlib\""
+#~ msgid "\"application-x-sharedlib\""
+#~ msgstr "\"application-x-sharedlib\""
 
-#: data/icons.metainfo.xml.in:226
-msgid "\"process-paused\""
-msgstr "\"process-paused\""
+#~ msgid "\"process-paused\""
+#~ msgstr "\"process-paused\""
 
-#: data/icons.metainfo.xml.in:230
-msgid "\"office-address-book\""
-msgstr "\"office-address-book\""
+#~ msgid "\"office-address-book\""
+#~ msgstr "\"office-address-book\""
 
-#: data/icons.metainfo.xml.in:231
-msgid "Flash file types"
-msgstr "Flash-filtyper"
+#~ msgid "Flash file types"
+#~ msgstr "Flash-filtyper"
 
-#: data/icons.metainfo.xml.in:235
-msgid "Clean up \"preferences-desktop-workspaces\""
-msgstr "Städa upp \"preferences-desktop-workspaces\""
+#~ msgid "Clean up \"preferences-desktop-workspaces\""
+#~ msgstr "Städa upp \"preferences-desktop-workspaces\""
 
-#: data/icons.metainfo.xml.in:236
-msgid "Update \"preferences-desktop\" to new tile shape"
-msgstr "Uppdatera \"preferences-desktop\" till ny form på plattorna"
+#~ msgid "Update \"preferences-desktop\" to new tile shape"
+#~ msgstr "Uppdatera \"preferences-desktop\" till ny form på plattorna"
 
-#: data/icons.metainfo.xml.in:237
-msgid "Update \"image-missing\" to new tile shape"
-msgstr "Uppdatera \"image-missing\" till ny rutform"
+#~ msgid "Update \"image-missing\" to new tile shape"
+#~ msgstr "Uppdatera \"image-missing\" till ny rutform"
 
-#: data/icons.metainfo.xml.in:238
-msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
-msgstr "Uppdatera \"preferences-desktop-keyboard\" till ny rutform"
+#~ msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
+#~ msgstr "Uppdatera \"preferences-desktop-keyboard\" till ny rutform"
 
-#: data/icons.metainfo.xml.in:239
-msgid "Update \"document-import\" and \"document-export\" to new tile shape"
-msgstr "Uppdatera \"document-import\" och \"document-export\" till ny rutform"
+#~ msgid "Update \"document-import\" and \"document-export\" to new tile shape"
+#~ msgstr ""
+#~ "Uppdatera \"document-import\" och \"document-export\" till ny rutform"
 
-#: data/icons.metainfo.xml.in:240
-msgid "Update many file types with new arrow shape"
-msgstr "Uppdatera många filtyper med ny pilform"
+#~ msgid "Update many file types with new arrow shape"
+#~ msgstr "Uppdatera många filtyper med ny pilform"
 
-#: data/icons.metainfo.xml.in:241
-msgid "\"application-default-icon\" is now brightly colored"
-msgstr "\"application-default-icon\" är nu färgglad"
+#~ msgid "\"application-default-icon\" is now brightly colored"
+#~ msgstr "\"application-default-icon\" är nu färgglad"
 
-#: data/icons.metainfo.xml.in:242
-msgid "\"media-stop\" is now a square"
-msgstr "\"media-stop\" är nu en fyrkant"
+#~ msgid "\"media-stop\" is now a square"
+#~ msgstr "\"media-stop\" är nu en fyrkant"
 
-#: data/icons.metainfo.xml.in:243
-msgid "Round symbolic location status icons"
-msgstr "Runda symboliska statusikoner för plats"
+#~ msgid "Round symbolic location status icons"
+#~ msgstr "Runda symboliska statusikoner för plats"
 
-#: data/icons.metainfo.xml.in:244
-msgid "Use an outlined shape for symbolic tag icons"
-msgstr "Använd en konturerad form för symboliska taggikoner"
+#~ msgid "Use an outlined shape for symbolic tag icons"
+#~ msgstr "Använd en konturerad form för symboliska taggikoner"
 
-#: data/icons.metainfo.xml.in:245
-msgid "Use a rounded star for symbolic bookmark icons"
-msgstr "Använd en rundad stjärna för symboliska bokmärkesikoner"
+#~ msgid "Use a rounded star for symbolic bookmark icons"
+#~ msgstr "Använd en rundad stjärna för symboliska bokmärkesikoner"
 
-#: data/icons.metainfo.xml.in:246
-msgid "Redesign Night Light"
-msgstr "Omdesignat nattljus"
+#~ msgid "Redesign Night Light"
+#~ msgstr "Omdesignat nattljus"
 
-#: data/icons.metainfo.xml.in:247
-msgid "Use latest Flatpak branding"
-msgstr "Använd senaste Flatpak-varumärket"
+#~ msgid "Use latest Flatpak branding"
+#~ msgstr "Använd senaste Flatpak-varumärket"
 
-#: data/icons.metainfo.xml.in:248
-msgid "Symbolic volume icons use a rounded shape and a slash when muted"
-msgstr ""
-"Symboliska volymikoner har en rundad form och ett snedstreck när de är "
-"avstängda"
+#~ msgid "Symbolic volume icons use a rounded shape and a slash when muted"
+#~ msgstr ""
+#~ "Symboliska volymikoner har en rundad form och ett snedstreck när de är "
+#~ "avstängda"
 
-#: data/icons.metainfo.xml.in:250
-msgid "Other Changes:"
-msgstr "Övriga förändringar:"
+#~ msgid "Other Changes:"
+#~ msgstr "Övriga förändringar:"
 
-#: data/icons.metainfo.xml.in:252
-msgid "Fix broken link for SVG file types"
-msgstr "Fixa trasig länk för SVG-filtyper"
+#~ msgid "Fix broken link for SVG file types"
+#~ msgstr "Fixa trasig länk för SVG-filtyper"
 
-#: data/icons.metainfo.xml.in:253
-msgid "Fix missing links for PGP file types"
-msgstr "Åtgärda saknade länkar för PGP-filtyper"
+#~ msgid "Fix missing links for PGP file types"
+#~ msgstr "Åtgärda saknade länkar för PGP-filtyper"
 
-#: data/icons.metainfo.xml.in:254
-msgid "Scale some icons to more sizes"
-msgstr "Skala vissa ikoner till fler storlekar"
+#~ msgid "Scale some icons to more sizes"
+#~ msgstr "Skala vissa ikoner till fler storlekar"

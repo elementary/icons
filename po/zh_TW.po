@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-31 16:45+0000\n"
+"POT-Creation-Date: 2025-10-31 17:06+0000\n"
 "PO-Revision-Date: 2024-09-05 21:13+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -35,7 +35,6 @@ msgstr "專門設計給 elementary OS 與其桌面環境 Pantheon 使用的原�
 
 #: data/icons.metainfo.xml.in:34 data/icons.metainfo.xml.in:69
 #: data/icons.metainfo.xml.in:96 data/icons.metainfo.xml.in:159
-#: data/icons.metainfo.xml.in:187 data/icons.metainfo.xml.in:221
 msgid "Additions:"
 msgstr "新增項目："
 
@@ -62,8 +61,7 @@ msgstr ""
 
 #: data/icons.metainfo.xml.in:42 data/icons.metainfo.xml.in:76
 #: data/icons.metainfo.xml.in:108 data/icons.metainfo.xml.in:144
-#: data/icons.metainfo.xml.in:172 data/icons.metainfo.xml.in:205
-#: data/icons.metainfo.xml.in:233
+#: data/icons.metainfo.xml.in:172
 msgid "Updated families:"
 msgstr "更新圖示家族："
 
@@ -89,7 +87,6 @@ msgstr ""
 
 #: data/icons.metainfo.xml.in:50 data/icons.metainfo.xml.in:103
 #: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
-#: data/icons.metainfo.xml.in:192 data/icons.metainfo.xml.in:228
 msgid "Removals:"
 msgstr "移除項目："
 
@@ -330,170 +327,129 @@ msgstr "更新 \"edit-clear\" 和 \"document-*-symbolic\" 的角落半徑"
 msgid "Updated \"preferences-desktop-display\" and added a 64px version"
 msgstr "更新 \"preferences-desktop-display\" 並添加 64px 版本"
 
-#: data/icons.metainfo.xml.in:189
-msgid "\"panel-left/right\""
-msgstr "\"panel-left/right\""
+#~ msgid "\"panel-left/right\""
+#~ msgstr "\"panel-left/right\""
 
-#: data/icons.metainfo.xml.in:190
-msgid "Symlink to \"application-x-xpinstall\" for web extension files"
-msgstr "為 WebExtension 檔案提供 \"application-x-xpinstall\" 的符號連結"
+#~ msgid "Symlink to \"application-x-xpinstall\" for web extension files"
+#~ msgstr "為 WebExtension 檔案提供 \"application-x-xpinstall\" 的符號連結"
 
-#: data/icons.metainfo.xml.in:194
-msgid "\"internet-web-browser\""
-msgstr "\"internet-web-browser\""
+#~ msgid "\"internet-web-browser\""
+#~ msgstr "\"internet-web-browser\""
 
-#: data/icons.metainfo.xml.in:195
-msgid "\"system-os-install\""
-msgstr "\"system-os-install\""
+#~ msgid "\"system-os-install\""
+#~ msgstr "\"system-os-install\""
 
-#: data/icons.metainfo.xml.in:196
-msgid "\"preferences-desktop-accessibility-pointing\""
-msgstr "\"preferences-desktop-accessibility-pointing\""
+#~ msgid "\"preferences-desktop-accessibility-pointing\""
+#~ msgstr "\"preferences-desktop-accessibility-pointing\""
 
-#: data/icons.metainfo.xml.in:197
-msgid "\"preferences-desktop-accessibility-zoom\""
-msgstr "\"preferences-desktop-accessibility-zoom\""
+#~ msgid "\"preferences-desktop-accessibility-zoom\""
+#~ msgstr "\"preferences-desktop-accessibility-zoom\""
 
-#: data/icons.metainfo.xml.in:198
-msgid "\"preferences-color\""
-msgstr "\"preferences-color\""
+#~ msgid "\"preferences-color\""
+#~ msgstr "\"preferences-color\""
 
-#: data/icons.metainfo.xml.in:199
-msgid "\"preferences-system-windows\""
-msgstr "\"preferences-system-windows\""
+#~ msgid "\"preferences-system-windows\""
+#~ msgstr "\"preferences-system-windows\""
 
-#: data/icons.metainfo.xml.in:200
-msgid "\"applications-education\""
-msgstr "\"applications-education\""
+#~ msgid "\"applications-education\""
+#~ msgstr "\"applications-education\""
 
-#: data/icons.metainfo.xml.in:201
-msgid "\"applications-interfacedesign\""
-msgstr "\"applications-interfacedesign\""
+#~ msgid "\"applications-interfacedesign\""
+#~ msgstr "\"applications-interfacedesign\""
 
-#: data/icons.metainfo.xml.in:202
-msgid "\"applications-photography\""
-msgstr "\"applications-photography\""
+#~ msgid "\"applications-photography\""
+#~ msgstr "\"applications-photography\""
 
-#: data/icons.metainfo.xml.in:203
-msgid "\"view-list-compact\""
-msgstr "\"view-list-compact\""
+#~ msgid "\"view-list-compact\""
+#~ msgstr "\"view-list-compact\""
 
-#: data/icons.metainfo.xml.in:207
-msgid ""
-"\"applications-development\" uses a purple tile and the same hammer glyph as "
-"build system file types"
-msgstr ""
-"\"applications-development\" 使用紫色方塊，並與編譯系統檔案類型使用相同的鐵鎚"
-"形狀"
+#~ msgid ""
+#~ "\"applications-development\" uses a purple tile and the same hammer glyph "
+#~ "as build system file types"
+#~ msgstr ""
+#~ "\"applications-development\" 使用紫色方塊，並與編譯系統檔案類型使用相同的"
+#~ "鐵鎚形狀"
 
-#: data/icons.metainfo.xml.in:208
-msgid "\"system-file-manager\" is blue and tile shaped"
-msgstr "\"system-file-manager\" 改為藍色方塊狀"
+#~ msgid "\"system-file-manager\" is blue and tile shaped"
+#~ msgstr "\"system-file-manager\" 改為藍色方塊狀"
 
-#: data/icons.metainfo.xml.in:209
-msgid "\"accessories-calculator\" redesigned as a tile shape"
-msgstr "\"accessories-calculator\" 重新設計為方塊狀"
+#~ msgid "\"accessories-calculator\" redesigned as a tile shape"
+#~ msgstr "\"accessories-calculator\" 重新設計為方塊狀"
 
-#: data/icons.metainfo.xml.in:210
-msgid "Update the border radius of several tile-shaped icons"
-msgstr "更新一些方塊狀圖示的角落半徑"
+#~ msgid "Update the border radius of several tile-shaped icons"
+#~ msgstr "更新一些方塊狀圖示的角落半徑"
 
-#: data/icons.metainfo.xml.in:211
-msgid "\"view-*\" symbolic icons"
-msgstr "\"view-*\" 符號圖示"
+#~ msgid "\"view-*\" symbolic icons"
+#~ msgstr "\"view-*\" 符號圖示"
 
-#: data/icons.metainfo.xml.in:223
-msgid "\"computer-fail\""
-msgstr "\"computer-fail\""
+#~ msgid "\"computer-fail\""
+#~ msgstr "\"computer-fail\""
 
-#: data/icons.metainfo.xml.in:224
-msgid "\"preferences-desktop-theme\""
-msgstr "\"preferences-desktop-theme\""
+#~ msgid "\"preferences-desktop-theme\""
+#~ msgstr "\"preferences-desktop-theme\""
 
-#: data/icons.metainfo.xml.in:225
-msgid "\"application-x-sharedlib\""
-msgstr "\"application-x-sharedlib\""
+#~ msgid "\"application-x-sharedlib\""
+#~ msgstr "\"application-x-sharedlib\""
 
-#: data/icons.metainfo.xml.in:226
-msgid "\"process-paused\""
-msgstr "\"process-paused\""
+#~ msgid "\"process-paused\""
+#~ msgstr "\"process-paused\""
 
-#: data/icons.metainfo.xml.in:230
-msgid "\"office-address-book\""
-msgstr "\"office-address-book\""
+#~ msgid "\"office-address-book\""
+#~ msgstr "\"office-address-book\""
 
-#: data/icons.metainfo.xml.in:231
-msgid "Flash file types"
-msgstr "Adobe Flash 的檔案類型"
+#~ msgid "Flash file types"
+#~ msgstr "Adobe Flash 的檔案類型"
 
-#: data/icons.metainfo.xml.in:235
-msgid "Clean up \"preferences-desktop-workspaces\""
-msgstr "清理 \"preferences-desktop-workspaces\""
+#~ msgid "Clean up \"preferences-desktop-workspaces\""
+#~ msgstr "清理 \"preferences-desktop-workspaces\""
 
-#: data/icons.metainfo.xml.in:236
-msgid "Update \"preferences-desktop\" to new tile shape"
-msgstr "將 \"preferences-desktop\" 更新為新的方塊狀"
+#~ msgid "Update \"preferences-desktop\" to new tile shape"
+#~ msgstr "將 \"preferences-desktop\" 更新為新的方塊狀"
 
-#: data/icons.metainfo.xml.in:237
-msgid "Update \"image-missing\" to new tile shape"
-msgstr "將 \"image-missing\" 更新為新的方塊狀"
+#~ msgid "Update \"image-missing\" to new tile shape"
+#~ msgstr "將 \"image-missing\" 更新為新的方塊狀"
 
-#: data/icons.metainfo.xml.in:238
-msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
-msgstr "將 \"preferences-desktop-keyboard\" 更新為新的方塊狀"
+#~ msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
+#~ msgstr "將 \"preferences-desktop-keyboard\" 更新為新的方塊狀"
 
-#: data/icons.metainfo.xml.in:239
-msgid "Update \"document-import\" and \"document-export\" to new tile shape"
-msgstr "將 \"document-import\" 和 \"document-export\" 更新為新的方塊狀"
+#~ msgid "Update \"document-import\" and \"document-export\" to new tile shape"
+#~ msgstr "將 \"document-import\" 和 \"document-export\" 更新為新的方塊狀"
 
-#: data/icons.metainfo.xml.in:240
-msgid "Update many file types with new arrow shape"
-msgstr "讓許多檔案類型使用新的箭頭形狀"
+#~ msgid "Update many file types with new arrow shape"
+#~ msgstr "讓許多檔案類型使用新的箭頭形狀"
 
-#: data/icons.metainfo.xml.in:241
-msgid "\"application-default-icon\" is now brightly colored"
-msgstr "將 \"application-default-icon\" 改為明亮色彩"
+#~ msgid "\"application-default-icon\" is now brightly colored"
+#~ msgstr "將 \"application-default-icon\" 改為明亮色彩"
 
-#: data/icons.metainfo.xml.in:242
-msgid "\"media-stop\" is now a square"
-msgstr "將 \"media-stop\" 改為正方形"
+#~ msgid "\"media-stop\" is now a square"
+#~ msgstr "將 \"media-stop\" 改為正方形"
 
-#: data/icons.metainfo.xml.in:243
-msgid "Round symbolic location status icons"
-msgstr "圓形的位置資訊狀態圖示"
+#~ msgid "Round symbolic location status icons"
+#~ msgstr "圓形的位置資訊狀態圖示"
 
-#: data/icons.metainfo.xml.in:244
-msgid "Use an outlined shape for symbolic tag icons"
-msgstr "為符號標籤圖示使用有外框的形狀"
+#~ msgid "Use an outlined shape for symbolic tag icons"
+#~ msgstr "為符號標籤圖示使用有外框的形狀"
 
-#: data/icons.metainfo.xml.in:245
-msgid "Use a rounded star for symbolic bookmark icons"
-msgstr "為符號書籤圖示使用圓形和星星"
+#~ msgid "Use a rounded star for symbolic bookmark icons"
+#~ msgstr "為符號書籤圖示使用圓形和星星"
 
-#: data/icons.metainfo.xml.in:246
-msgid "Redesign Night Light"
-msgstr "重新設計夜光"
+#~ msgid "Redesign Night Light"
+#~ msgstr "重新設計夜光"
 
-#: data/icons.metainfo.xml.in:247
-msgid "Use latest Flatpak branding"
-msgstr "使用最新的 Flatpak 宣傳圖風格"
+#~ msgid "Use latest Flatpak branding"
+#~ msgstr "使用最新的 Flatpak 宣傳圖風格"
 
-#: data/icons.metainfo.xml.in:248
-msgid "Symbolic volume icons use a rounded shape and a slash when muted"
-msgstr "符號音量圖示現在使用圓滑形狀，並在靜音時使用斜線"
+#~ msgid "Symbolic volume icons use a rounded shape and a slash when muted"
+#~ msgstr "符號音量圖示現在使用圓滑形狀，並在靜音時使用斜線"
 
-#: data/icons.metainfo.xml.in:250
-msgid "Other Changes:"
-msgstr "其他變更："
+#~ msgid "Other Changes:"
+#~ msgstr "其他變更："
 
-#: data/icons.metainfo.xml.in:252
-msgid "Fix broken link for SVG file types"
-msgstr "修正 SVG 檔案類型的連結失效的問題"
+#~ msgid "Fix broken link for SVG file types"
+#~ msgstr "修正 SVG 檔案類型的連結失效的問題"
 
-#: data/icons.metainfo.xml.in:253
-msgid "Fix missing links for PGP file types"
-msgstr "修正 PGP 檔案類型缺乏連結的問題"
+#~ msgid "Fix missing links for PGP file types"
+#~ msgstr "修正 PGP 檔案類型缺乏連結的問題"
 
-#: data/icons.metainfo.xml.in:254
-msgid "Scale some icons to more sizes"
-msgstr "將某些圖示縮放到更多尺寸"
+#~ msgid "Scale some icons to more sizes"
+#~ msgstr "將某些圖示縮放到更多尺寸"
