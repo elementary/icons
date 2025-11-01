@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-31 17:06+0000\n"
-"PO-Revision-Date: 2025-10-30 14:55+0000\n"
+"PO-Revision-Date: 2025-11-02 07:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
-"Language-Team: Swedish <https://l10n.elementaryos.org/projects/desktop/icons-"
-"extra/sv/>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/desktop/"
+"icons-extra/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,24 +42,25 @@ msgstr "Tillägg:"
 
 #: data/icons.metainfo.xml.in:36
 msgid "`start-here`"
-msgstr ""
+msgstr "`start-here`"
 
 #: data/icons.metainfo.xml.in:37
 msgid "Tool icons for Inkscape"
-msgstr ""
+msgstr "Verktygsikoner för Inkscape"
 
 #: data/icons.metainfo.xml.in:38
 msgid "Add Adwaita as a fallback for icon names"
-msgstr ""
+msgstr "Lägg till Adwaita som en reserv för ikonnamn"
 
 #: data/icons.metainfo.xml.in:39
 msgid ""
 "16px `accessories-character-map`, `document-properties`, `preferences-system`"
 msgstr ""
+"16px `accessories-character-map`, `document-properties`, `preferences-system`"
 
 #: data/icons.metainfo.xml.in:40
 msgid "24px `list-add-symbolic`"
-msgstr ""
+msgstr "24px `list-add-symbolic`"
 
 #: data/icons.metainfo.xml.in:42 data/icons.metainfo.xml.in:76
 #: data/icons.metainfo.xml.in:108 data/icons.metainfo.xml.in:144
@@ -69,23 +70,23 @@ msgstr "Uppdaterade familjer:"
 
 #: data/icons.metainfo.xml.in:44
 msgid "Add a scroll wheel to mouse"
-msgstr ""
+msgstr "Lägg till ett rullhjul till mus"
 
 #: data/icons.metainfo.xml.in:45
 msgid "Use outline style for `applications-internet-symbolic`"
-msgstr ""
+msgstr "Använd konturstil för `applications-internet-symbolic`"
 
 #: data/icons.metainfo.xml.in:46
 msgid "Differentiate keyboard device from keyboard preferences"
-msgstr ""
+msgstr "Skilj på tangentbordsenhet från tangentbordsinställningar"
 
 #: data/icons.metainfo.xml.in:47
 msgid "Round find-location"
-msgstr ""
+msgstr "Rund find-location"
 
 #: data/icons.metainfo.xml.in:48
 msgid "Remove visual artifact from 16px `edit-paste` icon"
-msgstr ""
+msgstr "Ta bort visuell artifakt från 16px `edit-paste`-ikon"
 
 #: data/icons.metainfo.xml.in:50 data/icons.metainfo.xml.in:103
 #: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
@@ -94,145 +95,158 @@ msgstr "Borttagningar:"
 
 #: data/icons.metainfo.xml.in:52
 msgid "`view-filter`"
-msgstr ""
+msgstr "`view-filter`"
 
 #: data/icons.metainfo.xml.in:53
 msgid "`media-memory`"
-msgstr ""
+msgstr "`media-memory`"
 
 #: data/icons.metainfo.xml.in:71
 msgid "import and export actions at 16x"
-msgstr ""
+msgstr "import- och exportåtgärder med 16x"
 
 #: data/icons.metainfo.xml.in:72
 msgid "`mail-send-receive` now has a color version"
-msgstr ""
+msgstr "`mail-send-receive` har nu en färgversion"
 
 #: data/icons.metainfo.xml.in:73
 msgid ""
 "`system-software-install` has a new icon, separate from the AppCenter "
 "branding"
 msgstr ""
+"`system-software-install` har en ny ikon, separat från AppCenter-varumärkning"
 
 #: data/icons.metainfo.xml.in:74
 msgid "symlinks are now handled in the build system"
-msgstr ""
+msgstr "symboliska länkar hanteras nu i byggsystemet"
 
 #: data/icons.metainfo.xml.in:78
 msgid "Fixed color, pagesizes, and grid alignment for all symbolic icons"
-msgstr ""
+msgstr "Fast färg, sidstorlekar och rutnätsjustering för alla symboliska ikoner"
 
 #: data/icons.metainfo.xml.in:79
 msgid ""
 "`text` and `text-vertical` cursors have new designs, matching the new cursor "
 "style from 8.0.0"
 msgstr ""
+"`text` och `text-vertical`-markörer har ny design, matchande nya "
+"markörstilen från 8.0.0"
 
 #: data/icons.metainfo.xml.in:80
 msgid "Chat bubbles are now used for `user-*` status icons"
-msgstr ""
+msgstr "Chattbubblor används nu för `user-*`-statusikoner"
 
 #: data/icons.metainfo.xml.in:81
 msgid ""
 "`preferences-desktop-locacle-symbolic` has been updated to be closer to the "
 "color version"
 msgstr ""
+"`preferences-desktop-locacle-symbolic` har nu uppdaterats för att likna "
+"färgversionen"
 
 #: data/icons.metainfo.xml.in:82
 msgid ""
 "The colors of the magnifying glass in print preview actions has been unified "
 "with that of the find action"
 msgstr ""
+"Färgerna på förstoringsglaset i förhandsgranskningsåtgärderna har anpassats "
+"till färgerna i sökåtgärden"
 
 #: data/icons.metainfo.xml.in:83
 msgid "`mail-message-new` has been made more uniform across its variations"
-msgstr ""
+msgstr "`mail-message-new` har nu gjorts mer enhetlig mellan sina variationer"
 
 #: data/icons.metainfo.xml.in:84
 msgid "`save-as-symbolic` has a new design to differentiate from `save`"
-msgstr ""
+msgstr "`save-as-symbolic` har nu en ny design för att särskiljas från `save`"
 
 #: data/icons.metainfo.xml.in:85
 msgid ""
 "session icons (`system-*`) have had minor updates to shape language and "
 "color added"
 msgstr ""
+"sessionikoner (`system-*`) har fått mindre uppdateringar av formspråk och "
+"färg"
 
 #: data/icons.metainfo.xml.in:98
 msgid ""
 "`preferences-desktop-wallpaper` is now a unique icon from `preferences-"
 "desktop` and features a colorful paint roller design"
 msgstr ""
+"`preferences-desktop-wallpaper` är nu en unik ikon från `preferences-desktop`"
+" och har en färgglad färgrollsdesign"
 
 #: data/icons.metainfo.xml.in:99
 msgid ""
 "`accessories-screenshot-tool` and the symlink `applets-screenshooter` are "
 "added to cover icons expected by the Portals backend"
 msgstr ""
+"`accessories-screenshot-tool` och symlänken `applets-screenshooter` läggs "
+"till för att täcka ikoner som förväntas av Portaler-backend"
 
 #: data/icons.metainfo.xml.in:100
 msgid "`usb-receiver` to cover peripheral receivers in FWUPD"
-msgstr ""
+msgstr "`usb-receiver` för att täcka tillbehörsmottagare i FWUPD"
 
 #: data/icons.metainfo.xml.in:101
 msgid "`system-log-out-symbolic`"
-msgstr ""
+msgstr "`system-log-out-symbolic`"
 
 #: data/icons.metainfo.xml.in:105
 msgid "`bug`"
-msgstr ""
+msgstr "`bug`"
 
 #: data/icons.metainfo.xml.in:106
-#, fuzzy
-#| msgid "\"preferences-system-windows\""
 msgid "`preferences-system-parental-controls`"
-msgstr "\"preferences-system-windows\""
+msgstr "`preferences-system-parental-controls`"
 
 #: data/icons.metainfo.xml.in:110
 msgid ""
 "Cursors have been completely redrawn with a new base pointer shape, colorful "
 "badges, and a new color wheel design for waiting states"
 msgstr ""
+"Markörerna har ritats om helt med en ny baspekareform, färgglada märken och "
+"en ny färghjuldesign för väntelägen"
 
 #: data/icons.metainfo.xml.in:111
 msgid ""
 "Use brighter colors for `edit-find` icons and add missing 16px `edit-find-"
 "replace`"
 msgstr ""
+"Använd ljusare färger för `edit-find`-ikoner och lägg till saknade 16px "
+"`edit-find-replace`"
 
 #: data/icons.metainfo.xml.in:112
-#, fuzzy
-#| msgid "Update the border radius of several tile-shaped icons"
 msgid "Update the border radius of `preferences-desktop-locale`"
-msgstr "Uppdatera kantradien för flera rutformade ikoner"
+msgstr "Uppdatera kantradien för `preferences-desktop-locale`"
 
 #: data/icons.metainfo.xml.in:113
 msgid "`window-*` icons use more rounded arrow shapes"
-msgstr ""
+msgstr "`window-*`-ikoner använder mer rundade pilformer"
 
 #: data/icons.metainfo.xml.in:114
 msgid "`system-*-symbolic` icons are a more uniform size"
-msgstr ""
+msgstr "`system-*-symbolic`-ikoner har en mer enhetlig storlek"
 
 #: data/icons.metainfo.xml.in:115
 msgid "halign checkmark on 32px `process-completed`"
-msgstr ""
+msgstr "halign-kryssmarkering på 32px `process-completed`"
 
 #: data/icons.metainfo.xml.in:116
 msgid "redesign `preferences-system` with higher contrast and more detail"
-msgstr ""
+msgstr "omdesigna `preferences-system` med högre kontrast och mer detaljer"
 
 #: data/icons.metainfo.xml.in:117
 msgid "clean up 128 drive-harddisk"
-msgstr ""
+msgstr "städa upp 128 drive-harddisk"
 
 #: data/icons.metainfo.xml.in:118
 msgid "Fix grid alignment of several `document-*` icons"
-msgstr ""
+msgstr "Korrigera rutnätsjusteringen för flera `document-*`-ikoner"
 
 #: data/icons.metainfo.xml.in:119
 msgid "Use a bell for `preferences-system-notification`"
-msgstr ""
+msgstr "Använd en bjällra för `preferences-system-notification`"
 
 #: data/icons.metainfo.xml.in:141
 msgid ""
