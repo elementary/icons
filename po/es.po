@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-31 17:06+0000\n"
-"PO-Revision-Date: 2024-12-12 05:36+0000\n"
-"Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
-"Language-Team: Spanish <https://l10n.elementary.io/projects/desktop/icons-"
-"extra/es/>\n"
+"PO-Revision-Date: 2025-11-06 01:55+0000\n"
+"Last-Translator: Italo Felipe Capasso Ballesteros <italo@gp-mail.com>\n"
+"Language-Team: Spanish <https://l10n.elementaryos.org/projects/desktop/"
+"icons-extra/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/icons.metainfo.xml.in:10
 msgid "elementary Icons"
@@ -42,24 +42,27 @@ msgstr "Iconos agregados:"
 
 #: data/icons.metainfo.xml.in:36
 msgid "`start-here`"
-msgstr ""
+msgstr "`start-here` (Comienza aquí)"
 
 #: data/icons.metainfo.xml.in:37
 msgid "Tool icons for Inkscape"
-msgstr ""
+msgstr "Iconos de herramientas para Inkscape"
 
 #: data/icons.metainfo.xml.in:38
 msgid "Add Adwaita as a fallback for icon names"
-msgstr ""
+msgstr "Se agregó Addwaita como iconos predeterminados en caso de fallas"
 
 #: data/icons.metainfo.xml.in:39
 msgid ""
 "16px `accessories-character-map`, `document-properties`, `preferences-system`"
 msgstr ""
+"16px `accessories-character-map`, `document-properties`, `preferences-system`"
+" («accesorios-mapa-caracteres», «documento-propiedades», «sistema-"
+"preferencias»)"
 
 #: data/icons.metainfo.xml.in:40
 msgid "24px `list-add-symbolic`"
-msgstr ""
+msgstr "24px `list-add-symbolic` («lista-agregar-simbólico»)"
 
 #: data/icons.metainfo.xml.in:42 data/icons.metainfo.xml.in:76
 #: data/icons.metainfo.xml.in:108 data/icons.metainfo.xml.in:144
@@ -69,23 +72,28 @@ msgstr "Familias actualizadas:"
 
 #: data/icons.metainfo.xml.in:44
 msgid "Add a scroll wheel to mouse"
-msgstr ""
+msgstr "Se agregó desplazamiento de rueda para la familia de ratón"
 
 #: data/icons.metainfo.xml.in:45
 msgid "Use outline style for `applications-internet-symbolic`"
 msgstr ""
+"Se utiliza un estilo de borde para `applications-internet-symbolic` "
+"(«aplicaciones-internet-simbólico»)"
 
 #: data/icons.metainfo.xml.in:46
 msgid "Differentiate keyboard device from keyboard preferences"
 msgstr ""
+"Se diferencia entre el icono de dispositivo de teclado y el icono de "
+"preferencias de teclado"
 
 #: data/icons.metainfo.xml.in:47
 msgid "Round find-location"
-msgstr ""
+msgstr "Icono «encontrar ubicación redondo»"
 
 #: data/icons.metainfo.xml.in:48
 msgid "Remove visual artifact from 16px `edit-paste` icon"
 msgstr ""
+"Se eliminó un artefacto visual del icono 16px `edit-paste`(editor-pegar)"
 
 #: data/icons.metainfo.xml.in:50 data/icons.metainfo.xml.in:103
 #: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
@@ -94,43 +102,52 @@ msgstr "Iconos retirados:"
 
 #: data/icons.metainfo.xml.in:52
 msgid "`view-filter`"
-msgstr ""
+msgstr "`view-filter` («vista-filtro»)"
 
 #: data/icons.metainfo.xml.in:53
 msgid "`media-memory`"
-msgstr ""
+msgstr "`media-memory` («medios-memoria»)"
 
 #: data/icons.metainfo.xml.in:71
 msgid "import and export actions at 16x"
-msgstr ""
+msgstr "Acciones de importar y exportar en 16px"
 
 #: data/icons.metainfo.xml.in:72
 msgid "`mail-send-receive` now has a color version"
 msgstr ""
+"Se agregó una versión a color del icono`mail-send-receive` («correo-enviar-"
+"recibir»)"
 
 #: data/icons.metainfo.xml.in:73
 msgid ""
 "`system-software-install` has a new icon, separate from the AppCenter "
 "branding"
 msgstr ""
+"`system-software-install` («sistema-software.instalar») tiene un nuevo icono "
+", que se diferencie de la marca del Centro de Aplicaciones"
 
 #: data/icons.metainfo.xml.in:74
 msgid "symlinks are now handled in the build system"
-msgstr ""
+msgstr "Los enlaces simbólicos ahora se manejan en el sistema de «build»"
 
 #: data/icons.metainfo.xml.in:78
 msgid "Fixed color, pagesizes, and grid alignment for all symbolic icons"
 msgstr ""
+"Se corrigió el color, tamaño y alineamiento de todos los iconos simbólicos"
 
 #: data/icons.metainfo.xml.in:79
 msgid ""
 "`text` and `text-vertical` cursors have new designs, matching the new cursor "
 "style from 8.0.0"
 msgstr ""
+"Los cursores de `text` («texto») y `text-vertical` («texto-vertical») tiene "
+"nuevos diseños que coinciden con el estilo de cursores de 8.0.0"
 
 #: data/icons.metainfo.xml.in:80
 msgid "Chat bubbles are now used for `user-*` status icons"
 msgstr ""
+"La burbujas de chat ahora se usan para los iconos de status tipo `user-*` "
+"(«usuario-*»)"
 
 #: data/icons.metainfo.xml.in:81
 msgid ""
