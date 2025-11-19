@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-31 17:06+0000\n"
-"PO-Revision-Date: 2023-08-08 08:09+0000\n"
+"PO-Revision-Date: 2025-11-13 07:55+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/desktop/icons-"
-"extra/he/>\n"
+"Language-Team: Hebrew <https://l10n.elementaryos.org/projects/desktop/"
+"icons-extra/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/icons.metainfo.xml.in:10
 msgid "elementary Icons"
@@ -42,24 +42,26 @@ msgstr "תוספות:"
 
 #: data/icons.metainfo.xml.in:36
 msgid "`start-here`"
-msgstr ""
+msgstr "`start-here`"
 
 #: data/icons.metainfo.xml.in:37
 msgid "Tool icons for Inkscape"
-msgstr ""
+msgstr "סמלי כלי לאינקסקייפ"
 
 #: data/icons.metainfo.xml.in:38
 msgid "Add Adwaita as a fallback for icon names"
-msgstr ""
+msgstr "הוספת Adwaita כגיבוי לשמות סמלים"
 
 #: data/icons.metainfo.xml.in:39
 msgid ""
 "16px `accessories-character-map`, `document-properties`, `preferences-system`"
 msgstr ""
+"`accessories-character-map`,‏ `document-properties`,‏ `preferences-system` "
+"בגודל 16 פיקסלים"
 
 #: data/icons.metainfo.xml.in:40
 msgid "24px `list-add-symbolic`"
-msgstr ""
+msgstr "`list-add-symbolic` בגודל 24 פיקסלים"
 
 #: data/icons.metainfo.xml.in:42 data/icons.metainfo.xml.in:76
 #: data/icons.metainfo.xml.in:108 data/icons.metainfo.xml.in:144
@@ -69,23 +71,23 @@ msgstr "משפחות שעודכנו:"
 
 #: data/icons.metainfo.xml.in:44
 msgid "Add a scroll wheel to mouse"
-msgstr ""
+msgstr "הוספת גלגלת לעכבר"
 
 #: data/icons.metainfo.xml.in:45
 msgid "Use outline style for `applications-internet-symbolic`"
-msgstr ""
+msgstr "שימוש בסגנון מתאר עבור `applications-internet-symbolic`"
 
 #: data/icons.metainfo.xml.in:46
 msgid "Differentiate keyboard device from keyboard preferences"
-msgstr ""
+msgstr "הבדל ברור יותר בין התקן המקלדת להעדפות המקלדת"
 
 #: data/icons.metainfo.xml.in:47
 msgid "Round find-location"
-msgstr ""
+msgstr "find-location עגול"
 
 #: data/icons.metainfo.xml.in:48
 msgid "Remove visual artifact from 16px `edit-paste` icon"
-msgstr ""
+msgstr "הסרת קישוטים מהסמל `edit-paste` בגודל 16 פיקסלים"
 
 #: data/icons.metainfo.xml.in:50 data/icons.metainfo.xml.in:103
 #: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
@@ -94,29 +96,29 @@ msgstr "הסרות:"
 
 #: data/icons.metainfo.xml.in:52
 msgid "`view-filter`"
-msgstr ""
+msgstr "`view-filter`"
 
 #: data/icons.metainfo.xml.in:53
 msgid "`media-memory`"
-msgstr ""
+msgstr "`media-memory`"
 
 #: data/icons.metainfo.xml.in:71
 msgid "import and export actions at 16x"
-msgstr ""
+msgstr "פעולות ייבוא וייצוא ב־16 פיקסלים"
 
 #: data/icons.metainfo.xml.in:72
 msgid "`mail-send-receive` now has a color version"
-msgstr ""
+msgstr "ל־`mail-send-receive` יש עכשיו גרסה צבעונית"
 
 #: data/icons.metainfo.xml.in:73
 msgid ""
 "`system-software-install` has a new icon, separate from the AppCenter "
 "branding"
-msgstr ""
+msgstr "ל־`system-software-install` יש סמל חדש, בנפרד ממיתוג מרכז היישומים"
 
 #: data/icons.metainfo.xml.in:74
 msgid "symlinks are now handled in the build system"
-msgstr ""
+msgstr "קישורים סמליים מטופלים מעתה במערכת הבנייה"
 
 #: data/icons.metainfo.xml.in:78
 msgid "Fixed color, pagesizes, and grid alignment for all symbolic icons"
@@ -137,16 +139,18 @@ msgid ""
 "`preferences-desktop-locacle-symbolic` has been updated to be closer to the "
 "color version"
 msgstr ""
+"`preferences-desktop-locacle-symbolic` עודכן כך שיהיה קרוב יותר לגרסה "
+"הצבעונית"
 
 #: data/icons.metainfo.xml.in:82
 msgid ""
 "The colors of the magnifying glass in print preview actions has been unified "
 "with that of the find action"
-msgstr ""
+msgstr "צבעי זכוכית המגדלת בפעולות התצוגה המקדימה אוחדו עם אלו של פעולת האיתור"
 
 #: data/icons.metainfo.xml.in:83
 msgid "`mail-message-new` has been made more uniform across its variations"
-msgstr ""
+msgstr "`mail-message-new` אחיד יותר בין ההגוונים שלו"
 
 #: data/icons.metainfo.xml.in:84
 msgid "`save-as-symbolic` has a new design to differentiate from `save`"
@@ -175,20 +179,16 @@ msgid "`usb-receiver` to cover peripheral receivers in FWUPD"
 msgstr ""
 
 #: data/icons.metainfo.xml.in:101
-#, fuzzy
-#| msgid "num-lock-symbolic"
 msgid "`system-log-out-symbolic`"
-msgstr "num-lock-symbolic"
+msgstr "`system-log-out-symbolic`"
 
 #: data/icons.metainfo.xml.in:105
 msgid "`bug`"
-msgstr ""
+msgstr "`bug`"
 
 #: data/icons.metainfo.xml.in:106
-#, fuzzy
-#| msgid "\"preferences-system-windows\""
 msgid "`preferences-system-parental-controls`"
-msgstr "\"preferences-system-windows\""
+msgstr "`preferences-system-parental-controls`"
 
 #: data/icons.metainfo.xml.in:110
 msgid ""
@@ -203,18 +203,16 @@ msgid ""
 msgstr ""
 
 #: data/icons.metainfo.xml.in:112
-#, fuzzy
-#| msgid "Update the border radius of several tile-shaped icons"
 msgid "Update the border radius of `preferences-desktop-locale`"
-msgstr "רדיוס המסגרת עודכן בכמה מהסמלים בצורות אריחים"
+msgstr "רדיוס המסגרת של `preferences-desktop-locale` עודכן"
 
 #: data/icons.metainfo.xml.in:113
 msgid "`window-*` icons use more rounded arrow shapes"
-msgstr ""
+msgstr "סמלי `window-*‎` משתמשים בצורות חץ מעוגלות יותר"
 
 #: data/icons.metainfo.xml.in:114
 msgid "`system-*-symbolic` icons are a more uniform size"
-msgstr ""
+msgstr "סמלי `system-*-symbolic` הם בגודל יותר אחיד"
 
 #: data/icons.metainfo.xml.in:115
 msgid "halign checkmark on 32px `process-completed`"
@@ -236,7 +234,7 @@ msgstr "תוקן היישור של כמה מסמני העכבר"
 
 #: data/icons.metainfo.xml.in:119
 msgid "Use a bell for `preferences-system-notification`"
-msgstr ""
+msgstr "להשתמש בפעמון ל־`preferences-system-notification`"
 
 #: data/icons.metainfo.xml.in:141
 msgid ""
