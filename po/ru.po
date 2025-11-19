@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-31 17:06+0000\n"
-"PO-Revision-Date: 2023-07-28 12:08+0000\n"
-"Last-Translator: lenemter <lenemter@gmail.com>\n"
-"Language-Team: Russian <https://l10n.elementary.io/projects/desktop/icons-"
-"extra/ru/>\n"
+"PO-Revision-Date: 2025-11-09 16:55+0000\n"
+"Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
+"Language-Team: Russian <https://l10n.elementaryos.org/projects/desktop/"
+"icons-extra/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/icons.metainfo.xml.in:10
 msgid "elementary Icons"
@@ -43,24 +43,26 @@ msgstr "Дополнения:"
 
 #: data/icons.metainfo.xml.in:36
 msgid "`start-here`"
-msgstr ""
+msgstr "«start-here»"
 
 #: data/icons.metainfo.xml.in:37
 msgid "Tool icons for Inkscape"
-msgstr ""
+msgstr "Значки инструментов для Inkscape"
 
 #: data/icons.metainfo.xml.in:38
 msgid "Add Adwaita as a fallback for icon names"
-msgstr ""
+msgstr "Добавлена Adwaita для запасных названий значков"
 
 #: data/icons.metainfo.xml.in:39
 msgid ""
 "16px `accessories-character-map`, `document-properties`, `preferences-system`"
 msgstr ""
+"16px для «accessories-character-map», «document-properties», «preferences-"
+"system»"
 
 #: data/icons.metainfo.xml.in:40
 msgid "24px `list-add-symbolic`"
-msgstr ""
+msgstr "24px для «list-add-symbolic»"
 
 #: data/icons.metainfo.xml.in:42 data/icons.metainfo.xml.in:76
 #: data/icons.metainfo.xml.in:108 data/icons.metainfo.xml.in:144
@@ -70,23 +72,23 @@ msgstr "Обновлённые семейства:"
 
 #: data/icons.metainfo.xml.in:44
 msgid "Add a scroll wheel to mouse"
-msgstr ""
+msgstr "Добавлено колесо прокрутки на мышке"
 
 #: data/icons.metainfo.xml.in:45
 msgid "Use outline style for `applications-internet-symbolic`"
-msgstr ""
+msgstr "Контурный стиль для «applications-internet-symbolic»"
 
 #: data/icons.metainfo.xml.in:46
 msgid "Differentiate keyboard device from keyboard preferences"
-msgstr ""
+msgstr "Значки клавиатуры и параметров клавиатуры теперь различаются"
 
 #: data/icons.metainfo.xml.in:47
 msgid "Round find-location"
-msgstr ""
+msgstr "Скруглён find-location"
 
 #: data/icons.metainfo.xml.in:48
 msgid "Remove visual artifact from 16px `edit-paste` icon"
-msgstr ""
+msgstr "Убран визуальный артефакт на 16px значке «edit-paste»"
 
 #: data/icons.metainfo.xml.in:50 data/icons.metainfo.xml.in:103
 #: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
@@ -95,69 +97,78 @@ msgstr "Удаления:"
 
 #: data/icons.metainfo.xml.in:52
 msgid "`view-filter`"
-msgstr ""
+msgstr "«view-filter»"
 
 #: data/icons.metainfo.xml.in:53
 msgid "`media-memory`"
-msgstr ""
+msgstr "«media-memory»"
 
 #: data/icons.metainfo.xml.in:71
 msgid "import and export actions at 16x"
-msgstr ""
+msgstr "Действия import и export в 16px"
 
 #: data/icons.metainfo.xml.in:72
 msgid "`mail-send-receive` now has a color version"
-msgstr ""
+msgstr "«mail-send-receive» теперь имеет цветную версию"
 
 #: data/icons.metainfo.xml.in:73
 msgid ""
 "`system-software-install` has a new icon, separate from the AppCenter "
 "branding"
 msgstr ""
+"Новый значок «system-software-install», выполненный без брендинга AppCenter"
 
 #: data/icons.metainfo.xml.in:74
 msgid "symlinks are now handled in the build system"
-msgstr ""
+msgstr "Символьные ссылки теперь обрабатываются системой сборки"
 
 #: data/icons.metainfo.xml.in:78
 msgid "Fixed color, pagesizes, and grid alignment for all symbolic icons"
 msgstr ""
+"Исправления цвета, размеров и выравнивания сетки для всех символьных значков"
 
 #: data/icons.metainfo.xml.in:79
 msgid ""
 "`text` and `text-vertical` cursors have new designs, matching the new cursor "
 "style from 8.0.0"
 msgstr ""
+"Новый дизайн курсоров «text» и «text-vertical», соответствующий новому стилю "
+"курсоров из 8.0.0"
 
 #: data/icons.metainfo.xml.in:80
 msgid "Chat bubbles are now used for `user-*` status icons"
-msgstr ""
+msgstr "Значки статуса «user-*» теперь используют пузырьки чата"
 
 #: data/icons.metainfo.xml.in:81
 msgid ""
 "`preferences-desktop-locacle-symbolic` has been updated to be closer to the "
 "color version"
 msgstr ""
+"«preferences-desktop-locacle-symbolic» был обновлён, чтобы выглядеть ближе к "
+"цветной версии"
 
 #: data/icons.metainfo.xml.in:82
 msgid ""
 "The colors of the magnifying glass in print preview actions has been unified "
 "with that of the find action"
 msgstr ""
+"Цвета лупы у действий предпросмотра печати были приведены в соответствие с "
+"цветами значка действия поиска"
 
 #: data/icons.metainfo.xml.in:83
 msgid "`mail-message-new` has been made more uniform across its variations"
-msgstr ""
+msgstr "«mail-message-new» и его вариации теперь выглядят более однородно"
 
 #: data/icons.metainfo.xml.in:84
 msgid "`save-as-symbolic` has a new design to differentiate from `save`"
-msgstr ""
+msgstr "Новый дизайн для «save-as-symbolic», более отличимый от «save»"
 
 #: data/icons.metainfo.xml.in:85
 msgid ""
 "session icons (`system-*`) have had minor updates to shape language and "
 "color added"
 msgstr ""
+"Значки сессии («system-*») получили небольшие обновления символов и цветов"
 
 #: data/icons.metainfo.xml.in:98
 msgid ""
