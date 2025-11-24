@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-31 17:06+0000\n"
-"PO-Revision-Date: 2025-11-06 01:55+0000\n"
+"PO-Revision-Date: 2025-11-20 21:55+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <italo@gp-mail.com>\n"
 "Language-Team: Spanish <https://l10n.elementaryos.org/projects/desktop/"
 "icons-extra/es/>\n"
@@ -154,103 +154,134 @@ msgid ""
 "`preferences-desktop-locacle-symbolic` has been updated to be closer to the "
 "color version"
 msgstr ""
+"Se actualizó `preferences-desktop-locale-symbolic` («preferencias-escritorio-"
+"locale-simbólico») para parecerse más a la versión a color"
 
 #: data/icons.metainfo.xml.in:82
 msgid ""
 "The colors of the magnifying glass in print preview actions has been unified "
 "with that of the find action"
 msgstr ""
+"Se unificaron los colores de la lupa en la vista previa de impresión y la de "
+"la acción de buscar"
 
 #: data/icons.metainfo.xml.in:83
 msgid "`mail-message-new` has been made more uniform across its variations"
 msgstr ""
+"`mail-message-new` («correo-mensaje-nuevo») se ha cambiado para ser más "
+"uniforme en sus variaciones"
 
 #: data/icons.metainfo.xml.in:84
 msgid "`save-as-symbolic` has a new design to differentiate from `save`"
 msgstr ""
+"`save-as-symbolic`(«guardar-como-simbólico») tiene un nuevo diseño para "
+"diferenciarse de `save` («guardar»)"
 
 #: data/icons.metainfo.xml.in:85
 msgid ""
 "session icons (`system-*`) have had minor updates to shape language and "
 "color added"
 msgstr ""
+"Lo iconos de sesión `system-*` («sistema-*») han tenido actualizaciones "
+"menores para representar idioma y color"
 
 #: data/icons.metainfo.xml.in:98
 msgid ""
 "`preferences-desktop-wallpaper` is now a unique icon from `preferences-"
 "desktop` and features a colorful paint roller design"
 msgstr ""
+"`preferences-desktop-wallpaper` («preferencias-escritorio-fondo») tiene una "
+"forma única, diferente de `preferences-desktop` («preferencias-escritorio») "
+"y dispone de un diseño de rodillo de pintura colorido"
 
 #: data/icons.metainfo.xml.in:99
 msgid ""
 "`accessories-screenshot-tool` and the symlink `applets-screenshooter` are "
 "added to cover icons expected by the Portals backend"
 msgstr ""
+"Se agregaron los iconos `accessories-screenshot-tool` y el enlace `applets-"
+"screenshooter` para cubrir lo esperado por el «backend» de Portales"
 
 #: data/icons.metainfo.xml.in:100
 msgid "`usb-receiver` to cover peripheral receivers in FWUPD"
 msgstr ""
+"Se agregó `usb-receiver` («usb-receptor») para cubrir los receptores de "
+"periféricos en FWUPD"
 
 #: data/icons.metainfo.xml.in:101
 msgid "`system-log-out-symbolic`"
-msgstr ""
+msgstr "`system-log-out-symbolic` («sistema-cerrar-sesión-simbólico»)"
 
 #: data/icons.metainfo.xml.in:105
 msgid "`bug`"
-msgstr ""
+msgstr "`bug` («error»)"
 
 #: data/icons.metainfo.xml.in:106
-#, fuzzy
-#| msgid "\"preferences-system-windows\""
 msgid "`preferences-system-parental-controls`"
-msgstr "«preferences-system-windows» (preferencias de ventanas del sistema)"
+msgstr ""
+"`preferences-system-parental-controls` («preferencias-controles-parentales»)"
 
 #: data/icons.metainfo.xml.in:110
 msgid ""
 "Cursors have been completely redrawn with a new base pointer shape, colorful "
 "badges, and a new color wheel design for waiting states"
 msgstr ""
+"Los cursores se han re-dibujado con una nueva base de puntero, insignias "
+"coloridas, y un nuevo diseño de rueda de color para estados de espera"
 
 #: data/icons.metainfo.xml.in:111
 msgid ""
 "Use brighter colors for `edit-find` icons and add missing 16px `edit-find-"
 "replace`"
 msgstr ""
+"Ahora se utilizan colores mas brillantes para los iconos `edit-find`(«editar-"
+"buscar»), y se agregó un icono de 16 px `edit-find-replace` («editar-buscar-"
+"reemplazar») faltante"
 
 #: data/icons.metainfo.xml.in:112
-#, fuzzy
-#| msgid "Update the border radius of several tile-shaped icons"
 msgid "Update the border radius of `preferences-desktop-locale`"
 msgstr ""
-"Se actualizó el radio de las esquinas de varios iconos en forma de mosaico"
+"Se actualizó el radio de las esquinas de `preferences-desktop-locale"
+"`(«preferencia-escritorio-localización»)"
 
 #: data/icons.metainfo.xml.in:113
 msgid "`window-*` icons use more rounded arrow shapes"
 msgstr ""
+"Lo iconos de `window-*`(«ventana-*») ahora utilizan flechas con formas más "
+"redondeadas"
 
 #: data/icons.metainfo.xml.in:114
 msgid "`system-*-symbolic` icons are a more uniform size"
 msgstr ""
+"Los iconos de `system-*-symbolic` («sistma-*-simbólicos») tienen ahora un "
+"tamaño más uniforme"
 
 #: data/icons.metainfo.xml.in:115
 msgid "halign checkmark on 32px `process-completed`"
 msgstr ""
+"Se agrego una casilla de alienación horizontal en el icono de 32 px `process-"
+"completed` («proceso-finalizado»)"
 
 #: data/icons.metainfo.xml.in:116
 msgid "redesign `preferences-system` with higher contrast and more detail"
 msgstr ""
+"Se ah rediseñado `preferences-system`con un mayor contraste y más detalle"
 
 #: data/icons.metainfo.xml.in:117
 msgid "clean up 128 drive-harddisk"
-msgstr ""
+msgstr "Se ha limpiado el icono de 128 px drive-harddisk («disco-duro»)"
 
 #: data/icons.metainfo.xml.in:118
 msgid "Fix grid alignment of several `document-*` icons"
 msgstr ""
+"Se corrigió el alineamiento de grilla de varios iconos de `document-*` "
+"(«documento-*»)"
 
 #: data/icons.metainfo.xml.in:119
 msgid "Use a bell for `preferences-system-notification`"
 msgstr ""
+"Ahora se usa una campana para `preferences-system-notification` "
+"(«preferencias-sistema-notificación»)"
 
 #: data/icons.metainfo.xml.in:141
 msgid ""
