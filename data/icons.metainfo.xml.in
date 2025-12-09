@@ -29,31 +29,70 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
-    <release version="8.1.0" date="2024-10-23" urgency="medium">
-      <p>Additions:</p>
-      <ul>
-        <li>import and export actions at 16x</li>
-        <li>`mail-send-receive` now has a color version</li>
-        <li>`system-software-install` has a new icon, separate from the AppCenter branding</li>
-        <li>symlinks are now handled in the build system</li>
-      </ul>
-      <p>Updated families:</p>
-      <ul>
-        <li>Fixed color, pagesizes, and grid alignment for all symbolic icons</li>
-        <li>`text` and `text-vertical` cursors have new designs, matching the new cursor style from 8.0.0</li>
-        <li>Chat bubbles are now used for `user-*` status icons</li>
-        <li>`preferences-desktop-locacle-symbolic` has been updated to be closer to the color version</li>
-        <li>The colors of the magnifying glass in print preview actions has been unified with that of the find action</li>
-        <li>`mail-message-new` has been made more uniform across its variations</li>
-        <li>`save-as-symbolic` has a new design to differentiate from `save`</li>
-        <li>session icons (`system-*`) have had minor updates to shape language and color added</li>
-      </ul>
+    <release version="8.2.0" date="2025-10-31" urgency="medium" translate="no">
+      <description>
+        <p>Additions:</p>
+        <ul>
+          <li>`start-here`</li>
+          <li>Tool icons for Inkscape</li>
+          <li>Add Adwaita as a fallback for icon names</li>
+          <li>16px `accessories-character-map`, `document-properties`, `preferences-system`</li>
+          <li>24px `list-add-symbolic`</li>
+        </ul>
+        <p>Updated families:</p>
+        <ul>
+          <li>Add a scroll wheel to mouse</li>
+          <li>Use outline style for `applications-internet-symbolic`</li>
+          <li>Differentiate keyboard device from keyboard preferences</li>
+          <li>Round find-location</li>
+          <li>Remove visual artifact from 16px `edit-paste` icon</li>
+        </ul>
+        <p>Removals:</p>
+        <ul>
+          <li>`view-filter`</li>
+          <li>`media-memory`</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/icons/issues/1274">Composite file type icons</issue>
+        <issue url="https://github.com/elementary/icons/issues/1305">Standardize folder icons</issue>
+        <issue url="https://github.com/elementary/icons/issues/1306">Actions: tool-pointer and tool-node-editor use old pointers</issue>
+        <issue url="https://github.com/elementary/icons/issues/1323">Supply SVG cursor theme</issue>
+        <issue url="https://github.com/elementary/icons/issues/1326">Grab cursor not appearing</issue>
+        <issue url="https://github.com/elementary/icons/issues/1330">Applications: apps/16 do not use consistent rim-light stops</issue>
+        <issue url="https://github.com/elementary/icons/issues/1357">Missing fill in 16px system-software-install</issue>
+      </issues>
+    </release>
+
+    <release version="8.1.0" date="2024-10-23" urgency="medium" translate="no">
+      <description>
+        <p>Additions:</p>
+        <ul>
+          <li>import and export actions at 16x</li>
+          <li>`mail-send-receive` now has a color version</li>
+          <li>`system-software-install` has a new icon, separate from the AppCenter branding</li>
+          <li>symlinks are now handled in the build system</li>
+        </ul>
+        <p>Updated families:</p>
+        <ul>
+          <li>Fixed color, pagesizes, and grid alignment for all symbolic icons</li>
+          <li>`text` and `text-vertical` cursors have new designs, matching the new cursor style from 8.0.0</li>
+          <li>Chat bubbles are now used for `user-*` status icons</li>
+          <li>`preferences-desktop-locacle-symbolic` has been updated to be closer to the color version</li>
+          <li>The colors of the magnifying glass in print preview actions has been unified with that of the find action</li>
+          <li>`mail-message-new` has been made more uniform across its variations</li>
+          <li>`save-as-symbolic` has a new design to differentiate from `save`</li>
+          <li>session icons (`system-*`) have had minor updates to shape language and color added</li>
+        </ul>
+      </description>
       <issues>
         <issue url="https://github.com/elementary/icons/issues/1307">Status: user-* icon styles differ between fullcolor and symbolic</issue>
         <issue url="https://github.com/elementary/icons/issues/1151">system-software-install</issue>
       </issues>
     </release>
-    <release version="8.0.0" date="2024-05-06" urgency="medium">
+
+    <release version="8.0.0" date="2024-05-06" urgency="medium" translate="no">
+      <description>
         <p>Additions:</p>
         <ul>
           <li>`preferences-desktop-wallpaper` is now a unique icon from `preferences-desktop` and features a colorful paint roller design</li>
@@ -79,6 +118,7 @@
           <li>Fix grid alignment of several `document-*` icons</li>
           <li>Use a bell for `preferences-system-notification`</li>
         </ul>
+      </description>
       <issues>
         <issue url="https://github.com/elementary/icons/issues/591">mime: jar file (java archive)</issue>
         <issue url="https://github.com/elementary/icons/issues/702">view-fullscreen icon issues</issue>
@@ -94,7 +134,7 @@
       </issues>
     </release>
 
-    <release version="7.3.1" date="2023-08-08" urgency="medium">
+    <release version="7.3.1" date="2023-08-08" urgency="medium" translate="no">
       <description>
         <p>Removals:</p>
         <ul>
@@ -114,7 +154,7 @@
       </issues>
     </release>
 
-    <release version="7.3.0" date="2023-05-02" urgency="medium">
+    <release version="7.3.0" date="2023-05-02" urgency="medium" translate="no">
       <description>
         <p>Additions:</p>
         <ul>
@@ -143,79 +183,12 @@
     </release>
 
     <release version="7.2.0" date="2023-01-24" urgency="medium">
-      <description>
-        <p>Additions:</p>
-        <ul>
-          <li>"panel-left/right"</li>
-          <li>Symlink to "application-x-xpinstall" for web extension files</li>
-        </ul>
-        <p>Removals:</p>
-        <ul>
-          <li>"internet-web-browser"</li>
-          <li>"system-os-install"</li>
-          <li>"preferences-desktop-accessibility-pointing"</li>
-          <li>"preferences-desktop-accessibility-zoom"</li>
-          <li>"preferences-color"</li>
-          <li>"preferences-system-windows"</li>
-          <li>"applications-education"</li>
-          <li>"applications-interfacedesign"</li>
-          <li>"applications-photography"</li>
-          <li>"view-list-compact"</li>
-        </ul>
-        <p>Updated families:</p>
-        <ul>
-          <li>"applications-development" uses a purple tile and the same hammer glyph as build system file types</li>
-          <li>"system-file-manager" is blue and tile shaped</li>
-          <li>"accessories-calculator" redesigned as a tile shape</li>
-          <li>Update the border radius of several tile-shaped icons</li>
-          <li>"view-*" symbolic icons</li>
-        </ul>
-      </description>
       <issues>
         <issue url="https://github.com/elementary/icons/issues/1136">Normalize width of key next to backspace in "input-keyboard"</issue>
       </issues>
     </release>
 
-    <release version="7.1.0" date="2022-10-06" urgency="medium">
-      <description>
-        <p>Additions:</p>
-        <ul>
-          <li>"computer-fail"</li>
-          <li>"preferences-desktop-theme"</li>
-          <li>"application-x-sharedlib"</li>
-          <li>"process-paused"</li>
-        </ul>
-        <p>Removals:</p>
-        <ul>
-          <li>"office-address-book"</li>
-          <li>Flash file types</li>
-        </ul>
-        <p>Updated families:</p>
-        <ul>
-          <li>Clean up "preferences-desktop-workspaces"</li>
-          <li>Update "preferences-desktop" to new tile shape</li>
-          <li>Update "image-missing" to new tile shape</li>
-          <li>Update "preferences-desktop-keyboard" to new tile shape</li>
-          <li>Update "document-import" and "document-export" to new tile shape</li>
-          <li>Update many file types with new arrow shape</li>
-          <li>"application-default-icon" is now brightly colored</li>
-          <li>"media-stop" is now a square</li>
-          <li>Round symbolic location status icons</li>
-          <li>Use an outlined shape for symbolic tag icons</li>
-          <li>Use a rounded star for symbolic bookmark icons</li>
-          <li>Redesign Night Light</li>
-          <li>Use latest Flatpak branding</li>
-          <li>Symbolic volume icons use a rounded shape and a slash when muted</li>
-        </ul>
-        <p>Other Changes:</p>
-        <ul>
-          <li>Fix broken link for SVG file types</li>
-          <li>Fix missing links for PGP file types</li>
-          <li>Scale some icons to more sizes</li>
-        </ul>
-      </description>
-    </release>
-
+    <release version="7.1.0" date="2022-10-06" />
     <release version="7.0.0" date="2022-04-25" />
     <release version="6.1.0" date="2021-11-23" />
     <release version="6.0.0" date="2021-07-15" />
