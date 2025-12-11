@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-31 17:06+0000\n"
-"PO-Revision-Date: 2025-11-09 16:55+0000\n"
+"PO-Revision-Date: 2025-12-12 16:55+0000\n"
 "Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementaryos.org/projects/desktop/"
 "icons-extra/ru/>\n"
@@ -175,80 +175,82 @@ msgid ""
 "`preferences-desktop-wallpaper` is now a unique icon from `preferences-"
 "desktop` and features a colorful paint roller design"
 msgstr ""
+"«preferences-desktop-wallpaper» получил отличный от «preferences-desktop» "
+"значок, изображающий разноцветный малярный валик"
 
 #: data/icons.metainfo.xml.in:99
 msgid ""
 "`accessories-screenshot-tool` and the symlink `applets-screenshooter` are "
 "added to cover icons expected by the Portals backend"
 msgstr ""
+"Добавлены значок «accessories-screenshot-tool» и ссылка «applets-"
+"screenshooter», используемые бэкендом Порталов"
 
 #: data/icons.metainfo.xml.in:100
 msgid "`usb-receiver` to cover peripheral receivers in FWUPD"
-msgstr ""
+msgstr "Значок «usb-receiver» для периферийных приёмников в FWUPD"
 
 #: data/icons.metainfo.xml.in:101
-#, fuzzy
-#| msgid "num-lock-symbolic"
 msgid "`system-log-out-symbolic`"
-msgstr "num-lock-symbolic"
+msgstr "«system-log-out-symbolic»"
 
 #: data/icons.metainfo.xml.in:105
 msgid "`bug`"
-msgstr ""
+msgstr "«bug»"
 
 #: data/icons.metainfo.xml.in:106
-#, fuzzy
-#| msgid "\"preferences-system-windows\""
 msgid "`preferences-system-parental-controls`"
-msgstr "«preferences-system-windows»"
+msgstr "«preferences-system-parental-controls»"
 
 #: data/icons.metainfo.xml.in:110
 msgid ""
 "Cursors have been completely redrawn with a new base pointer shape, colorful "
 "badges, and a new color wheel design for waiting states"
 msgstr ""
+"Полностью перерисованные курсоры с обновлённой формой указателя, "
+"разноцветными метками и новым дизайном цветного колёсика ожидающих состояний"
 
 #: data/icons.metainfo.xml.in:111
 msgid ""
 "Use brighter colors for `edit-find` icons and add missing 16px `edit-find-"
 "replace`"
 msgstr ""
+"Более яркие цвета для значков «edit-find», добавлена отсутствовавшая 16px "
+"версия «edit-find-replace»"
 
 #: data/icons.metainfo.xml.in:112
-#, fuzzy
-#| msgid "Update the border radius of several tile-shaped icons"
 msgid "Update the border radius of `preferences-desktop-locale`"
-msgstr "Обновлены скругления углов нескольких значков в форме плитки"
+msgstr "Обновлены скругления углов у значка «preferences-desktop-locale»"
 
 #: data/icons.metainfo.xml.in:113
 msgid "`window-*` icons use more rounded arrow shapes"
-msgstr ""
+msgstr "Значки «window-*» теперь используют более скруглённые формы стрелок"
 
 #: data/icons.metainfo.xml.in:114
 msgid "`system-*-symbolic` icons are a more uniform size"
-msgstr ""
+msgstr "Значки «system-*-symbolic» теперь имеют более однородный размер"
 
 #: data/icons.metainfo.xml.in:115
 msgid "halign checkmark on 32px `process-completed`"
-msgstr ""
+msgstr "Горизонтально выровнена галочка на 32px значке «process-completed»"
 
 #: data/icons.metainfo.xml.in:116
 msgid "redesign `preferences-system` with higher contrast and more detail"
 msgstr ""
+"Обновлённый значок «preferences-system», более детализированный и контрастный"
 
 #: data/icons.metainfo.xml.in:117
 msgid "clean up 128 drive-harddisk"
-msgstr ""
+msgstr "Упрощён 128px значок «drive-harddisk»"
 
 #: data/icons.metainfo.xml.in:118
-#, fuzzy
-#| msgid "Fix alignment of several cursors"
 msgid "Fix grid alignment of several `document-*` icons"
-msgstr "Исправлено выравнивание нескольких указателей мыши"
+msgstr "Исправлено выравнивание по сетке у нескольких значков «document-*»"
 
 #: data/icons.metainfo.xml.in:119
 msgid "Use a bell for `preferences-system-notification`"
 msgstr ""
+"Для значка «preferences-system-notification» теперь используется колокольчик"
 
 #: data/icons.metainfo.xml.in:141
 msgid ""
