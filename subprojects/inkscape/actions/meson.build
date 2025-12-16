@@ -1,6 +1,7 @@
 fs = import('fs')
 icon_sizes = ['16', '24', 'symbolic']
 
+# Fd.o icons Inkscape uses
 icon_names = [
   'align-horizontal-baseline',
   'align-horizontal-center',
