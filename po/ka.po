@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-06 19:03+0000\n"
+"POT-Creation-Date: 2025-10-31 17:06+0000\n"
 "PO-Revision-Date: 2024-08-16 23:16+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
-"Language-Team: Georgian <https://l10n.elementary.io/projects/desktop/"
-"icons-extra/ka/>\n"
+"Language-Team: Georgian <https://l10n.elementary.io/projects/desktop/icons-"
+"extra/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,266 +33,333 @@ msgid ""
 "its desktop environment: Pantheon."
 msgstr ""
 
-#: data/icons.metainfo.xml.in:73 data/icons.metainfo.xml.in:101
-#: data/icons.metainfo.xml.in:126 data/icons.metainfo.xml.in:162
+#: data/icons.metainfo.xml.in:34 data/icons.metainfo.xml.in:69
+#: data/icons.metainfo.xml.in:96 data/icons.metainfo.xml.in:159
+msgid "Additions:"
+msgstr "დამატებები:"
+
+#: data/icons.metainfo.xml.in:36
+msgid "`start-here`"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:37
+msgid "Tool icons for Inkscape"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:38
+msgid "Add Adwaita as a fallback for icon names"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:39
+msgid ""
+"16px `accessories-character-map`, `document-properties`, `preferences-system`"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:40
+msgid "24px `list-add-symbolic`"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:42 data/icons.metainfo.xml.in:76
+#: data/icons.metainfo.xml.in:108 data/icons.metainfo.xml.in:144
+#: data/icons.metainfo.xml.in:172
+msgid "Updated families:"
+msgstr "განახლებული ოჯახები:"
+
+#: data/icons.metainfo.xml.in:44
+msgid "Add a scroll wheel to mouse"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:45
+msgid "Use outline style for `applications-internet-symbolic`"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:46
+msgid "Differentiate keyboard device from keyboard preferences"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:47
+msgid "Round find-location"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:48
+msgid "Remove visual artifact from 16px `edit-paste` icon"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:50 data/icons.metainfo.xml.in:103
+#: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
 msgid "Removals:"
 msgstr "წაიშლება:"
 
-#: data/icons.metainfo.xml.in:75
+#: data/icons.metainfo.xml.in:52
+msgid "`view-filter`"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:53
+msgid "`media-memory`"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:71
+msgid "import and export actions at 16x"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:72
+msgid "`mail-send-receive` now has a color version"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:73
+msgid ""
+"`system-software-install` has a new icon, separate from the AppCenter "
+"branding"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:74
+msgid "symlinks are now handled in the build system"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:78
+msgid "Fixed color, pagesizes, and grid alignment for all symbolic icons"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:79
+msgid ""
+"`text` and `text-vertical` cursors have new designs, matching the new cursor "
+"style from 8.0.0"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:80
+msgid "Chat bubbles are now used for `user-*` status icons"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:81
+msgid ""
+"`preferences-desktop-locacle-symbolic` has been updated to be closer to the "
+"color version"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:82
+msgid ""
+"The colors of the magnifying glass in print preview actions has been unified "
+"with that of the find action"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:83
+msgid "`mail-message-new` has been made more uniform across its variations"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:84
+msgid "`save-as-symbolic` has a new design to differentiate from `save`"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:85
+msgid ""
+"session icons (`system-*`) have had minor updates to shape language and "
+"color added"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:98
+msgid ""
+"`preferences-desktop-wallpaper` is now a unique icon from `preferences-"
+"desktop` and features a colorful paint roller design"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:99
+msgid ""
+"`accessories-screenshot-tool` and the symlink `applets-screenshooter` are "
+"added to cover icons expected by the Portals backend"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:100
+msgid "`usb-receiver` to cover peripheral receivers in FWUPD"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:101
+msgid "`system-log-out-symbolic`"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:105
+msgid "`bug`"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:106
+#, fuzzy
+#| msgid "\"preferences-system-windows\""
+msgid "`preferences-system-parental-controls`"
+msgstr "\"preferences-system-windows\""
+
+#: data/icons.metainfo.xml.in:110
+msgid ""
+"Cursors have been completely redrawn with a new base pointer shape, colorful "
+"badges, and a new color wheel design for waiting states"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:111
+msgid ""
+"Use brighter colors for `edit-find` icons and add missing 16px `edit-find-"
+"replace`"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:112
+msgid "Update the border radius of `preferences-desktop-locale`"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:113
+msgid "`window-*` icons use more rounded arrow shapes"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:114
+msgid "`system-*-symbolic` icons are a more uniform size"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:115
+msgid "halign checkmark on 32px `process-completed`"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:116
+msgid "redesign `preferences-system` with higher contrast and more detail"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:117
+msgid "clean up 128 drive-harddisk"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:118
+msgid "Fix grid alignment of several `document-*` icons"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:119
+msgid "Use a bell for `preferences-system-notification`"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:141
 msgid ""
 "non-fd.o \"bluetooth-*\", \"microphone-sensitivity-*\", and \"night-light\" "
 "symbolic panel icons"
 msgstr ""
 
-#: data/icons.metainfo.xml.in:76
+#: data/icons.metainfo.xml.in:142
 msgid "\"mail-archive\" and \"mail-move\""
 msgstr ""
 
-#: data/icons.metainfo.xml.in:78 data/icons.metainfo.xml.in:106
-#: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
-msgid "Updated families:"
-msgstr "განახლებული ოჯახები:"
-
-#: data/icons.metainfo.xml.in:80
+#: data/icons.metainfo.xml.in:146
 msgid "\"insert-image-symbolic\" is now more detailed"
 msgstr ""
 
-#: data/icons.metainfo.xml.in:81
+#: data/icons.metainfo.xml.in:147
 msgid "\"media-record\" has an updated palette"
 msgstr ""
 
-#: data/icons.metainfo.xml.in:82
+#: data/icons.metainfo.xml.in:148
 msgid ""
 "\"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-optical\", "
 "\"open-menu\", \"system-run\" look better on dark backgrounds"
 msgstr ""
 
-#: data/icons.metainfo.xml.in:83
+#: data/icons.metainfo.xml.in:149
 msgid ""
 "Improved arrow shape for \"browser-download\", \"document-send\", \"document-"
 "import/export\", \"object-merge\", \"object-rotate\", \"pane-hide/show\", "
 "and \"view-refresh\""
 msgstr ""
 
-#: data/icons.metainfo.xml.in:93 data/icons.metainfo.xml.in:121
-#: data/icons.metainfo.xml.in:155
-msgid "Additions:"
-msgstr "დამატებები:"
-
-#: data/icons.metainfo.xml.in:95
+#: data/icons.metainfo.xml.in:161
 msgid "\"list-drag-handle-symbolic\" as used in draggable list box rows"
 msgstr ""
 
-#: data/icons.metainfo.xml.in:96
+#: data/icons.metainfo.xml.in:162
 msgid ""
 "\"selection-mode-symbolic\" as used in apps which have a button to switch a "
 "list into a selection mode"
 msgstr ""
 
-#: data/icons.metainfo.xml.in:97
+#: data/icons.metainfo.xml.in:163
 msgid "\"adw-expander-arrow-symbolic\" as used in Adw.PreferencesWindow"
 msgstr ""
 
-#: data/icons.metainfo.xml.in:98
+#: data/icons.metainfo.xml.in:164
 msgid "\"adw-external-link-symbolic\" as used in Adw.AboutWindow"
 msgstr ""
 
-#: data/icons.metainfo.xml.in:99
+#: data/icons.metainfo.xml.in:165
 msgid "\"adw-tab-*\" icons as used with Adw.Tabbar"
 msgstr ""
 
-#: data/icons.metainfo.xml.in:103
+#: data/icons.metainfo.xml.in:169
 msgid ""
 "\"network-*\" status icons which are not in the FreeDesktop icon name "
 "specification"
 msgstr ""
 
-#: data/icons.metainfo.xml.in:104
+#: data/icons.metainfo.xml.in:170
 msgid ""
 "Device icons which are not in the FreeDesktop icon name specification: "
 "\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", \"printer-"
 "remote\", and \"system\""
 msgstr ""
 
-#: data/icons.metainfo.xml.in:108
+#: data/icons.metainfo.xml.in:174
 msgid ""
 "\"process-completed\" uses a new checkmark shape, has a 32px version, and "
 "symlinks were added for \"emblem-default\""
 msgstr ""
 
-#: data/icons.metainfo.xml.in:109
+#: data/icons.metainfo.xml.in:175
 msgid "Updated corner radius of \"edit-clear\" and \"document-*-symbolic\""
 msgstr ""
 
-#: data/icons.metainfo.xml.in:110
+#: data/icons.metainfo.xml.in:176
 msgid "Updated \"preferences-desktop-display\" and added a 64px version"
 msgstr ""
 
-#: data/icons.metainfo.xml.in:123
-msgid "\"panel-left/right\""
-msgstr "\"panel-left/right\""
+#~ msgid "\"panel-left/right\""
+#~ msgstr "\"panel-left/right\""
 
-#: data/icons.metainfo.xml.in:124
-msgid "Symlink to \"application-x-xpinstall\" for web extension files"
-msgstr ""
+#~ msgid "\"internet-web-browser\""
+#~ msgstr "\"internet-web-browser\""
 
-#: data/icons.metainfo.xml.in:128
-msgid "\"internet-web-browser\""
-msgstr "\"internet-web-browser\""
+#~ msgid "\"system-os-install\""
+#~ msgstr "\"system-os-install\""
 
-#: data/icons.metainfo.xml.in:129
-msgid "\"system-os-install\""
-msgstr "\"system-os-install\""
+#~ msgid "\"preferences-desktop-accessibility-pointing\""
+#~ msgstr "\"preferences-desktop-accessibility-pointing\""
 
-#: data/icons.metainfo.xml.in:130
-msgid "\"preferences-desktop-accessibility-pointing\""
-msgstr "\"preferences-desktop-accessibility-pointing\""
+#~ msgid "\"preferences-desktop-accessibility-zoom\""
+#~ msgstr "\"preferences-desktop-accessibility-zoom\""
 
-#: data/icons.metainfo.xml.in:131
-msgid "\"preferences-desktop-accessibility-zoom\""
-msgstr "\"preferences-desktop-accessibility-zoom\""
+#~ msgid "\"preferences-color\""
+#~ msgstr "\"preferences-color\""
 
-#: data/icons.metainfo.xml.in:132
-msgid "\"preferences-color\""
-msgstr "\"preferences-color\""
+#~ msgid "\"preferences-system-windows\""
+#~ msgstr "\"preferences-system-windows\""
 
-#: data/icons.metainfo.xml.in:133
-msgid "\"preferences-system-windows\""
-msgstr "\"preferences-system-windows\""
+#~ msgid "\"applications-education\""
+#~ msgstr "\"applications-education\""
 
-#: data/icons.metainfo.xml.in:134
-msgid "\"applications-education\""
-msgstr "\"applications-education\""
+#~ msgid "\"applications-interfacedesign\""
+#~ msgstr "\"applications-interfacedesign\""
 
-#: data/icons.metainfo.xml.in:135
-msgid "\"applications-interfacedesign\""
-msgstr "\"applications-interfacedesign\""
+#~ msgid "\"applications-photography\""
+#~ msgstr "\"applications-photography\""
 
-#: data/icons.metainfo.xml.in:136
-msgid "\"applications-photography\""
-msgstr "\"applications-photography\""
+#~ msgid "\"view-list-compact\""
+#~ msgstr "\"view-list-compact\""
 
-#: data/icons.metainfo.xml.in:137
-msgid "\"view-list-compact\""
-msgstr "\"view-list-compact\""
+#~ msgid "\"computer-fail\""
+#~ msgstr "\"computer-fail\""
 
-#: data/icons.metainfo.xml.in:141
-msgid ""
-"\"applications-development\" uses a purple tile and the same hammer glyph as "
-"build system file types"
-msgstr ""
+#~ msgid "\"preferences-desktop-theme\""
+#~ msgstr "\"preferences-desktop-theme\""
 
-#: data/icons.metainfo.xml.in:142
-msgid "\"system-file-manager\" is blue and tile shaped"
-msgstr ""
+#~ msgid "\"application-x-sharedlib\""
+#~ msgstr "\"application-x-sharedlib\""
 
-#: data/icons.metainfo.xml.in:143
-msgid "\"accessories-calculator\" redesigned as a tile shape"
-msgstr ""
+#~ msgid "\"process-paused\""
+#~ msgstr "\"process-paused\""
 
-#: data/icons.metainfo.xml.in:144
-msgid "Update the border radius of several tile-shaped icons"
-msgstr ""
+#~ msgid "\"office-address-book\""
+#~ msgstr "\"office-address-book\""
 
-#: data/icons.metainfo.xml.in:145
-msgid "\"view-*\" symbolic icons"
-msgstr ""
-
-#: data/icons.metainfo.xml.in:157
-msgid "\"computer-fail\""
-msgstr "\"computer-fail\""
-
-#: data/icons.metainfo.xml.in:158
-msgid "\"preferences-desktop-theme\""
-msgstr "\"preferences-desktop-theme\""
-
-#: data/icons.metainfo.xml.in:159
-msgid "\"application-x-sharedlib\""
-msgstr "\"application-x-sharedlib\""
-
-#: data/icons.metainfo.xml.in:160
-msgid "\"process-paused\""
-msgstr "\"process-paused\""
-
-#: data/icons.metainfo.xml.in:164
-msgid "\"office-address-book\""
-msgstr "\"office-address-book\""
-
-#: data/icons.metainfo.xml.in:165
-msgid "Flash file types"
-msgstr ""
-
-#: data/icons.metainfo.xml.in:169
-msgid "Clean up \"preferences-desktop-workspaces\""
-msgstr ""
-
-#: data/icons.metainfo.xml.in:170
-msgid "Update \"preferences-desktop\" to new tile shape"
-msgstr ""
-
-#: data/icons.metainfo.xml.in:171
-msgid "Update \"image-missing\" to new tile shape"
-msgstr ""
-
-#: data/icons.metainfo.xml.in:172
-msgid "Update \"preferences-desktop-keyboard\" to new tile shape"
-msgstr ""
-
-#: data/icons.metainfo.xml.in:173
-msgid "Update \"document-import\" and \"document-export\" to new tile shape"
-msgstr ""
-
-#: data/icons.metainfo.xml.in:174
-msgid "Update many file types with new arrow shape"
-msgstr ""
-
-#: data/icons.metainfo.xml.in:175
-msgid "\"application-default-icon\" is now brightly colored"
-msgstr ""
-
-#: data/icons.metainfo.xml.in:176
-msgid "\"media-stop\" is now a square"
-msgstr ""
-
-#: data/icons.metainfo.xml.in:177
-msgid "Round symbolic location status icons"
-msgstr ""
-
-#: data/icons.metainfo.xml.in:178
-msgid "Use an outlined shape for symbolic tag icons"
-msgstr ""
-
-#: data/icons.metainfo.xml.in:179
-msgid "Use a rounded star for symbolic bookmark icons"
-msgstr ""
-
-#: data/icons.metainfo.xml.in:180
-msgid "Redesign Night Light"
-msgstr ""
-
-#: data/icons.metainfo.xml.in:181
-msgid "Use latest Flatpak branding"
-msgstr ""
-
-#: data/icons.metainfo.xml.in:182
-msgid "Symbolic volume icons use a rounded shape and a slash when muted"
-msgstr ""
-
-#: data/icons.metainfo.xml.in:184
-msgid "Other Changes:"
-msgstr "სხვა ცვლილებები:"
-
-#: data/icons.metainfo.xml.in:186
-msgid "Fix broken link for SVG file types"
-msgstr ""
-
-#: data/icons.metainfo.xml.in:187
-msgid "Fix missing links for PGP file types"
-msgstr ""
-
-#: data/icons.metainfo.xml.in:188
-msgid "Scale some icons to more sizes"
-msgstr ""
+#~ msgid "Other Changes:"
+#~ msgstr "სხვა ცვლილებები:"
 
 #~ msgid "elementary, Inc."
 #~ msgstr "elementary, Inc."
