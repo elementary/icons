@@ -1,81 +1,30 @@
 project (
-    'io.elementary.icons',
-    version: '8.2.0',
-    license : 'GPL3+',
-    meson_version: '>=0.61',
+  'io.elementary.icons-inkscape',
+  version: '0.1.0',
+  license: 'GPL3+',
+  meson_version: '>=0.61',
 )
 
-i18n = import('i18n')
 fs = import('fs')
 
-#subprojects
-subproj_inkscape = subproject('inkscape')
-
-icon_dir = join_paths(get_option('datadir'), 'icons', 'elementary')
+# This assumes an elementary OS system
+icon_dir = fs.expanduser('~/.var/app/org.inkscape.Inkscape/config/inkscape/icons/elementary')
 
 scale_factors = get_option('scale_factors')
 
-# Add a directory here to the list if needed.
 directories = [
-    # The first argument is the name of the folder,
-    # the second is the associated Context
-    ['actions', 'Actions'],
-    ['apps', 'Applications'],
-    ['categories', 'Categories'],
-    ['devices', 'Devices'],
-    ['emblems', 'Emblems'],
-    ['emotes', 'Emotes'],
-    ['mimes', 'MimeTypes'],
-    ['places', 'Places'],
-    ['status', 'Status']
+  ['actions', 'Actions'],
 ]
 
-# Add a size here to the list if needed.
-sizes = ['16', '24', '32', '48', '64', '128', 'symbolic']
-
-# Symbolic icons are made to have a maximum size.
+sizes = ['16', '24', 'symbolic']
 max_size_symbolic = '512'
+min_size_ever='8'
 
-# This is the minimal size all icons can theorically have.
-min_size_ever = '8'
-
-# Let's do fancy things
-msg_warning = false
-msg = '\nPLEASE VERIFY THE CONFIGURATION:'
-
-if (sizes.length() >= 7)
-    msg += '\nAvailable sizes:           @0@ ✔'.format (', '.join (sizes))
-else
-    msg += '\nAvailable sizes:           @0@ ⛔'.format (', '.join (sizes))
-    msg_warning = true
-endif
-
-if (scale_factors.length() > 1)
-    msg += '\nAvailable scale factors:   @0@ ✔'.format (', '.join (scale_factors))
-else
-    msg += '\nAvailable scale factors:   @0@ ⛔'.format (', '.join (scale_factors))
-    msg_warning = true
-endif
-
-if (get_option('prefix') == '/usr')
-    msg += '\nInstallation prefix:       @0@ ✔'.format (get_option('prefix'))
-else
-    msg += '\nInstallation prefix:       @0@ ⛔'.format (get_option('prefix'))
-    msg_warning = true
-endif
-
-if (msg_warning)
-    warning(msg + '\n')
-else
-    message(msg + '\n')
-endif
-
-# Here beggins the real work
 foreach directory : directories
-    install_subdir(
-        directory[0],
-        install_dir : icon_dir
-    )
+  install_subdir(
+    directory[0],
+    install_dir: icon_dir
+  )
 endforeach
 
 template = '''
@@ -159,9 +108,9 @@ configure_file(
 )
 
 # Create the symlinks
-foreach directory_entry : directories
+foreach directoy_entry : directories
     foreach scale_factor : scale_factors
-        # We only create a symlink to the @1 directory, it's all the point of using SVG assets…
+        # We only create a symlink to the @1 directory, it's all the point of using SVG assets...
         if (scale_factor.to_int() > 1)
             directory = directory_entry[0]
             install_symlink(
@@ -173,15 +122,5 @@ foreach directory_entry : directories
     endforeach
 endforeach
 
-subdir('apps')
-subdir('categories')
-subdir('cursors')
-subdir('mimes')
-subdir('places')
+subdir('actions')
 
-if (get_option ('volume_icons'))
-  subdir('volumeicon')
-endif
-
-subdir('data')
-subdir('po')
