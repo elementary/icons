@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-31 17:06+0000\n"
-"PO-Revision-Date: 2023-05-27 12:06+0000\n"
-"Last-Translator: Thierry Flament <thierry.flament@outlook.com>\n"
-"Language-Team: Dutch <https://l10n.elementary.io/projects/desktop/icons-"
-"extra/nl/>\n"
+"PO-Revision-Date: 2025-12-22 09:55+0000\n"
+"Last-Translator: Bas Ernst <ernstbas@users.noreply.l10n.elementaryos.org>\n"
+"Language-Team: Dutch <https://l10n.elementaryos.org/projects/desktop/"
+"icons-extra/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/icons.metainfo.xml.in:10
 msgid "elementary Icons"
@@ -42,50 +42,52 @@ msgstr "Toevoegingen:"
 
 #: data/icons.metainfo.xml.in:36
 msgid "`start-here`"
-msgstr ""
+msgstr "`start hier`"
 
 #: data/icons.metainfo.xml.in:37
 msgid "Tool icons for Inkscape"
-msgstr ""
+msgstr "Gereedschapspictogrammen voor Inkscape"
 
 #: data/icons.metainfo.xml.in:38
 msgid "Add Adwaita as a fallback for icon names"
-msgstr ""
+msgstr "Voeg Adwaita toe als terugvaloptie voor pictogramnamen"
 
 #: data/icons.metainfo.xml.in:39
 msgid ""
 "16px `accessories-character-map`, `document-properties`, `preferences-system`"
 msgstr ""
+"16px `accessoires-teken-kaart`, `document-eigenschappen`, `voorkeuren-"
+"systeem`"
 
 #: data/icons.metainfo.xml.in:40
 msgid "24px `list-add-symbolic`"
-msgstr ""
+msgstr "24px `lijst-toevoegen-symbolisch`"
 
 #: data/icons.metainfo.xml.in:42 data/icons.metainfo.xml.in:76
 #: data/icons.metainfo.xml.in:108 data/icons.metainfo.xml.in:144
 #: data/icons.metainfo.xml.in:172
 msgid "Updated families:"
-msgstr ""
+msgstr "Bijgewerkte families:"
 
 #: data/icons.metainfo.xml.in:44
 msgid "Add a scroll wheel to mouse"
-msgstr ""
+msgstr "Voeg een muiswieltje toe"
 
 #: data/icons.metainfo.xml.in:45
 msgid "Use outline style for `applications-internet-symbolic`"
-msgstr ""
+msgstr "Gebruik de outline-stijl voor `applicaties-internet-symbolisch`"
 
 #: data/icons.metainfo.xml.in:46
 msgid "Differentiate keyboard device from keyboard preferences"
-msgstr ""
+msgstr "Onderscheid toetsenbord uit de toetsenbordvoorkeuren"
 
 #: data/icons.metainfo.xml.in:47
 msgid "Round find-location"
-msgstr ""
+msgstr "Zoeklocatie afronden"
 
 #: data/icons.metainfo.xml.in:48
 msgid "Remove visual artifact from 16px `edit-paste` icon"
-msgstr ""
+msgstr "Verwijder visuele artefact uit 16px `wijzigen-plakken`-icon"
 
 #: data/icons.metainfo.xml.in:50 data/icons.metainfo.xml.in:103
 #: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
@@ -94,165 +96,193 @@ msgstr "Verwijderingen:"
 
 #: data/icons.metainfo.xml.in:52
 msgid "`view-filter`"
-msgstr ""
+msgstr "`weergave-filter`"
 
 #: data/icons.metainfo.xml.in:53
 msgid "`media-memory`"
-msgstr ""
+msgstr "`media-geheugen`"
 
 #: data/icons.metainfo.xml.in:71
 msgid "import and export actions at 16x"
-msgstr ""
+msgstr "import- en exportacties bij 16x"
 
 #: data/icons.metainfo.xml.in:72
 msgid "`mail-send-receive` now has a color version"
-msgstr ""
+msgstr "`mail-zenden-ontvangen` heeft nu een kleurenversie"
 
 #: data/icons.metainfo.xml.in:73
 msgid ""
 "`system-software-install` has a new icon, separate from the AppCenter "
 "branding"
 msgstr ""
+"`systeem-software-installeren` heeft een nieuw pictogram, los van de "
+"AppCenter-huisstijl"
 
 #: data/icons.metainfo.xml.in:74
 msgid "symlinks are now handled in the build system"
-msgstr ""
+msgstr "symlinks worden nu in het build-systeem verwerkt"
 
 #: data/icons.metainfo.xml.in:78
 msgid "Fixed color, pagesizes, and grid alignment for all symbolic icons"
 msgstr ""
+"Vaste kleur, paginagrootte en rasteruitlijning voor alle symbolische "
+"pictogrammen"
 
 #: data/icons.metainfo.xml.in:79
 msgid ""
 "`text` and `text-vertical` cursors have new designs, matching the new cursor "
 "style from 8.0.0"
 msgstr ""
+"De cursors`text` en `text-verticaal` hebben een nieuw ontwerp passend bij de "
+"nieuwe cursorstijl uit 8.0.0"
 
 #: data/icons.metainfo.xml.in:80
 msgid "Chat bubbles are now used for `user-*` status icons"
 msgstr ""
+"Chatballonnen kunnen nu gebruikt worden voor `user-*`-statuspictogrammen"
 
 #: data/icons.metainfo.xml.in:81
 msgid ""
 "`preferences-desktop-locacle-symbolic` has been updated to be closer to the "
 "color version"
 msgstr ""
+"`voorkeuren-desktop-locale-symbolisch` is bijgewerkt zodat het beter "
+"aansluit bij de kleurenversie"
 
 #: data/icons.metainfo.xml.in:82
 msgid ""
 "The colors of the magnifying glass in print preview actions has been unified "
 "with that of the find action"
 msgstr ""
+"De kleuren van het vergrootglas bij het afdrukvoorbeeld zijn nu gelijk aan "
+"die van de zoekfunctie"
 
 #: data/icons.metainfo.xml.in:83
 msgid "`mail-message-new` has been made more uniform across its variations"
-msgstr ""
+msgstr "`mail-bericht-nieuw`is voor alle varianten meer uniform gemaakt"
 
 #: data/icons.metainfo.xml.in:84
 msgid "`save-as-symbolic` has a new design to differentiate from `save`"
 msgstr ""
+"`opslaan-als-symbolisch`heeft een nieuw ontwerp om het te onderscheiden van "
+"`opslaan`"
 
 #: data/icons.metainfo.xml.in:85
 msgid ""
 "session icons (`system-*`) have had minor updates to shape language and "
 "color added"
 msgstr ""
+"sessiepictogrammen (`system-*`) hebben kleine updates gekregen om taal en "
+"kleur te veranderen"
 
 #: data/icons.metainfo.xml.in:98
 msgid ""
 "`preferences-desktop-wallpaper` is now a unique icon from `preferences-"
 "desktop` and features a colorful paint roller design"
 msgstr ""
+"`preferences-desktop-wallpaper` is nu een uniek pictogram uit de "
+"`preferences-desktop` met een kleurrijk verfrollerontwerp"
 
 #: data/icons.metainfo.xml.in:99
 msgid ""
 "`accessories-screenshot-tool` and the symlink `applets-screenshooter` are "
 "added to cover icons expected by the Portals backend"
 msgstr ""
+"`accessoires-screenshot-tool` en de symlink `applets-screenshooter` zijn "
+"toegevoegd om te voorzien in de pictogrammen die door de Portals backend "
+"worden verwacht"
 
 #: data/icons.metainfo.xml.in:100
 msgid "`usb-receiver` to cover peripheral receivers in FWUPD"
-msgstr ""
+msgstr "`usb-receiver` om te voorzien in randapparatuurontvangers voor FWUPD"
 
 #: data/icons.metainfo.xml.in:101
 msgid "`system-log-out-symbolic`"
-msgstr ""
+msgstr "`systeem-log-out-symbolisch`"
 
 #: data/icons.metainfo.xml.in:105
 msgid "`bug`"
-msgstr ""
+msgstr "`bug`"
 
 #: data/icons.metainfo.xml.in:106
 msgid "`preferences-system-parental-controls`"
-msgstr ""
+msgstr "`voorkeuren-systeem-ouderlijk-toezicht`"
 
 #: data/icons.metainfo.xml.in:110
 msgid ""
 "Cursors have been completely redrawn with a new base pointer shape, colorful "
 "badges, and a new color wheel design for waiting states"
 msgstr ""
+"De cursors zijn volledig herontworpen met een nieuwe basisvorm voor de "
+"aanwijzer, kleurrijke badges en een nieuw kleurwielontwerp voor wachtstanden"
 
 #: data/icons.metainfo.xml.in:111
 msgid ""
 "Use brighter colors for `edit-find` icons and add missing 16px `edit-find-"
 "replace`"
 msgstr ""
+"Gebruik lichtere kleuren voor `aanpassen-vinden`-pictogrammen en voeg 16px "
+"`aanpassen-vinden-vervangen` toe"
 
 #: data/icons.metainfo.xml.in:112
 msgid "Update the border radius of `preferences-desktop-locale`"
-msgstr ""
+msgstr "Werk de randradius bij van `voorkeuren-desktop-locale`"
 
 #: data/icons.metainfo.xml.in:113
 msgid "`window-*` icons use more rounded arrow shapes"
-msgstr ""
+msgstr "`window-*`-pictogrammen gebruiken meer afgeronde pijlvormen"
 
 #: data/icons.metainfo.xml.in:114
 msgid "`system-*-symbolic` icons are a more uniform size"
-msgstr ""
+msgstr "`systeem-*-symbolisch`-pictogrammen hebben een meer uniforme grootte"
 
 #: data/icons.metainfo.xml.in:115
 msgid "halign checkmark on 32px `process-completed`"
-msgstr ""
+msgstr "vinkje uitlijnen op 32px `proces voltooid`"
 
 #: data/icons.metainfo.xml.in:116
 msgid "redesign `preferences-system` with higher contrast and more detail"
-msgstr ""
+msgstr "herontwerp `voorkeuren-systeem` met hoger contrast en meer detail"
 
 #: data/icons.metainfo.xml.in:117
 msgid "clean up 128 drive-harddisk"
-msgstr ""
+msgstr "128 drive-harddisk opschonen"
 
 #: data/icons.metainfo.xml.in:118
 msgid "Fix grid alignment of several `document-*` icons"
-msgstr ""
+msgstr "Herstel de rasteruitlijning van verschillende `document-*`-pictogrammen"
 
 #: data/icons.metainfo.xml.in:119
 msgid "Use a bell for `preferences-system-notification`"
-msgstr ""
+msgstr "Gebruik een bel voor `voorkeuren-systeem-melding`"
 
 #: data/icons.metainfo.xml.in:141
 msgid ""
 "non-fd.o \"bluetooth-*\", \"microphone-sensitivity-*\", and \"night-light\" "
 "symbolic panel icons"
 msgstr ""
+"non-fd.o \"bluetooth-*\", \"microphone-sensitivity-*\" en \"night-light\" "
+"symbolische paneelpictogrammen"
 
 #: data/icons.metainfo.xml.in:142
 msgid "\"mail-archive\" and \"mail-move\""
-msgstr ""
+msgstr "\"mail-archive\" en \"mail-move\""
 
 #: data/icons.metainfo.xml.in:146
 msgid "\"insert-image-symbolic\" is now more detailed"
-msgstr ""
+msgstr "\"insert-image-symbolic\" is nu meer gedetailleerd"
 
 #: data/icons.metainfo.xml.in:147
 msgid "\"media-record\" has an updated palette"
-msgstr ""
+msgstr "\"media-record\" heeft een bijgewerkt palet"
 
 #: data/icons.metainfo.xml.in:148
 msgid ""
 "\"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-optical\", "
 "\"open-menu\", \"system-run\" look better on dark backgrounds"
 msgstr ""
+"\"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-optical\", "
+"\"open-menu\", \"system-run\" zien er beter uit op donkere achtergronden"
 
 #: data/icons.metainfo.xml.in:149
 msgid ""
@@ -260,34 +290,43 @@ msgid ""
 "import/export\", \"object-merge\", \"object-rotate\", \"pane-hide/show\", "
 "and \"view-refresh\""
 msgstr ""
+"Verbeterde pijlvorm voor \"browser-download\", \"document-send\", "
+"\"document-import/export\", \"object-merge\", \"object-rotate\", "
+"\"pane-hide/show\" en \"view-refresh\""
 
 #: data/icons.metainfo.xml.in:161
 msgid "\"list-drag-handle-symbolic\" as used in draggable list box rows"
 msgstr ""
+"\"list-drag-handle-symbolic\" zoals gebruikt in versleepbare rijen van "
+"keuzelijsten"
 
 #: data/icons.metainfo.xml.in:162
 msgid ""
 "\"selection-mode-symbolic\" as used in apps which have a button to switch a "
 "list into a selection mode"
 msgstr ""
+"\"selection-mode-symbolic\" zoals gebruikt in apps die een knop hebben om "
+"een lijst in een selectiemodus te zetten"
 
 #: data/icons.metainfo.xml.in:163
 msgid "\"adw-expander-arrow-symbolic\" as used in Adw.PreferencesWindow"
-msgstr ""
+msgstr "\"adw-expander-arrow-symbolic\" zoals gebruikt in Adw.PreferencesWindow"
 
 #: data/icons.metainfo.xml.in:164
 msgid "\"adw-external-link-symbolic\" as used in Adw.AboutWindow"
-msgstr ""
+msgstr "\"adw-external-link-symbolic\" zoals gebruikt in Adw.AboutWindow"
 
 #: data/icons.metainfo.xml.in:165
 msgid "\"adw-tab-*\" icons as used with Adw.Tabbar"
-msgstr ""
+msgstr "\"adw-tab-*\" pictogrammen zoals gebruikt met Adw.Tabbar"
 
 #: data/icons.metainfo.xml.in:169
 msgid ""
 "\"network-*\" status icons which are not in the FreeDesktop icon name "
 "specification"
 msgstr ""
+"\"network-*\" statuspictogrammen die niet in de naamspecificatie van "
+"FreeDesktoppictogrammen voorkomen"
 
 #: data/icons.metainfo.xml.in:170
 msgid ""
@@ -295,20 +334,26 @@ msgid ""
 "\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", \"printer-"
 "remote\", and \"system\""
 msgstr ""
+"Apparaatpictogrammen die niet voorkomen in de naamspecificatie van de "
+"FreeDesktoppictogrammen \"camera\", \"drive-cdrom\", \"media-cdrom\", "
+"\"music-player\", \"printer-remote\" en \"system\""
 
 #: data/icons.metainfo.xml.in:174
 msgid ""
 "\"process-completed\" uses a new checkmark shape, has a 32px version, and "
 "symlinks were added for \"emblem-default\""
 msgstr ""
+"\"process-completed\" gebruikt een nieuwe vorm voor het vinkje, heeft een "
+"32px -versie en er zijn symbolische links toegevoegd voor \"emblem-default\""
 
 #: data/icons.metainfo.xml.in:175
 msgid "Updated corner radius of \"edit-clear\" and \"document-*-symbolic\""
-msgstr ""
+msgstr "Bijgewerkte hoekradius van \"edit-clear\" en \"document-*-symbolic\""
 
 #: data/icons.metainfo.xml.in:176
 msgid "Updated \"preferences-desktop-display\" and added a 64px version"
 msgstr ""
+"Bijgewerkte \"preferences-desktop-display\" en een 64px-versie toegevoegd"
 
 #~ msgid "\"system-os-install\""
 #~ msgstr "\"systeem-os-installeren\""
