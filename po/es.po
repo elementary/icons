@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-31 17:06+0000\n"
+"POT-Creation-Date: 2025-12-31 04:43+0000\n"
 "PO-Revision-Date: 2025-11-20 21:55+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <italo@gp-mail.com>\n"
-"Language-Team: Spanish <https://l10n.elementaryos.org/projects/desktop/"
-"icons-extra/es/>\n"
+"Language-Team: Spanish <https://l10n.elementaryos.org/projects/desktop/icons-"
+"extra/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,8 +56,8 @@ msgstr "Se agregó Addwaita como iconos predeterminados en caso de fallas"
 msgid ""
 "16px `accessories-character-map`, `document-properties`, `preferences-system`"
 msgstr ""
-"16px `accessories-character-map`, `document-properties`, `preferences-system`"
-" («accesorios-mapa-caracteres», «documento-propiedades», «sistema-"
+"16px `accessories-character-map`, `document-properties`, `preferences-"
+"system` («accesorios-mapa-caracteres», «documento-propiedades», «sistema-"
 "preferencias»)"
 
 #: data/icons.metainfo.xml.in:40
@@ -109,7 +109,9 @@ msgid "`media-memory`"
 msgstr "`media-memory` («medios-memoria»)"
 
 #: data/icons.metainfo.xml.in:71
-msgid "import and export actions at 16x"
+#, fuzzy
+#| msgid "import and export actions at 16x"
+msgid "import and export actions at 16px"
 msgstr "Acciones de importar y exportar en 16px"
 
 #: data/icons.metainfo.xml.in:72
@@ -123,8 +125,8 @@ msgid ""
 "`system-software-install` has a new icon, separate from the AppCenter "
 "branding"
 msgstr ""
-"`system-software-install` («sistema-software.instalar») tiene un nuevo icono "
-", que se diferencie de la marca del Centro de Aplicaciones"
+"`system-software-install` («sistema-software.instalar») tiene un nuevo "
+"icono , que se diferencie de la marca del Centro de Aplicaciones"
 
 #: data/icons.metainfo.xml.in:74
 msgid "symlinks are now handled in the build system"
@@ -241,8 +243,8 @@ msgstr ""
 #: data/icons.metainfo.xml.in:112
 msgid "Update the border radius of `preferences-desktop-locale`"
 msgstr ""
-"Se actualizó el radio de las esquinas de `preferences-desktop-locale"
-"`(«preferencia-escritorio-localización»)"
+"Se actualizó el radio de las esquinas de `preferences-desktop-"
+"locale`(«preferencia-escritorio-localización»)"
 
 #: data/icons.metainfo.xml.in:113
 msgid "`window-*` icons use more rounded arrow shapes"

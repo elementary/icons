@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-31 17:06+0000\n"
+"POT-Creation-Date: 2025-12-31 04:43+0000\n"
 "PO-Revision-Date: 2025-11-30 19:55+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
@@ -101,7 +101,9 @@ msgid "`media-memory`"
 msgstr "`media-memory`"
 
 #: data/icons.metainfo.xml.in:71
-msgid "import and export actions at 16x"
+#, fuzzy
+#| msgid "import and export actions at 16x"
+msgid "import and export actions at 16px"
 msgstr "16 像素的匯入與匯出動作"
 
 #: data/icons.metainfo.xml.in:72
@@ -112,8 +114,9 @@ msgstr "`mail-send-receive` 現在有彩色版了"
 msgid ""
 "`system-software-install` has a new icon, separate from the AppCenter "
 "branding"
-msgstr "為 `system-software-install` "
-"提供新圖示，讓它不再與《應用程式中心》使用相同設計"
+msgstr ""
+"為 `system-software-install` 提供新圖示，讓它不再與《應用程式中心》使用相同設"
+"計"
 
 #: data/icons.metainfo.xml.in:74
 msgid "symlinks are now handled in the build system"
@@ -172,8 +175,8 @@ msgid ""
 "`accessories-screenshot-tool` and the symlink `applets-screenshooter` are "
 "added to cover icons expected by the Portals backend"
 msgstr ""
-"新增 `accessories-screenshot-tool` 和它的符號連結 `applets-screenshooter` "
-"來滿足桌面入口後端的預期"
+"新增 `accessories-screenshot-tool` 和它的符號連結 `applets-screenshooter` 來"
+"滿足桌面入口後端的預期"
 
 #: data/icons.metainfo.xml.in:100
 msgid "`usb-receiver` to cover peripheral receivers in FWUPD"
@@ -195,13 +198,15 @@ msgstr "`preferences-system-parental-controls`"
 msgid ""
 "Cursors have been completely redrawn with a new base pointer shape, colorful "
 "badges, and a new color wheel design for waiting states"
-msgstr "完全重畫游標：改變基礎指標形狀，提供彩色徽章，並重新設計等待狀態的色彩環"
+msgstr ""
+"完全重畫游標：改變基礎指標形狀，提供彩色徽章，並重新設計等待狀態的色彩環"
 
 #: data/icons.metainfo.xml.in:111
 msgid ""
 "Use brighter colors for `edit-find` icons and add missing 16px `edit-find-"
 "replace`"
-msgstr "為 `edit-find` 圖示使用更亮的顏色並新增原本缺乏的 16 像素 `edit-find-replace`"
+msgstr ""
+"為 `edit-find` 圖示使用更亮的顏色並新增原本缺乏的 16 像素 `edit-find-replace`"
 
 #: data/icons.metainfo.xml.in:112
 msgid "Update the border radius of `preferences-desktop-locale`"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-31 17:06+0000\n"
+"POT-Creation-Date: 2025-12-31 04:43+0000\n"
 "PO-Revision-Date: 2025-12-31 04:43+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/desktop/"
@@ -103,7 +103,9 @@ msgid "`media-memory`"
 msgstr "`media-memory`"
 
 #: data/icons.metainfo.xml.in:71
-msgid "import and export actions at 16x"
+#, fuzzy
+#| msgid "import and export actions at 16x"
+msgid "import and export actions at 16px"
 msgstr "16px 版のインポート/エクスポート用アクションアイコンを追加"
 
 #: data/icons.metainfo.xml.in:72
@@ -114,8 +116,9 @@ msgstr "`mail-send-receive` に色付き版を追加"
 msgid ""
 "`system-software-install` has a new icon, separate from the AppCenter "
 "branding"
-msgstr "`system-software-install` のデザインを変更 (AppCenter "
-"のブランドアイコンとの差別化のため)"
+msgstr ""
+"`system-software-install` のデザインを変更 (AppCenter のブランドアイコンとの"
+"差別化のため)"
 
 #: data/icons.metainfo.xml.in:74
 msgid "symlinks are now handled in the build system"
@@ -123,7 +126,8 @@ msgstr "シンボリックリンクをビルドシステム側で作成するよ
 
 #: data/icons.metainfo.xml.in:78
 msgid "Fixed color, pagesizes, and grid alignment for all symbolic icons"
-msgstr "すべてのシンボリックアイコンの色・ページサイズ・グリッドへのアライメントを修"
+msgstr ""
+"すべてのシンボリックアイコンの色・ページサイズ・グリッドへのアライメントを修"
 "正"
 
 #: data/icons.metainfo.xml.in:79
@@ -131,8 +135,8 @@ msgid ""
 "`text` and `text-vertical` cursors have new designs, matching the new cursor "
 "style from 8.0.0"
 msgstr ""
-"`text` および `text-vertical` カーソルのデザインを変更 (バージョン 8.0.0 "
-"以降の新しいカーソルスタイルに合わせた)"
+"`text` および `text-vertical` カーソルのデザインを変更 (バージョン 8.0.0 以降"
+"の新しいカーソルスタイルに合わせた)"
 
 #: data/icons.metainfo.xml.in:80
 msgid "Chat bubbles are now used for `user-*` status icons"
@@ -142,7 +146,8 @@ msgstr "`user-*` ステータス状態アイコンをチャット風デザイン
 msgid ""
 "`preferences-desktop-locacle-symbolic` has been updated to be closer to the "
 "color version"
-msgstr "`preferences-desktop-locacle-symbolic` をより色付き版に近いデザインに更新"
+msgstr ""
+"`preferences-desktop-locacle-symbolic` をより色付き版に近いデザインに更新"
 
 #: data/icons.metainfo.xml.in:82
 msgid ""
