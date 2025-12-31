@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-31 17:06+0000\n"
-"PO-Revision-Date: 2025-08-30 22:55+0000\n"
+"PO-Revision-Date: 2025-12-31 04:43+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/desktop/"
 "icons-extra/ja/>\n"
@@ -42,24 +42,26 @@ msgstr "追加項目:"
 
 #: data/icons.metainfo.xml.in:36
 msgid "`start-here`"
-msgstr ""
+msgstr "`start-here`"
 
 #: data/icons.metainfo.xml.in:37
 msgid "Tool icons for Inkscape"
-msgstr ""
+msgstr "Inkscape 用のツールアイコン"
 
 #: data/icons.metainfo.xml.in:38
 msgid "Add Adwaita as a fallback for icon names"
-msgstr ""
+msgstr "アイコン名のフォールバックとして Adwaita を追加"
 
 #: data/icons.metainfo.xml.in:39
 msgid ""
 "16px `accessories-character-map`, `document-properties`, `preferences-system`"
 msgstr ""
+"16px 版 `accessories-character-map`、`document-properties`、`preferences-"
+"system`"
 
 #: data/icons.metainfo.xml.in:40
 msgid "24px `list-add-symbolic`"
-msgstr ""
+msgstr "24px 版 `list-add-symbolic`"
 
 #: data/icons.metainfo.xml.in:42 data/icons.metainfo.xml.in:76
 #: data/icons.metainfo.xml.in:108 data/icons.metainfo.xml.in:144
@@ -69,23 +71,23 @@ msgstr "アップデートされたアイコン:"
 
 #: data/icons.metainfo.xml.in:44
 msgid "Add a scroll wheel to mouse"
-msgstr ""
+msgstr "マウスアイコンにスクロールホイールを追加"
 
 #: data/icons.metainfo.xml.in:45
 msgid "Use outline style for `applications-internet-symbolic`"
-msgstr ""
+msgstr "`applications-internet-symbolic` をストロークのみのデザインに変更"
 
 #: data/icons.metainfo.xml.in:46
 msgid "Differentiate keyboard device from keyboard preferences"
-msgstr ""
+msgstr "キーボード設定とキーボードデバイスのアイコンを差別化"
 
 #: data/icons.metainfo.xml.in:47
 msgid "Round find-location"
-msgstr ""
+msgstr "find-location を角丸デザインに変更"
 
 #: data/icons.metainfo.xml.in:48
 msgid "Remove visual artifact from 16px `edit-paste` icon"
-msgstr ""
+msgstr "16px 版 `edit-paste` アイコンに含まれていたゴミを削除"
 
 #: data/icons.metainfo.xml.in:50 data/icons.metainfo.xml.in:103
 #: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
@@ -94,49 +96,53 @@ msgstr "削除された項目:"
 
 #: data/icons.metainfo.xml.in:52
 msgid "`view-filter`"
-msgstr ""
+msgstr "`view-filter`"
 
 #: data/icons.metainfo.xml.in:53
 msgid "`media-memory`"
-msgstr ""
+msgstr "`media-memory`"
 
 #: data/icons.metainfo.xml.in:71
 msgid "import and export actions at 16x"
-msgstr ""
+msgstr "16px 版のインポート/エクスポート用アクションアイコンを追加"
 
 #: data/icons.metainfo.xml.in:72
 msgid "`mail-send-receive` now has a color version"
-msgstr ""
+msgstr "`mail-send-receive` に色付き版を追加"
 
 #: data/icons.metainfo.xml.in:73
 msgid ""
 "`system-software-install` has a new icon, separate from the AppCenter "
 "branding"
-msgstr ""
+msgstr "`system-software-install` のデザインを変更 (AppCenter "
+"のブランドアイコンとの差別化のため)"
 
 #: data/icons.metainfo.xml.in:74
 msgid "symlinks are now handled in the build system"
-msgstr ""
+msgstr "シンボリックリンクをビルドシステム側で作成するように修正"
 
 #: data/icons.metainfo.xml.in:78
 msgid "Fixed color, pagesizes, and grid alignment for all symbolic icons"
-msgstr ""
+msgstr "すべてのシンボリックアイコンの色・ページサイズ・グリッドへのアライメントを修"
+"正"
 
 #: data/icons.metainfo.xml.in:79
 msgid ""
 "`text` and `text-vertical` cursors have new designs, matching the new cursor "
 "style from 8.0.0"
 msgstr ""
+"`text` および `text-vertical` カーソルのデザインを変更 (バージョン 8.0.0 "
+"以降の新しいカーソルスタイルに合わせた)"
 
 #: data/icons.metainfo.xml.in:80
 msgid "Chat bubbles are now used for `user-*` status icons"
-msgstr ""
+msgstr "`user-*` ステータス状態アイコンをチャット風デザインに変更"
 
 #: data/icons.metainfo.xml.in:81
 msgid ""
 "`preferences-desktop-locacle-symbolic` has been updated to be closer to the "
 "color version"
-msgstr ""
+msgstr "`preferences-desktop-locacle-symbolic` をより色付き版に近いデザインに更新"
 
 #: data/icons.metainfo.xml.in:82
 msgid ""
