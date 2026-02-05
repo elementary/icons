@@ -7,7 +7,7 @@ project (
 
 fs = import('fs')
 
-# This assumes an elementary OS system
+# This assumes an elementary OS system and local install
 icon_dir = fs.expanduser('~/.var/app/org.inkscape.Inkscape/config/inkscape/icons/elementary')
 
 scale_factors = get_option('scale_factors')
