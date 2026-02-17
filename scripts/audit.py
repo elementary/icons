@@ -48,7 +48,7 @@ else:
     foundDeps = True
 
 def get_soup(url: str) -> BeautifulSoup:
-    page = requests.get(url)
+    page = session.get(url)
     soup = BeautifulSoup(page.text, "html.parser")
     return soup
 
@@ -72,9 +72,10 @@ def parse_soup(soup: BeautifulSoup) -> list:
 
 def get_iso_3166() -> list:
     result = []
-    page = requests.get("https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2")
+    page = session.get("https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2")
     soup = BeautifulSoup(page.text, "html.parser")
-    table = soup.find_all("table", class_="wikitable")[4].tbody
+    print(soup)
+    table = soup.find_all("table", class_="wikitable")[3].tbody
     rows = table.find_all("tr")
     for row in rows:
         code = row.text.strip().replace("\n", " ").split()[0]
@@ -118,6 +119,13 @@ specification = {}
 
 if foundDeps:
     url = "https://specifications.freedesktop.org/icon-naming-spec/latest/"
+    headers = {
+        'User-Agent': 'fdo-icon-name-spec-audit-script/1.0.0',
+    }
+
+    session = requests.Session()
+    session.headers.update(headers)
+
     soup = get_soup(url)
     specList = parse_soup(soup)
     specList.extend(get_iso_3166())
