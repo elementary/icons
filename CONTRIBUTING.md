@@ -33,12 +33,13 @@ script can be used without any extra dependencies, setting up a virtual
 environment and installing `requests` and `BeautifulSoup4` enables functionality
 that ensures all resources pulled are as current as possible. To do this:
 
-1. From the repository root, run `python3 -m venv .venv`. This sets up a python
+1. If not already installed, run `apt install python3 python3.12-venv`
+2. From the repository root, run `python3 -m venv .venv`. This sets up a python
    virtual environment in a hidden folder, scoped to this repository. 
-2. To activate the venv, run `source .venv/bin/activate`.
-3. To install `requests` and `BeautifulSoup4`, run `python3 -m pip install requests
+3. To activate the venv, run `source .venv/bin/activate`.
+4. To install `requests` and `BeautifulSoup4`, run `python3 -m pip install requests
    BeautifulSoup4`
-4. Run the script with `python3 scripts/audit.py <path to theme folder>`
+5. Run the script with `python3 scripts/audit.py <path to theme folder>`
 
 ## Third-Party Brand Preservation
 elementary icons do not attempt to supply icons for third-party apps. Pull requests to add icons or symbolic links that would overwrite the branding of third-party apps will be rejected.
