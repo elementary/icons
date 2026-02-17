@@ -74,7 +74,6 @@ def get_iso_3166() -> list:
     result = []
     page = session.get("https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2")
     soup = BeautifulSoup(page.text, "html.parser")
-    print(soup)
     table = soup.find_all("table", class_="wikitable")[3].tbody
     rows = table.find_all("tr")
     for row in rows:
