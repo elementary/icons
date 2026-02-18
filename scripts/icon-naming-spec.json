@@ -1,0 +1,1209 @@
+{
+  "actions": {
+    "section": "Standard Action Icons",
+    "entries": [
+      {
+        "name": "address-book-new",
+        "description": "The icon used for the action to create a new address book."
+      },
+      {
+        "name": "application-exit",
+        "description": "The icon used for exiting an application. Typically this is seen\nin the application's menus as File->Quit."
+      },
+      {
+        "name": "appointment-new",
+        "description": "The icon used for the action to create a new appointment\nin a calendaring application."
+      },
+      {
+        "name": "call-start",
+        "description": "The icon used for initiating or accepting a call. Should be similar\nto the standard cellular call pickup icon, a green handset with ear and\nmouth pieces facing upward."
+      },
+      {
+        "name": "call-stop",
+        "description": "The icon used for stopping a current call. Should be similar\nto the standard cellular call hangup icon, a red handset with ear and\nmouth pieces facing downward."
+      },
+      {
+        "name": "contact-new",
+        "description": "The icon used for the action to create a new contact\nin an address book application."
+      },
+      {
+        "name": "document-new",
+        "description": "The icon used for the action to create a new document."
+      },
+      {
+        "name": "document-open",
+        "description": "The icon used for the action to open a document."
+      },
+      {
+        "name": "document-open-recent",
+        "description": "The icon used for the action to open a document that\nwas recently opened."
+      },
+      {
+        "name": "document-page-setup",
+        "description": "The icon for the page setup action of a document editor."
+      },
+      {
+        "name": "document-print",
+        "description": "The icon for the print action of an application."
+      },
+      {
+        "name": "document-print-preview",
+        "description": "The icon for the print preview action of an application."
+      },
+      {
+        "name": "document-properties",
+        "description": "The icon for the action to view the properties of a\ndocument in an application."
+      },
+      {
+        "name": "document-revert",
+        "description": "The icon for the action of reverting to a previous\nversion of a document."
+      },
+      {
+        "name": "document-save",
+        "description": "The icon for the save action. Should be an arrow pointing down and toward\na hard disk."
+      },
+      {
+        "name": "document-save-as",
+        "description": "The icon for the save as action."
+      },
+      {
+        "name": "document-send",
+        "description": "The icon for the send action. Should be an arrow pointing up and away from\na hard disk."
+      },
+      {
+        "name": "edit-clear",
+        "description": "The icon for the clear action."
+      },
+      {
+        "name": "edit-copy",
+        "description": "The icon for the copy action."
+      },
+      {
+        "name": "edit-cut",
+        "description": "The icon for the cut action."
+      },
+      {
+        "name": "edit-delete",
+        "description": "The icon for the delete action."
+      },
+      {
+        "name": "edit-find",
+        "description": "The icon for the find action."
+      },
+      {
+        "name": "edit-find-replace",
+        "description": "The icon for the find and replace action."
+      },
+      {
+        "name": "edit-paste",
+        "description": "The icon for the paste action."
+      },
+      {
+        "name": "edit-redo",
+        "description": "The icon for the redo action."
+      },
+      {
+        "name": "edit-select-all",
+        "description": "The icon for the select all action."
+      },
+      {
+        "name": "edit-undo",
+        "description": "The icon for the undo action."
+      },
+      {
+        "name": "find-location",
+        "description": "The icon used for the action of finding the user's physical location"
+      },
+      {
+        "name": "folder-new",
+        "description": "The icon for creating a new folder."
+      },
+      {
+        "name": "format-indent-less",
+        "description": "The icon for the decrease indent formatting action."
+      },
+      {
+        "name": "format-indent-more",
+        "description": "The icon for the increase indent formatting action."
+      },
+      {
+        "name": "format-justify-center",
+        "description": "The icon for the center justification formatting action."
+      },
+      {
+        "name": "format-justify-fill",
+        "description": "The icon for the fill justification formatting action."
+      },
+      {
+        "name": "format-justify-left",
+        "description": "The icon for the left justification formatting action."
+      },
+      {
+        "name": "format-justify-right",
+        "description": "The icon for the right justification action."
+      },
+      {
+        "name": "format-text-direction-ltr",
+        "description": "The icon for the left-to-right text formatting action."
+      },
+      {
+        "name": "format-text-direction-rtl",
+        "description": "The icon for the right-to-left formatting action."
+      },
+      {
+        "name": "format-text-bold",
+        "description": "The icon for the bold text formatting action."
+      },
+      {
+        "name": "format-text-italic",
+        "description": "The icon for the italic text formatting action."
+      },
+      {
+        "name": "format-text-underline",
+        "description": "The icon for the underlined text formatting action."
+      },
+      {
+        "name": "format-text-strikethrough",
+        "description": "The icon for the strikethrough text formatting action."
+      },
+      {
+        "name": "go-bottom",
+        "description": "The icon for the go to bottom of a list action."
+      },
+      {
+        "name": "go-down",
+        "description": "The icon for the go down in a list action."
+      },
+      {
+        "name": "go-first",
+        "description": "The icon for the go to the first item in a list action."
+      },
+      {
+        "name": "go-home",
+        "description": "The icon for the go to home location action."
+      },
+      {
+        "name": "go-jump",
+        "description": "The icon for the jump to action."
+      },
+      {
+        "name": "go-last",
+        "description": "The icon for the go to the last item in a list action."
+      },
+      {
+        "name": "go-next",
+        "description": "The icon for the go to the next item in a list action."
+      },
+      {
+        "name": "go-previous",
+        "description": "The icon for the go to the previous item in a list action."
+      },
+      {
+        "name": "go-top",
+        "description": "The icon for the go to the top of a list action."
+      },
+      {
+        "name": "go-up",
+        "description": "The icon for the go up in a list action."
+      },
+      {
+        "name": "help-about",
+        "description": "The icon for the About item in the Help menu."
+      },
+      {
+        "name": "help-contents",
+        "description": "The icon for Contents item in the Help menu."
+      },
+      {
+        "name": "help-faq",
+        "description": "The icon for the FAQ item in the Help menu."
+      },
+      {
+        "name": "insert-image",
+        "description": "The icon for the insert image action of an application."
+      },
+      {
+        "name": "insert-link",
+        "description": "The icon for the insert link action of an application."
+      },
+      {
+        "name": "insert-object",
+        "description": "The icon for the insert object action of an application."
+      },
+      {
+        "name": "insert-text",
+        "description": "The icon for the insert text action of an application."
+      },
+      {
+        "name": "list-add",
+        "description": "The icon for the add to list action."
+      },
+      {
+        "name": "list-remove",
+        "description": "The icon for the remove from list action."
+      },
+      {
+        "name": "mail-forward",
+        "description": "The icon for the forward action of an electronic mail application."
+      },
+      {
+        "name": "mail-mark-important",
+        "description": "The icon for the mark as important action of an electronic mail application."
+      },
+      {
+        "name": "mail-mark-junk",
+        "description": "The icon for the mark as junk action of an electronic mail application."
+      },
+      {
+        "name": "mail-mark-notjunk",
+        "description": "The icon for the mark as not junk action of an electronic mail application."
+      },
+      {
+        "name": "mail-mark-read",
+        "description": "The icon for the mark as read action of an electronic mail application."
+      },
+      {
+        "name": "mail-mark-unread",
+        "description": "The icon for the mark as unread action of an electronic mail application."
+      },
+      {
+        "name": "mail-message-new",
+        "description": "The icon for the compose new mail action of an electronic mail application."
+      },
+      {
+        "name": "mail-reply-all",
+        "description": "The icon for the reply to all action of an electronic mail application."
+      },
+      {
+        "name": "mail-reply-sender",
+        "description": "The icon for the reply to sender action of an electronic mail application."
+      },
+      {
+        "name": "mail-send",
+        "description": "The icon for the send action of an electronic mail application."
+      },
+      {
+        "name": "mail-send-receive",
+        "description": "The icon for the send and receive action of an electronic mail application."
+      },
+      {
+        "name": "media-eject",
+        "description": "The icon for the eject action of a media player or file manager."
+      },
+      {
+        "name": "media-playback-pause",
+        "description": "The icon for the pause action of a media player."
+      },
+      {
+        "name": "media-playback-start",
+        "description": "The icon for the start playback action of a media player."
+      },
+      {
+        "name": "media-playback-stop",
+        "description": "The icon for the stop action of a media player."
+      },
+      {
+        "name": "media-record",
+        "description": "The icon for the record action of a media application."
+      },
+      {
+        "name": "media-seek-backward",
+        "description": "The icon for the seek backward action of a media player."
+      },
+      {
+        "name": "media-seek-forward",
+        "description": "The icon for the seek forward action of a media player."
+      },
+      {
+        "name": "media-skip-backward",
+        "description": "The icon for the skip backward action of a media player."
+      },
+      {
+        "name": "media-skip-forward",
+        "description": "The icon for the skip forward action of a media player."
+      },
+      {
+        "name": "object-flip-horizontal",
+        "description": "The icon for the action to flip an object horizontally."
+      },
+      {
+        "name": "object-flip-vertical",
+        "description": "The icon for the action to flip an object vertically."
+      },
+      {
+        "name": "object-rotate-left",
+        "description": "The icon for the rotate left action performed on an object."
+      },
+      {
+        "name": "object-rotate-right",
+        "description": "The icon for the rotate rigt action performed on an object."
+      },
+      {
+        "name": "process-stop",
+        "description": "The icon used for theStopaction in applications with actions\nthat may take a while to process, such as web page loading in a browser."
+      },
+      {
+        "name": "system-lock-screen",
+        "description": "The icon used for theLock Screenitem in the desktop's\npanel application."
+      },
+      {
+        "name": "system-log-out",
+        "description": "The icon used for theLog Outitem in\nthe desktop's panel application."
+      },
+      {
+        "name": "system-run",
+        "description": "The icon used for theRun Application...item in\nthe desktop's panel application."
+      },
+      {
+        "name": "system-search",
+        "description": "The icon used for theSearchitem in\nthe desktop's panel application."
+      },
+      {
+        "name": "system-reboot",
+        "description": "The icon used for theRebootitem in\nthe desktop's panel application."
+      },
+      {
+        "name": "system-shutdown",
+        "description": "The icon used for theShutdownitem in\nthe desktop's panel application."
+      },
+      {
+        "name": "tools-check-spelling",
+        "description": "The icon used for theCheck Spellingitem in the\napplication'sToolsmenu."
+      },
+      {
+        "name": "view-fullscreen",
+        "description": "The icon used for theFullscreenitem in the\napplication'sViewmenu."
+      },
+      {
+        "name": "view-refresh",
+        "description": "The icon used for theRefreshitem in the\napplication'sViewmenu."
+      },
+      {
+        "name": "view-restore",
+        "description": "The icon used by an application for leaving the fullscreen view, and returning\nto a normal windowed view."
+      },
+      {
+        "name": "view-sort-ascending",
+        "description": "The icon used for theSort Ascendingitem in the\napplication'sViewmenu, or in a button for\nchanging the sort method for a list."
+      },
+      {
+        "name": "view-sort-descending",
+        "description": "The icon used for theSort Descendingitem in the\napplication'sViewmenu, or in a button for\nchanging the sort method for a list."
+      },
+      {
+        "name": "window-close",
+        "description": "The icon used for theClose Windowitem in the\napplication'sWindowsmenu."
+      },
+      {
+        "name": "window-new",
+        "description": "The icon used for theNew Windowitem in the\napplication'sWindowsmenu."
+      },
+      {
+        "name": "zoom-fit-best",
+        "description": "The icon used for theBest Fititem in the\napplication'sViewmenu."
+      },
+      {
+        "name": "zoom-in",
+        "description": "The icon used for theZoom initem in the\napplication'sViewmenu."
+      },
+      {
+        "name": "zoom-original",
+        "description": "The icon used for theOriginal Sizeitem in the\napplication'sViewmenu."
+      },
+      {
+        "name": "zoom-out",
+        "description": "The icon used for theZoom Outitem in the\napplication'sViewmenu."
+      }
+    ]
+  },
+  "animations": {
+    "section": "Standard Animation Icons",
+    "entries": [
+      {
+        "name": "process-working",
+        "description": "This is the standard spinner animation for web browsers and\nfile managers to show that the location is loading."
+      }
+    ]
+  },
+  "apps": {
+    "section": "Standard Application Icons",
+    "entries": [
+      {
+        "name": "accessories-calculator",
+        "description": "The icon used for the desktop's calculator accessory program."
+      },
+      {
+        "name": "accessories-character-map",
+        "description": "The icon used for the desktop's international and extended text\ncharacter accessory program."
+      },
+      {
+        "name": "accessories-dictionary",
+        "description": "The icon used for the desktop's dictionary accessory program."
+      },
+      {
+        "name": "accessories-screenshot-tool",
+        "description": "The icon used for the desktop's screenshot taking program."
+      },
+      {
+        "name": "accessories-text-editor",
+        "description": "The icon used for the desktop's text editing accessory program."
+      },
+      {
+        "name": "help-browser",
+        "description": "The icon used for the desktop's help browsing application."
+      },
+      {
+        "name": "multimedia-volume-control",
+        "description": "The icon used for the desktop's hardware volume control application."
+      },
+      {
+        "name": "preferences-desktop-accessibility",
+        "description": "The icon used for the desktop's accessibility preferences."
+      },
+      {
+        "name": "preferences-desktop-font",
+        "description": "The icon used for the desktop's font preferences."
+      },
+      {
+        "name": "preferences-desktop-keyboard",
+        "description": "The icon used for the desktop's keyboard preferences."
+      },
+      {
+        "name": "preferences-desktop-locale",
+        "description": "The icon used for the desktop's locale preferences."
+      },
+      {
+        "name": "preferences-desktop-multimedia",
+        "description": "The icon used for the desktop's multimedia preferences."
+      },
+      {
+        "name": "preferences-desktop-screensaver",
+        "description": "The icon used for the desktop's screen saving preferences."
+      },
+      {
+        "name": "preferences-desktop-theme",
+        "description": "The icon used for the desktop's theme preferences."
+      },
+      {
+        "name": "preferences-desktop-wallpaper",
+        "description": "The icon used for the desktop's wallpaper preferences."
+      },
+      {
+        "name": "system-file-manager",
+        "description": "The icon used for the desktop's file management application."
+      },
+      {
+        "name": "system-software-install",
+        "description": "The icon used for the desktop's software installer application."
+      },
+      {
+        "name": "system-software-update",
+        "description": "The icon used for the desktop's software updating application."
+      },
+      {
+        "name": "utilities-system-monitor",
+        "description": "The icon used for the desktop's system resource monitor application."
+      },
+      {
+        "name": "utilities-terminal",
+        "description": "The icon used for the desktop's terminal emulation application."
+      }
+    ]
+  },
+  "categories": {
+    "section": "Standard Category Icons",
+    "entries": [
+      {
+        "name": "applications-accessories",
+        "description": "The icon for theAccessoriessub-menu of the Programs menu."
+      },
+      {
+        "name": "applications-development",
+        "description": "The icon for theProgrammingsub-menu of the Programs menu."
+      },
+      {
+        "name": "applications-engineering",
+        "description": "The icon for theEngineeringsub-menu of the Programs menu."
+      },
+      {
+        "name": "applications-games",
+        "description": "The icon for theGamessub-menu of the Programs menu."
+      },
+      {
+        "name": "applications-graphics",
+        "description": "The icon for theGraphicssub-menu of the Programs menu."
+      },
+      {
+        "name": "applications-internet",
+        "description": "The icon for theInternetsub-menu of the Programs menu."
+      },
+      {
+        "name": "applications-multimedia",
+        "description": "The icon for theMultimediasub-menu of the Programs menu."
+      },
+      {
+        "name": "applications-office",
+        "description": "The icon for theOfficesub-menu of the Programs menu."
+      },
+      {
+        "name": "applications-other",
+        "description": "The icon for theOthersub-menu of the Programs menu."
+      },
+      {
+        "name": "applications-science",
+        "description": "The icon for theSciencesub-menu of the Programs menu."
+      },
+      {
+        "name": "applications-system",
+        "description": "The icon for theSystem Toolssub-menu of the Programs menu."
+      },
+      {
+        "name": "applications-utilities",
+        "description": "The icon for theUtilitiessub-menu of the Programs menu."
+      },
+      {
+        "name": "preferences-desktop",
+        "description": "The icon for theDesktop Preferencescategory."
+      },
+      {
+        "name": "preferences-desktop-peripherals",
+        "description": "The icon for thePeripheralssub-category of\ntheDesktop Preferencescategory."
+      },
+      {
+        "name": "preferences-desktop-personal",
+        "description": "The icon for thePersonalsub-category of\ntheDesktop Preferencescategory."
+      },
+      {
+        "name": "preferences-other",
+        "description": "The icon for theOtherpreferences category."
+      },
+      {
+        "name": "preferences-system",
+        "description": "The icon for theSystem Preferencescategory."
+      },
+      {
+        "name": "preferences-system-network",
+        "description": "The icon for theNetworksub-category of\ntheSystem Preferencescategory."
+      },
+      {
+        "name": "system-help",
+        "description": "The icon for theHelpsystem category."
+      }
+    ]
+  },
+  "devices": {
+    "section": "Standard Device Icons",
+    "entries": [
+      {
+        "name": "audio-card",
+        "description": "The icon used for the audio rendering device."
+      },
+      {
+        "name": "audio-input-microphone",
+        "description": "The icon used for the microphone audio input device."
+      },
+      {
+        "name": "battery",
+        "description": "The icon used for the system battery device."
+      },
+      {
+        "name": "camera-photo",
+        "description": "The icon used for a digital still camera devices."
+      },
+      {
+        "name": "camera-video",
+        "description": "The fallback icon for video cameras."
+      },
+      {
+        "name": "camera-web",
+        "description": "The fallback icon for web cameras."
+      },
+      {
+        "name": "computer",
+        "description": "The icon used for the computing device as a whole."
+      },
+      {
+        "name": "drive-harddisk",
+        "description": "The icon used for hard disk drives."
+      },
+      {
+        "name": "drive-optical",
+        "description": "The icon used for optical media drives such as CD and DVD."
+      },
+      {
+        "name": "drive-removable-media",
+        "description": "The icon used for removable media drives."
+      },
+      {
+        "name": "input-gaming",
+        "description": "The icon used for the gaming input device."
+      },
+      {
+        "name": "input-keyboard",
+        "description": "The icon used for the keyboard input device."
+      },
+      {
+        "name": "input-mouse",
+        "description": "The icon used for the mousing input device."
+      },
+      {
+        "name": "input-tablet",
+        "description": "The icon used for graphics tablet input devices."
+      },
+      {
+        "name": "media-flash",
+        "description": "The fallback icon used for flash media, such as memory stick and SD."
+      },
+      {
+        "name": "media-floppy",
+        "description": "The icon used for physical floppy disk media."
+      },
+      {
+        "name": "media-optical",
+        "description": "The icon used for physical optical media such as CD and DVD."
+      },
+      {
+        "name": "media-tape",
+        "description": "The icon used for generic physical tape media."
+      },
+      {
+        "name": "modem",
+        "description": "The icon used for modem devices."
+      },
+      {
+        "name": "multimedia-player",
+        "description": "The icon used for generic multimedia playing devices."
+      },
+      {
+        "name": "network-wired",
+        "description": "The icon used for wired network connections."
+      },
+      {
+        "name": "network-wireless",
+        "description": "The icon used for wireless network connections."
+      },
+      {
+        "name": "pda",
+        "description": "This is the fallback icon for Personal Digial Assistant devices. Primary use\nof this icon is for PDA devices connected to the PC. Connection medium is not\nan important aspect of the icon. The metaphor for this fallback icon should be\na generic PDA device icon."
+      },
+      {
+        "name": "phone",
+        "description": "This is the default fallback for phone devices. Primary use of this icon group\nis for phone devices which support connectivity to the PC. These may be VoIP,\ncellular, or possibly landline phones. The metaphor for this fallback should be\na generic mobile phone device."
+      },
+      {
+        "name": "printer",
+        "description": "The icon used for a printer device."
+      },
+      {
+        "name": "scanner",
+        "description": "The icon used for a scanner device."
+      },
+      {
+        "name": "video-display",
+        "description": "The icon used for the monitor that video gets displayed to."
+      }
+    ]
+  },
+  "emblems": {
+    "section": "Standard Emblem Icons",
+    "entries": [
+      {
+        "name": "emblem-default",
+        "description": "The icon used as an emblem to specify the default selection of a printer for\nexample."
+      },
+      {
+        "name": "emblem-documents",
+        "description": "The icon used as an emblem for the directory where a user's documents are stored."
+      },
+      {
+        "name": "emblem-downloads",
+        "description": "The icon used as an emblem for the directory where a user's\ndownloads from the internet are stored."
+      },
+      {
+        "name": "emblem-favorite",
+        "description": "The icon used as an emblem for files and directories that the\nuser marks as favorites."
+      },
+      {
+        "name": "emblem-important",
+        "description": "The icon used as an emblem for files and directories that are\nmarked as important by the user."
+      },
+      {
+        "name": "emblem-mail",
+        "description": "The icon used as an emblem to specify the directory where the\nuser's electronic mail is stored."
+      },
+      {
+        "name": "emblem-photos",
+        "description": "The icon used as an emblem to specify the directory where the\nuser stores photographs."
+      },
+      {
+        "name": "emblem-readonly",
+        "description": "The icon used as an emblem for files and directories which can\nnot be written to by the user."
+      },
+      {
+        "name": "emblem-shared",
+        "description": "The icon used as an emblem for files and directories that are\nshared to other users."
+      },
+      {
+        "name": "emblem-symbolic-link",
+        "description": "The icon used as an emblem for files and direcotires that are\nlinks to other files or directories on the filesystem."
+      },
+      {
+        "name": "emblem-synchronized",
+        "description": "The icon used as an emblem for files or directories that are\nconfigured to be synchronized to another device."
+      },
+      {
+        "name": "emblem-system",
+        "description": "The icon used as an emblem for directories that contain system\nlibraries, settings, and data."
+      },
+      {
+        "name": "emblem-unreadable",
+        "description": "The icon used as an emblem for files and directories that are inaccessible."
+      }
+    ]
+  },
+  "emotes": {
+    "section": "Standard Emotion Icons",
+    "entries": [
+      {
+        "name": "face-angel",
+        "description": "The icon used for the 0:-) emote."
+      },
+      {
+        "name": "face-angry",
+        "description": "The icon used for the X-( emote."
+      },
+      {
+        "name": "face-cool",
+        "description": "The icon used for the B-) emote."
+      },
+      {
+        "name": "face-crying",
+        "description": "The icon used for the :'( emote."
+      },
+      {
+        "name": "face-devilish",
+        "description": "The icon used for the >:-) emote."
+      },
+      {
+        "name": "face-embarrassed",
+        "description": "The icon used for the :-[ emote."
+      },
+      {
+        "name": "face-kiss",
+        "description": "The icon used for the :-* emote."
+      },
+      {
+        "name": "face-laugh",
+        "description": "The icon used for the :-)) emote."
+      },
+      {
+        "name": "face-monkey",
+        "description": "The icon used for the :-(|) emote."
+      },
+      {
+        "name": "face-plain",
+        "description": "The icon used for the :-| emote."
+      },
+      {
+        "name": "face-raspberry",
+        "description": "The icon used for the :-P emote."
+      },
+      {
+        "name": "face-sad",
+        "description": "The icon used for the :-( emote."
+      },
+      {
+        "name": "face-sick",
+        "description": "The icon used for the :-& emote."
+      },
+      {
+        "name": "face-smile",
+        "description": "The icon used for the :-) emote."
+      },
+      {
+        "name": "face-smile-big",
+        "description": "The icon used for the :-D emote."
+      },
+      {
+        "name": "face-smirk",
+        "description": "The icon used for the :-! emote."
+      },
+      {
+        "name": "face-surprise",
+        "description": "The icon used for the :-0 emote."
+      },
+      {
+        "name": "face-tired",
+        "description": "The icon used for the |-) emote."
+      },
+      {
+        "name": "face-uncertain",
+        "description": "The icon used for the :-/ emote."
+      },
+      {
+        "name": "face-wink",
+        "description": "The icon used for the ;-) emote."
+      },
+      {
+        "name": "face-worried",
+        "description": "The icon used for the :-S emote."
+      }
+    ]
+  },
+  "intl": {
+    "section": "Standard International Icons",
+    "entries": [
+      {
+        "name": "flag-aa",
+        "description": "The flag for the country with the ISO 3166 country code AA. All\nflags should use ISO 3166 two-letter country codes, in lowercase\nform, as the specifier for the country."
+      }
+    ]
+  },
+  "mimetypes": {
+    "section": "Standard MIME Type Icons",
+    "entries": [
+      {
+        "name": "application-x-executable",
+        "description": "The icon used for executable file types."
+      },
+      {
+        "name": "audio-x-generic",
+        "description": "The icon used for generic audio file types."
+      },
+      {
+        "name": "font-x-generic",
+        "description": "The icon used for generic font file types."
+      },
+      {
+        "name": "image-x-generic",
+        "description": "The icon used for generic image file types."
+      },
+      {
+        "name": "package-x-generic",
+        "description": "The icon used for generic package file types."
+      },
+      {
+        "name": "text-html",
+        "description": "The icon used for HTML text file types."
+      },
+      {
+        "name": "text-x-generic",
+        "description": "The icon used for generic text file types."
+      },
+      {
+        "name": "text-x-generic-template",
+        "description": "The icon used for generic text templates."
+      },
+      {
+        "name": "text-x-script",
+        "description": "The icon used for script file types, such as shell scripts."
+      },
+      {
+        "name": "video-x-generic",
+        "description": "The icon used for generic video file types."
+      },
+      {
+        "name": "x-office-address-book",
+        "description": "The icon used for generic address book file types."
+      },
+      {
+        "name": "x-office-calendar",
+        "description": "The icon used for generic calendar file types."
+      },
+      {
+        "name": "x-office-document",
+        "description": "The icon used for generic document and letter file types."
+      },
+      {
+        "name": "x-office-presentation",
+        "description": "The icon used for generic presentation file types."
+      },
+      {
+        "name": "x-office-spreadsheet",
+        "description": "The icon used for generic spreadsheet file types."
+      }
+    ]
+  },
+  "places": {
+    "section": "Standard Place Icons",
+    "entries": [
+      {
+        "name": "folder",
+        "description": "The standard folder icon used to represent directories on local\nfilesystems, mail folders, and other hierarchical groups."
+      },
+      {
+        "name": "folder-remote",
+        "description": "The icon used for normal directories on a remote filesystem."
+      },
+      {
+        "name": "network-server",
+        "description": "The icon used for individual host machines under theNetwork Serversplace in the file manager."
+      },
+      {
+        "name": "network-workgroup",
+        "description": "The icon for theNetwork Serversplace in the\ndesktop's file manager, and workgroups within the network."
+      },
+      {
+        "name": "start-here",
+        "description": "The icon used by the desktop's main menu for accessing places,\napplications, and other features."
+      },
+      {
+        "name": "user-bookmarks",
+        "description": "The icon for the user's specialBookmarksplace."
+      },
+      {
+        "name": "user-desktop",
+        "description": "The icon for the specialDesktopdirectory of the user."
+      },
+      {
+        "name": "user-home",
+        "description": "The icon for the specialHomedirectory of the user."
+      },
+      {
+        "name": "user-trash",
+        "description": "The icon for the user'sTrashplace in the\ndesktop's file manager."
+      }
+    ]
+  },
+  "status": {
+    "section": "Standard Status Icons",
+    "entries": [
+      {
+        "name": "appointment-missed",
+        "description": "The icon used when an appointment was missed."
+      },
+      {
+        "name": "appointment-soon",
+        "description": "The icon used when an appointment will occur soon."
+      },
+      {
+        "name": "audio-volume-high",
+        "description": "The icon used to indicate high audio volume."
+      },
+      {
+        "name": "audio-volume-low",
+        "description": "The icon used to indicate low audio volume."
+      },
+      {
+        "name": "audio-volume-medium",
+        "description": "The icon used to indicate medium audio volume."
+      },
+      {
+        "name": "audio-volume-muted",
+        "description": "The icon used to indicate the muted state for audio playback."
+      },
+      {
+        "name": "battery-caution",
+        "description": "The icon used when the battery is below 40%."
+      },
+      {
+        "name": "battery-low",
+        "description": "The icon used when the battery is below 20%."
+      },
+      {
+        "name": "dialog-error",
+        "description": "The icon used when a dialog is opened to explain an error\ncondition to the user."
+      },
+      {
+        "name": "dialog-information",
+        "description": "The icon used when a dialog is opened to give information\nto the user that may be pertinent to the requested action."
+      },
+      {
+        "name": "dialog-password",
+        "description": "The icon used when a dialog requesting the authentication\ncredentials for a user is opened."
+      },
+      {
+        "name": "dialog-question",
+        "description": "The icon used when a dialog is opened to ask a simple\n\t      question of the user."
+      },
+      {
+        "name": "dialog-warning",
+        "description": "The icon used when a dialog is opened to warn the user of\nimpending issues with the requested action."
+      },
+      {
+        "name": "folder-drag-accept",
+        "description": "The icon used for a folder while an object is being\ndragged onto it, that is of a type that the directory can contain."
+      },
+      {
+        "name": "folder-open",
+        "description": "The icon used for folders, while their contents are being\ndisplayed within the same window. This icon would normally be\nshown in a tree or list view, next to the main view of a folder's contents."
+      },
+      {
+        "name": "folder-visiting",
+        "description": "The icon used for folders, while their contents are being\ndisplayed in another window. This icon would typically be used\nwhen using multiple windows to navigate the hierarchy, such as\nin Nautilus's spatial mode."
+      },
+      {
+        "name": "image-loading",
+        "description": "The icon used when another image is being loaded, such as\nthumnails for larger images in the file manager."
+      },
+      {
+        "name": "image-missing",
+        "description": "The icon used when another image could not be loaded."
+      },
+      {
+        "name": "mail-attachment",
+        "description": "The icon used for an electronic mail that contains attachments."
+      },
+      {
+        "name": "mail-unread",
+        "description": "The icon used for an electronic mail that is unread."
+      },
+      {
+        "name": "mail-read",
+        "description": "The icon used for an electronic mail that is read."
+      },
+      {
+        "name": "mail-replied",
+        "description": "The icon used for an electronic mail that has been replied to."
+      },
+      {
+        "name": "mail-signed",
+        "description": "The icon used for an electronic mail that contains a signature."
+      },
+      {
+        "name": "mail-signed-verified",
+        "description": "The icon used for an electronic mail that contains a signature\nwhich has also been verified by the security system."
+      },
+      {
+        "name": "media-playlist-repeat",
+        "description": "The icon for the repeat mode of a media player."
+      },
+      {
+        "name": "media-playlist-shuffle",
+        "description": "The icon for the shuffle mode of a media player."
+      },
+      {
+        "name": "network-error",
+        "description": "The icon used when an error occurs trying to intialize the network connection\nof the computing device. This icon should be two computers, one in the\nbackground, with the screens of both computers, colored black, and with the\ntheme's style element for errors, overlayed on top of the icon."
+      },
+      {
+        "name": "network-idle",
+        "description": "The icon used when no data is being transmitted or received, while the\ncomputing device is connected to a network. This icon should be two computers,\none in the background, with the screens of both computers, colored black."
+      },
+      {
+        "name": "network-offline",
+        "description": "The icon used when the computing device is disconnected from the network. This\nicon should be a computer in the background, with a screen colored black, and\nthe theme's icon element to show that a device is not accessible, in the\nforeground."
+      },
+      {
+        "name": "network-receive",
+        "description": "The icon used when data is being received, while the computing device is\nconnected to a network. This icon should be two computers, one in the\nbackground, with its screen colored green, and the screen of the computer in\nthe foreground, colored black."
+      },
+      {
+        "name": "network-transmit",
+        "description": "The icon used when data is being transmitted, while the computing device is\nconnected to a network. This icon should be two computers, one in the\nbackground, with its screen colored black, and the screen of the computer in\nthe foreground, colored green."
+      },
+      {
+        "name": "network-transmit-receive",
+        "description": "The icon used data is being both transmitted and received simultaneously,\nwhile the computing device is connected to a network. This icon should be two\ncomputers, one in the background, with the screens of both computers, colored\ngreen."
+      },
+      {
+        "name": "printer-error",
+        "description": "The icon used when an error occurs while attempting to print. This icon should\nbe the theme's printer device icon, with the theme's style element for errors,\noverlayed on top of the icon."
+      },
+      {
+        "name": "printer-printing",
+        "description": "The icon used while a print job is successfully being spooled to a printing\ndevice. This icon should be the theme's printer device icon, with a document\nemerging from the printing device."
+      },
+      {
+        "name": "security-high",
+        "description": "The icon used to indicate that the security level of a connection is known\nto be secure, using strong encryption and a valid certificate."
+      },
+      {
+        "name": "security-medium",
+        "description": "The icon used to indicate that the security level of a connection is presumed\nto be secure, using strong encryption, and a certificate that could not be\nautomatically verified, but which the user has chosen to trust."
+      },
+      {
+        "name": "security-low",
+        "description": "The icon used to indicate that the security level of a connection is presumed\nto be insecure, either by using weak encryption, or by using a certificate that\nthe could not be automatically verified, and which the user has not chosent to\ntrust."
+      },
+      {
+        "name": "software-update-available",
+        "description": "The icon used when an update is available for software installed\non the computing device, through the system software update program."
+      },
+      {
+        "name": "software-update-urgent",
+        "description": "The icon used when an urgent update is available through the\nsystem software update program."
+      },
+      {
+        "name": "sync-error",
+        "description": "The icon used when an error occurs while attempting to\nsynchronize data from the computing device, to another device."
+      },
+      {
+        "name": "sync-synchronizing",
+        "description": "The icon used while data is successfully synchronizing to another device."
+      },
+      {
+        "name": "task-due",
+        "description": "The icon used when a task is due soon."
+      },
+      {
+        "name": "task-past-due",
+        "description": "The icon used when a task that was due, has been left incomplete."
+      },
+      {
+        "name": "user-available",
+        "description": "The icon used when a user on a chat network is available to\ninitiate a conversation with."
+      },
+      {
+        "name": "user-away",
+        "description": "The icon used when a user on a chat network is away from their\nkeyboard and the chat program."
+      },
+      {
+        "name": "user-idle",
+        "description": "The icon used when a user on a chat network has not been an\nactive participant in any chats on the network, for an extended period of time."
+      },
+      {
+        "name": "user-offline",
+        "description": "The icon used when a user on a chat network is not available."
+      },
+      {
+        "name": "user-trash-full",
+        "description": "The icon for the user'sTrashin the desktop's\nfile manager, when there are items in theTrashwaiting for disposal or recovery."
+      },
+      {
+        "name": "weather-clear",
+        "description": "The icon used while the weather for a region isclear skies."
+      },
+      {
+        "name": "weather-clear-night",
+        "description": "The icon used while the weather for a region isclear skiesduring the night."
+      },
+      {
+        "name": "weather-few-clouds",
+        "description": "The icon used while the weather for a region ispartly cloudy."
+      },
+      {
+        "name": "weather-few-clouds-night",
+        "description": "The icon used while the weather for a region ispartly cloudyduring the night."
+      },
+      {
+        "name": "weather-fog",
+        "description": "The icon used while the weather for a region isfoggy."
+      },
+      {
+        "name": "weather-overcast",
+        "description": "The icon used while the weather for a region isovercast."
+      },
+      {
+        "name": "weather-severe-alert",
+        "description": "The icon used while a sever weather alert is in effect for a region."
+      },
+      {
+        "name": "weather-showers",
+        "description": "The icon used while rain showers are occurring in a region."
+      },
+      {
+        "name": "weather-showers-scattered",
+        "description": "The icon used while scattered rain showers are occurring in a region."
+      },
+      {
+        "name": "weather-snow",
+        "description": "The icon used while snow showers are occurring in a region."
+      },
+      {
+        "name": "weather-storm",
+        "description": "The icon used while storms are occurring in a region."
+      }
+    ]
+  }
+}
