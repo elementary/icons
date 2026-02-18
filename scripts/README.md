@@ -17,9 +17,19 @@ https://gitlab.freedesktop.org/xdg/default-icon-theme/-/raw/master/spec/icon-nam
 
 This directory contains a script called `naming_spec_tools.py` that will attempt to pull down this file, parse the icon names and the different sections, and then build a JSON structure with all the spec sections and icon names. This structure is saved in `icon-naming-spec.json`.
 
+### Usage
+
 ```shell
-$ cd scripts/
-$ python3 naming_spec_tools.py
+$ python3 naming_spec_tools.py -h
+usage: naming_spec_tools.py [-h] [-s] [-v]
+
+Tools for working with the Freedesktop.org Icons Naming Spec.By default, downloads the spec and
+formats as JSON for use in other tools.
+
+options:
+  -h, --help     show this help message and exit
+  -s, --save     Save the content of the naming spec Docbook file to icon-naming-spec.xml
+  -v, --verbose  Enable verbose output
 ```
 
 ### Script Output
