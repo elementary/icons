@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 This script can be used to generate a version of the FreeeDesktop.org Icon
 Naming Spec as JSON for use in Elementary theme development and theme auditing.
@@ -123,7 +124,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        prog="naming_spec_tools",
+        prog="naming_spec_tools.py",
         description=(
             "Tools for working with the Freedesktop.org Icons Naming Spec. "
             "By default, downloads the spec and formats as JSON for use in other tools."
