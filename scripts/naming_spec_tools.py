@@ -124,11 +124,22 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         prog="naming_spec_tools",
-        description="Tools for working with the Freedesktop.org Icons Naming Spec",
+        description=(
+            "Tools for working with the Freedesktop.org Icons Naming Spec. "
+            "By default, downloads the spec and formats as JSON for use in other tools."
+        ),
     )
 
-    parser.add_argument("-s", "--save", dest="save_local", action="store_true")
-    parser.add_argument("-v", "--verbose", action="store_true")
+    parser.add_argument(
+        "-s",
+        "--save",
+        dest="save_local",
+        action="store_true",
+        help=f"Save the content of the naming spec Docbook file to {SPEC_XML}",
+    )
+    parser.add_argument(
+        "-v", "--verbose", action="store_true", help="Enable verbose output"
+    )
 
     args = parser.parse_args()
 
