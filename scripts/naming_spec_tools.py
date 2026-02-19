@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-This script can be used to generate a version of the FreeeDesktop.org Icon
+This script can be used to generate a version of the FreeDesktop.org Icon
 Naming Spec as JSON for use in Elementary theme development and theme auditing.
 
 The script captures the icon set sections and all icon entries.
