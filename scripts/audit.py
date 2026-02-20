@@ -56,7 +56,7 @@ except:
     print("Couldn't find bs4 and requests dependencies, falling back to using spec file…")
     found_deps = False
 else:
-    print("Found bs4 and requests dependencies, pulling spec from the web")
+    print("Found bs4 and requests dependencies, pulling spec from the web…")
     found_deps = True
 
 def get_soup(url: str) -> BeautifulSoup:
@@ -156,7 +156,7 @@ else:
                 continue
             specification.setdefault(line.remove_suffix("\n"), False)
 
-print("Successfully loaded specfication!")
+print("Successfully loaded specification!")
 symbolic_specification = specification.copy()
 
 # Change the working dir to our target dir, to make it easier to traverse the
