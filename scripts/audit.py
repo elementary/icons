@@ -39,6 +39,13 @@ parser.add_argument(
     dest="reportf",
     default="report"
 )
+parser.add_argument(
+    "-d",
+    "--display-results",
+    dest="to_display",
+    choices=["all", "found", "missing", "extra"],
+    default="all"
+)
 args = parser.parse_args()
 
 # make hrules pretty
@@ -258,11 +265,11 @@ print(f"{existant_entries / total_entries * 100:.2f}% coverage of FD.o specifica
 print('-' * view_width)
 os.chdir(script_dir)
 
-# Write report file with Found, Missing, and Out-of-Spec information
+# Write report file with Found, Missing, and Extra information
 spec_list = list(specification.keys())
 found_entries = []
 missing_entries = []
-out_of_spec_entries = []
+extra_entries = []
 
 # We only look at the color entry results, as symbolic is not officially in the spec
 for i, result in enumerate(color_results):
@@ -280,22 +287,33 @@ for i, result in enumerate(color_results):
 # point out those that aren't in the spec
 for entry in contents:
     if entry not in spec_list and not entry.endswith("-symbolic"):
-        if args.verbose: print(f"Adding {entry} to Out of Spec")
-        out_of_spec_entries.append(entry)
+        if args.verbose: print(f"Adding {entry} to Extra")
+        extra_entries.append(entry)
 
 # Pad all lists to be the same length, then zip all three lists together
-length = max(len(found_entries), len(missing_entries), len(out_of_spec_entries))
-
-found_entries = pad_list(found_entries, length)
-missing_entries = pad_list(missing_entries, length)
-out_of_spec_entries = pad_list(out_of_spec_entries, length)
-
-zipped_lists = [(a, b, c) for a, b, c in zip(found_entries, missing_entries,
-                                            out_of_spec_entries)]
+length = max(len(found_entries), len(missing_entries), len(extra_entries))
 
 with open(args.reportf, 'w', newline='') as file:
     fwriter = csv.writer(file)
-    fwriter.writerow(["Found", "Missing", "Out of Spec"])
-    fwriter.writerows(zipped_lists)
+    match args.to_display:
+        case "found":
+            fwriter.writerow(["Found"])
+            fwriter.writerows(map(lambda x: [x], found_entries))
+        case "missing":
+            fwriter.writerow(["Missing"])
+            fwriter.writerows(map(lambda x: [x], missing_entries))
+        case "extra":
+            fwriter.writerow(["Extra"])
+            fwriter.writerows(map(lambda x: [x], extra_entries))
+        case _:
+            fwriter.writerow(["Found", "Missing", "Extra"])
+
+            found_entries = pad_list(found_entries, length)
+            missing_entries = pad_list(missing_entries, length)
+            extra_entries = pad_list(extra_entries, length)
+            zipped_lists = [(a, b, c) for a, b, c in zip(found_entries,
+                            missing_entries, extra_entries)]
+            fwriter.writerows(zipped_lists)
+
     print(f"Report written to {os.getcwd()}/{args.reportf}")
 
