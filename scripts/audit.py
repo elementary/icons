@@ -150,7 +150,7 @@ if found_deps:
     specification = specification.fromkeys(spec_list, False)
 else:
     with open(args.specf, "r") as file:
-        print(f"Loading specification in file: {specf}…")
+        print(f"Loading specification in file: {args.specf}…")
         for line in file:
             if line.startswith(("//", " ", "\n")):
                 continue
