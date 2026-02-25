@@ -89,22 +89,6 @@ def parse_soup(soup: BeautifulSoup) -> list:
 
     return result
 
-def get_iso_3166() -> list:
-    result = []
-    page = session.get("https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2")
-    soup = BeautifulSoup(page.text, "html.parser")
-    table = soup.find_all("table", class_="wikitable")[3].tbody
-    rows = table.find_all("tr")
-    for row in rows:
-        code = row.text.strip().replace("\n", " ").split()[0]
-        if code == "Code":
-            continue
-        result.append(f"flag-{code}")
-
-    return result
-        
-
-
 def pad_list(iterable: list, length: int) -> list:
     extension_length = max(length - len(iterable), 0)
     if args.verbose: print(f"Extending list by {extension_length} elements")
@@ -152,8 +136,6 @@ if found_deps:
 
     soup = get_soup(url)
     spec_list = parse_soup(soup)
-    spec_list.extend(get_iso_3166())
-    spec_list.remove("flag-aa")
     specification = specification.fromkeys(spec_list, False)
 else:
     with open(args.specf, "r") as file:
