@@ -57,14 +57,15 @@ except:
 # Check for optional dependencies to enable drawing the spec from the web.
 # Otherwise fall back to included file
 try:
+    found_deps = False
     import requests
     from bs4 import BeautifulSoup
 except:
     print("Couldn't find bs4 and requests dependencies, falling back to using spec file…")
-    found_deps = False
 else:
-    print("Found bs4 and requests dependencies, pulling spec from the web…")
-    found_deps = True
+    if args.specf is None:
+        print("Found bs4 and requests dependencies, pulling spec from the web…")
+        found_deps = True
 
 def get_soup(url: str) -> BeautifulSoup:
     page = session.get(url)
@@ -143,7 +144,7 @@ else:
         for line in file:
             if line.startswith(("//", " ", "\n")):
                 continue
-            specification.setdefault(line.remove_suffix("\n"), False)
+            specification.setdefault(line.removesuffix("\n"), False)
 
 print("Successfully loaded specification!")
 symbolic_specification = specification.copy()
@@ -213,7 +214,7 @@ for entry in specification.keys():
 total_entries = len(specification.keys())
 existant_color_entries = list(specification.values()).count(True)
 
-print(f"{existant_color_entries / total_entries * 100:.2f}% coverage of FD.o specification, color entries")
+print(f"{existant_color_entries / total_entries * 100:.2f}% coverage of specification, color entries")
 
 print('-' * view_width)
 
@@ -228,7 +229,7 @@ for entry in symbolic_specification.keys():
 
 existant_symbolic_entries = list(symbolic_specification.values()).count(True)
 
-print(f"{existant_symbolic_entries / total_entries * 100:.2f}% coverage of FD.o specification, symbolic entries")
+print(f"{existant_symbolic_entries / total_entries * 100:.2f}% coverage of specification, symbolic entries")
 
 print('-' * view_width)
 
@@ -241,7 +242,7 @@ for i, value in enumerate(color_results):
 
 existant_entries = results.count(True)
 
-print(f"{existant_entries / total_entries * 100:.2f}% coverage of FD.o specification, all entries")
+print(f"{existant_entries / total_entries * 100:.2f}% coverage of specification, all entries")
 
 
 print('-' * view_width)
