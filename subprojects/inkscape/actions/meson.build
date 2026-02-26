@@ -108,3 +108,4 @@ foreach name : icon_names
     endif
   endforeach
 endforeach
+
