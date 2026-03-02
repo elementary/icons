@@ -41,5 +41,9 @@ that ensures all resources pulled are as current as possible. To do this:
    BeautifulSoup4`
 5. Run the script with `python3 scripts/audit.py <path to theme folder>`
 
+Note that for accurate results, the fully built theme directory has to be
+targeted, not the development files. Many symlinks are created by the build
+system, so will not be picked up if this script is run on the development files.
+
 ## Third-Party Brand Preservation
 elementary icons do not attempt to supply icons for third-party apps. Pull requests to add icons or symbolic links that would overwrite the branding of third-party apps will be rejected.
