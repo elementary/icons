@@ -39,6 +39,11 @@ parser.add_argument(
     dest="fout",
 )
 parser.add_argument(
+    "--include-symbolics",
+    action="store_true",
+    default=False
+)
+parser.add_argument(
     "-d",
     "--display-results",
     dest="to_display",
@@ -146,7 +151,8 @@ else:
             specification.setdefault(line.removesuffix("\n"), False)
 
 print("Successfully loaded specification!")
-symbolic_specification = specification.copy()
+if args.include_symbolics:
+    symbolic_specification = specification.copy()
 
 # Change the working dir to our target dir, to make it easier to traverse the
 # tree. Try to find the file `.auditignore` in the dir root and load it into
@@ -186,6 +192,11 @@ for entry in os.scandir():
             sub_dir_tree = populate_from_dir(entry)
             contents.extend(sub_dir_tree)
         else:
+            # If the name includes "-symbolic" and we don't want to include
+            # symbolics in our scan, skip it
+            if entry.name.find("-symbolic") and not args.include_symbolics:
+                continue
+
             if entry.name.endswith(".svg"):
                 if args.verbose: print(f"Adding file {entry.path} to tree")
                 contents.append(entry.name.removesuffix(".svg"))
@@ -206,76 +217,77 @@ for entry in specification.keys():
         print(f"Found {entry}")
         specification |= {entry: True}
     else:
-        print(f"[!!] {entry} is missing!")
+        print(f"\033[31m[!!] {entry} is missing!\033[0m")
 
 
 # Calculate percent spec coverage
 total_entries = len(specification.keys())
 existant_color_entries = list(specification.values()).count(True)
-
-print(f"{existant_color_entries / total_entries * 100:.2f}% coverage of specification, color entries")
-
-print('-' * view_width)
-
-# Check whether things are included in symbolic entries
-for entry in symbolic_specification.keys():
-    extended_entry = entry + "-symbolic"
-    if extended_entry in contents:
-        print(f"Found {extended_entry}")
-        symbolic_specification |= {entry: True}
-    else:
-        print(f"[!!] {extended_entry} is missing!")
-
-existant_symbolic_entries = list(symbolic_specification.values()).count(True)
-
-print(f"{existant_symbolic_entries / total_entries * 100:.2f}% coverage of specification, symbolic entries")
-
-print('-' * view_width)
-
-# Merging results and comparing all entries
 color_results = list(specification.values())
-symbolic_results = list(symbolic_specification.values())
-results = []
-for i, value in enumerate(color_results):
-    results.append(symbolic_results[i] | value)
 
-existant_entries = results.count(True)
-
-print(f"{existant_entries / total_entries * 100:.2f}% coverage of specification, all entries")
-
+print(f"{existant_color_entries / total_entries * 100:.2f}% coverage of specification")
 
 print('-' * view_width)
-os.chdir(script_dir)
 
-# Write report file with Found, Missing, and Extra information
-spec_list = list(specification.keys())
-found_entries = []
-missing_entries = []
-extra_entries = []
+if args.include_symbolics:
+    # Check whether things are included in symbolic entries
+    for entry in symbolic_specification.keys():
+        extended_entry = entry + "-symbolic"
+        if extended_entry in contents:
+            print(f"Found {extended_entry}")
+            symbolic_specification |= {entry: True}
+        else:
+            print(f"[!!] {extended_entry} is missing!")
 
-# We only look at the color entry results, as symbolic is not officially in the spec
-for i, result in enumerate(color_results):
-    # If the result is true, then it was found
-    # If the result is false, then it is missing
-    name = spec_list[i]
-    if result:
-        if args.verbose: print(f"Adding {name} to Found…")
-        found_entries.append(name)
-    else:
-        if args.verbose: print(f"Adding {name} to Missing…")
-        missing_entries.append(name)
+    existant_symbolic_entries = list(symbolic_specification.values()).count(True)
 
-# Now we want to go through all of the entries we found in the initial contents and
-# point out those that aren't in the spec
-for entry in contents:
-    if entry not in spec_list and not entry.endswith("-symbolic"):
-        if args.verbose: print(f"Adding {entry} to Extra")
-        extra_entries.append(entry)
+    print(f"{existant_symbolic_entries / total_entries * 100:.2f}% coverage of specification, symbolic entries")
 
-# Pad all lists to be the same length, then zip all three lists together
-length = max(len(found_entries), len(missing_entries), len(extra_entries))
+    print('-' * view_width)
+
+
+    # Merging results and comparing all entries
+    symbolic_results = list(symbolic_specification.values())
+    results = []
+    for i, value in enumerate(color_results):
+        results.append(symbolic_results[i] | value)
+
+    existant_entries = results.count(True)
+
+    print(f"{existant_entries / total_entries * 100:.2f}% coverage of specification, all entries")
+    print('-' * view_width)
 
 if args.fout is not None:
+    os.chdir(script_dir)
+
+    # Write report file with Found, Missing, and Extra information
+    spec_list = list(specification.keys())
+    found_entries = []
+    missing_entries = []
+    extra_entries = []
+
+    # We only look at the color entry results, as symbolic is not officially in the spec
+    for i, result in enumerate(color_results):
+        # If the result is true, then it was found
+        # If the result is false, then it is missing
+        name = spec_list[i]
+        if result:
+            if args.verbose: print(f"Adding {name} to Found…")
+            found_entries.append(name)
+        else:
+            if args.verbose: print(f"Adding {name} to Missing…")
+            missing_entries.append(name)
+
+    # Now we want to go through all of the entries we found in the initial contents and
+    # point out those that aren't in the spec
+    for entry in contents:
+        if entry not in spec_list and not entry.endswith("-symbolic"):
+            if args.verbose: print(f"Adding {entry} to Extra")
+            extra_entries.append(entry)
+
+    # Pad all lists to be the same length, then zip all three lists together
+    length = max(len(found_entries), len(missing_entries), len(extra_entries))
+
     with open(args.fout, 'w', newline='') as file:
         fwriter = csv.writer(file)
         match args.to_display:
