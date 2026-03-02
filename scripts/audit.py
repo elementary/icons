@@ -5,7 +5,7 @@
 # ## Description:
 # 
 # Audit a Freedesktop.org icon specification-compatible theme against the icon
-# naming specification, returning a csv report of what icons were included that are
+# naming specification, returning a report of what icons were included that are
 # in-spec, what icons were included that are out-of-spec, and what icons were
 # missing that are included in the spec.
  
@@ -34,8 +34,8 @@ parser.add_argument(
     action="store_true"
 )
 parser.add_argument(
-    "-r",
-    "--report-name",
+    "-o",
+    "--output",
     dest="reportf",
     default="report"
 )
