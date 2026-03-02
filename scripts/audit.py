@@ -36,8 +36,7 @@ parser.add_argument(
 parser.add_argument(
     "-o",
     "--output",
-    dest="reportf",
-    default="report"
+    dest="fout",
 )
 parser.add_argument(
     "-d",
@@ -276,27 +275,28 @@ for entry in contents:
 # Pad all lists to be the same length, then zip all three lists together
 length = max(len(found_entries), len(missing_entries), len(extra_entries))
 
-with open(args.reportf, 'w', newline='') as file:
-    fwriter = csv.writer(file)
-    match args.to_display:
-        case "found":
-            fwriter.writerow(["Found"])
-            fwriter.writerows(map(lambda x: [x], found_entries))
-        case "missing":
-            fwriter.writerow(["Missing"])
-            fwriter.writerows(map(lambda x: [x], missing_entries))
-        case "extra":
-            fwriter.writerow(["Extra"])
-            fwriter.writerows(map(lambda x: [x], extra_entries))
-        case _:
-            fwriter.writerow(["Found", "Missing", "Extra"])
+if args.fout is not None:
+    with open(args.fout, 'w', newline='') as file:
+        fwriter = csv.writer(file)
+        match args.to_display:
+            case "found":
+                fwriter.writerow(["Found"])
+                fwriter.writerows(map(lambda x: [x], found_entries))
+            case "missing":
+                fwriter.writerow(["Missing"])
+                fwriter.writerows(map(lambda x: [x], missing_entries))
+            case "extra":
+                fwriter.writerow(["Extra"])
+                fwriter.writerows(map(lambda x: [x], extra_entries))
+            case _:
+                fwriter.writerow(["Found", "Missing", "Extra"])
 
-            found_entries = pad_list(found_entries, length)
-            missing_entries = pad_list(missing_entries, length)
-            extra_entries = pad_list(extra_entries, length)
-            zipped_lists = [(a, b, c) for a, b, c in zip(found_entries,
-                            missing_entries, extra_entries)]
-            fwriter.writerows(zipped_lists)
+                found_entries = pad_list(found_entries, length)
+                missing_entries = pad_list(missing_entries, length)
+                extra_entries = pad_list(extra_entries, length)
+                zipped_lists = [(a, b, c) for a, b, c in zip(found_entries,
+                                missing_entries, extra_entries)]
+                fwriter.writerows(zipped_lists)
 
-    print(f"Report written to {os.getcwd()}/{args.reportf}")
+        print(f"Report written to {os.getcwd()}/{args.fout}")
 
