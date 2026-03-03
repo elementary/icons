@@ -1,0 +1,2478 @@
+<?xml version="1.0"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+]>
+<article lang="en" id="index">
+  <articleinfo>
+    <title>Icon Naming Specification</title>
+    <releaseinfo>Version 0.8.90</releaseinfo>
+    <date>August 9 2007</date>
+    <authorgroup>
+      <author>
+	<firstname>Rodney</firstname>
+	<surname>Dawes</surname>
+	<affiliation>
+	  <address>
+	    <email>dobey.pwns@gmail.com</email>
+	  </address>
+	</affiliation>
+      </author>
+    </authorgroup>
+  </articleinfo>
+
+  <sect1 id="overview">
+    <title>Overview</title>
+    <para>
+The Icon Theme Specification has been in use now for a while, in several
+desktops, including KDE and Gnome. However, there has never been any
+centralized direction on how to name the icons that are available for use
+by applications, when creating a theme. This has meant that artists have
+historically had to duplicate many icons, in order for their themes to
+work across desktop environments.
+    </para>
+    <para>
+This specification aims to solve this problem, by laying out a standard
+naming scheme for icon creation, as well as providing a minimal list of
+must have icons. Addendums to this specification will provide additional
+icon lists for extended sets, such as devices and MIME types.
+    </para>
+  </sect1>
+
+  <sect1 id="context">
+    <title>Context</title>
+
+    <para>
+      The list of default Contexts for the icon theme are:
+    </para>
+
+    <table>
+      <title>Standard Contexts</title>
+
+      <tgroup cols="3">
+	<thead>
+	  <row>
+	    <entry>Name</entry>
+	    <entry>Description</entry>
+	    <entry>Directory</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row>
+	    <entry>Actions</entry>
+	    <entry>
+Icons which are generally used in menus and dialogs for
+interacting with the user.
+	    </entry>
+	    <entry>actions</entry>
+	  </row>
+	  <row>
+	    <entry>Animations</entry>
+	    <entry>
+Animated images used to represent loading web sites, or other
+background processing which may be less suited to more verbose
+progress reporting in the user interface. Animations should be a PNG with
+frames which are the size of the directory the animation is in, tiled in a
+WxH grid. Implementations should determine the number of frames by dividing
+the image into its frames, and iterating from left to right, wrapping to the
+first frame, after rendering the last.
+	    </entry>
+	    <entry>animations</entry>
+	  </row>
+	  <row>
+	    <entry>Applications</entry>
+	    <entry>
+Icons that describe what an application is, for use in the
+Programs menu, window decorations, and the task list. These may
+or may not be generic depending on the application and its
+purpose. Applications which are to be considered part of the base desktop,
+such as the calculator or terminal, should use the generic icons specified in
+this specification, while more advanced applications such as web browsers and
+office applications should use branded icons which still give the user an idea
+of what function the application provides.
+	    </entry>
+	    <entry>apps</entry>
+	  </row>
+	  <row>
+	    <entry>Categories</entry>
+	    <entry>
+Icons that are used for categories in the Programs menu, or
+the Control Center, for separating applications, preferences, and
+settings for display to the user.
+	    </entry>
+	    <entry>categories</entry>
+	  </row>
+	  <row>
+	    <entry>Devices</entry>
+	    <entry>
+Icons for hardware that is contained within or connected to the
+computing device. Naming for extended devices in this group, is of the form
+&lt;primary function&gt;-&lt;manufacturer&gt;-&lt;model&gt;. This allows ease
+of fallback to the primary function device name, or ones more targeted for
+a specific series of models from a manufacturer. For example, a theme author
+may want to provide icons for different phones. The specific model icons could
+be named <quote>phone-samsung-t809</quote>, <quote>phone-motorola-rokr</quote>,
+and <quote>phone-motorola-pebl</quote>. However, the theme must provide a phone
+icon in the theme's style, so that devices not matching these models, will
+still have an appropriate icon. An exception to this rule is that the
+<quote>media</quote> icons do not need to include manufacturer names, as they
+are generic items, and may be available from many manufacturers. As a result,
+for media, the specific icons are to differentiate between different specific
+types of media. For exmaple, an artist may wish to provide icons for BluRay,
+DVD, HD-DVD, CD-ROM, and variations thereof. The specific media type icons
+should be named in the form, &lt;primary function&gt;-&lt;specific format&gt;.
+Some examples are <quote>media-optical</quote>, <quote>media-optical-bd</quote>
+and <quote>media-optical-dvd</quote>.
+	    </entry>
+	    <entry>devices</entry>
+	  </row>
+	  <row>
+	    <entry>Emblems</entry>
+	    <entry>
+Icons for tags and properties of files, that are displayed in the
+file manager. This context contains emblems for such things as
+<quote>read-only</quote> or <quote>photos</quote>.
+	    </entry>
+	    <entry>emblems</entry>
+	  </row>
+	  <row>
+	    <entry>Emotes</entry>
+	    <entry>
+Icons for emotions that are expressed through text chat
+applications such as :-) or :-P in IRC or instant messengers.
+	    </entry>
+	    <entry>emotes</entry>
+	  </row>
+	  <row>
+	    <entry>International</entry>
+	    <entry>
+Icons for international denominations such as flags.
+	    </entry>
+	    <entry>intl</entry>
+	  </row>
+	  <row>
+	    <entry>MimeTypes</entry>
+	    <entry>
+Icons for different types of data, such as audio or image files.
+	    </entry>
+	    <entry>mimetypes</entry>
+	  </row>
+	  <row>
+	    <entry>Places</entry>
+	    <entry>
+Icons used to represent locations, either on the local
+filesystem, or through remote connections. Folders, trash, and
+workgroups are some examples.
+	    </entry>
+	    <entry>places</entry>
+	  </row>
+	  <row>
+	    <entry>Status</entry>
+	    <entry>
+Icons for presenting status to the user. This context contains
+icons for warning and error dialogs, as well as for the current
+weather, appointment alarms, and battery status.
+	    </entry>
+	    <entry>status</entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+  </sect1>
+
+  <sect1 id="guidelines">
+    <title>Icon Naming Guidelines</title>
+
+    <para>
+Here we define some guidelines for when creating new icons that extend
+the standardized list of icon names defined here, in order to provide
+icons for more specific MIME types, devices, or international flags.
+      <itemizedlist>
+	<listitem>
+	  <para>
+Icon names are in the en_US.US_ASCII locale. This means that the
+allowable characters in the icon names, must fall withing the
+US-ASCII character set. As a further restriction, all icon names
+may only contain lowercase letters, numbers, underscore, dash, or
+period characters. Spaces, colons, slashes, and backslashes are
+not allowed. Also, icon names must be spelled as they are in the
+en_US dictionary.
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+The dash <quote>-</quote> character is used to separate levels of
+specificity in icon names, for all contexts other than MimeTypes.
+For instance, we use <quote>input-mouse</quote> as the generic
+item for all mouse devices, and we use <quote>input-mouse-usb</quote>
+for a USB mouse device. However, if the more specific item does not exist
+in the current theme, and does exist in a parent theme, the generic icon
+from the current theme is preferred, in order to keep consistent style.
+	  </para>
+	  <para>
+The <quote>Applications</quote> context should not use this method of
+falling back to more generic icons. An application must either use a
+generic application icon name provided by this specification, or install
+an icon named the same as the executable for running the application. A
+generic desktop application included with the desktop suite, such as the
+calculator or terminal application, should use the generic names provided
+by this specification, as described above in the <quote>Applications</quote>
+context description.
+	  </para>
+	</listitem>
+      </itemizedlist>
+    </para>
+  </sect1>
+
+  <sect1 id="names">
+    <title>Standard Icon Names</title>
+
+    <para>
+This section describes the standard icon names that should be used by
+artists when creating themes, and by developers when writing applications
+which will use the Icon Theme Specification.
+    </para>
+
+    <table id="actions">
+      <title>Standard Action Icons</title>
+      <tgroup cols="2">
+	<thead>
+	  <row>
+	    <entry>Name</entry>
+	    <entry>Description</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row>
+	    <entry>address-book-new</entry>
+	    <entry>
+The icon used for the action to create a new address book.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>application-exit</entry>
+	    <entry>
+The icon used for exiting an application. Typically this is seen
+in the application's menus as File-&gt;Quit.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>appointment-new</entry>
+	    <entry>
+The icon used for the action to create a new appointment
+in a calendaring application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>call-start</entry>
+	    <entry>
+The icon used for initiating or accepting a call. Should be similar
+to the standard cellular call pickup icon, a green handset with ear and
+mouth pieces facing upward.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>call-stop</entry>
+	    <entry>
+The icon used for stopping a current call. Should be similar
+to the standard cellular call hangup icon, a red handset with ear and
+mouth pieces facing downward.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>contact-new</entry>
+	    <entry>
+The icon used for the action to create a new contact
+in an address book application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>document-new</entry>
+	    <entry>
+The icon used for the action to create a new document.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>document-open</entry>
+	    <entry>
+The icon used for the action to open a document.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>document-open-recent</entry>
+	    <entry>
+The icon used for the action to open a document that
+was recently opened.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>document-page-setup</entry>
+	    <entry>
+The icon for the page setup action of a document editor.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>document-print</entry>
+	    <entry>
+The icon for the print action of an application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>document-print-preview</entry>
+	    <entry>
+The icon for the print preview action of an application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>document-properties</entry>
+	    <entry>
+The icon for the action to view the properties of a
+document in an application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>document-revert</entry>
+	    <entry>
+The icon for the action of reverting to a previous
+version of a document.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>document-save</entry>
+	    <entry>
+The icon for the save action. Should be an arrow pointing down and toward
+a hard disk.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>document-save-as</entry>
+	    <entry>
+The icon for the save as action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>document-send</entry>
+	    <entry>
+The icon for the send action. Should be an arrow pointing up and away from
+a hard disk.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>edit-clear</entry>
+	    <entry>
+The icon for the clear action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>edit-copy</entry>
+	    <entry>
+The icon for the copy action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>edit-cut</entry>
+	    <entry>
+The icon for the cut action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>edit-delete</entry>
+	    <entry>
+The icon for the delete action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>edit-find</entry>
+	    <entry>
+The icon for the find action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>edit-find-replace</entry>
+	    <entry>
+The icon for the find and replace action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>edit-paste</entry>
+	    <entry>
+The icon for the paste action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>edit-redo</entry>
+	    <entry>
+The icon for the redo action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>edit-select-all</entry>
+	    <entry>
+The icon for the select all action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>edit-undo</entry>
+	    <entry>
+The icon for the undo action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>find-location</entry>
+	    <entry>
+The icon used for the action of finding the user's physical location
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>folder-new</entry>
+	    <entry>
+The icon for creating a new folder.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>format-indent-less</entry>
+	    <entry>
+The icon for the decrease indent formatting action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>format-indent-more</entry>
+	    <entry>
+The icon for the increase indent formatting action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>format-justify-center</entry>
+	    <entry>
+The icon for the center justification formatting action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>format-justify-fill</entry>
+	    <entry>
+The icon for the fill justification formatting action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>format-justify-left</entry>
+	    <entry>
+The icon for the left justification formatting action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>format-justify-right</entry>
+	    <entry>
+The icon for the right justification action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>format-text-direction-ltr</entry>
+	    <entry>
+The icon for the left-to-right text formatting action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>format-text-direction-rtl</entry>
+	    <entry>
+The icon for the right-to-left formatting action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>format-text-bold</entry>
+	    <entry>
+The icon for the bold text formatting action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>format-text-italic</entry>
+	    <entry>
+The icon for the italic text formatting action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>format-text-underline</entry>
+	    <entry>
+The icon for the underlined text formatting action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>format-text-strikethrough</entry>
+	    <entry>
+The icon for the strikethrough text formatting action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>go-bottom</entry>
+	    <entry>
+The icon for the go to bottom of a list action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>go-down</entry>
+	    <entry>
+The icon for the go down in a list action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>go-first</entry>
+	    <entry>
+The icon for the go to the first item in a list action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>go-home</entry>
+	    <entry>
+The icon for the go to home location action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>go-jump</entry>
+	    <entry>
+The icon for the jump to action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>go-last</entry>
+	    <entry>
+The icon for the go to the last item in a list action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>go-next</entry>
+	    <entry>
+The icon for the go to the next item in a list action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>go-previous</entry>
+	    <entry>
+The icon for the go to the previous item in a list action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>go-top</entry>
+	    <entry>
+The icon for the go to the top of a list action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>go-up</entry>
+	    <entry>
+The icon for the go up in a list action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>help-about</entry>
+	    <entry>
+The icon for the About item in the Help menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>help-contents</entry>
+	    <entry>
+The icon for Contents item in the Help menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>help-faq</entry>
+	    <entry>
+The icon for the FAQ item in the Help menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>insert-image</entry>
+	    <entry>
+The icon for the insert image action of an application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>insert-link</entry>
+	    <entry>
+The icon for the insert link action of an application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>insert-object</entry>
+	    <entry>
+The icon for the insert object action of an application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>insert-text</entry>
+	    <entry>
+The icon for the insert text action of an application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>list-add</entry>
+	    <entry>
+The icon for the add to list action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>list-remove</entry>
+	    <entry>
+The icon for the remove from list action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>mail-forward</entry>
+	    <entry>
+The icon for the forward action of an electronic mail application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>mail-mark-important</entry>
+	    <entry>
+The icon for the mark as important action of an electronic mail application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>mail-mark-junk</entry>
+	    <entry>
+The icon for the mark as junk action of an electronic mail application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>mail-mark-notjunk</entry>
+	    <entry>
+The icon for the mark as not junk action of an electronic mail application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>mail-mark-read</entry>
+	    <entry>
+The icon for the mark as read action of an electronic mail application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>mail-mark-unread</entry>
+	    <entry>
+The icon for the mark as unread action of an electronic mail application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>mail-message-new</entry>
+	    <entry>
+The icon for the compose new mail action of an electronic mail application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>mail-reply-all</entry>
+	    <entry>
+The icon for the reply to all action of an electronic mail application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>mail-reply-sender</entry>
+	    <entry>
+The icon for the reply to sender action of an electronic mail application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>mail-send</entry>
+	    <entry>
+The icon for the send action of an electronic mail application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>mail-send-receive</entry>
+	    <entry>
+The icon for the send and receive action of an electronic mail application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>media-eject</entry>
+	    <entry>
+The icon for the eject action of a media player or file manager.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>media-playback-pause</entry>
+	    <entry>
+The icon for the pause action of a media player.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>media-playback-start</entry>
+	    <entry>
+The icon for the start playback action of a media player.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>media-playback-stop</entry>
+	    <entry>
+The icon for the stop action of a media player.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>media-record</entry>
+	    <entry>
+The icon for the record action of a media application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>media-seek-backward</entry>
+	    <entry>
+The icon for the seek backward action of a media player.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>media-seek-forward</entry>
+            <entry>
+The icon for the seek forward action of a media player.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>media-skip-backward</entry>
+	    <entry>
+The icon for the skip backward action of a media player.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>media-skip-forward</entry>
+	    <entry>
+The icon for the skip forward action of a media player.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>object-flip-horizontal</entry>
+	    <entry>
+The icon for the action to flip an object horizontally.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>object-flip-vertical</entry>
+	    <entry>
+The icon for the action to flip an object vertically.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>object-rotate-left</entry>
+	    <entry>
+The icon for the rotate left action performed on an object.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>object-rotate-right</entry>
+	    <entry>
+The icon for the rotate rigt action performed on an object.
+	    </entry>
+	  </row>
+          <row>
+            <entry>process-stop</entry>
+            <entry>
+The icon used for the <quote>Stop</quote> action in applications with actions
+that may take a while to process, such as web page loading in a browser.
+            </entry>
+          </row>
+	  <row>
+	    <entry>system-lock-screen</entry>
+	    <entry>
+The icon used for the <quote>Lock Screen</quote> item in the desktop's
+panel application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>system-log-out</entry>
+	    <entry>
+The icon used for the <quote>Log Out</quote> item in
+the desktop's panel application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>system-run</entry>
+	    <entry>
+The icon used for the <quote>Run Application...</quote> item in
+the desktop's panel application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>system-search</entry>
+	    <entry>
+The icon used for the <quote>Search</quote> item in
+the desktop's panel application.
+	    </entry>
+	  </row>
+          <row>
+            <entry>system-reboot</entry>
+            <entry>
+The icon used for the <quote>Reboot</quote> item in
+the desktop's panel application.
+            </entry>
+          </row>
+          <row>
+            <entry>system-shutdown</entry>
+            <entry>
+The icon used for the <quote>Shutdown</quote> item in
+the desktop's panel application.
+            </entry>
+          </row>
+	  <row>
+	    <entry>tools-check-spelling</entry>
+	    <entry>
+The icon used for the <quote>Check Spelling</quote> item in the
+application's <quote>Tools</quote> menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>view-fullscreen</entry>
+	    <entry>
+The icon used for the <quote>Fullscreen</quote> item in the
+application's <quote>View</quote> menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>view-refresh</entry>
+	    <entry>
+The icon used for the <quote>Refresh</quote> item in the
+application's <quote>View</quote> menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>view-restore</entry>
+	    <entry>
+The icon used by an application for leaving the fullscreen view, and returning
+to a normal windowed view.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>view-sort-ascending</entry>
+	    <entry>
+The icon used for the <quote>Sort Ascending</quote> item in the
+application's <quote>View</quote> menu, or in a button for
+changing the sort method for a list.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>view-sort-descending</entry>
+	    <entry>
+The icon used for the <quote>Sort Descending</quote> item in the
+application's <quote>View</quote> menu, or in a button for
+changing the sort method for a list.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>window-close</entry>
+	    <entry>
+The icon used for the <quote>Close Window</quote> item in the
+application's <quote>Windows</quote> menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>window-new</entry>
+	    <entry>
+The icon used for the <quote>New Window</quote> item in the
+application's <quote>Windows</quote> menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>zoom-fit-best</entry>
+	    <entry>
+The icon used for the <quote>Best Fit</quote> item in the
+application's <quote>View</quote> menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>zoom-in</entry>
+	    <entry>
+The icon used for the <quote>Zoom in</quote> item in the
+application's <quote>View</quote> menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>zoom-original</entry>
+	    <entry>
+The icon used for the <quote>Original Size</quote> item in the
+application's <quote>View</quote> menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>zoom-out</entry>
+	    <entry>
+The icon used for the <quote>Zoom Out</quote> item in the
+application's <quote>View</quote> menu.
+	    </entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <table id="animations">
+      <title>Standard Animation Icons</title>
+      <tgroup cols="2">
+	<thead>
+	  <row>
+	    <entry>Name</entry>
+	    <entry>Description</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row>
+	    <entry>process-working</entry>
+	    <entry>
+This is the standard spinner animation for web browsers and
+file managers to show that the location is loading.
+	    </entry>
+	  </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <table id="apps">
+      <title>Standard Application Icons</title>
+      <tgroup cols="2">
+	<thead>
+	  <row>
+	    <entry>Name</entry>
+	    <entry>Description</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row>
+	    <entry>accessories-calculator</entry>
+	    <entry>
+The icon used for the desktop's calculator accessory program.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>accessories-character-map</entry>
+	    <entry>
+The icon used for the desktop's international and extended text
+character accessory program.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>accessories-dictionary</entry>
+	    <entry>
+The icon used for the desktop's dictionary accessory program.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>accessories-screenshot-tool</entry>
+	    <entry>
+The icon used for the desktop's screenshot taking program.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>accessories-text-editor</entry>
+	    <entry>
+The icon used for the desktop's text editing accessory program.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>help-browser</entry>
+	    <entry>
+The icon used for the desktop's help browsing application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>multimedia-volume-control</entry>
+	    <entry>
+The icon used for the desktop's hardware volume control application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>preferences-desktop-accessibility</entry>
+	    <entry>
+The icon used for the desktop's accessibility preferences.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>preferences-desktop-font</entry>
+	    <entry>
+The icon used for the desktop's font preferences.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>preferences-desktop-keyboard</entry>
+	    <entry>
+The icon used for the desktop's keyboard preferences.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>preferences-desktop-locale</entry>
+	    <entry>
+The icon used for the desktop's locale preferences.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>preferences-desktop-multimedia</entry>
+	    <entry>
+The icon used for the desktop's multimedia preferences.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>preferences-desktop-screensaver</entry>
+	    <entry>
+The icon used for the desktop's screen saving preferences.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>preferences-desktop-theme</entry>
+	    <entry>
+The icon used for the desktop's theme preferences.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>preferences-desktop-wallpaper</entry>
+	    <entry>
+The icon used for the desktop's wallpaper preferences.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>system-file-manager</entry>
+	    <entry>
+The icon used for the desktop's file management application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>system-software-install</entry>
+	    <entry>
+The icon used for the desktop's software installer application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>system-software-update</entry>
+	    <entry>
+The icon used for the desktop's software updating application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>utilities-system-monitor</entry>
+	    <entry>
+The icon used for the desktop's system resource monitor application.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>utilities-terminal</entry>
+	    <entry>
+The icon used for the desktop's terminal emulation application.
+	    </entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <table id="categories">
+      <title>Standard Category Icons</title>
+      <tgroup cols="2">
+	<thead>
+	  <row>
+	    <entry>Name</entry>
+	    <entry>Description</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row>
+	    <entry>applications-accessories</entry>
+	    <entry>
+The icon for the <quote>Accessories</quote> sub-menu of the Programs menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>applications-development</entry>
+	    <entry>
+The icon for the <quote>Programming</quote> sub-menu of the Programs menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>applications-engineering</entry>
+	    <entry>
+The icon for the <quote>Engineering</quote> sub-menu of the Programs menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>applications-games</entry>
+	    <entry>
+The icon for the <quote>Games</quote> sub-menu of the Programs menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>applications-graphics</entry>
+	    <entry>
+The icon for the <quote>Graphics</quote> sub-menu of the Programs menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>applications-internet</entry>
+	    <entry>
+The icon for the <quote>Internet</quote> sub-menu of the Programs menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>applications-multimedia</entry>
+	    <entry>
+The icon for the <quote>Multimedia</quote> sub-menu of the Programs menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>applications-office</entry>
+	    <entry>
+The icon for the <quote>Office</quote> sub-menu of the Programs menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>applications-other</entry>
+	    <entry>
+The icon for the <quote>Other</quote> sub-menu of the Programs menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>applications-science</entry>
+	    <entry>
+The icon for the <quote>Science</quote> sub-menu of the Programs menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>applications-system</entry>
+	    <entry>
+The icon for the <quote>System Tools</quote> sub-menu of the Programs menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>applications-utilities</entry>
+	    <entry>
+The icon for the <quote>Utilities</quote> sub-menu of the Programs menu.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>preferences-desktop</entry>
+	    <entry>
+The icon for the <quote>Desktop Preferences</quote> category.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>preferences-desktop-peripherals</entry>
+	    <entry>
+The icon for the <quote>Peripherals</quote> sub-category of
+the <quote>Desktop Preferences</quote> category.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>preferences-desktop-personal</entry>
+	    <entry>
+The icon for the <quote>Personal</quote> sub-category of
+the <quote>Desktop Preferences</quote> category.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>preferences-other</entry>
+	    <entry>
+The icon for the <quote>Other</quote> preferences category.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>preferences-system</entry>
+	    <entry>
+The icon for the <quote>System Preferences</quote> category.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>preferences-system-network</entry>
+	    <entry>
+The icon for the <quote>Network</quote> sub-category of
+the <quote>System Preferences</quote> category.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>system-help</entry>
+	    <entry>
+The icon for the <quote>Help</quote> system category.
+	    </entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <table id="devices">
+      <title>Standard Device Icons</title>
+      <tgroup cols="2">
+	<thead>
+	  <row>
+	    <entry>Name</entry>
+	    <entry>Description</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row>
+	    <entry>audio-card</entry>
+	    <entry>
+The icon used for the audio rendering device.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>audio-input-microphone</entry>
+	    <entry>
+The icon used for the microphone audio input device.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>battery</entry>
+	    <entry>
+The icon used for the system battery device.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>camera-photo</entry>
+	    <entry>
+The icon used for a digital still camera devices.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>camera-video</entry>
+	    <entry>
+The fallback icon for video cameras.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>camera-web</entry>
+	    <entry>
+The fallback icon for web cameras.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>computer</entry>
+	    <entry>
+The icon used for the computing device as a whole.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>drive-harddisk</entry>
+	    <entry>
+The icon used for hard disk drives.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>drive-optical</entry>
+	    <entry>
+The icon used for optical media drives such as CD and DVD.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>drive-removable-media</entry>
+	    <entry>
+The icon used for removable media drives.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>input-gaming</entry>
+	    <entry>
+The icon used for the gaming input device.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>input-keyboard</entry>
+	    <entry>
+The icon used for the keyboard input device.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>input-mouse</entry>
+	    <entry>
+The icon used for the mousing input device.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>input-tablet</entry>
+	    <entry>
+The icon used for graphics tablet input devices.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>media-flash</entry>
+	    <entry>
+The fallback icon used for flash media, such as memory stick and SD.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>media-floppy</entry>
+	    <entry>
+The icon used for physical floppy disk media.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>media-optical</entry>
+	    <entry>
+The icon used for physical optical media such as CD and DVD.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>media-tape</entry>
+	    <entry>
+The icon used for generic physical tape media.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>modem</entry>
+	    <entry>
+The icon used for modem devices.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>multimedia-player</entry>
+	    <entry>
+The icon used for generic multimedia playing devices.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>network-wired</entry>
+	    <entry>
+The icon used for wired network connections.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>network-wireless</entry>
+	    <entry>
+The icon used for wireless network connections.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>pda</entry>
+	    <entry>
+This is the fallback icon for Personal Digial Assistant devices. Primary use
+of this icon is for PDA devices connected to the PC. Connection medium is not
+an important aspect of the icon. The metaphor for this fallback icon should be
+a generic PDA device icon.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>phone</entry>
+	    <entry>
+This is the default fallback for phone devices. Primary use of this icon group
+is for phone devices which support connectivity to the PC. These may be VoIP,
+cellular, or possibly landline phones. The metaphor for this fallback should be
+a generic mobile phone device.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>printer</entry>
+	    <entry>
+The icon used for a printer device.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>scanner</entry>
+	    <entry>
+The icon used for a scanner device.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>video-display</entry>
+	    <entry>
+The icon used for the monitor that video gets displayed to.
+	    </entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <table id="emblems">
+      <title>Standard Emblem Icons</title>
+      <tgroup cols="2">
+	<thead>
+	  <row>
+	    <entry>Name</entry>
+	    <entry>Description</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row>
+	    <entry>emblem-default</entry>
+	    <entry>
+The icon used as an emblem to specify the default selection of a printer for
+example.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>emblem-documents</entry>
+	    <entry>
+The icon used as an emblem for the directory where a user's documents are stored.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>emblem-downloads</entry>
+	    <entry>
+The icon used as an emblem for the directory where a user's
+downloads from the internet are stored.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>emblem-favorite</entry>
+	    <entry>
+The icon used as an emblem for files and directories that the
+user marks as favorites.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>emblem-important</entry>
+	    <entry>
+The icon used as an emblem for files and directories that are
+marked as important by the user.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>emblem-mail</entry>
+	    <entry>
+The icon used as an emblem to specify the directory where the
+user's electronic mail is stored.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>emblem-photos</entry>
+	    <entry>
+The icon used as an emblem to specify the directory where the
+user stores photographs.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>emblem-readonly</entry>
+	    <entry>
+The icon used as an emblem for files and directories which can
+not be written to by the user.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>emblem-shared</entry>
+	    <entry>
+The icon used as an emblem for files and directories that are
+shared to other users.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>emblem-symbolic-link</entry>
+	    <entry>
+The icon used as an emblem for files and direcotires that are
+links to other files or directories on the filesystem.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>emblem-synchronized</entry>
+	    <entry>
+The icon used as an emblem for files or directories that are
+configured to be synchronized to another device.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>emblem-system</entry>
+	    <entry>
+The icon used as an emblem for directories that contain system
+libraries, settings, and data.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>emblem-unreadable</entry>
+	    <entry>
+The icon used as an emblem for files and directories that are inaccessible.
+	    </entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <table id="emotes">
+      <title>Standard Emotion Icons</title>
+      <tgroup cols="2">
+	<thead>
+	  <row>
+	    <entry>Name</entry>
+	    <entry>Description</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row>
+	    <entry>face-angel</entry>
+	    <entry>
+The icon used for the 0:-) emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-angry</entry>
+	    <entry>
+The icon used for the X-( emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-cool</entry>
+	    <entry>
+The icon used for the B-) emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-crying</entry>
+	    <entry>
+The icon used for the :'( emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-devilish</entry>
+	    <entry>
+The icon used for the &gt;:-) emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-embarrassed</entry>
+	    <entry>
+The icon used for the :-[ emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-kiss</entry>
+	    <entry>
+The icon used for the :-* emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-laugh</entry>
+	    <entry>
+The icon used for the :-)) emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-monkey</entry>
+	    <entry>
+The icon used for the :-(|) emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-plain</entry>
+	    <entry>
+The icon used for the :-| emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-raspberry</entry>
+	    <entry>
+The icon used for the :-P emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-sad</entry>
+	    <entry>
+The icon used for the :-( emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-sick</entry>
+	    <entry>
+The icon used for the :-&amp; emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-smile</entry>
+	    <entry>
+The icon used for the :-) emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-smile-big</entry>
+	    <entry>
+The icon used for the :-D emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-smirk</entry>
+	    <entry>
+The icon used for the :-! emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-surprise</entry>
+	    <entry>
+The icon used for the :-0 emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-tired</entry>
+	    <entry>
+The icon used for the |-) emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-uncertain</entry>
+	    <entry>
+The icon used for the :-/ emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-wink</entry>
+	    <entry>
+The icon used for the ;-) emote.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>face-worried</entry>
+	    <entry>
+The icon used for the :-S emote.
+	    </entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <table id="intl">
+      <title>Standard International Icons</title>
+      <tgroup cols="2">
+	<thead>
+	  <row>
+	    <entry>Name</entry>
+	    <entry>Description</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row>
+	    <entry>flag-aa</entry>
+	    <entry>
+The flag for the country with the ISO 3166 country code AA. All
+flags should use ISO 3166 two-letter country codes, in lowercase
+form, as the specifier for the country.
+	    </entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <table id="mimetypes">
+      <title>Standard MIME Type Icons</title>
+      <tgroup cols="2">
+	<thead>
+	  <row>
+	    <entry>Name</entry>
+	    <entry>Description</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row>
+	    <entry>application-x-executable</entry>
+	    <entry>
+The icon used for executable file types.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>audio-x-generic</entry>
+	    <entry>
+The icon used for generic audio file types.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>font-x-generic</entry>
+	    <entry>
+The icon used for generic font file types.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>image-x-generic</entry>
+	    <entry>
+The icon used for generic image file types.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>package-x-generic</entry>
+	    <entry>
+The icon used for generic package file types.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>text-html</entry>
+	    <entry>
+The icon used for HTML text file types.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>text-x-generic</entry>
+	    <entry>
+The icon used for generic text file types.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>text-x-generic-template</entry>
+	    <entry>
+The icon used for generic text templates.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>text-x-script</entry>
+	    <entry>
+The icon used for script file types, such as shell scripts.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>video-x-generic</entry>
+	    <entry>
+The icon used for generic video file types.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>x-office-address-book</entry>
+	    <entry>
+The icon used for generic address book file types.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>x-office-calendar</entry>
+	    <entry>
+The icon used for generic calendar file types.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>x-office-document</entry>
+	    <entry>
+The icon used for generic document and letter file types.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>x-office-presentation</entry>
+	    <entry>
+The icon used for generic presentation file types.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>x-office-spreadsheet</entry>
+	    <entry>
+The icon used for generic spreadsheet file types.
+	    </entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <table id="places">
+      <title>Standard Place Icons</title>
+      <tgroup cols="2">
+	<thead>
+	  <row>
+	    <entry>Name</entry>
+	    <entry>Description</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row>
+	    <entry>folder</entry>
+	    <entry>
+The standard folder icon used to represent directories on local
+filesystems, mail folders, and other hierarchical groups.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>folder-remote</entry>
+	    <entry>
+The icon used for normal directories on a remote filesystem.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>network-server</entry>
+	    <entry>
+The icon used for individual host machines under the
+<quote>Network Servers</quote> place in the file manager.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>network-workgroup</entry>
+	    <entry>
+The icon for the <quote>Network Servers</quote> place in the
+desktop's file manager, and workgroups within the network.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>start-here</entry>
+	    <entry>
+The icon used by the desktop's main menu for accessing places,
+applications, and other features.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>user-bookmarks</entry>
+	    <entry>
+The icon for the user's special <quote>Bookmarks</quote> place.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>user-desktop</entry>
+	    <entry>
+The icon for the special <quote>Desktop</quote> directory of the user.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>user-home</entry>
+	    <entry>
+The icon for the special <quote>Home</quote> directory of the user.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>user-trash</entry>
+	    <entry>
+The icon for the user's <quote>Trash</quote> place in the
+desktop's file manager.
+	    </entry>
+	  </row>
+        </tbody>
+      </tgroup>
+    </table>
+
+    <table id="status">
+      <title>Standard Status Icons</title>
+      <tgroup cols="2">
+	<thead>
+	  <row>
+	    <entry>Name</entry>
+	    <entry>Description</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row>
+	    <entry>appointment-missed</entry>
+	    <entry>
+The icon used when an appointment was missed.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>appointment-soon</entry>
+	    <entry>
+The icon used when an appointment will occur soon.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>audio-volume-high</entry>
+	    <entry>
+The icon used to indicate high audio volume.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>audio-volume-low</entry>
+	    <entry>
+The icon used to indicate low audio volume.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>audio-volume-medium</entry>
+	    <entry>
+The icon used to indicate medium audio volume.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>audio-volume-muted</entry>
+	    <entry>
+The icon used to indicate the muted state for audio playback.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>battery-caution</entry>
+	    <entry>
+The icon used when the battery is below 40%.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>battery-low</entry>
+	    <entry>
+The icon used when the battery is below 20%.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>dialog-error</entry>
+	    <entry>
+The icon used when a dialog is opened to explain an error
+condition to the user.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>dialog-information</entry>
+	    <entry>
+The icon used when a dialog is opened to give information
+to the user that may be pertinent to the requested action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>dialog-password</entry>
+	    <entry>
+The icon used when a dialog requesting the authentication
+credentials for a user is opened.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>dialog-question</entry>
+	    <entry>
+The icon used when a dialog is opened to ask a simple
+	      question of the user.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>dialog-warning</entry>
+	    <entry>
+The icon used when a dialog is opened to warn the user of
+impending issues with the requested action.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>folder-drag-accept</entry>
+	    <entry>
+The icon used for a folder while an object is being
+dragged onto it, that is of a type that the directory can contain.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>folder-open</entry>
+	    <entry>
+The icon used for folders, while their contents are being
+displayed within the same window. This icon would normally be
+shown in a tree or list view, next to the main view of a folder's contents.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>folder-visiting</entry>
+	    <entry>
+The icon used for folders, while their contents are being
+displayed in another window. This icon would typically be used
+when using multiple windows to navigate the hierarchy, such as
+in Nautilus's spatial mode.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>image-loading</entry>
+	    <entry>
+The icon used when another image is being loaded, such as
+thumnails for larger images in the file manager.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>image-missing</entry>
+	    <entry>
+The icon used when another image could not be loaded.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>mail-attachment</entry>
+	    <entry>
+The icon used for an electronic mail that contains attachments.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>mail-unread</entry>
+	    <entry>
+The icon used for an electronic mail that is unread.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>mail-read</entry>
+	    <entry>
+The icon used for an electronic mail that is read.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>mail-replied</entry>
+	    <entry>
+The icon used for an electronic mail that has been replied to.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>mail-signed</entry>
+	    <entry>
+The icon used for an electronic mail that contains a signature.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>mail-signed-verified</entry>
+	    <entry>
+The icon used for an electronic mail that contains a signature
+which has also been verified by the security system.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>media-playlist-repeat</entry>
+	    <entry>
+The icon for the repeat mode of a media player.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>media-playlist-shuffle</entry>
+	    <entry>
+The icon for the shuffle mode of a media player.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>network-error</entry>
+	    <entry>
+The icon used when an error occurs trying to intialize the network connection
+of the computing device. This icon should be two computers, one in the
+background, with the screens of both computers, colored black, and with the
+theme's style element for errors, overlayed on top of the icon.
+	    </entry>
+	  </row>
+          <row>
+            <entry>network-idle</entry>
+            <entry>
+The icon used when no data is being transmitted or received, while the
+computing device is connected to a network. This icon should be two computers,
+one in the background, with the screens of both computers, colored black.
+            </entry>
+          </row>
+	  <row>
+	    <entry>network-offline</entry>
+	    <entry>
+The icon used when the computing device is disconnected from the network. This
+icon should be a computer in the background, with a screen colored black, and
+the theme's icon element to show that a device is not accessible, in the
+foreground.
+	    </entry>
+	  </row>
+          <row>
+            <entry>network-receive</entry>
+            <entry>
+The icon used when data is being received, while the computing device is
+connected to a network. This icon should be two computers, one in the
+background, with its screen colored green, and the screen of the computer in
+the foreground, colored black.
+            </entry>
+          </row>
+          <row>
+            <entry>network-transmit</entry>
+            <entry>
+The icon used when data is being transmitted, while the computing device is
+connected to a network. This icon should be two computers, one in the
+background, with its screen colored black, and the screen of the computer in
+the foreground, colored green.
+
+            </entry>
+          </row>
+          <row>
+            <entry>network-transmit-receive</entry>
+            <entry>
+The icon used data is being both transmitted and received simultaneously,
+while the computing device is connected to a network. This icon should be two
+computers, one in the background, with the screens of both computers, colored
+green.
+            </entry>
+          </row>
+	  <row>
+	    <entry>printer-error</entry>
+	    <entry>
+The icon used when an error occurs while attempting to print. This icon should
+be the theme's printer device icon, with the theme's style element for errors,
+overlayed on top of the icon.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>printer-printing</entry>
+	    <entry>
+The icon used while a print job is successfully being spooled to a printing
+device. This icon should be the theme's printer device icon, with a document
+emerging from the printing device.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>security-high</entry>
+	    <entry>
+The icon used to indicate that the security level of a connection is known
+to be secure, using strong encryption and a valid certificate.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>security-medium</entry>
+	    <entry>
+The icon used to indicate that the security level of a connection is presumed
+to be secure, using strong encryption, and a certificate that could not be
+automatically verified, but which the user has chosen to trust.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>security-low</entry>
+	    <entry>
+The icon used to indicate that the security level of a connection is presumed
+to be insecure, either by using weak encryption, or by using a certificate that
+the could not be automatically verified, and which the user has not chosent to
+trust.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>software-update-available</entry>
+	    <entry>
+The icon used when an update is available for software installed
+on the computing device, through the system software update program.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>software-update-urgent</entry>
+	    <entry>
+The icon used when an urgent update is available through the
+system software update program.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>sync-error</entry>
+	    <entry>
+The icon used when an error occurs while attempting to
+synchronize data from the computing device, to another device.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>sync-synchronizing</entry>
+	    <entry>
+The icon used while data is successfully synchronizing to another device.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>task-due</entry>
+	    <entry>
+The icon used when a task is due soon.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>task-past-due</entry>
+	    <entry>
+The icon used when a task that was due, has been left incomplete.
+	    </entry>
+	  </row>
+    <row>
+      <entry>user-available</entry>
+      <entry>
+The icon used when a user on a chat network is available to
+initiate a conversation with.
+      </entry>
+    </row>
+	  <row>
+	    <entry>user-away</entry>
+	    <entry>
+The icon used when a user on a chat network is away from their
+keyboard and the chat program.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>user-idle</entry>
+	    <entry>
+The icon used when a user on a chat network has not been an
+active participant in any chats on the network, for an extended period of time.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>user-offline</entry>
+	    <entry>
+The icon used when a user on a chat network is not available.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>user-trash-full</entry>
+	    <entry>
+The icon for the user's <quote>Trash</quote> in the desktop's
+file manager, when there are items in the <quote>Trash</quote>
+waiting for disposal or recovery.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>weather-clear</entry>
+	    <entry>
+The icon used while the weather for a region is <quote>clear skies</quote>.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>weather-clear-night</entry>
+	    <entry>
+The icon used while the weather for a region is <quote>clear skies</quote>
+during the night.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>weather-few-clouds</entry>
+	    <entry>
+The icon used while the weather for a region is <quote>partly cloudy</quote>.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>weather-few-clouds-night</entry>
+	    <entry>
+The icon used while the weather for a region is <quote>partly cloudy</quote>
+during the night.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>weather-fog</entry>
+	    <entry>
+The icon used while the weather for a region is <quote>foggy</quote>.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>weather-overcast</entry>
+	    <entry>
+The icon used while the weather for a region is <quote>overcast</quote>.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>weather-severe-alert</entry>
+	    <entry>
+The icon used while a sever weather alert is in effect for a region.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>weather-showers</entry>
+	    <entry>
+The icon used while rain showers are occurring in a region.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>weather-showers-scattered</entry>
+	    <entry>
+The icon used while scattered rain showers are occurring in a region.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>weather-snow</entry>
+	    <entry>
+The icon used while snow showers are occurring in a region.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>weather-storm</entry>
+	    <entry>
+The icon used while storms are occurring in a region.
+	    </entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+  </sect1>
+
+  <appendix id="changelog">
+    <title>Change History</title>
+    <formalpara>
+      <title>Version 0.8, 1 August 2006, Rodney Dawes</title>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>Add "view-restore" and "utilities-system-monitor"</para>
+          </listitem>
+          <listitem>
+            <para>Add "folder-new" and "mail-send"</para>
+          </listitem>
+          <listitem>
+            <para>Add "object-flip-horizontal" and "object-flip-vertical"</para>
+          </listitem>
+          <listitem>
+            <para>Add "object-rotate-left" and "object-rotate-right"</para>
+          </listitem>
+          <listitem>
+            <para>Add "applications-engineering" and "applications-science"</para>
+          </listitem>
+          <listitem>
+            <para>Remove duplicate "preferences-desktop-accessibility"</para>
+          </listitem>
+          <listitem>
+            <para>Rename "drive-cdrom" to "drive-optical"</para>
+          </listitem>
+          <listitem>
+            <para>Rename "media-cdrom" to "media-optical"</para>
+          </listitem>
+          <listitem>
+            <para>Add "media-flash", "media-tape", and "modem"</para>
+          </listitem>
+          <listitem>
+            <para>Add "security-high", "security-medium", and "security-low"</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </formalpara>
+    <formalpara>
+      <title>Version 0.7, 15 February 2006, Rodney Dawes</title>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>Remove the wallpaper-* icon names</para>
+          </listitem>
+          <listitem>
+            <para>Align text blocks to the left</para>
+          </listitem>
+          <listitem>
+            <para>Add "weather-few-clouds-night" and "weather-clear-night" to
+the status context</para>
+          </listitem>
+          <listitem>
+            <para>Remove "network-online" from the status context</para>
+          </listitem>
+          <listitem>
+            <para>Add "network-idle", "network-receive", "network-transmit",
+and "network-transmit-receive" to the status context</para>
+          </listitem>
+          <listitem>
+            <para>Update the printer status icon definitions</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </formalpara>
+    <formalpara>
+      <title>Version 0.6, 07 December 2005, Rodney Dawes</title>
+      <para>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+              Add the "Animations" and "Places" contexts
+	    </para>
+          </listitem>
+          <listitem>
+            <para>
+              Add "media-eject" to the actions context
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Move "media-playlist-shuffle" to the status context
+            </para>
+          </listitem>
+	  <listitem>
+	    <para>
+              Add the "process-working" animation to the animations context
+	    </para>
+          </listitem>
+	  <listitem>
+	    <para>
+              Add "battery", "camera-photo", "media-floppy", "multimedia-player",
+              "network-wired", and "network-wireless" to the devices context
+	    </para>
+          </listitem>
+	  <listitem>
+	    <para>
+              Remove the printer-remote and video-card icons from devices
+	    </para>
+          </listitem>
+	  <listitem>
+	    <para>
+              Rename "emblem-favorites" to "emblem-favorite"
+	    </para>
+          </listitem>
+	  <listitem>
+	    <para>
+              Add "application-x-executable", "package-x-generic",
+              "text-x-generic-template", and "text-x-script" to the
+              mimetypes context
+	    </para>
+          </listitem>
+	  <listitem>
+	    <para>
+              Rename "x-directory-normal" to "folder" and move it to the
+              places context
+	    </para>
+          </listitem>
+	  <listitem>
+	    <para>
+              Rename "x-directory-remote" to "folder-remote" and move it to the
+              places context
+	    </para>
+          </listitem>
+	  <listitem>
+	    <para>
+              Rename "x-directory-normal-remote-server" to "network-server"
+              and move it to the places context
+	    </para>
+          </listitem>
+	  <listitem>
+	    <para>
+              Rename "x-directory-normal-remote-workgroup" to
+              "network-workgroup" and move it to the places context
+	    </para>
+          </listitem>
+	  <listitem>
+	    <para>
+              Rename "x-directory-trash" to "user-trash"
+              and move it to the places context
+	    </para>
+          </listitem>
+	  <listitem>
+	    <para>
+              Rename "x-directory-trash-full" to "user-trash-full" and move
+              it to the status context
+	    </para>
+          </listitem>
+	  <listitem>
+	    <para>
+              Add "start-here", "user-desktop", and "user-home" to the places
+              context
+	    </para>
+          </listitem>
+	  <listitem>
+	    <para>
+              Add "folder-drag-accept", "folder-open", "folder-visiting", and
+              "media-playlist-repeat" to the status context
+	    </para>
+          </listitem>
+	</itemizedlist>
+      </para>
+    </formalpara>
+    <formalpara>
+      <title>Version 0.4, 10 October 2005, Rodney Dawes</title>
+      <para>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+              Use "The icon" instead of "This icon" for "contact-new" and
+              "battery-low"
+	    </para>
+          </listitem>
+          <listitem>
+	    <para>
+	      Add icons for "preferences-desktop-accessibility" and
+              "preferences-desktop-font" in the apps context
+	    </para>
+	  </listitem>
+          <listitem>
+            <para>
+              Fix typo in "drive-cdrom" name
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Rename "x-font-generic" to "font-x-generic" to match other MIME
+              type icons such as for audio, images, and video
+            </para>
+          </listitem>
+          <listitem>
+	    <para>
+	      Add icons for "image-loading" and "image-missing" to status
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </para>
+    </formalpara>
+    <formalpara>
+      <title>Version 0.3, 28 June 2005, Rodney Dawes</title>
+      <para>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+              Replace "printer-local" with "printer" to be more generic.
+	    </para>
+          </listitem>
+          <listitem>
+	    <para>
+	      Import into freedesktop.org cvs alongside icon-theme-spec.xml
+	    </para>
+	  </listitem>
+          <listitem>
+            <para>
+              Add missing icon descriptions.
+            </para>
+          </listitem>
+	</itemizedlist>
+      </para>
+    </formalpara>
+    <formalpara>
+      <title>Version 0.2, 01 April 2005, Jakub Steiner</title>
+      <para>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+              Fixed two small typographical errors.
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </para>
+    </formalpara>
+    <formalpara>
+      <title>Version 0.1, 29 March 2005, Rodney Dawes</title>
+      <para>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+              Created initial draft.
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </para>
+    </formalpara>
+  </appendix>
+</article>
