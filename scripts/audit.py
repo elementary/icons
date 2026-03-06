@@ -39,11 +39,6 @@ parser.add_argument(
     dest="fout",
 )
 parser.add_argument(
-    "--include-symbolics",
-    action="store_true",
-    default=False
-)
-parser.add_argument(
     "-d",
     "--display-results",
     dest="to_display",
@@ -151,8 +146,6 @@ else:
             specification.setdefault(line.removesuffix("\n"), False)
 
 print("Successfully loaded specification!")
-if args.include_symbolics:
-    symbolic_specification = specification.copy()
 
 # Change the working dir to our target dir, to make it easier to traverse the
 # tree. Try to find the file `.auditignore` in the dir root and load it into
@@ -192,12 +185,8 @@ for entry in os.scandir():
             sub_dir_tree = populate_from_dir(entry)
             contents.extend(sub_dir_tree)
         else:
-            # If the name includes "-symbolic" and we don't want to include
-            # symbolics in our scan, skip it
-            if entry.name.find("-symbolic") and not args.include_symbolics:
-                continue
-
-            if entry.name.endswith(".svg"):
+            if entry.name.endswith(".svg") and not
+                entry.name.endswith("-symbolic.svg"):
                 if args.verbose: print(f"Adding file {entry.path} to tree")
                 contents.append(entry.name.removesuffix(".svg"))
 
@@ -228,34 +217,6 @@ color_results = list(specification.values())
 print(f"{existant_color_entries / total_entries * 100:.2f}% coverage of specification")
 
 print('-' * view_width)
-
-if args.include_symbolics:
-    # Check whether things are included in symbolic entries
-    for entry in symbolic_specification.keys():
-        extended_entry = entry + "-symbolic"
-        if extended_entry in contents:
-            print(f"Found {extended_entry}")
-            symbolic_specification |= {entry: True}
-        else:
-            print(f"[!!] {extended_entry} is missing!")
-
-    existant_symbolic_entries = list(symbolic_specification.values()).count(True)
-
-    print(f"{existant_symbolic_entries / total_entries * 100:.2f}% coverage of specification, symbolic entries")
-
-    print('-' * view_width)
-
-
-    # Merging results and comparing all entries
-    symbolic_results = list(symbolic_specification.values())
-    results = []
-    for i, value in enumerate(color_results):
-        results.append(symbolic_results[i] | value)
-
-    existant_entries = results.count(True)
-
-    print(f"{existant_entries / total_entries * 100:.2f}% coverage of specification, all entries")
-    print('-' * view_width)
 
 if args.fout is not None:
     os.chdir(script_dir)
