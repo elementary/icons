@@ -1,3 +1,4 @@
 option('scale_factors', type : 'array', value : ['1', '2', '3'], description : 'Available scale factors, add or remove to enable so HiDPI features')
 option('volume_icons', type : 'boolean', value : true, description : 'Install the volume icons into the root directory')
 option('palettes', type : 'boolean', value : true, description : 'Install the palette file into Gimp and Inkscape directories')
+option('variants', type : 'array', value: ['aquamarine', 'catseye', 'citrine', 'jade', 'obsidian', 'rose_quartz', 'sapphire', 'tanzanite', 'topaz'], description : 'Available cursor color variants, add or remove to enable specific variants')
