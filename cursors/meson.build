@@ -2,19 +2,6 @@ cursor_dir = join_paths(icon_dir, 'cursors')
 rsvg = find_program('rsvg-convert')
 xcursorgen = find_program('xcursorgen')
 
-variants = [
-    'default',
-    'aquamarine',
-    'catseye',
-    'citrine',
-    'jade',
-    'obsidian',
-    'rose_quartz',
-    'sapphire',
-    'tanzanite',
-    'topaz'
-]
-
 cursors = [
     'alias',
     'all-scroll',
