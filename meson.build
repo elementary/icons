@@ -209,4 +209,11 @@ foreach variant : variants
             endif
         endforeach
     endforeach
+
+    configure_file(
+        input: 'index.theme.in',
+        output: '@BASENAME@',
+        configuration: configuration_data_object,
+        install_dir: variant_dir
+    )
 endforeach
