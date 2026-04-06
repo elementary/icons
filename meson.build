@@ -172,19 +172,6 @@ foreach directory_entry : directories
     endforeach
 endforeach
 
-subdir('apps')
-subdir('categories')
-subdir('cursors')
-subdir('mimes')
-subdir('places')
-
-if (get_option ('volume_icons'))
-  subdir('volumeicon')
-endif
-
-subdir('data')
-subdir('po')
-
 # Create the variants
 foreach variant : variants
     variant_dir = join_paths (get_option('datadir'), 'icons', 'elementary_' + variant)
@@ -210,10 +197,22 @@ foreach variant : variants
         endforeach
     endforeach
 
-    configure_file(
-        input: 'index.theme.in',
-        output: '@BASENAME@',
-        configuration: configuration_data_object,
-        install_dir: variant_dir
+    install_symlink(
+        'index.theme',
+        install_dir: variant_dir,
+        pointing_to: join_paths (get_option('prefix'), icon_dir, 'index.theme')
     )
 endforeach
+
+subdir('apps')
+subdir('categories')
+subdir('cursors')
+subdir('mimes')
+subdir('places')
+
+if (get_option ('volume_icons'))
+  subdir('volumeicon')
+endif
+
+subdir('data')
+subdir('po')
