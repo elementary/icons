@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="16"
-   width="16"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <g
-     color="#bebebe"
-     transform="translate(-1088 -74)"
-     id="g1"
-     style="fill:#555761">
-    <path
-       d="M1096 74c-4.412 0-8 3.588-8 8s3.588 8 8 8 8-3.588 8-8-3.588-8-8-8zm0 1c3.872 0 7 3.128 7 7s-3.128 7-7 7-7-3.128-7-7 3.128-7 7-7zm-1.978 3.496c-.423-.032-.773.874-.772 2.002 0 2.67 1.5 2.67 1.5 0 0-1.083-.322-1.97-.729-2.002zm4 0c-.423-.032-.773.874-.772 2.002 0 2.67 1.5 2.67 1.5 0 0-1.083-.322-1.97-.729-2.002zM1093.5 84a.499.499 0 1 0 0 1h5a.499.499 0 1 0 0-1z"
-       fill="#666"
-       overflow="visible"
-       style="marker:none;fill:#555761"
-       id="path1" />
-  </g>
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg1'
+        width='16'
+        height='16'>
+  <path
+          id='path1'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          d='M 8 0 C 3.588 0, 0 3.588, 0 8 C 0 12.412, 3.588 16, 8 16 C 12.412 16, 16 12.412, 16 8 C 16 3.588, 12.412 0, 8 0 Z M 8 1 C 11.872 1, 15 4.128, 15 8 C 15 11.872, 11.872 15, 8 15 C 4.128 15, 1 11.872, 1 8 C 1 4.128, 4.128 1, 8 1 Z M 6.022 4.496 C 5.599 4.464, 5.249 5.37, 5.25 6.498 C 5.25 9.168, 6.75 9.168, 6.75 6.498 C 6.75 5.415, 6.428 4.528, 6.021 4.496 Z M 10.022 4.496 C 9.599 4.464, 9.249 5.37, 9.25 6.498 C 9.25 9.168, 10.75 9.168, 10.75 6.498 C 10.75 5.415, 10.428 4.528, 10.021 4.496 Z M 5.5 10 A 0.5 0.5 0 1 0 5.5 11 L 10.5 11 A 0.5 0.5 0 1 0 10.5 10 Z'
+          class="foreground">
+  </path>
 </svg>

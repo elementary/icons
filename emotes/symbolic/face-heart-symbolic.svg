@@ -1,26 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="16"
-   width="16"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <g
-     transform="translate(-1108 -54)"
-     id="g1"
-     style="fill:#555761">
-    <path
-       color="#000"
-       d="M1112.781 55c-2.618 0-4.781 2.129-4.781 4.75 0 1.36.575 2.608 1.504 3.479v.002l6.39 6.146 6.6-6.146A4.761 4.761 0 0 0 1124 59.75c0-2.621-2.163-4.75-4.781-4.75-1.29 0-2.36.622-3.219 1.459-.86-.837-1.93-1.459-3.219-1.459zm0 1c1.372 0 2.56.721 3.219 1.813a3.741 3.741 0 0 1 3.219-1.813c2.082 0 3.781 1.675 3.781 3.75 0 1.08-.456 2.065-1.188 2.75l-5.906 5.5-5.719-5.5a3.766 3.766 0 0 1-1.187-2.75c0-2.075 1.7-3.75 3.781-3.75z"
-       fill="#666"
-       font-family="sans-serif"
-       font-weight="400"
-       overflow="visible"
-       style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal;fill:#555761"
-       white-space="normal"
-       id="path1" />
-  </g>
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg1'
+        width='16'
+        height='16'>
+  <path
+          id='path1'
+          color='rgb(0,0,0)'
+          font-family='sans-serif'
+          font-weight='400'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          overflow='visible'
+          d='M 4.781 1 C 2.163 1, 0 3.129, 0 5.75 C 0 7.11, 0.575 8.358, 1.504 9.229 L 1.504 9.231 L 7.894 15.377 L 14.494 9.231 A 4.761 4.761 0 0 0 16 5.75 C 16 3.129, 13.837 1, 11.219 1 C 9.929 1, 8.859 1.622, 8 2.459 C 7.14 1.622, 6.07 1, 4.781 1 Z M 4.781 2 C 6.153 2, 7.341 2.721, 8 3.813 A 3.741 3.741 0 0 1 11.219 2 C 13.301 2, 15 3.675, 15 5.75 C 15 6.83, 14.544 7.815, 13.812 8.5 L 7.906 14 L 2.187 8.5 A 3.766 3.766 0 0 1 1 5.75 C 1 3.675, 2.7 2, 4.781 2 Z'
+          class="foreground"
+          style='mix-blend-mode: normal; isolation: auto'>
+  </path>
 </svg>
