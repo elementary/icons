@@ -1,23 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="16"
-   width="16"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <g
-     color="#bebebe"
-     transform="translate(-1073 -41)"
-     id="g1"
-     style="fill:#555761">
-    <path
-       d="M1081 42c-1.108 0-2 .892-2 2v6c0 1.108.892 2 2 2s2-.892 2-2v-6c0-1.108-.892-2-2-2zm-5 5v1h1v2a3.981 3.981 0 0 0 3 3.861V56h-1v1h4v-1h-1v-2.139a3.981 3.981 0 0 0 3-3.861v-2h1v-1h-2v3c0 1.662-1.338 3-3 3s-3-1.338-3-3v-3z"
-       fill="#666"
-       overflow="visible"
-       style="isolation:auto;mix-blend-mode:normal;marker:none;fill:#555761"
-       id="path1" />
-  </g>
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg1'
+        width='16'
+        height='16'>
+  <path
+          id='path1'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          d='M 8 1 C 6.892 1, 6 1.892, 6 3 L 6 9 C 6 10.108, 6.892 11, 8 11 C 9.108 11, 10 10.108, 10 9 L 10 3 C 10 1.892, 9.108 1, 8 1 Z M 3 6 L 3 7 L 4 7 L 4 9 A 3.981 3.981 0 0 0 7 12.861 L 7 15 L 6 15 L 6 16 L 10 16 L 10 15 L 9 15 L 9 12.861 A 3.981 3.981 0 0 0 12 9 L 12 7 L 13 7 L 13 6 L 11 6 L 11 9 C 11 10.662, 9.662 12, 8 12 C 6.338 12, 5 10.662, 5 9 L 5 6 Z'
+          class='foreground foreground-fill'
+          style='mix-blend-mode: normal; isolation: auto'>
+  </path>
 </svg>
