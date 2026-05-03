@@ -1,35 +1,38 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   height="24"
-   width="24"
-   version="1.1"
-   id="svg8">
-  <metadata
-     id="metadata14">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs12" />
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg8'
+        width='24'
+        height='24'>
   <path
-     id="rect851"
-     style="opacity:1;fill:#555761;stroke-width:0.999999;stroke-opacity:0.5;stop-color:#000000"
-     d="m 2.9995937,6 c -0.554,0 -1,2.453 -1,5.5 0,3.047 0.446,5.5 1,5.5 H 21 c 0.387343,0 0.712678,-1.23711 0.878906,-3 h 1.619141 C 23.776155,14 24,12.885 24,11.5 24,10.115 23.776155,9 23.498047,9 H 21.878906 C 21.712678,7.2371104 21.387343,6 21,6 Z M 3.6324062,7 H 20.367188 C 20.718016,7 21,9.007 21,11.5 21,13.993 20.718016,16 20.367188,16 H 3.6324062 C 3.2815783,16 2.9995937,13.993 2.9995937,11.5 2.9995937,9.007 3.2815783,7 3.6324062,7 Z m 18.3129058,3 h 0.904297 C 22.932709,10 23,10.669 23,11.5 23,12.331 22.932709,13 22.849609,13 H 21.945312 C 21.970781,12.513456 22,12.032809 22,11.5 22,10.967191 21.970781,10.486544 21.945312,10 Z" />
+          id='rect851'
+          opacity='1'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          stroke-opacity='0.5'
+          stroke-width='0.999999'
+          d='M 2.99959 6 C 2.44559 6, 1.99959 8.453, 1.99959 11.5 C 1.99959 14.547, 2.44559 17, 2.99959 17 L 21 17 C 21.3873 17, 21.7127 15.7629, 21.8789 14 L 23.498 14 C 23.7762 14, 24 12.885, 24 11.5 C 24 10.115, 23.7762 9, 23.498 9 L 21.8789 9 C 21.7127 7.23711, 21.3873 6, 21 6 Z M 3.63241 7 L 20.3672 7 C 20.718 7, 21 9.007, 21 11.5 C 21 13.993, 20.718 16, 20.3672 16 L 3.63241 16 C 3.28158 16, 2.99959 13.993, 2.99959 11.5 C 2.99959 9.007, 3.28158 7, 3.63241 7 Z M 21.9453 10 L 22.8496 10 C 22.9327 10, 23 10.669, 23 11.5 C 23 12.331, 22.9327 13, 22.8496 13 L 21.9453 13 C 21.9708 12.5135, 22 12.0328, 22 11.5 C 22 10.9672, 21.9708 10.4865, 21.9453 10 Z'
+          class="foreground">
+  </path>
   <path
-     class="success"
-     id="rect851-7-2"
-     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#73d216;fill-opacity:1;stroke:none;stroke-width:0.999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;stop-color:#000000;stop-opacity:1"
-     d="m 4.3359687,8 c -0.1858151,0 -0.3359375,1.561 -0.3359375,3.5 0,1.939 0.1501224,3.5 0.3359375,3.5 H 19.664062 C 19.849878,15 20,13.439 20,11.5 20,9.561 19.849878,8 19.664062,8 Z" />
+          id='rect851-7-2'
+          opacity='1'
+          fill='url(#gpa:success) #68b723'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          stroke='none'
+          stroke-opacity='1'
+          stroke-width='0.999999'
+          stroke-linecap='butt'
+          stroke-linejoin='miter'
+          stroke-miterlimit='4'
+          stroke-dasharray='none'
+          stroke-dashoffset='0'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          d='M 4.33597 8 C 4.15015 8, 4.00003 9.561, 4.00003 11.5 C 4.00003 13.439, 4.15015 15, 4.33597 15 L 19.6641 15 C 19.8499 15, 20 13.439, 20 11.5 C 20 9.561, 19.8499 8, 19.6641 8 Z'
+          class="success">
+  </path>
 </svg>

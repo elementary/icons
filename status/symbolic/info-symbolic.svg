@@ -1,21 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="16"
-   width="16"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <g
-     transform="translate(-853 271)"
-     id="g1"
-     style="fill:#555761">
-    <path
-       d="m 853,-263 c 0,-8 0,-8 0,0 z m 8,-7 c -3.86599,0 -7,3.13401 -7,7 0,3.86599 3.13401,7 7,7 3.86599,0 7,-3.13401 7,-7 0,-3.86599 -3.13401,-7 -7,-7 z m 0,2.75 c 1.66667,0 1.66667,2.5 0,2.5 -1.66667,0 -1.66667,-2.5 0,-2.5 z m 1,3.25 v 5 h -2 v -5 h 1 z"
-       fill="#666"
-       id="path1"
-       style="fill:#555761" />
-  </g>
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg1'
+        width='16'
+        height='16'>
+  <path
+          id='path1'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          d='M 0 8 C 0 0, 0 0, 0 8 Z M 8 1 C 4.13401 1, 1 4.13401, 1 8 C 1 11.866, 4.13401 15, 8 15 C 11.866 15, 15 11.866, 15 8 C 15 4.13401, 11.866 1, 8 1 Z M 8 3.75 C 9.66667 3.75, 9.66667 6.25, 8 6.25 C 6.33333 6.25, 6.33333 3.75, 8 3.75 Z M 9 7 L 9 12 L 7 12 L 7 7 L 8 7 Z'
+          class="foreground">
+  </path>
 </svg>
