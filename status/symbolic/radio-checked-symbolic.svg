@@ -1,23 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="16"
-   width="16"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <g
-     transform="translate(-933 151)"
-     id="g1"
-     style="fill:#555761">
-    <path
-       color="#000"
-       d="M941-150c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7c0-1.304-.379-2.513-1-3.563-1.217-2.055-3.444-3.437-6-3.437zm0 1c1.336 0 2.569.454 3.563 1.188l-4.781 6.03-3.063-2.655-1.656 2.218A6.132 6.132 0 0 1 935-143c0-3.32 2.68-6 6-6zm5.344 3.281A5.992 5.992 0 0 1 941-137a5.97 5.97 0 0 1-5.906-5.063l5.156 4.438z"
-       fill="#666"
-       overflow="visible"
-       style="marker:none;fill:#555761"
-       id="path1" />
-  </g>
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg1'
+        width='16'
+        height='16'>
+  <path
+          id='path1'
+          transform='translate(-933, 151)'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          d='M 941 -150 C 937.14 -150, 934 -146.86, 934 -143 C 934 -139.14, 937.14 -136, 941 -136 C 944.86 -136, 948 -139.14, 948 -143 C 948 -144.304, 947.621 -145.513, 947 -146.563 C 945.783 -148.618, 943.556 -150, 941 -150 Z M 941 -149 C 942.336 -149, 943.569 -148.546, 944.563 -147.812 L 939.782 -141.782 L 936.719 -144.437 L 935.063 -142.219 A 6.132 6.132 0 0 1 935 -143 C 935 -146.32, 937.68 -149, 941 -149 Z M 946.344 -145.719 A 5.992 5.992 0 0 1 941 -137 A 5.97 5.97 0 0 1 935.094 -142.063 L 940.25 -137.625 Z'
+          class="foreground">
+  </path>
 </svg>

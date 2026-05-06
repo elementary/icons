@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="16"
-   width="16"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <g
-     color="#bebebe"
-     transform="translate(-273 91)"
-     id="g1"
-     style="fill:#555761">
-    <path
-       d="M278-89c-2.77 0-5 2.23-5 5s2.23 5 5 5h3.344L284-76v-3c2.77 0 5-2.23 5-5s-2.23-5-5-5z"
-       fill="#666"
-       overflow="visible"
-       style="marker:none;fill:#555761"
-       id="path1" />
-  </g>
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg1'
+        width='16'
+        height='16'>
+  <path
+          id='path1'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          d='M 5 2 C 2.23 2, 0 4.23, 0 7 C 0 9.77, 2.23 12, 5 12 L 8.344 12 L 11 15 L 11 12 C 13.77 12, 16 9.77, 16 7 C 16 4.23, 13.77 2, 11 2 Z'
+          class="foreground">
+  </path>
 </svg>

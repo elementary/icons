@@ -1,36 +1,39 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="16"
-   width="16"
-   version="1.1"
-   id="svg2"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs2" />
-  <g
-     transform="translate(-933 131)"
-     id="g2"
-     style="fill:#555761">
-    <path
-       color="#bebebe"
-       d="M940.982-129.938c-3.857 0-7 3.143-7 7 0 3.858 3.143 7 7 7 3.858 0 7-3.142 7-7 0-3.857-3.142-7-7-7zm0 .99a6.005 6.005 0 0 1 6.008 6.01 6.005 6.005 0 0 1-6.008 6.01 6.007 6.007 0 0 1-6.01-6.01 6.007 6.007 0 0 1 6.01-6.01z"
-       fill="#666"
-       font-family="Andale Mono"
-       font-weight="400"
-       overflow="visible"
-       style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal;marker:none;fill:#555761"
-       white-space="normal"
-       id="path1" />
-    <path
-       color="#000"
-       d="M936.898-123.947v2H945.028v-2h-7.13z"
-       fill="#666"
-       font-family="sans-serif"
-       font-weight="400"
-       overflow="visible"
-       style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal;marker:none;fill:#555761"
-       white-space="normal"
-       id="path2" />
-  </g>
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg2'
+        width='16'
+        height='16'>
+  <path
+          id='path1'
+          color='rgb(190,190,190)'
+          font-family='&apos;Andale Mono&apos;'
+          font-weight='400'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          d='M 7.982 1.062 C 4.125 1.062, 0.982 4.205, 0.982 8.062 C 0.982 11.92, 4.125 15.062, 7.982 15.062 C 11.84 15.062, 14.982 11.92, 14.982 8.062 C 14.982 4.205, 11.84 1.062, 7.982 1.062 Z M 7.982 2.052 A 6.005 6.005 0 0 1 13.99 8.062 A 6.005 6.005 0 0 1 7.982 14.072 A 6.007 6.007 0 0 1 1.972 8.062 A 6.007 6.007 0 0 1 7.982 2.052 Z'
+          class="foreground"
+          style='mix-blend-mode: normal; isolation: auto'>
+  </path>
+  <path
+          id='path2'
+          color='rgb(0,0,0)'
+          font-family='sans-serif'
+          font-weight='400'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          d='M 3.898 7.053 L 3.898 9.053 L 12.028 9.053 L 12.028 7.053 L 4.898 7.053 Z'
+          class="foreground"
+          style='mix-blend-mode: normal; isolation: auto'>
+  </path>
 </svg>
