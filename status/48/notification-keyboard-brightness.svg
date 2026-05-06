@@ -1,189 +1,225 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   version="1.2"
-   width="48"
-   height="48"
-   id="svg2">
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg2'
+        width='48'
+        height='48'>
   <defs
-     id="defs4">
+          id='defs4'>
     <linearGradient
-       x1="45.447727"
-       y1="92.539597"
-       x2="45.447727"
-       y2="7.0165396"
-       id="ButtonShadow-9"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="scale(1.0058652,0.994169)">
+            id='ButtonShadow-9'
+            gradientTransform='scale(1.00587, 0.994169)'
+            gradientUnits='userSpaceOnUse'
+            x1='45.4477'
+            y1='92.5396'
+            x2='45.4477'
+            y2='7.01654'>
       <stop
-         id="stop3750-3"
-         style="stop-color:#000000;stop-opacity:1"
-         offset="0" />
+              offset='0'
+              stop-color='rgb(0,0,0)'
+              stop-opacity='1'>
+      </stop>
       <stop
-         id="stop3752-1"
-         style="stop-color:#000000;stop-opacity:0.58823532"
-         offset="1" />
+              offset='1'
+              stop-color='rgb(0,0,0)'
+              stop-opacity='0.588235'>
+      </stop>
     </linearGradient>
     <filter
-       color-interpolation-filters="sRGB"
-       id="filter3174-4">
+            id='filter3174-4'
+            color-interpolation-filters='sRGB'
+            x='-0.0477209'
+            y='-0.0482824'
+            width='1.09544'
+            height='1.09656'>
       <feGaussianBlur
-         stdDeviation="1.71"
-         id="feGaussianBlur3176-5" />
+              stdDeviation='1.71'>
+      </feGaussianBlur>
     </filter>
     <linearGradient
-       x1="45.447727"
-       y1="92.539597"
-       x2="45.447727"
-       y2="7.0165396"
-       id="ButtonShadow"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="scale(1.0058652,0.994169)">
+            id='ButtonShadow'
+            gradientTransform='scale(1.00587, 0.994169)'
+            gradientUnits='userSpaceOnUse'
+            x1='45.4477'
+            y1='92.5396'
+            x2='45.4477'
+            y2='7.01654'>
       <stop
-         id="stop3750-9"
-         style="stop-color:#000000;stop-opacity:1"
-         offset="0" />
+              offset='0'
+              stop-color='rgb(0,0,0)'
+              stop-opacity='1'>
+      </stop>
       <stop
-         id="stop3752-7"
-         style="stop-color:#000000;stop-opacity:0.58823532"
-         offset="1" />
+              offset='1'
+              stop-color='rgb(0,0,0)'
+              stop-opacity='0.588235'>
+      </stop>
     </linearGradient>
     <filter
-       color-interpolation-filters="sRGB"
-       id="filter3174">
+            id='filter3174'
+            color-interpolation-filters='sRGB'
+            x='-0.0477209'
+            y='-0.0482824'
+            width='1.09544'
+            height='1.09656'>
       <feGaussianBlur
-         stdDeviation="1.71"
-         id="feGaussianBlur3176" />
+              stdDeviation='1.71'>
+      </feGaussianBlur>
     </filter>
     <linearGradient
-       x1="45.447727"
-       y1="92.539597"
-       x2="45.447727"
-       y2="7.0165396"
-       id="linearGradient6176"
-       xlink:href="#ButtonShadow-9"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="scale(1.0058652,0.994169)" />
+            id='linearGradient6176'
+            gradientTransform='scale(1.00587, 0.994169)'
+            href='#ButtonShadow-9'
+            gradientUnits='userSpaceOnUse'
+            x1='45.4477'
+            y1='92.5396'
+            x2='45.4477'
+            y2='7.01654'>
+    </linearGradient>
     <linearGradient
-       x1="45.447727"
-       y1="92.539597"
-       x2="45.447727"
-       y2="7.0165396"
-       id="linearGradient6178"
-       xlink:href="#ButtonShadow"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="scale(1.0058652,0.994169)" />
+            id='linearGradient6178'
+            gradientTransform='scale(1.00587, 0.994169)'
+            href='#ButtonShadow'
+            gradientUnits='userSpaceOnUse'
+            x1='45.4477'
+            y1='92.5396'
+            x2='45.4477'
+            y2='7.01654'>
+    </linearGradient>
   </defs>
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     transform="translate(473.00006,-641.36218)"
-     id="layer1">
-    <g
-       transform="translate(403.27272,612.31676)"
-       id="layer2"
-       style="display:none">
-      <rect
-         width="86"
-         height="85"
-         rx="6"
-         ry="6"
-         x="5"
-         y="7"
-         id="rect3745"
-         style="opacity:0.9;fill:url(#linearGradient6178);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174)" />
-    </g>
-    <g
-       transform="translate(400,611.95312)"
-       id="layer2-4"
-       style="display:none">
-      <rect
-         width="86"
-         height="85"
-         rx="6"
-         ry="6"
-         x="5"
-         y="7"
-         id="rect3745-5"
-         style="opacity:0.9;fill:url(#linearGradient6176);fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3174-4)" />
-    </g>
-    <g
-       transform="matrix(2,0,0,2,-465.00006,648.36218)"
-       id="layer1-66"
-       style="fill:#4d4d4d">
-      <rect
-         width="6"
-         height="1"
-         rx="0.125"
-         ry="0.125"
-         x="5"
-         y="11"
-         id="rect2986"
-         style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
-      <rect
-         width="1"
-         height="2"
-         rx="0.125"
-         ry="0.125"
-         x="7.5"
-         y="5"
-         id="rect2988-8-8"
-         style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
-      <rect
-         width="1"
-         height="2"
-         rx="0.125"
-         ry="0.125"
-         x="12.754594"
-         y="-11.309224"
-         transform="matrix(0.25881905,0.96592583,-0.96592583,0.25881905,0,0)"
-         id="rect2988-8-3"
-         style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
-      <rect
-         width="1"
-         height="2"
-         rx="0.125"
-         ry="0.125"
-         x="-9.6134892"
-         y="4.1455903"
-         transform="matrix(0.25881905,-0.96592583,0.96592583,0.25881905,0,0)"
-         id="rect2988-8-1"
-         style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
-      <rect
-         width="1"
-         height="2"
-         rx="0.125"
-         ry="0.125"
-         x="-1.0819478"
-         y="7.4828882"
-         transform="matrix(0.79851249,-0.60197824,0.60197824,0.79851249,0,0)"
-         id="rect2988-8-6"
-         style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
-      <rect
-         width="1"
-         height="2"
-         rx="0.125"
-         ry="0.125"
-         x="12.783444"
-         y="-1.9295474"
-         transform="matrix(0.80831027,0.58875675,-0.58875675,0.80831027,0,0)"
-         id="rect2988-8-9"
-         style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
-    </g>
-  </g>
+  <rect
+          id='rect2986'
+          display='inline'
+          visibility='visible'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          stroke='none'
+          stroke-width='2'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='18'
+          y='29'
+          width='12'
+          height='2'
+          rx='0.25'
+          ry='0.25'
+          class="foreground">
+  </rect>
+  <rect
+          id='rect2988-8-8'
+          display='inline'
+          visibility='visible'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          stroke='none'
+          stroke-width='2'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='23'
+          y='17'
+          width='2'
+          height='4'
+          rx='0.25'
+          ry='0.25'
+          class="foreground">
+  </rect>
+  <rect
+          id='rect2988-8-3'
+          display='inline'
+          visibility='visible'
+          transform='rotate(75, 0, 0)'
+          color='rgb(0,0,0)'
+          fill='rgb(77,77,77)'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          stroke='none'
+          stroke-width='2'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='34.3412'
+          y='-28.5341'
+          width='2'
+          height='4'
+          rx='0.25'
+          ry='0.25'>
+  </rect>
+  <rect
+          id='rect2988-8-1'
+          display='inline'
+          visibility='visible'
+          transform='rotate(-75, 0, 0)'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          stroke='none'
+          stroke-width='2'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='-23.9179'
+          y='17.8303'
+          width='2'
+          height='4'
+          rx='0.25'
+          ry='0.25'
+          class="foreground">
+  </rect>
+  <rect
+          id='rect2988-8-6'
+          display='inline'
+          visibility='visible'
+          transform='rotate(-37.0117, 0, 0)'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          stroke='none'
+          stroke-width='2'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='0.0103568'
+          y='25.3712'
+          width='2'
+          height='4'
+          rx='0.25'
+          ry='0.25'
+          class="foreground">
+  </rect>
+  <rect
+          id='rect2988-8-9'
+          display='inline'
+          visibility='visible'
+          transform='rotate(36.0688, 0, 0)'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          stroke='none'
+          stroke-width='2'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='36.1547'
+          y='-2.91098'
+          width='2'
+          height='4'
+          rx='0.25'
+          ry='0.25'
+          class="foreground">
+  </rect>
 </svg>

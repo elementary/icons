@@ -1,6 +1,21 @@
-<svg height='16' width='16' xmlns='http://www.w3.org/2000/svg'>
-    <g transform='translate(-913 271)'>
-        
-        <path class='error' color='#bebebe' d='M921-271c-4.423 0-8 3.576-8 8 0 4.424 3.577 8 8 8 4.424 0 8-3.576 8-8 0-4.424-3.576-8-8-8zm0 1a7 7 0 0 1 7 7 7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7zm-1 2v4l.5 3h1l.5-3v-4zm1 8a1 1 0 1 0 0 2 1 1 0 0 0 0-2z' fill='#c6262e' overflow='visible' style='text-indent:0;text-transform:none;marker:none'/>
-    </g>
+<svg
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg1'
+        width='16'
+        height='16'>
+  <path
+          id='path1'
+          color='rgb(190,190,190)'
+          fill='url(#gpa:error) #ef2929'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          stroke='none'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          d='M 8 0 C 3.577 0, 0 3.576, 0 8 C 0 12.424, 3.577 16, 8 16 C 12.424 16, 16 12.424, 16 8 C 16 3.576, 12.424 0, 8 0 Z M 8 1 A 7 7 0 0 1 15 8 A 7 7 0 0 1 8 15 A 7 7 0 0 1 1 8 A 7 7 0 0 1 8 1 Z M 7 3 L 7 7 L 7.5 10 L 8.5 10 L 9 7 L 9 3 Z M 8 11 A 1 1 0 1 0 8 13 A 1 1 0 0 0 8 11 Z'
+          class="error">
+  </path>
 </svg>
