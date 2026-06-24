@@ -1,21 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="16"
-   width="16"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <g
-     transform="translate(-1053 187)"
-     id="g1"
-     style="fill:#555761">
-    <path
-       d="M1061-186a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm-.094 1.969A1 1 0 0 1 1062-183v5a1 1 0 1 1-2 0v-5a1 1 0 0 1 .781-1 1 1 0 0 1 .125-.031zM1061-176a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
-       fill="#666"
-       id="path1"
-       style="fill:#555761" />
-  </g>
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg1'
+        width='16'
+        height='16'>
+  <path
+          id='path1'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          d='M 8 1 A 7 7 0 1 0 8 15 A 7 7 0 0 0 8 1 Z M 7.906 2.969 A 1 1 0 0 1 9 4 L 9 9 A 1 1 0 1 1 7 9 L 7 4 A 1 1 0 0 1 7.781 3 A 1 1 0 0 1 7.906 2.969 Z M 8 11 A 1 1 0 1 1 8 13 A 1 1 0 0 1 8 11 Z'
+          class='foreground foreground-fill'>
+  </path>
 </svg>
