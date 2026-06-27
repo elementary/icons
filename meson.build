@@ -12,6 +12,8 @@ icon_dir = join_paths(get_option('datadir'), 'icons', 'elementary')
 
 scale_factors = get_option('scale_factors')
 
+variants = get_option('variants')
+
 # Add a directory here to the list if needed.
 directories = [
     # The first argument is the name of the folder,
@@ -168,6 +170,38 @@ foreach directory_entry : directories
             )
         endif
     endforeach
+endforeach
+
+# Create the variants
+foreach variant : variants
+    variant_dir = join_paths (get_option('datadir'), 'icons', 'elementary_' + variant)
+    run_command('mkdir', join_paths (get_option('prefix'), variant_dir), check: false)
+
+    foreach directory_entry : directories
+        directory = directory_entry[0]
+
+        install_symlink (
+            directory,
+            install_dir: variant_dir,
+            pointing_to: join_paths (get_option('prefix'), icon_dir, directory)
+        )
+
+        foreach scale_factor : scale_factors
+            if (scale_factor.to_int() > 1)
+                install_symlink (
+                    '@0@@@1@x'.format(directory, scale_factor),
+                    install_dir: variant_dir,
+                    pointing_to: join_paths (get_option('prefix'), icon_dir, directory)
+                )
+            endif
+        endforeach
+    endforeach
+
+    install_symlink(
+        'index.theme',
+        install_dir: variant_dir,
+        pointing_to: join_paths (get_option('prefix'), icon_dir, 'index.theme')
+    )
 endforeach
 
 subdir('apps')
