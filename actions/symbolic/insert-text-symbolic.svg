@@ -1,27 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="16"
-   width="16"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <g
-     transform="translate(-313 -125)"
-     id="g1"
-     style="fill:#555761">
-    <path
-       color="#000"
-       d="M323 126v1h1c.584 0 .738.217.865.473.128.255.135.527.135.527v10s-.007.272-.135.527c-.127.256-.281.473-.865.473h-1v1h1c.727 0 1.19-.353 1.5-.738.31.385.773.738 1.5.738h1v-1h-1c-.583 0-.737-.217-.865-.473A1.404 1.404 0 0 1 326 138v-10s.007-.272.135-.527c.128-.256.282-.473.865-.473h1v-1h-1c-.727 0-1.19.353-1.5.738-.31-.385-.773-.738-1.5-.738zm-5.562 2l-3.563 9.281H313V138h2.813v-.719h-1.094l.844-2.187h4.187l.844 2.187H319.5V138h3.625v-.719h-1L318.563 128zm.218 1.625l1.844 4.75h-3.656z"
-       fill="#666"
-       fill-rule="evenodd"
-       font-family="sans-serif"
-       font-weight="400"
-       overflow="visible"
-       style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal;fill:#555761"
-       white-space="normal"
-       id="path1" />
-  </g>
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg1'
+        width='16'
+        height='16'>
+  <path
+          id='path1'
+          transform='translate(-313, -125)'
+          color='rgb(0,0,0)'
+          font-family='sans-serif'
+          font-weight='400'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='evenodd'
+          overflow='visible'
+          d='M 323 126 L 323 127 L 324 127 C 324.584 127, 324.738 127.217, 324.865 127.473 C 324.993 127.728, 325 128, 325 128 L 325 138 C 325 138, 324.993 138.272, 324.865 138.527 C 324.738 138.783, 324.584 139, 324 139 L 323 139 L 323 140 L 324 140 C 324.727 140, 325.19 139.647, 325.5 139.262 C 325.81 139.647, 326.273 140, 327 140 L 328 140 L 328 139 L 327 139 C 326.417 139, 326.263 138.783, 326.135 138.527 A 1.404 1.404 0 0 1 326 138 L 326 128 C 326 128, 326.007 127.728, 326.135 127.473 C 326.263 127.217, 326.417 127, 327 127 L 328 127 L 328 126 L 327 126 C 326.273 126, 325.81 126.353, 325.5 126.738 C 325.19 126.353, 324.727 126, 324 126 Z M 317.438 128 L 313.875 137.281 L 313 137.281 L 313 138 L 315.813 138 L 315.813 137.281 L 314.719 137.281 L 315.563 135.094 L 319.75 135.094 L 320.594 137.281 L 319.5 137.281 L 319.5 138 L 323.125 138 L 323.125 137.281 L 322.125 137.281 L 318.563 128 Z M 317.656 129.625 L 319.5 134.375 L 315.844 134.375 Z'
+          class="foreground"
+          style='mix-blend-mode: normal; isolation: auto'>
+  </path>
 </svg>

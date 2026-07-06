@@ -1,23 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="16"
-   width="16"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <g
-     transform="translate(-813 -69)"
-     id="g1"
-     style="fill:#555761">
-    <path
-       color="#000"
-       d="M814 72.772c-.554 0-1 .446-1 1v5.494c0 .554.446 1 1 1s1-.446 1-1l3.25-.282A4.5 4.5 0 0 0 822 81v-4h4l2-.5-2-.5h-4v-4a4.5 4.5 0 0 0-3.683 1.924L815 73.772c0-.554-.446-1-1-1z"
-       fill="#666"
-       overflow="visible"
-       style="isolation:auto;mix-blend-mode:normal;marker:none;fill:#555761"
-       id="path1" />
-  </g>
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg1'
+        width='16'
+        height='16'>
+  <path
+          id='path1'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          d='M 1 3.772 C 0.446 3.772, 0 4.218, 0 4.772 L 0 10.266 C 0 10.82, 0.446 11.266, 1 11.266 C 1.554 11.266, 2 10.82, 2 10.266 L 5.25 9.984 A 4.5 4.5 0 0 0 9 12 L 9 8 L 13 8 L 15 7.5 L 13 7 L 9 7 L 9 3 A 4.5 4.5 0 0 0 5.317 4.924 L 2 4.772 C 2 4.218, 1.554 3.772, 1 3.772 Z'
+          class="foreground"
+          style='mix-blend-mode: normal; isolation: auto'>
+  </path>
 </svg>
