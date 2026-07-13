@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-31 04:43+0000\n"
-"PO-Revision-Date: 2026-01-31 23:55+0000\n"
+"PO-Revision-Date: 2026-06-30 22:56+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementaryos.org/projects/desktop/"
 "icons-extra/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: data/icons.metainfo.xml.in:10
 msgid "elementary Icons"
@@ -47,7 +47,7 @@ msgstr "`start-here`"
 
 #: data/icons.metainfo.xml.in:37
 msgid "Tool icons for Inkscape"
-msgstr ""
+msgstr "Піктограми інструментів для Inkscape"
 
 #: data/icons.metainfo.xml.in:38
 msgid "Add Adwaita as a fallback for icon names"
@@ -57,10 +57,11 @@ msgstr ""
 msgid ""
 "16px `accessories-character-map`, `document-properties`, `preferences-system`"
 msgstr ""
+"16px `accessories-character-map`, `document-properties`, `preferences-system`"
 
 #: data/icons.metainfo.xml.in:40
 msgid "24px `list-add-symbolic`"
-msgstr ""
+msgstr "24px `list-add-symbolic`"
 
 #: data/icons.metainfo.xml.in:42 data/icons.metainfo.xml.in:76
 #: data/icons.metainfo.xml.in:108 data/icons.metainfo.xml.in:144
@@ -95,11 +96,11 @@ msgstr "Вилучення:"
 
 #: data/icons.metainfo.xml.in:52
 msgid "`view-filter`"
-msgstr ""
+msgstr "`view-filter`"
 
 #: data/icons.metainfo.xml.in:53
 msgid "`media-memory`"
-msgstr ""
+msgstr "`media-memory`"
 
 #: data/icons.metainfo.xml.in:71
 msgid "import and export actions at 16px"
@@ -176,20 +177,16 @@ msgid "`usb-receiver` to cover peripheral receivers in FWUPD"
 msgstr ""
 
 #: data/icons.metainfo.xml.in:101
-#, fuzzy
-#| msgid "num-lock-symbolic"
 msgid "`system-log-out-symbolic`"
-msgstr "num-lock-symbolic"
+msgstr "`system-log-out-symbolic`"
 
 #: data/icons.metainfo.xml.in:105
 msgid "`bug`"
-msgstr ""
+msgstr "`bug`"
 
 #: data/icons.metainfo.xml.in:106
-#, fuzzy
-#| msgid "\"preferences-system-windows\""
 msgid "`preferences-system-parental-controls`"
-msgstr "\"preferences-system-windows\""
+msgstr "`preferences-system-parental-controls`"
 
 #: data/icons.metainfo.xml.in:110
 msgid ""
@@ -237,7 +234,7 @@ msgstr "Виправлено вирівнювання кількох курсо�
 
 #: data/icons.metainfo.xml.in:119
 msgid "Use a bell for `preferences-system-notification`"
-msgstr ""
+msgstr "Для `preferences-system-notification` використовується дзвін"
 
 #: data/icons.metainfo.xml.in:141
 msgid ""

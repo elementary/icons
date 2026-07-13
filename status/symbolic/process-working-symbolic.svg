@@ -1,182 +1,246 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="16"
-   width="16"
-   version="1.1"
-   id="svg12"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs12" />
-  <g
-     transform="translate(-773 195)"
-     id="g12"
-     style="fill:#555761">
-    <rect
-       color="#000"
-       fill="#666"
-       height="5"
-       overflow="visible"
-       rx=".5"
-       ry=".5"
-       style="marker:none;fill:#555761"
-       width="1"
-       x="780.5"
-       y="-195"
-       id="rect1" />
-    <rect
-       color="#000"
-       fill="#666"
-       height="5"
-       opacity=".578"
-       overflow="visible"
-       rx=".5"
-       ry=".5"
-       style="marker:none;fill:#555761"
-       transform="rotate(-90)"
-       width="1"
-       x="186.5"
-       y="773"
-       id="rect2" />
-    <rect
-       color="#000"
-       fill="#666"
-       height="5"
-       opacity=".335"
-       overflow="visible"
-       rx=".5"
-       ry=".5"
-       style="marker:none;fill:#555761"
-       transform="scale(-1)"
-       width="1"
-       x="-781.5"
-       y="179"
-       id="rect3" />
-    <rect
-       color="#000"
-       fill="#666"
-       height="5"
-       opacity=".19"
-       overflow="visible"
-       rx=".5"
-       ry=".5"
-       style="marker:none;fill:#555761"
-       transform="rotate(90)"
-       width="1"
-       x="-187.5"
-       y="-789"
-       id="rect4" />
-    <rect
-       color="#000"
-       fill="#666"
-       height="5"
-       opacity=".833"
-       overflow="visible"
-       rx=".5"
-       ry=".5"
-       style="marker:none;fill:#555761"
-       transform="rotate(-30)"
-       width="1"
-       x="769.366"
-       y="220.553"
-       id="rect5" />
-    <rect
-       color="#000"
-       fill="#666"
-       height="5"
-       opacity=".694"
-       overflow="visible"
-       rx=".5"
-       ry=".5"
-       style="marker:none;fill:#555761"
-       transform="rotate(-60)"
-       width="1"
-       x="551.947"
-       y="574.866"
-       id="rect6" />
-    <rect
-       color="#000"
-       fill="#666"
-       height="5"
-       opacity=".482"
-       overflow="visible"
-       rx=".5"
-       ry=".5"
-       style="marker:none;fill:#555761"
-       transform="rotate(-120)"
-       width="1"
-       x="-229.053"
-       y="761.866"
-       id="rect7" />
-    <rect
-       color="#000"
-       fill="#666"
-       height="5"
-       opacity=".402"
-       overflow="visible"
-       rx=".5"
-       ry=".5"
-       style="marker:none;fill:#555761"
-       transform="rotate(-150)"
-       width="1"
-       x="-583.366"
-       y="544.447"
-       id="rect8" />
-    <rect
-       color="#000"
-       fill="#666"
-       height="5"
-       opacity=".28"
-       overflow="visible"
-       rx=".5"
-       ry=".5"
-       style="marker:none;fill:#555761"
-       transform="rotate(150)"
-       width="1"
-       x="-770.366"
-       y="-236.553"
-       id="rect9" />
-    <rect
-       color="#000"
-       fill="#666"
-       height="5"
-       opacity=".23"
-       overflow="visible"
-       rx=".5"
-       ry=".5"
-       style="marker:none;fill:#555761"
-       transform="rotate(120)"
-       width="1"
-       x="-552.947"
-       y="-590.866"
-       id="rect10" />
-    <rect
-       color="#000"
-       fill="#666"
-       height="5"
-       opacity=".16"
-       overflow="visible"
-       rx=".5"
-       ry=".5"
-       style="marker:none;fill:#555761"
-       transform="rotate(60)"
-       width="1"
-       x="228.053"
-       y="-777.866"
-       id="rect11" />
-    <rect
-       color="#000"
-       fill="#666"
-       height="5"
-       opacity=".13"
-       overflow="visible"
-       rx=".5"
-       ry=".5"
-       style="marker:none;fill:#555761"
-       transform="rotate(30)"
-       width="1"
-       x="582.366"
-       y="-560.447"
-       id="rect12" />
-  </g>
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg12'
+        width='16'
+        height='16'>
+  <rect
+          id='rect1'
+          transform='translate(-773, 195)'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='780.5'
+          y='-195'
+          width='1'
+          height='5'
+          rx='0.5'
+          ry='0.5'
+          class="foreground">
+  </rect>
+  <rect
+          id='rect2'
+          transform='rotate(-90, -289, 484)'
+          opacity='0.578'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='186.5'
+          y='773'
+          width='1'
+          height='5'
+          rx='0.5'
+          ry='0.5'
+          class="foreground">
+  </rect>
+  <rect
+          id='rect3'
+          transform='rotate(180, -386.5, 97.5)'
+          opacity='0.335'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='-781.5'
+          y='179'
+          width='1'
+          height='5'
+          rx='0.5'
+          ry='0.5'
+          class="foreground">
+  </rect>
+  <rect
+          id='rect4'
+          transform='rotate(90, -484, -289)'
+          opacity='0.19'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='-187.5'
+          y='-789'
+          width='1'
+          height='5'
+          rx='0.5'
+          ry='0.5'
+          class="foreground">
+  </rect>
+  <rect
+          id='rect5'
+          transform='rotate(-30, -22.625, 1539.94)'
+          opacity='0.833'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='769.366'
+          y='220.553'
+          width='1'
+          height='5'
+          rx='0.5'
+          ry='0.5'
+          class="foreground">
+  </rect>
+  <rect
+          id='rect6'
+          transform='rotate(-60, -217.625, 766.938)'
+          opacity='0.694'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='551.947'
+          y='574.866'
+          width='1'
+          height='5'
+          rx='0.5'
+          ry='0.5'
+          class="foreground">
+  </rect>
+  <rect
+          id='rect7'
+          transform='rotate(-120, -330.208, 320.646)'
+          opacity='0.482'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='-229.053'
+          y='761.866'
+          width='1'
+          height='5'
+          rx='0.5'
+          ry='0.5'
+          class="foreground">
+  </rect>
+  <rect
+          id='rect8'
+          transform='rotate(-150, -360.375, 201.062)'
+          opacity='0.402'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='-583.366'
+          y='544.447'
+          width='1'
+          height='5'
+          rx='0.5'
+          ry='0.5'
+          class="foreground">
+  </rect>
+  <rect
+          id='rect9'
+          transform='rotate(150, -412.625, -6.06236)'
+          opacity='0.28'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='-770.366'
+          y='-236.553'
+          width='1'
+          height='5'
+          rx='0.5'
+          ry='0.5'
+          class="foreground">
+  </rect>
+  <rect
+          id='rect10'
+          transform='rotate(120, -442.792, -125.646)'
+          opacity='0.23'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='-552.947'
+          y='-590.866'
+          width='1'
+          height='5'
+          rx='0.5'
+          ry='0.5'
+          class="foreground">
+  </rect>
+  <rect
+          id='rect11'
+          transform='rotate(60, -555.375, -571.938)'
+          opacity='0.16'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='228.053'
+          y='-777.866'
+          width='1'
+          height='5'
+          rx='0.5'
+          ry='0.5'
+          class="foreground">
+  </rect>
+  <rect
+          id='rect12'
+          transform='rotate(30, -750.375, -1344.94)'
+          opacity='0.13'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='582.366'
+          y='-560.447'
+          width='1'
+          height='5'
+          rx='0.5'
+          ry='0.5'
+          class="foreground">
+  </rect>
 </svg>

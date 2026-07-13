@@ -1,32 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="16"
-   width="16"
-   version="1.1"
-   id="svg2"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs2" />
-  <g
-     transform="translate(-613 -157)"
-     id="g2"
-     style="fill:#555761">
-    <path
-       d="M615 171v1h12v-1z"
-       fill="#666"
-       id="path1"
-       style="fill:#555761" />
-    <path
-       color="#000"
-       d="M620.668 158.933c-2.495-.009-3.861 1.688-3.814 3.368.062 2.237 1.74 2.665 2.804 2.945 1.665.438 3.532.346 3.532 1.453 0 .768-.947 1.285-1.896 1.385-1.204.126-2.011-.262-2.833-.988a1 1 0 0 0-.717-.305c-.898-.003-1.345 1.087-.703 1.715 1.217 1.314 2.636 1.644 3.887 1.6 4.015-.14 4.46-2.315 4.46-3.407-.034-2.337-1.895-2.985-4.405-3.17-1.454-.107-2.1-.408-2.1-1.228 0-.82.7-1.37 2.035-1.36 1.336.01 1.98.251 2.28.655.785 1.129 2.458-.113 1.605-1.192-.795-1.071-1.64-1.462-4.135-1.47z"
-       fill="#666"
-       fill-rule="evenodd"
-       font-family="sans-serif"
-       font-weight="400"
-       overflow="visible"
-       style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;isolation:auto;mix-blend-mode:normal;fill:#555761"
-       white-space="normal"
-       id="path2" />
-  </g>
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg2'
+        width='16'
+        height='16'>
+  <path
+          id='path1'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          d='M 2 14 L 2 15 L 14 15 L 14 14 Z'
+          class="foreground">
+  </path>
+  <path
+          id='path2'
+          color='rgb(0,0,0)'
+          font-family='sans-serif'
+          font-weight='400'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='evenodd'
+          overflow='visible'
+          d='M 7.668 1.93304 C 5.173 1.92404, 3.807 3.62104, 3.854 5.30104 C 3.916 7.53804, 5.594 7.96604, 6.658 8.24604 C 8.323 8.68404, 10.19 8.59204, 10.19 9.69904 C 10.19 10.467, 9.243 10.984, 8.294 11.084 C 7.09 11.21, 6.283 10.822, 5.461 10.096 A 1 1 0 0 0 4.744 9.79104 C 3.846 9.78804, 3.399 10.878, 4.041 11.506 C 5.258 12.82, 6.677 13.15, 7.928 13.106 C 11.943 12.966, 12.388 10.791, 12.388 9.69904 C 12.354 7.36204, 10.493 6.71404, 7.983 6.52904 C 6.529 6.42204, 5.883 6.12104, 5.883 5.30104 C 5.883 4.48104, 6.583 3.93104, 7.918 3.94104 C 9.254 3.95104, 9.898 4.19204, 10.198 4.59604 C 10.983 5.72504, 12.656 4.48304, 11.803 3.40404 C 11.008 2.33304, 10.163 1.94204, 7.668 1.93404 Z'
+          class="foreground"
+          style='mix-blend-mode: normal; isolation: auto'>
+  </path>
 </svg>
