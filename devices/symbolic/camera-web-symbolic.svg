@@ -1,32 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="16"
-   width="16"
-   version="1.1"
-   id="svg2"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs2" />
-  <g
-     transform="translate(-1073 -61)"
-     id="g2"
-     style="fill:#555761">
-    <path
-       d="M1081 62.004a6 6 0 1 0 0 12 6 6 0 0 0 0-12zm0 4a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1zm2.465 3a.5.5 0 0 1 .035 0 .5.5 0 0 1 .5.5.5.5 0 0 1-.5.5.5.5 0 0 1-.5-.5.5.5 0 0 1 .465-.5z"
-       fill="#666"
-       id="path1"
-       style="fill:#555761" />
-    <path
-       color="#000"
-       d="M1081 73.003c-1.845 0-3.086.537-3.856 1.096-.769.56-1.091 1.182-1.091 1.182a.5.5 0 0 0 .447.722h9a.5.5 0 0 0 .447-.722s-.32-.623-1.09-1.182c-.769-.56-2.012-1.096-3.857-1.096z"
-       fill="#666"
-       fill-rule="evenodd"
-       font-family="sans-serif"
-       font-weight="400"
-       overflow="visible"
-       style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal;fill:#555761"
-       white-space="normal"
-       id="path2" />
-  </g>
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg2'
+        width='16'
+        height='16'>
+  <path
+          id='path1'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          d='M 8 1.004 A 6 6 0 1 0 8 13.004 A 6 6 0 0 0 8 1.004 Z M 8 5.004 A 2 2 0 0 1 10 7.004 A 2 2 0 0 1 8 9.004 A 2 2 0 0 1 6 7.004 A 2 2 0 0 1 8 5.004 Z M 8 6.004 A 1 1 0 0 0 7 7.004 A 1 1 0 0 0 8 8.004 A 1 1 0 0 0 9 7.004 A 1 1 0 0 0 8 6.004 Z M 10.465 9.004 A 0.5 0.5 0 0 1 10.5 9.004 A 0.5 0.5 0 0 1 11 9.504 A 0.5 0.5 0 0 1 10.5 10.004 A 0.5 0.5 0 0 1 10 9.504 A 0.5 0.5 0 0 1 10.465 9.004 Z'
+          class='foreground foreground-fill'>
+  </path>
+  <path
+          id='path2'
+          color='rgb(0,0,0)'
+          font-family='sans-serif'
+          font-weight='400'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='evenodd'
+          overflow='visible'
+          d='M 8 12.003 C 6.155 12.003, 4.914 12.54, 4.144 13.099 C 3.375 13.659, 3.053 14.281, 3.053 14.281 A 0.5 0.5 0 0 0 3.5 15.003 L 12.5 15.003 A 0.5 0.5 0 0 0 12.947 14.281 C 12.947 14.281, 12.627 13.658, 11.857 13.099 C 11.088 12.539, 9.845 12.003, 8 12.003 Z'
+          class='foreground foreground-fill'
+          style='mix-blend-mode: normal; isolation: auto'>
+  </path>
 </svg>
