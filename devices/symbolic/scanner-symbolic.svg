@@ -1,33 +1,33 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="16"
-   width="16"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <g
-     transform="translate(-1232.997 -41.003)"
-     id="g1"
-     style="fill:#555761">
-    <path
-       d="M1236.594 42.003a1.59 1.59 0 0 0-1.594 1.594V54.41c0 .882.711 1.593 1.594 1.593h8.813A1.59 1.59 0 0 0 1247 54.41V43.597a1.59 1.59 0 0 0-1.594-1.594zm.906 1h7c.277 0 .5.223.5.5v9c0 .277-.223.5-.5.5h-7a.499.499 0 0 1-.5-.5v-9c0-.277.223-.5.5-.5zm7 11a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1z"
-       fill="#666"
-       id="path1"
-       style="fill:#555761" />
-    <rect
-       color="#000"
-       fill="#666"
-       height="1"
-       overflow="visible"
-       rx="0"
-       ry="0"
-       style="marker:none;fill:#555761"
-       width="6"
-       x="1238"
-       y="48.003"
-       id="rect1" />
-  </g>
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg1'
+        width='16'
+        height='16'>
+  <path
+          id='path1'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          d='M 3.597 1.00001 A 1.59 1.59 0 0 0 2.003 2.59401 L 2.003 13.407 C 2.003 14.289, 2.714 15, 3.597 15 L 12.41 15 A 1.59 1.59 0 0 0 14.003 13.407 L 14.003 2.59401 A 1.59 1.59 0 0 0 12.409 1.00001 Z M 4.503 2.00001 L 11.503 2.00001 C 11.78 2.00001, 12.003 2.22301, 12.003 2.50001 L 12.003 11.5 C 12.003 11.777, 11.78 12, 11.503 12 L 4.503 12 A 0.499 0.499 0 0 1 4.003 11.5 L 4.003 2.50001 C 4.003 2.22301, 4.226 2.00001, 4.503 2.00001 Z M 11.503 13 A 0.5 0.5 0 1 1 11.503 14 A 0.5 0.5 0 0 1 11.503 13 Z'
+          class='foreground foreground-fill'>
+  </path>
+  <rect
+          id='rect1'
+          color='rgb(0,0,0)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          x='5.003'
+          y='7'
+          width='6'
+          height='1'
+          rx='0'
+          ry='0'
+          class='foreground foreground-fill'>
+  </rect>
 </svg>

@@ -1,35 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="16"
-   width="16"
-   version="1.1"
-   id="svg3"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs3" />
-  <g
-     color="#bebebe"
-     transform="translate(-1093 -42)"
-     id="g3"
-     style="fill:#555761">
-    <path
-       d="M1108 50c0-3.225-1.205-5.982-2.946-7.25l-1.155 1.04c1.5 1.062 2.542 3.453 2.542 6.21s-1.043 5.148-2.542 6.21l1.155 1.04c1.741-1.268 2.946-4.025 2.946-7.25z"
-       fill="#666"
-       overflow="visible"
-       style="marker:none;fill:#555761"
-       id="path1" />
-    <path
-       d="M1104.939 50c0-2.18-.83-4.085-2.08-5.285l-1.069.953c.966 1.026 1.589 2.582 1.589 4.332s-.623 3.306-1.589 4.332l1.07.953c1.25-1.2 2.079-3.104 2.079-5.285z"
-       fill="#666"
-       overflow="visible"
-       style="marker:none;fill:#555761"
-       id="path2" />
-    <path
-       d="M1101.993 50c0-1.326-.44-2.542-1.156-3.495l-1.097.982a4.9 4.9 0 0 1 0 5.026l1.097.982a5.814 5.814 0 0 0 1.156-3.495zM1093 48v4h1.652l3.348 3.37V44.63l-3.348 3.37z"
-       fill="#666"
-       overflow="visible"
-       style="marker:none;fill:#555761"
-       id="path3" />
-  </g>
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg3'
+        width='16'
+        height='16'>
+  <path
+          id='path1'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          d='M 15 8 C 15 4.775, 13.795 2.018, 12.054 0.75 L 10.899 1.79 C 12.399 2.852, 13.441 5.243, 13.441 8 C 13.441 10.757, 12.398 13.148, 10.899 14.21 L 12.054 15.25 C 13.795 13.982, 15 11.225, 15 8 Z'
+          class='foreground foreground-fill'>
+  </path>
+  <path
+          id='path2'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          d='M 11.939 8 C 11.939 5.82, 11.109 3.915, 9.859 2.715 L 8.79 3.668 C 9.756 4.694, 10.379 6.25, 10.379 8 C 10.379 9.75, 9.756 11.306, 8.79 12.332 L 9.86 13.285 C 11.11 12.085, 11.939 10.181, 11.939 8 Z'
+          class='foreground foreground-fill'>
+  </path>
+  <path
+          id='path3'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          d='M 8.993 8 C 8.993 6.674, 8.553 5.458, 7.837 4.505 L 6.74 5.487 A 4.9 4.9 0 0 1 6.74 10.513 L 7.837 11.495 A 5.814 5.814 0 0 0 8.993 8 Z M 0 6 L 0 10 L 1.652 10 L 5 13.37 L 5 2.63 L 1.652 6 Z'
+          class='foreground foreground-fill'>
+  </path>
 </svg>
