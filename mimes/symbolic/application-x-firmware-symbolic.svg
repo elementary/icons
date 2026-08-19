@@ -1,69 +1,111 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   version="1.1"
-   id="svg2"
-   width="16"
-   height="16">
-  <metadata
-     id="metadata12">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs10" />
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        xmlns:gpa='https://www.gtk.org/grappa'
+        gpa:version='1'
+        gpa:state='0'
+        id='svg2'
+        width='16'
+        height='16'>
   <rect
-     y="4"
-     x="5"
-     height="8"
-     width="6"
-     id="rect4142"
-     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.5;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.58823529;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+          id='rect4142'
+          class=''
+          opacity='0.5'
+          fill='url(#gpa:foreground) rgb(85,87,97)'
+          fill-opacity='1'
+          stroke='none'
+          x='5'
+          y='4'
+          width='6'
+          height='8'
+          gpa:animation-repeat='0'
+          gpa:animation-segment='0'>
+  </rect>
   <rect
-     ry="1"
-     rx="1"
-     y="1.5"
-     x="1.5"
-     height="13"
-     width="13"
-     id="rect4144"
-     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#666666;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+          id='rect4144'
+          class='transparent-fill'
+          opacity='1'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(85,87,97)'
+          stroke-opacity='1'
+          stroke-width='1'
+          stroke-linecap='butt'
+          stroke-linejoin='miter'
+          stroke-miterlimit='4'
+          x='1.5'
+          y='1.5'
+          width='13'
+          height='13'
+          rx='1'
+          ry='1'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='200%'
+          gpa:animation-repeat='0'
+          gpa:animation-segment='0'>
+  </rect>
   <path
-     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-     d="M 3,5 V 6 H 4 V 5 Z m 9,0 v 1 h 1 V 5 Z M 3,7 V 8 H 4 V 7 Z m 9,0 v 1 h 1 V 7 Z M 3,9 v 1 H 4 V 9 Z m 9,0 v 1 h 1 V 9 Z m -9,2 v 1 h 1 v -1 z m 9,0 v 1 h 1 v -1 z"
-     id="rect4150" />
+          id='rect4150'
+          class='foreground foreground-fill'
+          opacity='1'
+          fill='url(#gpa:foreground) rgb(0,0,0)'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          stroke='none'
+          stroke-width='1'
+          stroke-linecap='butt'
+          stroke-linejoin='miter'
+          stroke-miterlimit='4'
+          d='M 3 5 L 3 6 L 4 6 L 4 5 Z M 12 5 L 12 6 L 13 6 L 13 5 Z M 3 7 L 3 8 L 4 8 L 4 7 Z M 12 7 L 12 8 L 13 8 L 13 7 Z M 3 9 L 3 10 L 4 10 L 4 9 Z M 12 9 L 12 10 L 13 10 L 13 9 Z M 3 11 L 3 12 L 4 12 L 4 11 Z M 12 11 L 12 12 L 13 12 L 13 11 Z'
+          gpa:stroke-minwidth='25%'
+          gpa:stroke-maxwidth='200%'
+          gpa:animation-repeat='0'
+          gpa:animation-segment='0'>
+  </path>
   <rect
-     ry="0.50281549"
-     rx="0.50281549"
-     y="3.5"
-     x="4.4971843"
-     height="9.0028172"
-     width="7.0028157"
-     id="rect4154"
-     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#666666;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+          id='rect4154'
+          class='transparent-fill'
+          opacity='1'
+          fill='none'
+          stroke='url(#gpa:foreground) rgb(85,87,97)'
+          stroke-opacity='1'
+          stroke-width='1'
+          x='4.49718'
+          y='3.5'
+          width='7.00282'
+          height='9.00282'
+          rx='0.502815'
+          ry='0.502815'
+          gpa:animation-repeat='0'
+          gpa:animation-segment='0'>
+  </rect>
   <rect
-     y="6"
-     x="6"
-     height="1"
-     width="4"
-     id="rect4139"
-     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.25;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+          id='rect4139'
+          class=''
+          opacity='0.25'
+          fill='url(#gpa:foreground) rgb(85,87,97)'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          stroke='none'
+          x='6'
+          y='6'
+          width='4'
+          height='1'
+          gpa:animation-repeat='0'
+          gpa:animation-segment='0'>
+  </rect>
   <rect
-     y="8"
-     x="6"
-     height="1"
-     width="2"
-     id="rect4141"
-     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.25;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+          id='rect4141'
+          class=''
+          opacity='0.25'
+          fill='url(#gpa:foreground) rgb(85,87,97)'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          stroke='none'
+          x='6'
+          y='8'
+          width='2'
+          height='1'
+          gpa:animation-repeat='0'
+          gpa:animation-segment='0'>
+  </rect>
 </svg>
