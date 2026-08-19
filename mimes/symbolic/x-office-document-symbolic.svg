@@ -1,7 +1,36 @@
-<svg height='16' width='16' xmlns='http://www.w3.org/2000/svg'>
-    <g transform='translate(-1053 247)'>
-        
-        <path color='#bebebe' d='M1056-247c-.554 0-1 .446-1 1v14c0 .554.446 1 1 1h10c.554 0 1-.446 1-1v-10c0-.554-4.446-5-5-5zm.5 1h5.5v4h4v9.5c0 .277-.223.5-.5.5h-9a.499.499 0 0 1-.5-.5v-13c0-.277.223-.5.5-.5z' fill='#666' overflow='visible' style='marker:none'/>
-        <path color='#000' d='M1059.432-241c-.86 0-1.568.708-1.568 1.568 0 .86.708 1.569 1.568 1.569.86 0 1.568-.708 1.568-1.569 0-.86-.708-1.568-1.568-1.568zm0 1c.32 0 .568.249.568.568 0 .32-.248.569-.568.569a.56.56 0 0 1-.568-.569.56.56 0 0 1 .568-.568zm2.568 1v1h2v-1zm-4 2v1h6v-1zm0 2v1h4v-1z' fill='#666' font-family='sans-serif' font-weight='400' overflow='visible' style='line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal;marker:none' white-space='normal'/>
-    </g>
+<svg
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg2'
+        width='16'
+        height='16'>
+  <path
+          id='path1'
+          color='rgb(190,190,190)'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          d='M 3 0 C 2.446 0, 2 0.446, 2 1 L 2 15 C 2 15.554, 2.446 16, 3 16 L 13 16 C 13.554 16, 14 15.554, 14 15 L 14 5 C 14 4.446, 9.554 0, 9 0 Z M 3.5 1 L 9 1 L 9 5 L 13 5 L 13 14.5 C 13 14.777, 12.777 15, 12.5 15 L 3.5 15 A 0.499 0.499 0 0 1 3 14.5 L 3 1.5 C 3 1.223, 3.223 1, 3.5 1 Z'
+          class='foreground foreground-fill'>
+  </path>
+  <path
+          id='path2'
+          color='rgb(0,0,0)'
+          font-family='sans-serif'
+          font-weight='400'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          marker-start='none'
+          marker-mid='none'
+          marker-end='none'
+          overflow='visible'
+          d='M 6.432 6 C 5.572 6, 4.864 6.708, 4.864 7.568 C 4.864 8.428, 5.572 9.137, 6.432 9.137 C 7.292 9.137, 8 8.429, 8 7.568 C 8 6.708, 7.292 6, 6.432 6 Z M 6.432 7 C 6.752 7, 7 7.249, 7 7.568 C 7 7.888, 6.752 8.137, 6.432 8.137 A 0.56 0.56 0 0 1 5.864 7.568 A 0.56 0.56 0 0 1 6.432 7 Z M 9 8 L 9 9 L 11 9 L 11 8 Z M 5 10 L 5 11 L 11 11 L 11 10 Z M 5 12 L 5 13 L 9 13 L 9 12 Z'
+          class='foreground foreground-fill'
+          style='mix-blend-mode: normal; isolation: auto'>
+  </path>
 </svg>
