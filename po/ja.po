@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-31 04:43+0000\n"
+"POT-Creation-Date: 2026-08-20 12:21+0000\n"
 "PO-Revision-Date: 2026-01-01 05:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/desktop/"
@@ -35,82 +35,100 @@ msgstr ""
 "elementary OS とそのデスクトップ環境 (Pantheon) 用にデザインされた、オリジナ"
 "ルのベクターアイコンのセットです。"
 
-#: data/icons.metainfo.xml.in:34 data/icons.metainfo.xml.in:69
-#: data/icons.metainfo.xml.in:96 data/icons.metainfo.xml.in:159
+#: data/icons.metainfo.xml.in:34 data/icons.metainfo.xml.in:58
+#: data/icons.metainfo.xml.in:93 data/icons.metainfo.xml.in:120
+#: data/icons.metainfo.xml.in:183
 msgid "Additions:"
 msgstr "追加項目:"
 
-#: data/icons.metainfo.xml.in:36
-msgid "`start-here`"
-msgstr "`start-here`"
-
-#: data/icons.metainfo.xml.in:37
+#: data/icons.metainfo.xml.in:36 data/icons.metainfo.xml.in:61
 msgid "Tool icons for Inkscape"
 msgstr "Inkscape 用のツールアイコン"
 
+#: data/icons.metainfo.xml.in:37
+msgid "16px `camera-photo`"
+msgstr ""
+
 #: data/icons.metainfo.xml.in:38
+msgid "48px, 64px, and 128px app icons"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:40 data/icons.metainfo.xml.in:66
+#: data/icons.metainfo.xml.in:100 data/icons.metainfo.xml.in:132
+#: data/icons.metainfo.xml.in:168 data/icons.metainfo.xml.in:196
+msgid "Updated families:"
+msgstr "アップデートされたアイコン:"
+
+#: data/icons.metainfo.xml.in:42
+msgid "Make `process-stop` and `process-completed` visually match"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:44 data/icons.metainfo.xml.in:74
+#: data/icons.metainfo.xml.in:127 data/icons.metainfo.xml.in:163
+#: data/icons.metainfo.xml.in:191
+msgid "Removals:"
+msgstr "削除された項目:"
+
+#: data/icons.metainfo.xml.in:46
+msgid "`office-calendar`"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:60
+msgid "`start-here`"
+msgstr "`start-here`"
+
+#: data/icons.metainfo.xml.in:62
 msgid "Add Adwaita as a fallback for icon names"
 msgstr "アイコン名のフォールバックとして Adwaita を追加"
 
-#: data/icons.metainfo.xml.in:39
+#: data/icons.metainfo.xml.in:63
 msgid ""
 "16px `accessories-character-map`, `document-properties`, `preferences-system`"
 msgstr ""
 "16px 版 `accessories-character-map`、`document-properties`、`preferences-"
 "system`"
 
-#: data/icons.metainfo.xml.in:40
+#: data/icons.metainfo.xml.in:64
 msgid "24px `list-add-symbolic`"
 msgstr "24px 版 `list-add-symbolic`"
 
-#: data/icons.metainfo.xml.in:42 data/icons.metainfo.xml.in:76
-#: data/icons.metainfo.xml.in:108 data/icons.metainfo.xml.in:144
-#: data/icons.metainfo.xml.in:172
-msgid "Updated families:"
-msgstr "アップデートされたアイコン:"
-
-#: data/icons.metainfo.xml.in:44
+#: data/icons.metainfo.xml.in:68
 msgid "Add a scroll wheel to mouse"
 msgstr "マウスアイコンにスクロールホイールを追加"
 
-#: data/icons.metainfo.xml.in:45
+#: data/icons.metainfo.xml.in:69
 msgid "Use outline style for `applications-internet-symbolic`"
 msgstr "`applications-internet-symbolic` をストロークのみのデザインに変更"
 
-#: data/icons.metainfo.xml.in:46
+#: data/icons.metainfo.xml.in:70
 msgid "Differentiate keyboard device from keyboard preferences"
 msgstr "キーボード設定とキーボードデバイスのアイコンを差別化"
 
-#: data/icons.metainfo.xml.in:47
+#: data/icons.metainfo.xml.in:71
 msgid "Round find-location"
 msgstr "find-location を角丸デザインに変更"
 
-#: data/icons.metainfo.xml.in:48
+#: data/icons.metainfo.xml.in:72
 msgid "Remove visual artifact from 16px `edit-paste` icon"
 msgstr "16px 版 `edit-paste` アイコンに含まれていたゴミを削除"
 
-#: data/icons.metainfo.xml.in:50 data/icons.metainfo.xml.in:103
-#: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
-msgid "Removals:"
-msgstr "削除された項目:"
-
-#: data/icons.metainfo.xml.in:52
+#: data/icons.metainfo.xml.in:76
 msgid "`view-filter`"
 msgstr "`view-filter`"
 
-#: data/icons.metainfo.xml.in:53
+#: data/icons.metainfo.xml.in:77
 msgid "`media-memory`"
 msgstr "`media-memory`"
 
-#: data/icons.metainfo.xml.in:71
+#: data/icons.metainfo.xml.in:95
 msgid "import and export actions at 16px"
 msgstr "16px 版のインポート/エクスポートアクションアイコンを追加"
 
-#: data/icons.metainfo.xml.in:72
+#: data/icons.metainfo.xml.in:96
 msgid "`mail-send-receive` now has a color version"
 msgstr "`mail-send-receive` に色付き版を追加"
 
-#: data/icons.metainfo.xml.in:73
+#: data/icons.metainfo.xml.in:97
 msgid ""
 "`system-software-install` has a new icon, separate from the AppCenter "
 "branding"
@@ -118,17 +136,17 @@ msgstr ""
 "`system-software-install` のデザインを変更 (AppCenter のブランドアイコンとの"
 "差別化のため)"
 
-#: data/icons.metainfo.xml.in:74
+#: data/icons.metainfo.xml.in:98
 msgid "symlinks are now handled in the build system"
 msgstr "シンボリックリンクをビルドシステム側で作成するように修正"
 
-#: data/icons.metainfo.xml.in:78
+#: data/icons.metainfo.xml.in:102
 msgid "Fixed color, pagesizes, and grid alignment for all symbolic icons"
 msgstr ""
 "すべてのシンボリックアイコンの色・ページサイズ・グリッドへのアライメントを修"
 "正"
 
-#: data/icons.metainfo.xml.in:79
+#: data/icons.metainfo.xml.in:103
 msgid ""
 "`text` and `text-vertical` cursors have new designs, matching the new cursor "
 "style from 8.0.0"
@@ -136,47 +154,48 @@ msgstr ""
 "`text` および `text-vertical` カーソルのデザインを変更 (バージョン 8.0.0 以降"
 "の新しいカーソルスタイルに合わせた)"
 
-#: data/icons.metainfo.xml.in:80
+#: data/icons.metainfo.xml.in:104
 msgid "Chat bubbles are now used for `user-*` status icons"
 msgstr "`user-*` ステータス状態アイコンをチャット風デザインに変更"
 
-#: data/icons.metainfo.xml.in:81
+#: data/icons.metainfo.xml.in:105
 msgid ""
 "`preferences-desktop-locacle-symbolic` has been updated to be closer to the "
 "color version"
 msgstr ""
 "`preferences-desktop-locacle-symbolic` をより色付き版に近いデザインに更新"
 
-#: data/icons.metainfo.xml.in:82
+#: data/icons.metainfo.xml.in:106
 msgid ""
 "The colors of the magnifying glass in print preview actions has been unified "
 "with that of the find action"
-msgstr "印刷プレビューアクションアイコンに含まれる虫眼鏡の色を、検索アクションアイコ"
+msgstr ""
+"印刷プレビューアクションアイコンに含まれる虫眼鏡の色を、検索アクションアイコ"
 "ンに含まれる虫眼鏡の色と統一"
 
-#: data/icons.metainfo.xml.in:83
+#: data/icons.metainfo.xml.in:107
 msgid "`mail-message-new` has been made more uniform across its variations"
 msgstr "`mail-message-new` のデザインをサイズ間で統一"
 
-#: data/icons.metainfo.xml.in:84
+#: data/icons.metainfo.xml.in:108
 msgid "`save-as-symbolic` has a new design to differentiate from `save`"
 msgstr "`save-as-symbolic` を `save` とは異なる新しいデザインに変更"
 
-#: data/icons.metainfo.xml.in:85
+#: data/icons.metainfo.xml.in:109
 msgid ""
 "session icons (`system-*`) have had minor updates to shape language and "
 "color added"
 msgstr "セッションアイコン (`system-*`) のシェイプランゲージを微修正・色を追加"
 
-#: data/icons.metainfo.xml.in:98
+#: data/icons.metainfo.xml.in:122
 msgid ""
 "`preferences-desktop-wallpaper` is now a unique icon from `preferences-"
 "desktop` and features a colorful paint roller design"
 msgstr ""
-"`preferences-desktop-wallpaper` を `preferences-desktop` "
-"から独立したアイコンに変更 (カラフルなペイントローラーのデザイン)"
+"`preferences-desktop-wallpaper` を `preferences-desktop` から独立したアイコン"
+"に変更 (カラフルなペイントローラーのデザイン)"
 
-#: data/icons.metainfo.xml.in:99
+#: data/icons.metainfo.xml.in:123
 msgid ""
 "`accessories-screenshot-tool` and the symlink `applets-screenshooter` are "
 "added to cover icons expected by the Portals backend"
@@ -184,71 +203,74 @@ msgstr ""
 "“ポータル”のバックエンドが期待するアイコンを提供できるように、`accessories-"
 "screenshot-tool` およびシンボリックリンク `applets-screenshooter` を追加"
 
-#: data/icons.metainfo.xml.in:100
+#: data/icons.metainfo.xml.in:124
 msgid "`usb-receiver` to cover peripheral receivers in FWUPD"
 msgstr "fwupd で使用されるレシーバーに対応する `usb-receiver` を追加"
 
-#: data/icons.metainfo.xml.in:101
+#: data/icons.metainfo.xml.in:125
 msgid "`system-log-out-symbolic`"
 msgstr "`system-log-out-symbolic`"
 
-#: data/icons.metainfo.xml.in:105
+#: data/icons.metainfo.xml.in:129
 msgid "`bug`"
 msgstr "`bug`"
 
-#: data/icons.metainfo.xml.in:106
+#: data/icons.metainfo.xml.in:130
 msgid "`preferences-system-parental-controls`"
 msgstr "`preferences-system-parental-controls`"
 
-#: data/icons.metainfo.xml.in:110
+#: data/icons.metainfo.xml.in:134
 msgid ""
 "Cursors have been completely redrawn with a new base pointer shape, colorful "
 "badges, and a new color wheel design for waiting states"
 msgstr ""
-"カーソルのデザインを描き直し "
-"(ベースとなるポインターの形状変更、右下のアクション表示を色付きに変更、待機状"
-"態のマウスカーソルを色付き輪っかのデザインに変更)"
+"カーソルのデザインを描き直し (ベースとなるポインターの形状変更、右下のアク"
+"ション表示を色付きに変更、待機状態のマウスカーソルを色付き輪っかのデザインに"
+"変更)"
 
-#: data/icons.metainfo.xml.in:111
+#: data/icons.metainfo.xml.in:135
 msgid ""
 "Use brighter colors for `edit-find` icons and add missing 16px `edit-find-"
 "replace`"
-msgstr "`edit-find` アイコンにより明るい色を使うように修正し、16px 版 `edit-find-"
+msgstr ""
+"`edit-find` アイコンにより明るい色を使うように修正し、16px 版 `edit-find-"
 "replace` が漏れていたため追加"
 
-#: data/icons.metainfo.xml.in:112
+#: data/icons.metainfo.xml.in:136
 msgid "Update the border radius of `preferences-desktop-locale`"
 msgstr "`preferences-desktop-locale` における四隅の丸みを変更"
 
-#: data/icons.metainfo.xml.in:113
+#: data/icons.metainfo.xml.in:137
 msgid "`window-*` icons use more rounded arrow shapes"
 msgstr "`window-*` アイコンにより丸みを帯びた矢印を使うように修正"
 
-#: data/icons.metainfo.xml.in:114
+#: data/icons.metainfo.xml.in:138
 msgid "`system-*-symbolic` icons are a more uniform size"
 msgstr "`system-*-symbolic` が統一したサイズ感になるように調整"
 
-#: data/icons.metainfo.xml.in:115
+#: data/icons.metainfo.xml.in:139
 msgid "halign checkmark on 32px `process-completed`"
-msgstr "32px 版 `process-completed` に含まれるチェックマークの水平方向の配置を調整"
+msgstr ""
+"32px 版 `process-completed` に含まれるチェックマークの水平方向の配置を調整"
 
-#: data/icons.metainfo.xml.in:116
+#: data/icons.metainfo.xml.in:140
 msgid "redesign `preferences-system` with higher contrast and more detail"
-msgstr "`preferences-system` がより高コントラスト・より詳細になるようにデザインを変更"
+msgstr ""
+"`preferences-system` がより高コントラスト・より詳細になるようにデザインを変更"
 
-#: data/icons.metainfo.xml.in:117
+#: data/icons.metainfo.xml.in:141
 msgid "clean up 128 drive-harddisk"
 msgstr "128px 版 `drive-harddisk` をクリーンアップ"
 
-#: data/icons.metainfo.xml.in:118
+#: data/icons.metainfo.xml.in:142
 msgid "Fix grid alignment of several `document-*` icons"
 msgstr "いくつかの `document-*` アイコンのグリッド配置を修正"
 
-#: data/icons.metainfo.xml.in:119
+#: data/icons.metainfo.xml.in:143
 msgid "Use a bell for `preferences-system-notification`"
 msgstr "`preferences-system-notification` にベルのメタファーを使うように修正"
 
-#: data/icons.metainfo.xml.in:141
+#: data/icons.metainfo.xml.in:165
 msgid ""
 "non-fd.o \"bluetooth-*\", \"microphone-sensitivity-*\", and \"night-light\" "
 "symbolic panel icons"
@@ -256,19 +278,19 @@ msgstr ""
 "Freedesktop の仕様に定義されていない \"bluetooth-*\"、\"microphone-"
 "sensitivity-*\"、\"night-light\" シンボリックパネルアイコン"
 
-#: data/icons.metainfo.xml.in:142
+#: data/icons.metainfo.xml.in:166
 msgid "\"mail-archive\" and \"mail-move\""
 msgstr "\"mail-archive\" と \"mail-move\""
 
-#: data/icons.metainfo.xml.in:146
+#: data/icons.metainfo.xml.in:170
 msgid "\"insert-image-symbolic\" is now more detailed"
 msgstr "\"insert-image-symbolic\" のディテールを改善"
 
-#: data/icons.metainfo.xml.in:147
+#: data/icons.metainfo.xml.in:171
 msgid "\"media-record\" has an updated palette"
 msgstr "\"media-record\" に新しいパレットカラーを使用するように修正"
 
-#: data/icons.metainfo.xml.in:148
+#: data/icons.metainfo.xml.in:172
 msgid ""
 "\"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-optical\", "
 "\"open-menu\", \"system-run\" look better on dark backgrounds"
@@ -276,7 +298,7 @@ msgstr ""
 "\"document-page-setup\"、\"edit-copy\"、\"edit-cut\"、\"media-optical\"、"
 "\"open-menu\"、\"system-run\" の黒背景色上での視認性を改善"
 
-#: data/icons.metainfo.xml.in:149
+#: data/icons.metainfo.xml.in:173
 msgid ""
 "Improved arrow shape for \"browser-download\", \"document-send\", \"document-"
 "import/export\", \"object-merge\", \"object-rotate\", \"pane-hide/show\", "
@@ -286,13 +308,13 @@ msgstr ""
 "\"object-merge\"、\"object-rotate\"、\"pane-hide/show\"、\"view-refresh\" で"
 "使われている矢印の形状を改善"
 
-#: data/icons.metainfo.xml.in:161
+#: data/icons.metainfo.xml.in:185
 msgid "\"list-drag-handle-symbolic\" as used in draggable list box rows"
 msgstr ""
 "ドラッグ可能なリストボックスの行に対して使用される \"list-drag-handle-"
 "symbolic\""
 
-#: data/icons.metainfo.xml.in:162
+#: data/icons.metainfo.xml.in:186
 msgid ""
 "\"selection-mode-symbolic\" as used in apps which have a button to switch a "
 "list into a selection mode"
@@ -300,19 +322,19 @@ msgstr ""
 "リストモードから選択モードへの切り替えボタンが存在するアプリで使用される "
 "\"selection-mode-symbolic\""
 
-#: data/icons.metainfo.xml.in:163
+#: data/icons.metainfo.xml.in:187
 msgid "\"adw-expander-arrow-symbolic\" as used in Adw.PreferencesWindow"
 msgstr "Adw.PreferencesWindow で使用される \"adw-expander-arrow-symbolic\""
 
-#: data/icons.metainfo.xml.in:164
+#: data/icons.metainfo.xml.in:188
 msgid "\"adw-external-link-symbolic\" as used in Adw.AboutWindow"
 msgstr "Adw.AboutWindow で使用される \"adw-external-link-symbolic\""
 
-#: data/icons.metainfo.xml.in:165
+#: data/icons.metainfo.xml.in:189
 msgid "\"adw-tab-*\" icons as used with Adw.Tabbar"
 msgstr "Adw.Tabbar と一緒に使用される \"adw-tab-*\" アイコン"
 
-#: data/icons.metainfo.xml.in:169
+#: data/icons.metainfo.xml.in:193
 msgid ""
 "\"network-*\" status icons which are not in the FreeDesktop icon name "
 "specification"
@@ -320,7 +342,7 @@ msgstr ""
 "Freedesktop のアイコン名の仕様に定義されていない \"network-*\" ステータスアイ"
 "コン"
 
-#: data/icons.metainfo.xml.in:170
+#: data/icons.metainfo.xml.in:194
 msgid ""
 "Device icons which are not in the FreeDesktop icon name specification: "
 "\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", \"printer-"
@@ -330,7 +352,7 @@ msgstr ""
 "\"camera\"、\"drive-cdrom\"、\"media-cdrom\"、\"music-player\"、\"printer-"
 "remote\"、\"system\""
 
-#: data/icons.metainfo.xml.in:174
+#: data/icons.metainfo.xml.in:198
 msgid ""
 "\"process-completed\" uses a new checkmark shape, has a 32px version, and "
 "symlinks were added for \"emblem-default\""
@@ -338,11 +360,11 @@ msgstr ""
 "\"process-completed\" で使うチェックマークの形状を変更し、32px 版を追加。ま"
 "た、\"emblem-default\" へのシンボリックリンクを追加"
 
-#: data/icons.metainfo.xml.in:175
+#: data/icons.metainfo.xml.in:199
 msgid "Updated corner radius of \"edit-clear\" and \"document-*-symbolic\""
 msgstr "\"edit-clear\" と \"document-*-symbolic\" の角丸の比率を更新"
 
-#: data/icons.metainfo.xml.in:176
+#: data/icons.metainfo.xml.in:200
 msgid "Updated \"preferences-desktop-display\" and added a 64px version"
 msgstr "\"preferences-desktop-display\" を更新し、64px 版を追加"
 

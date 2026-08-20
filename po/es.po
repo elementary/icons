@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-31 04:43+0000\n"
+"POT-Creation-Date: 2026-08-20 12:21+0000\n"
 "PO-Revision-Date: 2026-06-30 22:56+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <italo@gp-mail.com>\n"
 "Language-Team: Spanish <https://l10n.elementaryos.org/projects/desktop/icons-"
@@ -35,24 +35,53 @@ msgstr ""
 "Un conjunto original de iconos vectoriales diseñados específicamente para el "
 "sistema operativo elementary y su entorno de escritorio: Pantheon."
 
-#: data/icons.metainfo.xml.in:34 data/icons.metainfo.xml.in:69
-#: data/icons.metainfo.xml.in:96 data/icons.metainfo.xml.in:159
+#: data/icons.metainfo.xml.in:34 data/icons.metainfo.xml.in:58
+#: data/icons.metainfo.xml.in:93 data/icons.metainfo.xml.in:120
+#: data/icons.metainfo.xml.in:183
 msgid "Additions:"
 msgstr "Iconos agregados:"
 
-#: data/icons.metainfo.xml.in:36
-msgid "`start-here`"
-msgstr "`start-here` (Comienza aquí)"
-
-#: data/icons.metainfo.xml.in:37
+#: data/icons.metainfo.xml.in:36 data/icons.metainfo.xml.in:61
 msgid "Tool icons for Inkscape"
 msgstr "Iconos de herramientas para Inkscape"
 
+#: data/icons.metainfo.xml.in:37
+msgid "16px `camera-photo`"
+msgstr ""
+
 #: data/icons.metainfo.xml.in:38
+msgid "48px, 64px, and 128px app icons"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:40 data/icons.metainfo.xml.in:66
+#: data/icons.metainfo.xml.in:100 data/icons.metainfo.xml.in:132
+#: data/icons.metainfo.xml.in:168 data/icons.metainfo.xml.in:196
+msgid "Updated families:"
+msgstr "Familias actualizadas:"
+
+#: data/icons.metainfo.xml.in:42
+msgid "Make `process-stop` and `process-completed` visually match"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:44 data/icons.metainfo.xml.in:74
+#: data/icons.metainfo.xml.in:127 data/icons.metainfo.xml.in:163
+#: data/icons.metainfo.xml.in:191
+msgid "Removals:"
+msgstr "Iconos retirados:"
+
+#: data/icons.metainfo.xml.in:46
+msgid "`office-calendar`"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:60
+msgid "`start-here`"
+msgstr "`start-here` (Comienza aquí)"
+
+#: data/icons.metainfo.xml.in:62
 msgid "Add Adwaita as a fallback for icon names"
 msgstr "Se agregó Addwaita como iconos predeterminados en caso de fallas"
 
-#: data/icons.metainfo.xml.in:39
+#: data/icons.metainfo.xml.in:63
 msgid ""
 "16px `accessories-character-map`, `document-properties`, `preferences-system`"
 msgstr ""
@@ -60,65 +89,54 @@ msgstr ""
 "system` («accesorios-mapa-caracteres», «documento-propiedades», «sistema-"
 "preferencias»)"
 
-#: data/icons.metainfo.xml.in:40
+#: data/icons.metainfo.xml.in:64
 msgid "24px `list-add-symbolic`"
 msgstr "24px `list-add-symbolic` («lista-agregar-simbólico»)"
 
-#: data/icons.metainfo.xml.in:42 data/icons.metainfo.xml.in:76
-#: data/icons.metainfo.xml.in:108 data/icons.metainfo.xml.in:144
-#: data/icons.metainfo.xml.in:172
-msgid "Updated families:"
-msgstr "Familias actualizadas:"
-
-#: data/icons.metainfo.xml.in:44
+#: data/icons.metainfo.xml.in:68
 msgid "Add a scroll wheel to mouse"
 msgstr "Se agregó desplazamiento de rueda para la familia de ratón"
 
-#: data/icons.metainfo.xml.in:45
+#: data/icons.metainfo.xml.in:69
 msgid "Use outline style for `applications-internet-symbolic`"
 msgstr ""
 "Se utiliza un estilo de borde para `applications-internet-symbolic` "
 "(«aplicaciones-internet-simbólico»)"
 
-#: data/icons.metainfo.xml.in:46
+#: data/icons.metainfo.xml.in:70
 msgid "Differentiate keyboard device from keyboard preferences"
 msgstr ""
 "Se diferencia entre el icono de dispositivo de teclado y el icono de "
 "preferencias de teclado"
 
-#: data/icons.metainfo.xml.in:47
+#: data/icons.metainfo.xml.in:71
 msgid "Round find-location"
 msgstr "Icono «encontrar ubicación redondo»"
 
-#: data/icons.metainfo.xml.in:48
+#: data/icons.metainfo.xml.in:72
 msgid "Remove visual artifact from 16px `edit-paste` icon"
 msgstr ""
 "Se eliminó un artefacto visual del icono 16px `edit-paste`(editor-pegar)"
 
-#: data/icons.metainfo.xml.in:50 data/icons.metainfo.xml.in:103
-#: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
-msgid "Removals:"
-msgstr "Iconos retirados:"
-
-#: data/icons.metainfo.xml.in:52
+#: data/icons.metainfo.xml.in:76
 msgid "`view-filter`"
 msgstr "`view-filter` («vista-filtro»)"
 
-#: data/icons.metainfo.xml.in:53
+#: data/icons.metainfo.xml.in:77
 msgid "`media-memory`"
 msgstr "`media-memory` («medios-memoria»)"
 
-#: data/icons.metainfo.xml.in:71
+#: data/icons.metainfo.xml.in:95
 msgid "import and export actions at 16px"
 msgstr "Acciones de importar y exportar en 16px"
 
-#: data/icons.metainfo.xml.in:72
+#: data/icons.metainfo.xml.in:96
 msgid "`mail-send-receive` now has a color version"
 msgstr ""
 "Se agregó una versión a color del icono`mail-send-receive` («correo-enviar-"
 "recibir»)"
 
-#: data/icons.metainfo.xml.in:73
+#: data/icons.metainfo.xml.in:97
 msgid ""
 "`system-software-install` has a new icon, separate from the AppCenter "
 "branding"
@@ -126,16 +144,16 @@ msgstr ""
 "`system-software-install` («sistema-software.instalar») tiene un nuevo "
 "icono , que se diferencie de la marca del Centro de Aplicaciones"
 
-#: data/icons.metainfo.xml.in:74
+#: data/icons.metainfo.xml.in:98
 msgid "symlinks are now handled in the build system"
 msgstr "Los enlaces simbólicos ahora se manejan en el sistema de «build»"
 
-#: data/icons.metainfo.xml.in:78
+#: data/icons.metainfo.xml.in:102
 msgid "Fixed color, pagesizes, and grid alignment for all symbolic icons"
 msgstr ""
 "Se corrigió el color, tamaño y alineamiento de todos los iconos simbólicos"
 
-#: data/icons.metainfo.xml.in:79
+#: data/icons.metainfo.xml.in:103
 msgid ""
 "`text` and `text-vertical` cursors have new designs, matching the new cursor "
 "style from 8.0.0"
@@ -143,13 +161,13 @@ msgstr ""
 "Los cursores de `text` («texto») y `text-vertical` («texto-vertical») tiene "
 "nuevos diseños que coinciden con el estilo de cursores de 8.0.0"
 
-#: data/icons.metainfo.xml.in:80
+#: data/icons.metainfo.xml.in:104
 msgid "Chat bubbles are now used for `user-*` status icons"
 msgstr ""
 "La burbujas de chat ahora se usan para los iconos de status tipo `user-*` "
 "(«usuario-*»)"
 
-#: data/icons.metainfo.xml.in:81
+#: data/icons.metainfo.xml.in:105
 msgid ""
 "`preferences-desktop-locacle-symbolic` has been updated to be closer to the "
 "color version"
@@ -157,7 +175,7 @@ msgstr ""
 "Se actualizó `preferences-desktop-locale-symbolic` («preferencias-escritorio-"
 "locale-simbólico») para parecerse más a la versión a color"
 
-#: data/icons.metainfo.xml.in:82
+#: data/icons.metainfo.xml.in:106
 msgid ""
 "The colors of the magnifying glass in print preview actions has been unified "
 "with that of the find action"
@@ -165,19 +183,19 @@ msgstr ""
 "Se unificaron los colores de la lupa en la vista previa de impresión y la de "
 "la acción de buscar"
 
-#: data/icons.metainfo.xml.in:83
+#: data/icons.metainfo.xml.in:107
 msgid "`mail-message-new` has been made more uniform across its variations"
 msgstr ""
 "`mail-message-new` («correo-mensaje-nuevo») se ha cambiado para ser más "
 "uniforme en sus variaciones"
 
-#: data/icons.metainfo.xml.in:84
+#: data/icons.metainfo.xml.in:108
 msgid "`save-as-symbolic` has a new design to differentiate from `save`"
 msgstr ""
 "`save-as-symbolic`(«guardar-como-simbólico») tiene un nuevo diseño para "
 "diferenciarse de `save` («guardar»)"
 
-#: data/icons.metainfo.xml.in:85
+#: data/icons.metainfo.xml.in:109
 msgid ""
 "session icons (`system-*`) have had minor updates to shape language and "
 "color added"
@@ -185,7 +203,7 @@ msgstr ""
 "Lo iconos de sesión `system-*` («sistema-*») han tenido actualizaciones "
 "menores para representar idioma y color"
 
-#: data/icons.metainfo.xml.in:98
+#: data/icons.metainfo.xml.in:122
 msgid ""
 "`preferences-desktop-wallpaper` is now a unique icon from `preferences-"
 "desktop` and features a colorful paint roller design"
@@ -194,7 +212,7 @@ msgstr ""
 "forma única, diferente de `preferences-desktop` («preferencias-escritorio») "
 "y dispone de un diseño de rodillo de pintura colorido"
 
-#: data/icons.metainfo.xml.in:99
+#: data/icons.metainfo.xml.in:123
 msgid ""
 "`accessories-screenshot-tool` and the symlink `applets-screenshooter` are "
 "added to cover icons expected by the Portals backend"
@@ -202,26 +220,26 @@ msgstr ""
 "Se agregaron los iconos `accessories-screenshot-tool` y el enlace `applets-"
 "screenshooter` para cubrir lo esperado por el «backend» de Portales"
 
-#: data/icons.metainfo.xml.in:100
+#: data/icons.metainfo.xml.in:124
 msgid "`usb-receiver` to cover peripheral receivers in FWUPD"
 msgstr ""
 "Se agregó `usb-receiver` («usb-receptor») para cubrir los receptores de "
 "periféricos en FWUPD"
 
-#: data/icons.metainfo.xml.in:101
+#: data/icons.metainfo.xml.in:125
 msgid "`system-log-out-symbolic`"
 msgstr "`system-log-out-symbolic` («sistema-cerrar-sesión-simbólico»)"
 
-#: data/icons.metainfo.xml.in:105
+#: data/icons.metainfo.xml.in:129
 msgid "`bug`"
 msgstr "`bug` («error»)"
 
-#: data/icons.metainfo.xml.in:106
+#: data/icons.metainfo.xml.in:130
 msgid "`preferences-system-parental-controls`"
 msgstr ""
 "`preferences-system-parental-controls` («preferencias-controles-parentales»)"
 
-#: data/icons.metainfo.xml.in:110
+#: data/icons.metainfo.xml.in:134
 msgid ""
 "Cursors have been completely redrawn with a new base pointer shape, colorful "
 "badges, and a new color wheel design for waiting states"
@@ -229,7 +247,7 @@ msgstr ""
 "Los cursores se han re-dibujado con una nueva base de puntero, insignias "
 "coloridas, y un nuevo diseño de rueda de color para estados de espera"
 
-#: data/icons.metainfo.xml.in:111
+#: data/icons.metainfo.xml.in:135
 msgid ""
 "Use brighter colors for `edit-find` icons and add missing 16px `edit-find-"
 "replace`"
@@ -238,52 +256,52 @@ msgstr ""
 "buscar»), y se agregó un icono de 16 px `edit-find-replace` («editar-buscar-"
 "reemplazar») faltante"
 
-#: data/icons.metainfo.xml.in:112
+#: data/icons.metainfo.xml.in:136
 msgid "Update the border radius of `preferences-desktop-locale`"
 msgstr ""
 "Se actualizó el radio de las esquinas de `preferences-desktop-"
 "locale`(«preferencia-escritorio-localización»)"
 
-#: data/icons.metainfo.xml.in:113
+#: data/icons.metainfo.xml.in:137
 msgid "`window-*` icons use more rounded arrow shapes"
 msgstr ""
 "Lo iconos de `window-*`(«ventana-*») ahora utilizan flechas con formas más "
 "redondeadas"
 
-#: data/icons.metainfo.xml.in:114
+#: data/icons.metainfo.xml.in:138
 msgid "`system-*-symbolic` icons are a more uniform size"
 msgstr ""
 "Los iconos de `system-*-symbolic` («sistma-*-simbólicos») tienen ahora un "
 "tamaño más uniforme"
 
-#: data/icons.metainfo.xml.in:115
+#: data/icons.metainfo.xml.in:139
 msgid "halign checkmark on 32px `process-completed`"
 msgstr ""
 "Se agrego una casilla de alienación horizontal en el icono de 32 px `process-"
 "completed` («proceso-finalizado»)"
 
-#: data/icons.metainfo.xml.in:116
+#: data/icons.metainfo.xml.in:140
 msgid "redesign `preferences-system` with higher contrast and more detail"
 msgstr ""
 "Se ah rediseñado `preferences-system`con un mayor contraste y más detalle"
 
-#: data/icons.metainfo.xml.in:117
+#: data/icons.metainfo.xml.in:141
 msgid "clean up 128 drive-harddisk"
 msgstr "Se ha limpiado el icono de 128 px drive-harddisk («disco-duro»)"
 
-#: data/icons.metainfo.xml.in:118
+#: data/icons.metainfo.xml.in:142
 msgid "Fix grid alignment of several `document-*` icons"
 msgstr ""
 "Se corrigió el alineamiento de grilla de varios iconos de `document-*` "
 "(«documento-*»)"
 
-#: data/icons.metainfo.xml.in:119
+#: data/icons.metainfo.xml.in:143
 msgid "Use a bell for `preferences-system-notification`"
 msgstr ""
 "Ahora se usa una campana para `preferences-system-notification` "
 "(«preferencias-sistema-notificación»)"
 
-#: data/icons.metainfo.xml.in:141
+#: data/icons.metainfo.xml.in:165
 msgid ""
 "non-fd.o \"bluetooth-*\", \"microphone-sensitivity-*\", and \"night-light\" "
 "symbolic panel icons"
@@ -292,20 +310,20 @@ msgstr ""
 "*», «microphone-sensitivity-*» (sensibilidad del micrófono) y «night-light» "
 "(luz nocturna)"
 
-#: data/icons.metainfo.xml.in:142
+#: data/icons.metainfo.xml.in:166
 msgid "\"mail-archive\" and \"mail-move\""
 msgstr "«mail-archive» (archivo del correo) y «mail-move» (mover correo)"
 
-#: data/icons.metainfo.xml.in:146
+#: data/icons.metainfo.xml.in:170
 msgid "\"insert-image-symbolic\" is now more detailed"
 msgstr ""
 "«insert-image-symbolic» (insertar imagen simbólica) ahora es más detallada"
 
-#: data/icons.metainfo.xml.in:147
+#: data/icons.metainfo.xml.in:171
 msgid "\"media-record\" has an updated palette"
 msgstr "«media-record» (grabador de medios) tiene una paleta actualizada"
 
-#: data/icons.metainfo.xml.in:148
+#: data/icons.metainfo.xml.in:172
 msgid ""
 "\"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-optical\", "
 "\"open-menu\", \"system-run\" look better on dark backgrounds"
@@ -315,7 +333,7 @@ msgstr ""
 "«open-menu» (abrir menú), «system-run» (ejecutar sistema) se ven mejor en "
 "fondos oscuros"
 
-#: data/icons.metainfo.xml.in:149
+#: data/icons.metainfo.xml.in:173
 msgid ""
 "Improved arrow shape for \"browser-download\", \"document-send\", \"document-"
 "import/export\", \"object-merge\", \"object-rotate\", \"pane-hide/show\", "
@@ -327,13 +345,13 @@ msgstr ""
 "(rotar objeto), «pane-hide/show» (ocultar/mostrar panel) y «view-refresh» "
 "(refrescar vista)"
 
-#: data/icons.metainfo.xml.in:161
+#: data/icons.metainfo.xml.in:185
 msgid "\"list-drag-handle-symbolic\" as used in draggable list box rows"
 msgstr ""
 "«list-drag-handle-symbolic» (arrastrar lista simbólica) usado en filas de "
 "listas en forma de caja"
 
-#: data/icons.metainfo.xml.in:162
+#: data/icons.metainfo.xml.in:186
 msgid ""
 "\"selection-mode-symbolic\" as used in apps which have a button to switch a "
 "list into a selection mode"
@@ -342,24 +360,24 @@ msgstr ""
 "aplicaciones que tengan un botón para cambiar entre una vista de lista y "
 "otro modo de selección"
 
-#: data/icons.metainfo.xml.in:163
+#: data/icons.metainfo.xml.in:187
 msgid "\"adw-expander-arrow-symbolic\" as used in Adw.PreferencesWindow"
 msgstr ""
 "«adw-expander-arrow-symbolic» (flecha expansora simbólica de Adwaita) usado "
 "en Adw.PreferencesWindow (Ventana de preferencias)"
 
-#: data/icons.metainfo.xml.in:164
+#: data/icons.metainfo.xml.in:188
 msgid "\"adw-external-link-symbolic\" as used in Adw.AboutWindow"
 msgstr ""
 "«adw-external-link-symbolic» (enlace externo simbólico de Adwaita) usada en "
 "Adw.AboutWindow (ventana acerca de)"
 
-#: data/icons.metainfo.xml.in:165
+#: data/icons.metainfo.xml.in:189
 msgid "\"adw-tab-*\" icons as used with Adw.Tabbar"
 msgstr ""
 "«adw-tab-*» (pestañas de Adwaita) usados con Adw.Tabbar (barra de pestañas)"
 
-#: data/icons.metainfo.xml.in:169
+#: data/icons.metainfo.xml.in:193
 msgid ""
 "\"network-*\" status icons which are not in the FreeDesktop icon name "
 "specification"
@@ -367,18 +385,18 @@ msgstr ""
 "«network-*» (red), iconos de estatus que no se encuentran en la "
 "especificación de nombres de FreeDesktop"
 
-#: data/icons.metainfo.xml.in:170
+#: data/icons.metainfo.xml.in:194
 msgid ""
 "Device icons which are not in the FreeDesktop icon name specification: "
 "\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", \"printer-"
 "remote\", and \"system\""
 msgstr ""
 "Iconos de dispositivos que no se encuentran en la especificación de nombres "
-"de FreeDesktop: «camera» (cámara), «drive-cdrom» (unidad de CD), «media-cdrom"
-"» (medio de CD), «music-player» (reproductor de música), «printer-remote» "
-"(impresora remota) y «system» (sistema)"
+"de FreeDesktop: «camera» (cámara), «drive-cdrom» (unidad de CD), «media-"
+"cdrom» (medio de CD), «music-player» (reproductor de música), «printer-"
+"remote» (impresora remota) y «system» (sistema)"
 
-#: data/icons.metainfo.xml.in:174
+#: data/icons.metainfo.xml.in:198
 msgid ""
 "\"process-completed\" uses a new checkmark shape, has a 32px version, and "
 "symlinks were added for \"emblem-default\""
@@ -387,13 +405,13 @@ msgstr ""
 "de verificación, tiene una versión de 32px y se agregaron enlaces simbólicos "
 "para «emblem-default» (emblema predeterminado)"
 
-#: data/icons.metainfo.xml.in:175
+#: data/icons.metainfo.xml.in:199
 msgid "Updated corner radius of \"edit-clear\" and \"document-*-symbolic\""
 msgstr ""
 "Se actualizaron los radios de las esquinas para «edit-clear» (editar, "
 "limpiar) y «document-*-symbolic» (documentos simbólicos)"
 
-#: data/icons.metainfo.xml.in:176
+#: data/icons.metainfo.xml.in:200
 msgid "Updated \"preferences-desktop-display\" and added a 64px version"
 msgstr ""
 "Se actualizó «preferences-desktop-display» (preferencias del escritorio o "
