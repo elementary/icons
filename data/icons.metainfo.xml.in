@@ -29,6 +29,30 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
+    <release version="9.0.0" date="2026-08-23" urgency="medium">
+      <description translate="no">
+        <p>Additions:</p>
+        <ul>
+          <li>Tool icons for Inkscape</li>
+          <li>16px `camera-photo`</li>
+          <li>48px, 64px, and 128px app icons</li>
+        </ul>
+        <p>Updated families:</p>
+        <ul>
+          <li>Make `process-stop` and `process-completed` visually match</li>
+        </ul>
+        <p>Removals:</p>
+        <ul>
+          <li>`office-calendar`</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/icons/issues/540">missing actions/tools-check-spelling</issue>
+        <issue url="https://github.com/elementary/icons/issues/1397">Release descriptions are still translatable</issue>
+        <issue url="https://github.com/elementary/icons/issues/1420">Broken symbolics on Gtk 4.22 (symbolic format VS Transforms)</issue>
+      </issues>
+    </release>
+
     <release version="8.2.0" date="2025-10-31" urgency="medium">
       <description translate="no">
         <p>Additions:</p>
