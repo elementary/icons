@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-31 04:43+0000\n"
+"POT-Creation-Date: 2026-08-20 12:21+0000\n"
 "PO-Revision-Date: 2026-01-06 12:55+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
@@ -33,82 +33,100 @@ msgid ""
 "its desktop environment: Pantheon."
 msgstr "專門設計給 elementary OS 與其桌面環境 Pantheon 使用的原創向量圖示集。"
 
-#: data/icons.metainfo.xml.in:34 data/icons.metainfo.xml.in:69
-#: data/icons.metainfo.xml.in:96 data/icons.metainfo.xml.in:159
+#: data/icons.metainfo.xml.in:34 data/icons.metainfo.xml.in:58
+#: data/icons.metainfo.xml.in:93 data/icons.metainfo.xml.in:120
+#: data/icons.metainfo.xml.in:183
 msgid "Additions:"
 msgstr "新增項目："
 
-#: data/icons.metainfo.xml.in:36
-msgid "`start-here`"
-msgstr "`start-here`"
-
-#: data/icons.metainfo.xml.in:37
+#: data/icons.metainfo.xml.in:36 data/icons.metainfo.xml.in:61
 msgid "Tool icons for Inkscape"
 msgstr "Inkscape 用的工具圖示"
 
+#: data/icons.metainfo.xml.in:37
+msgid "16px `camera-photo`"
+msgstr ""
+
 #: data/icons.metainfo.xml.in:38
+msgid "48px, 64px, and 128px app icons"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:40 data/icons.metainfo.xml.in:66
+#: data/icons.metainfo.xml.in:100 data/icons.metainfo.xml.in:132
+#: data/icons.metainfo.xml.in:168 data/icons.metainfo.xml.in:196
+msgid "Updated families:"
+msgstr "更新圖示家族："
+
+#: data/icons.metainfo.xml.in:42
+msgid "Make `process-stop` and `process-completed` visually match"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:44 data/icons.metainfo.xml.in:74
+#: data/icons.metainfo.xml.in:127 data/icons.metainfo.xml.in:163
+#: data/icons.metainfo.xml.in:191
+msgid "Removals:"
+msgstr "移除項目："
+
+#: data/icons.metainfo.xml.in:46
+msgid "`office-calendar`"
+msgstr ""
+
+#: data/icons.metainfo.xml.in:60
+msgid "`start-here`"
+msgstr "`start-here`"
+
+#: data/icons.metainfo.xml.in:62
 msgid "Add Adwaita as a fallback for icon names"
 msgstr "使用 Adwaita 作為圖示名稱備用方案"
 
-#: data/icons.metainfo.xml.in:39
+#: data/icons.metainfo.xml.in:63
 msgid ""
 "16px `accessories-character-map`, `document-properties`, `preferences-system`"
 msgstr ""
 "16 像素的 `accessories-character-map`、`document-properties`、`preferences-"
 "system`"
 
-#: data/icons.metainfo.xml.in:40
+#: data/icons.metainfo.xml.in:64
 msgid "24px `list-add-symbolic`"
 msgstr "24 像素的 `list-add-symbolic`"
 
-#: data/icons.metainfo.xml.in:42 data/icons.metainfo.xml.in:76
-#: data/icons.metainfo.xml.in:108 data/icons.metainfo.xml.in:144
-#: data/icons.metainfo.xml.in:172
-msgid "Updated families:"
-msgstr "更新圖示家族："
-
-#: data/icons.metainfo.xml.in:44
+#: data/icons.metainfo.xml.in:68
 msgid "Add a scroll wheel to mouse"
 msgstr "在滑鼠圖示上加上滾輪"
 
-#: data/icons.metainfo.xml.in:45
+#: data/icons.metainfo.xml.in:69
 msgid "Use outline style for `applications-internet-symbolic`"
 msgstr "為 `applications-internet-symbolic` 使用輪廓風格"
 
-#: data/icons.metainfo.xml.in:46
+#: data/icons.metainfo.xml.in:70
 msgid "Differentiate keyboard device from keyboard preferences"
 msgstr "為鍵盤偏好設定與鍵盤裝置使用不同的圖示"
 
-#: data/icons.metainfo.xml.in:47
+#: data/icons.metainfo.xml.in:71
 msgid "Round find-location"
 msgstr "讓 `find-location` 變圓滑"
 
-#: data/icons.metainfo.xml.in:48
+#: data/icons.metainfo.xml.in:72
 msgid "Remove visual artifact from 16px `edit-paste` icon"
 msgstr "修正 16 像素 `edit-paste` 圖示的視覺問題"
 
-#: data/icons.metainfo.xml.in:50 data/icons.metainfo.xml.in:103
-#: data/icons.metainfo.xml.in:139 data/icons.metainfo.xml.in:167
-msgid "Removals:"
-msgstr "移除項目："
-
-#: data/icons.metainfo.xml.in:52
+#: data/icons.metainfo.xml.in:76
 msgid "`view-filter`"
 msgstr "`view-filter`"
 
-#: data/icons.metainfo.xml.in:53
+#: data/icons.metainfo.xml.in:77
 msgid "`media-memory`"
 msgstr "`media-memory`"
 
-#: data/icons.metainfo.xml.in:71
+#: data/icons.metainfo.xml.in:95
 msgid "import and export actions at 16px"
 msgstr "新增 16 像素版的匯入匯出動作圖示"
 
-#: data/icons.metainfo.xml.in:72
+#: data/icons.metainfo.xml.in:96
 msgid "`mail-send-receive` now has a color version"
 msgstr "`mail-send-receive` 現在有彩色版了"
 
-#: data/icons.metainfo.xml.in:73
+#: data/icons.metainfo.xml.in:97
 msgid ""
 "`system-software-install` has a new icon, separate from the AppCenter "
 "branding"
@@ -116,51 +134,51 @@ msgstr ""
 "為 `system-software-install` 提供新圖示，讓它不再與《應用程式中心》使用相同設"
 "計"
 
-#: data/icons.metainfo.xml.in:74
+#: data/icons.metainfo.xml.in:98
 msgid "symlinks are now handled in the build system"
 msgstr "建置系統現在會處理符號連結"
 
-#: data/icons.metainfo.xml.in:78
+#: data/icons.metainfo.xml.in:102
 msgid "Fixed color, pagesizes, and grid alignment for all symbolic icons"
 msgstr "修正所有符號圖示的色彩、頁面大小與格線對齊"
 
-#: data/icons.metainfo.xml.in:79
+#: data/icons.metainfo.xml.in:103
 msgid ""
 "`text` and `text-vertical` cursors have new designs, matching the new cursor "
 "style from 8.0.0"
 msgstr "為 `text` 和 `text-vertical` 的游標使用 8.0.0 的新游標設計"
 
-#: data/icons.metainfo.xml.in:80
+#: data/icons.metainfo.xml.in:104
 msgid "Chat bubbles are now used for `user-*` status icons"
 msgstr "為 `user-*` 狀態圖示使用聊天泡泡"
 
-#: data/icons.metainfo.xml.in:81
+#: data/icons.metainfo.xml.in:105
 msgid ""
 "`preferences-desktop-locacle-symbolic` has been updated to be closer to the "
 "color version"
 msgstr "更新 `preferences-desktop-locacle-symbolic` 來與彩色版更接近"
 
-#: data/icons.metainfo.xml.in:82
+#: data/icons.metainfo.xml.in:106
 msgid ""
 "The colors of the magnifying glass in print preview actions has been unified "
 "with that of the find action"
 msgstr "讓列印預覽動作圖示的放大鏡使用與尋找動作圖示的放大鏡相同的色彩"
 
-#: data/icons.metainfo.xml.in:83
+#: data/icons.metainfo.xml.in:107
 msgid "`mail-message-new` has been made more uniform across its variations"
 msgstr "讓 `mail-message-new` 的各種變種更一致"
 
-#: data/icons.metainfo.xml.in:84
+#: data/icons.metainfo.xml.in:108
 msgid "`save-as-symbolic` has a new design to differentiate from `save`"
 msgstr "重新設計 `save-as-symbolic` 讓它與 `save` 不同"
 
-#: data/icons.metainfo.xml.in:85
+#: data/icons.metainfo.xml.in:109
 msgid ""
 "session icons (`system-*`) have had minor updates to shape language and "
 "color added"
 msgstr "稍微修改工作階段圖示 (`system-*`) 的語言、色彩和形狀"
 
-#: data/icons.metainfo.xml.in:98
+#: data/icons.metainfo.xml.in:122
 msgid ""
 "`preferences-desktop-wallpaper` is now a unique icon from `preferences-"
 "desktop` and features a colorful paint roller design"
@@ -168,7 +186,7 @@ msgstr ""
 "`preferences-desktop-wallpaper` 現在使用一個包含七彩滾塗工具的設計，並與 "
 "`preferences-desktop` 區分開來"
 
-#: data/icons.metainfo.xml.in:99
+#: data/icons.metainfo.xml.in:123
 msgid ""
 "`accessories-screenshot-tool` and the symlink `applets-screenshooter` are "
 "added to cover icons expected by the Portals backend"
@@ -176,69 +194,69 @@ msgstr ""
 "新增 `accessories-screenshot-tool` 和它的符號連結 `applets-screenshooter` 來"
 "滿足桌面入口後端的預期"
 
-#: data/icons.metainfo.xml.in:100
+#: data/icons.metainfo.xml.in:124
 msgid "`usb-receiver` to cover peripheral receivers in FWUPD"
 msgstr "FWUPD 的周邊接收器用的 `usb-receiver`"
 
-#: data/icons.metainfo.xml.in:101
+#: data/icons.metainfo.xml.in:125
 msgid "`system-log-out-symbolic`"
 msgstr "`system-log-out-symbolic`"
 
-#: data/icons.metainfo.xml.in:105
+#: data/icons.metainfo.xml.in:129
 msgid "`bug`"
 msgstr "`bug`"
 
-#: data/icons.metainfo.xml.in:106
+#: data/icons.metainfo.xml.in:130
 msgid "`preferences-system-parental-controls`"
 msgstr "`preferences-system-parental-controls`"
 
-#: data/icons.metainfo.xml.in:110
+#: data/icons.metainfo.xml.in:134
 msgid ""
 "Cursors have been completely redrawn with a new base pointer shape, colorful "
 "badges, and a new color wheel design for waiting states"
 msgstr ""
 "完全重畫游標：改變基礎指標形狀，提供彩色徽章，並重新設計等待狀態的色彩環"
 
-#: data/icons.metainfo.xml.in:111
+#: data/icons.metainfo.xml.in:135
 msgid ""
 "Use brighter colors for `edit-find` icons and add missing 16px `edit-find-"
 "replace`"
 msgstr ""
 "為 `edit-find` 圖示使用更亮的顏色並新增原本缺乏的 16 像素 `edit-find-replace`"
 
-#: data/icons.metainfo.xml.in:112
+#: data/icons.metainfo.xml.in:136
 msgid "Update the border radius of `preferences-desktop-locale`"
 msgstr "更新 `preferences-desktop-locale` 的角落半徑"
 
-#: data/icons.metainfo.xml.in:113
+#: data/icons.metainfo.xml.in:137
 msgid "`window-*` icons use more rounded arrow shapes"
 msgstr "讓 `window-*` 圖示使用更圓滑的形狀"
 
-#: data/icons.metainfo.xml.in:114
+#: data/icons.metainfo.xml.in:138
 msgid "`system-*-symbolic` icons are a more uniform size"
 msgstr "讓 `system-*-symbolic` 圖示大小更一致"
 
-#: data/icons.metainfo.xml.in:115
+#: data/icons.metainfo.xml.in:139
 msgid "halign checkmark on 32px `process-completed`"
 msgstr "水平對齊 32 像素 `process-completed` 的勾選符號"
 
-#: data/icons.metainfo.xml.in:116
+#: data/icons.metainfo.xml.in:140
 msgid "redesign `preferences-system` with higher contrast and more detail"
 msgstr "重新設計 `preferences-system`，提供更高的對比和更多細節"
 
-#: data/icons.metainfo.xml.in:117
+#: data/icons.metainfo.xml.in:141
 msgid "clean up 128 drive-harddisk"
 msgstr "清理 128 `drive-harddisk`"
 
-#: data/icons.metainfo.xml.in:118
+#: data/icons.metainfo.xml.in:142
 msgid "Fix grid alignment of several `document-*` icons"
 msgstr "修正好幾個 `document-*` 圖示的格線對齊"
 
-#: data/icons.metainfo.xml.in:119
+#: data/icons.metainfo.xml.in:143
 msgid "Use a bell for `preferences-system-notification`"
 msgstr "在 `preferences-system-notification` 設計裡放入一個鐘"
 
-#: data/icons.metainfo.xml.in:141
+#: data/icons.metainfo.xml.in:165
 msgid ""
 "non-fd.o \"bluetooth-*\", \"microphone-sensitivity-*\", and \"night-light\" "
 "symbolic panel icons"
@@ -246,19 +264,19 @@ msgstr ""
 "非由 Freedesktop.org 所定義的 \"bluetooth-*\"、\"microphone-sensitivity-*\" "
 "及 \"night-light\" 符號面板圖示"
 
-#: data/icons.metainfo.xml.in:142
+#: data/icons.metainfo.xml.in:166
 msgid "\"mail-archive\" and \"mail-move\""
 msgstr "\"mail-archive\" 和 \"mail-move\""
 
-#: data/icons.metainfo.xml.in:146
+#: data/icons.metainfo.xml.in:170
 msgid "\"insert-image-symbolic\" is now more detailed"
 msgstr "\"insert-image-symbolic\" 現在有更多細節"
 
-#: data/icons.metainfo.xml.in:147
+#: data/icons.metainfo.xml.in:171
 msgid "\"media-record\" has an updated palette"
 msgstr "更新 \"media-record\" 的配色"
 
-#: data/icons.metainfo.xml.in:148
+#: data/icons.metainfo.xml.in:172
 msgid ""
 "\"document-page-setup\", \"edit-copy\", \"edit-cut\", \"media-optical\", "
 "\"open-menu\", \"system-run\" look better on dark backgrounds"
@@ -266,7 +284,7 @@ msgstr ""
 "改善 \"document-page-setup\"、\"edit-copy\"、\"edit-cut\"、\"media-"
 "optical\"、\"open-menu\" 和 \"system-run\" 在深色背景上的效果"
 
-#: data/icons.metainfo.xml.in:149
+#: data/icons.metainfo.xml.in:173
 msgid ""
 "Improved arrow shape for \"browser-download\", \"document-send\", \"document-"
 "import/export\", \"object-merge\", \"object-rotate\", \"pane-hide/show\", "
@@ -276,39 +294,39 @@ msgstr ""
 "\"object-merge\"、\"object-rotate\"、\"pane-hide/show\" 和 \"view-refresh\" "
 "的箭頭形狀"
 
-#: data/icons.metainfo.xml.in:161
+#: data/icons.metainfo.xml.in:185
 msgid "\"list-drag-handle-symbolic\" as used in draggable list box rows"
 msgstr "\"list-drag-handle-symbolic\"，用於可拖曳列表方塊的列"
 
-#: data/icons.metainfo.xml.in:162
+#: data/icons.metainfo.xml.in:186
 msgid ""
 "\"selection-mode-symbolic\" as used in apps which have a button to switch a "
 "list into a selection mode"
 msgstr ""
 "\"selection-mode-symbolic\"，用於需要有按鈕來將列表切換為選取模式的應用程式"
 
-#: data/icons.metainfo.xml.in:163
+#: data/icons.metainfo.xml.in:187
 msgid "\"adw-expander-arrow-symbolic\" as used in Adw.PreferencesWindow"
 msgstr ""
 "\"adw-expander-arrow-symbolic\"，用於 Adw.PreferencesWindow（libadwaita 偏好"
 "設定視窗）"
 
-#: data/icons.metainfo.xml.in:164
+#: data/icons.metainfo.xml.in:188
 msgid "\"adw-external-link-symbolic\" as used in Adw.AboutWindow"
 msgstr ""
 "\"adw-external-link-symbolic\"，用於 Adw.AboutWindow（libadwaita 關於視窗）"
 
-#: data/icons.metainfo.xml.in:165
+#: data/icons.metainfo.xml.in:189
 msgid "\"adw-tab-*\" icons as used with Adw.Tabbar"
 msgstr "\"adw-tab-*\" 各圖示，用於 Adw.Tabbar（libadwaita 分頁列）"
 
-#: data/icons.metainfo.xml.in:169
+#: data/icons.metainfo.xml.in:193
 msgid ""
 "\"network-*\" status icons which are not in the FreeDesktop icon name "
 "specification"
 msgstr "沒有定義在 FreeDesktop 圖示名稱標準中的 \"network-*\" 網路狀態圖示"
 
-#: data/icons.metainfo.xml.in:170
+#: data/icons.metainfo.xml.in:194
 msgid ""
 "Device icons which are not in the FreeDesktop icon name specification: "
 "\"camera\", \"drive-cdrom\", \"media-cdrom\", \"music-player\", \"printer-"
@@ -317,7 +335,7 @@ msgstr ""
 "沒有定義在 FreeDesktop 圖示名稱標準中的裝置圖示：\"camera\"、\"drive-"
 "cdrom\"、\"media-cdrom\"、\"music-player\"、\"printer-remote\" 和 \"system\""
 
-#: data/icons.metainfo.xml.in:174
+#: data/icons.metainfo.xml.in:198
 msgid ""
 "\"process-completed\" uses a new checkmark shape, has a 32px version, and "
 "symlinks were added for \"emblem-default\""
@@ -325,11 +343,11 @@ msgstr ""
 "\"process-completed\" 現在使用新的勾選圖示形狀，有了 32px 版本，並為 "
 "\"emblem-default\" 新增符號連結"
 
-#: data/icons.metainfo.xml.in:175
+#: data/icons.metainfo.xml.in:199
 msgid "Updated corner radius of \"edit-clear\" and \"document-*-symbolic\""
 msgstr "更新 \"edit-clear\" 和 \"document-*-symbolic\" 的角落半徑"
 
-#: data/icons.metainfo.xml.in:176
+#: data/icons.metainfo.xml.in:200
 msgid "Updated \"preferences-desktop-display\" and added a 64px version"
 msgstr "更新 \"preferences-desktop-display\" 並添加 64px 版本"
 
