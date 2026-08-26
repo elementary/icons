@@ -1,21 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   height="16"
-   width="16"
-   version="1.1"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <g
-     transform="translate(-872 -460)"
-     id="g1"
-     style="fill:#555761">
-    <path
-       d="M877 461c-.554 0-1 .446-1 1v1c0 .554.446 1 1 1h1c.554 0 1-.446 1-1v-1c0-.554-.446-1-1-1zm-.472 4l-.528.383-1.947 3.894c-.335.61.61 1.08.894.446l1.053-2.106.38-1.125L876 470v5h1v-4h1v4h1v-5l-.528-3.512.528 1.13 1.053 2.105a.5.5 0 0 0 .224.224l1.723.862V475h2v-3.293l.646.647c.472.49 1.198-.236.708-.708L884 470.293V470h-1.383l-1.744-.873-1.873-3.744-.693-.383zm5.472 2v2h2v-2z"
-       fill="#666"
-       id="path1"
-       style="fill:#555761" />
-  </g>
+        xmlns='http://www.w3.org/2000/svg'
+        xmlns:svg='http://www.w3.org/2000/svg'
+        id='svg1'
+        width='16'
+        height='16'>
+  <path
+          id='path1'
+          fill='url(#gpa:foreground) #555761'
+          fill-opacity='1'
+          fill-rule='nonzero'
+          d='M 5 1 C 4.446 1, 4 1.446, 4 2 L 4 3 C 4 3.554, 4.446 4, 5 4 L 6 4 C 6.554 4, 7 3.554, 7 3 L 7 2 C 7 1.446, 6.554 1, 6 1 Z M 4.528 5 L 4 5.383 L 2.053 9.277 C 1.718 9.887, 2.663 10.357, 2.947 9.723 L 4 7.617 L 4.38 6.492 L 4 10 L 4 15 L 5 15 L 5 11 L 6 11 L 6 15 L 7 15 L 7 10 L 6.472 6.488 L 7 7.618 L 8.053 9.723 A 0.5 0.5 0 0 0 8.277 9.947 L 10 10.809 L 10 15 L 12 15 L 12 11.707 L 12.646 12.354 C 13.118 12.844, 13.844 12.118, 13.354 11.646 L 12 10.293 L 12 10 L 10.617 10 L 8.873 9.127 L 7 5.383 L 6.307 5 Z M 10 7 L 10 9 L 12 9 L 12 7 Z'
+          class='foreground foreground-fill'>
+  </path>
 </svg>
