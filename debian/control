@@ -11,9 +11,9 @@ Homepage: https://elementary.io/
 
 Package: elementary-icon-theme
 Architecture: all
-Depends: gnome-icon-theme-full | gnome-icon-theme (>= 3.12.0-2),
-         hicolor-icon-theme,
+Depends: hicolor-icon-theme,
          ${misc:Depends}
+Suggests: libgranite-9-common
 Description: simple and appealing Tango-styled icon theme
  The official elementary icons are designed to be simple and appealing.
  .
