@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-20 12:21+0000\n"
-"PO-Revision-Date: 2026-09-18 04:08+0000\n"
+"PO-Revision-Date: 2026-09-22 00:04+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementaryos.org/projects/desktop/"
 "icons-extra/uk/>\n"
@@ -72,7 +72,7 @@ msgstr "Вилучення:"
 
 #: data/icons.metainfo.xml.in:46
 msgid "`office-calendar`"
-msgstr ""
+msgstr "`office-calendar`"
 
 #: data/icons.metainfo.xml.in:60
 msgid "`start-here`"
@@ -80,7 +80,7 @@ msgstr "`start-here`"
 
 #: data/icons.metainfo.xml.in:62
 msgid "Add Adwaita as a fallback for icon names"
-msgstr ""
+msgstr "Adwaita додано альтернативним варіантом для назв піктограм"
 
 #: data/icons.metainfo.xml.in:63
 msgid ""
@@ -94,23 +94,23 @@ msgstr "24px `list-add-symbolic`"
 
 #: data/icons.metainfo.xml.in:68
 msgid "Add a scroll wheel to mouse"
-msgstr ""
+msgstr "Додано прокручування коліщатком миші"
 
 #: data/icons.metainfo.xml.in:69
 msgid "Use outline style for `applications-internet-symbolic`"
-msgstr ""
+msgstr "Використано стиль «контур» для `applications-internet-symbolic`"
 
 #: data/icons.metainfo.xml.in:70
 msgid "Differentiate keyboard device from keyboard preferences"
-msgstr ""
+msgstr "Розрізнення пристрою клавіатури та налаштування клавіатури"
 
 #: data/icons.metainfo.xml.in:71
 msgid "Round find-location"
-msgstr ""
+msgstr "Заокруглення find-location"
 
 #: data/icons.metainfo.xml.in:72
 msgid "Remove visual artifact from 16px `edit-paste` icon"
-msgstr ""
+msgstr "Прибрано візуальний артефакт з піктограми 16px `edit-paste`"
 
 #: data/icons.metainfo.xml.in:76
 msgid "`view-filter`"
@@ -122,77 +122,93 @@ msgstr "`media-memory`"
 
 #: data/icons.metainfo.xml.in:95
 msgid "import and export actions at 16px"
-msgstr ""
+msgstr "операції імпорту та експорту отримали розмір 16 пікселів"
 
 #: data/icons.metainfo.xml.in:96
 msgid "`mail-send-receive` now has a color version"
-msgstr ""
+msgstr "відтепер мають кольорові версії"
 
 #: data/icons.metainfo.xml.in:97
 msgid ""
 "`system-software-install` has a new icon, separate from the AppCenter "
 "branding"
 msgstr ""
+"`system-software-install` має нову піктограму, окрему від брендингу AppCenter"
 
 #: data/icons.metainfo.xml.in:98
 msgid "symlinks are now handled in the build system"
-msgstr ""
+msgstr "Система збірки відтепер обробляє символічні посилання"
 
 #: data/icons.metainfo.xml.in:102
 msgid "Fixed color, pagesizes, and grid alignment for all symbolic icons"
 msgstr ""
+"Виправлено колір, розміри сторінок та вирівнювання по сітці для всіх "
+"символьних піктограм"
 
 #: data/icons.metainfo.xml.in:103
 msgid ""
 "`text` and `text-vertical` cursors have new designs, matching the new cursor "
 "style from 8.0.0"
 msgstr ""
+"Курсори `text` і `text-vertical` отримали новий вигляд, відповідно до нового "
+"стилю курсора, запровадженого у версії 8.0.0"
 
 #: data/icons.metainfo.xml.in:104
 msgid "Chat bubbles are now used for `user-*` status icons"
-msgstr ""
+msgstr "Тепер для піктограм статусу `user-*` використовуються бульбашки чату"
 
 #: data/icons.metainfo.xml.in:105
 msgid ""
 "`preferences-desktop-locacle-symbolic` has been updated to be closer to the "
 "color version"
 msgstr ""
+"`preferences-desktop-locacle-symbolic` було оновлено, щоб більше нагадувати "
+"кольорову версію"
 
 #: data/icons.metainfo.xml.in:106
 msgid ""
 "The colors of the magnifying glass in print preview actions has been unified "
 "with that of the find action"
 msgstr ""
+"Кольори лупи в діях попереднього перегляду друку були приведені у "
+"відповідність до кольорів дії «Знайти»"
 
 #: data/icons.metainfo.xml.in:107
 msgid "`mail-message-new` has been made more uniform across its variations"
 msgstr ""
+"`mail-message-new` було приведено до більшої уніфікації у всіх його варіантах"
 
 #: data/icons.metainfo.xml.in:108
 msgid "`save-as-symbolic` has a new design to differentiate from `save`"
-msgstr ""
+msgstr "`save-as-symbolic` має новий дизайн, щоб відрізнятися від `save`"
 
 #: data/icons.metainfo.xml.in:109
 msgid ""
 "session icons (`system-*`) have had minor updates to shape language and "
 "color added"
 msgstr ""
+"Піктограми сеансів (`system-*`) зазнали незначних оновлень: додано мову "
+"позначень та кольори"
 
 #: data/icons.metainfo.xml.in:122
 msgid ""
 "`preferences-desktop-wallpaper` is now a unique icon from `preferences-"
 "desktop` and features a colorful paint roller design"
 msgstr ""
+"`preferences-desktop-wallpaper` тепер є унікальною піктограмою з пакета "
+"`preferences-desktop` і має вигляд кольорового малярського валика"
 
 #: data/icons.metainfo.xml.in:123
 msgid ""
 "`accessories-screenshot-tool` and the symlink `applets-screenshooter` are "
 "added to cover icons expected by the Portals backend"
 msgstr ""
+"`accessories-screenshot-tool` і символічне посилання `applets-screenshooter` "
+"додано для показу піктограм, які очікує серверна частина Portals"
 
 #: data/icons.metainfo.xml.in:124
 msgid "`usb-receiver` to cover peripheral receivers in FWUPD"
-msgstr ""
+msgstr "`usb-receiver` для охоплення периферійних приймачів у FWUPD"
 
 #: data/icons.metainfo.xml.in:125
 msgid "`system-log-out-symbolic`"
@@ -211,12 +227,16 @@ msgid ""
 "Cursors have been completely redrawn with a new base pointer shape, colorful "
 "badges, and a new color wheel design for waiting states"
 msgstr ""
+"Курсори було повністю перероблено: вони отримали нову базову форму, "
+"кольорові значки та новий дизайн колірного кола для станів очікування"
 
 #: data/icons.metainfo.xml.in:135
 msgid ""
 "Use brighter colors for `edit-find` icons and add missing 16px `edit-find-"
 "replace`"
 msgstr ""
+"Використано яскравіші кольори для піктограм `edit-find` та додано відсутні "
+"піктограми `edit-find-replace` розміром 16 пікселів"
 
 #: data/icons.metainfo.xml.in:136
 msgid "Update the border radius of `preferences-desktop-locale`"
@@ -225,22 +245,25 @@ msgstr "Оновлення радіуса межі `preferences-desktop-locale`"
 #: data/icons.metainfo.xml.in:137
 msgid "`window-*` icons use more rounded arrow shapes"
 msgstr ""
+"У піктограмах `window-*` використовуються стрілки з округлішими контурами"
 
 #: data/icons.metainfo.xml.in:138
 msgid "`system-*-symbolic` icons are a more uniform size"
-msgstr ""
+msgstr "Піктограми `system-*-symbolic` стали однаковішого розміру"
 
 #: data/icons.metainfo.xml.in:139
 msgid "halign checkmark on 32px `process-completed`"
-msgstr ""
+msgstr "галочка halign при 32px `process-completed`"
 
 #: data/icons.metainfo.xml.in:140
 msgid "redesign `preferences-system` with higher contrast and more detail"
 msgstr ""
+"перероблено `preferences-system`, забезпечивши більший контраст і більшу "
+"деталізацію"
 
 #: data/icons.metainfo.xml.in:141
 msgid "clean up 128 drive-harddisk"
-msgstr ""
+msgstr "Очищення 128-гігабайтного жорсткого диска"
 
 #: data/icons.metainfo.xml.in:142
 msgid "Fix grid alignment of several `document-*` icons"
