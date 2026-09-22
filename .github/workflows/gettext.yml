@@ -5,24 +5,17 @@ on:
     branches: [main]
 
 jobs:
-  build:
-    runs-on: ubuntu-22.04
-    container:
-      image: ghcr.io/elementary/docker:next-unstable
+  gettext_template:
+    runs-on: ubuntu-latest
 
     steps:
-    - name: Install git
-      run: |
-        apt-get update
-        apt-get install git -y
-
     - name: Clone repository
       uses: actions/checkout@v7
       with:
         token: ${{ secrets.GIT_USER_TOKEN }}
 
     - name: Update Translation Files
-      uses: elementary/actions/gettext-template@next
+      uses: elementary/actions/gettext-template@main
       env:
         GIT_USER_TOKEN: ${{ secrets.GIT_USER_TOKEN }}
         GIT_USER_NAME: "elementaryBot"
