@@ -2,6 +2,8 @@ cursor_dir = join_paths(icon_dir, 'cursors')
 rsvg = find_program('rsvg-convert')
 xcursorgen = find_program('xcursorgen')
 
+variants = get_option('variants')
+
 cursors = [
     'alias',
     'all-scroll',
@@ -110,6 +112,40 @@ foreach size: sizes
                 'cursors_scalable' / 'wait' / wait_cursor + '.svg',
                 check: true,
             )
+    endforeach
+endforeach
+
+# Do it separately for the variants. We only need to do progress and wait
+# cursors as everything else will be symlinked
+foreach size : sizes
+    foreach variant : variants
+        run_command('mkdir', join_paths (meson.project_build_root(), 'cursors', size + 'x' + size, variant), check: false)
+
+        run_command('mkdir', join_paths (meson.project_build_root(), 'cursors', size + 'x' + size, variant, 'progress'), check: false)
+        foreach progress_cursor : progress_cursors
+            message('rendering: ' + size + 'x' + size + '/' + 'progress_' + variant + '/' + progress_cursor + '.png')
+
+            run_command(
+                rsvg, '--format', 'png',
+                '--width=@0@'.format(size), '--height=@0@'.format(size),
+                '--output', '@0@.png'.format(join_paths (meson.project_build_root(), 'cursors', size + 'x' + size, variant, 'progress', progress_cursor)),
+                'cursors_scalable' / '_variants' / variant / 'progress' / progress_cursor + '.svg',
+                check: true,
+            )
+        endforeach
+
+        run_command('mkdir', join_paths (meson.project_build_root(), 'cursors', size + 'x' + size, variant, 'wait'), check: false)
+        foreach wait_cursor : wait_cursors
+            message('rendering: ' + size + 'x' + size + '/' + 'wait_' + variant + '/' + wait_cursor + '.png')
+
+            run_command(
+                rsvg, '--format', 'png',
+                '--width=@0@'.format(size), '--height=@0@'.format(size),
+                '--output', '@0@.png'.format(join_paths (meson.project_build_root(), 'cursors', size + 'x' + size, variant, 'wait', wait_cursor)),
+                'cursors_scalable' / '_variants' / variant /'wait' / wait_cursor + '.svg',
+                check: true,
+            )
+        endforeach
     endforeach
 endforeach
 
@@ -340,6 +376,34 @@ foreach link_entry : links
             pointing_to: src,
         )
     endforeach
+endforeach
+
+foreach variant : variants
+    variant_dir = join_paths (get_option('prefix'), get_option('datadir'), 'icons', 'elementary_' + variant)
+
+    install_subdir(
+        join_paths ('cursors_scalable', '_variants', variant),
+        install_dir: join_paths (variant_dir, 'cursors_scalable'),
+        strip_directory: true
+    )
+
+    install_symlink(
+        'metadata.json',
+        install_dir: join_paths(variant_dir, 'cursors_scalable', 'wait'),
+        pointing_to: join_paths(get_option('prefix'), icon_dir, 'cursors_scalable', 'wait', 'metadata.json')
+    )
+
+    install_symlink(
+        'metadata.json',
+        install_dir: join_paths(variant_dir, 'cursors_scalable', 'progress'),
+        pointing_to: join_paths(get_option('prefix'), icon_dir, 'cursors_scalable', 'progress', 'metadata.json')
+    )
+
+    install_data(
+        'cursor.theme',
+        install_dir: variant_dir
+    )
+
 endforeach
 
 install_data(
