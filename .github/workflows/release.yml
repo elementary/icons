@@ -2,7 +2,7 @@ name: Release
 
 on:
   pull_request:
-    branches: [main]
+    branches: [8.x]
     types: [closed]
 jobs:
   release:
@@ -16,4 +16,4 @@ jobs:
          GIT_USER_NAME: "elementaryBot"
          GIT_USER_EMAIL: "builds@elementary.io"
        with:
-         release_branch: 'resolute'
+         release_branch: 'noble'
