@@ -1,0 +1,23 @@
+name: Release (8.x)
+
+on:
+  pull_request:
+    branches: ['8\.x']
+    types: [closed]
+jobs:
+  release:
+     runs-on: ubuntu-latest
+     if: github.event.pull_request.merged == true && true == contains(join(github.event.pull_request.labels.*.name), 'Release')
+     steps:
+     - uses: actions/checkout@v7
+     # TODO: Use main branch
+     #- uses: elementary/actions/release@main
+     - uses: elementary/actions/release@ryonakano/support-older-release
+       env:
+         GIT_USER_TOKEN: "${{ secrets.GIT_USER_TOKEN }}"
+         GIT_USER_NAME: "elementaryBot"
+         GIT_USER_EMAIL: "builds@elementary.io"
+       with:
+         release_branch: 'noble'
+         packaging_branch: 'deb-packaging-8.x'
+         base_branch: '8.x'
