@@ -21,7 +21,6 @@ directories = [
     ['categories', 'Categories'],
     ['devices', 'Devices'],
     ['emblems', 'Emblems'],
-    ['emotes', 'Emotes'],
     ['mimes', 'MimeTypes'],
     ['places', 'Places'],
     ['status', 'Status']
