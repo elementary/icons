@@ -21,6 +21,14 @@ jobs:
 
     steps:
     - uses: actions/checkout@v7
+    - name: Check for broken symlinks
+      run: |
+        broken=$(find . -path ./.git -prune -o -xtype l -print)
+        if [ -n "$broken" ]; then
+          echo "Broken symlinks:"
+          echo "$broken"
+          exit 1
+        fi
     - name: Install Dependencies
       run: |
         apt update
