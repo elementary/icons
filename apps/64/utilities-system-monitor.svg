@@ -87,16 +87,6 @@
          style="stop-color:#1b3545;stop-opacity:1"
          offset="1" />
     </linearGradient>
-    <radialGradient
-       gradientTransform="matrix(2.003784,0,0,1.4,27.98813,-17.4)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient3688-166-749-654"
-       id="radialGradient2873-966-168-714"
-       fy="43.5"
-       fx="4.9929786"
-       r="2.5"
-       cy="43.5"
-       cx="4.9929786" />
     <linearGradient
        id="linearGradient3688-166-749-654">
       <stop
@@ -108,35 +98,6 @@
          style="stop-color:#181818;stop-opacity:0"
          id="stop3090" />
     </linearGradient>
-    <radialGradient
-       gradientTransform="matrix(2.003784,0,0,1.4,-20.01187,-104.4)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient3688-464-309-604"
-       id="radialGradient2875-742-326-419"
-       fy="43.5"
-       fx="4.9929786"
-       r="2.5"
-       cy="43.5"
-       cx="4.9929786" />
-    <linearGradient
-       id="linearGradient3688-464-309-604">
-      <stop
-         offset="0"
-         style="stop-color:#181818;stop-opacity:1"
-         id="stop3094" />
-      <stop
-         offset="1"
-         style="stop-color:#181818;stop-opacity:0"
-         id="stop3096" />
-    </linearGradient>
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient3702-501-757-795"
-       id="linearGradient2877-634-617-908"
-       y2="39.999443"
-       x2="25.058096"
-       y1="47.027729"
-       x1="25.058096" />
     <linearGradient
        id="linearGradient3702-501-757-795">
       <stop
@@ -169,6 +130,35 @@
        x2="29"
        y2="53.17992"
        gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       cx="4.9929786"
+       cy="43.5"
+       r="2.5"
+       fx="4.9929786"
+       fy="43.5"
+       id="radialGradient3337-2-2"
+       xlink:href="#linearGradient3688-166-749-654"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.4045407,0,0,0.99999998,41.985755,15.500001)" />
+    <radialGradient
+       cx="4.9929786"
+       cy="43.5"
+       r="2.5"
+       fx="4.9929786"
+       fy="43.5"
+       id="radialGradient3339-1-4"
+       xlink:href="#linearGradient3688-166-749-654"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.4045407,0,0,0.99999998,-22.014244,-102.5)" />
+    <linearGradient
+       x1="25.058096"
+       y1="47.027729"
+       x2="25.058096"
+       y2="39.999443"
+       id="linearGradient6394"
+       xlink:href="#linearGradient3702-501-757-795"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5714286,0,0,0.7142857,-5.7142853,27.928572)" />
   </defs>
   <metadata
      id="metadata4337">
@@ -183,41 +173,39 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="matrix(1.5789502,0,0,0.7142857,-5.8947511,28.428574)"
-     id="g3712"
-     style="opacity:0.5">
+     id="g866">
     <rect
-       width="5"
-       height="7"
-       x="38"
-       y="40"
-       id="rect2801"
-       style="fill:url(#radialGradient2873-966-168-714);fill-opacity:1;stroke:none" />
+       style="opacity:0.6;fill:url(#radialGradient3337-2-2);fill-opacity:1;stroke:none;stroke-width:1.06199"
+       id="rect2801-5-5-7-9"
+       y="56.5"
+       x="54"
+       height="5"
+       width="6" />
     <rect
-       width="5"
-       height="7"
+       style="opacity:0.6;fill:url(#radialGradient3339-1-4);fill-opacity:1;stroke:none;stroke-width:1.06199"
+       id="rect3696-3-0-3-7"
+       transform="scale(-1)"
+       y="-61.5"
        x="-10"
-       y="-47"
-       transform="scale(-1,-1)"
-       id="rect3696"
-       style="fill:url(#radialGradient2875-742-326-419);fill-opacity:1;stroke:none" />
+       height="5"
+       width="6" />
     <rect
-       width="28"
-       height="7.0000005"
+       style="opacity:0.6;fill:url(#linearGradient6394);fill-opacity:1;stroke:none;stroke-width:1.06199"
+       id="rect3700-5-6-8-4"
+       y="56.5"
        x="10"
-       y="40"
-       id="rect3700"
-       style="fill:url(#linearGradient2877-634-617-908);fill-opacity:1;stroke:none" />
+       height="5.0000005"
+       width="44" />
   </g>
   <rect
      width="55"
      height="55"
-     rx="3"
-     ry="3"
+     rx="6"
+     ry="6"
      x="4.5"
      y="4.5"
      id="rect5505-21-3-8-5-2-9"
-     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient4147);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;enable-background:accumulate" />
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient4147);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
   <path
      style="fill:url(#linearGradient4324);fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
      d="M 28.158203 15.992188 C 27.332839 15.992188 27.969174 31.857686 25.984375 38.566406 C 25.984375 36.201392 23 35.863281 23 35.863281 C 19.486778 35.863281 18.857422 32.111328 18.857422 32.111328 C 18.857422 36.60386 16.025391 36.554687 16.025391 36.554688 L 4.5 36.554688 L 4.5 56.5 C 4.5 58.162 5.838 59.5 7.5 59.5 L 56.5 59.5 C 58.162 59.5 59.5 58.162 59.5 56.5 L 59.5 36.742188 C 57.740276 36.742188 56.152344 35.117188 56.152344 35.117188 C 55.117212 34.085938 54.756164 33.304688 53.841797 33.304688 C 52.927431 33.304688 52.632813 34.429688 52.632812 34.429688 C 52.632812 34.429688 52.107542 36.476562 50.304688 36.476562 C 48.501832 36.476562 47.492187 33.648438 47.492188 33.648438 C 47.492188 33.648438 46.258249 30.539062 44.058594 30.539062 C 41.858938 30.539062 40.591797 33.679688 40.591797 33.679688 C 39.660179 37.710938 34.65625 36.179688 34.65625 36.179688 C 31.550855 35.867188 31.824612 39.255178 30.792969 42.742188 C 29.102253 28.898438 28.983567 15.992188 28.158203 15.992188 z "
@@ -235,8 +223,8 @@
      id="rect5505-21-9"
      y="4.5"
      x="4.5"
-     ry="3"
-     rx="3"
+     ry="6"
+     rx="6"
      height="55"
      width="55" />
   <rect
@@ -244,8 +232,8 @@
      id="rect6741"
      y="5.428761"
      x="5.5"
-     ry="2"
-     rx="2"
+     ry="5"
+     rx="5"
      height="53.142479"
      width="53" />
 </svg>
